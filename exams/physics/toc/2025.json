@@ -1,0 +1,379 @@
+{
+    "questions": [
+        {
+            "q": "Given the following relation for the power of a certain process. Power has the dimensions $(ML^{2}T^{-3})$. If <br><div style=\"text-align: center\">$$P = \\frac{x^{2}-b}{a t}$$</div><br>Find the dimesional analysis of $\\frac{b}{a}$ where $x$ is the distance and $t$ is time",
+            "options": [
+                "$kg \\cdot m^2/s^2$",
+                "$kg \\cdot m/s^2$",
+                "$m/s^2$",
+                "$m/s$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which of the following describes Newton's First Law? <br>$i$&nbsp;A block with frictionless sides on a slick, frictionless back of a truck that moves at acceleration $5 m/s$.<br>$ii$&nbsp;A car moving up an inclined plane $3^{\\circ}$ on a rough surface with a constant speed of $20 km/h$.<br>$iii$&nbsp;A ball thrown upward 0.05 meters in the air.<br>$iv$&nbsp;An eagle circling about a point with a constant velocity of $5 km/h$",
+            "options": [
+                "$i$&nbsp;only",
+                "$iii$,&nbsp;$iv$",
+                "$i$,&nbsp;$ii$,&nbsp;$iii$",
+                "$ii$&nbsp;only"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Four objects moving in a circular path where $v$ is the tangential velocity, and $r$ is the radius of the circle. Which one has the smallest centripetal acceleration?",
+            "options": [
+                "A $v = 1.5v,    r = 2r$",
+                "A $v = v,    r = r$",
+                "A $v = 1.5v,    r = 1.8r$",
+                "A $v = 1.5v,    r = 0.5r$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A copper rod of cross-sectional area of $5 \\times 10^{-3} \\text{cm}^2$. The rod has been elongated $2 \\times 10^{-2} mm$, and its length is $1m$. Another steel rod of the same area and its length is $0.1 m$ has been elongated by $2 \\times 10^{-3} mm$. If Young's Modulus of steel is larger than that of copper, then:",
+            "image": "exams/physics/toc/images/2025_q4.png",
+            "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "An object of spring constant $k$ is exposed to a load of 60 Newtons and elongated by $x$. If the same load is applied to another object of the same material, which has half the radius and a quarter of the length, then the elongation of the object is: <br><div style=\"text-align: center\">(Assume Hooke's law applies.)</div>",
+            "options": [
+                "$2x$",
+                "$x$",
+                "$\\frac{x}{2}$",
+                "$\\frac{x}{8}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Four beakers of water of different masses and temperatures. If we heated the four water beakers to the same temperature. Arrange the amount of needed thermal energy from highest to lowest:.",
+            "image": "exams/physics/toc/images/2025_q6.png",
+            "options": [
+                "Beaker $z >$ Beaker $y >$ Beaker $w >$ Beaker $x$",
+                "Beaker $x >$ Beaker $w >$ Beaker $y >$ Beaker $z$",
+                "Beaker $y >$ Beaker $x >$ Beaker $z >$ Beaker $w$",
+                "Beaker $y >$ Beaker $x >$ Beaker $w >$ Beaker $z$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In the thermally insulated system, what happens to the temperature given the PV diagram?",
+            "image": "exams/physics/toc/images/2025_q7.png",
+            "options": [
+                "Temperature increases",
+                "Temperature decreases",
+                "Temperature increases then decreases",
+                "Temperature remains constant."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "For the following figure, find the magnitude and the direction of the magnetic field at point P",
+            "image": "exams/physics/toc/images/2025_q8.png",
+            "options": [
+                "$\\frac{15 \\mu}{8\\pi d}$, out of the page",
+                "$\\frac{17 \\mu}{d}$, into the page",
+                "$\\frac{15 \\mu}{8 \\pi d}$, into the page",
+                "$\\frac{17 \\mu}{d}$, out of the page"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A Negative charge is moving to the south while a magnetic field is perpendicular and going into the page. What is the direction of the magnetic force on that charge?",
+            "options": [
+                "South",
+                "East",
+                "North",
+                "West"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which of the following 4 figures satisfy Lenz’s Law?",
+            "images": [
+                "exams/physics/toc/images/2025_q10_1.png",
+                "exams/physics/toc/images/2025_q10_2.png",
+                "exams/physics/toc/images/2025_q10_3.png",
+                "exams/physics/toc/images/2025_q10_4.png"
+            ],
+            "options": [
+                "Figure (1) and Figure (2)",
+                "Figure (2) and Figure (3)",
+                "Figure (3) and Figure (4)",
+                "Figure (1) and Figure (4)"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A power supply is connected to a loop, loop 1. Another loop, loop 2, is close to loop 1 (close enough so that it can induce a voltage from loop 1) and is connected to a voltmeter. A graph of the current $i$&nbsp;through loop 1 as a function of time $t$ is measured and shown in the figure below. Which of the following graphs best describes the induced potential difference $V_{ind}$ in loop 2: ...",
+            "image": "exams/physics/toc/images/2025_q11.png",
+            "options": [
+                "A <img src='exams/physics/toc/images/2025_q11_a.png' alt='Graph A'/>",
+                "B <img src='exams/physics/toc/images/2025_q11_b.png' alt='Graph B'/>",
+                "C <img src='exams/physics/toc/images/2025_q11_c.png' alt='Graph C'/>",
+                "D <img src='exams/physics/toc/images/2025_q11_d.png' alt='Graph D'/>"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "An AC source is connected to a resistive circuit. Which of the following graphs represents the current and voltage consumed by the resistance:",
+            "image": "exams/physics/toc/images/2025_q12.png",
+            "options": [
+                "A <img src='exams/physics/toc/images/2025_q12_a.png' alt='Graph A'/>",
+                "B <img src='exams/physics/toc/images/2025_q12_b.png' alt='Graph B'/>",
+                "C <img src='exams/physics/toc/images/2025_q12_c.png' alt='Graph C'/>",
+                "D <img src='exams/physics/toc/images/2025_q12_d.png' alt='Graph D'/>"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "An RLC circuit has a resonant frequency of $f_1$, which of the following will increase its resonant frequency by $2f_1$: ",
+            "options": [
+                "Decreasing capacitance to $\\frac{1}{2}$ of its original value",
+                "Increasing inductance to 2 times its original value",
+                "Decreasing capacitance to $\\frac{1}{4}$ of its original value",
+                "Decreasing capacitance to $\\frac{1}{9}$ of its original value"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A sample pure silicon is doped has a concentration $2.5 \\times 10^{15}$ atoms/$\\text{cm}^3$ of holes and free electrons respectively at $T=400 K$. If the sample is doped with a trivalent material by $7.5 \\times 10^{20}$ atoms/$\\text{cm}^3$, then what is the type of the material?",
+            "options": [
+                "N-Type with carrier concentration of $2.5 \\times 10^{10}$ atoms/$\\text{cm}^3$",
+                "P-Type with carrier concentration of $8.33 \\times 10^{9}$ atoms/$\\text{cm}^3$",
+                "N-Type with carrier concentration of $8.33 \\times 10^{9}$ atoms/$\\text{cm}^3$",
+                "P-Type with carrier concentration of $2.5 \\times 10^{10}$ atoms/$\\text{cm}^3$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which of the following circuits shows the correct connection of a PNP transistor that is used as a closed switch?",
+            "options": [
+                "A <img src='exams/physics/toc/images/2025_q15_a.png' alt='Graph A'/>",
+                "B <img src='exams/physics/toc/images/2025_q15_b.png' alt='Graph B'/>",
+                "C <img src='exams/physics/toc/images/2025_q15_c.png' alt='Graph C'/>",
+                "D <img src='exams/physics/toc/images/2025_q15_d.png' alt='Graph D'/>"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A string of a certain linear density, and it is under tension, vibrates transversely. Which of the following relates the velocity of the string $v$ and $\\sqrt{\\frac{1}{\\rho}}$ if the cross-sectional area and the length of the string stay constant? (changing the material itself)?",
+            "options": [
+                "A <img src='exams/physics/toc/images/2025_q16_a.png' alt='Graph A'/>",
+                "B <img src='exams/physics/toc/images/2025_q16_b.png' alt='Graph B'/>",
+                "C <img src='exams/physics/toc/images/2025_q16_c.png' alt='Graph C'/>",
+                "D <img src='exams/physics/toc/images/2025_q16_d.png' alt='Graph D'/>"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "For the wave equation $y(x, t) = A \\sin(kx \\pm \\omega t + \\phi)$, if the amplitude doubles, what happens to the time period and max speed?",
+            "options": [
+                "Time Period doubles, Max Speed remains the same",
+                "Time Period remains the same, Max Speed doubles",
+                "Time Period doubles, Max Speed halves",
+                "Time Period halves, Max Speed doubles"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A simple pendulum is vibrating in time period $T$, where the gravitational force is $g$ and its length is $L$. If the pendulum is moved to another planet, where its gravitational force is $0.9g$ and its length is cut to $0.4L$, what's the new time period?",
+            "options": [
+                "$T$",
+                "$\\frac{2}{3}T$",
+                "$\\frac{3}{2}T$",
+                "$1.5T$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "An object is between the pole and the focus of a concave mirror. Which of the following is true? <br> i. The image is virtual and erect <br> ii. The image is real and inverted <br> iii. Both the image distance and the object distance are positive <br> iv. Both the image distance and the object distance are negative",
+            "options": [
+                "i only",
+                "ii only",
+                "i and iii only",
+                "ii and iv only"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A convex mirror of radius of curvature of $1.6$ m is placed to the right of a body that is $1$ meter away from it. What is the distance between the image and the mirror?",
+            "options": [
+                "$\\frac{1}{4}$ meters behind the mirror",
+                "$\\frac{1}{4}$ meters in front of the mirror",
+                "$\\frac{4}{9}$ meters behind the mirror",
+                "$\\frac{4}{9}$ meters in front of the mirror"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The service area of space wave communication increases by:",
+            "options": [
+                "Increasing the height of the transmitting antenna.",
+                "Decreasing the height of the receiving antenna.",
+                "Increasing the height of both transmitting and receiving antenna.",
+                "Decreasing the distance between transmitting and receiving antenna."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Modulation is used to: <br> i. Reduce the bandwidth used <br> ii. Separate the transmission signals for different users <br> iii. Allow signals to be transmitted for long distances <br> iv. Allow the use of practical antennas",
+            "options": [
+                "i and ii only",
+                "i and iv only",
+                "ii, iii, and iv only",
+                "i and iv only"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "For the following refraction diagram, which of the following is true.",
+            "image": "exams/physics/toc/images/2025_q23.png",
+            "options": [
+                "$n_z > n_y > n_x$",
+                "$n_x > n_y > n_z$",
+                "$n_y > n_z > n_x$",
+                "$n_y > n_x > n_z$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": " In a diffraction grating done with monochromatic light, and a coherent light source, what happens after you increase the number of slits per meter?",
+            "image": "exams/physics/toc/images/2025_q24.png",
+            "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "An electromagnetic wave is traveling along the $z–$axis. Which of the following is correct?",
+            "options": [
+                "The Electric vector component is along the $x–$axis and the Magnetic vector component is along the $y–$axis",
+                "The Electric vector component is along the $x–$axis and the Magnetic vector component is along the $z–$axis",
+                "The Electric vector component is along the $y–$axis and the Magnetic vector component is along the $z–$axis",
+                "Both the Electric vector component and the Magnetic vector component are along the $z–$axis"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which property of light shows it is a transverse wave?",
+            "options": [
+                "Reflection",
+                "Interference",
+                "Diffraction",
+                "Polarization"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A student performs an experiment similar to Young’s Double Slit Experiment. Coherent light passes through two narrow slits and produces a pattern of alternating bright and dark lines on a screen. Which of the following would cause the bright lines on the screen to be further apart? <br>$i$.&nbsp;Increasing the distance between the slits <br>$ii$.&nbsp;Decreasing the distance between the slits <br>$iii$.&nbsp;Decreasing the wavelength of light",
+            "options": [
+                "$i$&nbsp;only",
+                "$ii$&nbsp;only",
+                "$iii$&nbsp;only",
+                "$i$&nbsp;and&nbsp;$iii$&nbsp;only"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "In the following diagram the dashed lines represent the troughs of the wave whilethe fully stroked ones represent the crests of a wave, Which of the following points represents the condition for maximum destructive interference?",
+            "image": "exams/physics/toc/images/2025_q28.png",
+            "options": [
+                "$x$",
+                "$y$",
+                "$z$",
+                "$w$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "An electron has a De Broglie wavelength of $\\lambda_1$. What is its wavelength if the kinetic energy of the electron increases to 3 times its initial kinetic energy?",
+            "options": [
+                "$\\frac{1}{\\sqrt{3}}\\lambda_1$",
+                "$\\frac{1}{3} \\lambda_1$",
+                "$\\sqrt{3} \\lambda_1$",
+                "$3 \\lambda_1$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A photon $x$ has a wavelength of 2500$Å$ while another photon $y$ has a wavelength of 10000$Å$. Which of the following represents the ratios of their momenta? <br><div style=\"text-align: center\"> $\\frac{\\text{The momentum of the photon } x}{\\text{The momentum of the photon } y} = \\frac{p_{LX}}{p_{LY}} = \\dots$</div>",
+            "options": [
+                "(a) 4",
+                "(b) 2",
+                "(c) $\\frac{1}{2}$",
+                "(d) $\\frac{1}{4}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The figures represent the relationship between the radiation intensity and frequency of a hot object at different temperatures where $T_x > T_y > T_z$. Which of the following figures is accurate?",
+            "options": [
+                "A <img src='exams/physics/toc/images/2025_q31_a.png' alt='Graph A'/>",
+                "B <img src='exams/physics/toc/images/2025_q31_b.png' alt='Graph B'/>",
+                "C <img src='exams/physics/toc/images/2025_q31_c.png' alt='Graph C'/>",
+                "D <img src='exams/physics/toc/images/2025_q31_d.png' alt='Graph D'/>"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A certain metal has a threshold frequency $\\nu_c$. If a ray of light of frequency $3\\nu_c$ strikes it, ejecting electrons with a kinetic energy of $k_1$, and then a ray of light of frequency $5\\nu_c$ strikes it ejecting electrons with a kinetic energy of $k_2$, what is the ratio $\\frac{k_1}{k_2}$?",
+            "options": [
+                "3",
+                "$\\frac{1}{2}$",
+                "2",
+                "$\\frac{1}{4}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which of the following is correct about the electron band in a solid?",
+            "options": [
+                "all electron energy levels are equal",
+                "all electron energy levels are different",
+                "It is a direct consequence of Fermi-Dirac Statistics",
+                "It is a direct consequence of the Pauli Exclusion Principle"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The Weiss indices for a plane are $(2, 4, 3)$. What are its Miller indices?",
+            "options": [
+                "$(3, 1, 2)$",
+                "$(1, 2, 3)$",
+                "$(6, 3, 4)$",
+                "$(3, 2, 1)$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "What is the Fermi energy level?",
+            "options": [
+                "It is the energy level at the excited state",
+                "It is the energy level above the excited state",
+                "It is the energy level below the ground state",
+                "It is the energy level between the excited and ground states"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which of the following is correct about decreasing the size of a nanomaterial? <br>$i$. They have greater surface area than their bulk counterpart. <br>$ii$. They have a high surface area to volume ratio. <br>$iii$. They have a lower proportion of surface atoms than inner atoms in each particle. <br>$iv$. They are more chemically reactive/active.",
+            "options": [
+                "$i$&nbsp;and&nbsp;$iv$&nbsp;only",
+                "$ii$,&nbsp;$iii$,&nbsp;and&nbsp;$iv$&nbsp;only",
+                "$i$,&nbsp;$ii$,&nbsp;and&nbsp;$iv$&nbsp;only",
+                "$i$&nbsp;and&nbsp;$ii$&nbsp;only"
+            ],
+            "correct": 2
+        }
+    ]
+}

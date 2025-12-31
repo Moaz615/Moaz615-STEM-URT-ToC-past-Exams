@@ -1,0 +1,378 @@
+{
+    "passage": "",
+    "questions": [
+        {
+            "q": "Suppose $A=BC$, where A has the dimension M/L and C has the dimension L/T. Then B has the unit:",
+            "options": [
+                "$kg \\cdot sec/m^{2}$",
+                "$m^{2}/sec \\cdot kg$",
+                "$sec \\cdot kg/m^{2}$",
+                "$m^{2}/sec \\cdot kg$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If the Sun were suddenly replaced by a black hole of the same mass, it would have a radius of 3,000 m. What effect, if any, would this change have on the orbits of the planets?",
+            "options": [
+                "The planets would move directly toward the Sun.",
+                "The planets would move in spiral orbits.",
+                "The planets would oscillate about their former elliptical orbits.",
+                "The orbits would remain unchanged."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "When an ideal gas in a cylinder is compressed at constant temperature by a piston, the pressure of the gas increases. Consider the following three statements: I. The rate at which the molecules collide with the piston increases. II. The average speed of the molecules increases. III. The internal energy of the gas increases. Which statement(s) correctly explain the increase in pressure?",
+            "options": [
+                "I only",
+                "II only",
+                "I and II only",
+                "I and III only"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A 290 N force is used to compress a spring. The spring constant of the spring is 5880 N/m. How far is the spring compressed?",
+            "options": [
+                "0.0050 m",
+                "0.0493 m",
+                "0.310 m",
+                "20.275 m"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which is a safer situation, to sit or stand up in a small boat?",
+            "image": "exams/physics/toc/images/2019_q5.png",
+            "options": [
+                "The high center of gravity of the standing people makes it all too easy to tip the boat over.",
+                "The low center of gravity of the standing people makes it all too easy to tip the boat over.",
+                "The high center of gravity of the people if sitting makes it all too easy to tip the boat over.",
+                "The low center of gravity of the people if sitting makes it all too easy to tip the boat over."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A spring of force constant k is stretched a certain distance. It takes twice as much work to stretch a second spring by half this distance. The force constant of the second spring is:",
+            "options": [
+                "k",
+                "2k",
+                "4k",
+                "8k"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A layer of oil with density $800~kg/m^{3}$ floats on top of a volume of water with density $1000~kg/m^{3}$. A block floats at the oil-water interface with $\\frac{1}{4}$ of its volume in oil and $\\frac{3}{4}$ of its volume in water. What is the density of the block?",
+            "image": "exams/physics/toc/images/2019_q7.png",
+            "options": [
+                "$200~kg/m^{3}$",
+                "$850~kg/m^{3}$",
+                "$950~kg/m^{3}$",
+                "$1050~kg/m^{3}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The diagram below represents energy transfers in an engine. The efficiency of the engine is given by the expression:",
+            "image": "exams/physics/toc/images/2019_q8.png",
+            "options": [
+                "$E_{W}/E_{IN}$",
+                "$E_{OUT}/E_{IN}$",
+                "$E_{W}/E_{OUT}$",
+                "$E_{OUT}/E_{W}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "You have French fries that you would like to keep hot and a block of ice you want to keep cold. You have foam dinner boxes and some aluminum foil. What combination of materials would work best?",
+            "options": [
+                "Aluminum foil is wrapped around the ice and French fries are kept in a foam dinner box.",
+                "Ice is kept in a foam dinner box and aluminum foil is wrapped around the French fries.",
+                "Each is kept in a foam dinner box.",
+                "Aluminum foil is wrapped around each."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Radio receivers are usually tuned by adjusting the capacitor of an LC circuit. If $C=C_{1}$ for a frequency of 600 kHz, then for a frequency of 1200 kHz one must adjust C to:",
+            "options": [
+                "$\\frac{1}{4}C_{1}$",
+                "$\\frac{1}{2}C_{1}$",
+                "$2C_{1}$",
+                "$4C_{1}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Two stationary positive charges and two negative charge are situated at points H, R, G and E as indicated in the figure. Each of the charges is of the same magnitude (+1 or -1 C). Which of the arrows is in the direction of the net electrostatic force on charge H?",
+            "image": "exams/physics/toc/images/2019_q11.png",
+            "options": [
+                "Direction A <img src='exams/physics/toc/images/2019_q11_a.png'>",
+                "Direction B <img src='exams/physics/toc/images/2019_q11_b.png'>",
+                "Direction C <img src='exams/physics/toc/images/2019_q11_c.png'>",
+                "Direction D <img src='exams/physics/toc/images/2019_q11_d.png'>"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A resistor in a circuit dissipates energy at a rate of 1 W. If the voltage across the resistor is doubled, what will be the new rate of energy dissipation?",
+            "options": [
+                "0.25 W",
+                "0.5 W",
+                "2 W",
+                "4 W"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A long wire carries a steady current. It is bent into a circle of one turn and the magnetic field at the center of the coil is B. It is then bent into a circular loop of (N) turns. What will be the magnitude of magnetic field at the center of the coil?",
+            "options": [
+                "NB",
+                "$N^{2}B$",
+                "2NB",
+                "$2N^{2}B$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "In the circuits below, the cells each have the same emf and zero internal resistance. All the resistors have the same resistance. Which of the following gives the current through the cells in order of increasing magnitude?",
+            "image": "exams/physics/toc/images/2019_q14.png",
+            "options": [
+                "Circuit Y → Circuit Z → Circuit X",
+                "Circuit X → Circuit Y → Circuit Z",
+                "Circuit Z → Circuit Y → Circuit X",
+                "Circuit X → Circuit Z → Circuit Y"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "An infinitely long, straight wire carrying current $I_{1}$ passes through the center of a circular loop of wire carrying current $I_{2}$. The long wire is perpendicular to the plane of the loop. Which describes the magnetic force on the wire?",
+            "image": "exams/physics/toc/images/2019_q15.png",
+            "options": [
+                "Outwards.",
+                "Upwards",
+                "Downwards.",
+                "There is no magnetic force on the wire."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Two conducting wires, $R_{1}$ and $R_{2}$, are made of two different materials, the first with a resistivity of $p_{1}$, the second with resistivity $\\rho_{2}=\\frac{1}{2}\\rho_{1}$. Which of the following pairs of cylindrical wires will have equal resistances?",
+            "options": [
+                "A <img src='exams/physics/toc/images/2019_q16_a.png' alt='Wire pair A'/>",
+                "B <img src='exams/physics/toc/images/2019_q16_b.png' alt='Wire pair B'/>",
+                "C <img src='exams/physics/toc/images/2019_q16_c.png' alt='Wire pair C'/>",
+                "D <img src='exams/physics/toc/images/2019_q16_d.png' alt='Wire pair D'/>"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The bar magnet shown in the figure is moved completely through the loop. Which of the following is a true statement about the direction of current flow between points Y and Z?",
+            "image": "exams/physics/toc/images/2019_q17.png",
+            "options": [
+                "Current flows from Y to Z as the magnet passes through the loop.",
+                "Current flows from Z to Y as the magnet passes through the loop.",
+                "Current flows from Y to Z as it enters and from Z to Y as it leaves.",
+                "Current flows from Z to Y as it enters and from Y to Z as it leaves."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The graph represents the AC voltage generated by an electric generator. When the angular velocity of its coil doubles, which graph describes the new voltage?",
+            "image": "exams/physics/toc/images/2019_q18.png",
+            "options": [
+                "A <img src='exams/physics/toc/images/2019_q18_a.png' alt='Graph A'/>",
+                "B <img src='exams/physics/toc/images/2019_q18_b.png' alt='Graph B'/>",
+                "C <img src='exams/physics/toc/images/2019_q18_c.png' alt='Graph C'/>",
+                "D <img src='exams/physics/toc/images/2019_q18_d.png' alt='Graph D'/>"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A light ray in air enters and passes through a block of glass. What can be stated with regard to its speed after it emerges from the block?",
+            "options": [
+                "speed is less than when in glass",
+                "speed is same as that in glass",
+                "speed is same as that before it entered glass",
+                "speed is less than before it entered glass"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A convex mirror has focal length (f). An object of length (L) is placed at a distance (2f) from the vertex of the mirror. The image created by the mirror is of length:",
+            "options": [
+                "(L) and inverted",
+                "(L) and upright",
+                "Less than (L) and upright.",
+                "Greater than (L) and inverted."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A camera with a lens of focal length 6.0 cm takes a picture of a 1.4 m tall man standing 11 m away. The height of the image is about:",
+            "options": [
+                "0.39 cm",
+                "0.77 cm",
+                "1.5 cm",
+                "3.0 cm"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The de Broglie wavelength of a particle that has kinetic energy $E_{k}$ is λ. The wavelength is proportional to:",
+            "options": [
+                "$\\frac{1}{\\sqrt{E_{k}}}$",
+                "$\\frac{1}{E_{k}}$",
+                "$E_{k}$",
+                "${E_{k}}^{2}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The diagram shows a standing wave emitting a fundamental tone. If the wave velocity doubles and frequency quadruples, what changes to L and M were made?",
+            "image": "exams/physics/toc/images/2019_q23.png",
+            "options": [
+                "M increased to 4M, L kept unchanged",
+                "M increased to 2M, L increased to 2L",
+                "M increased to 2M, L decreased to 1/2L",
+                "M increased to 4M, L decreased to 1/2L"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A mass, attached to a spring, executes Simple Harmonic Motion. At the exact moment the mass moves through its equilibrium position Q, which quantity of the mass is at its maximum?",
+            "image": "exams/physics/toc/images/2019_q24.png",
+            "options": [
+                "Restoring force",
+                "Potential energy",
+                "Displacement",
+                "Momentum"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "True statements about absorption and emission include: I. Atom absorbs only specific energies. II. Atom emits photons of any energy. III. At low temp, absorption lines coincide with emission lines representing ground state transitions.",
+            "options": [
+                "I only",
+                "III only",
+                "I and III only",
+                "I, II, and III"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Based on the energy levels in the hydrogen atom, which transition would release the longest wavelength?",
+            "image": "exams/physics/toc/images/2019_q26.png",
+            "options": [
+                "from n = 2 to n = 1",
+                "from n = 3 to n = 1",
+                "from n = 5 to n = 3",
+                "from n = 3 to n = 2"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Carbon nanotubes (CNTs) are characterized by all the following properties, except:",
+            "options": [
+                "high strength and high stiffness",
+                "have a high surface-to-volume ratio",
+                "high electric conductivity",
+                "chemically active"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A meter stick with a speed of 0.8c moves past an observer. In the observer’s reference frame, how long does it take the stick to pass the observer?",
+            "options": [
+                "1.6 ns",
+                "2.5 ns",
+                "4.2 ns",
+                "6.9 ns"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A photon of energy E is directed at a metal (work function Y). Electrons of max KE = Y eject. If 2E is directed at the same metal, max KE is:",
+            "options": [
+                "Y Joules",
+                "2Y Joules",
+                "3Y Joules",
+                "4 Y Joules"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Sky wave signals may be received from a distant station at one time but not an hour later. This may be due to:",
+            "options": [
+                "Shading of the earth by clouds.",
+                "Changes in the ionosphere layer.",
+                "Changes in atmospheric temperature.",
+                "Absorption of the ground wave signal."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "When a blackbody is 3927ºC, $\\lambda_{max} = 7000$ Å. If the temperature is raised by 1000ºC, the new $\\lambda_{max}$ is nearly:",
+            "options": [
+                "3650 Å",
+                "4650 Å",
+                "5650 Å",
+                "6000 Å"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In amplitude modulation:",
+            "options": [
+                "Carrier amplitude varies with modulating signal amplitude.",
+                "Carrier amplitude remains constant",
+                "Carrier amplitude varies with modulating signal frequency",
+                "Modulating frequency lies in the audio range"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "To eject electrons from a metal where green light failed, she should:",
+            "options": [
+                "shine red laser on the metal.",
+                "elongate the interval of shining green light.",
+                "increase the intensity of green light.",
+                "shine invisible ultraviolet radiation."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The curve shows superconducting resistivity changing with temperature. At temperatures higher than Tc, this element:",
+            "image": "exams/physics/toc/images/2019_q34.png",
+            "options": [
+                "Displays perfect diamagnetism.",
+                "Magnetic fields cannot penetrate it.",
+                "Allows magnetic fields to flow through it.",
+                "Electrons set up eddy currents to counter magnetic fields."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In a Young's double-slit experiment, the slit separation is doubled. To maintain the same fringe spacing, the screen distance D must be:",
+            "options": [
+                "1/4 D",
+                "1/2 D",
+                "2 D",
+                "4 D"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The figure shows an idealized submarine periscope with parallel mirrors Y and Z. A dolphin is at distance X from the top mirror. The distance between the image and mirror Z is:",
+            "image": "exams/physics/toc/images/2019_q36.png",
+            "options": [
+                "X",
+                "X + L",
+                "X – L",
+                "2 X – L"
+            ],
+            "correct": 1
+        }
+    ]
+}

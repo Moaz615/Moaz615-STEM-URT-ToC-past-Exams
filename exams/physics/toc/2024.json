@@ -1,0 +1,371 @@
+{
+  "passage": "",
+  "questions": [
+    {
+      "q": "A student measured a block with real mass (5 g) and listed them in a table: 8.32g, 8.35g, 8.32g, and 8.29g. His measurements have:",
+      "options": [
+        "High accuracy, high precision",
+        "High accuracy, low precision",
+        "Low accuracy, high precision",
+        "Low accuracy, low precision"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "The graph shows an object's displacement z with respect to time t in dynamic equilibrium. The answer is:",
+      "image": "exams/physics/toc/images/2024_q2.png",
+      "options": [
+        "$x$",
+        "$x^{2}$",
+        "$\\sqrt{x}$",
+        "$\\log(x)+2$"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Arrange the centripetal force for each of the four systems from greatest to smallest: <br>a: $2R$ and $2/3v$, <br>b: $R$ and $3/4v$, <br>c: $R$ and $5/4v$, <br>d: $4R$ and $4/3v$",
+      "options": [
+        "$a > d > c > b$",
+        "$c > d > a > b$",
+        "$c > a > d > b$",
+        "$b > c > d > a$"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "An ideal spring, with a pointer attached to its end, hangs next to a scale. With a $100 N$ weight attached and in equilibrium, the pointer indicates 40 on the scale as shown. Using a $500 N$ weight instead results in 60 on the scale. Using an unknown weight $X$ instead results in 50 on the scale. The value of $X$ is:",
+      "options": [
+        "$300 N$",
+        "$350 N$",
+        "$450 N$",
+        "$400 N$"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "3 Particles with the same kinetic energy, but don't have the same de Broglie wavelength, have masses $1m, 4m, 16m$. Calculate the ratio of de Broglie wavelengths:",
+      "options": [
+        "$1:4:16$",
+        "$16:4:1$",
+        "$4:2:1$",
+        "$1:2:4$"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Young's modulus of iron is three times that of brass. If their lengths, applied forces, and cross-sectional area are equal, Iron strain is:",
+      "options": [
+        "1/3 of other material",
+        "3 times of other material",
+        "Same as other material",
+        "1/9 of other material"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "In the circuit shown, if the resistance of $R_{v}$ is decreased, what happens to $V_{1}$ and $V_{2}$?",
+      "image": "exams/physics/toc/images/2024_q7.png",
+      "options": [
+        "$V_{1}$ increases, $V_{2}$ increases",
+        "$V_{1}$ decreases, $V_{2}$ increases",
+        "$V_{1}$ increases, $V_{2}$ decreases",
+        "$V_{1}$ decreases, $V_{2}$ decreases"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Pure silicon is doped with $10^{6}/cm^{3}$ of pentavalent and $2\\times10^{6}/cm^{2}$ of trivalent. What is the type of the semiconductor and the number of carrier concentration?",
+      "options": [
+        "n-type, $10^{6}/cm^{3}$",
+        "p-type, $10^{6}/cm^{3}$",
+        "p-type, $2\\times10^{6}/cm^{3}$",
+        "n-type, $2\\times10^{6}/cm^{3}$"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Two materials X and Y are raised by the same temperature. What is the ratio of their heat gain $X/Y$ if X's mass is a third of Y's and its specific heat is twice that of Y?",
+      "options": [
+        "2/3",
+        "3/2",
+        "1/6",
+        "6"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "A magnetic flux interacting with a circular coil changes, and an electromotive force (E) is produced. If the number of coils is increased to 3 times at constant area and the rate of change of magnetic flux is halved, the average emf is:",
+      "options": [
+        "$\\frac{5}{2}E$",
+        "$\\frac{3}{2}E$",
+        "$\\frac{2}{3}E$",
+        "$\\frac{5}{3}E$"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "A step down transformer with an efficiency of 90% has a primary voltage of 200 V. If the ratio between the number of coils ($N_s/N_p$) is 0.5, the secondary voltage is:",
+      "options": [
+        "100 V",
+        "90 V",
+        "180 V",
+        "30 V"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "A positively-charged particle moving west into a magnetic flux density that's perpendicular and out of the page, the direction of the deflection is:",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "Perpendicularly in the page"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "A long wire is at a distance $R/2$ from a one-turn loop with radius R. The current in the wire is 37 Ampere. Calculate the current in the loop and its direction to make the magnetic field at the center equal zero.",
+      "image": "exams/physics/toc/images/2024_q13.png",
+      "options": [
+        "0.5 A clockwise",
+        "0.5 A anticlockwise",
+        "2 A clockwise",
+        "2 A anticlockwise"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "In an RLC circuit, what is the new resonant frequency if the inductance is 4 times and the capacitance is $\\frac{1}{16}$ of their original values?",
+      "options": [
+        "2f",
+        "0.5f",
+        "4f",
+        "0.25f"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "According to the isothermal process figure, which of the following values equals zero?",
+      "image": "exams/physics/toc/images/2024_q15.png",
+      "options": [
+        "Internal Energy",
+        "Change in internal energy",
+        "Change in work done",
+        "Change in heat energy"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "A capacitor is connected to an AC supply with $(V_{max})$ and frequency (f). If the frequency becomes 2f with $V_{max}$ constant, the effective current becomes:",
+      "options": [
+        "0.25 I",
+        "0.5 I",
+        "2 I",
+        "4 I"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Two identical pulses centers are 16 cm apart moving at the same speed. If the vertical displacement at $t=2$ for the resultant pulse is zero, the speed of the pulses is:",
+      "options": [
+        "8 cm/s",
+        "4 cm/s",
+        "2 cm/s",
+        "1 cm/s"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "In a moving spring, at which displacement $x$ from the equilibrium position is the kinetic energy equal to the potential energy?",
+      "options": [
+        "$A/\\sqrt{2}$",
+        "$A/2$",
+        "$A/4$",
+        "$A\\sqrt{2}$"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "An object is between two parallel plane mirrors. The distance to the right mirror is 10 cm. If the 5th image starting from the right reflection is 170 cm behind the mirror, find the distance between the mirrors.",
+      "options": [
+        "32 cm",
+        "40 cm",
+        "53 cm",
+        "60 cm"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "A diffraction grating with 2000 lines/cm has an angle of $30^{\\circ}$ between the central and fourth order maximum. What is the wavelength?",
+      "options": [
+        "625 nm",
+        "500 nm",
+        "450 nm",
+        "700 nm"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "In a double slit experiment ($d, L, \\lambda$), which combination results in the same fringe space $\\Delta y$?",
+      "options": [
+        "$\\lambda, 2L, 2d$",
+        "$2\\lambda, L, 2d$",
+        "$4\\lambda, L, 4d$",
+        "All of the above"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "A photon hits an electron and the scattered photon has wavelength $\\frac{5}{4}\\lambda$. Then:",
+      "image": "exams/physics/toc/images/2024_q22.png",
+      "options": [
+        "80% of energy transferred to electron",
+        "25% of energy transferred to electron",
+        "Photon speed decreases by 20%",
+        "Electron gains 20% of photon's energy"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "To triple the covering range of a TV transmitter tower, its height should be made:",
+      "options": [
+        "3 times",
+        "6 times",
+        "9 times",
+        "$\\sqrt{3}$ times"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "A right-angled prism (60-30) has $n=1.6$ and a thin layer of liquid. Light falls normally. For total internal reflection, the maximum refractive index of the liquid is:",
+      "options": [
+        "1.8",
+        "1.39",
+        "1.35",
+        "1.5"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Rank the four pairs of polarizing sheets according to the fraction of initial intensity they pass, greatest first.",
+      "options": [
+        "$a > c > b > d$",
+        "$d > b > c > a$",
+        "$a = b = c = d$",
+        "$b > a > d > c$"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "When a wave hits quartz and enters the medium:",
+      "options": [
+        "Direction, speed, and wavelength change, frequency remains fixed",
+        "Only speed changes",
+        "Frequency and wavelength change",
+        "Nothing changes"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Increasing the frequency of incident photons does what to the stopping potential ($V_s$) in the graph?",
+      "image": "exams/physics/toc/images/2024_q27.png",
+      "options": [
+        "It will move to the Left",
+        "It will move to the Right",
+        "It will become Zero",
+        "It stays Fixed"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "A pendulum in a lift has period T when stationary. When the lift accelerates down at $\\frac{3}{4}g$, what is the new period?",
+      "options": [
+        "2T",
+        "$T/2$",
+        "$2T/\\sqrt{7}$",
+        "$4T$"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "A concave mirror has $R=50$ cm. An object is 35 cm away. Choose the description of the image:",
+      "options": [
+        "Real, inverted, 2.5 magnified, 87.5 cm away",
+        "Real, erect, 3.3 magnified, 117 cm away",
+        "Virtual, inverted, 3.3 magnified, 87.5 cm away",
+        "Virtual, erect, 3.3 magnified, 117 cm away"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Two waves A and B have equal velocity. If A's tension is four times that of B, which relationship regarding linear density is accurate?",
+      "options": [
+        "$\\mu_A = 4\\mu_B$",
+        "$\\mu_A = \\mu_B / 4$",
+        "$\\mu_A = 2\\mu_B$",
+        "$\\mu_A = \\mu_B$"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "If black body radiation at 5000 K is at 420 nm, what is the wavelength if the temperature is raised by $1500^{\\circ}C$?",
+      "options": [
+        "3230 $Å$",
+        "3100 $Å$",
+        "5600 $Å$",
+        "6000 $Å$"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "In amplitude modulation:",
+      "options": [
+        "Carrier amplitude varies with modulating signal amplitude",
+        "Carrier amplitude remains constant",
+        "Carrier amplitude varies with modulating signal frequency",
+        "Amplitude changes with modulating wavelength"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "To double the velocity of a wave in a wire (constant linear density), the tension force must be:",
+      "options": [
+        "Decreased to half",
+        "Increased to double",
+        "Increased 4 times",
+        "Decreased to quarter"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "The Miller indices of the diagonal plane of a cube are:",
+      "options": [
+        "(110)",
+        "(1100)",
+        "(100)",
+        "(001)"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Which of the following applies to superconductors (multiple): 1. Diamagnetic, 2. Repel magnetic fields, 3. Cooper pair energy is half the gap energy.",
+      "options": [
+        "1 and 2 only",
+        "2 and 3 only",
+        "1 and 3 only",
+        "All of the above"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Which of the following are properties of STM (multiple): 1. Atomic measurements, 2. Topography of atoms, 3. Low temperatures for superconductors, 4. Works with non-conductors.",
+      "options": [
+        "1, 2, and 3 only",
+        "2 and 4 only",
+        "1 and 3 only",
+        "All of the above"
+      ],
+      "correct": 0
+    }
+  ]
+}

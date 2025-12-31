@@ -1,0 +1,379 @@
+{
+    "passage": "",
+    "questions": [
+        {
+            "q": "The correct reading of the Vernier Caliper shown in the figure is:",
+            "image": "exams/physics/toc/images/2020_q1.png",
+            "options": [
+                "8.62 cm",
+                "8.78 cm",
+                "9.38 cm",
+                "9.42 cm"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "When a net force of 10 N acts on an object, the object accelerates at a rate of $20~m/s^{2}$. The mass of the object is:",
+            "options": [
+                "200 kg",
+                "2 kg",
+                "0.5 kg",
+                "0.2 kg"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "For a car to keep moving uphill at a uniform velocity, the force exerted by the engine should be:",
+            "image": "exams/physics/toc/images/2020_q3.png",
+            "options": [
+                "Equal to the friction force only.",
+                "Equal to the sum of friction force and air resistance.",
+                "Less than the sum of friction force and air resistance.",
+                "Greater than the sum of friction force and air resistance."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Hooke's law is applicable on a material:",
+            "options": [
+                "within the elastic limit",
+                "within the plastic limit",
+                "at the ultimate strength",
+                "at the fracture point"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "What does a larger spring constant mean?",
+            "options": [
+                "It is so easy to stretch the spring by a certain amount.",
+                "It is more difficult to stretch the spring by a certain amount.",
+                "The material is more brittle when a force is applied.",
+                "The material is more deformed when a force is applied."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A spring of force constant k is stretched a certain distance. It takes twice as much work to stretch a second spring by half this distance. The force constant of the second spring is:",
+            "options": [
+                "k",
+                "2k",
+                "4k",
+                "8k"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A layer of oil with density $800~kg/m^{3}$ floats on top of a volume of water with density $1000~kg/m^{3}$. A block floats at the oil-water interface with 1/4 of its volume in oil and 3/4 of its volume in water. What is the density of the block?",
+            "image": "exams/physics/toc/images/2019_q7.png",
+            "options": [
+                "$200~kg/m^{3}$",
+                "$850~kg/m^{3}$",
+                "$950~kg/m^{3}$",
+                "$1050~kg/m^{3}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The diagram represents energy transfers in an engine. The efficiency of the engine is given by the expression:",
+            "image": "exams/physics/toc/images/2019_q8.png",
+            "options": [
+                "$E_{W}/E_{IN}$",
+                "$E_{OUT}/E_{IN}$",
+                "$E_{W}/E_{OUT}$",
+                "$E_{OUT}/E_{W}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "You have French fries that you would like to keep hot and a block of ice you want to keep cold. You have foam dinner boxes and some aluminum foil. What combination of materials would work best?",
+            "options": [
+                "Aluminum foil is wrapped around the ice and French fries are kept in a foam dinner box.",
+                "Ice is kept in a foam dinner box and aluminum foil is wrapped around the French fries.",
+                "Each is kept in a foam dinner box.",
+                "Aluminum foil is wrapped around each."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Radio receivers are usually tuned by adjusting the capacitor of an LC circuit. If $C = C_1$ for a frequency of 600 kHz, then for a frequency of 1200 kHz one must adjust C to:",
+            "options": [
+                "$\\frac{1}{4}C_{1}$",
+                "$\\frac{1}{2}C_{1}$",
+                "$2C_{1}$",
+                "$4C_{1}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Two stationary positive charges and two negative charge are situated at points H, R, G and E as indicated in the figure. Each of the charges is of the same magnitude (+1 or -1 C). Which of the arrows is in the direction of the net electrostatic force on charge H?",
+            "image": "exams/physics/toc/images/2019_q11.png",
+            "options": [
+                "Direction A <img src='exams/physics/toc/images/2019_q11_a.png'>",
+                "Direction B <img src='exams/physics/toc/images/2019_q11_b.png'>",
+                "Direction C <img src='exams/physics/toc/images/2019_q11_c.png'>",
+                "Direction D <img src='exams/physics/toc/images/2019_q11_d.png'>"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A resistor in a circuit dissipates energy at a rate of 1 W. If the voltage across the resistor is doubled, what will be the new rate of energy dissipation?",
+            "options": [
+                "0.25 W",
+                "0.5 W",
+                "2 W",
+                "4 W"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A long wire carries a steady current. It is bent into a circle of one turn and the magnetic field at the center is B. It is then bent into a circular loop of (N) turns. What will be the magnitude of magnetic field at the center of the coil?",
+            "options": [
+                "NB",
+                "$N^{2}B$",
+                "2NB",
+                "$2N^{2}B$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "In the circuits below, the cells each have the same emf and zero internal resistance. Which gives the current through the cells in order of increasing magnitude from least to highest?",
+            "image": "exams/physics/toc/images/2019_q14.png",
+            "options": [
+                "Circuit Y → Circuit Z → Circuit X",
+                "Circuit X → Circuit Y → Circuit Z",
+                "Circuit Z → Circuit Y → Circuit X",
+                "Circuit X → Circuit Z → Circuit Y"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "An infinitely long, straight wire carrying current $I_1$ passes through the center of a circular loop carrying current $I_2$. The long wire is perpendicular to the plane of the loop. Describe the magnetic force on the wire:",
+            "image": "exams/physics/toc/images/2019_q15.png",
+            "options": [
+                "Outwards.",
+                "Upwards",
+                "Downwards.",
+                "There is no magnetic force on the wire."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Two conducting wires, $R_{1}$ and $R_{2}$, are made of two different materials, the first with a resistivity of $p_{1}$, the second with resistivity $\\rho_{2}=\\frac{1}{2}\\rho_{1}$. Which of the following pairs of cylindrical wires will have equal resistances?",
+            "options": [
+                "A <img src='exams/physics/toc/images/2019_q16_a.png' alt='Wire pair A'/>",
+                "B <img src='exams/physics/toc/images/2019_q16_b.png' alt='Wire pair B'/>",
+                "C <img src='exams/physics/toc/images/2019_q16_c.png' alt='Wire pair C'/>",
+                "D <img src='exams/physics/toc/images/2019_q16_d.png' alt='Wire pair D'/>"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The bar magnet is moved completely through the loop. Which statement about the direction of current flow between points Y and Z is true?",
+            "image": "exams/physics/toc/images/2019_q17.png",
+            "options": [
+                "Current flows from Y to Z as the magnet passes through.",
+                "Current flows from Z to Y as the magnet passes through.",
+                "Current flows from Y to Z as it enters and Z to Y as it leaves.",
+                "Current flows from Z to Y as it enters and Y to Z as it leaves."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The graph represents the AC voltage generated by an electric generator. When the angular velocity of its coil doubles, which graph describes the new voltage?",
+            "image": "exams/physics/toc/images/2019_q18.png",
+            "options": [
+                "A <img src='exams/physics/toc/images/2019_q18_a.png' alt='Graph A'/>",
+                "B <img src='exams/physics/toc/images/2019_q18_b.png' alt='Graph B'/>",
+                "C <img src='exams/physics/toc/images/2019_q18_c.png' alt='Graph C'/>",
+                "D <img src='exams/physics/toc/images/2019_q18_d.png' alt='Graph D'/>"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A light ray in air enters and passes through a block of glass. What can be stated with regard to its speed after it emerges from the block?",
+            "options": [
+                "speed is less than when in glass",
+                "speed is same as that in glass",
+                "speed is same as that before it entered glass",
+                "speed is less than before it entered glass"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A convex mirror has focal length (f). An object of length (L) is placed at a distance (2f) from the vertex. The image created is of length:",
+            "options": [
+                "(L) and inverted",
+                "(L) and upright",
+                "Less than (L) and upright.",
+                "Greater than (L) and inverted."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A camera with a lens of focal length 6.0 cm takes a picture of a 1.4 m tall man standing 11 m away. The height of the image is about:",
+            "options": [
+                "0.39 cm",
+                "0.77 cm",
+                "1.5 cm",
+                "3.0 cm"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The de Broglie wavelength of a particle with kinetic energy $E_k$ is λ. The wavelength is proportional to:",
+            "options": [
+                "$1/\\sqrt{E_{k}}$",
+                "$1/E_{k}$",
+                "$E_{k}$",
+                "$E_{k}^{2}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "In a standing wave experiment, if the velocity doubles and frequency quadruples, what changes were made to L and M?",
+            "image": "exams/physics/toc/images/2019_q23.png",
+            "options": [
+                "M increased to 4M, L kept as L",
+                "M increased to 2M, L increased to 2L",
+                "M increased to 2M, L decreased to 1/2L",
+                "M increased to 4M, L decreased to 1/2L"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "At the exact moment a mass moves through its equilibrium position Q in SHM, which quantity is at its maximum?",
+            "image":"exams/physics/toc/images/2019_q24.png",
+            "options": [
+                "Restoring force",
+                "Potential energy",
+                "Displacement",
+                "Momentum"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "True statements about atom energy include: <br>I. Atom absorbs only specific photon energies. <br>II. Atom emits photons of any energy. <br>III. At low temp, absorption lines coincide with ground state emission lines.",
+            "options": [
+                "I only",
+                "III only",
+                "I and III only",
+                "I, II, and III"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Based on hydrogen atom energy levels, which transition releases the longest wavelength?",
+            "image": "exams/physics/toc/images/2019_q26.png",
+            "options": [
+                "from n=2 to n=1",
+                "from n=3 to n=1",
+                "from n=5 to n=3",
+                "from n=3 to n=2"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Carbon nanotubes (CNTs) are characterized by all the following properties, EXCEPT:",
+            "options": [
+                "high strength and high stiffness",
+                "have a high surface-to-volume ratio",
+                "high electric conductivity",
+                "chemically active"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A meter stick moving at 0.8c past an observer. In the observer's frame, how long does it take the stick to pass?",
+            "options": [
+                "1.6 ns",
+                "2.5 ns",
+                "4.2 ns",
+                "6.9 ns"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A photon of energy E hits a metal (work function Y), ejecting electrons with max KE = Y. If photon energy is 2E, the new max KE is:",
+            "options": [
+                "Y Joules",
+                "2Y Joules",
+                "3Y Joules",
+                "4 Y Joules"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "High frequency sky wave signals may be lost after an hour due to:",
+            "options": [
+                "Shading of the earth by clouds.",
+                "Changes in the ionosphere layer.",
+                "Changes in atmospheric temperature.",
+                "Absorption of the ground wave signal."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "When a blackbody is $3927^{\\circ}C$, $\\lambda_{max} = 7000$ Å. If the temperature is raised by $1000^{\\circ}C$, the new $\\lambda_{max}$ is nearly:",
+            "options": [
+                "3650 Å",
+                "4650 Å",
+                "5650 Å",
+                "6000 Å"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In amplitude modulation:",
+            "options": [
+                "Carrier amplitude varies with modulating signal amplitude.",
+                "Carrier amplitude remains constant",
+                "Carrier amplitude varies with modulating signal frequency",
+                "Modulating frequency lies in the audio range"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "To eject electrons from a metal where green light failed, she should:",
+            "options": [
+                "shine red laser on the metal.",
+                "elongate the interval of shining green light.",
+                "increase the intensity of green light.",
+                "shine invisible ultraviolet radiation."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "At temperatures higher than $T_c$, a superconducting element:",
+            "image": "exams/physics/toc/images/2019_q34.png",
+            "options": [
+                "Displays perfect diamagnetism.",
+                "Magnetic fields cannot penetrate it.",
+                "Allows magnetic fields to flow through it.",
+                "Electrons set up eddy currents to counter magnetic fields."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In Young's double-slit experiment, if slit separation is doubled, to keep fringe spacing the same, the distance D must be:",
+            "options": [
+                "1/4 D",
+                "1/2 D",
+                "2 D",
+                "4 D"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The figure shows an idealized submarine periscope with parallel mirrors Y and Z. A dolphin is at distance X from the top mirror. The distance between the image and mirror Z is:",
+            "image": "exams/physics/toc/images/2019_q36.png",
+            "options": [
+                "X",
+                "X + L",
+                "X – L",
+                "2 X – L"
+            ],
+            "correct": 1
+        }
+    ]
+}
