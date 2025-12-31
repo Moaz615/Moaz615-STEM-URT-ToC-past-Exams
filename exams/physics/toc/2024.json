@@ -12,7 +12,7 @@
       "correct": 2
     },
     {
-      "q": "The graph shows an object's displacement z with respect to time t in dynamic equilibrium. The answer is: <div style= 'text-align: center'>The original question had no figure</div>",
+      "q": "The graph shows an object's displacement z with respect to time t in dynamic equilibrium. The answer is: <div style= 'text-align: center'>The original question had no figures</div>",
       "image": "exams/physics/toc/images/2024_q2.png",
       "options": [
         "$x$",
@@ -370,3 +370,4 @@
   ]
 
 }
+
