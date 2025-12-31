@@ -1,0 +1,363 @@
+{
+    "questions": [
+        {
+            "q": "By using these diagrams which represent different types of atoms or ions and the table below, choose the correct matching between the diagrams ",
+            "images": [
+                "exams/chemistry/toc/images/2020_q1.png",
+                "exams/chemistry/toc/images/2020_q1_table.png"
+            ],
+            "options": [
+                "1-f , 2-a , 3-b , 4-d , 5-c",
+                "1-b , 2-e , 3-f , 4-c , 5-a",
+                "1-a , 2-d , 3-f , 4-c , 5-e",
+                "1-f , 2-e , 3-b , 4-d , 5-c"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A metal is reacted with $H_2SO_4$ to produce hydrogen gas. If $0.063g$ of metal produce $28mL$ of $H_2$ gas at $\\text {STP}$, what is the mass of the metal that reacts with one mole of sulforic acid? (Use R = 0.082 atm.L/mol.K)",
+            "options": [
+                "$439g$",
+                "$98.6g$",
+                "$49.3g$",
+                "$24.7g$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which of the following pairs of substances can be used to make a buffer solution?",
+            "options": [
+                "$NaCl$ , &nbsp;$KCL$",
+                "$NH_4OH$, &nbsp;$C_2H_4O_2$",
+                "$Na_2SO_4$, &nbsp;$H_2SO_4$",
+                "$C_2H_4O_2$, &nbsp;$NaC_2H_3O_2$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A sample of one mole of an unknown hydrocarbon was burnt in excess oxygen to form $88g$ of $CO_2$ and $27g$ of $H_2O$. What is possible molecular formula of the hydrocarbon?",
+            "options": [
+                "$CH_4$",
+                "$C_2H_3$",
+                "$C_4H_6$",
+                "$C_4H_10$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "How many millimeters of $250 M$ of $LiOH$ does it take to neutralize completely $50.0 mL$ of $0.150 M$ $H_3PO_4$?",
+            "options": [
+                "30.0 mL",
+                "27.0 mL",
+                "90.0 mL",
+                "270 mL"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The equilibrium constant $K_c$ for the dissociation of $HCl$ into hydrogen gas and chlorine vapor is 21 at a certain temperature. What will be the molar concentration of chlorine vapor if 18 grams of $HCl$ gas is introduced into 12.0 L flask and allowed to come to equilibrium?",
+            "options": [
+                "$4.58 M$",
+                "$0.04 M$",
+                "$0.1832 M$",
+                "$0.01803 M$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The ideal gas law is successful for most gases because:",
+            "options": [
+                "The pressure of gases is always high",
+                "The volumes of gases are small",
+                "Gases are always dimers",
+                "Gas particles don't interact significantly"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "In the following diagram, there are three jars. If <br>$(X)$ is a non polar molecule <br>$(Y)$ is a polar molecule <br>The expected forces between molecules that may be found inside the jars are:<br> (Van Der Waal's force, dipole-dipole force, London force, hydrogen bond)<br>Which of the following sentences is correct?",
+            "image": "exams/chemistry/toc/images/2020_q8.png",
+            "options": [
+                "Jar (1) contains all types of forces",
+                "Jar (3) contains all types of forces",
+                "Jar (2) contains dipole-dipole force only",
+                "Each jar contains all type of force"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "What is the theoretical yield of ethyl ethanoate when 100g of ethanoic acid reacts with 100g of ethyl alcohol? $(C = 12, H = 1, O = 16)$ <div style='text-align: center;'> $CH_3COOH + CH_3CH_2OH \\rightarrow CH_3COOCH_2CH_3 + H_2O$ </div>",
+            "options": [
+                "337 g",
+                "191 g",
+                "147 g",
+                "45 g"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Iron $III$ hydroxide has $K_{sp} = 1.6 \\times 10^{-39}. What is the molar solubility of this compound?",
+            "options": [
+                "$7.4 \\times 10^{-14}$",
+                "$8.8 \\times 10^{-11}$",
+                "$2.0 \\times 10^{-10}$",
+                "$9.4 \\times 10^{-6}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "An aliqout solution containing 50.0 mL of $AL{(OH)}_3$ is titrated with 0.0500 molar $H_2SO_4$. The end point is reached when 35.0 mL of the sulfuric acid has been added. What is the molarity of the $AL{(OH)}_3$ solution?",
+            "options": [
+                "$\\frac{(0.0500)(35.0)(2)}{(50.0)(3)}$",
+                "$\\frac{(0.0500)(35.0)(3)}{(50.0)(2)}$",
+                "$\\frac{(0.0500)(50.0)(3)}{(35.0)(2)}$",
+                "$\\frac{(50.0)(3)}{(0.0500)(35.0)(2)}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "When will $K_p$ and $K_C$ have the same numerical value?",
+            "options": [
+                "At absolute zero for all reactions",
+                "When the concentrations are at standard state",
+                "When the concentrations are all 1.00 molar",
+                "When the reaction exhibits no change in pressure at constant volume"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "By increasing the pressure on the reaction system given below, volume is reduced to half of its value. If the reaction is of first order with respect to $O_2$ and second order with respect to $NO$, what will be the change in the rate of reaction? $$2NO_{(g)} + O_{2(g)} \\rightarrow 2NO_{2(g)}$$",
+            "options": [
+                "diminish to one-fourth of its initial value",
+                "diminish to one-eight of its initial value",
+                "increase to eight times of its initial value",
+                "increase to four times of its initial value"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "How many sucrose molecules are found in one granule of it weighs = 1.5 micrograms ($C_{12}H_{22}O_{11}$) (C = 12, H = 1, O = 16)",
+            "options": [
+                "$3.8 \\times 10^9$",
+                "$2.6 \\times 10^{15}$",
+                "$6.02 \\times 10^{17}$",
+                "$2.6 \\times 10^{21}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Nitrous acid is a weak acid, while nitric acid is a much stronger acid because:",
+            "options": [
+                "the nitrogen in nitric acid is more electronegative than the nitrogen in nitrous acid",
+                "nitric acid has more oxygen atoms in its formula",
+                "the O-H bond in nitric acid is much weaker than in nitrous acid",
+                "nitric acid has the hydrogen atoms bound directly to the nitrogen atom"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If 1.0 g of magnesium and 1.0 g of oxygen reacted, what will be left in the reaction vessel? (Mg = 24, O = 16)",
+            "options": [
+                "MgO only",
+                "MgO and Mg only",
+                "MgO and $O_2$ only",
+                "MgO, Mg and $O_2$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Questions 17-20 related to the diagram below: Four different acid solutions of $0.010\\ M$ are prepared, their pH values are measured and recorded on laptop computer. One of the solutions contains more than just an acid (buffer solution), At the point designated as (Add) the four solutions are diluted with equal volume of water. \n\nWhich of the four solutions can be described as the strongest acid? ",
+            "image": "exams/chemistry/toc/images/2020_q17.png",
+            "options": [
+                "solution 1",
+                "solution 2",
+                "solution 3",
+                "solution 4"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which of the four solutions seems to be buffer?",
+            "options": [
+                "solution 1",
+                "solution 2",
+                "solution 3",
+                "solution 4"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which of the four contains only acid and the acid is the weakest of all?",
+            "options": [
+                "solution 1 because its pH changed the most",
+                "solution 2 because its &nbsp; $pK_a$ &nbsp; is high",
+                "solution 3 because it has the highest pH",
+                "solution 4 because its pH doesn't change"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which of the acids will react with copper metal?",
+            "options": [
+                "Acid 1, 2, and 3",
+                "Acid 1 only",
+                "We cannot tell, we need to know what the cation is",
+                "We cannot tell, we need to know what the anion is"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Fluorine boiling point ($-188^{\\circ}\\text{C}$) is much less than that of chlorine boiling point ($-34.4^{\\circ}\\text{C}$), chlorine atom is much larger than fluorine atom. What is the best reason for the large difference in boiling points?",
+            "options": [
+                "A) Chlorine has higher dipole moment than fluorine",
+                "B) The intermolecular force in chlorine much weaker than those in fluorine",
+                "C) The mass of chlorine is much greater than the mass of fluorine",
+                "D) The electron cloud in chlorine polarizable more than fluorine causes stronger London forces"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A chemist mixes a dilute solution of silver perchlorate with a dilute solution potassium chloride, to precipitate silver chloride, if the net ionic equation for the reaction is: $\\text{Ag}^{+}_{\\text{(aq)}} + \\text{Cl}^{-}_{\\text{(aq)}} \\rightarrow \\text{AgCl}_{\\text{(s)}}$. Which of the following is the molecular equation for the reaction?",
+            "options": [
+                "A) $\\text{AgClO}_{3\\text{(aq)}} + \\text{KCl}_{\\text{(aq)}} \\rightarrow \\text{AgCl}_{\\text{(s)}} + \\text{KClO}_{3\\text{(aq)}}$",
+                "B) $\\text{Ag(ClO}_{4})_{2\\text{(aq)}} + 2\\text{KCl}_{\\text{(aq)}} \\rightarrow \\text{AgCl}_{\\text{(s)}} + 2\\text{KClO}_{4\\text{(aq)}}$",
+                "C) $\\text{AgClO}_{4\\text{(aq)}} + \\text{KCl}_{\\text{(aq)}} \\rightarrow \\text{AgCl}_{\\text{(s)}} + \\text{KClO}_{4\\text{(aq)}}$",
+                "D) $\\text{Ag(ClO}_{4})_{4\\text{(aq)}} + 4\\text{KCl}_{\\text{(aq)}} \\rightarrow \\text{AgCl}_{\\text{(s)}} + 4\\text{KClO}_{4\\text{(aq)}}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If equal volumes of $2.0$ millimolar solutions are mixed, which of the following diagrams represents the experiment after the reactants are mixed thoroughly and solid are given time to precipitate?",
+            "options": [
+                "<img src='exams/chemistry/toc/images/2020_q23_a.png' alt='Diagram A'/>",
+                "<img src='exams/chemistry/toc/images/2020_q23_b.png' alt='Diagram B'/>",
+                "<img src='exams/chemistry/toc/images/2020_q23_c.png' alt='Diagram C'/>",
+                "<img src='exams/chemistry/toc/images/2020_q23_d.png' alt='Diagram D'/>"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "By balancing the following equation:\n$$\\text{Fe}_2\\text{S}_{3(\\text{s})} + \\text{HNO}_{3(\\text{aq})} \\rightarrow \\text{Fe(NO}_3)_{3(\\text{aq})} + \\text{S}_{(\\text{s})} + \\text{NO}_{2(\\text{g})} + \\text{H}_2\\text{O}_{(\\ell)}$$\nThe whole digits which may be found beside $\\text{HNO}_3$, and $\\text{H}_2\\text{O}$ respectively will be:",
+            "options": [
+                "A) 12, 6",
+                "B) 6, 6",
+                "C) 2, 3",
+                "D) 9, 6"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which of the following particulate diagrams best represents the reaction of carbon (black dots) with oxygen (white circles) to form carbon dioxide?",
+            "options": [
+                "<img src='exams/chemistry/toc/images/2020_q25_a.png' alt='Diagram A'/>",
+                "<img src='exams/chemistry/toc/images/2020_q25_b.png' alt='Diagram B'/>",
+                "<img src='exams/chemistry/toc/images/2020_q25_c.png' alt='Diagram C'/>",
+                "<img src='exams/chemistry/toc/images/2020_q25_d.png' alt='Diagram D'/>"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The pH of a $0.125M$ solution of a weak base is $10.45$, what is the $K_b$ of this base?",
+            "options": [
+                "A) $3.5 \\times 10^{-11}$",
+                "B) $6.4 \\times 10^{-7}$",
+                "C) $2.8 \\times 10^{-4}$",
+                "D) $2.3 \\times 10^{-3}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Look at the electronic configuration which represents oxygen atom ($_{8}\\text{O}$) then decide the correct matching between the figure and the statement which represents it :<br>i) The electronic configuration for oxygen atom in its ground state<br>ii) The electronic configuration for oxygen atom in the excited state<br>iii) The wrong electronic configuration for oxygen atom<br>iv) The electronic configuration for oxygen ion ( $\\text{O}^{--}$ )",
+            "image": "exams/chemistry/toc/images/2020_q27.png",
+            "options": [
+                "A) i-a , ii-b , iii-c , iv-d",
+                "B) i-b , ii-a , iii-c , iv-d",
+                "C) i-b , ii-d , iii-c , iv-a",
+                "D) i-c , ii-d , iii-a , iv-b"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Consider the following samples:<br>Sample #1: One mole of cesium atoms <br>Sample #2: One mole of water molecules<br>Which of the following correctly compares the total number of atoms in each sample?",
+            "options": [
+                "A) These samples cannot be compared on the basis of atoms, as sample #2 is made up of molecules.",
+                "B) The samples contain the same number of atoms, as they both contain one mole.",
+                "C) Sample #1 has more atoms.",
+                "D) Sample #2 has more atoms."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which of the following is a single replacement reaction?",
+            "options": [
+                "A) Sodium chloride with potassium nitrate",
+                "B) Chlorine gas with sodium metal",
+                "C) Aluminum metal with hydro-bromic acid",
+                "D) Ethanol with oxygen"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "This diagram represents a bottle contains ammonia gas dissolved in water We can reach the following equilibrium: $\\text{NH}_{3(g)} \\rightleftharpoons \\text{NH}_{3(aq)}$ By:",
+            "image": "exams/chemistry/toc/images/2020_q30.png",
+            "options": [
+                "Adding excess water",
+                "Adding excess ammonia gas",
+                "Cooling the bottle",
+                "Covering the bottle opening"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "In the following chemical reaction: <div style='text-align:center'>$\\text{CO}_{2(g)} + \\text{C}_{(s)} \\rightleftharpoons 2\\text{CO}_{(g)} , \\Delta H = +172 \\text{ KJ}$</div> We can increase the amount of $\\text{CO}$ by:",
+            "options": [
+                "Decreasing the temperature",
+                "Decrease the pressure",
+                "Increase the volume of the reaction",
+                "Increase the temperature"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "An element (X) its electron configuration ends by ($3p^1$), then with respect to the elements that precede it in the period, this element is:",
+            "options": [
+                "A non-metallic element and its electron affinity is high.",
+                "A non-metallic element and its electron affinity is low.",
+                "A metallic element and its electron affinity is high.",
+                "A metallic element and its electron affinity is low."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "For the following compound ($\\text{NH}_3$) What is the bond angles and molecular shapes for all atoms?",
+            "options": [
+                "$120^{\\circ}$ , trigonal planar",
+                "$109.5^{\\circ}$ , tetrahedral",
+                "$107^{\\circ}$ , trigonal pyramidal",
+                "$180^{\\circ}$ linear"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which statement best describes the geometry of sulfur trioxide and for sulfite ion according to Lewis electron-dot diagram?",
+            "image": "exams/chemistry/toc/images/2020_q34.png",
+            "options": [
+                "Both are flat triangular planar shapes",
+                "$SO_3^-$ has a triangular pyramid shape, and $SO_3$ is a planar triangle",
+                "Both are triangular pyramids",
+                "$SO_3^-$ is a planar triangle, and $SO_3$ has a triangular pyramid shape"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Adipic acid consists of $49.32\\%$ carbon, $6.85\\% \\text{ H}$ and $43.84\\%$ oxygen, its molecular mass $= 146$, its molecular formula will be: ($\\text{C} = 12$, $\\text{H} = 1$, $\\text{O} = 16$)",
+            "options": [
+                "$C_3H_5O_2$",
+                "$C_6H_{10}O_4$",
+                "$C_6H_{10}O_2$",
+                "$C_3H_5O$"
+            ],
+            "correct": 1
+        }
+    ]
+}

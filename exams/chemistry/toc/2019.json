@@ -1,0 +1,375 @@
+{
+  "questions": [
+    {
+      "q": "The vapor pressure of water at $20^{\\circ}C$ is $17.54$ $mmHg$. What will be the vapor pressure of the water in the apparatus shown after the piston is lowered, decreasing the volume of the gas above the liquid to one half of its initial volume? (Assume no temperature change.)",
+      "image": "exams/chemistry/toc/images/2019_q1.png",
+      "options": [
+        "$8.77$ &nbsp; $mmHg$",
+        "$17.54$ &nbsp; $mmHg$",
+        "$35.08$ &nbsp; $mmHg$",
+        "between &nbsp; $8.77$ &nbsp; and &nbsp; $17.54$ &nbsp; $mmHg$"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Imagine you have two solid blocks. One is made of gold and the other is made of titanium. Gold is much more dense than titanium. Each block has a mass of 100 grams. If you use water displacement to determine the volume of each object, what will you find?",
+      "options": [
+        "The titanium block will displace more water than the gold block.",
+        "The gold block will displace more water than the titanium block.",
+        "The two blocks will displace the same amount of water.",
+        "One of the blocks will displace exactly 100 $cm^{3}$ of water."
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Magnesium ribbon is burned in the presence of oxygen to make magnesium oxide in a combustion reaction. How much product should be recovered if 10 grams of magnesium reacts completely and all product is recovered?",
+      "options": [
+        "More than 10 grams of product should be recovered.",
+        "Less than 10 grams of product should be recovered.",
+        "Exactly 10 grams of product should be recovered.",
+        "More information is needed."
+      ],
+      "correct": 0
+    },
+    {
+      "q": "In your lab you mix equal volumes of a pH 1.0 solution and a pH 13.0 solution. What will the final pH be?",
+      "options": [
+        "Near 12.0",
+        "13.0",
+        "7.0",
+        "Between 13.0 and 14.0"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Examine the Lewis structure of water. Which statement is true when water changes from a solid to a liquid?",
+      "image": "exams/chemistry/toc/images/2019_q5.png",
+      "options": [
+        "Distance X gets larger.",
+        "Distance X gets smaller.",
+        "Distance X does not change, but angle Y increases.",
+        "Both distance X and angle Y do not change."
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Which of the diagrams below represents the particles at position Y on the graph below?",
+      "image": "exams/chemistry/toc/images/2019_q6.png",
+      "options": [
+        "A &nbsp; <img src='exams/chemistry/toc/images/2019_q6_a.png' ' alt='Graph A'/>",
+        "B &nbsp; <img src='exams/chemistry/toc/images/2019_q6_b.png' ' alt='Graph B'/>",
+        "C &nbsp; <img src='exams/chemistry/toc/images/2019_q6_c.png' ' alt='Graph C'/>",
+        "D &nbsp; <img src='exams/chemistry/toc/images/2019_q6_d.png' ' alt='Graph D'/>"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "The following plot of partial pressure vs. time is generated for the equilibrium below: <br><div style='text-align: center;'>$N_{2}(g)+3H_{2(g)}\\leftrightarrow2NH_{3(g)}$</div>.<br>At $t_{1}$ on the graph, hydrogen is added to a system that was in equilibrium prior to that point. After a period of time, a new equilibrium is established at $t_{2}.$ Which choice properly identifies the substances based on their behavior in the plot?",
+      "image": "exams/chemistry/toc/images/2019_q7.png",
+      "options": [
+        "$A=H_{2}, B=N_{2}, C=NH_{3}$",
+        "$A=H_{2}, B=NH_{3}, C=N_{2}$",
+        "$A=NH_{3}, B=H_{2}, C=N_{2}$",
+        "$A=NH_{3}, B=N_{2}, C=H_{2}$"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "A balloon was completely filled with air and tightly tied so no air could get in or get out of it. Then the balloon was put into a cold freezer for 30 minutes. No air had escaped from the balloon but it had shrunk in size. How did the mass of the balloon (including the air inside it) change?",
+      "options": [
+        "The mass of the cold balloon is more than the mass of the warm balloon.",
+        "The mass of the cold balloon is less than the mass of the warm balloon.",
+        "The mass of the cold balloon is the same as the mass of the warm balloon.",
+        "It is not possible to know without measuring the mass of the cold balloon and the warm balloon."
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Which of the graphs shown below would best represent the changes when 0.10 M barium hydroxide was titrated with 0.10 M sulfuric acid?",
+      "options": [
+        "A &nbsp; <img src='exams/chemistry/toc/images/2019_q9_a.png' ' alt='Graph A'/>",
+        "B &nbsp; <img src='exams/chemistry/toc/images/2019_q9_b.png' ' alt='Graph B'/>",
+        "C &nbsp; <img src='exams/chemistry/toc/images/2019_q9_c.png' ' alt='Graph C'/>",
+        "D &nbsp; <img src='exams/chemistry/toc/images/2019_q9_d.png' ' alt='Graph D'/>"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Compare the following two reactions: <br><div style='font-size: 1rem;'>I. $2H^{+}(aq)+C_{2}O_{4}^{2-}(aq)\\leftrightarrow H_{2}C_{2}O_{4}(aq)$ ($K_{c}=2.5 \\times 10^{5}$) <br>II. $2HF(aq)+C_{2}O_{4}^{2-}(aq)\\leftrightarrow2F^{-}(aq)+H_{2}C_{2}O_{4}(aq)$ ($K_{c}=1.2 \\times 10^{-1}$)</div>Which of the following statements is correct?",
+      "options": [
+        "Reaction I will proceed faster because $K_{c}$ is larger.",
+        "Reaction II will proceed faster because $K_{c}$ is smaller.",
+        "Reaction I favors the production of products.",
+        "Reaction II favors the production of products."
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Examine the claims below: <br><br>Claim #1: Cells and atoms are similar, because they both have a nucleus that gives instructions to other parts. <br><br>Claim #2: Cells and atoms are similar, because they both have a nucleus with other parts surrounding it. <br><br>Which claim(s) is/are accurate?",
+      "options": [
+        "Claim #1 only",
+        "Claim #2 only",
+        "Both claim #1 and claim #2 are accurate",
+        "Neither claim #1 nor claim #2 are accurate"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Which response contains all of the characteristics listed that should apply to phosphorus trichloride, $PCl_{3}$ and no other characteristics? (1) trigonal planar (2) one unshared pair of electrons on P (3) $sp^{2}$ hybridized at P (4) polar molecule (5) polar bonds",
+      "options": [
+        "2, 4, 5",
+        "2, 3, 4",
+        "1, 2, 4",
+        "1, 4, 5"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Questions 13-14 refer to the following graphic representations. Figure D represents a(n):",
+      "image": "exams/chemistry/toc/images/2019_q13.png",
+      "options": [
+        "element",
+        "compound",
+        "solution",
+        "mixture"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Using the same figures for questions 13-14, which of the following statements is true?",
+      "image": "exams/chemistry/toc/images/2019_q13.png",
+      "options": [
+        "Only figure A represents a mixture.",
+        "Only figure D represents a mixture.",
+        "Both figure A and figure E represent a mixture.",
+        "Both figure B and figure C represent a mixture."
+      ],
+      "correct": 2
+    },
+    {
+      "q": "A student dropped a piece of metal with a mass of 142.2 g into a graduated cylinder which originally contained 20 mL of water. The reading she observed after adding the metal is shown on the cylinder below. From which metal is the object most likely made?",
+      "image": "exams/chemistry/toc/images/2019_q15.png",
+      "options": [
+        "Titanium ($4.0 g/cm^{3}$)",
+        "Iron ($8.0 g/cm^{3}$)",
+        "Copper ($9.0 g/cm^{3}$)",
+        "Gold ($20.0 g/cm^{3}$)"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "A beaker of pure water reaches its boiling point when the vapor pressure of the water equals the atmospheric pressure. At this point, the bubbles formed in the beaker contain",
+      "options": [
+        "liquid water",
+        "oxygen gas and hydrogen gas",
+        "air",
+        "gaseous water"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "It takes approximately 15-20 minutes to hard-boil an egg at an altitude of 100 m. With all other factors unchanged, how will the time required to boil the egg change if it is boiled on top of a mountain with an altitude of 4000 m?",
+      "options": [
+        "The time will not change. The egg will still take 15-20 minutes to cook on top of the mountain.",
+        "The egg will cook in a shorter period of time on top of the mountain.",
+        "The egg will take longer to cook on top of the mountain.",
+        "The time cannot be determined."
+      ],
+      "correct": 2
+    },
+    {
+      "q": "A helium balloon rises when it is released outside. Assuming temperature remains constant, what is the best explanation for why the balloon expands as it rises?",
+      "options": [
+        "The pressure inside of the balloon decreases as helium escapes from the balloon.",
+        "The pressure inside of the balloon increases as air from the atmosphere rushes into the balloon.",
+        "The atmospheric pressure increases, making the helium push harder against outside pressure.",
+        "The atmospheric pressure decreases, allowing the helium to push with less resistance."
+      ],
+      "correct": 3
+    },
+    {
+      "q": "Which compound has the highest melting point?",
+      "options": [
+        "Octane",
+        "2,2,3,3-tetramethylbutane",
+        "2,2,3-trimethylpentane",
+        "4-methylheptane"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Mohammed observes two cubes of ice that have the same mass and shape. The cubes of ice are placed on separate plates at identical temperature. One plate is made out of metal and the other plate is made out of plastic. Which cube of ice will melt first?",
+      "options": [
+        "The cubes will take the same amount of time to melt since both plates start at the same temperature.",
+        "The cube on the plastic plate will melt first because of the relatively low specific heat of the plastic.",
+        "The cube on the metal plate will melt first because it conducts heat into the ice quickly.",
+        "The cube on the plastic plate will melt first because of the relatively high specific heat of the plastic."
+      ],
+      "correct": 2
+    },
+    {
+      "q": "The equation for the copper half-cell reaction in a galvanic electrochemical cell is: <div style='text-align: center;'>$Cu^{2+}(aq)+2~e^{-}\\rightarrow Cu(s)$</div>.<br> Which statement best describes what is happening at the copper cathode?",
+      "options": [
+        "Copper ions in solution gain two electrons to form solid copper. Electrons travel into the solution through an external wire that is attached to the cathode.",
+        "Copper ions in solution gain two electrons to form solid copper. Electrons travel into the solution through the salt bridge.",
+        "Solid copper atoms in the cathode lose two electrons and form copper ions. Electrons travel out of the cathode through an external wire.",
+        "Solid copper atoms in the cathode lose two electrons and form copper ions. Electrons travel out of the cathode through the salt bridge."
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Which of the following chemical reactions represents an oxidation-reduction reaction?",
+      "options": [
+        "$ZnCl_{2}+2NaOH\\rightarrow Zn(OH)_{2}+2NaCl$",
+        "$CuCl_{2}+Zn\\rightarrow ZnCl_{2}+Cu$",
+        "$AgNO_{3}+KI\\rightarrow AgI+KNO_{3}$",
+        "$HClO+NH_{3}\\rightarrow NH_{4}ClO$"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Consider the following objects: <br>1. Plant cell <br>2. Atom of copper. <br>Which statement best describes how the objects relate in terms of size?",
+      "options": [
+        "An atom of copper is much larger than a plant cell.",
+        "A plant cell is much larger than an atom of copper.",
+        "These two objects are similar in size, but the copper atom is slightly larger.",
+        "These two objects are similar in size, but the plant cell is slightly larger."
+      ],
+      "correct": 1
+    },
+    {
+      "q": "The following models represent a small volume within a large, sealed beaker containing water, $H_{2}O$. Which figures best represent water before and after it evaporates (i.e., changes from liquid to gas)?",
+      "image": "exams/chemistry/toc/images/2019_q24.png",
+      "options": [
+        "Before = I, After = I",
+        "Before = I, After = II",
+        "Before = I, After = III",
+        "Before = I, After = IV"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "In the Lewis structure what are the formal charges on the sulfur and oxygen atoms, respectively?",
+      "image": "exams/chemistry/toc/images/2019_q25.png",
+      "options": [
+        "0, 0",
+        "-2, 0",
+        "+2, -1",
+        "+6, -2"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "A reaction between sulfur (S) and oxygen ($O_{2}$) proceeds using the equation below: <div style='text-align: center;'>$2S + 3O_{2} \\rightarrow 2 SO_{3}$</div><br>The diagram below represents the mixture of S atoms and $O_{2}$ molecules which will undergo this reaction in a closed container. Which diagram shows the results after the mixture reacts as completely as possible?",
+      "image": "exams/chemistry/toc/images/2019_q26.png",
+      "options": [
+        "A <img src='exams/chemistry/toc/images/2019_q26_a.png' alt='Graph A'/>",
+        "B <img src='exams/chemistry/toc/images/2019_q26_b.png' alt='Graph B'/>",
+        "C <img src='exams/chemistry/toc/images/2019_q26_c.png' alt='Graph C'/>",
+        "D <img src='exams/chemistry/toc/images/2019_q26_d.png' alt='Graph D'/>"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "The specific heat values of ethanol and water are listed below: <div style='text-align: center;'>Ethanol 2.45 J/(g °C) <br>Water 4.18 J/(g °C).</div> <br>Under identical conditions, what happens when equal masses of ethanol and water are heated with a Bunsen burner from 20°C to 30°C?",
+      "options": [
+        "Ethanol reaches 30°C in less time, as it needs to absorb less heat than the water.",
+        "Water reaches 30°C in less time, as it needs to absorb less heat than ethanol.",
+        "Both substances reach 30°C in the same amount of time, because they have the same mass.",
+        "Both substances reach 30°C in the same amount of time, because they absorb equal amounts of heat."
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Examine the claims below: <br>Claim #1: The probable location of an electron in an atom depends on the position of the nucleus. <br>Claim #2: The probable location of an electron in an atom depends on the position of the other electrons. <br>Which claim(s) is/are accurate?",
+      "options": [
+        "Claim #1 only",
+        "Claim #2 only",
+        "Both claim #1 and claim #2 are accurate",
+        "Neither claim #1 nor claim #2 are accurate"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "A box of nails is left outside. The nails in the box become completely rusted, and the following data is collected: <div style='text-align: center;'>Mass of empty box (g) 100.0 <br>Mass of box and dry nails before rusting (g) 110.0 <br>Mass of empty box and dry nails after rusting (g) X.</div> <br>What can be concluded about the missing mass, X?",
+      "options": [
+        "The mass should be exactly 110.0 grams due to the law of conservation of mass.",
+        "The mass should be more than 110.0 grams because of the addition of oxygen to the nails.",
+        "The mass should be less than 110.0 grams because the rust is a powder and weighs less than nails.",
+        "The mass should be less than 110.0 grams because the rust absorbed some of each of the nails."
+      ],
+      "correct": 1
+    },
+    {
+      "q": "A chemist studies the effect of adding $NaCl$ on the boiling point of water. Which of the following will likely be observed?",
+      "options": [
+        "The water boiling at $100^{\\circ}C$.",
+        "The water boiling at a point lower than $100^{\\circ}C$.",
+        "The water boiling at a point higher than $100^{\\circ}C$.",
+        "The water will stop boiling."
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Examine the claims below: <br>Claim #1: Non-living things are made of atoms, not cells. Living things are made of cells, not atoms. <br>Claim #2: All living and non-living things are made of atoms. <br>Claim #3: All living and non-living things are made of cells. <br>Which claim(s) is/are accurate?",
+      "options": [
+        "Claim #1 only",
+        "Claim #2 only",
+        "Claim #3 only",
+        "None of these claims are accurate"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Consider the following samples: <div style= 'text-align: center;'>Sample #1: One mole of cesium atoms; <br>Sample #2: One mole of water molecules.</div> Which of the following correctly compares the total number of atoms in each sample?",
+      "options": [
+        "These samples cannot be compared on the basis of atoms, as sample #2 is made up of molecules.",
+        "The samples contain the same number of atoms, as they both contain one mole.",
+        "Sample #1 has more atoms.",
+        "Sample #2 has more atoms."
+      ],
+      "correct": 3
+    },
+    {
+      "q": "In each of the four beakers shown, a 2.0-centimeter strip of magnesium ribbon reacts with 100 milliliters of HCl(aq) under the conditions shown. In which beaker will the reaction occur at the fastest rate?",
+      "image": "exams/chemistry/toc/images/2019_q33.png",
+      "options": [
+        "Beaker A",
+        "Beaker B",
+        "Beaker C",
+        "Beaker D"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "A balloon is filled with a gas and is tied closed. The balloon floats up into the air. How does the mass of the uninflated balloon compare to the mass of the inflated, floating balloon?",
+      "options": [
+        "The uninflated balloon has less mass.",
+        "The uninflated balloon has more mass.",
+        "The mass of the uninflated balloon and the floating balloon is the same.",
+        "It cannot be decided because the mass of the balloon was not measured before inflating it."
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Consider the following beakers of acid: Beaker #1: 0.5M HCl (Hydrochloric Acid), Beaker #2: 0.5M $H_{3}PO_{4}$ (Phosphoric Acid). Which of the following correctly compares the pH in each beaker?",
+      "options": [
+        "The pH should be the same in both beakers, as the concentrations are equal.",
+        "The pH in beaker #2 should be lower, as phosphoric acid has more ionizable protons.",
+        "The pH in beaker #2 should be lower, as phosphoric acid does not completely ionize.",
+        "The pH in beaker #1 should be lower, as hydrochloric acid completely ionizes."
+      ],
+      "correct": 3
+    },
+    {
+      "q": "Given the following laboratory observation: <div style='text-align: center;'>$Zn + CuBr_{2} \\rightarrow Cu + ZnBr_{2}$<br>$Cu + ZnBr_{2} \\rightarrow \\text{No Reaction}$</div> which of the following statements is NOT TRUE?",
+      "options": [
+        "$Zn$ &nbsp; is a stronger reducing agent than &nbsp; $Cu$",
+        "$Cu^{2+}$ is a stronger oxidizing agent than $Zn^{2+}$",
+        "$Cu$ &nbsp; is a stronger reducing agent than &nbsp; $Zn$",
+        "The fact that copper doesn't react with $ZnBr_{2}$ proves that copper loves/attracts/holds electrons more than does zinc."
+      ],
+      "correct": 2
+    }
+  ]
+}
