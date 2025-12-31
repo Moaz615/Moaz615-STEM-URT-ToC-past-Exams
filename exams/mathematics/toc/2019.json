@@ -1,0 +1,372 @@
+{
+    "questions": [
+        {
+            "q": "The function $f:R \\rightarrow R$ is differentiable and $f(-5)=f(9)=0$. Then the function $g(x)=\\cos(f(x))$ satisfies the condition:",
+            "options": [
+                "$g^{\\prime}$ has at least 3 zeroes",
+                "$g^{\\prime}$ has at most one zeroes",
+                "$g^{\\prime}$ has at exactly 3 zeroes",
+                "$g^{\\prime}$ has an infinite number of zeroes"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "How many explicit functions $y=f(x)$ does the implicit relation $x^{2}+y^{2}=5$ determine?",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "Infinite"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "$\\frac{d}{dx}(f(y))$ is equal to:",
+            "options": [
+                "$\\frac{d}{dx}(\\frac{df}{dy})$",
+                "$\\frac{d}{dx}(\\frac{dy}{dx})$",
+                "$\\frac{d}{dy}(f(y)) \\cdot \\frac{df}{dx}$",
+                "$\\frac{d}{dy}(f(y)) \\cdot \\frac{dy}{dx}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "If $e^{xy} = \\tan(y)$, then $\\frac{dy}{dx}$ is equal to:",
+            "options": [
+                "$\\frac{y \\tan(y)}{\\sec^{2}y - x \\tan(y)}$",
+                "$\\frac{x \\tan(y)}{\\sec^{2}y - y \\tan(y)}$",
+                "$\\frac{y \\tan(y)}{x \\tan(y) - \\sec^{2}y}$",
+                "$\\frac{x \\tan(y)}{y \\tan(y) - \\sec^{2}y}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If $Z_{1}, Z_{2}$ are complex numbers of $\\theta_{1}, \\theta_{2}$, then the amplitude of $(\\frac{3z_{1}}{z_{2}})$ is:",
+            "options": [
+                "$\\theta_{1}-\\theta_{2}$",
+                "$3(\\theta_{1}-\\theta_{2})$",
+                "$\\theta_{1}+\\theta_{2}$",
+                "$3(\\theta_{1}-\\theta_{2})$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If $z \\in C$, then which of the following is true?",
+            "options": [
+                "$z-\\overline{z}$ is real",
+                "$|z-1|=\\{\\begin{matrix}z-1 & \\text{if } z \\ge 1 \\\\ -z+1 & \\text{if } z < 1 \\end{matrix}$",
+                "$\\arg(z)+\\arg(\\overline{z})=\\pi$",
+                "$|z|=|\\overline{z}|$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "If $z_{1}=12+6i$ and $z_{2}=a+bi$ (where $a, b \\in R^{-}$), the product $Z_{1}Z_{2}$ is purely imaginary if:",
+            "options": [
+                "If and only if $a=b=0$",
+                "If $b=2a$",
+                "If $a=-2b$",
+                "For each value of $a$ and $b$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The point represented by $2+i$ in the Argand plane moves 1 unit eastwards, then 2 units northwards, and finally $2\\sqrt{2}$ units in the south-westwards direction. Its new position is:",
+            "options": [
+                "$2+2i$",
+                "$1+i$",
+                "$-1-i$",
+                "$-2-2i$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "If $0 < \\theta < \\pi$, for which value of $\\theta$ is $\\frac{2+3i\\sin\\theta}{1-2i\\sin\\theta}$ purely imaginary?",
+            "options": [
+                "$\\frac{\\pi}{3}$",
+                "$\\frac{\\pi}{6}$",
+                "$\\sin^{-1}(\\frac{\\sqrt{3}}{4})$",
+                "$\\sin^{-1}(\\frac{1}{\\sqrt{3}})$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The equation $z^{5}=1-\\sqrt{3}i$ has 5 roots. Which quadrant contains the maximum number of these roots?",
+            "options": [
+                "First",
+                "Second",
+                "Third",
+                "Fourth"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The opposite is the graph of a function $f(x)$. Which of the following represents the graph of $f'(x)$?",
+            "image": "exams/mathematics/toc/images/2019_q11.jpg",
+            "options": [
+                "A <img src='exams/mathematics/toc/images/2019_q11_a.png'>",
+                "B <img src='exams/mathematics/toc/images/2019_q11_b.png'>",
+                "C <img src='exams/mathematics/toc/images/2019_q11_c.png'>",
+                "D <img src='exams/mathematics/toc/images/2019_q11_d.png'>"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The function $f(x)=ax^{3}+bx^{2}+cx+d$ ($a \\ne 0$) is increasing on $R$ if:",
+            "options": [
+                "$a>0$",
+                "$ab>0$",
+                "$b^{2}-3ac < 0, a < 0$",
+                "$b^{2}-3ac < 0, a > 0$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "If $f''(x) > 0$ everywhere and $f$ has a minimum at $x=a$, and the tangent at $x=b$ is $y=mx+c$, which is true?",
+            "options": [
+                "$f(x) \\ge mx+c$",
+                "$f(x) > mx+c$",
+                "$f(x) \\le mx+c$",
+                "$f(x) < mx+c$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "At what point $(a, f(a))$ on the graph of $f(x)=-1+2x-x^{2}$ does the tangent pass through the origin?",
+            "options": [
+                "$(0,-1)$",
+                "$(1,0), (2,-1)$",
+                "$(1,0), (-1,-4)$",
+                "$(-1,-4), (2,-1)$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The graph below shows the curve of a function $f$. At which interval do $f$, $f'$ and $f''$ have the same sign?",
+            "image": "exams/mathematics/toc/images/2019_q15.png",
+            "options": [
+                "$]-\\infty, -1[$",
+                "$]-1, 1[$",
+                "$]1, 2[$",
+                "$]2, \\infty[$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Give an example of a function $f$ for which $f'(0) = 0$ even though the function $f$ has neither a local maximum nor a local minimum at $x=0$.",
+            "options": [
+                "$f(x) = x$",
+                "$f(x) = x^2$",
+                "$f(x) = x^3$",
+                "$f(x) = x^4$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If $x+y=\\frac{\\pi}{2}$, what is the smallest value of $\\tan x + \\cot y$?",
+            "options": [
+                "0",
+                "1",
+                "$\\frac{\\pi}{2}$",
+                "2"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A right triangle with hypotenuse $\\sqrt{3}$ m is revolved around a leg to generate a cone. Find the maximum volume.",
+            "image": "exams/mathematics/toc/images/2019_q18.png",
+            "options": [
+                "$2\\pi$",
+                "$\\frac{2}{3}\\pi$",
+                "$\\frac{4}{3}\\pi$",
+                "$\\frac{1}{8}\\pi$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A graph of a moving object's velocity $v(x)$ against position is shown. The acceleration is the rate of change of velocity with time. What can you say about the acceleration of the object?",
+            "image": "exams/mathematics/toc/images/2019_q19.png",
+            "options": [
+                "The acceleration is negative when $x < 0$.",
+                "The acceleration is zero at some point in the interval when $-25 < x < 0$.",
+                "The acceleration is zero at all times shown.",
+                "The acceleration is positive at all times."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The figure below is the position – time graph of a moving body, if the curve has inflection point at $x = 2$, the acceleration is positive at $t \\in \\dots$",
+            "image": "exams/mathematics/toc/images/2019_q20.png",
+            "options": [
+                "$]0, 1[$",
+                "$]0, 2[$",
+                "$]1, 3[$",
+                "$]2, \\infty[$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "It costs you 30 pound each to manufacture and distribute toys. If the toys sell at $x$ pounds each, the number sold is given by $n = \\frac{a}{x-30} + b(100 - x)$, where a and b are positive constants. What selling price will bring a maximum profit?",
+            "options": [
+                "70",
+                "65",
+                "60",
+                "55"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "If the distance of a particle is $x(t)=3+(t-2)^{4}$, how many times does the particle reverse direction?",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A particle starts from rest ($x=0, v=0$) with acceleration $5 m/s^{2}$ at $t=0$ and reaches max velocity at 6s. Find displacement from $t=0$ to $t=2s$.",
+            "options": [
+                "$\\frac{80}{9}$",
+                "6",
+                "$\\frac{109}{6}$",
+                "21"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Choose the integral expression that would result in the total distance traveled on the interval $[0, 3]$ if the velocity is given by $v(t) = e^t - 6$.",
+            "options": [
+                "$\\int_{0}^{\\ln 6} (e^t - 6) \\, dt + \\int_{\\ln 6}^{3} (e^t - 6) \\, dt$",
+                "$\\int_{3}^{\\ln 6} (e^t - 6) \\, dt - \\int_{\\ln 6}^{0} (e^t - 6) \\, dt$",
+                "$\\int_{\\ln 6}^{3} (e^t - 6) \\, dt - \\int_{0}^{\\ln 6} (e^t - 6) \\, dt$",
+                "$\\int_{0}^{\\ln 6} (e^t - 6) \\, dt - \\int_{\\ln 6}^{3} (e^t - 6) \\, dt$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The rate of change of bacteria is proportional to the number present. If 3,000 initially and 90,000 after 2 hours, how many after 4 hours?",
+            "options": [
+                "27,000",
+                "30,000",
+                "60,000",
+                "2,700,000"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The slope field of the differential equation $\\frac{dy}{dx} = x + y$ is:",
+            "options": [
+                "A <img src='exams/mathematics/toc/images/2019_q26_a.png'>",
+                "B <img src='exams/mathematics/toc/images/2019_q26_b.png'>",
+                "C <img src='exams/mathematics/toc/images/2019_q26_c.png'>",
+                "D <img src='exams/mathematics/toc/images/2019_q26_d.png'>"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If $f(x) = \\int_{1}^{x} t^{4} dt$, then $f'(x)$ is:",
+            "options": [
+                "$t^{4}$",
+                "$x^{4}$",
+                "$\\frac{1}{5}x^{5} - \\frac{1}{5}$",
+                "$x^{4}-1$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The graph of function $f$ is given below. Let $g(x) = \\int_{0}^{x} f(t)dt$. Then for $0 < x < 2$, $g(x)$ is:",
+            "image": "exams/mathematics/toc/images/2019_q28.png",
+            "options": [
+                "Increasing and convex down",
+                "Increasing and convex up",
+                "Decreasing and convex down",
+                "Decreasing and convex up"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Calculate $\\int \\sin^{3}x \\cos^{4}x dx$:",
+            "options": [
+                "$-\\frac{\\cos^{5}x}{5} + \\frac{\\cos^{7}x}{7} + c$",
+                "$-\\frac{\\sin^{5}x}{5} + \\frac{\\sin^{7}x}{7} + c$",
+                "$-\\frac{\\sin^{3}x}{3} + \\frac{\\sin^{5}x}{5} + c$",
+                "$-\\sin x + \\frac{\\sin^{3}x}{3} + c$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If $f(x)$ is an odd function, then $\\int_{-2}^{2} f'(x) dx$ is:",
+            "options": [
+                "0",
+                "2",
+                "4",
+                "otherwise"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "In evaluating $\\int \\frac{dx}{\\sqrt{x^{2}-9}}$, the best substitution is:",
+            "options": [
+                "$u^{2} = x^{2}-9$",
+                "$u = x^{2}$",
+                "$x = 3\\sin\\theta$",
+                "$x = 3\\sec\\theta$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The integral $\\int_{1}^{\\infty} \\frac{\\ln x}{x^{2}} dx$:",
+            "options": [
+                "Converges to 0",
+                "Converges to 1",
+                "Converges to 2",
+                "Diverges"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Find the measure of the angle between the line $\\vec{r} = (2\\hat{i} + \\hat{k}) + \\lambda(3\\hat{i} - 4\\hat{j} + \\hat{k})$ and the plane $\\vec{r} \\cdot (5\\hat{i} + \\hat{j} - 6\\hat{k}) = 2$.",
+            "options": [
+                "82.8°",
+                "7.2°",
+                "48°",
+                "42°"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "In the given figure, $\\overline{NA} \\perp$ the plane $ABC$. Find the measure of the dihedral angle $m(A - \\overleftrightarrow{BC} - N)$.",
+            "image": "exams/mathematics/toc/images/2019_q34.png",
+            "options": [
+                "26.6°",
+                "30°",
+                "45°",
+                "60°"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Find the exact area of the region enclosed by the curves $y = x \\cos x$ and $y = x \\sin x$ shown in the graph below:",
+            "image": "exams/mathematics/toc/images/2019_q35.png",
+            "options": [
+                "$\\frac{\\sqrt{2}}{2} \\pi$",
+                "$\\frac{1}{4}(\\sqrt{2} \\pi - 4)$",
+                "$\\frac{1}{2}(\\pi - 4)$",
+                "$\\sqrt{2} - 1$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The region between the curves $y = \\cos x, y = \\sin x, \\pi \\leq x \\leq \\frac{5\\pi}{4}$ is revolved about the $x$-axis to generate a solid. Find its volume.",
+            "options": [
+                "$\\frac{2\\pi}{3}$",
+                "$\\pi$",
+                "3$\\pi$",
+                "$\\frac{1}{2} \\pi$"
+            ],
+            "correct": 3
+        }
+    ]
+}

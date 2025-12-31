@@ -1,0 +1,339 @@
+{
+    "questions": [
+        {
+            "q": "Find all points (x, y) on the curve $x^2 + y^2 - 2x - 8 = 0$ where the line tangent to the curve is vertical.",
+            "options": [
+                "$(0, 2\\sqrt{2}), (0, -2\\sqrt{2})$",
+                "$(1, 3), (1, -3)$",
+                "$(4, 0), (-2, 0)$",
+                "$(1, 1 - \\sqrt{5}), (1, 1 + \\sqrt{5})$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The equation of the tanget to the curve $x = \\theta − \\sin \\theta, y = 1 − \\cos \\theta$ at $\\theta = \\frac{\\pi}{2}$ is . . .",
+            "options": [
+                "$x + y = \\frac{\\pi}{2}$",
+                "$y - x + \\frac{\\pi}{2} - 2 = 0$",
+                "$2x - y + 2 = 0$",
+                "$y = 1$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "If $y = a\\cos(\\ln x) + b\\sin(\\ln x)$ then which of the following is correct?",
+            "options": [
+                "$x^2 \\frac{d^2y}{dx^2} + x \\frac{dy}{dx} + y = 0$",
+                "$x^2 \\frac{d^2y}{dx^2} + y = 0$",
+                "$x^2 \\frac{d^2y}{dx^2} - 2(x + y) \\frac{dy}{dx} + y = 0$",
+                "$\\frac{d^2y}{dx^2} + \\frac{dy}{dx} + y = 0$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "$f$ and $g$ are differentiable functions of $x$. If $y = \\frac{f(g(x))}{g(f(x))}$ then $\\frac{dy}{dx} = ...$",
+            "options": [
+                "$\\frac{f^{\\prime}(x)}{g^{\\prime}(x)}$",
+                "$\\frac{g^{\\prime}(x)}{f^{\\prime}(x)}$",
+                "$\\frac{f^2(x)g^{\\prime}(x) - g^2(x)f^{\\prime}(x)}{g^{\\prime}(x)f^{\\prime}(x)}$",
+                "None of these"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "If $z_1, z_2$ and $z_3$ are complex numbers such that $|z_1| = |z_2| = |z_3| = r$ and $z_1 + z_2 + z_3 = 0$, then $\\frac{1}{z_1} + \\frac{1}{z_2} + \\frac{1}{z_3} = ...$",
+            "options": [
+                "$r$",
+                "$\\frac{1}{r}$",
+                "0",
+                "1"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If $z_1, z_2, \\dots, z_n$ are the roots of the equation $z^n = 1$ then $z_1 + z_2 + \\dots + z_n = ...$",
+            "options": [
+                "0",
+                "-1",
+                "1",
+                "n"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If $z = 1 + ai$ is a complex number, $a > 0$ such that $z^3$ is a pure real. Find the value of $1 + z + z^2 + z^3 + \\dots + z^{11}$",
+            "options": [
+                "$-1250\\sqrt{3} &nbsp;i$",
+                "$1250\\sqrt{3} &nbsp;i$",
+                "$1365\\sqrt{3} &nbsp;i$",
+                "$-1365\\sqrt{3} &nbsp;i$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If $z_1, z_2$ are two complex numbers in the given figure, then $z_1z_2 = ...$",
+            "image": "exams/mathematics/toc/images/2018_q8.png",
+            "options": [
+                "$-10i$",
+                "$-8i$",
+                "$-6i$",
+                "$-4i$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If the cube roots of unity are $1, \\omega, \\omega^2$ then the roots of the equation $(x - 1)^3 + 8 = 0$ are:",
+            "options": [
+                "$(1, 1 + 2\\omega, 1 - 2\\omega^2)$",
+                "$(-1, 1 - 2\\omega, 1 - 2\\omega^2)$",
+                "$(-1, -1 - 2\\omega, -1 - 2\\omega^2)$",
+                "$(-1, -1 + 2\\omega, -1 + 2\\omega^2)$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "If the sixth term of a geometric progression is 3, then the product of the first eleven terms of the progression is:",
+            "options": [
+                "$3^5$",
+                "$3^{10}$",
+                "$3^{11}$",
+                "$11^3$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The first negative term of the arithmetic sequence $(77, 73, 69, \\dots)$ is:",
+            "options": [
+                "$T_{20}$",
+                "$T_{21}$",
+                "$T_{22}$",
+                "$T_{23}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The figure shows the graph of two functions $f$ and $g$. If $h'(x) = f(x) - g(x)$, then $h(x)$ has local maximum value at $x = ...$",
+            "image": "exams/mathematics/toc/images/2018_q12.png",
+            "options": [
+                "0",
+                "-1",
+                "2",
+                "-2"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If $f(x) = \\frac{x}{\\sin x}$, $g(x) = x^3$ where $0 < x < 1$, then in this interval:",
+            "options": [
+                "Both f(x) and g(x) are increasing functions",
+                "Both f(x) and g(x) are decreasing functions",
+                "f(x) is an increasing function but g(x) is a decreasing function",
+                "f(x) is a decreasing function but g(x) is an increasing function"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The function $f$ has property that $f(x)$, $f'(x)$ and $f''(x)$ are negative for all real values $x$. which of the following could be the graph of $f$?",
+            "options": [
+                "A <img src='exams/mathematics/toc/images/2018_q14_a.png'>",
+                "B <img src='exams/mathematics/toc/images/2018_q14_b.png'>",
+                "C <img src='exams/mathematics/toc/images/2018_q14_c.png'>",
+                "D <img src='exams/mathematics/toc/images/2018_q14_d.png'>"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The figure above shows the graph of the differentiable function $f$. Which of the following statements is true?",
+            "image": "exams/mathematics/toc/images/2018_q15.png",
+            "options": [
+                "$f^{\\prime}(2) < f^{\\prime \\prime}(2) < f(2)$",
+                "$f^{\\prime \\prime}(2) < f(2) < f^{\\prime}(2)$",
+                "$f^{\\prime \\prime} (2)  < f^{\\prime}(2) < f(2) $",
+                "$f(2) < f^{\\prime}(2) < f^{\\prime  \\prime}(2)$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Given $f(x) = \\frac{x^2 - 1}{x^2 + 1}$ for every real number $x$, then the minimum value of $f$",
+            "options": [
+                "Does not exist",
+                "-1",
+                "1",
+                "0"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "An open rectangular box with square base is to be made from $48\\text{ cm}^2$ of material. What dimensions will result in a box with the largest possible volume?",
+            "image": "exams/mathematics/toc/images/2018_q17.png",
+            "options": [
+                "4, 4, 3",
+                "$4\\sqrt{3}, 4\\sqrt{3}, 3$",
+                "$8\\sqrt{3}, 8\\sqrt{3}, \\frac{2}{3}\\sqrt{3}$",
+                "$6\\sqrt{3}, 6\\sqrt{3}, 2\\sqrt{3}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If the standard deviation of population is 64 and sample size is 16, then the standard deviation of sampling distribution is",
+            "options": [
+                "64",
+                "4",
+                "1024",
+                "16"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The strongest correlation coefficient of the following is:",
+            "options": [
+                "-0.94",
+                "0",
+                "0.5",
+                "0.85"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A particle moves in the $xy$-plane so that at any time $t$ its coordinates are $x = t^2 - 1$ and $y = t^4 - 2t^3$. At $t = 1$, its acceleration vector is",
+            "options": [
+                "(0, -1)",
+                "(2, -2)",
+                "(2, 0)",
+                "(1, 2)"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A particle moves along a straight line. The graph of the particle's position $x(t)$ at time $t$ is shown. The graph has horizontal tangents at $t = 1$ and $t = 5$ and a point of inflection at $t = 2$. For what values of $t$ is the velocity of the particle increasing?",
+            "image": "exams/mathematics/toc/images/2018_q21.png",
+            "options": [
+                "$0 < t < 2$",
+                "$1 < t < 5$",
+                "$3 < t < 5$ only",
+                "$1 < t < 2$ and $5 < t < 6$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Given $5\\frac{dy}{dx} + y = x$ with $y(0.1) = 5$ and using a step size of $h = 0.1$, the value of $y(0.3)$ using Euler's method is most nearly",
+            "options": [
+                "4.71780",
+                "4.80796",
+                "4.90200",
+                "5.10030"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Evaluate the integral $\\int_{0}^{\\frac{\\pi}{2}} \\cos^4 x \\, dx = \\dots$",
+            "options": [
+                "0",
+                "$\\frac{\\pi}{6}$",
+                "$\\frac{\\pi}{16}$",
+                "$\\frac{3\\pi}{16}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which of the following is the best integration technique to use for $\\int \\ln x \\, dx$?",
+            "options": [
+                "By parts",
+                "By chain rule",
+                "By partial fractions",
+                "By substitution rule"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Determine $\\int_{1}^{\\infty} \\frac{1}{1 + x^2} \\, dx$",
+            "options": [
+                "$\\tan^{-1} x + c$",
+                "$\\frac{\\pi}{2}$",
+                "$\\frac{\\pi}{4}$",
+                "Diverges"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "$\\int_{-1}^{1} x^{99} \\cos(x) \\, dx = \\dots$",
+            "options": [
+                "$\\pi$",
+                "$\\frac{\\pi}{2}$",
+                "$\\frac{\\pi}{4}$",
+                "0"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "An architect has designed an arc-like entryway of a hotel whose equation is $y = -\\frac{1}{2}(x - 1)(x - 7)$ where $x$ is in meters. How much does the glass cost if this entryway is covered by glass which costs 1500 LE per square meter?",
+            "options": [
+                "27000",
+                "2700",
+                "1500",
+                "1000"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Find the volume of the solid generated by revolving the region bounded by the curve $y = x^2$ and the straight line $y = 2x$ about the $x$-axis.",
+            "options": [
+                "$3\\pi$",
+                "$2\\sqrt{3}\\pi$",
+                "$\\frac{64\\pi}{15}$",
+                "$36\\sqrt{3}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The region bounded by the $x$-axis and the part of the graph of $y = \\cos x$ between $x = -\\frac{\\pi}{2}$ and $x = \\frac{\\pi}{2}$ is separated into two regions by the line $x = k$. If the area of the region for $-\\frac{\\pi}{2} \\le x \\le k$ is three times the area of the region for $k \\le x \\le \\frac{\\pi}{2}$, then $k =$",
+            "options": [
+                "$\\sin^{-1}(\\frac{1}{4})$",
+                "$\\frac{\\pi}{6}$",
+                "$\\frac{\\pi}{4}$",
+                "$\\frac{\\pi}{3}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Let $P(3, 2, 6)$ be a point in space and $Q$ be a point on the line $\\vec{r} = (\\hat{i} - \\hat{j} + 2\\hat{k}) + t(-3\\hat{i} + \\hat{j} + 5\\hat{k})$. Then the value of $t$ for which the vector $\\vec{PQ}$ is parallel to the plane $x - 4y + 3z = 1$ is:",
+            "options": [
+                "$\\frac{1}{4}$",
+                "$-\\frac{1}{4}$",
+                "$\\frac{1}{8}$",
+                "$-\\frac{1}{8}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Two adjacent sides of a parallelogram $ABCD$ are given by $\\vec{AB} = 2\\hat{i} + 10\\hat{j} + 11\\hat{k}$ and $\\vec{AD} = -\\hat{i} + 2\\hat{j} + 2\\hat{k}$. The side $\\vec{AD}$ is rotated by an acute angle $\\theta$ in the plane of the parallelogram so that $\\vec{AD}$ becomes $\\vec{AD'}$. If $\\vec{AD'}$ makes a right angle with $\\vec{AB}$, then the cosine of angle $\\theta$ is given by:",
+            "options": [
+                "$\\frac{8}{9}$",
+                "$\\frac{\\sqrt{17}}{9}$",
+                "$\\frac{1}{9}$",
+                "None of these"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If $X$ is a random variable whose range is $\\{0, 1, 2\\}$, then all the following functions do not represent its probability distribution function except:",
+            "options": [
+                "$f(x) = \\frac{x^2 + 1}{8}$",
+                "$f(x) = \\frac{2x + 1}{3}$",
+                "$f(x) = \\frac{1}{x + 2}$",
+                "$f(x) = \\frac{3x - 1}{6}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Balls numbered 1 through 20 are placed in a bag. Three balls are drawn out of the bag without replacement. What is the probability that all the balls have odd numbers on them?",
+            "options": [
+                "$\\frac{1}{4}$",
+                "$\\frac{1}{8}$",
+                "$\\frac{2}{19}$",
+                "$\\frac{3}{20}$"
+            ],
+            "correct": 2
+        }
+    ]
+}

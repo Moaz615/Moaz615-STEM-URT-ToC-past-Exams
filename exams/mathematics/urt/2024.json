@@ -1,0 +1,517 @@
+{
+    "questions": [
+        {
+            "q": "$P(A|B)$ when A and B are independent:",
+            "options": [
+                "$P(A\\cap B)$",
+                "$P(A)$",
+                "$P(B)$",
+                "$P(B^{\\prime})$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A right-angle triangular prism has a base area of 60, a perimeter of 40, and a height of 7. What is the total surface area:",
+            "options": [
+                "340",
+                "400",
+                "500",
+                "2840"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A bird going west at $x~m/s,$ and a train with length 150 m moving east at $20~m/s$. The bird covers the size of the train in 6 seconds. The velocity of the bird is in km/h:",
+            "options": [
+                "3.6",
+                "18",
+                "5",
+                "7.2"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Car A is going East with a velocity of $54~km/h.$ Car B is going west with a velocity of $20~m/sec.$ What is A's velocity with respect to B?",
+            "options": [
+                "$74~km/h$ East",
+                "$36~m/sec$ West",
+                "$35~m/sec$ East",
+                "$34~km/h$ West"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "What is the function of the parabola shown in the graph?",
+            "image": "exams/mathematics/urt/images/2024_q5.png",
+            "options": [
+                "$y=(x-2)^{2}-5$",
+                "$y=-2(x+1)^{2}+3$",
+                "$y=-(3-x)^{2}+4$",
+                "$y=(x+4)^{2}-6$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Slope between the y-intercept and the second root of the parabola shown in the graph:",
+            "image": "exams/mathematics/urt/images/2024_q6.png",
+            "options": [
+                "1",
+                "-1",
+                "2",
+                "-2"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Area of a triangle under the parabola formed by the two roots and the y-intercept as vertices:",
+            "image": "exams/mathematics/urt/images/2024_q7.png",
+            "options": [
+                "10",
+                "12.5",
+                "5",
+                "8"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Compute the following integral: $\\int (1+\\tan^{2}(x)) \\,dx$",
+            "options": [
+                "$\\tan(x)$",
+                "$\\tan^{2}(x)$",
+                "$\\sec(x)$",
+                "$\\sec^{2}(x)$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Two forces $F_{1}=24N$ and $F_{2}$ with an angle of $120^{\\circ}$ create a resultant R. What value of $F_{2}$ minimizes R?",
+            "options": [
+                "12 N",
+                "5 N",
+                "16 N",
+                "20 N"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Two forces with values 70 and 80, what is the minimum value of the resultant?",
+            "options": [
+                "10",
+                "150",
+                "70",
+                "Zero"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A body falls from a height of $h$ in time $t$. After $t/3$, what is the height from the ground?",
+            "options": [
+                "$\\frac{1}{9}h$",
+                "$\\frac{8}{9}h$",
+                "$\\frac{17}{19}h$",
+                "$\\frac{1}{3}h$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "What is the angle between two forces of magnitudes $10N$ and $10\\sqrt{3}N$ if their resultant has a magnitude of $20N$?",
+            "options": [
+                "$30^{\\circ}$",
+                "$60^{\\circ}$",
+                "$90^{\\circ}$",
+                "$270^{\\circ}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If A and B are mutually exclusive events, then $P(A\\cap B)=$",
+            "options": [
+                "0",
+                "$1/2$",
+                "1",
+                "$\\phi$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If three vertices are chosen at random from a regular hexagon, what is the probability that these form the vertices of an equilateral triangle?",
+            "options": [
+                "$1/20$",
+                "$1/10$",
+                "$3/10$",
+                "$1/5$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "What is the formula for the displacement covered by an object in the $n^{th}$ second if the object is moving with constant acceleration $a$ and an initial velocity $u$?",
+            "options": [
+                "$S=u^{2}+\\frac{1}{2}a(2t-1)$",
+                "$S=u+\\frac{1}{2}a(2t+1)$",
+                "$S=u+\\frac{1}{2}a(2n-1)$",
+                "$S=ut+\\frac{1}{2}a(2t+1)$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "An object is thrown vertically upwards with an initial velocity of $49m/sec$. Find the displacement and distance the body covers during the $5^{th}$ and $6^{th}$ seconds.",
+            "options": [
+                "Zero, Zero",
+                "Zero, 9.8m",
+                "Zero, 4.9m",
+                "Zero, 99.8m"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "At what value of $t$ does an object have the maximum speed if its displacement function is $S(t)=-t^{3}+6t^{2}$?",
+            "options": [
+                "1",
+                "2",
+                "0",
+                "6"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which of the following is NOT true for a unit circle with angle $t$?",
+            "options": [
+                "$1-\\sin^{2}(t)=\\cos^{2}(t)$",
+                "$\\sec^{2}(t)-1=\\tan^{2}(t)$",
+                "$1+\\cot^{2}(t)=\\csc^{2}(t)$",
+                "$1-\\sec^{2}(t)=\\csc^{2}(t)$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The following graph shows $f^{\\prime}(x)$. What is the number of inflection points of $f(x)$?",
+            "image": "exams/mathematics/urt/images/2024_q19.png",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which of the following graphs is an accurate representation for $z_{1}z_{2}$?",
+            "image": "exams/mathematics/urt/images/2024_q20.png",
+            "options": [
+                "A <img src='exams/mathematics/urt/images/2024_q20_a.png' alt='Graph A'/>",
+                "B <img src='exams/mathematics/urt/images/2024_q20_b.png' alt='Graph B'/>",
+                "C <img src='exams/mathematics/urt/images/2024_q20_c.png' alt='Graph C'/>",
+                "D <img src='exams/mathematics/urt/images/2024_q20_d.png' alt='Graph D'/>"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "An object with weight $20N$ is on a ramp with angle $30^{\\circ}$. Find the component of the weight along the line with the greatest slope.",
+            "options": [
+                "$10\\sqrt{3}$",
+                "10",
+                "$10(\\sqrt{3}-1)$",
+                "$10(\\sqrt{3}+1)$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A parabola with the equation $2(y-3)^{2}+24=x.$ Find the focus and vertex.",
+            "options": [
+                "$(\\frac{193}{8},3), (24,3)$",
+                "$(1,3), (3,24)$",
+                "$(24,3), (\\frac{193}{8},3)$",
+                "$(3,24), (1,3)$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "$\\sin(x)=0.7$ has two values for $x$. If one of them is $\\theta$, what is the other value?",
+            "options": [
+                "$90+\\theta$",
+                "$90-\\theta$",
+                "$180-\\theta$",
+                "$180+\\theta$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The solution set of the inequality $-8\\le3x+1\\le7$ where $x\\in\\mathbb{R}^{-}$ is:",
+            "options": [
+                "$[-3,2]$",
+                "$[-3,0[$",
+                "$[-3,0]$",
+                "None of the above"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which value of $x$ satisfies $[x]=-2x$?",
+            "options": [
+                "2",
+                "-1",
+                "0",
+                "1"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If $A=\\begin{bmatrix} 1 & 1 \\\\ -3 & 2 \\end{bmatrix}$, find $A^{2}$.",
+            "options": [
+                "$\\begin{bmatrix} -2 & 3 \\\\ -9 & 1 \\end{bmatrix}$",
+                "$\\begin{bmatrix} 1 & 1 \\\\ 9 & 4 \\end{bmatrix}$",
+                "$\\begin{bmatrix} -2 & -3 \\\\ 9 & 1 \\end{bmatrix}$",
+                "$\\begin{bmatrix} 5 & 3 \\\\ -2 & 7 \\end{bmatrix}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Find the period of the function $\\sin(\\frac{\\pi}{6}x)$:",
+            "options": [
+                "12",
+                "6",
+                "3",
+                "$2\\pi$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If $\\pi^{\\log_{\\pi} x}=3$, then $e^{\\ln x}=$",
+            "options": [
+                "$e$",
+                "$\\pi$",
+                "3",
+                "$e^{3}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Write the following sum in summation notation: $9(1)+9(2)+\\dots+9(50)$",
+            "options": [
+                "$\\sum_{r=1}^{9}9r$",
+                "$\\sum_{r=1}^{50}9r$",
+                "$\\sum_{r=1}^{9}50r$",
+                "$\\sum_{r=1}^{50}50r$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which of the following objects cannot be in equilibrium?",
+            "options": [
+                "A plane in the air",
+                "An object sliding with an applied force",
+                "An object hung with two ropes attached to a ceiling",
+                "An object hung using complex rope/wall system"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "If the objects are in equilibrium, calculate $m_{1}$ based on the balance conditions ($m_1$ at $x$ vs $m_2$ at $y$, and $m_3$ at $x$ vs $m_1$ at $y$).",
+            "options": [
+                "$1/2(m_{2}+m_{3})$",
+                "$\\sqrt{m_{2}m_{3}}$",
+                "$m_{2}+m_{3}$",
+                "$m_{2}m_{3}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Resultant of forces: $(10N, 0), (10N, \\pi/2), (10N, \\pi), (10N, 3\\pi/2)$",
+            "options": [
+                "$\\vec{0}$",
+                "$10N$",
+                "$10\\sqrt{3}N$",
+                "$20N$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Two orthogonal forces of magnitudes $10$ and $10\\sqrt{3}$. What is the tangent of the angle between the resultant and the first force?",
+            "options": [
+                "$\\sqrt{3}$",
+                "$\\sqrt{2}/2$",
+                "$1/\\sqrt{3}$",
+                "1"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The height of a cone is tripled and the diameter doubled, then the volume increases by how much?",
+            "options": [
+                "two times",
+                "eight times",
+                "six times",
+                "twelve times"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The angle between the diagonal of a cuboid and the plane of the lower base is... ($x=6m, y=4m, z=2m$)",
+            "options": [
+                "15.5°",
+                "10.5°",
+                "20.5°",
+                "30.5°"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "ABCDEF is a regular hexagon. Find the resultant of two forces of magnitude $5N$ in the directions of AB and AF.",
+            "image": "exams/mathematics/urt/images/2024_q36.png",
+            "options": [
+                "AE",
+                "AD",
+                "DA",
+                "AC"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Using the diagram, find the resultant force R of $F_1=14N$ and $F_2=7\\sqrt{2}N$ at $\\theta=45^{\\circ}$.",
+            "image": "exams/mathematics/urt/images/2024_q37.png",
+            "options": [
+                "$(7\\sqrt{2}, -\\pi/4)$",
+                "$(7\\sqrt{2}, \\pi/4)$",
+                "$(7, -3\\pi/2)$",
+                "$(14, \\pi/4)$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Based on the speed-time graph, describe the motion from point C to point D.",
+            "image": "exams/mathematics/urt/images/2024_q38.png",
+            "options": [
+                "The object is at rest",
+                "The object is speeding up",
+                "The object is slowing down",
+                "Moving with constant speed (accel = 0)"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Describe the motion of the object from point E to point F.",
+            "image": "exams/mathematics/urt/images/2024_q39.png",
+            "options": [
+                "Moving with constant speed",
+                "The object is not moving (at rest)",
+                "Speeding up",
+                "Slowing down"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Describe the motion of the object from point F to point G.",
+            "image": "exams/mathematics/urt/images/2024_q40.png",
+            "options": [
+                "Moving with constant speed",
+                "The object is at rest",
+                "Speeding up with $1 m/s^2$ acceleration",
+                "Slowing down"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "What is the area under the curve (distance covered) from $t = 8$ to $t = 13$?",
+            "image": "exams/mathematics/urt/images/2024_q41.png",
+            "options": [
+                "10",
+                "12.5",
+                "25",
+                "8"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Resultant of $(100N, \\pi)$ and $(40\\sqrt{2}N, 3\\pi/4)$:",
+            "options": [
+                "$-140i + 40j$",
+                "$-140i - 40j$",
+                "$-100i$",
+                "$40j$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Convert force $F = 20N$ at $30^{\\circ}$ from the negative x-axis (as shown) to polar coordinates.",
+            "image": "exams/mathematics/urt/images/2024_q43.png",
+            "options": [
+                "$(20\\sqrt{3}, 30^{\\circ})$",
+                "$(10\\sqrt{3}, 30^{\\circ})$",
+                "$(20, 150^{\\circ})$",
+                "$(10, 150^{\\circ})$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which point lies in the region: $x \\ge 0, y \\ge 0, 2x - y \\ge 7, x + 2y \\ge 7$?",
+            "options": [
+                "(3,3)",
+                "(4,1)",
+                "(8,0)",
+                "(2,0)"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Mass 10 kg, force $\\vec{F}= (a + 5)\\vec{i} + b\\vec{j}$, velocity $\\vec{v} = t^{2}\\vec{i} + t\\vec{j}$. Find $b - a$.",
+            "options": [
+                "5",
+                "-5",
+                "10",
+                "3"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which graph correctly represents the height of water over time for a cup shaped as a frustum base followed by a cylinder?",
+            "image": "exams/mechanics/urt/images/2024_q46.png",
+            "options": [
+                "A <img src='exams/mathematics/urt/images/2024_q46_a.png' alt='Graph A'/>",
+                "B <img src='exams/mathematics/urt/images/2024_q46_b.png' alt='Graph B'/>",
+                "C <img src='exams/mathematics/urt/images/2024_q46_c.png' alt='Graph C'/>",
+                "D <img src='exams/mathematics/urt/images/2024_q46_d.png' alt='Graph D'/>"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "$90 km/hr = \\dots m/s$",
+            "options": [
+                "25",
+                "30",
+                "15",
+                "20"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "An object moves from $A(0,0)$ to $Q(200,0)$ in 15 seconds, then returns to $P(150,0)$. The total time is not specified but the answer is based on average velocity from origin to P.",
+            "options": [
+                "27 km/h",
+                "750 cm/h",
+                "1250 cm/sec",
+                "10 m/sec"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "If $z = 3(\\cos \\theta - 2 \\sin \\theta)$, then $z^{3} = \\dots$",
+            "options": [
+                "$27(\\cos 3\\theta + 2 \\sin 3\\theta)$",
+                "$27(\\cos 3\\theta - 2 \\sin 3\\theta)$",
+                "$3(\\cos 3\\theta + 2 \\sin 3\\theta)$",
+                "$3(\\cos 3\\theta - 2 \\sin 3\\theta)$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "What is the minimum resultant of two forces with magnitudes 8N and 3N?",
+            "options": [
+                "5",
+                "11",
+                "7",
+                "6"
+            ],
+            "correct": 0
+        }
+    ]
+}

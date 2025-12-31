@@ -1,0 +1,377 @@
+{
+    "questions": [
+        {
+            "q": "Match each graph of a function $(a, b, c, d)$ with the graph of its derivative $(1, 2, 3, 4)$ shown in the image.",
+            "image": "exams/mathematics/toc/images/2016_q1.png",
+            "options": [
+                "(a, 1), (b, 2), (c, 4), (d, 3)",
+                "(a, 3), (b, 4), (c, 1), (d, 2)",
+                "(a, 3), (b, 4), (c, 2), (d, 1)",
+                "(a, 1), (b, 4), (c, 2), (d, 3)"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "$\\frac{d}{dx}(f(y))$ is equal to:",
+            "options": [
+                "$\\frac{d}{dx}(\\frac{df}{dy})$",
+                "$\\frac{d}{dx}(\\frac{dy}{dx})$",
+                "$\\frac{d}{dy}(f(y)) \\cdot \\frac{df}{dx}$",
+                "$\\frac{d}{dy}(f(y)) \\cdot \\frac{dy}{dx}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "If $y = e^{2x}$, then $\\frac{d^2y}{dx^2} \\cdot \\frac{d^2x}{dy^2} =$ ",
+            "options": [
+                "1",
+                "$e^{-2x}$",
+                "$2e^{-2x}$",
+                "$-2e^{-2x}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Let $g(x)$ be the reflection of $f(x)$ about the line $y = x$, and $f'(x) = \\frac{x^{12}}{1+x^2}$. If $g(3) = a$, then $g'(3) =$",
+            "options": [
+                "$\\frac{1 + a^2}{a}$",
+                "$\\frac{a^{12}}{1 + a^2}$",
+                "$\\frac{1 + a^2}{a^{12}}$",
+                "$\\frac{a}{1 + a^2}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If $C$ is the set of complex numbers, $z \\in C$, which of the following statements is true?",
+            "options": [
+                "$z-\\overline{z}$ is real",
+                "$|z-1|=\\{\\begin{matrix}z-1 & \\text{if } z \\ge 1 \\\\ -z+1 & \\text{if } z < 1 \\end{matrix}$",
+                "$\\arg(z)+\\arg(\\overline{z})=\\pi$",
+                "$|z|=|\\overline{z}|$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "If $\\mathbb{C}$ is the set of complex numbers, $z = \\frac{(a+b)+i(a-b)}{(a-b)+i(a+b)}$, then $|z| =$",
+            "options": [
+                "a^2 + b^2",
+                "a^2 - b^2",
+                "2ab",
+                "1"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "If $z_1 = -1 - \\sqrt{3}i, z_2 = 2 + 2i$ then $\\frac{z_2^4}{z_1^3} =$",
+            "options": [
+                "8i",
+                "-8i",
+                "8",
+                "-8"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "If $z_1 = 5 - i$, and $z_2 = a + bi$, are complex numbers such that $a, b \\in \\mathbb{R}$, we can say that the product $z_1 \\cdot z_2$ is real",
+            "options":[
+                "if and only if $a = b = 0$",
+                "if $b = 5a$",
+                "if $a = 5b$",
+                "for all values of $a$ and $b$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Let $1, \\omega, \\omega^2$ be the cubic roots of unity, then the value of $\\left( \\frac{5-3\\omega}{5\\omega^2-3} - \\frac{3+5\\omega^2}{3\\omega+5} \\right)^6 =$",
+            "options": [
+                "-27",
+                "27",
+                "-27i",
+                "27i"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Let $z_1, z_2$ be complex numbers such that $\\bar{z_1} + i\\bar{z_2} = 0$ and $Arg(z_1z_2) = \\pi$. Then $Arg(z_1)$ equals",
+            "options": [
+                "$\\frac{3\\pi}{4}$",
+                "$\\frac{\\pi}{2}$",
+                "$\\frac{\\pi}{4}$",
+                "$\\frac{5\\pi}{4}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If $f$ is a continuous, decreasing function on $[0, 10]$ with a critical point at $(4, 2)$, which of the following statements must be false?",
+            "options": [
+                "$f(10)$ is an absolute minimum of $f$ on $[0, 10]$",
+                "$f(4)$ is neither a relative maximum nor a relative minimum.",
+                "$f(4)$ does not exist",
+                "$f'(4) < 0$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which of the following functions has exactly two local extreme on its domain?",
+            "options": [
+                "$f(x) = |x - 2|$ ",
+                "$f(x) = x^3 - 6x + 5$",
+                "$f(x) = x^3 + 6x - 5$",
+                "$f(x) = x + \\ln x$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "If $a < 0$, then the graph of $y = ax^3 + 3x^2 + 4x + 5$ is concave up on the interval:",
+            "options": [
+                "$(-\\infty, \\frac{-1}{a})$",
+                "$(-\\infty, \\frac{1}{a})$",
+                "$(\\frac{-1}{a}, \\infty)$",
+                "$(\\frac{1}{a}, \\infty)$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The x - coordinates of the points of inflection of the curve $y = x^5 - 5x^4 + 3x + 7$ is / are:",
+            "options": [
+                "$0$ only",
+                "$3$ only",
+                "$0$ and $3$",
+                "$0$ and $-3$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "If $g$ is a differentiable function such that $g(x) < 0$ for all real numbers $x$ and $f$ is a differentiable function such that $f^{\\prime} = (x^2 - 9) \\cdot g(x)$, which of the following sentences is true?",
+            "options": [
+                "$f$ has a relative maximum at $x = -3$ and a relative minimum at $x = 3$",
+                "$f$ has a relative minimum at $x = -3$ and a relative maximum at $x = 3$",
+                "$f$ has relative minima at $x = -3$ and at $x = 3$",
+                "$f$ has relative maxima at $x = -3$ and at $x = 3$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A continuous function $f$ has domain $[ 1, 25 ]$ and range $[ 3, 30 ]$. If $f'(x) \\le 0$ for all $x \\in ( 1, 25 )$, what is $f(25)$?",
+            "options": [
+                "1",
+                "3",
+                "30",
+                "Impossible to determine from the informations given"
+            ],
+            "answer": "B"
+        },
+        {
+            "q": "Each rectangular page of a book must contain $18\\text{ cm}^2$ of printed text, and each page must have $2\\text{ cm}$ margins at top and bottom, and $1\\text{ cm}$ margin at each side. What is the minimum possible area of such a page?",
+            "options": [
+                "36\\text{ cm}^2",
+                "72\\text{ cm}^2",
+                "40",
+                "50"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "It costs you $30$ pounds each to manufacture and distribute toys. If the toys sell at $x$ pounds each, the number sold is given by $n = \\frac{a}{x - 30} + b(100 - x)$, where $a$ and $b$ are positive constants. What selling price will bring a maximum profit?",
+            "options": [
+                "70",
+                "65",
+                "60",
+                "55"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A moving object has velocity $v(t) = t^2 - 7t + 10$, in feet per second, in the time interval $[1, 4]$, then the distance traveled in this time interval.",
+            "options": [
+                "$1\\frac{5}{6}$",
+                "$3\\frac{1}{3}$",
+                "$1\\frac{1}{2}$",
+                "$5\\frac{1}{6}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "If the distance of a particle from the origin on a line is given by $x(t) = 3 + (t - 2)^4$, then the number of times the particle reverses direction is",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "3"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "If $v(t)$ is the velocity of a body at any time $t$, if $[t_1, t_2]$ is an interval of time, then the expression $\\frac{1}{t_2 - t_1} \\int_{t_1}^{t_2} v(t)dt$ represents",
+            "options": [
+                "Average velocity",
+                "Instantaneous velocity",
+                "Displacement covered",
+                "Acceleration"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Choose the integral expression that would result in the total distance traveled on the interval $[0, 3]$ if the velocity is given by $v(t) = e^t - 6$.",
+            "options": [
+                "$\\int_{0}^{\\ln 6} (e^t - 6) dt + \\int_{\\ln 6}^{3} (e^t - 6) dt$",
+                "$\\int_{3}^{\\ln 6} (e^t - 6) dt - \\int_{\\ln 6}^{0} (e^t - 6) dt$",
+                "$\\int_{\\ln 6}^{3} (e^t - 6) dt - \\int_{0}^{\\ln 6} (e^t - 6) dt$",
+                "$\\int_{0}^{\\ln 6} (e^t - 6) dt - \\int_{\\ln 6}^{3} (e^t - 6) dt$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The rate of change of bacteria is proportional to the number present. If 3,000 initially and 90,000 after 2 hours, how many after 4 hours?",
+            "options": [
+                "27,000",
+                "30,000",
+                "60,000",
+                "2,700,000"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The slope field of the differential equation $\\frac{dy}{dx} = \\frac{y}{x} - y$ is: ",
+            "options": [
+                "A <img src='exams/mathematics/toc/images/2016_q24_a.png'>",
+                "B <img src='exams/mathematics/toc/images/2016_q24_b.png'>",
+                "C <img src='exams/mathematics/toc/images/2016_q24_c.png'>",
+                "D <img src='exams/mathematics/toc/images/2016_q24_d.png'>"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "$\\int xe^x dx$ = ",
+            "options": [
+                "$xe^x + C$",
+                "$e^x + C$",
+                "$(x-1)e^x + C$",
+                "$e^x + x + C$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "$\\int \\sin^3 x \\cos^4 x dx = $",
+            "options": [
+                "$-\\frac{\\cos^5 x}{5} + \\frac{\\cos^7 x}{7} + C$",
+                "$-\\frac{\\sin^5 x}{5} + \\frac{\\sin^7 x}{7} + C$",
+                "$-\\frac{\\sin^3 x}{3} + \\frac{\\sin^5 x}{5} + C$",
+                "$-\\sin x + \\frac{\\sin^3 x}{3} + C$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If we are trying to evaluate the integral $\\int e^{\\cos x} \\sin x dx$, which substitution would be most appropriate?<br>$I$. $u = \\cos x$<br>$II$. $u = \\sin x$<br>$III$. $u = e^{\\cos x}$",
+            "options": [
+                "$I$ only",
+                "$II$ only",
+                "$I$ and $II$ only",
+                "$I$ and $III$ only"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "In evaluating the integral $\\int \\frac{dx}{\\sqrt{x^2 - 9}}$, the best substitution is:",
+            "options": [
+                "$u^2 = x^2 - 9$",
+                "$u = x^2$",
+                "$x = 3\\sin \\theta$",
+                "$x = 3\\sec \\theta$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "$\\int \\frac{x}{x^2 - 7x + 12} dx = $",
+            "options": [
+                "$3 \\ln|x - 3| - 4 \\ln|x - 4| + C$",
+                "$3 \\ln|x - 4| - 4 \\ln|x - 3| + C$",
+                "$\\frac{1}{2} \\ln|(x - 4) \\cdot (x - 3)|$",
+                "$4 \\ln|x - 4| - 3 \\ln|x - 3| + C$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The integral $\\int_1^\\infty \\frac{\\ln x}{x^2} dx$",
+            "options": [
+                "Converges and its value $= 0$",
+                "Converges and its value $= 1$",
+                "Converges and its value $= 2$",
+                "Diverges"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Find the measure of the angle between the line $\\vec{r} = (2\\hat{i} + \\hat{k}) + \\lambda(3\\hat{i} - 4\\hat{j} + \\hat{k})$ and the plane $\\vec{r} \\cdot (5\\hat{i} + \\hat{j} - 6\\hat{k}) = 2$.",
+            "options": [
+                "82.2°",
+                "7.2°",
+                "48°",
+                "42°"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "In the given figure, $\\overline{NA} \\perp$ the plane $ABC$. Find the measure of the dihedral angle $m(A - \\overleftrightarrow{BC} - N)$.",
+            "image": "exams/mathematics/toc/images/2016_q32.png",
+            "options": [
+                "26.6°",
+                "30°",
+                "45°",
+                "60°"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Isosceles triangles with side lengths of $12 cm$, $12 cm$, and $8 cm$ are used to form lateral faces of a squared pyramid. What is the pyramid's height?",
+            "options": [
+                "$12 cm$",
+                "$\\sqrt{80} cm$",
+                "$\\sqrt{112} cm$",
+                "$\\sqrt{128} cm$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If the function $f(x) = \\sin x$, between $x = 0$ and $x = 2\\pi$. Compute the area between the graph of $f(x)$ and the $x$-axis over $[0, 2\\pi]$.",
+            "options": [
+                "$2$",
+                "$-2$",
+                "$0$",
+                "$4$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Find the exact area of the region enclosed by the curves $y = x \\cos x$ and $y = x \\sin x$ shown in the graph below:",
+            "image": "exams/mathematics/toc/images/2016_q35.png",
+            "options": [
+                "$\\frac{\\sqrt{2}}{2} \\pi$",
+                "$\\frac{1}{4}(\\sqrt{2} \\pi - 4)$",
+                "$\\frac{1}{2}(\\pi - 4)$",
+                "$\\sqrt{2} - 1$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "If $f$ is an even function and $\\int_0^2 f(x) dx = 6, \\int_-2^5 f(x) dx =  17$, then $\\int_2^5 f(x) dx = $",
+            "options": [
+                "0",
+                "12",
+                "11",
+                "5"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The region between the curve $y = \\sqrt{x}, 0 \\leq x \\leq 4$, and the $x-$axis is revolved about the $x-$axis to generate a solid. Find the volume of the solid.",
+            "options": [
+                "$\\frac{16\\pi}{3}$",
+                "$8\\pi$",
+                "$8$",
+                "$\\frac{16}{3}$"
+            ],
+            "correct": 1
+        }
+    ]
+}

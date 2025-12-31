@@ -1,0 +1,360 @@
+{
+    "questions": [
+        {
+            "q": "Find $\\frac{dy}{dx}$ when $x^{2} + y^{2} = a^{2}$",
+            "options": [
+                "$-\\frac{x}{y}$",
+                "$-\\frac{y}{x}$",
+                "$\\frac{y}{x}$",
+                "$\\frac{x}{y}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If $1, \\omega, \\omega^{2}$ are the cube roots of unity then the roots of equation $(x -1)^{3} + 8 = 0$ are",
+            "options": [
+                "$-1, 1 + 2\\omega, 1 + 2\\omega^{2}$",
+                "$-1, -2\\omega, 1 -2\\omega^{2}$",
+                "$-1, 1, 2$",
+                "$-2, -2\\omega, -2\\omega^{2}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The approximate value of $y(0, 1)$ from $\\frac{dy}{dx} = x^{2}y -1$, $y(0) = 1$ is.......",
+            "options": [
+                "0.900",
+                "1.001",
+                "0.802",
+                "0.994"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If $z + \\frac{1}{z} = 2 \\cos \\theta$, then the value of $z^{12} + \\frac{1}{z^{12}}$ is ............",
+            "options": [
+                "$2^5 \\cos 6\\theta$",
+                "$2 \\cos 6\\theta$",
+                "$2 \\cos 12\\theta$",
+                "$2^5 \\cos 12\\theta$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Find two numbers whose sum is 15 and the sum of their squares is the least possible.",
+            "options": [
+                "7.5, 7.5",
+                "6,9",
+                "10, 5",
+                "7, 8"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Geometric mean of $7, 7^{2}, 7^{3}, .....7^{n}$ is",
+            "options": [
+                "$7^{\\frac{n+1}{2}}$",
+                "$7^{\\frac{n}{2}}$",
+                "$7^{\\frac{n-1}{2}}$",
+                "$7^{\\frac{3n}{2}}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Of all closed right circular cylinders of a given volume of 100 cm^{3},find the dimensions of cylinder which has a minimum surface area.",
+            "options": [
+                "$r = \\left( \\frac{50}{\\pi} \\right)$cm",
+                "$r = \\left( \\frac{50}{\\pi} \\right)^{1/2}$ cm",
+                "$r = \\left( \\frac{50}{\\pi} \\right)^{1/3}$ cm",
+                "$r = \\left( \\frac{\\pi}{50}\\right)$cm"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "An investigator uses two matched groups to compare the effectiveness of two methods of teaching science. This study would come in the ambit of ........",
+            "options": [
+                "Experimental Study",
+                "Causal Comparative Study",
+                "Descriptive Survey Study",
+                "Phenomenological Study"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Find the abscissa of the point on the curve $3y = 6x-5x^{3}$, the normal at which passes through the origin.",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If a complex number $z$ lies in the interior or on the boundary of a circle of radius $3$ units and centre $(-4, 0)$, find the greatest value of $|z + 1|$",
+            "options": [
+                "$3$",
+                "$4$",
+                "$6$",
+                "$10$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which of the following satisfy the equation $y^{\\prime\\prime} - y^{\\prime} = -2x$?<br>(a) $y = x^2 + 2x + 2$<br>(b) $y = x^2 + 2x + 1$<br>(c) $y = x^2 + 2$<br>(d) $y = x^2 - 2x + 2$",
+            "options": [
+                "(a) & (b)",
+                "(a) only",
+                "(a) & (c)",
+                "(d)"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "What is the polar form of $(i^{15})^{3} = ?$",
+            "options": [
+                "$\\cos \\frac{\\pi}{3} + i \\sin \\frac{\\pi}{3}$",
+                "$\\cos \\frac{\\pi}{2} + i \\sin -\\frac{\\pi}{2}$",
+                "$\\cos \\frac{\\pi}{2} + i \\sin \\frac{\\pi}{2}$",
+                "$-\\cos -\\frac{\\pi}{3} + i \\sin -\\frac{\\pi}{2}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "What is the solution of the differential equation in $\\ln\\left( \\frac{dy}{dx}\\right) -a = 0$",
+            "options": [
+                "$y = xe^{a} + c$",
+                "$x = ye^{a} + c$",
+                "$y = \\ln x + c$",
+                "$x = \\ln y + c$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The volume of a sphere is increasing at a rate of 3 cubic centimeters per second. How fast is the surface area increasing when the radius is 2 centimeters?",
+            "options": [
+                "$1 cm^{2}/s$",
+                "$2 cm^{2}/s$",
+                "$3 cm^{2}/s$",
+                "$4 cm^{2}/s$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If the sum of three consecutive terms in an arithmetic sequence equals 180, then the middle of them might be..........",
+            "options": [
+                "60",
+                "59",
+                "90",
+                "179"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "For the function $y = \\frac{\\ln (x)}{x}$, when is the maximum value of y occurs?",
+            "options": [
+                "1",
+                "e",
+                "$e^{1/2}$",
+                "$e^{3/2}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "$\\left( \\frac{\\sqrt{2}+i \\sqrt{2}}{2} \\right)^{64} = $..............",
+            "options": [
+                "$e^{16\\pi i}$",
+                "$e^{15\\pi i}$",
+                "$-e^{\\frac{i}{8\\pi}}$",
+                "$-e^{\\frac{i}{16\\pi}}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The following are the graphs representing an object's displacement, velocity, and acceleration. Find the graphs that each reference. (Figures are not to scale)",
+            "images": [
+                "exams/mathematics/toc/images/2024_q18_1.png",
+                "exams/mathematics/toc/images/2024_q18_2.png",
+                "exams/mathematics/toc/images/2024_q18_3.png"
+            ],
+            "options": [
+                "Graph A refers to the displacement, Graph B to velocity, C to acceleration",
+                "Graph B refers to the displacement, Graph C to velocity, A to acceleration",
+                "Graph A refers to the displacement, Graph C to velocity, B to acceleration",
+                "Graph B refers to the displacement, Graph A to velocity, C to acceleration"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If we compute $\\int \\frac{x}{\\sqrt{x^{2} - 5}} dx$ which trigonometric substitution will we use to compute this integral?",
+            "options": [
+                "$5 \\sec \\theta$",
+                "$5 \\tan \\theta$",
+                "$5 \\cos \\theta$",
+                "$5 \\sin \\theta$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "In the opposite figure, which of the following functions has this slope field?",
+            "image": "exams/mathematics/toc/images/2024_q20.png",
+            "options": [
+                "$\\frac{dy}{dx} = y^{2}$",
+                "$\\frac{dy}{dx} = \\sin y$",
+                "$\\frac{dy}{dx} = -\\sin y$",
+                "$\\frac{dy}{dx} = \\sin x$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Compute the following integral: $\\int 7x \\ln x dx$",
+            "options": [
+                "$\\frac{7x^{2} \\ln x}{2} - \\frac{7x^{2}}{4} + C$",
+                "$\\frac{7x^{2} \\ln x}{2} + \\frac{7x^{2}}{4} + C$",
+                "$\\frac{7x^{2} \\ln x}{2} - \\frac{7x^{2}}{2} + C$",
+                "$\\frac{7x^{2} \\ln x}{4} - \\frac{7x^{2}}{4} + C$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If $\\int f(x) \\sin x dx = -f(x) \\cos x + \\int 3x^{2} \\cos x dx$, then f(x) could be which of the following:",
+            "options": [
+                "$3x^{2}$",
+                "$-x^{3}$",
+                "$x^{3}$",
+                "$\\sin x$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If $f(x) = 2 \\cos^{2} x -3$, then what is the maximum value of $f(x)$?",
+            "options": [
+                "$-1$",
+                "$3$",
+                "$2$",
+                "$1$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If $f(x) = x^{2}, x_{1}, x_{2} \\in$ the domain of f, then what is the area bounded between $f(x)$ and the $x-$axis if $x_{1} = -1$ and $x_{2} = 2$?",
+            "options": [
+                "$1$",
+                "$2$",
+                "$3$",
+                "$4$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If $r$ is the correlation coefficient between two variables, then find the coefficient between $3x+4$ and $-3y + 3$",
+            "options": [
+                "$r$",
+                "$-r$",
+                "$r \\sqrt{3}$",
+                "$-r \\sqrt{3}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A moving particle has a displacement function $s(t) = t(t -5)^{2}$. What is the acceleration of the particle at time $t = 2$ is........",
+            "options": [
+                "$-8$",
+                "$-12$",
+                "$6$",
+                "$12$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The minimum value of $f(x) = 4e^{2x} + 9e^{-2x}$ is.........",
+            "options": [
+                "11",
+                "12",
+                "13",
+                "14"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Find the coordinates of the point where the line through $(2, 3, 2)$ and $(5, 1, 6)$ crosses the $xy-$plane.",
+            "options": [
+                "$(1,4,0)$",
+                "$(\\frac{1}{2}, -4, 0)$",
+                "$(\\frac{7}{2}, 2, 0)$",
+                "$(\\frac{1}{4}, 4, 0)$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The equation of the plane which contains the points $(0, 6, 0)$ and $(-2, -3, 4)$ and which is parallel to the ray with direction ratios $(2,3,-2)$ is ...............",
+            "options": [
+                "$3x + 2y -6z -12 = 0$",
+                "$3x + 2y + 6z -12 = 0$",
+                "$3x -2y -6z -12 = 0$",
+                "$3x -2y -6z + 12 = 0$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Given the function of the height of an object $H(t) = at^{2} + bt + c$, what equation is required to solve to find the local maxima of the height for this object?",
+            "options": [
+                "$H(t) = 0$",
+                "$H^{\\prime}(t) = 0$",
+                "$H^{\\prime\\prime}(t) = 0$",
+                "$H^{\\prime}(t) = H^{\\prime\\prime}(t)$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Given that the function $f(x) = 5x^{4} -x^{5}$, what are the inflection points in its curve?",
+            "options": [
+                "$(0,0)$ only",
+                "$(3,162)$ only",
+                "$(4,256)$ only",
+                "Both $(0,0)$ and $(3,162)$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "If A and B are two events such that $P(A) \\neq 0$ and $P(A') \\neq 1$, then $P(A' - B') = \\dots\\dots\\dots$",
+            "options": [
+                "$1 - P(A|B)$",
+                "$1 - P(A'|B)$",
+                "$\\frac{1 - P(A \\cup B)}{P(B')}$",
+                "$P(A' - B')$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If a bacteria population is at the suitable conditions to grow, this population grows according to the function $f(t) = 200e^{0.02t}$, where $t$ is measured in minutes. When does the population reach 100,000 bacteria?",
+            "options": [
+                "$120.45$ minutes",
+                "$140.82$ minutes",
+                "$155.37$ minutes",
+                "$310.73$ minutes"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "If $y$ is a function of $x$ such that $y' > 0$ for all $x$ and $y'' < 0$ for all $x$, which of the following could be the graph of $f(x) = y$?",
+            "options": [
+                "A <img src='exams/mathematics/toc/images/2024_q34_a.png' alt='Graph A'/>",
+                "B <img src='exams/mathematics/toc/images/2024_q34_b.png' alt='Graph B'/>",
+                "C <img src='exams/mathematics/toc/images/2024_q34_c.png' alt='Graph C'/>",
+                "D <img src='exams/mathematics/toc/images/2024_q34_d.png' alt='Graph D'/>"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "If $(1 -i)$ is a root of the quadratic equation $x^{2} + ax + b$, where $a, b \\in R$, then $(a -b)$ is.........",
+            "options": [
+                "$-4$",
+                "$0$",
+                "$2$",
+                "$1$"
+            ],
+            "correct": 0
+        }
+    ]
+}
