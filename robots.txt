@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://stem-g12-exams.moaz.site/sitemap.xml
