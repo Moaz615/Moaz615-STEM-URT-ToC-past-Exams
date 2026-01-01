@@ -228,6 +228,11 @@ function restoreExamState() {
 
 function startTimer() {
     if (session.mode === 'full') {
+        // Clear any existing timer before starting a new one
+        if (timerInterval) {
+            clearInterval(timerInterval);
+        }
+        
         const examDuration = getExamDuration() * 60;
         
         if (loadExamState() && examState.startTime) {
@@ -248,7 +253,7 @@ function startTimer() {
                 updateProgressBar();
                 saveExamState();
                 
-                if (timerSeconds === 60 && !warningShown) {
+                if (timerSeconds === 300 && !warningShown) {
                     showTimeWarning();
                     warningShown = true;
                 }
@@ -297,13 +302,11 @@ function toggleTimer() {
     isPaused = !isPaused;
     document.getElementById('pause-btn').textContent = isPaused ? 'Resume' : 'Pause';
     
-    // Disable/enable answer options based on pause state
     const answerOptions = document.querySelectorAll('input[type="radio"]');
     answerOptions.forEach(radio => {
         radio.disabled = isPaused;
     });
     
-    // Add visual indication for paused state
     const optionLabels = document.querySelectorAll('.option-label');
     optionLabels.forEach(label => {
         if (isPaused) {
@@ -338,7 +341,7 @@ function showTimeWarning() {
                 <line x1="12" y1="8" x2="12" y2="12"></line>
                 <line x1="12" y1="16" x2="12.01" y2="16"></line>
             </svg>
-            <span>⚠️ Only 1 minute remaining!</span>
+            <span>Only 5 minutes remaining!</span>
         </div>
     `;
     
