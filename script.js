@@ -146,7 +146,7 @@ async function startExam(year) {
         navigateTo('exam');
     } catch (err) {
         console.error('Failed to load exam data:', err);
-        alert("Exam data could not be loaded! Check console for details.");
+        alert("Exam data could not be loaded!");
     }
 }
 
