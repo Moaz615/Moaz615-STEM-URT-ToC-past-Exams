@@ -48,7 +48,8 @@ const routes = {
     'mode': 4,
     'exam': 5,
     'results': 6,
-    'history': 7
+    'history': 7,
+    'contact': 8
 };
 
 function clearAllExamStates() {
@@ -773,6 +774,51 @@ window.onload = () => {
     const themeToggle = document.getElementById('theme-toggle');
     if (themeToggle) {
         themeToggle.addEventListener('click', toggleTheme);
+    }
+    
+    // Handle form submission
+    const form = document.querySelector('.contact-form');
+    const formStatus = document.getElementById('form-status');
+    
+    if (form) {
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const submitBtn = form.querySelector('.submit-btn');
+            const originalText = submitBtn.textContent;
+            submitBtn.textContent = 'Sending...';
+            submitBtn.disabled = true;
+            
+            const formData = new FormData(form);
+            
+            fetch(form.action, {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+            .then(response => {
+                if (response.ok) {
+                    formStatus.innerHTML = '<div class="success-message">Thank you for your message! We\'ll get back to you soon.</div>';
+                    form.reset();
+                } else {
+                    throw new Error('Form submission failed');
+                }
+            })
+            .catch(error => {
+                formStatus.innerHTML = '<div class="error-message">Oops! There was a problem sending your message. Please try again.</div>';
+            })
+            .finally(() => {
+                submitBtn.textContent = originalText;
+                submitBtn.disabled = false;
+                
+                // Clear status message after 5 seconds
+                setTimeout(() => {
+                    formStatus.innerHTML = '';
+                }, 5000);
+            });
+        });
     }
     
     const params = new URLSearchParams(window.location.search);
