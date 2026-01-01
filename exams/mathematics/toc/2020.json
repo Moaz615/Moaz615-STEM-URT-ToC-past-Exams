@@ -63,7 +63,7 @@
     {
       "q": "If $z_{1}=12+6i$ and $z_{2}=a+bi$ (where a, $b\\in\\mathbb{R}$) are two complex numbers, we can say that the product $z_{1}z_{2}$ is imaginary",
       "options": [
-        "If and only if $a=b=0$",
+        "If and only if &nbsp; $a=b=0$",
         "If &nbsp; $b=2a$",
         "If &nbsp; $a=-2b$",
         "For each value of a and b"
@@ -75,8 +75,8 @@
       "options": [
         "$2+2i$",
         "$1+i$",
-        "-1-1",
-        "-2-2i"
+        "$-1-1$",
+        "$-2-2i$"
       ],
       "correct": 1
     },
@@ -359,4 +359,5 @@
       "correct": 3
     }
   ]
+
 }
