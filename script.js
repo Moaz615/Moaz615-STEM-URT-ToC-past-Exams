@@ -4,6 +4,7 @@ let currentQuestionIndex = 0;
 let timerInterval = null;
 let timerSeconds = 0;
 let isPaused = false;
+let examState = { answers: {}, startTime: null, elapsedTime: 0 };
 
 function initTheme() {
     const savedTheme = localStorage.getItem('theme') || 'dark';
@@ -136,10 +137,90 @@ async function renderYearButtons() {
     container.innerHTML = html;
 }
 
+function saveExamState() {
+    if (!currentExamData || session.mode !== 'full') return;
+    
+    examState.answers = {};
+    currentExamData.questions.forEach((q, i) => {
+        const selected = document.querySelector(`input[name="q${i}"]:checked`);
+        if (selected) {
+            examState.answers[i] = Number(selected.value);
+        }
+    });
+    
+    examState.elapsedTime = getExamDuration() * 60 - timerSeconds;
+    examState.startTime = Date.now() - (examState.elapsedTime * 1000);
+    
+    const stateKey = `exam_state_${session.subject}_${session.type}_${session.year}`;
+    localStorage.setItem(stateKey, JSON.stringify(examState));
+}
+
+function loadExamState() {
+    if (!currentExamData || session.mode !== 'full') return false;
+    
+    const stateKey = `exam_state_${session.subject}_${session.type}_${session.year}`;
+    const saved = localStorage.getItem(stateKey);
+    
+    if (saved) {
+        try {
+            examState = JSON.parse(saved);
+            return true;
+        } catch (e) {
+            console.error('Failed to load exam state:', e);
+        }
+    }
+    return false;
+}
+
+function clearExamState() {
+    const stateKey = `exam_state_${session.subject}_${session.type}_${session.year}`;
+    localStorage.removeItem(stateKey);
+    examState = { answers: {}, startTime: null, elapsedTime: 0 };
+}
+
+function restoreExamState() {
+    if (!loadExamState()) return;
+    
+    Object.keys(examState.answers).forEach(questionIndex => {
+        const answerIndex = examState.answers[questionIndex];
+        const radio = document.querySelector(`input[name="q${questionIndex}"][value="${answerIndex}"]`);
+        if (radio) {
+            radio.checked = true;
+        }
+    });
+    
+    const examDuration = getExamDuration() * 60;
+    timerSeconds = Math.max(0, examDuration - examState.elapsedTime);
+    updateTimerDisplay();
+    updateProgressBar();
+    
+    // Apply pause state to restored answers
+    if (isPaused) {
+        const answerOptions = document.querySelectorAll('input[type="radio"]');
+        answerOptions.forEach(radio => {
+            radio.disabled = true;
+        });
+        
+        const optionLabels = document.querySelectorAll('.option-label');
+        optionLabels.forEach(label => {
+            label.style.opacity = '0.5';
+            label.style.pointerEvents = 'none';
+        });
+    }
+}
+
 function startTimer() {
     if (session.mode === 'full') {
-        const examDuration = getExamDuration();
-        timerSeconds = examDuration * 60;
+        const examDuration = getExamDuration() * 60;
+        
+        if (loadExamState() && examState.startTime) {
+            const elapsedSinceStart = Math.floor((Date.now() - examState.startTime) / 1000);
+            timerSeconds = Math.max(0, examDuration - elapsedSinceStart);
+        } else {
+            timerSeconds = examDuration;
+            examState.startTime = Date.now();
+        }
+        
         updateTimerDisplay();
         let warningShown = false;
         
@@ -148,6 +229,7 @@ function startTimer() {
                 timerSeconds--;
                 updateTimerDisplay();
                 updateProgressBar();
+                saveExamState();
                 
                 if (timerSeconds === 60 && !warningShown) {
                     showTimeWarning();
@@ -197,6 +279,24 @@ function updateProgressBar() {
 function toggleTimer() {
     isPaused = !isPaused;
     document.getElementById('pause-btn').textContent = isPaused ? 'Resume' : 'Pause';
+    
+    // Disable/enable answer options based on pause state
+    const answerOptions = document.querySelectorAll('input[type="radio"]');
+    answerOptions.forEach(radio => {
+        radio.disabled = isPaused;
+    });
+    
+    // Add visual indication for paused state
+    const optionLabels = document.querySelectorAll('.option-label');
+    optionLabels.forEach(label => {
+        if (isPaused) {
+            label.style.opacity = '0.5';
+            label.style.pointerEvents = 'none';
+        } else {
+            label.style.opacity = '1';
+            label.style.pointerEvents = 'auto';
+        }
+    });
 }
 
 function showTimeWarning() {
@@ -253,6 +353,24 @@ function resetTimer() {
     document.getElementById('pause-btn').textContent = 'Pause';
     updateTimerDisplay();
     updateProgressBar();
+    
+    // Clear all answers
+    document.querySelectorAll('input[type="radio"]').forEach(radio => {
+        radio.checked = false;
+        radio.disabled = false;
+    });
+    
+    // Re-enable option labels
+    const optionLabels = document.querySelectorAll('.option-label');
+    optionLabels.forEach(label => {
+        label.style.opacity = '1';
+        label.style.pointerEvents = 'auto';
+    });
+    
+    // Clear saved state
+    clearExamState();
+    examState.startTime = Date.now();
+    
     startTimer();
 }
 
@@ -335,13 +453,18 @@ function renderFullExam() {
             <div class="options-container">
                 ${q.options.map((opt, idx) => `
                     <label class="option-label">
-                        <input type="radio" name="q${i}" value="${idx}"> ${opt}
+                        <input type="radio" name="q${i}" value="${idx}" onchange="saveExamState()"> ${opt}
                     </label>`).join("")}
             </div>
         </div>`;
     });
 
     document.getElementById("exam-container").innerHTML = html;
+    
+    // Restore state after rendering
+    setTimeout(() => {
+        restoreExamState();
+    }, 100);
 }
 
 function renderQuestionByQuestion() {
@@ -481,6 +604,7 @@ function processResults() {
     if (session.mode === 'full') {
         const examDuration = getExamDuration() * 60;
         timeTaken = examDuration - timerSeconds;
+        clearExamState();
     }
     
     if (session.mode === 'full') {
@@ -541,6 +665,7 @@ function resetApp() {
     if (timerInterval) {
         clearInterval(timerInterval);
     }
+    clearExamState();
     localStorage.removeItem('stem_session');
     window.location.href = window.location.pathname;
 }
@@ -571,12 +696,12 @@ function showResultsHistory() {
         if (result.mode === 'full' && result.timeTaken !== undefined) {
             const timeMinutes = Math.floor(result.timeTaken / 60);
             const timeSeconds = result.timeTaken % 60;
-            const timeStr = `${timeMinutes}m : ${timeSeconds}s`;
+            const timeStr = `${timeMinutes}m ${timeSeconds}s`;
             
             if (result.bestTime !== undefined && result.bestTime !== result.timeTaken) {
                 const bestMinutes = Math.floor(result.bestTime / 60);
                 const bestSeconds = result.bestTime % 60;
-                const bestStr = `${bestMinutes}m : ${bestSeconds}s`;
+                const bestStr = `${bestMinutes}m ${bestSeconds}s`;
                 timeInfo = `<div class="stat-item">
                     <span class="stat-label">Time:</span>
                     <span class="stat-value">${timeStr} (Best: ${bestStr})</span>
