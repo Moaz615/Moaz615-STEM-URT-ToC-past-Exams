@@ -820,6 +820,42 @@ button.primary-btn.secondary-btn:hover {
     transform: scale(0.95);
 }
 
+.contact-toggle {
+    position: fixed;
+    top: 20px;
+    right: 80px;
+    background: var(--card-bg);
+    border: 2px solid var(--border);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    z-index: 1000;
+    box-shadow: 0 4px 12px var(--shadow);
+    color: var(--text-main);
+}
+
+.contact-toggle svg {
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s ease;
+}
+
+.contact-toggle:hover {
+    border-color: var(--primary);
+    background: var(--primary-light);
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px var(--shadow-hover);
+}
+
+.contact-toggle:active {
+    transform: scale(0.95);
+}
+
 * {
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
@@ -921,6 +957,13 @@ body.preload * {
         font-size: 1.3rem;
     }
     
+    .contact-toggle {
+        top: 10px;
+        right: 65px;
+        width: 45px;
+        height: 45px;
+    }
+    
     .nav-buttons {
         gap: 0.75rem;
     }
@@ -933,5 +976,149 @@ body.preload * {
     .nav-btn svg {
         width: 18px;
         height: 18px;
+    }
+}
+.contact-title {
+    text-align: center;
+    color: #6b46c1;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+[data-theme="dark"] .contact-title {
+    color: #9333ea;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: var(--text-main);
+    font-size: 1rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+    background: var(--card-bg);
+    color: var(--text-main);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #6b46c1;
+    box-shadow: 0 0 0 3px rgba(107, 70, 193, 0.1);
+}
+
+[data-theme="dark"] .form-group input:focus,
+[data-theme="dark"] .form-group textarea:focus {
+    border-color: #9333ea;
+    box-shadow: 0 0 0 3px rgba(147, 51, 234, 0.1);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 1rem 2rem;
+    background: #6b46c1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-btn:hover:not(:disabled) {
+    background: #5a3aa8;
+    transform: translateY(-1px);
+}
+
+.submit-btn:disabled {
+    background: #9ca3af;
+    cursor: not-allowed;
+    transform: none;
+}
+
+[data-theme="dark"] .submit-btn {
+    background: #9333ea;
+}
+
+[data-theme="dark"] .submit-btn:hover:not(:disabled) {
+    background: #a855f7;
+}
+
+.form-status {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.success-message {
+    background: #d1fae5;
+    color: #065f46;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #10b981;
+    font-weight: 500;
+}
+
+.error-message {
+    background: #fee2e2;
+    color: #991b1b;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #ef4444;
+    font-weight: 500;
+}
+
+[data-theme="dark"] .success-message {
+    background: #064e3b;
+    color: #6ee7b7;
+}
+
+[data-theme="dark"] .error-message {
+    background: #7f1d1d;
+    color: #fca5a5;
+}
+
+@media (max-width: 600px) {
+    .contact-title {
+        font-size: 2rem;
+    }
+    
+    .contact-form {
+        max-width: 100%;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+        padding: 0.65rem 0.85rem;
+    }
+    
+    .submit-btn {
+        padding: 0.85rem 1.5rem;
+        font-size: 1rem;
     }
 }
