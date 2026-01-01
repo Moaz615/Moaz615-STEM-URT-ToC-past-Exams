@@ -1,354 +1,356 @@
-[
-  {
-    "q": "If $2^{x}+2^{y}=2^{x+y},$ then $\\frac{dy}{dx}$",
-    "options": [
-      "$1-2^{y}$",
-      "$1+2^{y}$",
-      "$-2^{y-x}$",
-      "$2^{x-y}$"
-    ],
-    "correct": 2
-  },
-  {
-    "q": "if $3~sin(xy)+4~cos(xy)=5$ then $\\frac{dy}{dx}=...$",
-    "options": [
-      "$\\frac{3y}{4x}$",
-      "$\\frac{-y}{x}$",
-      "$\\frac{y}{x}$",
-      "$\\frac{4y}{x}$"
-    ],
-    "correct": 1
-  },
-  {
-    "q": "if $x=a(t-sin(t))$ and $y=a(1-cos(t))$ then $\\frac{d^{2}y}{dx^{2}}=...$",
-    "options": [
-      "$\\frac{1}{4a~sin^{4}(\\frac{t}{2})}$",
-      "$\\frac{-1}{4a~sin^{4}(\\frac{t}{2})}$",
-      "$\\frac{1}{4a~cos^{4}(\\frac{t}{2})}$",
-      "$\\frac{-1}{4a~cos^{4}(\\frac{t}{2})}$"
-    ],
-    "correct": 1
-  },
-  {
-    "q": "Let $P(h,k)$ be a point on the curve $y=x^{2}+7x+2,$ such that the tangent line to the curve at P is parallel to the line $y=3x-3$. Then the equation of the normal to the curve at P is",
-    "options": [
-      "$x+3y-62=0$",
-      "$x+3y+26=0$",
-      "$x-3y-11=0$",
-      "$x-3y+22=0$"
-    ],
-    "correct": 1
-  },
-  {
-    "q": "The minimum value of the function f, where $f(x)=(x-2)(x-9)$ is:",
-    "options": [
-      "0",
-      "$\\frac{49}{4}$",
-      "$\\frac{11}{4}$",
-      "$-\\frac{49}{4}$"
-    ],
-    "correct": 3
-  },
-  {
-    "q": "Below is the graph of $f^{\\prime\\prime}(x)$. How many inflection points does $f(x)$ have?",
-    "image": "exams/mathematics/toc/images/2023_q6.png",
-    "options": [
-      "1",
-      "0",
-      "2",
-      "3"
-    ],
-    "correct": 3
-  },
-  {
-    "q": "Which of the following functions is strictly concave over the set of non-negative real numbers?",
-    "options": [
-      "$f(x)=2^{x}$",
-      "$f(x)=x^{\\frac{1}{2}}$",
-      "$f(x)=3x+2$",
-      "$f(x)=x^{3}$"
-    ],
-    "correct": 1
-  },
-  {
-    "q": "Given that the volume of a hot-air balloon grows according to the relation $f(t)=\\frac{7000t}{t^{2}+49}+4000$ , where the time is measured in hours, determine its maximum volume.",
-    "options": [
-      "$\\frac{500}{49}$ cubic units",
-      "4000 cubic units",
-      "4500 cubic units",
-      "5000 cubic units"
-    ],
-    "correct": 3
-  },
-  {
-    "q": "Find two numbers whose sum is 156 and the sum of their squares is the least possible.",
-    "options": [
-      "50, 106",
-      "60, 96",
-      "70, 86",
-      "78, 78"
-    ],
-    "correct": 3
-  },
-  {
-    "q": "The function below $c(q)$ represents that the daily average cost of producing q units is $c(q)=0.0001q^{2}-0.08q+65+\\frac{5000}{q}$ Determine the number of units produced per day which minimize the average cost.",
-    "options": [
-      "500 units per day",
-      "350 units per day",
-      "100 units per day",
-      "60 units per day"
-    ],
-    "correct": 0
-  },
-  {
-    "q": "Find the number of terms in the given arithmetic sequence: (5, 8, 11, 14, 17, 20,..., -50).",
-    "options": [
-      "11",
-      "13",
-      "15",
-      "19"
-    ],
-    "correct": 3
-  },
-  {
-    "q": "If the n-th term of a geometric sequence is $2^{n}$, then find the sum of its first 6 terms.",
-    "options": [
-      "126",
-      "124",
-      "190",
-      "134"
-    ],
-    "correct": 0
-  },
-  {
-    "q": "Find the missing term in the given series (40, 10, 5, 3.75, 3.75, ?)",
-    "options": [
-      "0.75",
-      "4.5",
-      "4",
-      "4.6875"
-    ],
-    "correct": 3
-  },
-  {
-    "q": "if $x+\\frac{1}{x}=2~cos~\\theta$ then the value of $x^{12}+\\frac{1}{x^{12}}$ is...",
-    "options": [
-      "$2^{5}cos~6\\theta$",
-      "$2~cos~6\\theta$",
-      "$2~cos~12\\theta$",
-      "$2^{5}cos~12\\theta$"
-    ],
-    "correct": 2
-  },
-  {
-    "q": "The value of $\\frac{cos~\\theta+i~sin~\\theta}{cos~\\theta-i~sin~\\theta}$ is",
-    "options": [
-      "1",
-      "$cos~2\\theta-i~sin~2\\theta$",
-      "$cos~2\\theta+i~sin~2\\theta$",
-      "None of these."
-    ],
-    "correct": 2
-  },
-  {
-    "q": "The value of $\\omega^{5}+\\omega^{7}+\\omega^{6}$ is ...",
-    "options": [
-      "$\\omega^{5}$",
-      "1",
-      "0",
-      "$\\omega$"
-    ],
-    "correct": 2
-  },
-  {
-    "q": "What is the polar form of the complex number $(i^{25})^{3}$",
-    "options": [
-      "$cos\\frac{\\pi}{2}+i~sin\\frac{\\pi}{2}$",
-      "$2~cos\\frac{\\pi}{2}-3i~sin\\frac{\\pi}{2}$",
-      "$cos\\frac{\\pi}{2}-i~sin\\frac{\\pi}{2}$",
-      "$3~cos\\frac{\\pi}{2}-5i~sin\\frac{\\pi}{2}$"
-    ],
-    "correct": 2
-  },
-  {
-    "q": "A particle is moving in a straight line and its distance s in cm from a fixed point on the line after t seconds is given by $s=12t-15t^{2}+4t^{3}$. What is the acceleration of the particle after 3 seconds have passed?",
-    "options": [
-      "$41~cms^{-2}$",
-      "$42~cm~s^{-2}$",
-      "$43~cm~s^{-2}$",
-      "$44~cm~s^{-2}$"
-    ],
-    "correct": 1
-  },
-  {
-    "q": "A boy travels 15 km with a speed of $30~km~h^{-1}$. He travels another 25 km with a speed of $10~km~h^{-1}$ What is his average speed for the entire journey?",
-    "options": [
-      "$\\frac{40}{3}km~h^{-1}$",
-      "$\\frac{80}{3}km~h^{-1}$",
-      "$20~km~h^{-1}$",
-      "$12~km~h^{-1}$"
-    ],
-    "correct": 0
-  },
-  {
-    "q": "A Slope field is shown above, for which of the following differential equations:",
-    "image": "exams/mathematics/toc/images/2023_q20.png",
-    "options": [
-      "$\\frac{dy}{dx}=1+x$",
-      "$\\frac{dy}{dx}=x^{2}$",
-      "$\\frac{dy}{dx}=x+y$",
-      "$\\frac{dy}{dx}=\\frac{x}{y}$"
-    ],
-    "correct": 2
-  },
-  {
-    "q": "The approximate value of $y(0.1)$ from $\\frac{dy}{dx}=x^{2}y-1$ where $y(0)=1$, is ...",
-    "options": [
-      "0.900",
-      "1.001",
-      "0.802",
-      "0.994"
-    ],
-    "correct": 0
-  },
-  {
-    "q": "A population of rabbits has a rate of change of $\\frac{dN}{dt}=0.05N(1-\\frac{N}{500})$ where t is a measure in years. $N=100$ when $t=0$ What is the size of the population of rabbits at four years approximately to the nearest whole number.",
-    "options": [
-      "200",
-      "146",
-      "117",
-      "97"
-    ],
-    "correct": 2
-  },
-  {
-    "q": "The rate of change of R with respect to t is proportional to the value of R. given that: $R=100$ at $t=0$ and $R=300$ at $t=1$ Then R in terms of t equals.",
-    "options": [
-      "$R=100\\cdot e^{5t}$",
-      "$R=100\\cdot3^{t}$",
-      "$R=300\\cdot3^{5t}$",
-      "$R=200e^{6t}$"
-    ],
-    "correct": 1
-  },
-  {
-    "q": "Evaluate: $\\int sin^{3}x~cos^{2}x~dx$",
-    "options": [
-      "$-\\frac{1}{3}cos^{3}x+\\frac{1}{5}sin^{5}x+c$",
-      "$\\frac{1}{3}sin^{3}x+\\frac{1}{5}cos^{5}x+c$",
-      "$-\\frac{1}{3}cos^{3}x+\\frac{1}{5}cos^{5}x+c$",
-      "None of these."
-    ],
-    "correct": 2
-  },
-  {
-    "q": "$\\int sec^{4}x~dx$ equals",
-    "options": [
-      "$tan~x-\\frac{tan^{2}x}{3}+c$",
-      "$tan~x+\\frac{tan^{2}x}{2}+c$",
-      "$tan~x+\\frac{tan^{3}x}{3}+c$",
-      "$tan~x+\\frac{tan^{2}x}{3}+c$"
-    ],
-    "correct": 2
-  },
-  {
-    "q": "$\\int_{0}^{1}ln~x~dx$ is.....",
-    "options": [
-      "Convergent to -1",
-      "Convergent to 0",
-      "Convergent to 1",
-      "Divergent"
-    ],
-    "correct": 0
-  },
-  {
-    "q": "The area bounded by the parabola $y=x^{2}$ and the line $y=2x$ (in square units) is...",
-    "options": [
-      "$\\frac{2}{3}$",
-      "$\\frac{4}{3}$",
-      "$\\frac{8}{3}$",
-      "4"
-    ],
-    "correct": 1
-  },
-  {
-    "q": "Find the Riemann sum for $f(x)=x^{3}-6x$, taking the sample points to be right endpoints and $a=0$, $b=3,$ and $n=6$.",
-    "options": [
-      "-2.879",
-      "-5.85",
-      "-3.9375",
-      "-0.8763"
-    ],
-    "correct": 2
-  },
-  {
-    "q": "Find the Cartesian equation of the plane which passes through the point (5,2,-4) and is perpendicular to the line with direction ratios 2, 3, -1.",
-    "options": [
-      "$x+2y-3z=18$",
-      "$2x+3y-z=20$",
-      "$2x+3y-5z=24$",
-      "$2x+5y+7z=15$"
-    ],
-    "correct": 1
-  },
-  {
-    "q": "the total distance of the point (5, 6, 9) from the plane which passes through the line of intersection of the planes $x+y-z=1$ and $2x+3y+4z=5$, and is perpendicular to the plane $x-y+z=0$ is....",
-    "options": [
-      "$\\sqrt{31}$",
-      "$2\\sqrt{31}$",
-      "$\\sqrt{62}$",
-      "$2\\sqrt{62}$"
-    ],
-    "correct": 2
-  },
-  {
-    "q": "The sampling error is defined as",
-    "options": [
-      "The difference between the population and the parameter",
-      "The difference between the sample and the parameter",
-      "The difference between the population and the sample",
-      "The difference between the parameter and the sample"
-    ],
-    "correct": 3
-  },
-  {
-    "q": "For the variables x and y, we collect four observations with: $\\sum x=10$, $\\Sigma y=14$, $\\sum x^{2}=30$ $\\Sigma y^{2}=54$, $\\sum xy=31$ The regression line of y on x is",
-    "options": [
-      "$y=-0.8x-5.5$",
-      "$y=0.8x-5.5$",
-      "$y=-0.8x+5.5$",
-      "$y=0.8x+5.5$"
-    ],
-    "correct": 1
-  },
-  {
-    "q": "The experimental researchers are aimed to (?)",
-    "options": [
-      "Establish association between variables",
-      "Describe variables",
-      "Study the application of theory",
-      "Study trend analysis"
-    ],
-    "correct": 0
-  },
-  {
-    "q": "If you increase the confidence level, the confidence interval",
-    "options": [
-      "Decreases",
-      "Increases",
-      "Stays the same",
-      "May increase or decrease, depending on the sample data"
-    ],
-    "correct": 1
-  },
-  {
-    "q": "Let E and F be two events of sample space S of an experiment. If $P(S\\cap F)=P(F),$ then the value of $P(S|F)$ is",
-    "options": [
-      "0",
-      "-1",
-      "1",
-      "2"
-    ],
-    "correct": 2
-  }
-]
+{
+    "questions": [
+        {
+            "q": "If $2^{x}+2^{y}=2^{x+y},$ then $\\frac{dy}{dx}$",
+            "options": [
+                "$1-2^{y}$",
+                "$1+2^{y}$",
+                "$-2^{y-x}$",
+                "$2^{x-y}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "if $3~sin(xy)+4~cos(xy)=5$ then $\\frac{dy}{dx}=...$",
+            "options": [
+                "$\\frac{3y}{4x}$",
+                "$\\frac{-y}{x}$",
+                "$\\frac{y}{x}$",
+                "$\\frac{4y}{x}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "if $x=a(t-sin(t))$ and $y=a(1-cos(t))$ then $\\frac{d^{2}y}{dx^{2}}=...$",
+            "options": [
+                "$\\frac{1}{4a~sin^{4}(\\frac{t}{2})}$",
+                "$\\frac{-1}{4a~sin^{4}(\\frac{t}{2})}$",
+                "$\\frac{1}{4a~cos^{4}(\\frac{t}{2})}$",
+                "$\\frac{-1}{4a~cos^{4}(\\frac{t}{2})}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Let $P(h,k)$ be a point on the curve $y=x^{2}+7x+2,$ such that the tangent line to the curve at P is parallel to the line $y=3x-3$. Then the equation of the normal to the curve at P is",
+            "options": [
+                "$x+3y-62=0$",
+                "$x+3y+26=0$",
+                "$x-3y-11=0$",
+                "$x-3y+22=0$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The minimum value of the function f, where $f(x)=(x-2)(x-9)$ is:",
+            "options": [
+                "0",
+                "$\\frac{49}{4}$",
+                "$\\frac{11}{4}$",
+                "$-\\frac{49}{4}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Below is the graph of $f^{\\prime\\prime}(x)$. How many inflection points does $f(x)$ have?",
+            "image": "exams/mathematics/toc/images/2023_q6.png",
+            "options": [
+                "1",
+                "0",
+                "2",
+                "3"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which of the following functions is strictly concave over the set of non-negative real numbers?",
+            "options": [
+                "$f(x)=2^{x}$",
+                "$f(x)=x^{\\frac{1}{2}}$",
+                "$f(x)=3x+2$",
+                "$f(x)=x^{3}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Given that the volume of a hot-air balloon grows according to the relation $f(t)=\\frac{7000t}{t^{2}+49}+4000$ , where the time is measured in hours, determine its maximum volume.",
+            "options": [
+                "$\\frac{500}{49}$ cubic units",
+                "4000 cubic units",
+                "4500 cubic units",
+                "5000 cubic units"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Find two numbers whose sum is 156 and the sum of their squares is the least possible.",
+            "options": [
+                "50, 106",
+                "60, 96",
+                "70, 86",
+                "78, 78"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The function below $c(q)$ represents that the daily average cost of producing q units is $c(q)=0.0001q^{2}-0.08q+65+\\frac{5000}{q}$ Determine the number of units produced per day which minimize the average cost.",
+            "options": [
+                "500 units per day",
+                "350 units per day",
+                "100 units per day",
+                "60 units per day"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Find the number of terms in the given arithmetic sequence: (5, 8, 11, 14, 17, 20,..., -50).",
+            "options": [
+                "11",
+                "13",
+                "15",
+                "19"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "If the n-th term of a geometric sequence is $2^{n}$, then find the sum of its first 6 terms.",
+            "options": [
+                "126",
+                "124",
+                "190",
+                "134"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Find the missing term in the given series (40, 10, 5, 3.75, 3.75, ?)",
+            "options": [
+                "0.75",
+                "4.5",
+                "4",
+                "4.6875"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "if $x+\\frac{1}{x}=2~cos~\\theta$ then the value of $x^{12}+\\frac{1}{x^{12}}$ is...",
+            "options": [
+                "$2^{5}cos~6\\theta$",
+                "$2~cos~6\\theta$",
+                "$2~cos~12\\theta$",
+                "$2^{5}cos~12\\theta$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The value of $\\frac{cos~\\theta+i~sin~\\theta}{cos~\\theta-i~sin~\\theta}$ is",
+            "options": [
+                "1",
+                "$cos~2\\theta-i~sin~2\\theta$",
+                "$cos~2\\theta+i~sin~2\\theta$",
+                "None of these."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The value of $\\omega^{5}+\\omega^{7}+\\omega^{6}$ is ...",
+            "options": [
+                "$\\omega^{5}$",
+                "1",
+                "0",
+                "$\\omega$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "What is the polar form of the complex number $(i^{25})^{3}$",
+            "options": [
+                "$cos\\frac{\\pi}{2}+i~sin\\frac{\\pi}{2}$",
+                "$2~cos\\frac{\\pi}{2}-3i~sin\\frac{\\pi}{2}$",
+                "$cos\\frac{\\pi}{2}-i~sin\\frac{\\pi}{2}$",
+                "$3~cos\\frac{\\pi}{2}-5i~sin\\frac{\\pi}{2}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A particle is moving in a straight line and its distance s in cm from a fixed point on the line after t seconds is given by $s=12t-15t^{2}+4t^{3}$. What is the acceleration of the particle after 3 seconds have passed?",
+            "options": [
+                "$41~cms^{-2}$",
+                "$42~cm~s^{-2}$",
+                "$43~cm~s^{-2}$",
+                "$44~cm~s^{-2}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A boy travels 15 km with a speed of $30~km~h^{-1}$. He travels another 25 km with a speed of $10~km~h^{-1}$ What is his average speed for the entire journey?",
+            "options": [
+                "$\\frac{40}{3}km~h^{-1}$",
+                "$\\frac{80}{3}km~h^{-1}$",
+                "$20~km~h^{-1}$",
+                "$12~km~h^{-1}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A Slope field is shown above, for which of the following differential equations:",
+            "image": "exams/mathematics/toc/images/2023_q20.png",
+            "options": [
+                "$\\frac{dy}{dx}=1+x$",
+                "$\\frac{dy}{dx}=x^{2}$",
+                "$\\frac{dy}{dx}=x+y$",
+                "$\\frac{dy}{dx}=\\frac{x}{y}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The approximate value of $y(0.1)$ from $\\frac{dy}{dx}=x^{2}y-1$ where $y(0)=1$, is ...",
+            "options": [
+                "0.900",
+                "1.001",
+                "0.802",
+                "0.994"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A population of rabbits has a rate of change of $\\frac{dN}{dt}=0.05N(1-\\frac{N}{500})$ where t is a measure in years. $N=100$ when $t=0$ What is the size of the population of rabbits at four years approximately to the nearest whole number.",
+            "options": [
+                "200",
+                "146",
+                "117",
+                "97"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The rate of change of R with respect to t is proportional to the value of R. given that: $R=100$ at $t=0$ and $R=300$ at $t=1$ Then R in terms of t equals.",
+            "options": [
+                "$R=100\\cdot e^{5t}$",
+                "$R=100\\cdot3^{t}$",
+                "$R=300\\cdot3^{5t}$",
+                "$R=200e^{6t}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Evaluate: $\\int sin^{3}x~cos^{2}x~dx$",
+            "options": [
+                "$-\\frac{1}{3}cos^{3}x+\\frac{1}{5}sin^{5}x+c$",
+                "$\\frac{1}{3}sin^{3}x+\\frac{1}{5}cos^{5}x+c$",
+                "$-\\frac{1}{3}cos^{3}x+\\frac{1}{5}cos^{5}x+c$",
+                "None of these."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "$\\int sec^{4}x~dx$ equals",
+            "options": [
+                "$tan~x-\\frac{tan^{2}x}{3}+c$",
+                "$tan~x+\\frac{tan^{2}x}{2}+c$",
+                "$tan~x+\\frac{tan^{3}x}{3}+c$",
+                "$tan~x+\\frac{tan^{2}x}{3}+c$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "$\\int_{0}^{1}ln~x~dx$ is.....",
+            "options": [
+                "Convergent to -1",
+                "Convergent to 0",
+                "Convergent to 1",
+                "Divergent"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The area bounded by the parabola $y=x^{2}$ and the line $y=2x$ (in square units) is...",
+            "options": [
+                "$\\frac{2}{3}$",
+                "$\\frac{4}{3}$",
+                "$\\frac{8}{3}$",
+                "4"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Find the Riemann sum for $f(x)=x^{3}-6x$, taking the sample points to be right endpoints and $a=0$, $b=3,$ and $n=6$.",
+            "options": [
+                "-2.879",
+                "-5.85",
+                "-3.9375",
+                "-0.8763"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Find the Cartesian equation of the plane which passes through the point (5,2,-4) and is perpendicular to the line with direction ratios 2, 3, -1.",
+            "options": [
+                "$x+2y-3z=18$",
+                "$2x+3y-z=20$",
+                "$2x+3y-5z=24$",
+                "$2x+5y+7z=15$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "the total distance of the point (5, 6, 9) from the plane which passes through the line of intersection of the planes $x+y-z=1$ and $2x+3y+4z=5$, and is perpendicular to the plane $x-y+z=0$ is....",
+            "options": [
+                "$\\sqrt{31}$",
+                "$2\\sqrt{31}$",
+                "$\\sqrt{62}$",
+                "$2\\sqrt{62}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The sampling error is defined as",
+            "options": [
+                "The difference between the population and the parameter",
+                "The difference between the sample and the parameter",
+                "The difference between the population and the sample",
+                "The difference between the parameter and the sample"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "For the variables x and y, we collect four observations with: $\\sum x=10$, $\\Sigma y=14$, $\\sum x^{2}=30$ $\\Sigma y^{2}=54$, $\\sum xy=31$ The regression line of y on x is",
+            "options": [
+                "$y=-0.8x-5.5$",
+                "$y=0.8x-5.5$",
+                "$y=-0.8x+5.5$",
+                "$y=0.8x+5.5$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The experimental researchers are aimed to (?)",
+            "options": [
+                "Establish association between variables",
+                "Describe variables",
+                "Study the application of theory",
+                "Study trend analysis"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If you increase the confidence level, the confidence interval",
+            "options": [
+                "Decreases",
+                "Increases",
+                "Stays the same",
+                "May increase or decrease, depending on the sample data"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Let E and F be two events of sample space S of an experiment. If $P(S\\cap F)=P(F),$ then the value of $P(S|F)$ is",
+            "options": [
+                "0",
+                "-1",
+                "1",
+                "2"
+            ],
+            "correct": 2
+        }
+    ]
+}
