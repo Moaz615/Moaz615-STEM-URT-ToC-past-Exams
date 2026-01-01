@@ -51,10 +51,27 @@ const routes = {
     'history': 7
 };
 
+function clearAllExamStates() {
+    const keys = Object.keys(localStorage);
+    keys.forEach(key => {
+        if (key.startsWith('exam_state_')) {
+            localStorage.removeItem(key);
+        }
+    });
+    examState = { answers: {}, startTime: null, elapsedTime: 0 };
+}
+
 function navigateTo(stepName, pushState = true) {
     const stepNumber = routes[stepName];
     document.querySelectorAll(".step-section").forEach(s => s.classList.remove("active"));
     document.getElementById(`step-${stepNumber}`).classList.add("active");
+
+    if (stepName === 'home') {
+        clearAllExamStates();
+        if (timerInterval) {
+            clearInterval(timerInterval);
+        }
+    }
 
     if (pushState) {
         const url = stepName === 'home' ? window.location.pathname : `?step=${stepName}`;
@@ -665,7 +682,7 @@ function resetApp() {
     if (timerInterval) {
         clearInterval(timerInterval);
     }
-    clearExamState();
+    clearAllExamStates();
     localStorage.removeItem('stem_session');
     window.location.href = window.location.pathname;
 }
