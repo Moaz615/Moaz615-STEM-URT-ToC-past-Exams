@@ -1,6 +1,10 @@
 {
   "questions": [
     {
+      "passage": "<div style= 'text-align: center'>Periodic Table of Elements</div>",
+      "image": "exams/chemistry/toc/images/periodic-table.png"
+    },
+    {
       "q": "The vapor pressure of water at $20^{\\circ}C$ is $17.54$ $mmHg$. What will be the vapor pressure of the water in the apparatus shown after the piston is lowered, decreasing the volume of the gas above the liquid to one half of its initial volume? (Assume no temperature change.)",
       "image": "exams/chemistry/toc/images/2019_q1.png",
       "options": [

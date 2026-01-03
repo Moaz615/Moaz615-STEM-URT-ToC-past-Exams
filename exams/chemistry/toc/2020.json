@@ -1,6 +1,10 @@
 {
     "questions": [
         {
+            "passage": "<div style= 'text-align: center'>Periodic Table of Elements</div>",
+            "image": "exams/chemistry/toc/images/periodic-table.png"
+        },
+        {
             "q": "By using these diagrams which represent different types of atoms or ions and the table below, choose the correct matching between the diagrams ",
             "images": [
                 "exams/chemistry/toc/images/2020_q1.png",

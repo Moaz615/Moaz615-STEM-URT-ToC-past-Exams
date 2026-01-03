@@ -1,0 +1,378 @@
+{
+    "questions": [
+        {
+            "passage": "<div style= 'text-align: center'>Periodic Table of Elements</div>",
+            "image": "exams/chemistry/toc/images/periodic-table.png"
+        },
+        {
+            "passage": "Below is a diagram of the periodic table. Use it to answer questions 1, and 2",
+            "image": "exams/chemistry/toc/images/2024_diagram1.png"
+        },
+        {
+            "q": "Choose the correct number for each column:",
+            "image": "exams/chemistry/toc/images/2024_q1.png",
+            "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In the previous diagram for the periodic table: What are the possible bonds formed between the elements?",
+            "options": [
+                "Ionic bond in the molecules &nbsp; $A-L$ &nbsp; and &nbsp; $N-B$",
+                "Polar covalent bond is formed in the molecules &nbsp; $X-L$ &nbsp; and &nbsp; $B-W$",
+                "Ionic bond is formed in the molecules &nbsp; $Y-W$ &nbsp; and &nbsp; $X-W$",
+                "Polar covalent bond is formed in the molecules &nbsp; $G-L$ &nbsp; and &nbsp; $E-W$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "What is the correct choice which describes the opposite molecule? (IUPAC and common names)",
+            "image": "exams/chemistry/toc/images/2024_q3.png",
+            "options": [
+                "1,1 dimethyl-1propanol |&nbsp; $3^{ry}$ &nbsp; pentyl alcohol",
+                "2 methyl 2 pentanol | &nbsp; $2^{ry}$ &nbsp; pentyl alcohol",
+                "2 methyl 2 butanol | &nbsp; $3^{ry}$ &nbsp; pentyl alcohol",
+                "2 methyl 2 butanol | &nbsp; $2^{ry}$ &nbsp; pentyl alcohol"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "From the following diagram: Which of the following choices represents the compounds $(X)$ and $(Y)$?",
+            "image": "exams/chemistry/toc/images/2024_q4.png",
+            "options": [
+                "X: Secondary butyl bromide, Y: Is an isomer of di-ethyl ether",
+                "X: 1-Butene, Y: 1-butanol",
+                "X: Its molecular formula &nbsp; $C_{4}H_{9}X$, Y: Its general formula &nbsp; $C_{n}H_{2n}O$",
+                "X: Its general formula &nbsp; $C_{n}H_{2n}X$, Y: Its molecular formula &nbsp; $C_{4}H_{9}O$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Choose the correct sentence which describes the changes in this oxidation reduction reaction: $2KMnO_{4} + 16HCl \\rightarrow 2MnCl_{2} + 5Cl_{2} + 8H_{2}O + 2KCl$",
+            "options": [
+                "5 electrons transfer from chlorine to manganese",
+                "5 electrons transfer from manganese to chlorine",
+                "10 electrons transfer from chlorine to manganese",
+                "10 electrons transfer from manganese to chlorine"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In the following reaction: $2NH_{3(g)} + 3Cl_{2(g)} \\rightarrow N_{2(g)} + 6HCl_{(g)}$. If $5.0\\,L$ of $NH_{3}$ react with $5.0\\,L$ of $Cl_{2}$ measured at the same conditions in a closed container. The volume of the resultant gases in L will be:",
+            "options": [
+                "$NH_{3}: 0, Cl_{2}: 6.6, N_{2}: 6.6, HCl: 9.9$",
+                "$NH_{3}: 1.67, Cl_{2}: 0, N_{2}: 1.67, HCl: 10$",
+                "$NH_{3}: 0, Cl_{2}: 0, N_{2}: 4, HCl: 36$",
+                "$NH_{3}: 1.66, Cl_{2}: 6.6, N_{2}: 10, HCl: 6$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A gas has a density $3.48\\,g/L$ the most reasonable formula for this gas is: ($C=12, H=1$)",
+            "options": [
+                "$C_{6}H_{6}$",
+                "$C_{2}H_{6}$",
+                "$C_{4}H_{10}$",
+                "$C_{7}H_{14}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which of the following can be used to prepare copper sulphate in lab?",
+            "options": [
+                "Reaction of copper with dil sulphuric acid",
+                "Reaction of copper oxide with sodium sulphate solution",
+                "Reaction of copper chloride solution with sodium sulphate solution",
+                "Reaction of copper oxide with conc. sulphuric acid"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "What is the molar concentration of $PbI_{2}$ in distilled water if you know that ($K_{sp} = 7.9 \\times 10^{-9}$)?",
+            "options": [
+                "$2.0 \\times 10^{-3}\\,mol/L$",
+                "$5.0 \\times 10^{-4}\\,mol/L$",
+                "$1.25 \\times 10^{-3}\\,mol/L$",
+                "$8.9 \\times 10^{-5}\\,mol/L$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The correct arrangement of the following reactions according to their rate is:",
+            "image": "exams/chemistry/toc/images/2024_q10.png",
+            "options": [
+                "$2 > 4 > 3 > 1$",
+                "$3 > 2 > 4 > 1$",
+                "$2 > 3 > 1 > 4$",
+                "$4 > 1 > 2 > 3$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "During electroplating an iron spoon with a layer of silver, which of the following statements is correct?",
+            "options": [
+                "The spoon acts as cathode & concentration of silver ions in the solution decreases by time",
+                "The silver plate acts as anode and the iron ions will be reduced at cathode",
+                "The cell is considered electrolytic and the mass of anode increases",
+                "The decreasing in the anodic mass equals the increasing in cathodic mass"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which of the following one of choices is correct?",
+            "options": [
+                "$0.2\\,M$ &nbsp; of &nbsp; $Ba(OH)_{2}$ &nbsp; solution is less conductor than that hydrochloric acid of &nbsp; $pH = 2$",
+                "$0.5\\,M$ &nbsp; $HCN$ &nbsp; acid of &nbsp; $K_{a} = 6.8 \\times 10^{-4}$ &nbsp; is more conductor than that of &nbsp; $BaCl_{2}$ of &nbsp; $0.01\\,M$",
+                "$0.5\\,M$ &nbsp; $HCN$ &nbsp; acid of &nbsp; $K_{a} = 6.8 \\times 10^{-4}$ &nbsp; is less conductor than that &nbsp; $0.01\\,M$ &nbsp; acetic acid of &nbsp;$K_{a} = 1.8 \\times 10^{-4}$",
+                "$0.01\\,M$ &nbsp; of sodium hydroxide is more conductor than that of &nbsp; $0.01\\,M$ &nbsp; sodium sulphate"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which of the following statement is wrong about reversible and irreversible reactions?",
+            "options": [
+                "Irreversible chemical reactions occurs only one direction.",
+                "Reversible chemical reactions can occur in both directions.",
+                "In irreversible chemical reactions, one of the reactants may be completely consumed",
+                "In reversible chemical reactions, one of the products may escape from the reaction medium"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "In the following reaction: $2AB_{2(g)} \\rightleftharpoons A_{2}B_{4(g)}$ ($K_{p} = 20$). The value of $K_{p}$ for decomposition of 2 moles of $A_{2}B_{4}$ equals:",
+            "options": [
+                "40",
+                "$25 \\times 10^{-3}$",
+                "$2.5 \\times 10^{-3}$",
+                "400"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The rate of a chemical reaction cannot be determined by:",
+            "options": [
+                "Measuring the change in mass during the reaction",
+                "Monitoring the change of pressure acting on the reaction",
+                "Monitoring color changes during the reaction",
+                "Calculating the volume of gas produced over time"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which one of the following substances would have the highest boiling point?",
+            "options": [
+                "$CH_{3}OH$",
+                "$CH_{3}CH_{2}CHO$",
+                "$CH_{3}CH_{2}CH_{2}OH$",
+                "$CH_{3}COCH_{3}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Three salts dissolved in water $(X, Y, Z)$ they give different colors with litmus solution if the color of litmus solution in $(X)$ is violet & in $(Z)$ is blue, so they will be.....",
+            "options": [
+                "$X: NH_{4}Cl, Y: NaCl, Z: Na_{2}CO_{3}$",
+                "$X: KCl, Y: CuCl_{2}, Z: Na_{2}CO_{3}$",
+                "$X: Na_{2}CO_{3}, Y: NaCl, Z: CH_{3}COONa$",
+                "$X: NaCl, Y: Na_{2}CO_{3}, Z: CH_{3}COONa$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which of the following statements is / are wrong about the rate law? <br>i- The rate law depends on the concentrations of reactants and their number of moles. <br>ii- In the rate law concentrations of the products do not appear. <br>iii- The value of the exponent (n) must be determined by experiment; it can be written from the balanced equation. <br>iv- The rate law depends on the order of a reactants only.",
+            "options": [
+                "ii only",
+                "i and iii only",
+                "ii and iii only",
+                "iv only"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "If $22.2\\,g$ of tin precipitated on passing a current $2A$ for [x] hours in a molten of one of its compounds, so this compound is ($Sn=118.69$)",
+            "options": [
+                "$SnCl_{2}$",
+                "$SnCl_{4}$",
+                "$SnO_{2}$",
+                "$SnCl$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which of the following methods can be used to separate a mixture of salt and water?",
+            "options": [
+                "Decanting and distillation",
+                "Chromatography and evaporation",
+                "Decanting and filtration",
+                "Distillation and reverse osmosis"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "0.5 M of acetic acid diluted to 0.05M, so What do you expect about the values of: the degree of dissociation $(\\alpha)$, the $[OH^{-}]$, and the $pOH$ value?",
+            "options": [
+                "$\\alpha$ &nbsp; increases | &nbsp; $[OH]^{-}$ &nbsp; increases | &nbsp; $pOH$ &nbsp; decreases",
+                "$\\alpha$ &nbsp; decreases | &nbsp; $[OH]^{-}$ &nbsp; increases | &nbsp; $pOH$ &nbsp; increases",
+                "$\\alpha$ &nbsp;increases | &nbsp; $[OH]^{-}$ &nbsp; decreases | &nbsp; $pOH$ &nbsp; increases",
+                "$\\alpha$ &nbsp; decreases | &nbsp; $[OH]^{-}$ &nbsp; decreases | &nbsp; $pOH$ &nbsp; decreases"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A reaction is accompanied by absorption of energy and has an activation energy of $100\\,kJ/mol$, which of the following statements are correct? <br>(1) The reverse reaction has an activation energy equal to $100\\,kJ/mol$. <br>(2) The reverse reaction has an activation energy less than $100\\,kJ/mol$. <br>(3) The reverse reaction has an activation energy greater than $100\\,kJ/mol$. <br>(4) The change in internal energy is less than zero. <br>(5) The change in internal energy is greater than zero.",
+            "options": [
+                "(1) and (3)",
+                "(2) and (4)",
+                "(3) and (2)",
+                "(1) and (5)"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which of the following titration will have the end point at pH more than 7?",
+            "options": [
+                "$HCl$ &nbsp; and &nbsp; $Al(OH)_{3}$",
+                "$HCN$ &nbsp; and &nbsp; $NH_{3}$",
+                "$CH_{3}COOH$ &nbsp; and &nbsp; $NaOH$",
+                "$H_{2}SO_{4}$ &nbsp; and &nbsp; $Ba(OH)_{2}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "By adding drops of hydrochloric acid to the water, which of the following choices is correct?",
+            "options": [
+                "The value of &nbsp; $K_{w}$ &nbsp; decreases",
+                "The value of &nbsp; $K_{w}$ &nbsp; increases",
+                "$[OH^{-}]$ &nbsp; decreases in the solution",
+                "$[OH^{-}]$ &nbsp; increases in the solution"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "What is the number of required $KMnO_{4}$ moles to oxidize one mole of ferrous sulphate completely according to the following equation? $2KMnO_{4} + 10FeSO_{4} + 8H_{2}SO_{4} \\rightarrow K_{2}SO_{4} + 2MnSO_{4} + 5Fe_{2}(SO_{4})_{3} + 8H_{2}O$",
+            "options": [
+                "0.4 moles",
+                "0.6 moles",
+                "0.2 moles",
+                "7.5 moles"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "From the following diagram: Hydrocarbon derivative $C_{n}H_{2n}O_{2} \\xrightarrow{\\text{acidic hydrolysis}} (X) + (Y)$. Which of the following choices about $(X)$ and $(Y)$ is correct?",
+            "image": "exams/chemistry/toc/images/2024_q26.png",
+            "options": [
+                "X: Is an isomer of propanal, Y: Its molecular formula $C_{4}H_{9}O$",
+                "X: Its general formula $C_{n}H_{2n+2}O$, Y: Its general formula $C_{n}H_{2n}O_{2}$",
+                "X: Its molecular formula $C_{4}H_{9}O$, Y: Its general formula $C_{n}H_{2n}O$",
+                "X: Its general formula $C_{n}H_{2n}O$, Y: Is an isomer of di-methyl ether"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The following table illustrates the electric potential for some elements. Which of the following statements are correct? 1. The element B can be coated by that of A and it is called anodic protection. 2. The element C can be coated by that of B and it is called anodic protection. 3. The electrode D acts as cathode in a galvanic cell made with hydrogen electrode. 4. The cell of electrodes C and D is considered electrolytic and the electrode C is considered cathode.",
+            "image": "exams/chemistry/toc/images/2024_q27.png",
+            "options": [
+                "1 and 2 only",
+                "2 and 3 only",
+                "2 and 4 only",
+                "3 and 4 only"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Aromatic ester (used in treating headache and fever) $\\xrightarrow{\\text{alkaline hydrolysis}}$ Aromatic sodium salt $(X)$ + Aliphatic sodium salt $(Y)$. Which of the following choices is wrong?",
+            "options": [
+                "Two moles of sodium hydroxide are required for the hydrolysis process",
+                "The molecular formula for compound (X) is $C_{7}H_{4}O_{3}Na_{2}$",
+                "The IUPAC name of the ester is acetyl salicylic acid",
+                "Compound (Y) is used to prepare simplest alkane"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Choose the correct steps to change compound $(X)$ to that of $(Y)$: $(X)$ Aliphatic compound $C_{n}H_{2n+2} \\rightarrow$ can be changed to $\\rightarrow (Y)$ Aromatic compound $C_{n}H_{n+1}$",
+            "options": [
+                "Catalytic reformation - alkylation - oxidation",
+                "Catalytic reformation for normal heptane - Friedel craft reaction - oxidation",
+                "Heating and sudden cooling - dropping water - trimerization.",
+                "Heating and sudden cooling - trimerization – alkylation"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Study the following diagram: $(X) C_{n}H_{2n-2} \\xrightarrow{\\text{catalytic hydration}} (Y) C_{n}H_{2n}O \\xrightarrow{\\text{reduction}} (Z) C_{n}H_{2n+2}O$. If compound $(Y)$ cannot be oxidized under normal conditions. So which of the following is the correct statement?",
+            "options": [
+                "$(X)$ is propyne - $(Y)$ is propanone",
+                "$(X)$ is acetylene - $(Z)$ is ethanol",
+                "$(Y)$ is isomer for Propanal - $(Z)$ is isomer for di-ethyl ether",
+                "$(X)$ is used in preparation of benzene- $(Z)$ is used to prepare methyl methanoate ester"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "When equal concentrations of $H_{2}$ and $A_{2}$ are mixed, the following reaction occurs: $H_{2(g)} + A_{2(g)} \\rightleftharpoons 2HA_{(g)}$. If the concentration of $HA = 1.563\\,M, K_{c} = 40$, so the concentration of each of them ($H_{2}$ and $A_{2}$) equals:",
+            "options": [
+                "$0.247\\,M$",
+                "$0.039\\,M$",
+                "$62.52\\,M$",
+                "$42.52\\,M$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which of the following describes the properties of transition elements?",
+            "options": [
+                "They have low melting points and are good conductors of heat.",
+                "They form colored compounds and have multiple oxidation states.",
+                "They are highly reactive with water and form basic oxides.",
+                "They are all found in nature in their pure elemental form."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which of the following is true for an exothermic reaction?",
+            "options": [
+                "The enthalpy of the products is greater than the enthalpy of the reactants.",
+                "The system absorbs heat from the surroundings.",
+                "The value of $\\Delta H$ is negative.",
+                "The temperature of the surroundings decreases."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "What is the primary function of a salt bridge in a galvanic cell?",
+            "options": [
+                "To allow the flow of electrons between the two half-cells.",
+                "To provide a source of electrical energy.",
+                "To maintain electrical neutrality by allowing the flow of ions.",
+                "To prevent the electrodes from dissolving."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which functional group is present in all carboxylic acids?",
+            "options": [
+                "$-OH$",
+                "$-CHO$",
+                "$-COOH$",
+                "$-CO-$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "According to Le Chatelier's principle, what will happen if the pressure is increased in the system: $N_{2(g)} + 3H_{2(g)} \\rightleftharpoons 2NH_{3(g)}$?",
+            "options": [
+                "The equilibrium will shift toward the reactants.",
+                "The concentration of $NH_{3}$ will decrease.",
+                "The equilibrium will shift toward the products.",
+                "The value of $K_{c}$ will increase."
+            ],
+            "correct": 2
+        }
+    ]
+}
