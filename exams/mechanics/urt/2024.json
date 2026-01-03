@@ -22,7 +22,7 @@
             "correct": 1
         },
         {
-            "q": "A bird going west at $x~m/s,$ and a train with length 150 m moving east at $20~m/s$. The bird covers the size of the train in 6 seconds. The velocity of the bird is in km/h:",
+            "q": "A bird going west at $x~m/s,$ and a train with length 150 m moving east at $20~m/s$. The bird covers the size of the train in 6 seconds. The velocity of the bird is in $km/h$:",
             "options": [
                 "3.6",
                 "18",
@@ -34,10 +34,10 @@
         {
             "q": "Car A is going East with a velocity of $54~km/h.$ Car B is going west with a velocity of $20~m/sec.$ What is A's velocity with respect to B?",
             "options": [
-                "$74~km/h$ East",
-                "$36~m/sec$ West",
-                "$35~m/sec$ East",
-                "$34~km/h$ West"
+                "$74~km/h$&nbsp; East",
+                "$36~m/sec$&nbsp; West",
+                "$35~m/sec$&nbsp; East",
+                "$34~km/h$&nbsp; West"
             ],
             "correct": 2
         },

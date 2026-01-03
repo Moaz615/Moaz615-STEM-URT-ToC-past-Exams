@@ -1,0 +1,351 @@
+{
+    "questions": [
+        {
+            "q": "Thirty balls are numbered from 1 to 30. One ball is taken at random. What is the probability that the number on the ball will be an odd prime number?",
+            "options": [
+                "$\\frac{29}{30}$",
+                "$\\frac{3}{10}$",
+                "$\\frac{5}{10}$",
+                "$\\frac{1}{30}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "What is the probability that a number selected at random from the set {2, 3, 7, 12, 15, 22, 72, 108} will be divisible by both 3 and 4?",
+            "options": [
+                "$\\frac{1}{4}$",
+                "$\\frac{3}{8}$",
+                "$\\frac{3}{5}$",
+                "$\\frac{5}{8}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A pyramids area in Giza has seven entrances. In How many ways a man can get in and out of that area without getting in and out from the same entrance.",
+            "options": [
+                "7",
+                "14",
+                "21",
+                "42"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A bag contains 8 red marbles, 3 yellow marbles, and 12 green marbles. How many addition red marbles must be added to the 23 marbles already in the bag so that the probability of randomly drawing a red marble is $\\frac{2}{5}$?",
+            "options": [
+                "5",
+                "2",
+                "7",
+                "12"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Jerome, Kevin, and Seth shared a submarine sandwich. Jerome ate $\\frac{1}{3}$ of the sandwich, Kevin $\\frac{1}{6}$ of the sandwich, and Seth ate the rest. What is the ratio of Jerome's share to Kevin's share to Seth's share?",
+            "options": [
+                "2: 1: 3",
+                "3: 6: 2",
+                "3: 1: :2",
+                "2: 3: 1"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A manufacturer's total cost function is given by $f(x) = \\frac{x^2}{4} + 3x + 400$; where $f$ is the total cost of producing $x$ number of units. At what level of output the average cost per unit will be the minimum?",
+            "options": [
+                "40",
+                "1600",
+                "23",
+                "800"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which of the following is a factor of the polynomial $2x^2 + 3x - 5$?",
+            "options": [
+                "$x + 1$",
+                "$2x + 1$",
+                "$2x + 5$",
+                "$2x - 5$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The correlation of the following data is ... <br><table style='margin: 10px auto; border-collapse: collapse;'> <tr><th style='border: 1px solid; padding: 5px;'>X</th><th style='border: 1px solid; padding: 5px;'>17</th><th style='border: 1px solid; padding: 5px;'>23</th><th style=\"border: 1px solid; padding: 5px;\">25</th><th style=\"border: 1px solid; padding: 5px;\">29</th></tr><tr><td style= 'border: 1px solid; padding: 5px;'>Y</td><td style='border: 1px solid; padding: 5px;'>42</td><td style=\"border: 1px solid; padding: 5px;\">46</td><td style=\"border: 1px solid; padding: 5px;\">48</td><td style=\"border: 1px solid; padding: 5px;\">65</td></tr></table>",
+            "options": [
+                "Direct correlation",
+                "Inverse correlation",
+                "No correlation",
+                "None of them"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The sketch of the curve: $xy = x^3 + 2$ has min value at ...",
+            "options": [
+                "$(0, 0)$",
+                "$(-1, -1)$",
+                "$(1, 3)$",
+                "has no minimum point"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "For 2 consecutive integers, the result of adding the smaller integer and triple the larger integer is 83. What are the 2 integers?",
+            "options": [
+                "18, 19",
+                "19, 20",
+                "20, 21",
+                "21, 22"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The number line graph below is the graph of which of the following inequalities?",
+            "image": "exams/mathematics/urt/images/2017_q11.png",
+            "options": [
+                "$-2 \\le x$ and $5 \\le x$",
+                "$-2 \\le x$ and $5 \\ge x$",
+                "$-2 \\le x$ or $5 \\le x$",
+                "$-2 \\ge x$ or $5 \\le x$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The following sketch is the representation of the function.",
+            "image": "exams/mathematics/urt/images/2017_q12.png",
+            "options": [
+                "$y = |-x^2 - 3x + 1|$",
+                "$y = |3 + 2x - x^2|$",
+                "$y = |3 - 2x + x^2|$",
+                "$y = |3 + 2x - x^2|$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "What is $x$, the second term in the geometric series $\\frac{x}{4} + x + \\frac{1}{16} + \\frac{1}{32} + ...$?",
+            "options": [
+                "$\\frac{1}{4}$",
+                "$\\frac{1}{8}$",
+                "$\\frac{1}{2}$",
+                "$\\frac{1}{32}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "What is the sum of the middle five terms of the sequence (2, 5, 8...128)?",
+            "options": [
+                "65",
+                "325",
+                "43",
+                "215"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "If $x > 1$ and $\\frac{\\sqrt{x}}{x^5} = x^m$, what is the value of $m$?",
+            "options": [
+                "$\\frac{11}{2}$",
+                "$\\frac{1}{10}$",
+                "$-\\frac{9}{2}$",
+                "$\\frac{9}{2}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "What are the quadrants of the standard $(x, y)$ coordinate plane that contain points on the graph of the equation $3x - y = 6$?",
+            "options": [
+                "I and III only",
+                "I, II, and III only",
+                "I, II, and IV only",
+                "I, III, and IV only"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The point that lies in the solution region of the inequalities: $x \\ge 2$, $y < 3$, $x + 3y \\ge 5$ is...",
+            "options": [
+                "$(2, 1)$",
+                "$(2, -1)$",
+                "$(4, 0)$",
+                "$(5, -1)$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The solution of the simultaneous equations $\\frac{4}{x} - \\frac{1}{y} = 3$, $\\frac{2}{x} + \\frac{3}{y} = 5$ is:",
+            "options": [
+                "{(1, 1)}",
+                "{(2, 1)}",
+                "{(-11, 4)}",
+                "{(-1, 2)}"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which of the following is equivalent to $(5x^3)^2$?",
+            "options": [
+                "$25x^6$",
+                "$25x^5$",
+                "$10x^6$",
+                "$10x^5$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The volume of a cylinder is directly proportional with the square of the radius of its base ($r$) and directly proportional with the height ($h$). If the volume of the cylinder = 1540 cm$^3$ when $r = 7$ cm and $h = 10$ cm. What will be the volume of the cylinder when $r = 4$ cm and $h = 7$ cm?",
+            "options": [
+                "77",
+                "154",
+                "352",
+                "616"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Suppose 1000 LE is invested at 8.2% for 5 years. The account balance is compounded yearly. The total LE at the end of 5 years is:",
+            "options": [
+                "1482.98",
+                "1500.58",
+                "1504.72",
+                "1506.75"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which graph from the following has discriminator of its equation equal to zero?",
+            "options": [
+                "A <img src='exams/mathematics/urt/images/2017_q22_a.png' alt='Graph A'/>",
+                "B <img src='exams/mathematics/urt/images/2017_q22_b.png' alt='Graph B'/>",
+                "C <img src='exams/mathematics/urt/images/2017_q22_c.png' alt='Graph C'/>",
+                "D <img src='exams/mathematics/urt/images/2017_q22_d.png' alt='Graph D'/>"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "What is the name of the cross section represented by F?",
+            "image": "exams/mathematics/urt/images/2017_q23.png",
+            "options": [
+                "Circle",
+                "Ellipse",
+                "Parabola",
+                "Hyperbola"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The slope of the line with equation $y = ax + b$ is smaller than the slope of the line with equation $y = cx + b$. Which of the following statements must be true about the relationship between $a$ and $c$?",
+            "options": [
+                "$a \\le c$",
+                "$a < c$",
+                "$a = c$",
+                "$a > c$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "What is the $y$-intercept of the graph of $y = x^2 - 4x + 4$?",
+            "options": [
+                "4",
+                "2",
+                "-4",
+                "0"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The following function is decreasing on",
+            "image": "exams/mathematics/urt/images/2017_q26.png",
+            "options": [
+                "R",
+                "R - {0}",
+                "$(0, \\infty)$",
+                "$(-\\infty, 0)$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which of the following represents the 2-D cross-section of the plane X with the sphere?",
+            "image": "exams/mathematics/urt/images/2017_q27.png",
+            "options": [
+                "Square",
+                "Parallelogram",
+                "Ellipse",
+                "Circle"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "In the figure below, $\\angle ABC \\cong \\angle DFE$, $\\angle BAC \\cong \\angle FDE$. D and F are on $AB$, distances in centimeters are as shown. What is the length of $AD$ in centimeters?",
+            "image": "exams/mathematics/urt/images/2017_q28.png",
+            "options": [
+                "40",
+                "12",
+                "15",
+                "20"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In the figure below, points E and F are the midpoints of sides $AD$ and $BC$ of rectangle $ABCD$, G is the intersection of $AF$ and $BE$, and point H is the intersection of $CE$ and $DF$. The interior of $ABCD$ except for the interior of $EGFH$ is shaded. What is the ratio of the area of $EGFH$ to the area of the shaded region?",
+            "image": "exams/mathematics/urt/images/2017_q29.png",
+            "options": [
+                "1/3",
+                "1/4",
+                "1/5",
+                "1/6"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If $\\sin \\theta = \\cos \\theta - \\sqrt{2}$, then $\\sin \\theta \\cdot \\cos \\theta =$",
+            "options": [
+                "0.5",
+                "1.5",
+                "0.25",
+                "1.25"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The function $f(x) = \\tan x$ is not defined when $x =$",
+            "options": [
+                "$(2n+1)\\frac{\\pi}{2}$",
+                "$n\\pi$",
+                "$(2n+1)\\frac{\\pi}{3}$",
+                "$(1-4n)\\frac{\\pi}{2}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If $f_1(x) = \\sin x$, $f_2(x) = \\cos x$ and $x$ is in $(270, 360)$ then",
+            "options": [
+                "$f_1(x) < f_2(x)$",
+                "$f_1(x) = f_2(x)$",
+                "$f_1(x) > f_2(x)$",
+                "None of these"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "$y = 10^{(x^2-1)}$, then $\\frac{dy}{dx} =$",
+            "options": [
+                "$(\\ln 10) 10^{(x^2-1)}$",
+                "$(2x) 10^{(x^2-1)}$",
+                "$(x^2-1) 10^{(x^2-2)}$",
+                "$2x (\\ln 10) 10^{(x^2-1)}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The equation of the normal to the curve $y = 2x^3 - 4x^2 + 3$ at the point on the curve whose abscissa is 2 is:",
+            "options": [
+                "$y + 8x - 13 = 0$",
+                "$y - 8x + 13 = 0$",
+                "$8y - x + 26 = 0$",
+                "$8y + x - 26 = 0$"
+            ],
+            "correct": 3
+        }
+    ]
+}

@@ -1,0 +1,464 @@
+{
+    "questions": [
+        {
+            "q": "Ahmed has 12 different colored flags. He is going to fly 5 of the flags on Saturday. How many different sets of flags could he fly?",
+            "options": [
+                "592",
+                "992",
+                "792",
+                "892"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Eight different Arabic books and three different Chemistry books are to be placed on a shelf. In how many ways can this be done if the Arabic books are next to each other and Chemistry books are near to each other?",
+            "options": [
+                "24",
+                "241920",
+                "483840",
+                "40326"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A multiple choice test of 10 questions, each question has 4 choices: A, B, C, or D. How many ways can this test be answered",
+            "options": [
+                "14",
+                "40",
+                "1000",
+                "10484576"
+            ],
+            "correct": 3
+        },
+        {
+            "passage": "In a group of 1000 people, an advertising agency found that 700 people read Al-Ahram magazine, 650 read Al-Gomhoria magazine, and 400 people read both magazines. One of people in the group is selected randomly. <div style=\"text-align: center;\"> Answer the following two questions - (4 and 5) </div> "
+        },
+        {
+            "q": "What is the probability that the selected person reads at least one of the two magazines, Al-Ahram or Al-Gomhoria?",
+            "options": [
+                "0.45",
+                "0.95",
+                "0.3",
+                "0.5"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "What is the probability that the selected person does not read Al-Ahram?",
+            "options": [
+                "0.3",
+                "0.05",
+                "0.6",
+                "0.35"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Three different DVD's and their corresponding DVD cases are randomly strewn about on a shelf. If a young child puts the DVD's in the cases at random, the probability of correctly matching all DVD's and cases is .....",
+            "options": [
+                "$\\frac{1}{6}$",
+                "$\\frac{2}{3}$",
+                "$\\frac{1}{2}$",
+                "$\\frac{1}{9}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which scatter plot shows an inverse correlation?",
+            "options": [
+                "A <img src=\"exams/mechanics/urt/images/2018_q7_a.png\" alt=\"Graph A\">",
+                "B <img src=\"exams/mechanics/urt/images/2018_q7_b.png\" alt=\"Graph B\">",
+                "C <img src=\"exams/mechanics/urt/images/2018_q7_c.png\" alt=\"Graph C\">",
+                "D <img src=\"exams/mechanics/urt/images/2018_q7_d.png\" alt=\"Graph D\">"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Amen Taxi rates: LE $1.20$ for the first $\\frac{1}{4}$ mile, LE $0.90$ for each additional $\\frac{1}{4}$ mile, and LE $6.00$ per hour for waiting. How much will a $1.5$-mile trip with a $15$-minute wait cost?",
+            "options": [
+                "7.20",
+                "4.50",
+                "2.85",
+                "11.7"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If $f(x) = x^2 + 3$ and $g(x) = 3x - 4$, then $f'(g(1)) = \\dots \\dots$",
+            "options": [
+                "$-6$",
+                "$6$",
+                "$8$",
+                "$-8$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "$(\\begin{vmatrix} 1 & \\omega \\\\ 1 & \\omega^2 \\end{vmatrix})^2 + \\begin{vmatrix} i & 1 \\\\ 2 & i \\end{vmatrix} = \\dots$",
+            "options": [
+                "-6",
+                "0",
+                "-3",
+                "-5"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The equivalent resistance $M$ of two resistors in parallel, with resistances $m_1$ and $m_2$, is given by the formula: $$\\frac{1}{M} = \\frac{1}{m_1} + \\frac{1}{m_2}$$ If $m_1$ has twice the resistance of $m_2$, what is the value of $m_2$ if the equivalent resistance is $30 \\text{ ohms}$?",
+            "options": [
+                "$15 \\text{ ohms}$",
+                "$30 \\text{ ohms}$",
+                "$45 \\text{ ohms}$",
+                "$90 \\text{ ohms}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "All of the following is correct in $\\mathbb{C}$ except .......",
+            "options": [
+                "The area of parallelogram having sides $Z_1$ &nbsp; and &nbsp; $Z_2$ is $|Z_1 Z_2|$",
+                "$\\text{Arg}(0)$ &nbsp; is not defined",
+                "$Z_1 < Z_2$ &nbsp; or &nbsp; $Z_2 < Z_1$ has no meaning in $\\mathbb{C}$",
+                "$|Z_1 + Z_2| \\leq |Z_1| + |Z_2|$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If the curve of the function $f$ is symmetric about the point $(2, 3)$ and $f(5) = 11$, then $f(-1) = \\dots\\dots$",
+            "options": [
+                "$-11$",
+                "$14$",
+                "$8$",
+                "$-5$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The volume of the solid resulting from folding the net below is .......",
+            "image": "exams/mechanics/urt/images/2018_q14.png",
+            "options": [
+                "$32 cm^3$",
+                "$15.1 cm^3$",
+                "$22.6 cm^3$",
+                "$55.4 cm^3$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The curve of the function $y = 2^x$ is the image of the curve of the function $y = \\left(\\frac{1}{2}\\right)^x$ under the reflection in .........",
+            "options": [
+                "the $x-$axis",
+                "the $y-$axis",
+                "point of origin",
+                "the straight line &nbsp; $y = x$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The solution set of the equation: $x^{\\frac{\\log x}{\\log 8m - \\log 4m}} = 2$, &nbsp; where $m \\in \\mathbb{R}$, is .......",
+            "options": [
+                "$\\{\\frac{1}{2}, 2\\}$",
+                "$\\{2\\}$",
+                "$\\{4\\}$",
+                "$\\{\\frac{1}{2}\\}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "If $\\begin{pmatrix} \\lim_{x \\to 1} (x+1) & \\frac{d}{dx}(3x) \\\\ \\log_2 |x| & 0 \\end{pmatrix} = \\begin{pmatrix} \\log_2 y & 2 \\\\ \\sqrt{3}^2 & \\log_2 z \\end{pmatrix}^t$, then $xyz = \\dots\\dots$",
+            "options": [
+                "32",
+                "24",
+                "$\\pm 32$",
+                "12"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The graph represents the set of all possible solutions of the following Inequality. $2|x - 4| - |4 - x| > 1$ is .......",
+            "options": [
+                "A <img src=\"exams/mechanics/urt/images/2018_q18_a.png\" alt=\"Graph A\">",
+                "B <img src=\"exams/mechanics/urt/images/2018_q18_b.png\" alt=\"Graph B\">",
+                "C <img src=\"exams/mechanics/urt/images/2018_q18_c.png\" alt=\"Graph C\">",
+                "D <img src=\"exams/mechanics/urt/images/2018_q18_d.png\" alt=\"Graph D\">"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If $\\log_2(\\sin^2 x) - \\log_2(2 \\sin x) = -2$ , $x \\in ]\\frac{\\pi}{2}, \\pi[$ , then $x = ......",
+            "options": [
+                "$\\frac{\\pi}{6}$",
+                "$\\frac{5\\pi}{6}$",
+                "$\\frac{\\pi}{3}$",
+                "$\\frac{2\\pi}{3}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Mr. Osama made the opposite stem-and-leaf plot to show the test scores in his Mathematics class. What is the range of the score of these test scores?",
+            "image": "exams/mechanics/urt/images/2018_q20.png",
+            "options": [
+                "49",
+                "85",
+                "29",
+                "38"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The number of triangles ABC can be drawn if $a = 15$ , $c = 12$ and $m(\\hat{A}) = 94^\\circ$ is .................",
+            "options": [
+                "Zero",
+                "One",
+                "Two",
+                "Three"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A circle passes through one vertex of an equilateral triangle and is tangent to the opposite side at its midpoint. What is the ratio of the segments into which the circle divides one of the other sides?",
+            "image": "exams/mechanics/urt/images/2018_q22.png",
+            "options": [
+                "3:1",
+                "3:2",
+                "4:1",
+                "5:2"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Two spheres of radii 8 and 2 are resting on a plane table so that they touch each other. Then $AB$ = .........",
+            "image": "exams/mechanics/urt/images/2018_q23.png",
+            "options": [
+                "6",
+                "7",
+                "8",
+                "$8\\sqrt{2}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The function $f$ is defined as $f(x) = \\frac{2x+1}{x-3}$ . Find the value of k so $f^{-1}(x) = \\frac{3x+1}{x-k}$",
+            "options": [
+                "2",
+                "-2",
+                "3",
+                "-3"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The value of $x$ between $180^\\circ$ and $270^\\circ$ that satisfies the equation $\\tan x = \\cot x$ is .......",
+            "options": [
+                "$200^\\circ$",
+                "$210^\\circ$",
+                "$225^\\circ$",
+                "$240^\\circ$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In the figure, what is the area of the semicircular region in terms of $\\pi$?",
+            "image": "exams/mechanics/urt/images/2018_q26.png",
+            "options": [
+                "$100\\pi$",
+                "$50\\pi$",
+                "$25\\pi$",
+                "$12.5\\pi$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "In the figure, $PQRST$ is a regular pentagon inscribed in the circle. $\\overline{PR}$ and $\\overline{QT}$ are diagonals of the pentagon, forming an angle of $x^\\circ$ as shown. What does $x$ equal?",
+            "image": "exams/mechanics/urt/images/2018_q27.png",
+            "options": [
+                "$108^\\circ$",
+                "$144^\\circ$",
+                "$72^\\circ$",
+                "$36^\\circ$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The gravitational force (F) of attraction between two bodies of masses m and M varies directly as the product of their masses and inversely as the square of the distance d between them. Doubling one of the masses and the distance between the masses will",
+            "options": [
+                "multiply F by 2",
+                "divide F by 2",
+                "multiply F by 4",
+                "divide F by 4"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "How many degrees are there between the hands of a clock at 3:40?",
+            "options": [
+                "$130^\\circ$",
+                "$135^\\circ$",
+                "$140^\\circ$",
+                "$145^\\circ$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "For what values of $K$ does the equation $Kx^2 - 4x + K = 0$ has real roots?",
+            "options": [
+                "$-4 \\leq K \\leq 4$",
+                "$K \\geq -2$",
+                "$-2 \\leq K \\leq 2$",
+                "$K \\leq 2$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A man can do a job in h hours alone and his son can do the same job in 2h hours alone. Together, how many hours will it take them to do the job?",
+            "options": [
+                "3h",
+                "$\\frac{h}{3}$",
+                "$\\frac{3h}{2}$",
+                "$\\frac{2h}{3}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "$\\int (\\sec^2(\\frac{\\pi}{4}) + \\sec x \\tan x)dx = ........$",
+            "options": [
+                "$\\frac{4}{\\pi} \\tan(\\frac{\\pi}{4}) + \\sec^2 x + C$",
+                "$2x + \\sec x + C$",
+                "$2x - \\sec x + C$",
+                "$2x + \\tan^2 x + C$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Let $f$ be a function such that $\\lim_{h \\to 0} \\frac{f(2+h) - f(2)}{h} = 2$. Which of the following must be true? <div style='text-align:center'>I. $f$ is continuous at $x=2$. <br>II. $f$ is differentiable at $x=2$. <br>III. The derivative of $f$ is continuous at $x=2$.</div>",
+            "options": [
+                "I only",
+                "II only",
+                "I and III only",
+                "I and II only"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A particle moves in the xy-plane so that, its coordinates, are $x = t^3 - t^2$ and $y = t^4 - 5t^2$. What is the velocity and acceleration vectors at $t = 1$?",
+            "options": [
+                "(1, -6), (-4, -2)",
+                "(1, -6), (4, 2)",
+                "(-1, -6), (4, 2)",
+                "(-1, -6), (-4, -2)"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "When an object that its thrown upwards reaches its highest point, which statement is true?",
+            "options": [
+                "The acceleration switches from positive to negative.",
+                "The acceleration is zero.",
+                "The total displacement is zero.",
+                "The velocity is zero at this point."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "In the opposite fig. $f(1) + \\lim_{x \\to 1} f(x) = ..........$",
+            "image": "exams/mechanics/urt/images/2018_q36.png",
+            "options": [
+                "undefined",
+                "2",
+                "3",
+                "5"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "If $f(x) = 2x - 1$, find the value of x that makes $f(f(x)) = 9$",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The graph of $(x^2 - 1)y = (x^2 - 4)$ has",
+            "options": [
+                "one horizontal and one vertical asymptote",
+                "two vertical but no horizontal asymptotes",
+                "one horizontal and two vertical asymptotes",
+                "two horizontal and two vertical asymptotes"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Let $f$ be the function defined by $f(x) = \\begin{cases} \\frac{x^2-4}{x-2} & \\text{if } x \\neq 2 \\\\ 1 & \\text{if } x = 2 \\end{cases}$, Which of the following statements about $f$ are true? i. $f$ has a limit at $x = 2$. ii. $f$ is continuous at $x = 2$. iii. $f$ is differentiable at $x = 2$.",
+            "options": [
+                "i only",
+                "ii only",
+                "i and ii only",
+                "ii and iii only"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Three coplanar and concurrent forces of magnitudes 10 N, 20 N and 30 N act on a particle, the first acts due to East, the second acts in direction $30^{\\circ}$ West of North, the third acts in direction $60^{\\circ}$ South of West, then the magnitude of the resultant of these forces=........newton",
+            "options": [
+                "$10\\sqrt{3}$",
+                "$-5\\sqrt{3}$",
+                "$5\\sqrt{3}$",
+                "$-15$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If $\\vec{F_1} = 5\\vec{i} + 3\\vec{j}$ , $\\vec{F_2} = a\\vec{i} + 6\\vec{j}$ , $\\vec{F_3} = -14\\vec{i} + b\\vec{j}$ are three coplanar forces act at a point and if their resultant is $\\vec{R} = ( 10\\sqrt{2} , \\frac{3}{4}\\pi )$ , then the value of $a + b = ..........$",
+            "options": [
+                "2",
+                "1",
+                "-1",
+                "0"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A body is projected vertically upwards from a point on the surface of the ground, If it returned back to the point of projection after 10 sec from the moment of projection, then its initial velocity = ..........m/sec .",
+            "options": [
+                "4.9",
+                "49",
+                "98",
+                "9.8"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "$\\frac{d}{dx} ( \\frac{1}{x^2} \\cdot \\frac{d^2}{dx^2} ( \\frac{1}{x^2} ) ) = ax^p$ where $a = \\dots$ and $p = \\dots$",
+            "options": [
+                "-36, -5",
+                "36, -5",
+                "-36, -7",
+                "-36, 7"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If $f(x) = \\sin^2 x$ , then $f'''(x) = ...$",
+            "options": [
+                "$\\sin 2x$",
+                "$2 \\sin 2x$",
+                "$-4 \\sin 2x$",
+                "$2 \\cos 2x$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The shaded region in the opposite graph represents the solution set of which of the following systems of inequalities?",
+            "options": [
+                "${\\begin{matrix} y < -x + 2 \\\\ (x - 1)^2 + (y - 2)^2 < 9 \\end{matrix}}$",
+                "${\\begin{matrix} y > -x + 2 \\\\ (x - 1)^2 + (y - 2)^2 < 9 \\end{matrix}}$",
+                "${\\begin{matrix} y < -x + 2 \\\\ (x - 1)^2 + (y - 2)^2 > 9 \\end{matrix}}$",
+                "${\\begin{matrix} y > -x + 2 \\\\ (x - 1)^2 + (y - 2)^2 > 9 \\end{matrix}}$"
+            ],
+            "correct": 0
+        }
+    ]
+}
