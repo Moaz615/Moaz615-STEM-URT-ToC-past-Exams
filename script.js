@@ -157,18 +157,14 @@ async function renderYearButtons() {
 
 function saveExamState() {
     if (!currentExamData || session.mode !== 'full') return;
-    
+    const questions = getQuestionList();
     examState.answers = {};
-    currentExamData.questions.forEach((q, i) => {
+    questions.forEach((q, i) => {
         const selected = document.querySelector(`input[name="q${i}"]:checked`);
-        if (selected) {
-            examState.answers[i] = Number(selected.value);
-        }
+        if (selected) examState.answers[i] = Number(selected.value);
     });
-    
-    examState.elapsedTime = getExamDuration() * 60 - timerSeconds;
+    examState.elapsedTime = (getExamDuration() * 60) - timerSeconds;
     examState.startTime = Date.now() - (examState.elapsedTime * 1000);
-    
     const stateKey = `exam_state_${session.subject}_${session.type}_${session.year}`;
     localStorage.setItem(stateKey, JSON.stringify(examState));
 }
@@ -211,9 +207,7 @@ function restoreExamState() {
     timerSeconds = Math.max(0, examDuration - examState.elapsedTime);
     updateTimerDisplay();
     updateProgressBar();
-    
-    // Apply pause state to restored answers
-    if (isPaused) {
+        if (isPaused) {
         const answerOptions = document.querySelectorAll('input[type="radio"]');
         answerOptions.forEach(radio => {
             radio.disabled = true;
@@ -229,7 +223,6 @@ function restoreExamState() {
 
 function startTimer() {
     if (session.mode === 'full') {
-        // Clear any existing timer before starting a new one
         if (timerInterval) {
             clearInterval(timerInterval);
         }
@@ -252,7 +245,10 @@ function startTimer() {
                 timerSeconds--;
                 updateTimerDisplay();
                 updateProgressBar();
-                saveExamState();
+                
+                if (timerSeconds % 5 === 0) {
+                    saveExamState();
+                }
                 
                 if (timerSeconds === 300 && !warningShown) {
                     showTimeWarning();
@@ -375,20 +371,17 @@ function resetTimer() {
     updateTimerDisplay();
     updateProgressBar();
     
-    // Clear all answers
     document.querySelectorAll('input[type="radio"]').forEach(radio => {
         radio.checked = false;
         radio.disabled = false;
     });
     
-    // Re-enable option labels
     const optionLabels = document.querySelectorAll('.option-label');
     optionLabels.forEach(label => {
         label.style.opacity = '1';
         label.style.pointerEvents = 'auto';
     });
     
-    // Clear saved state
     clearExamState();
     examState.startTime = Date.now();
     
@@ -433,6 +426,24 @@ function getImagesHtml(q, inReview = false) {
     return "";
 }
 
+function formatPassage(item) {
+    if (!item.passage) return "";
+    let text = item.passage;
+    if (item.images && Array.isArray(item.images)) {
+        item.images.forEach((src, index) => {
+            const imgHtml = `<div class="passage-img-wrapper"><img src="${src}" class="question-image"></div>`;
+            text = text.replace(`{{img${index}}}`, imgHtml);
+        });
+    } else if (item.image) {
+        text += `<div class="passage-img-wrapper"><img src="${item.image}" class="question-image"></div>`;
+    }
+    return text;
+}
+
+function getQuestionList() {
+    return currentExamData.questions.filter(item => item.q);
+}
+
 function renderExam() {
     const title = `${session.subject.toUpperCase()} ${session.type.toUpperCase()} - ${session.year}`;
     document.getElementById("title-display").innerText = title;
@@ -461,46 +472,49 @@ function renderExam() {
 
 function renderFullExam() {
     let html = "";
-    
-    currentExamData.questions.forEach((q, i) => {
-        if (q.passage) {
-            html += `<div class="passage-box"><strong>Passage:</strong><br>${q.passage}</div>`;
+    let qCount = 0;
+    currentExamData.questions.forEach((item) => {
+        if (item.passage) {
+            html += `<div class="passage-box">${formatPassage(item)}</div>`;
+        } else if (item.q) {
+            html += `
+            <div class="question-card">
+                <p class="question-text"><strong>Q${qCount + 1}:</strong> ${item.q}</p>
+                ${getImagesHtml(item, false)}
+                <div class="options-container">
+                    ${item.options.map((opt, idx) => `
+                        <label class="option-label">
+                            <input type="radio" name="q${qCount}" value="${idx}" onchange="saveExamState()"> ${opt}
+                        </label>`).join("")}
+                </div>
+            </div>`;
+            qCount++;
         }
-
-        html += `
-        <div class="question-card">
-            <p class="question-text"><strong>Q${i + 1}:</strong> ${q.q}</p>
-            ${getImagesHtml(q, false)}
-            <div class="options-container">
-                ${q.options.map((opt, idx) => `
-                    <label class="option-label">
-                        <input type="radio" name="q${i}" value="${idx}" onchange="saveExamState()"> ${opt}
-                    </label>`).join("")}
-            </div>
-        </div>`;
     });
-
     document.getElementById("exam-container").innerHTML = html;
-    
-    // Restore state after rendering
-    setTimeout(() => {
-        restoreExamState();
-    }, 100);
+    setTimeout(() => { restoreExamState(); }, 100);
 }
 
 function renderQuestionByQuestion() {
-    const q = currentExamData.questions[currentQuestionIndex];
-    const totalQuestions = currentExamData.questions.length;
-    
+    const questions = getQuestionList();
+    const totalQuestions = questions.length;
+    const q = questions[currentQuestionIndex];
+    let activePassageObj = null;
+    let questionTracker = 0;
+    for (let item of currentExamData.questions) {
+        if (item.passage) {
+            activePassageObj = item;
+        } else if (item.q) {
+            if (questionTracker === currentQuestionIndex) break;
+            questionTracker++;
+        }
+    }
     document.getElementById('question-progress').textContent = `Question ${currentQuestionIndex + 1} of ${totalQuestions}`;
     document.getElementById('question-progress-fill').style.width = `${((currentQuestionIndex + 1) / totalQuestions) * 100}%`;
-    
     let html = "";
-    
-    if (q.passage) {
-        html += `<div class="passage-box"><strong>Passage:</strong><br>${q.passage}</div>`;
+    if (activePassageObj) {
+        html += `<div class="passage-box">${formatPassage(activePassageObj)}</div>`;
     }
-
     html += `
     <div class="question-card">
         <p class="question-text"><strong>Q${currentQuestionIndex + 1}:</strong> ${q.q}</p>
@@ -512,39 +526,28 @@ function renderQuestionByQuestion() {
                 </label>`).join("")}
         </div>
     </div>`;
-
     document.getElementById("exam-container").innerHTML = html;
-    
     document.getElementById('prev-question-btn').disabled = currentQuestionIndex === 0;
     document.getElementById('next-question-btn').textContent = currentQuestionIndex === totalQuestions - 1 ? 'Finish' : 'Next';
-    
     if (window.MathJax) MathJax.typesetPromise();
 }
 
 function checkAnswer() {
     const selected = document.querySelector('input[name="current-question"]:checked');
     if (!selected) return;
-    
-    const q = currentExamData.questions[currentQuestionIndex];
+    const q = getQuestionList()[currentQuestionIndex];
     const userIndex = Number(selected.value);
     const isCorrect = userIndex === q.correct;
-    
     const allLabels = document.querySelectorAll('.option-label');
     const selectedLabel = selected.parentElement;
     const correctLabel = allLabels[q.correct];
-    
     selectedLabel.classList.add(isCorrect ? 'correct' : 'incorrect');
     correctLabel.classList.add('correct-answer');
-    
     document.querySelectorAll('input[name="current-question"]').forEach(input => input.disabled = true);
-    
-    if (window.MathJax) MathJax.typesetPromise();
 }
 
 function nextQuestion() {
-    const totalQuestions = currentExamData.questions.length;
-    
-    if (currentQuestionIndex < totalQuestions - 1) {
+    if (currentQuestionIndex < getQuestionList().length - 1) {
         currentQuestionIndex++;
         renderQuestionByQuestion();
     } else {
@@ -612,73 +615,39 @@ function getAllExamResults() {
     const saved = localStorage.getItem('all_exam_results');
     return saved ? JSON.parse(saved) : {};
 }
-
 function processResults() {
-    if (timerInterval) {
-        clearInterval(timerInterval);
-    }
-    
+    if (timerInterval) clearInterval(timerInterval);
     let score = 0;
     let reviewHtml = "";
-    let timeTaken = null;
-    
-    if (session.mode === 'full') {
-        const examDuration = getExamDuration() * 60;
-        timeTaken = examDuration - timerSeconds;
-        clearExamState();
-    }
-    
-    if (session.mode === 'full') {
-        currentExamData.questions.forEach((q, i) => {
-            const selected = document.querySelector(`input[name="q${i}"]:checked`);
+    const questions = getQuestionList();
+    let activePassageHtml = "";
+    currentExamData.questions.forEach((item) => {
+        if (item.passage) {
+            activePassageHtml = `<div class="passage-box review-passage">${formatPassage(item)}</div>`;
+        } else if (item.q) {
+            const qIndex = questions.indexOf(item);
+            const selected = document.querySelector(`input[name="q${qIndex}"]:checked`);
             const userIndex = selected ? Number(selected.value) : null;
-            const isCorrect = userIndex === q.correct;
+            const isCorrect = userIndex === item.correct;
             if (isCorrect) score++;
-            
-            if (q.passage) {
-                reviewHtml += `<div class="passage-box review-passage"><strong>Passage:</strong><br>${q.passage}</div>`;
+            if (activePassageHtml) {
+                reviewHtml += activePassageHtml;
+                activePassageHtml = "";
             }
-
             reviewHtml += `
             <div class="review-card ${isCorrect ? "status-correct" : "status-wrong"}">
-                <p class="question-text"><strong>Question ${i + 1}:</strong> ${q.q}</p>
-                ${getImagesHtml(q, true)}
+                <p class="question-text"><strong>Question ${qIndex + 1}:</strong> ${item.q}</p>
+                ${getImagesHtml(item, true)}
                 <p class="${isCorrect ? "correct-tag" : "wrong-tag"}">
-                    Your Answer: ${userIndex !== null ? q.options[userIndex] : "No answer"} ${isCorrect ? " ✓" : " ✗"}
+                    Your Answer: ${userIndex !== null ? item.options[userIndex] : "No answer"} ${isCorrect ? " ✓" : " ✗"}
                 </p>
-                ${!isCorrect ? `<p class="actual-answer"><strong>Correct Answer:</strong> ${q.options[q.correct]}</p>` : ""}
+                ${!isCorrect ? `<p class="actual-answer"><strong>Correct Answer:</strong> ${item.options[item.correct]}</p>` : ""}
             </div>`;
-        });
-    } else {
-        currentExamData.questions.forEach((q, i) => {
-            const isCorrect = true;
-            if (isCorrect) score++;
-            
-            if (q.passage) {
-                reviewHtml += `<div class="passage-box review-passage"><strong>Passage:</strong><br>${q.passage}</div>`;
-            }
-
-            reviewHtml += `
-            <div class="review-card status-correct">
-                <p class="question-text"><strong>Question ${i + 1}:</strong> ${q.q}</p>
-                ${getImagesHtml(q, true)}
-                <p class="correct-tag">Completed with immediate feedback ✓</p>
-            </div>`;
-        });
-    }
-
-    const total = currentExamData.questions.length;
-    const result = saveExamResult(session.subject, session.type, session.year, score, total, timeTaken);
-
-    document.getElementById("raw-score-display").innerText = `${score} / ${total}`;
-    let comment = score === total ? "Perfect!" : "Review your answers below.";
-    if (result.attempts > 1) {
-        comment += ` (Attempt ${result.attempts}, Best: ${result.bestScore}/${total})`;
-    }
-    document.getElementById("score-comment").innerText = comment;
+        }
+    });
+    document.getElementById("raw-score-display").innerText = `${score} / ${questions.length}`;
     document.getElementById("review-container").innerHTML = reviewHtml;
     navigateTo('results');
-    try { window.scrollTo(0, 0); } catch (e) { document.documentElement.scrollTop = 0; }
     if (window.MathJax) MathJax.typesetPromise();
 }
 
@@ -776,7 +745,6 @@ window.onload = () => {
         themeToggle.addEventListener('click', toggleTheme);
     }
     
-    // Handle form submission
     const form = document.querySelector('.contact-form');
     const formStatus = document.getElementById('form-status');
     
@@ -813,7 +781,6 @@ window.onload = () => {
                 submitBtn.textContent = originalText;
                 submitBtn.disabled = false;
                 
-                // Clear status message after 5 seconds
                 setTimeout(() => {
                     formStatus.innerHTML = '';
                 }, 5000);
