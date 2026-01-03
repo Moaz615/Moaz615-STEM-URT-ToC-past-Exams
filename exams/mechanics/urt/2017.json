@@ -102,7 +102,7 @@
         },
         {
             "q": "The number line graph below is the graph of which of the following inequalities?",
-            "image": "exams/mathematics/urt/images/2017_q11.png",
+            "image": "exams/mechanics/urt/images/2017_q11.png",
             "options": [
                 "$-2 \\le x$ and $5 \\le x$",
                 "$-2 \\le x$ and $5 \\ge x$",
@@ -113,7 +113,7 @@
         },
         {
             "q": "The following sketch is the representation of the function.",
-            "image": "exams/mathematics/urt/images/2017_q12.png",
+            "image": "exams/mechanics/urt/images/2017_q12.png",
             "options": [
                 "$y = |-x^2 - 3x + 1|$",
                 "$y = |3 + 2x - x^2|$",
@@ -214,17 +214,18 @@
         },
         {
             "q": "Which graph from the following has discriminator of its equation equal to zero?",
+            "image": "exams/mechanics/urt/images/2017_q22.png",
             "options": [
-                "A <img src='exams/mathematics/urt/images/2017_q22_a.png' alt='Graph A'/>",
-                "B <img src='exams/mathematics/urt/images/2017_q22_b.png' alt='Graph B'/>",
-                "C <img src='exams/mathematics/urt/images/2017_q22_c.png' alt='Graph C'/>",
-                "D <img src='exams/mathematics/urt/images/2017_q22_d.png' alt='Graph D'/>"
+                "$F_1(x) = 0$",
+                "$F_2(x) = 0$",
+                "$F_3(x) = 0$",
+                "$F_4(x) = 0$"
             ],
             "correct": 1
         },
         {
             "q": "What is the name of the cross section represented by F?",
-            "image": "exams/mathematics/urt/images/2017_q23.png",
+            "image": "exams/mechanics/urt/images/2017_q23.png",
             "options": [
                 "Circle",
                 "Ellipse",
@@ -255,7 +256,7 @@
         },
         {
             "q": "The following function is decreasing on",
-            "image": "exams/mathematics/urt/images/2017_q26.png",
+            "image": "exams/mechanics/urt/images/2017_q26.png",
             "options": [
                 "R",
                 "R - {0}",
@@ -266,7 +267,7 @@
         },
         {
             "q": "Which of the following represents the 2-D cross-section of the plane X with the sphere?",
-            "image": "exams/mathematics/urt/images/2017_q27.png",
+            "image": "exams/mechanics/urt/images/2017_q27.png",
             "options": [
                 "Square",
                 "Parallelogram",
@@ -277,7 +278,7 @@
         },
         {
             "q": "In the figure below, $\\angle ABC \\cong \\angle DFE$, $\\angle BAC \\cong \\angle FDE$. D and F are on $AB$, distances in centimeters are as shown. What is the length of $AD$ in centimeters?",
-            "image": "exams/mathematics/urt/images/2017_q28.png",
+            "image": "exams/mechanics/urt/images/2017_q28.png",
             "options": [
                 "40",
                 "12",
@@ -288,7 +289,7 @@
         },
         {
             "q": "In the figure below, points E and F are the midpoints of sides $AD$ and $BC$ of rectangle $ABCD$, G is the intersection of $AF$ and $BE$, and point H is the intersection of $CE$ and $DF$. The interior of $ABCD$ except for the interior of $EGFH$ is shaded. What is the ratio of the area of $EGFH$ to the area of the shaded region?",
-            "image": "exams/mathematics/urt/images/2017_q29.png",
+            "image": "exams/mechanics/urt/images/2017_q29.png",
             "options": [
                 "1/3",
                 "1/4",

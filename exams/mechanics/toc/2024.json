@@ -1,0 +1,336 @@
+{
+    "questions": [
+        {
+            "q": "In the opposite figure, the forces 2, 4, 2, 5 and&nbsp;$\\sqrt{2}N$&nbsp;acting along the sides&nbsp;$\\vec{DA}$,&nbsp;$\\vec{AB},$&nbsp;$\\overline{BC}$,&nbsp;$\\vec{CD}$&nbsp;and&nbsp;$\\vec{DB}$&nbsp;respectively, in the square ABCD in the indicated directions. Find the magnitude of the force&nbsp;$\\vec{R}$&nbsp;which is equivalent to this system of forces.",
+            "image": "exams/mechanics/toc/images/2024_q1.png",
+            "options": [
+                "3 N",
+                "4N",
+                "5 N",
+                "7N"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In the opposite figure, find the magnitude and direction of the resultant of&nbsp;$\\vec{R}$&nbsp;four concurrent forces (2P and 4P in the vertical directions, P and 3P in the horizontal directions) acting at the point 0.",
+            "image": "exams/mechanics/toc/images/2024_q2.png",
+            "options": [
+                "$5\\sqrt{2}P$&nbsp;acting at 45 (anticlockwise) with respect to the force 4P.",
+                "3P acting at 45° (anticlockwise) with respect to the force 3P.",
+                "$3\\sqrt{2}P$&nbsp;acting at 45° (anticlockwise) with respect to the force 2P.",
+                "$2\\sqrt{2}P$&nbsp;acting at 45°(anticlockwise) with respect to the force 3P."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Two couples act on the beam, where the resultant couple is zero. Find the magnitudes of the forces&nbsp;$\\vec{P}$&nbsp;and&nbsp;$\\vec{F}$&nbsp;and the distance d.",
+            "image": "exams/mechanics/toc/images/2024_q3.png",
+            "options": [
+                "500 N, 300N, 3.85m",
+                "400 N, 300N, 3.96m",
+                "400 N, 300N, 3.85m",
+                "500 N, 300N, 3.96m"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Two couples act on the beam and d equals 8m. Find the resultant couple. (where tan&nbsp;$\\theta=\\frac{4}{3})$",
+            "image": "exams/mechanics/toc/images/2024_q4.png",
+            "options": [
+                "65.55 N.m",
+                "85.1 N.m",
+                "234.55 N.m",
+                "496.1 N.m"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In the opposite figure, if the resultant of the three coplanar forces is 340 N and is directed along with the positive y-axis. Then the magnitude of&nbsp;$F_{1}$&nbsp;and&nbsp;$\\theta$&nbsp;are:",
+            "image": "exams/mechanics/toc/images/2024_q5.png",
+            "options": [
+                "120 N & 22.6°",
+                "90 N & 30.2°",
+                "150 N & 36.9°",
+                "130 N & 40.2°"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A force couple acting on the rod. Find the couple moment acting on the rod in the Cartesian vector notation.",
+            "image": "exams/mechanics/toc/images/2024_q6.png",
+            "options": [
+                "($-17\\hat{i}-9.2\\hat{j}-27.4\\hat{k}$)N.M",
+                "($-17\\hat{i}+19.2\\hat{j}-27.4\\hat{k}$)N.M",
+                "($27\\hat{i}-9.2\\hat{j}-27.4\\hat{k}$)N.M",
+                "($-17\\hat{i}-9.2\\hat{j}+17.4\\hat{k}$)N.M"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "In the opposite figure, determine the value of the third force and the distance between its point of action and point A, at which the rod is in an equilibrium state, if the forces 20 N and 30 N are acting on the rod.",
+            "image": "exams/mechanics/toc/images/2024_q7.png",
+            "options": [
+                "10 N & 70 cm",
+                "70 N & 10 cm",
+                "50 N & 30 cm",
+                "60 N & 20 cm"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In the opposite figure, if the system is in an equilibrium state, find the magnitudes of the tensions&nbsp;$T_{1}$&nbsp;and&nbsp;$T_{2}$",
+            "image": "exams/mechanics/toc/images/2024_q8.png",
+            "options": [
+                "$T_{1}=48.8~N$,&nbsp;$T_{2}=28.0~N$",
+                "$T_{1}=50.8~N$,&nbsp;$T_{2}=28.0~N$",
+                "$T_{1}=40.8~N$,&nbsp;$T_{2}=30.0~N$",
+                "$T_{1}=60.8~N$,&nbsp;$T_{2}=30.0~N$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The x-component of a force of 50N is 30N, what will the y-component of the same applied force?",
+            "options": [
+                "20N",
+                "30N",
+                "40N",
+                "50N"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Calculate the magnitude of the moment of the force of 600N about the point 0, as shown in the figure (to the nearest whole number).",
+            "image": "exams/mechanics/toc/images/2024_q10.png",
+            "options": [
+                "2016 N.m",
+                "2601 N.m",
+                "2610 N.m",
+                "2061 N.m"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "In the opposite figure, find the resultant moment produced by the forces about point B.",
+            "image": "exams/mechanics/toc/images/2024_q11.png",
+            "options": [
+                "100.52 N.m",
+                "149.52 N.m",
+                "749.52 N.m",
+                "1249.52 N.m"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The magnitude of the torque about the point B(3,-1) of a force F(2,4) N on the plane xy passing through the point A(5,2) is..... (The distance is measured in meter)",
+            "options": [
+                "2 N.m",
+                "6 N.m",
+                "14 N.m",
+                "20 N.m"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A wheel is rotating at&nbsp;$4~rad/s$&nbsp;and accelerated to 12 rad/s after 32 rad. Then the angular acceleration is",
+            "options": [
+                "4 rad&nbsp;$s^{-2}$",
+                "5 rad&nbsp;$s^{-2}$",
+                "2 rad&nbsp;$s^{-2}$",
+                "3 rad&nbsp;$s^{-2}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A carousel, rotating in a horizontal platform of radius r, is initially at rest. It begins to accelerate constantly until it reached an angular velocity w after two complete revolutions. What is the angular acceleration of the carousel during this time?",
+            "options": [
+                "$\\alpha=\\frac{\\omega^{2}}{8\\pi}$",
+                "$\\alpha=\\frac{\\omega^{2}}{4\\pi}$",
+                "$\\alpha=\\frac{\\omega}{4\\pi}$",
+                "$\\alpha=\\frac{\\omega}{8\\pi}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Two cars of masses&nbsp;$m_{1}$&nbsp;and&nbsp;$m_{2}$&nbsp;are moving in circles of radii&nbsp;$r_{1}$&nbsp;and&nbsp;$r_{2}$. If the two cars complete one revolution in the same time, then the ratio of their angular speeds is :",
+            "options": [
+                "$m_{1}:m_{2}$",
+                "$r_{1}:r_{2}$",
+                "$m_{1}r_{1}:m_{2}r_{2}$",
+                "1:1"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "If the angular position of a rigid body changes with time as&nbsp;$\\theta=4t^{3}-12t-14$, then the angular velocity of the body at time $t=1$ sec is.........",
+            "options": [
+                "-4 rad s-1",
+                "-2 rad s-1",
+                "Zero",
+                "1 rad s-1"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If a body is moving in a circular path with a constant angular velocity, then which of the following is correct?",
+            "options": [
+                "The acceleration of the body is zero.",
+                "The body is moving with constant acceleration",
+                "The body is moving with varying acceleration",
+                "The angular displacement equals zero"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In the opposite figure, an object of mass M is attached by a string of length L to the ceiling, making an angle of 30° vertically downwards. An object moves in a horizontal circle, so that the string sweeps out a cone. What is the moment of inertia of the mass with respect to the vertical axis?",
+            "image": "exams/mechanics/toc/images/2024_q18.png",
+            "options": [
+                "$3~ML^{2}/4$",
+                "ML2",
+                "$ML^{2}/4$",
+                "$ML^{2}/2$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "What is the effect on torque when the angular momentum is increasing?",
+            "options": [
+                "Increasing",
+                "Decreasing",
+                "Constant",
+                "Zero"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A flywheel of mass 6000 kg starts from rest and gets up to a velocity of&nbsp;$20~rad/s$&nbsp;in 2 minutes. The radius of gyration of the wheel is 100 cm. The average torque exerted on the flywheel is .......",
+            "options": [
+                "1000 N.m",
+                "750 N.m",
+                "500 N.m",
+                "200 N.m"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "An artificial satellite stays in an orbit around the earth because",
+            "options": [
+                "An engine in the satellite applies an upward force to balance its weight.",
+                "The earth's attraction produces the necessary centripetal acceleration.",
+                "The earth's gravity not act on the satellite due to great distance between them.",
+                "The earth's attraction is balanced by attraction of other planets."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The mechanical equilibrium of a body means:",
+            "options": [
+                "Translational equilibrium only",
+                "Rotational equilibrium only",
+                "Both translational and rotational equilibrium",
+                "Angular momentum does not change"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A spherical object starts from rest and rotates with a uniform angular acceleration. It rotates 10 rads in 2 seconds, evaluate the angular acceleration during this time.",
+            "options": [
+                "$2.5~rad/s^{2}$",
+                "$10~rad/s^{2}$",
+                "$15~rad/s^{2}$",
+                "$5~rad/s^{2}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which of the following quantity remains constant if the torque acting on a body is zero?",
+            "options": [
+                "Linear momentum",
+                "Angular momentum",
+                "Both A and B",
+                "Moment of inertia"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The angular velocity of a body changes from&nbsp;$\\omega_{1}$&nbsp;to&nbsp;$\\omega_{2}$&nbsp;without applying any torque. The ratio of the initial radius of gyration to the final radius of gyration of the body is",
+            "options": [
+                "$\\sqrt{\\omega_{2}}:\\sqrt{\\omega_{1}}$",
+                "$\\sqrt{\\omega_{1}}:\\sqrt{\\omega_{2}}$",
+                "$\\omega_{2}:\\omega_{1}$",
+                "$\\omega_{1}:\\omega_{2}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "As shown in the opposite figure, a rigid bar of mass $M$ and of length $L$ is freely to rotate about a frictionless hinge at a wall. The bar has a moment of inertia $I = ML^2/3$ about the hinge, and is released [from] angular acceleration from rest when it is in a horizontal position. What is the instantaneous angular acceleration when the bar has swing down, such that it makes an angle of $30^\\circ$ vertically downwards?",
+            "image":"exams/mechanics/toc/images/2024_q26.png",
+            "options": [
+                "$\\alpha = \\frac{g}{3L}$",
+                "$$\\alpha = \\frac{3g}{4L}$$",
+                "$\\alpha = \\frac{g}{L}$",
+                "$\\alpha = \\frac{3g}{L}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A solid sphere is rolling without slipping on a horizontal surface. The ratio of its rotational kinetic energy and translational kinetic energy is.........",
+            "options": [
+                "$\\frac{2}{9}$",
+                "$\\frac{2}{5}$",
+                "$\\frac{2}{7}$",
+                "$\\frac{7}{2}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Find the kinetic energy of a rotation of a solid sphere about an axis which is tangential to the sphere. If the sphere has a mass of $1\\text{ kg}$, a radius of $1\\text{ m}$ and an angular velocity of $5\\text{ rad/s}$.",
+            "options": [
+                "$30\\text{ kg m}^2\\text{ s}^{-2}$",
+                "$40\\text{ kg m}^2\\text{ s}^{-2}$",
+                "$35\\text{ kg m}^2\\text{ s}^{-2}$",
+                "$50\\text{ kg m}^2\\text{ s}^{-2}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The angular momentum of a system in a rolling motion is conserved but moment of inertia is decreased. What will happen to the kinetic energy of the system?",
+            "options": [
+                "kinetic energy will remain same (conserved)",
+                "kinetic energy becomes zero",
+                "kinetic energy will not remain same (not conserved)",
+                "Kinetic energy equals potential energy"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "For a varying force, the work done can be expressed as:",
+            "options": [
+                "indefinite integral of force over velocity",
+                "definite integral of force over displacement",
+                "product of force and velocity",
+                "product of force and displacement"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A body moves with a velocity of $10\\text{ m/s}$ in the curved path of $25\\text{ m}$ radius of curvature. If the tangential acceleration is $3\\text{ m/s}^2$, then total acceleration for the body will be:",
+            "options": [
+                "$3.3\\text{ m/s}^2$",
+                "$4\\text{ m/s}^2$",
+                "$5\\text{ m/s}^2$",
+                "$6.3\\text{ m/s}^2$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A body is acted upon by a variable force &nbsp; $F = (3 + 0.5X)\\text{ N}$. Then the work done in moving the body from $X=0$ to $X=4\\text{ m}$ is ...........",
+            "options": [
+                "$16\\text{ J}$",
+                "$32\\text{ J}$",
+                "$8\\text{ J}$",
+                "$24\\text{ J}$"
+            ],
+            "correct": 0
+        }
+    ]
+}
