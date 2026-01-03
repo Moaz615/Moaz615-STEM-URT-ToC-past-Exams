@@ -12,7 +12,7 @@ A simple web app for practicing URT and ToC past papers for Physics, Chemistry, 
 
 ## Try it out
 
-**Live Demo:**[Demo Link] (https://stem-g12-exams.moaz.site)
+**Live Demo:** [Demo Link](https://stem-g12-exams.moaz.site)
 
 ## How it works
 
