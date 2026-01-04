@@ -156,15 +156,17 @@ async function renderYearButtons() {
 }
 
 function saveExamState() {
-    if (!currentExamData || session.mode !== 'full') return;
+    if (!currentExamData) return;
     const questions = getQuestionList();
     examState.answers = {};
     questions.forEach((q, i) => {
         const selected = document.querySelector(`input[name="q${i}"]:checked`);
         if (selected) examState.answers[i] = Number(selected.value);
     });
-    examState.elapsedTime = (getExamDuration() * 60) - timerSeconds;
-    examState.startTime = Date.now() - (examState.elapsedTime * 1000);
+    if (session.mode === 'full') {
+        examState.elapsedTime = (getExamDuration() * 60) - timerSeconds;
+        examState.startTime = Date.now() - (examState.elapsedTime * 1000);
+    }
     const stateKey = `exam_state_${session.subject}_${session.type}_${session.year}`;
     localStorage.setItem(stateKey, JSON.stringify(examState));
 }
@@ -627,7 +629,12 @@ function processResults() {
         } else if (item.q) {
             const qIndex = questions.indexOf(item);
             const selected = document.querySelector(`input[name="q${qIndex}"]:checked`);
-            const userIndex = selected ? Number(selected.value) : null;
+            let userIndex = null;
+            if (selected) {
+                userIndex = Number(selected.value);
+            } else if (examState.answers[qIndex] !== undefined) {
+                userIndex = examState.answers[qIndex];
+            }
             const isCorrect = userIndex === item.correct;
             if (isCorrect) score++;
             if (activePassageHtml) {
