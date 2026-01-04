@@ -648,6 +648,7 @@ function processResults() {
     document.getElementById("raw-score-display").innerText = `${score} / ${questions.length}`;
     document.getElementById("review-container").innerHTML = reviewHtml;
     navigateTo('results');
+    window.scrollTo(0, 0);
     if (window.MathJax) MathJax.typesetPromise();
 }
 
