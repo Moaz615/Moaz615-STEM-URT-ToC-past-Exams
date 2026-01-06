@@ -62,7 +62,19 @@ function clearAllExamStates() {
     examState = { answers: {}, startTime: null, elapsedTime: 0 };
 }
 
-function navigateTo(stepName, pushState = true) {
+function resetCurrentExam() {
+    clearExamState();
+    currentQuestionIndex = 0;
+    if (timerInterval) {
+        clearInterval(timerInterval);
+        timerInterval = null;
+    }
+    timerSeconds = 0;
+    isPaused = false;
+    currentExamData = null;
+}
+
+function navigateTo(stepName, pushState = true, resetExam = false) {
     const stepNumber = routes[stepName];
     document.querySelectorAll(".step-section").forEach(s => s.classList.remove("active"));
     document.getElementById(`step-${stepNumber}`).classList.add("active");
@@ -72,6 +84,10 @@ function navigateTo(stepName, pushState = true) {
         if (timerInterval) {
             clearInterval(timerInterval);
         }
+    }
+
+    if (resetExam && stepName !== 'exam' && stepName !== 'results' && currentExamData) {
+        resetCurrentExam();
     }
 
     if (pushState) {
@@ -407,6 +423,10 @@ async function startExam(year) {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         currentExamData = await res.json();
         currentQuestionIndex = 0;
+        
+        // Initialize exam state for both modes
+        examState = { answers: {}, startTime: null, elapsedTime: 0 };
+        
         renderExam();
         navigateTo('exam');
         if (session.mode === 'full') {
@@ -475,9 +495,22 @@ function renderExam() {
 function renderFullExam() {
     let html = "";
     let qCount = 0;
+    let currentPassage = null;
+    
     currentExamData.questions.forEach((item) => {
         if (item.passage) {
-            html += `<div class="passage-box">${formatPassage(item)}</div>`;
+            if (currentPassage) {
+                html += `</div>`; 
+            }
+            
+            currentPassage = item;
+            html += `<div class="passage-group">
+                <div class="passage-box">${formatPassage(item)}</div>`;
+        } else if (item.endPassage) {
+            if (currentPassage) {
+                html += `</div>`; 
+                currentPassage = null;
+            }
         } else if (item.q) {
             html += `
             <div class="question-card">
@@ -493,6 +526,11 @@ function renderFullExam() {
             qCount++;
         }
     });
+    
+    if (currentPassage) {
+        html += `</div>`; 
+    }
+    
     document.getElementById("exam-container").innerHTML = html;
     setTimeout(() => { restoreExamState(); }, 100);
 }
@@ -503,14 +541,53 @@ function renderQuestionByQuestion() {
     const q = questions[currentQuestionIndex];
     let activePassageObj = null;
     let questionTracker = 0;
-    for (let item of currentExamData.questions) {
+    let passageQuestionStart = -1;
+    let passageQuestionEnd = -1;
+    
+    // Find which passage the current question belongs to
+    for (let i = 0; i < currentExamData.questions.length; i++) {
+        const item = currentExamData.questions[i];
         if (item.passage) {
-            activePassageObj = item;
+            passageQuestionStart = questionTracker;
+            // Find where this passage's questions end
+            passageQuestionEnd = -1;
+            let tempQuestionTracker = questionTracker;
+            for (let j = i + 1; j < currentExamData.questions.length; j++) {
+                if (currentExamData.questions[j].q) {
+                    tempQuestionTracker++;
+                }
+                if (currentExamData.questions[j].endPassage || currentExamData.questions[j].passage) {
+                    passageQuestionEnd = tempQuestionTracker - 1;
+                    break;
+                }
+            }
+            if (passageQuestionEnd === -1) {
+                // Count remaining questions
+                for (let j = i + 1; j < currentExamData.questions.length; j++) {
+                    if (currentExamData.questions[j].q) {
+                        tempQuestionTracker++;
+                    }
+                }
+                passageQuestionEnd = tempQuestionTracker - 1;
+            }
         } else if (item.q) {
-            if (questionTracker === currentQuestionIndex) break;
+            if (questionTracker === currentQuestionIndex) {
+                // Check if current question is within passage range
+                if (passageQuestionStart !== -1 && currentQuestionIndex >= passageQuestionStart && currentQuestionIndex <= passageQuestionEnd) {
+                    // Find the passage object
+                    for (let k = 0; k < i; k++) {
+                        if (currentExamData.questions[k].passage) {
+                            activePassageObj = currentExamData.questions[k];
+                            break;
+                        }
+                    }
+                }
+                break;
+            }
             questionTracker++;
         }
     }
+    
     document.getElementById('question-progress').textContent = `Question ${currentQuestionIndex + 1} of ${totalQuestions}`;
     document.getElementById('question-progress-fill').style.width = `${((currentQuestionIndex + 1) / totalQuestions) * 100}%`;
     let html = "";
@@ -540,6 +617,9 @@ function checkAnswer() {
     const q = getQuestionList()[currentQuestionIndex];
     const userIndex = Number(selected.value);
     const isCorrect = userIndex === q.correct;
+    
+    examState.answers[currentQuestionIndex] = userIndex;
+    
     const allLabels = document.querySelectorAll('.option-label');
     const selectedLabel = selected.parentElement;
     const correctLabel = allLabels[q.correct];
@@ -622,10 +702,24 @@ function processResults() {
     let score = 0;
     let reviewHtml = "";
     const questions = getQuestionList();
-    let activePassageHtml = "";
+    let currentPassage = null;
+    let inPassageGroup = false;
+    
     currentExamData.questions.forEach((item) => {
         if (item.passage) {
-            activePassageHtml = `<div class="passage-box review-passage">${formatPassage(item)}</div>`;
+            if (inPassageGroup) {
+                reviewHtml += `</div>`; 
+            }
+            currentPassage = item;
+            inPassageGroup = true;
+            reviewHtml += `<div class="passage-group">
+                <div class="passage-box review-passage">${formatPassage(item)}</div>`;
+        } else if (item.endPassage) {
+            if (inPassageGroup) {
+                reviewHtml += `</div>`; 
+                inPassageGroup = false;
+                currentPassage = null;
+            }
         } else if (item.q) {
             const qIndex = questions.indexOf(item);
             const selected = document.querySelector(`input[name="q${qIndex}"]:checked`);
@@ -637,10 +731,7 @@ function processResults() {
             }
             const isCorrect = userIndex === item.correct;
             if (isCorrect) score++;
-            if (activePassageHtml) {
-                reviewHtml += activePassageHtml;
-                activePassageHtml = "";
-            }
+            
             reviewHtml += `
             <div class="review-card ${isCorrect ? "status-correct" : "status-wrong"}">
                 <p class="question-text"><strong>Question ${qIndex + 1}:</strong> ${item.q}</p>
@@ -652,8 +743,21 @@ function processResults() {
             </div>`;
         }
     });
+    
+    if (inPassageGroup) {
+        reviewHtml += `</div>`; 
+    }
+    
     document.getElementById("raw-score-display").innerText = `${score} / ${questions.length}`;
     document.getElementById("review-container").innerHTML = reviewHtml;
+    
+    // Save the exam result
+    let timeTaken = null;
+    if (session.mode === 'full' && examState.elapsedTime) {
+        timeTaken = examState.elapsedTime;
+    }
+    saveExamResult(session.subject, session.type, session.year, score, questions.length, timeTaken);
+    
     navigateTo('results');
     window.scrollTo(0, 0);
     if (window.MathJax) MathJax.typesetPromise();
