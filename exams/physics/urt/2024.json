@@ -1,0 +1,299 @@
+{
+    "questions": [
+        {
+            "passage": "<div style='text-align: center'><b>PASSAGE I</b></div>If two objects at different temperatures are brought in contact with each other, energy is transferred from the hotter object (that is, the object with the greater temperature) to the colder (lower temperature) object, until both objects are at the same temperature. There is no net heat transfer once the temperatures are equal because the amount of heat transferred from one object to the other is the same as the amount of heat returned. Experiments show that the heat transferred to or from a substance depends on three factors-the change in the substance's temperature, the mass of the substance, and certain physical properties related to the phase of the substance that is called specific heat. The equation for heat transfer  $Q$  is <div style='text-align: center'>$Q=mc\\Delta T \\dots\\dots(1)$</div> where m is the mass of the substance and AT is the change in its temperature, in units of Celsius or Kelvin. The symbol c stands for specific heat, and depends on the material and phase. The specific heat is the amount of heat necessary to change the temperature of 1 kg of mass by 1 C. The specific heat c is a property of the substance. The temperature change ( AT ) is the same in units of kelvins and Celsius but the temperature in kelvin (k) = the temperature in Celsius (C) + 273. Heat capacity $(q_{th})$ is the amount of heat necessary to change the temperature of a substance by 1 °C where: <div style='text-align: center'>$q_{th}=mc \\dots\\dots(2)$</div>where  $m$  is the mass and  $c$  is the specific heat. {{img0}} Table (1) shows the values of specific heat for a few substances as a handy reference.",
+            "images": [
+                "exams/physics/urt/images/2024_table1.png"
+            ]
+        },
+        {
+            "q": "According the first paragraph and equations (1) and (2), any two objects made up of the same material at same phase but with different masses will have.......",
+            "options": [
+                "Different heat capacities, Same specific heat",
+                "Same heat capacities, Different specific heat",
+                "Different heat capacities, Different specific heat",
+                "Same heat capacities, Same specific heat"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "We see from table (1) that water takes ........................... as much heat to raise the temperature of 1 kg of water than to raise the temperature of 1 kg of glass by the same number of degrees.",
+            "options": [
+                "three times",
+                "four times",
+                "five times",
+                "six times"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "By using table (1) and equation (2), if we place equal masses of dry sand (or soil) and water at the same temperature into two small jars. Knowing that soil has an approximate specific heat of 800 J / kg °C. Assuming that, the two jars are gained the same amount of heat, so .................",
+            "options": [
+                "The soil sample will be heated more because it has more heat capacity.",
+                "The water sample will be heated more because it has more heat capacity.",
+                "The soil sample will be heated more because it has less heat capacity.",
+                "The water sample will be heated more because it has less heat capacity."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "According the first paragraph, when two objects in contact at thermal equilibrium, it means that ..............",
+            "options": [
+                "the temperature of both objects becomes 0°C",
+                "the difference between the objects temperature becomes 0 k",
+                "there is no heat transferred from one object to the other",
+                "the difference between the objects temperature becomes 273 k."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "From table (1) , the specific heat of steam is 2020 J/kg.°C. So , its value in J/kg.k equals ...........................",
+            "options": [
+                "7.4 J/kg.k",
+                "2020 J/kg.k",
+                "2293 J/kg.k",
+                "551460 J/kg.k"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "According to the first paragraph, what causes heat transfer?",
+            "options": [
+                "The mass difference between two objects causes heat transfer.",
+                "The density difference between two objects causes heat transfer.",
+                "The pressure difference between two objects causes heat transfer.",
+                "The temperature difference between two systems causes heat transfer."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Using table (1) and equation (1) , a certain quantity of copper is given 300 J of heat. This raises its temperature by 50 °C. What is the mass of the copper in grams? Given : 1 kilogram = 1000 gram",
+            "options": [
+                "15.5 g",
+                "0.0155 g",
+                "1.55 x $10^{-3}$ g",
+                "1.55 x $10^{-5}$ g"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Using table (1) and equation (1), 4500 J of heat is given to 0.2 kg aluminum at 15 °C. What will its final temperature be?",
+            "options": [
+                "25 kelvin",
+                "40 kelvin",
+                "298 kelvin",
+                "313 kelvin"
+            ],
+            "correct": 3
+        },
+        {
+            "passage": "<div style='text-align: center'><b>PASSAGE II</b></div><b>The Doppler effect</b> is a change in the observed pitch of a sound as its observed frequency (f) changes as well as its observed wavelength ($\\lambda$) at constant sound speed (v) {where: $v = \\lambda f$}, due to relative motion between the source and the observer. An example of the Doppler effect due to the motion of a source occurs when you are standing still, and the sound of a siren coming from an ambulance shifts from high-pitch (high-frequency) to low-pitch (low-frequency) as it passes by. The closer the ambulance is to you, the more sudden the shift. The faster the ambulance moves, the greater the shift.<br><b>What causes the Doppler effect?</b> Let's compare three different scenarios:<br><b>The first scenario:</b>{{img0}} Sound waves emitted by a stationary source (<b>Figure 1</b>) Sounds emitted by a source spread out in spherical waves. Because the source, observers, and air are stationary, the wavelength is the same in all directions.<br><b>The second scenario:</b>{{img1}} Sound waves emitted by a moving source (<b>Figure 2</b>) Sounds emitted by a source moving to the right. The wavelength is reduced in the direction of motion for the stationary observer (Y). The opposite is true for the stationary observer (X).<br><b>The third scenario:</b> {{img2}}Sound waves emitted by a stationary source but heard by moving observers (<b>Figure 3</b>) Motion toward the source decreases wavelength as the observer (Y), and vice-versa for the observer (X) who moves away from the sound source.<br><br><b>The relation between the observed apparent frequency ($f_{observed}$) and the actual emitted frequency ($f_{emitted}$) from the sound source:</b><br><br><div style='text-align: center'>$$f_{observed} = \\left( \\frac{v_w \\pm v_{receiver}}{v_w \\pm v_{source}} \\right) f_{emitted}$$</div><br><br>$v_w$ : The sound speed<br>$+v_{receiver}$: receiver moving towards the source<br>$-v_{receiver}$: receiver moving away from the source<br>$-v_{source}$: source moving towards the receiver<br>$+v_{source}$: source moving away from the receiver<br><br>",
+            "images": [
+                "exams/physics/urt/images/2024_p2_1.png",
+                "exams/physics/urt/images/2024_p2_2.png",
+                "exams/physics/urt/images/2024_p2_3.png"
+            ]
+        },
+        {
+            "q": "According to the first scenario, if you are standing on the sidewalk facing the street and a stationary ambulance by with its siren blaring a sound of actual frequency 2 kHz is emitted, what will the frequency that you receive?",
+            "options": [
+                "500 Hz",
+                "1000 Hz",
+                "2000 Hz",
+                "4000 Hz"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "According to the first and the second scenarios, the figure below shows a train traveling toward the right and sounding its horn. Three people are shown at locations A, B, and C. Assume that all three people can hear the train blowing its horn. Which of the following expressions represents the correct rank of the pitch of the horn as heard by each person at locations (A – C)?",
+            "image": "exams/physics/urt/images/2024_q10.png",
+            "options": [
+                "pitch A > pitch B > pitch C",
+                "pitch A > pitch C > pitch B",
+                "pitch C > pitch B > pitch A",
+                "pitch C > pitch A > pitch B"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "According to the relation between the observed frequency ($f_{observed}$) and the actual frequency ($f_{emitted}$) of a sound source. Which of the following situations makes the observed frequency is the greatest? Assuming that (v) is less than the sound speed ($v_w$)",
+            "options": [
+                "When a source is moving with velocity (v) towards a stationary observer.",
+                "When an observer is moving with velocity (v) towards a stationary source.",
+                "When both are moving with velocity (v) away from each other.",
+                "When both are moving with velocity (v) towards each other."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "According to the relation between the observed frequency ($f_{observed}$) and the actual frequency ($f_{emitted}$) of a sound source. A train blows its 200 Hz horn as it approaches a crossing. The speed of sound is 335 m/s. An observer waiting at the crossing receives a frequency of 208 Hz. What is the speed of the train?",
+            "options": [
+                "4.4 m/s",
+                "6.6 m/s",
+                "12.9 m/s",
+                "13.4 m/s"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "According to the second scenario and the last relation, suppose you are driving towards a stationary bell at a speed of 20 m/s and you hear the sound of the bell at a frequency of 400 Hz. What is the actual frequency of the bell if the speed of sound is 335m/s?",
+            "options": [
+                "366 Hz",
+                "377 Hz",
+                "415 Hz",
+                "425 Hz"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "According to the second scenario, which of the following data tables below may be obtained during an investigation into the relationship between the different approaching velocities of a moving sound source and the frequencies detected by a stationary observer for each velocity. The effect of wind was ignoring in this investigation?",
+            "options": [
+                "A <img src=\"exams/physics/urt/images/2024_q14_a.png\" alt=\"Graph A\">",
+                "B <img src=\"exams/physics/urt/images/2024_q14_b.png\" alt=\"Graph B\">",
+                "C <img src=\"exams/physics/urt/images/2024_q14_c.png\" alt=\"Graph C\">",
+                "D <img src=\"exams/physics/urt/images/2024_q14_d.png\" alt=\"Graph D\">"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "According to the second scenario, which of the following choices correctly represents the emitted sound waves that spreading from the blaring siren of the moving imbalance with velocity (v) at positions (1) and (2) as shown in the above figure?",
+            "images": [
+                "exams/physics/urt/images/2024_q15.png",
+                "exams/physics/urt/images/2024_q15_2.png"
+            ],
+            "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<div style='text-align: center'><b>PASSAGE III</b></div>In the years following the development of Bohr's model for the hydrogen atom, the dual nature of radiant energy became a familiar concept. Delepending on the experimental circumstances, radiation appears to have either a wave-like or a particle-like (photon) character. Louis De Broglie (1892–1987), who was working on his Ph.D. thesis in physics at the Sorbonne in Paris, boldly extended this idea. If radiant energy could, under appropriate conditions, behave as though it were a stream of particles (photons), could matter, under appropriate conditions, possibly show the properties of a wave?<br>De Broglie suggested that an electron moving about the nucleus of an atom behaves like a wave and therefore has a wavelength. He proposed that the wavelength of the electron, or of any other particle, depends on its mass, m, and on its velocity, v:<br><div style='text-align: center'>$$\\lambda = \\frac{h}{mv} \\quad (3-1)$$<br>$$v^2 = \\frac{2eV}{m} \\quad (3-2)$$</div><br>Where h is the Planck constant ($6.625 \\times 10^{-34}$ J.s).<br>The quantity mv for any object is called its <b>momentum</b>.<br>e: electron charge = $1.6 \\times 10^{-19}$ C<br>V: accelerating voltage in volts<br>The opposite table gives the value of masses of some elementary particles:{{img0}}De Broglie used the term <b>matter waves</b> to describe the wave characteristics of material particles and the velocity of a particle. Because De Broglie's hypothesis is applicable to all matter, any object of mass m and velocity v would give rise to a characteristic matter wave.<br><b>Characteristics of Matter waves:</b><br><b>I-</b> Lighter the particle, greater is the De-Broglie wavelength.<br><b>II-</b> The faster the particle moves, the smaller is its De-Broglie wavelength.<br><b>III-</b> The matter waves are not electromagnetic in nature. The electromagnetic waves are produced only by charged particle.<br><b>IV-</b> The De-Broglie wavelength of a particle is independent of the charge or nature of the particle.<br>However, Equation (3-1) indicates that the wavelength associated with an object of ordinary size, such as a golf ball, is so tiny as to be completely unobservable. This is not so for an electron because its mass is so small. A few years after De Broglie published his theory, the wave properties of the electron were demonstrated experimentally.{{img1}}The Davisson–Germer experiment (see Figure (1)) was conducted by Clinton Davisson and Lester Germer at Western Electric (later Bell Labs) between 1923 and 1927, in which electrons scattered by the surface of a nickel metal crystal displayed a diffraction pattern. This experiment confirmed Louis de Broglie's hypothesis of wave-particle duality, which he proposed in 1924, and was a watershed moment in the development of quantum mechanics.<br>Figure (2) shows the variation of intensity of the scattered electrons with the angle $\\theta$ for the accelerating voltage of 54V. For a given accelerating voltage V, the scattered wave shows a peak or maximum at an angle of $50^{\\circ}$ to the incident electron beam. This peak in intensity is attributed to the constructive interference of electrons diffracted from various atomic layers of the target material. From the known value of interplanar spacing of Nickel, the wavelength of the electron wave has been experimentally.{{img2}}",
+            "images": [
+                "exams/physics/urt/images/2024_p3_1.png",
+                "exams/physics/urt/images/2024_p3_2.png",
+                "exams/physics/urt/images/2024_p3_3.png"
+            ]
+        },
+        {
+            "q": "Which of the following statements is correct if the particles listed in the table above move at the same velocity?",
+            "options": [
+                "The De-Broglie wavelengths associated with particle X is the longest wavelength",
+                "The De-Broglie wavelengths associated with particle Y is the longest wavelength",
+                "The De-Broglie wavelengths associated with particle Z is the longest wavelength",
+                "The De-Broglie wavelengths associated with particle W is the longest wavelength"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Why are matter waves significant only in the motion of extremely small particles?",
+            "options": [
+                "Small particles possess small kinetic energy.",
+                "Extremely small particles possess small mass.",
+                "Smaller particles have larger wavelength and more wave-like character.",
+                "Smaller particles have larger wavelength and more particle-like character."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Based on the table, if both particles X and W have the same de-Broglie wavelengths. Which of the following statements best explains this result?",
+            "options": [
+                "The ratio between their kinetic energies equals $\\sqrt{200}$.",
+                "The ratio between their momenta equals one.",
+                "The ratio between their momenta equals 200.",
+                "The ratio between their velocities equals one."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Statement-1: Davisson-Germer experiment established the wave nature of electrons.\\nStatement-2: If electrons have wave nature, they can interfere and show diffraction.\\nWhich of the following choices is correct according to the experiment?",
+            "options": [
+                "Statement-1 is false, Statement-2 is true",
+                "Statement-1 is false, Statement-2 is false",
+                "Statement-1 is true, Statement-2 is true",
+                "Statement-1 is true, Statement-2 is false"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If the particle X is the electron and according to Figure (2), what is the value of De Broglie wavelength of electron at angle $50^{\\circ}$?",
+            "options": [
+                "1.67 $Å$",
+                "0.167 $Å$",
+                "16.7 $Å$",
+                "0.0167 $Å$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If the particle Z moves at 14000 km per second. Does that moving particle generate matter waves? If so, can we observe them?",
+            "options": [
+                "Yes, all moving particles produce matter waves. They can be observed by particle diffraction.",
+                "NO, all moving particles cannot produce matter waves. They can be unobserved by particle diffraction.",
+                "NO, all moving particles cannot produce electromagnetic waves. They can be unobserved by wave diffraction.",
+                "Yes, all moving particles can produce electromagnetic waves. They can be observed by wave diffraction."
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<div style='text-align: center'><b>PASSAGE IV</b></div>Most people are familiar with the Periodic Table of the Elements, which summarizes the properties of the 110 known elements starting from Hydrogen. These elements are composed of elementary particles called electrons, protons and neutrons, which combine in various numbers to build up all of the elements.<br>Since the 1950's, physicists have discovered an even more fundamental collection of particles that seem to be truly elementary, and which combine to produce not only all of the elements, but the very forces that hold them together.{{img0}}A basic property of a particle is its mass. Because the masses of the fundamental particles are vastly smaller than a gram or a kilogram, physicists use another unit called the electron Volt (eV). This is actually a unit of energy, but because Albert Einstein demonstrated that energy, E, and mass, m, are basically the same things ($E = mc^2$), physicists conveniently state mass as $M = E/c^2$, and then drop the speed-of-light factor $c^2$ because it is understood to be part of the definition of mass when energy units are used as in the table above. For example, 1 billion electron Volts (1 GeV) are equal to $1.8 \\times 10^{-27}$ kilogram, which is about equal to the mass of a single proton, which is $1.7 \\times 10^{-27}$ kilogram (938 MeV).<br>(Note also that 1 MeV = 1 million electron Volts.)<br>A proton has a positive charge with a magnitude that is <i>exactly</i> equal to the magnitude of the negative charge of an electron. In a neutral atom, the number of negatively charged electrons is equal to the number of positively charged protons. The mass of the electron is much smaller than the mass of the proton or the neutron. Therefore, most of the mass of an atom resides in the nucleus. Electrons can be removed from atoms relatively easily. For this reason, electrons are typically the carriers of electricity, rather than protons or atomic nuclei.<br>The electron is a fundamental particle and has no substructure: It is a point particle with zero radius (at least, according to current understanding). However, high-energy probes have been used to look inside the proton. A proton is composed of charged particles called <i>quarks</i>, held together by uncharged particles called <i>gluons</i>. Quarks have a charge of $\\pm \\frac{1}{3}$ or $\\pm \\frac{2}{3}$ times the charge of the electron. These fractionally charged particles cannot exist independently and have never been observed directly, despite numerous extensive searches. Just like the charge of an electron, the charges of quarks are intrinsic properties of these elementary particles.<br>A proton is composed of two up quarks (each with charge ($+\\frac{2}{3} e$)) and one down quark (with charge ($-\\frac{1}{3} e$)), giving the proton a charge of $q_p = 2 \\times +\\frac{2}{3} e + 1 \\times -\\frac{1}{3} e = +e$, as illustrated in (Figure 1). There are also much more massive electron-like particles named muon and tau. But the basic fact remains that all of the matter in everyday experience is made up of electrons (with electrical charge -e), up and down quarks (with electrical charge $(+\\frac{2}{3} e)$ and $(-\\frac{1}{3} e)$, respectively), and gluons (zero charge).{{img1}}It is remarkable that the charges of the quarks inside a proton add up to exactly the same magnitude as the charge of the electron. This fact is still a puzzle, pointing to some deep symmetry in nature that is not yet understood.<br>Because all macroscopic objects are made of atoms, which in turn are made of electrons and atomic nuclei consisting of protons and neutrons, the charge, q, of any object can be expressed in terms of the sum of the number of protons, $N_p$, minus the sum of the number of electrons, $N_e$, that make up the object:<br><div style='text-align: center'>$q = e (N_p - N_e)$ &nbsp; (4-1)<br>",
+            "images": [
+                "exams/physics/urt/images/2024_p4_1.png",
+                "exams/physics/urt/images/2024_p4_2.png"
+            ]
+        },
+        {
+            "q": "Based on the table, if both particles X and W have the same de-Broglie wavelengths. Which of the following statements best explains this result?",
+            "options": [
+                "The ratio between their kinetic energies equals $\\sqrt{200}$.",
+                "The ratio between their momenta equals one.",
+                "The ratio between their momenta equals 200.",
+                "The ratio between their velocities equals one."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Based on the table, what is the mass of a Strange Quark, in kilograms?",
+            "options": [
+                "$1.9 \\times 10^{-28}$ kilogram",
+                "$1.9 \\times 10^{-28}$ kilogram",
+                "$3.1 \\times 10^{-28}$ kilogram",
+                "$1.9 \\times 10^{-27}$ kilogram"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Based on the passage, what is the total quark mass of a proton in MeV?",
+            "options": [
+                "$1.4 \\times 10^{-29}$ kilogram",
+                "$2.1 \\times 10^{-28}$ kilogram",
+                "0 kilogram",
+                "$1.9 \\times 10^{-27}$ kilogram"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Based on the equation (4-1) Give the charge of the helium atom (two protons, two neutrons, and two electrons)",
+            "options": [
+                "+ 2e",
+                "- 2e",
+                "0",
+                "+ $\\frac{2}{3}$ e"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Based on the opposite figure, the charge of the opposite object will be................",
+            "image":"exams/physics/urt/images/2024_q25.png",
+            "options": [
+                "+ $\\frac{4}{3}$ e",
+                "- $\\frac{2}{3}$ e",
+                "+ $\\frac{2}{3}$ e",
+                "0"
+            ],
+            "correct": 3
+        }
+    ]
+}
