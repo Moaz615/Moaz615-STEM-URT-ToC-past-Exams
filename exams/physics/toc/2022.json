@@ -1,0 +1,417 @@
+{
+    "questions": [
+        {
+            "passage": "This is a list of data, formulae, and relationships {{img0}}. <div style='text-align: center'>You can use them when needed</div>",
+            "images": [
+                "exams/physics/toc/images/physics-laws.png"
+            ]
+        },
+        {
+            "endPassage": true
+        },
+        {
+            "q": "Which of the following is NOT an SI unit?",
+            "options": [
+                "Metre",
+                "Pound",
+                "Kilogram",
+                "Second"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "For a particle executing SHM, the displacement is given by x = A cos wt. Identify the graph which represents the variation of potential energy (PE) as a function of time t and displacement.",
+            "image": "exams/physics/toc/images/2022_q2.png",
+            "options": [
+                "II, III",
+                "I, III",
+                "I, IV",
+                "II, IV"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "In which of the following devices is the eddy current effect NOT used?",
+            "options": [
+                "Electric heater",
+                "Induction furnace",
+                "Magnetic braking in train",
+                "Electromagnet"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If the radii of circular track of two particles are in ratio 4:9 then, in order to have same centripetal acceleration, their speed should be in the ratio of",
+            "options": [
+                "4:9",
+                "2:3",
+                "3:2",
+                "9:4"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which of the following is false about the AFM Tapping mode?",
+            "options": [
+                "It leaves minimal damage to the sample",
+                "Its contact with the sample is short and intermittent",
+                "It has a faster scan speed than contact mode",
+                "It gives high resolution images of the samples"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A wire of diameter 7 mm and length 1 m is stretched within the elastic limit by a 77 kN pull. If the elongation of the wire for this force is noted as 2 mm, then find Young's modulus of elasticity for the material of the wire.",
+            "options": [
+                "$10^{6}$ Pa",
+                "$7\\times10^{6}$ Pa",
+                "$10^{5}$ Pa",
+                "None of these"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "According to Stefan's law, the radiant energy emitted by a black body is directly proportional to which power of its absolute temperature?",
+            "options": [
+                "Second power",
+                "Third power",
+                "Fourth power",
+                "Sixth power"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "For a series LCR circuit at resonance, the statement which is not true is:",
+            "options": [
+                "Peak energy stored by a capacitor = peak energy stored by an inductor",
+                "Average power = apparent power",
+                "Wattless current is zero",
+                "Power factor is zero"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "For a series LCR circuit at resonance, the statement which is not true is:",
+            "options": [
+                "Peak energy stored by a capacitor $\\neq$ peak energy stored by an inductor",
+                "Average power = apparent power",
+                "Wattless current is zero",
+                "Power factor is one"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "An electron in a TV tube has a speed of $6\\times10^{7}m/s$. What is the de Broglie wavelength associated with the electron $(m=9.11\\times10^{-31}kg)$?",
+            "options": [
+                "0.248 Å",
+                "0.121 Å",
+                "0.347 Å",
+                "0.867 Å"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Two rods A and B are made of the same material. The diameter of both the rods are equal but the length of the rod A is more than rod B. If the tensile force applied on both the rods are equal, then which of the following statement is correct?",
+            "options": [
+                "Elongation in rod A is more than rod B",
+                "Elongation in rod A is less than rod B",
+                "Elongation in rod A is equal to rod B",
+                "None of these"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Semiconductors have ___ conduction band and ___ valence band.",
+            "options": [
+                "A lightly filled; a moderately filled",
+                "An almost filled; a moderately filled",
+                "An almost empty; an almost filled",
+                "An almost filled; an almost empty"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "What change occurs if the monochromatic light used in Young's double slit experiment is replaced by white light?",
+            "options": [
+                "Only the central fringe is white and all other fringes are observed colored",
+                "No fringes are observed",
+                "All the bright fringes become white",
+                "All the bright fringes are colored between violet and red."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "As the wavelength of the radiation decreases, the intensity of the black body radiations",
+            "options": [
+                "Increases",
+                "Decreases",
+                "First increases then decreases",
+                "First decreases then increases"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "An object is placed between two parallel plane mirrors. The number of images formed is:",
+            "options": [
+                "2",
+                "0",
+                "Infinite",
+                "Not Attempted"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The graph between image distance (v) and object distance (u) for a convex lens is:",
+            "options": [
+                "A <img src=\"exams/physics/toc/images/2022_q16_A.png\" alt=\"Graph A\">",
+                "B <img src=\"exams/physics/toc/images/2022_q16_B.png\" alt=\"Graph B\">",
+                "C <img src=\"exams/physics/toc/images/2022_q16_C.png\" alt=\"Graph C\">",
+                "D <img src=\"exams/physics/toc/images/2022_q16_D.png\" alt=\"Graph D\">"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Interference fringes are observed with a biprism of refracting angle $1^{\\circ}$ and refractive index 1.5 on a screen 100 cm away from it. The wavelength of the light used is 5890 Å. If the distance between the source and the biprism is 20 cm, the fringe width is:",
+            "options": [
+                "0.101 mm",
+                "0.202 mm",
+                "0.508 mm",
+                "0.680 mm"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "For the forced oscillation of a simple pendulum, the amplitude of the pendulum at resonance depends on the:",
+            "options": [
+                "Amplitude of the driving force",
+                "Angular frequency of the driving force",
+                "Damping constant",
+                "All of these"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Bose-Einstein condensates differ from ordinary gases in their:",
+            "options": [
+                "Temperature dependence",
+                "Density behavior",
+                "Method of particle interactions",
+                "All of the above"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A parallel beam of monochromatic light of wavelength 5000 Å is incident normally on a single narrow slit of width 0.001 mm. The light is focused by a convex lens on a screen placed on the focal plane. The first minimum will be formed for the angle of diffraction equal to:",
+            "options": [
+                "$0^{\\circ}$",
+                "$15^{\\circ}$",
+                "$30^{\\circ}$",
+                "$50^{\\circ}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "What will be the effect on the centripetal acceleration if both the speed and the radius of the circular path of the body are doubled?",
+            "options": [
+                "It remains unchanged",
+                "It is halved",
+                "It is doubled",
+                "It becomes four times"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In which type of propagation is the electromagnetic wave reflection used?",
+            "options": [
+                "Ground wave mode of propagation",
+                "Sky wave mode of propagation",
+                "Space wave mode of propagation",
+                "All of the above"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Calculate the modulation percentage if the modulating signal is 8 V and the carrier is 12 V?",
+            "options": [
+                "50",
+                "67",
+                "150",
+                "33"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The space between two plates ($20~cm\\times20~cm\\times1~cm,$ 1 cm apart) is filled with a liquid of viscosity 1 Poise. The upper plate is dragged to the right with a force of $F=5$ N keeping the lower plate stationary. The upper plate moves at constant speed u as shown in the figure. What will be the velocity $(in~m/s)$ of the flow at a point 0.5 cm below the lower surface of the upper plate, assuming a linear velocity profile?",
+            "image": "exams/physics/toc/images/2022_q24.png",
+            "options": [
+                "1.25 Pa.s",
+                "2.5 Pa.s",
+                "6.25 Pa.s",
+                "0.25 Pa.s"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which of the following circuits act as a switch?",
+            "options": [
+                "A <img src=\"exams/physics/toc/images/2022_q16_A.png\" alt=\"Graph A\">",
+                "B <img src=\"exams/physics/toc/images/2022_q16_B.png\" alt=\"Graph B\">",
+                "C <img src=\"exams/physics/toc/images/2022_q16_C.png\" alt=\"Graph C\">",
+                "D <img src=\"exams/physics/toc/images/2022_q16_D.png\" alt=\"Graph D\">"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A rectangular glass slab ABCD of refractive index $n_{1}$ is immersed in water of refractive index $n_{2}$ $(n_{1}>n_{2})$. A ray of light is incident at the surface AB as shown. The maximum value of the angle of incidence $\\alpha_{max}$ such that the ray comes out only from the other surface CD is given by:",
+            "image": "exams/physics/toc/images/2022_q26.png",
+            "options": [
+                "$arcsin[\\frac{n_{1}}{n_{2}}cos(arcsin(\\frac{n_{2}}{n_{1}}))]$",
+                "$arcsin[n_{1}cos(arcsin(\\frac{1}{n_{2}}))]$",
+                "$arcsin(\\frac{n_{1}}{n_{2}})$",
+                "$arcsin[\\frac{n_{2}}{n_{1}}]$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A rectangular metal waveguide filled with a dielectric material of relative permittivity $\\epsilon_{r}=4$ has the inside dimensions $3.0~cm\\times1.2~cm.$ The cut-off frequency for the dominant mode is",
+            "options": [
+                "2.5 GHz",
+                "5 GHz",
+                "10 GHz",
+                "12.5 GHz"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A convex lens has a focal length of 15 cm. At what distance should an object be placed in front of the lens to get a real image of the same size as the object?",
+            "options": [
+                "15 cm",
+                "10 cm",
+                "30 cm",
+                "40 cm"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The microscope used for detecting defects in electrical conductors and computer chips is",
+            "options": [
+                "Atomic force microscope",
+                "Scanning tunneling microscope",
+                "X-ray crystallography",
+                "Scanning electron microscope"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The total energy of a particle executing simple harmonic motion (S.H.M.) depends upon:",
+            "options": [
+                "amplitude and time period",
+                "amplitude, time period and displacement",
+                "amplitude and displacement",
+                "time period and displacement"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A band-pass filter is one which",
+            "options": [
+                "Attenuates frequencies between two designated cut off frequencies and passes all other frequencies",
+                "Passes all frequencies",
+                "Attenuates all frequencies",
+                "Passes frequencies between two designated cut off frequencies"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which of these is NOT true for systematic errors?",
+            "options": [
+                "They arise due to errors in the measuring instruments used.",
+                "Repeating the observations or increasing the sample size can eliminate them",
+                "They are reproducible inaccuracies that are consistently in the same direction.",
+                "They arise from the design of the study."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The ground wave eventually disappears, as one moves away from the transmitter, because of:",
+            "options": [
+                "Interference from the sky wave",
+                "Loss of line of signal condition",
+                "Maximum single-hop distance limitation",
+                "Diffraction effect causing tilting of the wave"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "In an AM wave, the majority of the power is in",
+            "options": [
+                "Lower sideband",
+                "Upper sideband",
+                "Carrier",
+                "None of the above"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The time period of a simple pendulum inside a satellite orbiting Earth will be:",
+            "options": [
+                "Zero",
+                "$\\infty$",
+                "T",
+                "2T"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "What is the wavelength (in m) of a particle of mass $6.62\\times10^{-29}$ g moving with a velocity of $10^{3}m/s$?",
+            "options": [
+                "$6.62\\times10^{-4}$",
+                "$6.62\\times10^{-3}$",
+                "$10^{-5}$",
+                "$10^{5}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "How are these two images resolved (Rayleigh's criteria)?",
+            "image": "exams/physics/toc/images/2022_q37.png",
+            "options": [
+                "Not resolved",
+                "Just Resolved",
+                "Partially resolved",
+                "Well resolved"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "What is the Fermi energy level?",
+            "options": [
+                "The energy of the highest occupied state at absolute zero temperature",
+                "The energy required to remove an electron from the valence band",
+                "The average energy of electrons in a conductor",
+                "The energy gap between the conduction and valence bands"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The external work on a system is 7000 J and the heat transferred to the surroundings is 2000 J. The change in internal energy is:",
+            "options": [
+                "5000 J",
+                "−5000 J",
+                "9000 J",
+                "−9000 J"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A ray gets successively reflected from two mirrors inclined at an angle of 40◦. If the angle of incidence on the first mirror is 30◦, then the net deviation of this ray is:",
+            "options": [
+                "40◦",
+                "280◦",
+                "180◦",
+                "240◦"
+            ],
+            "correct": 1
+        }
+    ]
+}
