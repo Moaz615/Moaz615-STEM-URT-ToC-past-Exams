@@ -5,8 +5,11 @@
       "image": "exams/chemistry/toc/images/periodic-table.png"
     },
     {
+      "endPassage": true
+    },
+    {
       "q": "The vapor pressure of water at $20^{\\circ}C$ is $17.54$ $mmHg$. What will be the vapor pressure of the water in the apparatus shown after the piston is lowered, decreasing the volume of the gas above the liquid to one half of its initial volume? (Assume no temperature change.)",
-      "image": "exams/chemistry/toc/images/2019_q1.png",
+      "image": "exams/chemistry/toc/images/2018_q1.png",
       "options": [
         "$8.77$ &nbsp; $mmHg$",
         "$17.54$ &nbsp; $mmHg$",
@@ -47,7 +50,7 @@
     },
     {
       "q": "Examine the Lewis structure of water. Which statement is true when water changes from a solid to a liquid?",
-      "image": "exams/chemistry/toc/images/2019_q5.png",
+      "image": "exams/chemistry/toc/images/2018_q5.png",
       "options": [
         "Distance X gets larger.",
         "Distance X gets smaller.",
@@ -58,18 +61,18 @@
     },
     {
       "q": "Which of the diagrams below represents the particles at position Y on the graph below?",
-      "image": "exams/chemistry/toc/images/2019_q6.png",
+      "image": "exams/chemistry/toc/images/2018_q6.png",
       "options": [
-        "A &nbsp; <img src='exams/chemistry/toc/images/2019_q6_a.png' ' alt='Graph A'/>",
-        "B &nbsp; <img src='exams/chemistry/toc/images/2019_q6_b.png' ' alt='Graph B'/>",
-        "C &nbsp; <img src='exams/chemistry/toc/images/2019_q6_c.png' ' alt='Graph C'/>",
-        "D &nbsp; <img src='exams/chemistry/toc/images/2019_q6_d.png' ' alt='Graph D'/>"
+        "A &nbsp; <img src='exams/chemistry/toc/images/2018_q6_a.png' ' alt='Graph A'/>",
+        "B &nbsp; <img src='exams/chemistry/toc/images/2018_q6_b.png' ' alt='Graph B'/>",
+        "C &nbsp; <img src='exams/chemistry/toc/images/2018_q6_c.png' ' alt='Graph C'/>",
+        "D &nbsp; <img src='exams/chemistry/toc/images/2018_q6_d.png' ' alt='Graph D'/>"
       ],
       "correct": 1
     },
     {
       "q": "The following plot of partial pressure vs. time is generated for the equilibrium below: <br><div style='text-align: center;'>$N_{2}(g)+3H_{2(g)}\\leftrightarrow2NH_{3(g)}$</div>.<br>At $t_{1}$ on the graph, hydrogen is added to a system that was in equilibrium prior to that point. After a period of time, a new equilibrium is established at $t_{2}.$ Which choice properly identifies the substances based on their behavior in the plot?",
-      "image": "exams/chemistry/toc/images/2019_q7.png",
+      "image": "exams/chemistry/toc/images/2018_q7.png",
       "options": [
         "$A=H_{2}, B=N_{2}, C=NH_{3}$",
         "$A=H_{2}, B=NH_{3}, C=N_{2}$",
@@ -91,10 +94,10 @@
     {
       "q": "Which of the graphs shown below would best represent the changes when 0.10 M barium hydroxide was titrated with 0.10 M sulfuric acid?",
       "options": [
-        "A &nbsp; <img src='exams/chemistry/toc/images/2019_q9_a.png' ' alt='Graph A'/>",
-        "B &nbsp; <img src='exams/chemistry/toc/images/2019_q9_b.png' ' alt='Graph B'/>",
-        "C &nbsp; <img src='exams/chemistry/toc/images/2019_q9_c.png' ' alt='Graph C'/>",
-        "D &nbsp; <img src='exams/chemistry/toc/images/2019_q9_d.png' ' alt='Graph D'/>"
+        "A &nbsp; <img src='exams/chemistry/toc/images/2018_q9_a.png' ' alt='Graph A'/>",
+        "B &nbsp; <img src='exams/chemistry/toc/images/2018_q9_b.png' ' alt='Graph B'/>",
+        "C &nbsp; <img src='exams/chemistry/toc/images/2018_q9_c.png' ' alt='Graph C'/>",
+        "D &nbsp; <img src='exams/chemistry/toc/images/2018_q9_d.png' ' alt='Graph D'/>"
       ],
       "correct": 2
     },
@@ -130,7 +133,7 @@
     },
     {
       "q": "Questions 13-14 refer to the following graphic representations. Figure D represents a(n):",
-      "image": "exams/chemistry/toc/images/2019_q13.png",
+      "image": "exams/chemistry/toc/images/2018_q13.png",
       "options": [
         "element",
         "compound",
@@ -141,7 +144,7 @@
     },
     {
       "q": "Using the same figures for questions 13-14, which of the following statements is true?",
-      "image": "exams/chemistry/toc/images/2019_q13.png",
+      "image": "exams/chemistry/toc/images/2018_q13.png",
       "options": [
         "Only figure A represents a mixture.",
         "Only figure D represents a mixture.",
@@ -152,7 +155,7 @@
     },
     {
       "q": "A student dropped a piece of metal with a mass of 142.2 g into a graduated cylinder which originally contained 20 mL of water. The reading she observed after adding the metal is shown on the cylinder below. From which metal is the object most likely made?",
-      "image": "exams/chemistry/toc/images/2019_q15.png",
+      "image": "exams/chemistry/toc/images/2018_q15.png",
       "options": [
         "Titanium ($4.0 g/cm^{3}$)",
         "Iron ($8.0 g/cm^{3}$)",
@@ -243,7 +246,7 @@
     },
     {
       "q": "The following models represent a small volume within a large, sealed beaker containing water, $H_{2}O$. Which figures best represent water before and after it evaporates (i.e., changes from liquid to gas)?",
-      "image": "exams/chemistry/toc/images/2019_q24.png",
+      "image": "exams/chemistry/toc/images/2018_q24.png",
       "options": [
         "Before = I, After = I",
         "Before = I, After = II",
@@ -254,7 +257,7 @@
     },
     {
       "q": "In the Lewis structure what are the formal charges on the sulfur and oxygen atoms, respectively?",
-      "image": "exams/chemistry/toc/images/2019_q25.png",
+      "image": "exams/chemistry/toc/images/2018_q25.png",
       "options": [
         "0, 0",
         "-2, 0",
@@ -265,12 +268,12 @@
     },
     {
       "q": "A reaction between sulfur (S) and oxygen ($O_{2}$) proceeds using the equation below: <div style='text-align: center;'>$2S + 3O_{2} \\rightarrow 2 SO_{3}$</div><br>The diagram below represents the mixture of S atoms and $O_{2}$ molecules which will undergo this reaction in a closed container. Which diagram shows the results after the mixture reacts as completely as possible?",
-      "image": "exams/chemistry/toc/images/2019_q26.png",
+      "image": "exams/chemistry/toc/images/2018_q26.png",
       "options": [
-        "A <img src='exams/chemistry/toc/images/2019_q26_a.png' alt='Graph A'/>",
-        "B <img src='exams/chemistry/toc/images/2019_q26_b.png' alt='Graph B'/>",
-        "C <img src='exams/chemistry/toc/images/2019_q26_c.png' alt='Graph C'/>",
-        "D <img src='exams/chemistry/toc/images/2019_q26_d.png' alt='Graph D'/>"
+        "A <img src='exams/chemistry/toc/images/2018_q26_a.png' alt='Graph A'/>",
+        "B <img src='exams/chemistry/toc/images/2018_q26_b.png' alt='Graph B'/>",
+        "C <img src='exams/chemistry/toc/images/2018_q26_c.png' alt='Graph C'/>",
+        "D <img src='exams/chemistry/toc/images/2018_q26_d.png' alt='Graph D'/>"
       ],
       "correct": 1
     },
@@ -336,7 +339,7 @@
     },
     {
       "q": "In each of the four beakers shown, a 2.0-centimeter strip of magnesium ribbon reacts with 100 milliliters of HCl(aq) under the conditions shown. In which beaker will the reaction occur at the fastest rate?",
-      "image": "exams/chemistry/toc/images/2019_q33.png",
+      "image": "exams/chemistry/toc/images/2018_q33.png",
       "options": [
         "Beaker A",
         "Beaker B",
