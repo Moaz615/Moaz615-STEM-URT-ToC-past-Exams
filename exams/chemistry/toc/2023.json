@@ -1,0 +1,379 @@
+{
+    "questions": [
+        {
+            "passage": "<div style='text-align: center'>Periodic Table of Elements</div>",
+            "image": "exams/chemistry/toc/images/periodic-table.png"
+        },
+        {
+            "endPassage": true
+        },
+        {
+            "q": "When 20 mL of $BaCl_{2}$ solution reacts with excess of copper sulfate solution 1.3 gram of white precipitate is formed. Find the concentration of the barium chloride solution. <br> (Molar masses: $Ba=137.3, S=32.0, O=16.0, H=1.0, Cl=35.5, Cu=63.5$)",
+            "options": [
+                "0.28 M",
+                "0.5 M",
+                "2.8 M",
+                "1.4 M"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Using the simple Lewis structure of a ${CO_{3}}^{2-}$ anion, determine the number of $\\sigma$ and $\\pi$ bonds, the type of hybridization, and if its polar or not.",
+            "options": [
+                "$16\\sigma$, &nbsp; $3\\pi$, &nbsp; $sp^{3}$, &nbsp; polar",
+                "$3\\sigma$, &nbsp; $1\\pi$, &nbsp; $sp^{2}$, &nbsp; non-polar",
+                "$3\\sigma$, &nbsp;$1\\pi$, &nbsp; $sp^{3}$, &nbsp; non-polar",
+                "$16\\sigma$, &nbsp; $3\\pi$, &nbsp; $sp^{2}$, &nbsp; polar"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "For the following molecule, predict the geometry around the three carbon atoms (1, 2, & 3) respectively:",
+            "image":"exams/chemistry/toc/images/2023_q3.png",
+            "options": [
+                "Tetrahedron, planar triangular, linear",
+                "Tetrahedron, Tetrahedron, planar triangular",
+                "Linear, Tetrahedron, planar triangular",
+                "Linear, planar triangular, Planar triangular"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The following reaction is represented in the following graph: $$N_{2}O_{4}(g) \\rightleftharpoons 2NO_{2}(g) \\Delta H=+59~kJ$$  The value of k will be its highest after",
+            "image": "exams/chemistry/toc/images/2023_q4.png",
+            "options": [
+                "10 sec",
+                "20 sec",
+                "40 sec",
+                "60 sec"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "In the following reaction: <br> $$N_{2}O_{4}(g) \\rightleftharpoons 2NO_{2}(g) \\quad \\Delta H=+59~kJ$$ $$(\\text{colorless gas} \\rightleftharpoons \\text{reddish brown gas})$$ A glass jar that contains the two gases can become darker by",
+            "options": [
+                "Cooling and increasing the pressure",
+                "Heating and increasing the pressure",
+                "Heating and decreasing the pressure",
+                "Cooling and decreasing the pressure"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "When a weak monoprotic acid of $pH=5$ dissolves in a 200 mL solution, its equilibrium constant equal $3 \\times 10^{-4}$ at $25^{\\circ}C$. The number of moles of the acid equals",
+            "options": [
+                "$0.33 \\times 10^{-8}$",
+                "$0.66 \\times 10^{-8}$",
+                "$3.3 \\times 10^{-8}$",
+                "$6.6 \\times 10^{-8}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which of the following sentences is correct about the two isomers in the table? <br> (Ethyl methyl ether: $CH_{3}-O-C_{2}H_{5}$ | Propyl alcohol: $C_{3}H_{7}OH$)",
+            "options": [
+                "Propyl alcohol has a lower boiling point and less solubility in water",
+                "Ethyl methyl ether has a lower boiling point and more solubility in water",
+                "Propyl alcohol has a higher boiling point and more solubility in water",
+                "Propyl alcohol has a higher boiling point and less solubility in water"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In front of you are four titration curves. Which of the following represents the titration of ammonium hydroxide with hydrochloric acid?",
+            "options": [
+                "A <img src='exams/chemistry/toc/images/2023_q8_a.png' alt='Graph A'/>",
+                "B <img src='exams/chemistry/toc/images/2023_q8_b.png' alt='Graph B'/>",
+                "C <img src='exams/chemistry/toc/images/2023_q8_c.png' alt='Graph C'/>",
+                "D <img src='exams/chemistry/toc/images/2023_q8_d.png' alt='Graph D'/>"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The following reaction is an oxidation-reduction reaction: <br> $$Mn^{2+}+5Fe^{3+}+4H_{2}O \\longrightarrow 5Fe^{2+}+8H^{+}+MnO_{4}^{-}$$ <br> Determine the number of electrons transferred and the direction of transferring the electrons",
+            "options": [
+                "10 $e^{-}$ from $Fe^{3+}$ to $Mn^{2+}$",
+                "5 $e^{-}$ from $Mn^{2+}$ to $Fe^{3+}$",
+                "5 $e^{-}$ from $Fe^{3+}$ to $Mn^{2+}$",
+                "10 $e^{-}$ from $Mn^{2+}$ to $Fe^{3+}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A, B, and C are three monoprotic weak acids. Arrange them according to their electric conductivities based on the table: <br> (A: $k_a=1.8 \\times 10^{-5}, 0.1 M$ | B: $k_a=3.0 \\times 10^{-6}, 0.002 M$ | C: $k_a=5.0 \\times 10^{-7}, 0.0005 M$)",
+            "options": [
+                "A > B > C",
+                "A > C > B",
+                "C > A > B",
+                "B > C > A"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which one of the following particular diagrams represents the reaction between carbon and oxygen to produce carbon dioxide?",
+            "options": [
+                "A <img src='exams/chemistry/toc/images/2023_q11_a.png' alt='Diagram A'/>",
+                "B <img src='exams/chemistry/toc/images/2023_q11_b.png' alt='Diagram B'/>",
+                "C <img src='exams/chemistry/toc/images/2023_q11_c.png' alt='Diagram C'/>",
+                "D <img src='exams/chemistry/toc/images/2023_q11_d.png' alt='Diagram D'/>"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The number of aliphatic open chained isomers of the formula $C_{4}H_{10}O$ is:",
+            "options": [
+                "7",
+                "6",
+                "5",
+                "4"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "In the following reactions: <br> Ethyl acetate ester + Hydrolysis in acidic medium $\\rightarrow$ X + Y <br> Y + $K_{2}Cr_{2}O_{7}/H_{2}SO_{4} \\rightarrow$ Z <br> X + $K_{2}Cr_{2}O_{7}/H_{2}SO_{4} \\rightarrow$ No Reaction <br> The expected products will be:",
+            "options": [
+                "X: $CH_{3}COOH$, Y: $CH_{3}CHO$, Z: $C_{2}H_{5}OH$",
+                "X: $CH_{3}COOH$, Y: $C_{2}H_{5}OH$, Z: $CH_{3}CHO$",
+                "X: $C_{2}H_{5}OH$, Y: $CH_{3}CHO$, Z: $CH_{3}COOH$",
+                "X: $C_{2}H_{5}OH$, Y: $CH_{3}COOH$, Z: $CH_{3}CHO$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The number of formed ($sp^{2}-sp^{3}$) bonds in the following molecule is: <br> $$CH_{3}-C \\equiv C-CH_{2}-CH_{2}-CH_{3}$$",
+            "options": [
+                "0",
+                "4",
+                "5",
+                "6"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which of the following factors effect the time required to achieve the equilibrium point? <br> i. The rate of the reaction <br> ii. The value of activation energy <br> iii. $\\Delta H$ for reactants and products",
+            "options": [
+                "i and iii only",
+                "i, ii and iii",
+                "i and ii only",
+                "ii and iii only"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Basic buffer solutions can be prepared by mixing an equal number of moles of",
+            "options": [
+                "$NH_{4}Cl$ and $HCl$",
+                "NaCl and NaOH",
+                "$Na_{2}CO_{3}$ and $NaHCO_{3}$",
+                "$CH_{3}COONa$ and $CH_{3}COOH$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Adding drops of dil. HCl to an equilibrium system for sodium acetate solution causes",
+            "options": [
+                "Decreasing the concentration of sodium cations",
+                "Increasing the concentration of acetic acid",
+                "Decreasing the concentration of acetic acid",
+                "Increasing the concentration of sodium acetate"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which of the following changes decreases the vapor pressure of a solution?",
+            "options": [
+                "Increasing the temperature of the solution",
+                "An increase in the size of the open vessel containing the liquid",
+                "Dissolving more ionic compound in the solution",
+                "Decreasing the concentration of ions in the solution"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The rate of collision between the molecules increases when: <br> i. The pressure increases <br> ii. The temperature increases <br> iii. The concentration increases <br> iv. The order of the reaction increases",
+            "options": [
+                "i, ii, and iii only",
+                "ii, iii, and iv only",
+                "i, iii, and iv only",
+                "i, ii, and iv only"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which of the following molecules does not have a dipole moment?",
+            "options": [
+                "$CH_{3}Cl$",
+                "$CH_{2}Cl_{2}$",
+                "$CHCl_{3}$",
+                "$CCl_{4}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Choose the incorrect statement(s): <br> i. All metal oxides are basic oxides and all of them turn the litmus blue <br> ii. All nonmetal oxides are acidic and all of them turn a blue litmus red <br> iii. Amphoteric oxides are those that have both an acidic and a basic nature <br> iv. All the basic oxides are considered metal oxides",
+            "options": [
+                "i only",
+                "ii only",
+                "i and ii only",
+                "iii and iv only"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which of the following methods is not used to get drinkable water?",
+            "options": [
+                "Reverse osmosis",
+                "Desalination of sea water",
+                "Electrolysis",
+                "Distillation"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which statement(s) about colligative properties is (are) true? <br> i. An 0.5 M NaCl solution has a higher vapor pressure than an 0.5 M KI solution. <br> ii. A 0.5 M glucose solution freezes at a lower temperature than pure water <br> iii. Pure water boils at a higher temperature than an NaCl solution",
+            "options": [
+                "only i",
+                "only ii",
+                "only iii",
+                "i and ii"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "All of the following are from the characteristics of Van Der Waal's forces except:",
+            "options": [
+                "Van Der Waal's forces are weaker than an ionic bond",
+                "They are an additional force which consists of many individual interactions",
+                "They are temperature dependent",
+                "They depend on electron transfer between atoms"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which of the following is not correct about a catalyst's function? <br> i. Catalysts increase the number of reactions that can happen spontaneously <br> ii. Catalysts improve the rate of reaction by lowering the activation energy <br> iii. Catalysts have a great effect on enthalpy, entropy, or the spontaneity of a reaction. <br> iv. Catalysts do not take part in the reaction during its propagation",
+            "options": [
+                "i and ii only",
+                "iii and iv only",
+                "i, ii, and iii only",
+                "ii, iii, and iv only"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The following reaction between gases occurs in a closed container: <br> $$2NH_{3}(g) + heat \\rightleftharpoons N_{2}(g) + 3H_{2}(g) \\quad \\Delta H=+92~kJ$$ <br> Which of the following statements are correct? <br> i. The reaction shifts backwards if helium gas is introduced <br> ii. the $k_{p}$ value decreases if $HCl$ gas is introduced <br> iii. By cooling the system, $NH_3$ increases and the $k_p$ value decreases <br> iv. Using a catalyst decreases the time to reach equilibrium",
+            "options": [
+                "i and iv only",
+                "iii and iv only",
+                "i, ii, and iv only",
+                "ii and iii only"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The following table illustrates the electric potential for some elements. Which statements are correct? <br> i. The emf of cell B/C can charge a 1.5V cell. <br> ii. The emf of cell B/D can charge B/C. <br> iii. Cell C/D is electrolytic if C is the anode.",
+            "image": "exams/chemistry/toc/images/2023_q27.png",
+            "options": [
+                "i only",
+                "i and iii only",
+                "ii and iii only",
+                "iii only"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "To convert 1,3-pentadiene into a saturated compound, how many moles of hydrogen is needed?",
+            "options": [
+                "1 mole",
+                "2 moles",
+                "3 moles",
+                "4 moles"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A covalent molecule contains 14 electrons, two lone pairs of electrons, two $\\pi$ bonds, and one $\\sigma$ bond. What is the chemical formula for this molecule?",
+            "options": [
+                "$N_{2}$",
+                "$C_{2}H_{4}$",
+                "$H_{2}O_{2}$",
+                "HCN"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A chemical reaction has the equation: $2A + B \\rightarrow C$. In which case is B the limiting reactant?",
+            "image": "exams/chemistry/toc/images/2023_q30.png",
+            "options": [
+                "i",
+                "ii",
+                "iii",
+                "iv"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Two metal rods A, B are placed in these two glass beakers as shown. From this observation, which sentence(s) are right? <br> i. Metal A is more active than metal B <br> ii. Metal A is oxidized while metal B is reduced <br> iii. Metal B is oxidized while metal A is reduced <br> iv. Metal B is more active than metal A",
+            "image": "exams/chemistry/toc/images/2023_q31.png",
+            "options": [
+                "i and iii",
+                "ii and iii",
+                "i and iv",
+                "iii and iv"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Identical balloons each filled with the same volume of different gases at $25^{\\circ}C$ and 1.0 atm. Which balloon has the heaviest mass and which has the greatest number of atoms respectively? <br> (Molar masses: $N=14, C=12, O=16, H=1, Cl=35.5$)",
+            "image": "exams/chemistry/toc/images/2023_q32.png",
+            "options": [
+                "$CO_{2}$ heaviest, $CH_{4}$ most atoms",
+                "$NO_{2}$ heaviest, $CH_{4}$ most atoms",
+                "HCl heaviest, all same number of atoms",
+                "$NO_{2}$ heaviest, all same number of atoms"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The IUPAC name of the compound in the image is:",
+            "image": "exams/chemistry/toc/images/2023_q33.png",
+            "options": [
+                "2,2-diphenyl propane",
+                "propyl diphenyl",
+                "diphenyl propane",
+                "1,2-diphenyl propane"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Given the following half-reactions: <br> $Mg^{2+}+2e^{-} \\longrightarrow Mg \\quad \\epsilon=-2.36V$ <br> $Ni^{2+}+2e^{-} \\longrightarrow Ni \\quad \\epsilon=-0.25V$ <br> Determine the standard cell potential for the voltaic cell based on the reaction: <br> $$Mg+Ni^{2+} \\longrightarrow Mg^{2+}+Ni$$",
+            "options": [
+                "2.61 V",
+                "2.11 V",
+                "-2.61 V",
+                "-2.11 V"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which one of the following is the correct product of this reaction?",
+            "image": "exams/chemistry/toc/images/2023_q35.png",
+            "options": [
+                "A <img src='exams/chemistry/toc/images/2023_q35_a.png' alt='Product A'/>",
+                "B <img src='exams/chemistry/toc/images/2023_q35_b.png' alt='Product B'/>",
+                "C <img src='exams/chemistry/toc/images/2023_q35_c.png' alt='Product C'/>",
+                "D <img src='exams/chemistry/toc/images/2023_q35_d.png' alt='Product D'/>"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If one mole of red bromine in $CCl_{4}$ is added to each one of the following compounds individually, which one of the following does not remove the red color?",
+            "options": [
+                "0.5 moles of ethyne",
+                "1 mole of 2-bromo propene",
+                "0.5 moles of 1-bromo-1-propyne",
+                "0.5 moles of propane"
+            ],
+            "correct": 3
+        }
+    ]
+}
