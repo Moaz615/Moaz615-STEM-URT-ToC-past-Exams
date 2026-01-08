@@ -1,0 +1,344 @@
+{
+    "questions": [
+        {
+            "q": "Determine the moment of a force $\\vec{F} = 4\\mathbf{i} + 4\\mathbf{j} + 7\\mathbf{k}$ acting at point $A(12, 6, -5)$ about point $P(3, 4, 1)",
+            "image": "exams/mechanics/toc/images/2020_q1.png",
+            "options": [
+                "(38, 87, -28)",
+                "(38, -87, 28)",
+                "(38, -87, -28)",
+                "(38, 87, 28)"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Determine the perpendicular distance between the lines of the actions of the two forces in the following figure.",
+            "image": "exams/mechanics/toc/images/2020_q2.png",
+            "options": [
+                "$\\sqrt{25}$",
+                "$\\sqrt{40}$",
+                "$\\sqrt{41}$",
+                "$\\sqrt{90}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "$OACB$ is a rectangle, $OA = 6$ cm, $OB = 8$ cm. The forces shown in the figure below are in units of newton. A force $\\vec{F}$ acts at $B$ and makes the system equivalent to a couple of moment $M$.",
+            "image": "exams/mechanics/toc/images/2020_q3.png",
+            "options": [
+                "$\\vec{F} = 4\\mathbf{i} - 3\\mathbf{j}$, &nbsp; $M = 64$ N cm",
+                "$\\vec{F} = -4\\mathbf{i} + 3\\mathbf{j}$, &nbsp; $M = 64$ N cm",
+                "$\\vec{F} = -4\\mathbf{i} + 3\\mathbf{j}$, &nbsp; $M = -64$ N cm",
+                "$\\vec{F} = 4\\mathbf{i} - 3\\mathbf{j}$, &nbsp; $M = -64$ N cm"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "$OACB$ is a square. $OA = 12$ cm. The forces are shown in the figure below in units of newton. A force $\\vec{F}$ is equivalent to the system of the given forces. What is $\\vec{F}$?",
+            "image": "exams/mechanics/toc/images/2020_q4.png",
+            "options": [
+                "$\\vec{F} = -5\\mathbf{i} + 12\\mathbf{j}$ &nbsp; acts at &nbsp; $D \\in \\vec{OA}$",
+                "$\\vec{F} = 5\\mathbf{i} - 12\\mathbf{j}$ &nbsp; acts at &nbsp; $D \\in \\vec{OB}$",
+                "$\\vec{F} = 5\\mathbf{i} + 12\\mathbf{j}$ &nbsp; acts at &nbsp; $D \\in \\vec{BO}$",
+                "$\\vec{F} = 5\\mathbf{i} + 12\\mathbf{j}$ &nbsp; acts at &nbsp;$D \\in \\vec{AO}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A uniform rod $AB$ of length 120 cm has a weight of 30 newtons. It is hinged at its end $A$ to a hinge fixed at a vertical wall. A weight of 40 newtons is suspended at a point on the rod at a distance of 30 cm of $A$. The rod is being kept in a horizontal position by a light string $BC$ attached, if $R$ is the reaction of the hinge at $A$, then...",
+            "image": "exams/mechanics/toc/images/2020_q5.png",
+            "options": [
+                "$R = 25\\sqrt{3}$ N, &nbsp; $T = 45$ N",
+                "$R = 25\\sqrt{3}$ N, &nbsp;$T = 50$ N",
+                "$R = 10\\sqrt{39}$ N, &nbsp; $T = 50$ N",
+                "$R = 10\\sqrt{39}$ N, &nbsp; $T = 45$ N"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "$AB$, a nonuniform rod of length 100 cm, rests on two supports, one of them at $C$ where $AC = 30$ cm and the second at $D$ where $BD = 10$ cm. It is found that the rod is about to rotate if a weight 1 Newton is suspended at $A$ or if a weight 9 Newton is suspended at $B$. If the weight of the rod equals $W$ and acts at $O$ then...",
+            "image": "exams/mechanics/toc/images/2020_q6.png",
+            "options": [
+                "$W = 2$ N, &nbsp; $AO = 45$ cm",
+                "$W = 2$ N, &nbsp; $AO = 55$ cm",
+                "$W = \\frac{2}{3}$ N, &nbsp; $AO = 45$ cm",
+                "$W = \\frac{2}{3}$ N, &nbsp; $AO = 55$ cm"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "$AB$, a uniform rod, rests at its end $A$ on a rough horizontal plane, and at end $B$ on an inclined rough plane as shown in the figure below. If $OA = OB$ and the coefficients of static friction between the rod and the planes are equal then...",
+            "image": "exams/mechanics/toc/images/2020_q7.png",
+            "options": [
+                "$R_1 > R_2$",
+                "$R_1 < R_2$",
+                "$R_1 = R_2$",
+                "$R_1$ &nbsp;does not depend on $R_2$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "System I consists of the following parallel forces $F_A = 20\\mathbf{j}$, $F_B = 30\\mathbf{j}$, and $F_C = -10\\mathbf{j}$ such that $A(-3, 0, -2)$, $B(6, 0, 2)$, and $C(2, 0, 4)$. Suppose that you want to represent it by a force $\\vec{F}$ (system 2). What is $\\vec{F}$ and where does the line of action intersect the xz-plane?",
+            "options": [
+                "$F = 40\\mathbf{j}$, &nbsp; $P(2.5, 0, 0.5)$",
+                "$F = 40\\mathbf{j}$, &nbsp; $P(-2.5, 0, -0.5)$",
+                "$F = 40\\mathbf{j}$, &nbsp; $P(-2.5, 0, 0.5)$",
+                "$F = 40\\mathbf{j}$, &nbsp; $P(2.5, 0, -0.5)$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "System 1 consists of the following forces and a couple: <div style= 'text-align: center'>$\\vec{F_A} = -10\\mathbf{i} + 10\\mathbf{j} - 15\\mathbf{k}$ kN acts at $A(0, 0, 0)$<br>$\\vec{F_B} = 30\\mathbf{i} + 5\\mathbf{j} + 10\\mathbf{k}$ kN acts at $B(6, 0, 0)$<br>$\\vec{M_c} = -90\\mathbf{i} + 150\\mathbf{j} + 60\\mathbf{k}$ kN m.</div>Suppose you want to represent system 1 by an equivalent system consisting of a force $\\vec{F}$ acting at the point $P(4, 3, -2)$ and a couple $\\vec{M}$. Determine $\\vec{F}$ and $\\vec{M}$.",
+            "options": [
+                "$\\vec{F} = 40\\mathbf{i} - 5\\mathbf{j} + 25\\mathbf{k}$ &nbsp; kN, &nbsp; $\\vec{M} = -105\\mathbf{i} + 110\\mathbf{j} + 90\\mathbf{k}$ kN m",
+                "$\\vec{F} = 40\\mathbf{i} - 5\\mathbf{j} + 25\\mathbf{k}$ &nbsp; kN, &nbsp; $\\vec{M} = 105\\mathbf{i} - 110\\mathbf{j} + 90\\mathbf{k}$ kN m",
+                "$\\vec{F} = 20\\mathbf{i} + 15\\mathbf{j} - 5\\mathbf{k}$ &nbsp;kN, &nbsp; $\\vec{M} = -105\\mathbf{i} + 110\\mathbf{j} + 90\\mathbf{k}$ kN m",
+                "$\\vec{F} = 20\\mathbf{i} + 15\\mathbf{j} - 5\\mathbf{k}$ &nbsp; kN, &nbsp;$\\vec{M} = 105\\mathbf{i} - 110\\mathbf{j} + 90\\mathbf{k}$ kN m"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "$ABCD$ is a square of side length 10 cm. Two forces, each of a magnitude of 40 g wt act at $\\overline{AD}$ and $\\overline{CB}$ and two forces each of magnitude 70 g wt act at $\\overline{AB}$ and $\\overline{CD}$. Find the algebraic measure of the moment of the resultant couple.",
+            "image": "exams/mechanics/toc/images/2020_q10.png",
+            "options": [
+                "-700 g wt cm",
+                "-300 g wt cm",
+                "300 g wt cm",
+                "400 g wt cm"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In the figure below a beam is subjected to a load $F = 400$ N, and is supported by the rope and the smooth surfaces at $A$ and $B$. What is the magnitude of the tension in the rope?",
+            "image": "exams/mechanics/toc/images/2020_q11.png",
+            "options": [
+                "112 N",
+                "124 N",
+                "271 N",
+                "383 N"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "In the following figure a light rod is in equilibrium horizontally. Find the magnitude of $(2F + 3K)$ in newton.",
+            "image": "exams/mechanics/toc/images/2020_q12.png",
+            "options": [
+                "50 N",
+                "60 N",
+                "65 N",
+                "70 N"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Equilibrium of a system of forces acts at a point occurs when...",
+            "options": [
+                "Some forces acting on an object are balanced",
+                "The sum of all vertical forces equals the sum of all horizontal forces",
+                "The net force on the object is zero",
+                "All of the above"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A uniform rod rests with its upper end on a vertical wall such that the coefficient of static friction between the wall and the rod is equal to $1/2$. It rests with its lower end on a horizontal plane such that the static coefficient of friction between the horizontal plane and the rod is equal to $3/4$. Find the tangent angle of inclination of the rod to the horizontal when it is about to slide.",
+            "image": "exams/mechanics/toc/images/2020_q14.png",
+            "options": [
+                "$\\frac{5}{12}$",
+                "$\\frac{12}{5}$",
+                "$\\frac{24}{7}$",
+                "$\\frac{7}{24}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Express an angular speed of 5 revs $s^{-1}$ in rad min$^{-1}$",
+            "options": [
+                "10 rad min$^{-1}$",
+                "72 rad min$^{-1}$",
+                "300$\\pi$ &nbsp; rad min$^{-1}$",
+                "600$\\pi$ &nbsp; rad min$^{-1}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Express an angular speed of 8 rads $s^{-1}$ in rev min$^{-1}$.",
+            "options": [
+                "240$\\pi$ &nbsp; rev min$^{-1}$",
+                "480$\\pi$ &nbsp; rev min$^{-1}$",
+                "$\\frac{240}{ \\pi}$ &nbsp; rev min$^{-1}$",
+                "$\\frac{480}{ \\pi}$ &nbsp; rev min$^{-1}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Find the moment of inertia of a system of two particles having the same mass $m$ separated by a distance $d$ about their center $O$.",
+            "options": [
+                "$\\frac{1}{2}md^2$",
+                "$md^2$",
+                "$2md^2$",
+                "$\\frac{1}{4}md^2$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Four point masses $M$ are placed on the vertices of a square of side length $a$. Find the moment of inertia of this system about a perpendicular axis passing through one corner of the square.",
+            "image": "exams/mechanics/toc/images/2020_q18.png",
+            "options": [
+                "$2Ma^2$",
+                "$4Ma^2$",
+                "$6Ma^2$",
+                "$8Ma^2$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The moment of inertia of a uniform rod of mass $M$ and length $L$ about a perpendicular axis passing through a point that is equidistant from the center of the rod and one of its two ends =",
+            "options": [
+                "$\\frac{ML^2}{8}$",
+                "$\\frac{7ML^2}{48}$",
+                "$\\frac{ML^2}{6}$",
+                "$\\frac{3ML^2}{16}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The moon orbits the earth once every 27.3 days with an orbital radius of 385000 km. What is the orbital speed of the moon in units of meters per second?",
+            "options": [
+                "0.163 ms$^{-1}$",
+                "27.30 ms$^{-1}$",
+                "163.0 ms$^{-1}$",
+                "1030 ms$^{-1}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Find the hinge reaction in the string for the given figure.",
+            "image": "exams/mechanics/toc/images/2020_q21.png",
+            "options": [
+                "$\\frac{2Mg}{3}$",
+                "$\\frac{5Mg}{6}$",
+                "$\\frac{Mg}{6}$",
+                "$\\frac{Mg}{2}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "An object, initially rotating with an angular speed of 15 rads $s^{-1}$ is subjected to a torque of 55 Nm that accelerates it constantly at 5 rads $s^{-2}$. What is the rotational inertia of the object?",
+            "options": [
+                "3.0 kg m$^2$",
+                "3.5 kg m$^2$",
+                "5.5 kg m$^2$",
+                "11.0 kg m$^2$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A plank of mass $m$ is placed over a cylinder of mass $m$ as shown. A horizontal force $F$ is applied on the plank. If there is no slipping at any surface find the linear acceleration of the plank.",
+            "image": "exams/mechanics/toc/images/2020_q23.png",
+            "options": [
+                "$\\frac{2F}{11m}$",
+                "$\\frac{4F}{11m}$",
+                "$\\frac{6F}{11m}$",
+                "$\\frac{8F}{11m}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Four identical rods shown below experience the forces as shown. Rank the magnitude of the torques about the pivot point on the left end of the rod.",
+            "image": "exams/mechanics/toc/images/2020_q24.png",
+            "options": [
+                "$III > I = IV > II$",
+                "$II > IV > III > I$",
+                "$I = III = IV > II$",
+                "$III > II > I > IV$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A comet orbits the sun in a periodic elliptical orbit as shown below. As the comet moves from point $A$ to point $B$, what happens to the comet's angular momentum about the sun?",
+            "image": "exams/mechanics/toc/images/2020_q25.png",
+            "options": [
+                "Increases linearly",
+                "Increases proportionally to the square of the distance from the sun",
+                "Decreases",
+                "Stays constant"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A cylinder of mass $m$ and radius $r$ rolls without slipping down an inclined plane of length $l$ as shown in the figure below. Find the linear acceleration of the cylinder.",
+            "image": "exams/mechanics/toc/images/2020_q26.png",
+            "options": [
+                "$\\frac{1}{3}g \\sin \\theta$",
+                "$\\frac{2}{3}g \\sin \\theta$",
+                "$g \\sin \\theta$",
+                "$\\frac{4}{3}g \\sin \\theta$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Find the moment of inertia of a square about its diagonal.",
+            "options": [
+                "$Ma^2/6$",
+                "$Ma^2/12$",
+                "$Ma^2/24$",
+                "$Ma^2/48$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A force $F$ is acting on a hinged disc pulley as shown. Find the angular acceleration of the disc.",
+            "image": "exams/mechanics/toc/images/2020_q28.png",
+            "options": [
+                "$\\frac{F}{MR}$",
+                "$\\frac{F}{MR^2}$",
+                "$\\frac{2F}{MR}$",
+                "$\\frac{2F}{MR^2}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If the force $\\vec{F}$ acts in the plane of the triangle $ABC$, where $A (3, 2)$, $B (1, -4)$, $C (-1, 0)$, $M_A = M_B = 60 \\mathbf{k}$ and $M_C = -60 \\mathbf{k}$. Then $|\\vec{F}| = \\dots$ unit(s) of force.",
+            "options": [
+                "12$\\sqrt{10}$",
+                "10$\\sqrt{12}$",
+                "10",
+                "12"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "$\\vec{F_1} = 2\\mathbf{i} + a\\mathbf{j}$, $\\vec{F_2} = -6\\mathbf{i} + 3\\mathbf{j}$ are two parallel forces. Figure out the value of $a$ if the two forces act at the points (1,0) and (5,0) respectively to determine the intersection point of the line of action of their resultant with the x-axis.",
+            "options": [
+                "(2, 0)",
+                "(-4, 0)",
+                "(7, 0)",
+                "(0, 0)"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In the opposite figure: If $\\lambda$ is the angle of friction between the ground and the rod then $\\tan \\lambda \\cdot \\tan \\theta = \\dots$",
+            "image": "exams/mechanics/toc/images/2020_q31.png",
+            "options": [
+                "2",
+                "$\\frac{1}{2}$",
+                "1",
+                "3"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "In the opposite figure: $AB = 6$ cm, $BC = 8$ cm. If the magnitude of each of the given forces is in newtons and the system is in equilibrium then $f_1 = \\dots$ N",
+            "image": "exams/mechanics/toc/images/2020_q32.png",
+            "options": [
+                "3",
+                "8",
+                "16",
+                "5"
+            ],
+            "correct": 2
+        }
+    ]
+}

@@ -1,0 +1,272 @@
+{
+    "questions": [
+        {
+            "q": "Two equivalent systems of forces and moments act on the L-Shaped bar. Determine the forces $F_{a}$, $F_{b}$ and the couple $M$.",
+            "image": "exams/mechanics/toc/images/2019_q1.png",
+            "options": [
+                "$F_{a}=20\\text{ N}$, $F_{b}=50\\text{ N}$ and $M=-30\\text{ N}\\cdot\\text{m}$",
+                "$F_{a}=50\\text{ N}$, $F_{b}=20\\text{ N}$ and $M=-30\\text{ N}\\cdot\\text{m}$",
+                "$F_{a}=20\\text{ N}$, $F_{b}=-50\\text{ N}$ and $M=-30\\text{ N}\\cdot\\text{m}$",
+                "$F_{a}=40\\text{ N}$, $F_{b}=50\\text{ N}$ and $M=-30\\text{ N}\\cdot\\text{m}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Replace the loading system by an equivalent resultant force and couple moment acting at point $A$.",
+            "image": "exams/mechanics/toc/images/2019_q2.png",
+            "options": [
+                "$F=200\\text{ lb}$, $M=-640\\text{ lb}\\cdot\\text{ft}$",
+                "$F=190\\text{ lb}$, $M=-640\\text{ lb}\\cdot\\text{ft}$",
+                "$F=400\\text{ lb}$, $M=-300\\text{ lb}\\cdot\\text{ft}$",
+                "$F=200\\text{ lb}$, $M=-300\\text{ lb}\\cdot\\text{ft}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Replace the loading system by an equivalent resultant force and specify where the resultant's line of action intersects the member measured from $A$.",
+            "image": "exams/mechanics/toc/images/2019_q3.png",
+            "options": [
+                "$F=195\\text{ lb}$, $d=6.20\\text{ ft}$",
+                "$F=190\\text{ lb}$, $d=4.15\\text{ ft}$",
+                "$F=184\\text{ lb}$, $d=3.12\\text{ ft}$",
+                "$F=200\\text{ lb}$, $d=5.13\\text{ ft}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The resultant of the force system shown is a $50\\text{ N}\\cdot\\text{m}$ counterclockwise couple. Find $P$, $Q$, and $C$.",
+            "image": "exams/mechanics/toc/images/2019_q4.png",
+            "options": [
+                "$C=-285.71\\text{ N}\\cdot\\text{m}$, $P=36.14\\text{ N}$, $Q=42.86\\text{ N}$",
+                "$C=+200.52\\text{ N}\\cdot\\text{m}$, $P=57.14\\text{ N}$, $Q=42.86\\text{ N}$",
+                "$C=+300.42\\text{ N}\\cdot\\text{m}$, $P=80.63\\text{ N}$, $Q=50.00\\text{ N}$",
+                "$C=+295.71\\text{ N}\\cdot\\text{m}$, $P=57.14\\text{ N}$, $Q=42.86\\text{ N}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "$A$, $B$, $C$, $D$, and $E$ are points on one straight line such that $\\overline{AB}=4\\text{ cm}$, $\\overline{BC}=6\\text{ cm}$, $\\overline{CD}=8\\text{ cm}$, and $\\overline{DE}=10\\text{ cm}$. Five forces of magnitudes $60$, $30$, $50$, $80$, and $40\\text{ kg wt}$ act at the points $A$, $C$, $D$, $B$, and $E$ respectively and in a perpendicular direction to $\\overleftrightarrow{AE}$ such that the first three forces are in the same direction and the other two forces are in opposite directions. Identify the resultant of the system.",
+            "options": [
+                "$\\vec{R}=20j$ acts at a distance from $A=16\\text{ cm}$",
+                "$\\vec{R}=20j$ acts at a distance from $A=10\\text{ cm}$",
+                "$\\vec{R}=20j$ acts at a distance from $A=14\\text{ cm}$",
+                "$\\vec{R}=20j$ acts at a distance from $A=12\\text{ cm}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "$AB$ is a nonuniform rod of length $80\\text{ cm}$ and weight $20\\text{ kg.wt}$ rests vertically on two supports at $C$ and $D$ such that $AC = BD$. A weight of magnitude $40\\text{ kg.wt}$ is suspended from $A$ and the rod begins to rotate about $C$. Find the distance from the point of action of the rod weight to $A$, then find the maximum weight that can be suspended from $B$ and lifting the suspended weight from $A$ without getting imbalanced.",
+            "options": [
+                "distance $20\\text{ cm}$, maximum weight $= 50\\text{ kg wt}$",
+                "distance $30\\text{ cm}$, maximum weight $= 80\\text{ kg wt}$",
+                "distance $50\\text{ cm}$, maximum weight $= 80\\text{ kg wt}$",
+                "distance $10\\text{ cm}$, maximum weight $= 70\\text{ kg wt}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A uniform rod $AB$ of length $260\\text{ cm}$ and weight $43\\text{ N}$ rests on a vertical wall with its end $A$, and on a rough horizontal ground with its end $B$. If the two coefficients of friction between the rod and both the wall and ground are equal to $1/4$ and $1/2$ respectively. If the end $B$ is at distant $100\\text{ cm}$ from the wall, find the horizontal force acting at the end $B$ to make the rod be about to move towards the wall.",
+            "options": [
+                "$48.60\\text{ N}$",
+                "$55.00\\text{ N}$",
+                "$47.75\\text{ N}$",
+                "$43.25\\text{ N}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A particle moves with a constant speed of $25\\text{ m}\\cdot\\text{s}^{-1}$ in a $90\\text{ m}$ radius circle. how many revolutions does it make in $30\\text{ s}$?",
+            "options": [
+                "$1.3$ revolutions",
+                "$2.0$ revolutions",
+                "$2.3$ revolutions",
+                "$1.5$ revolutions"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A cyclist accelerates constantly from rest. After $8\\text{ s}$, the wheels have rotated $3\\text{ rev}$. What is the angular speed of the wheels at the end of the $8\\text{ s}$?",
+            "options": [
+                "$5.72\\text{ rad}\\cdot\\text{s}^{-1}$",
+                "$12.54\\text{ rad}\\cdot\\text{s}^{-1}$",
+                "$3.52\\text{ rad}\\cdot\\text{s}^{-1}$",
+                "$4.72\\text{ rad}\\cdot\\text{s}^{-1}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A car has wheels of radius $30\\text{ cm}$. It starts from rest and accelerates uniformly to a speed of $15\\text{ m}\\cdot\\text{s}^{-1}$ in a time of $8.0\\text{ s}$. Find the angular acceleration of its wheels.",
+            "options": [
+                "$6.25\\text{ rad}\\cdot\\text{s}^{-2}$",
+                "$3.25\\text{ rad}\\cdot\\text{s}^{-2}$",
+                "$5.25\\text{ rad}\\cdot\\text{s}^{-2}$",
+                "$9.25\\text{ rad}\\cdot\\text{s}^{-2}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A string wound on the rim of a wheel $20\\text{ cm}$ in diameter is pulled out at a rate of $75\\text{ cm}\\cdot\\text{s}^{-1}$. Through how many revolutions will the wheel have turned by the time that $9.0\\text{ m}$ of string has been unwound? How long will it take?",
+            "options": [
+                "$10$ revolutions, $10$ seconds",
+                "$14$ revolutions, $10$ seconds",
+                "$14$ revolutions, $12$ seconds",
+                "$14$ revolutions, $14$ seconds"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A wheel of mass $6.0\\text{ kg}$ and radius of gyration $40\\text{ cm}$ is rotating at $300\\text{ rpm}$. Find its moment of inertia and its rotational $KE$.",
+            "options": [
+                "$0.25\\text{ kg}\\cdot\\text{m}^{2}$, $1.25\\text{ kJ}$",
+                "$0.96\\text{ kg}\\cdot\\text{m}^{2}$, $0.47\\text{ kJ}$",
+                "$0.25\\text{ kg}\\cdot\\text{m}^{2}$, $0.25\\text{ kJ}$",
+                "$0.25\\text{ kg}\\cdot\\text{m}^{2}$, $1.70\\text{ kJ}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "An airplane propeller has a mass of $70\\text{ kg}$ and a radius of gyration of $75\\text{ cm}$. How large a torque is needed to give it an angular acceleration of $4.0\\text{ rev}\\cdot\\text{s}^{-2}$?",
+            "options": [
+                "$0.85\\text{ kN}\\cdot\\text{m}$",
+                "$0.78\\text{ kN}\\cdot\\text{m}$",
+                "$0.68\\text{ kN}\\cdot\\text{m}$",
+                "$0.98\\text{ kN}\\cdot\\text{m}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "As shown in the following figure, a uniform solid sphere rolls on a horizontal surface at $20\\text{ m}\\cdot\\text{s}^{-1}$ and then rolls up the incline. If friction losses are negligible, what will be the value of $h$ where the ball stops? (Hint: $I_{\\text{sphere}}=\\frac{2}{5}mr^{2}$)",
+            "image": "exams/mechanics/toc/images/2019_q14.png",
+            "options": [
+                "$29\\text{ m}$",
+                "$40\\text{ m}$",
+                "$36\\text{ m}$",
+                "$30\\text{ m}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A flywheel has a moment of inertia of $3.8\\text{ kg}\\cdot\\text{m}^{2}$. What constant torque is required to increase its frequency from $2.0\\text{ rev}\\cdot\\text{s}^{-1}$ to $5.0\\text{ rev}\\cdot\\text{s}^{-1}$ in $6.0$ revolutions?",
+            "options": [
+                "$42\\text{ N}\\cdot\\text{m}$",
+                "$32\\text{ N}\\cdot\\text{m}$",
+                "$22\\text{ N}\\cdot\\text{m}$",
+                "$52\\text{ N}\\cdot\\text{m}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "To get some exercise without going anywhere, you set your bike on a stand so that the rear wheel is free to turn. As you pedal, the chain applies a force of $18\\text{ N}$ to the rear sprocket wheel at a distance of $r_{s}=7.0\\text{ cm}$ from the rotation axis of the wheel. Consider the wheel to be a hoop ($I=MR^{2}$) of radius $R=35\\text{ cm}$ and mass $M=2.4\\text{ kg}$. What is the angular velocity of the wheel after $5.0\\text{ s}$?",
+            "options": [
+                "$23\\text{ rad}\\cdot\\text{s}^{-1}$",
+                "$21\\text{ rad}\\cdot\\text{s}^{-1}$",
+                "$25\\text{ rad}\\cdot\\text{s}^{-1}$",
+                "$27\\text{ rad}\\cdot\\text{s}^{-1}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "As shown in the following figure, a mass $m=400\\text{ g}$ hangs from the rim of a wheel of radius $r=15\\text{ cm}$. When released from rest, the mass falls $2.0\\text{ m}$ in $6.5\\text{ s}$. Find the moment of inertia of the wheel.",
+            "image": "exams/mechanics/toc/images/2019_q17.png",
+            "options": [
+                "$0.63\\text{ kg}\\cdot\\text{m}^{2}$",
+                "$0.70\\text{ kg}\\cdot\\text{m}^{2}$",
+                "$0.45\\text{ kg}\\cdot\\text{m}^{2}$",
+                "$0.92\\text{ kg}\\cdot\\text{m}^{2}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "An ice skater begins a spin by rotating at an angular velocity of $2\\text{ rad}\\cdot\\text{s}^{-1}$ with both arms and one leg outstretched. At that time her moment of inertia is $0.5\\text{ kg}\\cdot\\text{m}^{2}$. She then brings her arms up over her head and her legs together, reducing her moment of inertia by $0.2\\text{ kg}\\cdot\\text{m}^{2}$. At what angular velocity will she then spin?",
+            "options": [
+                "$2.5\\text{ rad}\\cdot\\text{s}^{-1}$",
+                "$3.3\\text{ rad}\\cdot\\text{s}^{-1}$",
+                "$5.3\\text{ rad}\\cdot\\text{s}^{-1}$",
+                "$5.0\\text{ rad}\\cdot\\text{s}^{-1}$"
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "An object of mass $2\\text{ kg}$ moves in a straight line and is acted upon by a force of $12t-24$ newtons, where $t$ is the time in seconds. Initially the object is $5\\text{ meters}$ to the right of the origin, and it comes to rest after $2\\text{ seconds}$.  <br><i>(Answer questions 19 and 20)</i>"
+        },
+        {
+            "q": "Find the velocity after $1\\text{ second}$.",
+            "options": [
+                "$1.0\\text{ m}\\cdot\\text{s}^{-1}$",
+                "$12.0\\text{ m}\\cdot\\text{s}^{-1}$",
+                "$2.0\\text{ m}\\cdot\\text{s}^{-1}$",
+                "$3.0\\text{ m}\\cdot\\text{s}^{-1}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Find the distance traveled by the object in the first two seconds.",
+            "options": [
+                "$8\\text{ m}$",
+                "$9\\text{ m}$",
+                "$10\\text{ m}$",
+                "$11\\text{ m}$"
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "A car of mass $1600\\text{ kg}$ is moving along a straight road at a speed $90\\text{ km}\\cdot\\text{h}^{-1}$. When the driver breaks, the resistance of the braking force is $6400\\sqrt{v}\\text{ N}$ where $v$ is the speed in $\\text{m}\\cdot\\text{s}^{-1}$. <br><i>(Answer questions 21 and 22)</i>"
+        },
+        {
+            "q": "Find the time taken for the speed of the car to be reduced to $57.6\\text{ km}\\cdot\\text{h}^{-1}$.",
+            "options": [
+                "$\\frac{3}{4}$ seconds",
+                "$\\frac{1}{4}$ seconds",
+                "$\\frac{1}{2}$ seconds",
+                "$2$ seconds"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The distance traveled at this time is",
+            "options": [
+                "$\\frac{61}{6}\\text{ meters}$",
+                "$39\\text{ meters}$",
+                "$\\frac{17}{6}\\text{ meters}$",
+                "$\\frac{67}{6}\\text{ meters}$"
+            ],
+            "correct": 0
+        },
+        {
+            "endPassage": true
+        },
+        {
+            "q": "A variable force $F$ (measured in newtons) acts on a body where $F=3s^{2}-4$, find the work done by this force in the interval from $s=2\\text{ m}$ to $s=5\\text{ m}$.",
+            "options": [
+                "$110\\text{ J}$",
+                "$105\\text{ J}$",
+                "$100\\text{ J}$",
+                "$120\\text{ J}$"
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "A body with a mass of $3\\text{ kg}$ moves under the action of the force $\\vec{F}$ and the position vector of the body at any instant $t$ is given by the relation $\\vec{r}(t)=t^{3}i+t^{2}j$. If $F$ is measured in newtons, $r$ in meters, and $t$ in seconds:  <br><i>(Answer questions 24 and 25)</i>"
+        },
+        {
+            "q": "Find the work done by the force $\\vec{F}$ during the interval $0 \\le t \\le 2$.",
+            "options": [
+                "$240\\text{ J}$",
+                "$250\\text{ J}$",
+                "$260\\text{ J}$",
+                "$270\\text{ J}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Find the power of the force at $t=1\\text{ second}$.",
+            "options": [
+                "$66\\text{ W}$",
+                "$70\\text{ W}$",
+                "$76\\text{ W}$",
+                "$80\\text{ W}$"
+            ],
+            "correct": 0
+        }
+    ]
+}

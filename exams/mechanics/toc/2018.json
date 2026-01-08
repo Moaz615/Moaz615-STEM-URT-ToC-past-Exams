@@ -1,0 +1,312 @@
+{
+    "questions": [
+        {
+            "q": "The force $\\vec{P}$ has a magnitude of 250 N and is applied at the end C of a 500 mm rod AC attached to a bracket at A and B. Assuming $\\alpha=30^{\\circ}$ and $\\beta=60^{\\circ},$ Replace P with an equivalent force-couple system at B.",
+            "image": "exams/mechanics/toc/images/2018_q1.png",
+            "options": [
+                "$F=250~N$, $M=-65N\\cdot m$",
+                "$F=250~N$, $M=-75N\\cdot m$",
+                "$F=250~N$, $M=-102.45~N\\cdot m$",
+                "$F=250~N$, $M=-125~N\\cdot m$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A system of three forces and a couple act on a square plate ADEC as shown. Evaluate the statically equivalent system of forces $\\vec{F}_{1}$, $\\vec{F}_{2}$, $\\vec{F}_{3}$ which act along the sides of the equilateral triangle ABC. (These forces are not proportional to the sides of the triangle)",
+            "image": "exams/mechanics/toc/images/2018_q2.png",
+            "options": [
+                "$F_{1}=12.7~kN$, $F_{2}=18.4~kN$, $F_{3}=13.4~kN$",
+                "$F_{1}=22.48~kN$, $F_{2}=16.78~kN$, $F_{3}=20.7~kN$",
+                "$F_{1}=42.48~kN$, $F_{2}=36.78~kN$, $F_{3}=40.7~kN$",
+                "$F_{1}=32.7~kN$, $F_{2}=38.4~kN$, $F_{3}=33.4~kN$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The force system shown consists of the couple C and four forces. If the resultant of this system is a 75000 N mm counterclockwise couple, determine P, Q, and C.",
+            "image": "exams/mechanics/toc/images/2018_q3.png",
+            "options": [
+                "$P=1000~N$, $Q=1300~N$, $C=216000~Nmm$",
+                "$P=\\frac{2500}{7}N$, $Q=\\frac{3380}{7}N$, $C=141000~Nmm$",
+                "$P=1000~N$, $Q=1300~N$, $C=291000~Nmm$",
+                "$P=\\frac{2500}{7}N$, $Q=\\frac{3380}{7}N$, $C=75000~Nmm$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The forces $\\vec{F_{1}}=2~i-3~j+2~k$, $\\vec{F_{2}}=-3~i+2~j-k$, and $\\vec{F_{3}}=i+j-k,$ that act at the points A (3,0,0), $B(0,2,0)$, and $C(0,0,1)$ respectively...",
+            "options": [
+                "Are in equilibrium",
+                "Are equivalent to one force $\\vec{F}=\\vec{F}_{1}+\\vec{F}_{2}+\\vec{F}_{3}$",
+                "Are equivalent to a couple of moment $-3~i-5~j-3~k$",
+                "Are equivalent to two parallel and unequal forces."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A rigid bar AB is subjected to a system of parallel forces as shown below. Reduce the given system of forces to an equivalent single resultant.",
+            "image": "exams/mechanics/toc/images/2018_q5.png",
+            "options": [
+                "$\\vec{R}=15~j$, acts at a distance of 3.33 m from A",
+                "$\\vec{R}=15~j$, acts at a distance of 3.33 m from B",
+                "$\\vec{R}=-15~j$, acts at a distance of 3.33 m from A",
+                "$\\vec{R}=-15~j,$ acts at a distance of 3.33 m from B"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Determine the mass of the heaviest uniform bar that can be supported in the position shown below if the breaking strength of the horizontal cable attached at C is 15 kg wt. Neglect friction.",
+            "image": "exams/mechanics/toc/images/2018_q6.png",
+            "options": [
+                "16.71 kg wt",
+                "18.75 kg wt",
+                "27.96 kg wt",
+                "36.82 kg wt"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In the following figure, a light rod is in equilibrium horizontally. Find the magnitude of $f-k$.",
+            "image": "exams/mechanics/toc/images/2018_q7.png",
+            "options": [
+                "3",
+                "7",
+                "10",
+                "13.5"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "ABCD is a non-uniform rod that rests horizontally on two smooth supports at B and C such that $AB=6$ cm and $CD=7$ cm and the point of action of its weight divides it in a ratio of 2: 3 from its 'A' end. It's found that if a weight of a magnitude of 120 kg wt is suspended from the end 'A' or a weight of 180 kg wt is suspended from the end 'D', the rod is about to rotate. Find the distance between the two supports.",
+            "options": [
+                "8 cm",
+                "13 cm",
+                "14 cm",
+                "22 cm"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The bob of a pendulum 90 cm long swings in a 15-cm arc as shown below. Find the angle $\\theta$, in radians, through which it swung.",
+            "image": "exams/mechanics/toc/images/2018_q9.png",
+            "options": [
+                "0.17 rad",
+                "0.60 rad",
+                "0.90 rad",
+                "1.50 rad"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A fan turns at a rate of 900 rpm. Find the angular speed at any point on the fans blades. Find the tangential speed of the tip of a blade if the distance from the center to the tip is 20 cm.",
+            "options": [
+                "15 $s^{-1}$ and $3~ms^{-1}$",
+                "$15~rad~s^{-1}$ and $30~ms^{-1}$",
+                "$94.2~rad~s^{-1}$ and $18.8~ms^{-1}$",
+                "$900~rad~s^{-1}$ and $180~m~s^{-1}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A Wheel of 40 cm radius rotates on a stationary axle. It is uniformly sped up from rest to a speed of 900 rpm in a time of 20 s. Find the constant angular acceleration of the wheel and the tangential acceleration of a point on its rim.",
+            "options": [
+                "$1.5~rad~s^{-2}$ and $0.6~m~s^{-2}$",
+                "$4.7~rad~s^{-2}$ and $1.88~m~s^{-2}$",
+                "$30~rad~s^{-2}$ and $12~ms^{-2}$",
+                "$30\\pi$ rads $s^{-2}$ and $37.7~ms^{-2}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A car has wheels of radius 30 cm. It starts from rest and accelerates uniformly to a speed of $15~ms^{-1}$ in a time of 8 seconds. Find the angular acceleration of its wheels and the number of rotations one wheel makes in this time.",
+            "options": [
+                "$1.875~rad~s^{-2}$ and 200 rev",
+                "$6.200~rad~s^{-2}$ and 32 rev",
+                "1.875 rads-2 and 32 rev",
+                "$6.200~rad~s^{-2}$ and 200 rev"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The spin-dryer of a washing machine revolving at 900 rpm slows down uniformly to 300 rpm while making 50 revolutions. Find the time required to turn through these 50 revolutions.",
+            "options": [
+                "5 s",
+                "10 s",
+                "20 s",
+                "100 s"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A wheel of mass 6 kg and radius of gyration 40 cm is rotating at 300 rpm. Find its moment of inertia.",
+            "options": [
+                "0.96 kgm²",
+                "2.40 kg m²",
+                "5.76 kg m²",
+                "14.4 kg m²"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "An airplane propeller has a mass of 70 kg and a radius of gyration of 75 cm. Find its moment of inertia. How large of a torque is needed to give it an angular acceleration of 4 revs $s^{-2}$?",
+            "options": [
+                "$3.9375~kg~m^{2}$ and 0.099 kN m",
+                "5.2500 kg m² and 0.130 kNm",
+                "$39.375~kg~m^{2}$ and 0.990 kN m",
+                "$52.500~kg~m^{2}$ and 1.320 kN m"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A constant force of 40 N is applied tangentially to the rim of a wheel with a radius of 20 cm. The wheel has a moment of inertia of $30~kg~m^{2}$. Find the angular speed after 4 seconds from rest.",
+            "options": [
+                "1.070 rads-1",
+                "0.267 rads-1",
+                "1.200 rads-1",
+                "4.000 rads-1"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The wheel on a grinder is a uniform 90-kg disc with a radius of 8 cm. It coasts uniformly to rest from 1400 rpm in a time of 35 seconds. How large a friction torque slows its motion?",
+            "options": [
+                "$2.9\\times10^{-3}N~m$",
+                "$-2.9\\times10^{-3}N~m$",
+                "$1.2\\times10^{-2}Nm$",
+                "$-1.2\\times10^{-2}Nm$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A flywheel has a moment of inertia of $3.8~kg~m^{2}$. What constant torque is required to increase its frequency from 2 revs $s^{-1}$ to $5~rev~s^{-1}$ in 6 revolutions?",
+            "options": [
+                "13.3 Nm",
+                "42.0 Nm",
+                "159.6 Nm",
+                "501.4 Nm"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A man stands on a freely rotating platform with his arm extended. His rotation frequency is 0.25 $s^{-1}$, but when he draws his arms in, his frequency is 0.81 rev $s^{-1}$. Find the ratio of his moment of inertia in the first case to that in the second.",
+            "options": [
+                "0.31",
+                "3.25",
+                "0.56",
+                "1.8"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A disk of moment of inertia $I_{1}$ is rotating freely with angular speed $\\omega_{1}$. When a second, non-rotating disk with a moment of inertia $I_{2}$ is dropped on it, the two then rotate as a unit. Find the final angular speed of the two-disk system.",
+            "options": [
+                "$\\omega=\\frac{\\omega_{1}-\\omega_{2}}{I_{1}+I_{2}}$",
+                "$\\omega=\\frac{\\omega_{1}+\\omega_{2}}{I_{1}+I_{2}}$",
+                "$\\omega=\\frac{I_{1}\\omega_{1}}{I_{1}+I_{2}}$",
+                "$\\omega=\\frac{I_{2}\\omega_{2}}{I_{1}+I_{2}}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A wheel of mass 6 kg and radius of gyration 40 cm is rotating at 300 rpm. Find its moment of inertia and its rotational K.E.",
+            "options": [
+                "0.24 kJ",
+                "0.47 kJ",
+                "0.96 kJ",
+                "31.4 kJ"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A 500-gm sphere of 7-cm radius spins at $30~rev~s^{-1}$. Find its K.E. given $I=\\frac{2}{5}Mr^{2}$",
+            "options": [
+                "17 Joules",
+                "30 Joules",
+                "98 Joules",
+                "188 Joules"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "As shown in the following figure, a mass $m=400$ g hangs from the rim of a wheel of radius $r=15$ cm. When released from rest, the mass falls 2.0 m in 6.5 s. Find the moment of inertia of the wheel.",
+            "image": "exams/mechanics/toc/images/2018_q23.png",
+            "options": [
+                "$0.308~kg~m^{2}$",
+                "0.616 $kg~m^{2}$",
+                "$0.920~kg~m^{2}$",
+                "4.100 kg m²"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A body of mass 2 kg, initially at rest on a smooth horizontal plane, is subjected to a horizontal force of magnitude $\\frac{1}{2v+1}$ N. Where v is the velocity of the object $(v>0)$. Find the time when the velocity is $1~ms^{-1}$.",
+            "options": [
+                "1 s",
+                "2 s",
+                "4 s",
+                "8 s"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A body of mass 2 kg, initially at rest on a smooth horizontal plane, is subjected to a horizontal force of magnitude $\\frac{1}{2v+1}$ N. Where v is the velocity of the object $(v>0)$ Find the displacement when the velocity is $1~ms^{-1}$.",
+            "options": [
+                "1 m",
+                "$\\frac{4}{3}$ m",
+                "$\\frac{7}{3}$ m",
+                "2 m"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If $F=3t+1$, $m=4$ kg and the body is initially at rest at point O. Find v when $t=2$ seconds.",
+            "options": [
+                "$\\frac{3}{2}ms^{-1}$",
+                "2~ms^{-1}",
+                "$\\frac{5}{2}ms^{-1}$",
+                "3~ms^{-1}"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If $F=3t+1$, $m=4$ kg and the body is initially at rest at point O. Find s when $t=2$ seconds.",
+            "options": [
+                "$\\frac{3}{2}$ m",
+                "2 m",
+                "1 m",
+                "3 m"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A particle moves in the direction of the positive x-axis under the influence of a varying force F = 0.2x N Where x is the distance of the particle from the origin in meters. Find the work on the particle by F when the particle moves from x = 1 to x = 5.",
+            "options": [
+                "2.0 Joules",
+                "2.4 Joules",
+                "2.5 Joules",
+                "2.8 Joules"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A body of mass 3 kg moves along a curve under the action of a resultant force $\\vec{F}$ in newtons. At time t the position vector $\\vec{r}$ of the body is $\\vec{r} = 2t\\vec{i} + t^3\\vec{j} + t^2\\vec{k}$. Calculate the work done by $\\vec{F}$ between t = 0 and t = 2.",
+            "options": [
+                "168 Joules",
+                "240 Joules",
+                "456 Joules",
+                "729 Joules"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A body of mass 3 kg moves along a curve under the action of a resultant force $\\vec{F}$ in newtons. At time t the position vector $\\vec{r}$ of the body is $\\vec{r} = 2t\\vec{i} + t^3\\vec{j} + t^2\\vec{k}$. Calculate the power done by $\\vec{F}$ at t = 2.",
+            "options": [
+                "160 W",
+                "240 W",
+                "456 W",
+                "729 W"
+            ],
+            "correct": 2
+        }
+    ]
+}
