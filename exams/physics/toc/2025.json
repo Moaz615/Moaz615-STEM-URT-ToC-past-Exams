@@ -1,6 +1,15 @@
 {
     "questions": [
         {
+            "passage": "This is a list of data, formulae, and relationships {{img0}}. <div style='text-align: center'>You can use them when needed</div>",
+            "images": [
+                "exams/physics/toc/images/physics-laws.png"
+            ]
+        },
+        {
+            "endPassage": true
+        },
+        {
             "q": "Given the following relation for the power of a certain process. Power has the dimensions $(ML^{2}T^{-3})$. If <br><div style=\"text-align: center\">$$P = \\frac{x^{2}-b}{a t}$$</div><br>Find the dimesional analysis of $\\frac{b}{a}$ where $x$ is the distance and $t$ is time",
             "options": [
                 "$kg \\cdot m^2/s^2$",
