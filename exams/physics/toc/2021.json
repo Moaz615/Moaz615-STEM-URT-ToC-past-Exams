@@ -1,0 +1,381 @@
+{
+    "questions": [
+        {
+            "passage": "This is a list of data, formulae, and relationships {{img0}}. <div style='text-align: center'>You can use them when needed</div>",
+            "images": [
+                "exams/physics/toc/images/physics-laws.png"
+            ]
+        },
+        {
+            "q": "The figure shows the rifle target, describe the shooting of this contestant.",
+            "image": "exams/physics/toc/images/2021_q1.png",
+            "options": [
+                "Accurate and precise.",
+                "Accurate and imprecise.",
+                "Inaccurate and precise.",
+                "Inaccurate and imprecise."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Choose the graph in the Figure that represents the variation in the net force toward the center of the circle on an object (Y) in uniform circular motion, as a function of the mass of the object (X).",
+            "options": [
+                "A <img src='exams/physics/toc/images/2021_q2_a.png' alt='Graph A'/>",
+                "B <img src='exams/physics/toc/images/2021_q2_b.png' alt='Graph B'/>",
+                "C <img src='exams/physics/toc/images/2021_q2_c.png' alt='Graph C'/>",
+                "D <img src='exams/physics/toc/images/2021_q2_d.png' alt='Graph D'/>"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A car of 800 kg mass is moving at 15 m/s around a horizontal unbanked curve whose diameter is 0.10 km. What is the magnitude of the friction force required to keep the car from sliding?",
+            "options": [
+                "3600 N",
+                "4000 N",
+                "4500 N",
+                "5200 N"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "(Stress is proportional to strain), i.e., the Hooke's law holds good up to",
+            "options": [
+                "Yield point",
+                "Elastic Limit",
+                "Plastic Limit",
+                "Proportional Limit"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A rod, 100 cm long and of diameter 4 cm is subjected to an axial pull of 20 KN. The stress is",
+            "options": [
+                "$13.57 \\times 10^{4} N/m^{2}$",
+                "$15.61 \\times 10^{4} N/m^{2}$",
+                "$17.43 \\times 10^{4} N/m^{2}$",
+                "$20.52 \\times 10^{4} N/m^{2}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which of the following sentences are correct for black body? \\n 1- The black body is a real body. \\n 2- The black body is a hypothetical body. \\n 3- The black body is used as a standard of perfection against which the radiation characteristics of other bodies are compared.",
+            "options": [
+                "Sentences (1) and (2)",
+                "Sentences (2) and (3)",
+                "Sentences (1) and (3)",
+                "Sentences (1), (2) and (3)."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A gas contained in a closed system, when the gas expanded, the work done by the gas during expansion was 80 kJ and the decrease in internal energy of the gas during expansion was 30 kJ. So, the heat transfer during the process is equal to:",
+            "options": [
+                "+50 KJ",
+                "-50 KJ",
+                "+110 KJ",
+                "-110 KJ"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A solenoid has a core of air consists of 700 turns per meter. The current passing through it if the magnetic field is 21.98 mT, equal:",
+            "options": [
+                "5 A",
+                "15 A",
+                "25 A",
+                "30 A"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A positive charge moving with a constant velocity (v) enters a region of a uniform magnetic field pointing out the page. What is the direction of the magnetic force on the charge?",
+            "image": "exams/physics/toc/images/2021_q9.png",
+            "options": [
+                "Left",
+                "Right",
+                "To the top of the page",
+                "To the bottom of the page"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A conductor of 0.25 m long moves with a velocity of 0.5 m/s in a magnetic field of 4 T. The emf induced if magnetic field, velocity, and length of conductor are mutually perpendicular to each other equal.",
+            "options": [
+                "0.3 v",
+                "0.5 v",
+                "0.7 v",
+                "0.9 v"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Two coupled inductors $L_{1}=0.4 H$ and $L_{2}=0.9 H$ have a coefficient of coupling $K=0.6$. The mutual inductance M is:",
+            "options": [
+                "0.30 H",
+                "0.32 H",
+                "0.34 H",
+                "0.36 H"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "An instrument has resistance of 7 Ohms. its moving coil gives full deflection with 25 mA. If a resistance of 0.7 Ohms is connected in parallel with the instrument, the instrument will be capable of reading up to",
+            "options": [
+                "0.275 A",
+                "0.280 A",
+                "0.295 A",
+                "0.297 A"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The figure represents",
+            "image": "exams/physics/toc/images/2021_q13.png",
+            "options": [
+                "Band pass filter",
+                "High pass filter",
+                "Low pass filter",
+                "All pass filter"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The energy band in which free electrons exist is",
+            "options": [
+                "First band",
+                "Second band",
+                "Valence band",
+                "Conduction band"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The only function of NOT gate is to",
+            "options": [
+                "Stop signal",
+                "Invert input signal",
+                "Act as a universal gate",
+                "None of the above"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The opposite diagram shows a transverse wave. Which of the following shows the way in which particle Q moves?",
+            "image": "exams/physics/toc/images/2021_q16.png",
+            "options": [
+                "A <img src='exams/physics/toc/images/2021_q16_a.png' alt='Graph A'/>",
+                "B <img src='exams/physics/toc/images/2021_q16_b.png' alt='Graph B'/>",
+                "C <img src='exams/physics/toc/images/2021_q16_c.png' alt='Graph C'/>",
+                "D <img src='exams/physics/toc/images/2021_q16_d.png' alt='Graph D'/>"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "If a body of 5 kg is suspended by a spring, the spring is stretched. And when the body is pulled down slightly and released, it oscillates up and down. So, the force which applied on the body by the spring when it passes through the mean position is equal to",
+            "options": [
+                "the weight of the body.",
+                "the conservative force.",
+                "the gravity.",
+                "the pull."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Four pendulums I, II, III and IV are suspended from the same elastic support as shown in Fig. If IV is pulled down, ......",
+            "image": "exams/physics/toc/images/2021_q18.png",
+            "options": [
+                "(I) will vibrate with maximum amplitude.",
+                "(II) will vibrate with maximum amplitude.",
+                "(III) will vibrate with maximum amplitude.",
+                "All the four will oscillate with equal amplitude"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A concave mirror of radius 20 cm is placed in water. Its focal length in air and water differs by",
+            "options": [
+                "0",
+                "10",
+                "20",
+                "30"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The figure shows an object (A) which placed between two plan mirrors parallel to each other at 5cm from one of them. If the distance between the two mirrors equal 15 cm. The distance between the object and its 5th image is<br> (الاختيارات كانت كده في الامتحان وكلها غلط، أقرب إجابة هي 'd')",
+            "image": "exams/physics/toc/images/2021_q20.png",
+            "options": [
+                "35 cm",
+                "40 cm",
+                "45 cm",
+                "50 cm"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which type of ground wave travels over the earth surface by acquiring direct path through air from transmitting to receiving antennas?",
+            "options": [
+                "Space wave",
+                "Surface wave",
+                "Both Space wave & Surface wave",
+                "None of the above"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "An 80 MHz carrier is frequency modulated by 5 KHz wave. For a frequency deviation of 30 KHz. The modulation index of the FM signal.",
+            "options": [
+                "4",
+                "6",
+                "7",
+                "8"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The equivalent decimal to 01000010 binaries is",
+            "options": [
+                "62",
+                "64",
+                "66",
+                "68"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A ray of light traveling from air into crown glass strikes the surface at an angle of 30 degrees. The angle of refraction equals (air $n=1$, crown glass $n=1.532$)",
+            "options": [
+                "12.3°",
+                "19.10°",
+                "39.7°",
+                "59.1°"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "In diffraction grating experiment, a yellow light of wavelength 500 nm is used as shown in figure. If the grating has a slit separation of 3.00 µm. The angular separation $(\\theta_{2}-\\theta_{1})$ between the first and second order maxima of the yellow light equals",
+            "image": "exams/physics/toc/images/2021_q25.png",
+            "options": [
+                "5.3°",
+                "7.4°",
+                "9.6°",
+                "13.6°"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The opposite figure shows a standard two slit arrangements with slits $S_{1}, S_{2}$. $P_{1}, P_{2}$ are the two minima points on either side of P. At $P_{2}$ on the screen, there is a hole and behind $P_{2}$ is a second 2-slit arrangement with slits $S_{3}, S_{4}$ and a second screen behind them. Then:",
+            "image": "exams/physics/toc/images/2021_q26.png",
+            "options": [
+                "The second screen would be totally dark.",
+                "There would be a single bright point on the second screen.",
+                "There would be a regular two slit pattern on the second screen.",
+                "There would be no interference pattern on the second screen, but it would be lighted."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Unpolarized light is incident on a plane glass surface. What should be the angle of incidence such that the reflected and refracted rays are perpendicular to each other should be: (The refractive index of glass = 1.8)",
+            "options": [
+                "45.53°",
+                "60.95°",
+                "79.23°",
+                "91.17°"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "From the diagram. At which positions will the overlapping waves have the most destructive interference?",
+            "image": "exams/physics/toc/images/2021_q28.png",
+            "options": [
+                "Positions #1 & #2",
+                "Positions #3 & #6",
+                "Positions #2 & #8",
+                "Positions #4 & #7"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A slit of width (a) is illuminated by white light. For what value of (a) will the first minimum for red light fall at an angle of 30° (wavelength of red light is 7000 Å)",
+            "options": [
+                "$1.04 \\times 10^{-6} m$",
+                "$1.14 \\times 10^{-6} m$",
+                "$1.40 \\times 10^{-6} m$",
+                "$1.34 \\times 10^{-6} m$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If (a=absorptivity), What is the relation between emissive power of a real body (E) and emissive power of black body (Eb) when both are at same temperature?",
+            "options": [
+                "$E = Eb$",
+                "$Eb = E$",
+                "$E = \\alpha Eb$",
+                "$Eb = \\alpha E$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If a monochromatic light beam with quantum energy value of 5 eV incident upon a photocell where the work function of the target metal is 1.3 eV. The maximum kinetic energy of ejected electrons equals:",
+            "options": [
+                "3.7 eV",
+                "4.2 eV",
+                "5.4 eV",
+                "6.7 eV"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The slope of the stopping potential versus frequency graph for photoelectric effect is equal to",
+            "options": [
+                "h",
+                "hc",
+                "h/e",
+                "e"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The energy gap between the valence band and conduction band in a semiconductor is about",
+            "options": [
+                "15 eV",
+                "10 eV",
+                "5 eV",
+                "1 eV"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "From the figure, which curve represents the Bose-Einstein statistics?",
+            "image": "exams/physics/toc/images/2021_q34.png",
+            "options": [
+                "X",
+                "Y",
+                "Z",
+                "None"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The opposite graph shows the resistance R of a superconductor is shown as a function of its temperature T for two different magnetic fields $B_{1}$ (solid line) and $B_{2}$ (dashed line). If $B_{2}$ is larger than $B_{1}$ which one of the following graphs shows the correct variation of R with T",
+            "image": "exams/physics/toc/images/2021_q35.png",
+            "options": [
+                "A <img src='exams/physics/toc/images/2021_q35_a.png' alt='Graph A'/>",
+                "B <img src='exams/physics/toc/images/2021_q35_b.png' alt='Graph B'/>",
+                "C <img src='exams/physics/toc/images/2021_q35_c.png' alt='Graph C'/>",
+                "D <img src='exams/physics/toc/images/2021_q35_d.png' alt='Graph D'/>"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which of the following types of microscopes should be used to view a specimen at 50,000X magnification?",
+            "options": [
+                "A confocal microscope.",
+                "A dark-field microscope.",
+                "A phase-contrast microscope.",
+                "A transmission electron microscope"
+            ],
+            "correct": 3
+        }
+    ]
+}
