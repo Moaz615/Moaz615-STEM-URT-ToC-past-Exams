@@ -1,6 +1,14 @@
 {
-  "passage": "",
   "questions": [
+    {
+      "passage": "This is a list of data, formulae, and relationships {{img0}}. <div style='text-align: center'>You can use them when needed</div>",
+      "images": [
+        "exams/physics/toc/images/physics-laws.png"
+      ]
+    },
+    {
+      "endPassage": true
+    },
     {
       "q": "A student measured a block with real mass (5 g) and listed them in a table: 8.32g, 8.35g, 8.32g, and 8.29g. His measurements have:",
       "options": [
@@ -12,13 +20,12 @@
       "correct": 2
     },
     {
-      "q": "The graph shows an object's displacement z with respect to time t in dynamic equilibrium. The answer is: <div style= 'text-align: center'>The original question had no figures</div>",
-      "image": "exams/physics/toc/images/2024_q2.png",
+      "q": "The following graphs show the relation between the displacement &nbsp; $(X)$ &nbsp; versus time &nbsp; $(t)$ &nbsp; for a moving object. Which of the following graphs correctly describes an object at the state of a dynamic equilibrium?",
       "options": [
-        "$x$",
-        "$x^{2}$",
-        "$\\sqrt{x}$",
-        "$\\log(x)+2$"
+        "A <img src=\"exams/physics/toc/images/2024_q2_a.png\" alt=\"Graph A\">",
+        "B <img src=\"exams/physics/toc/images/2024_q2_b.png\" alt=\"Graph B\">",
+        "C <img src=\"exams/physics/toc/images/2024_q2_c.png\" alt=\"Graph C\">",
+        "D <img src=\"exams/physics/toc/images/2024_q2_d.png\" alt=\"Graph D\">"
       ],
       "correct": 0
     },
@@ -33,7 +40,7 @@
       "correct": 1
     },
     {
-      "q": "An ideal spring, with a pointer attached to its end, hangs next to a scale. With a $100 N$ weight attached and in equilibrium, the pointer indicates 40 on the scale as shown. Using a $500 N$ weight instead results in 60 on the scale. Using an unknown weight $X$ instead results in 50 on the scale. The value of $X$ is:",
+      "q": "The opposite figure shows an ideal spring, with a pointer attached to its end, hangs next to a scale. With a $100 N$ weight attached and in equilibrium, the pointer indicates 40 on the scale as shown. Using a $500 N$ weight instead results in 60 on the scale. Using an unknown weight $X$ instead results in 50 on the scale. The value of $X$ is:",
       "options": [
         "$300 N$",
         "$350 N$",
@@ -43,150 +50,152 @@
       "correct": 0
     },
     {
-      "q": "3 Particles with the same kinetic energy, but don't have the same de Broglie wavelength, have masses $1m, 4m, 16m$. Calculate the ratio of de Broglie wavelengths:",
+      "q": "The figure shows an iron wire and a brass wire, of equal lengths and cross-sectional area, are joined at one end. A tension force F is applied to the free ends as shown. If the Young modulus of iron is three times as that of brass. Which statement is true? ",
+      "image": "exams/physics/toc/images/2024_q5.png",
       "options": [
-        "$1:4:16$",
-        "$16:4:1$",
-        "$4:2:1$",
-        "$1:2:4$"
+        "The strain of the iron wire is equal to that of the brass wire.",
+        "The strain of the iron wire is one-third as that of the brass wire.",
+        "The strain of the iron wire is three times as that of the brass wire.",
+        "The strain of the iron wire is nine times as that of the brass strain."
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Two separate samples (X) and (Y), each form a different material where the specific heat capacity of the material of sample X twice that of the material of sample Y while the mass of X is &nbsp; $\\frac{1}{3}$ &nbsp; of that of Y. If the temperature of each is raised by the same value, then the ratio between: <br> $\\frac{\\text{The amount of gained heat energy by sample X}}{\\text{The amount of gained heat energy by sample Y}} = \\dots\\dots$",
+      "options": [
+        "$-\\frac{1}{3}$",
+        "$-\\frac{2}{3}$",
+        "$-\\frac{1}{6}$",
+        "$-\\frac{2}{2}$"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "In the shown (P-V) graph, which of the following quantities equals to Zero?",
+      "image": "exams/physics/toc/images/2024_q19.png",
+      "options": [
+        "The internal energy of the system.",
+        "The work done by or on the system.",
+        "The change in the internal energy of the system.",
+        "The amount of gained or lost heat by the system."
       ],
       "correct": 2
     },
     {
-      "q": "Young's modulus of iron is three times that of brass. If their lengths, applied forces, and cross-sectional area are equal, Iron strain is:",
+      "q": "A circular loop of one turn and of radius (R) carrying electric current of intensity (I) and a long straight wire carrying an electric current of intensity ($3\\pi$ A) at a distance of ($\\frac{R}{2}$) from the circular loop as shown in the opposite figure. the loop and the wire are in the same plane. What are the directions and magnitude of I which produces magnetic field at its center is zero?",
+      "image": "exams/physics/toc/images/2024_q8.png",
       "options": [
-        "1/3 of other material",
-        "3 times of other material",
-        "Same as other material",
-        "1/9 of other material"
+        "Clockwise, 0.5A.",
+        "Clockwise, 2A.",
+        "Anticlockwise, 0.5A.",
+        "Anticlockwise, 2A."
+      ],
+      "correct": 1
+    },
+    {
+      "q": "A positively – charged particle projected towards west into a uniform magnetic field (B) directed perpendicularly out the page. Which of the following statements is correct?",
+      "options": [
+        "The charge is deflected towards north by a magnetic force.",
+        "The charge is deflected towards south by a magnetic force.",
+        "The charge is deflected towards east by a magnetic force.",
+        "The charge is deflected perpendicularly into the page by a magnetic force."
       ],
       "correct": 0
     },
     {
-      "q": "In the circuit shown, if the resistance of $R_{v}$ is decreased, what happens to $V_{1}$ and $V_{2}$?",
-      "image": "exams/physics/toc/images/2024_q7.png",
+      "q": "When the magnetic flux interacting with a circular coil changes, an average induced electromotive force (E) is produced in the coil. If the number of turns of the coil is increased to 3 times at constant area and the rate of the change in the flux density is halved, so the average electromotive force will equal ………………….",
       "options": [
-        "$V_{1}$ increases, $V_{2}$ increases",
-        "$V_{1}$ decreases, $V_{2}$ increases",
-        "$V_{1}$ increases, $V_{2}$ decreases",
-        "$V_{1}$ decreases, $V_{2}$ decreases"
+        "$\\frac{2E}{5}$",
+        "$\\frac{2E}{3}$",
+        "$\\frac{3E}{2}$",
+        "$\\frac{5E}{2}$"
       ],
-      "correct": 1
+      "correct": 2
     },
     {
-      "q": "Pure silicon is doped with $10^{6}/cm^{3}$ of pentavalent and $2\\times10^{6}/cm^{2}$ of trivalent. What is the type of the semiconductor and the number of carrier concentration?",
-      "options": [
-        "n-type, $10^{6}/cm^{3}$",
-        "p-type, $10^{6}/cm^{3}$",
-        "p-type, $2\\times10^{6}/cm^{3}$",
-        "n-type, $2\\times10^{6}/cm^{3}$"
-      ],
-      "correct": 1
-    },
-    {
-      "q": "Two materials X and Y are raised by the same temperature. What is the ratio of their heat gain $X/Y$ if X's mass is a third of Y's and its specific heat is twice that of Y?",
-      "options": [
-        "2/3",
-        "3/2",
-        "1/6",
-        "6"
-      ],
-      "correct": 0
-    },
-    {
-      "q": "A magnetic flux interacting with a circular coil changes, and an electromotive force (E) is produced. If the number of coils is increased to 3 times at constant area and the rate of change of magnetic flux is halved, the average emf is:",
-      "options": [
-        "$\\frac{5}{2}E$",
-        "$\\frac{3}{2}E$",
-        "$\\frac{2}{3}E$",
-        "$\\frac{5}{3}E$"
-      ],
-      "correct": 1
-    },
-    {
-      "q": "A step down transformer with an efficiency of 90% has a primary voltage of 200 V. If the ratio between the number of coils ($N_s/N_p$) is 0.5, the secondary voltage is:",
+      "q": "A step-down electric transformer with efficiency 90% is connected to AC power supply. Its primary coil voltage is 200 V and the ratio between their turns number is $\\frac{1}{2}$. Then, the potential difference across the secondary coil will be ………………….",
       "options": [
         "100 V",
         "90 V",
-        "180 V",
-        "30 V"
+        "20 V",
+        "10 V"
       ],
       "correct": 1
     },
     {
-      "q": "A positively-charged particle moving west into a magnetic flux density that's perpendicular and out of the page, the direction of the deflection is:",
-      "options": [
-        "North",
-        "South",
-        "East",
-        "Perpendicularly in the page"
-      ],
-      "correct": 0
-    },
-    {
-      "q": "A long wire is at a distance $R/2$ from a one-turn loop with radius R. The current in the wire is 37 Ampere. Calculate the current in the loop and its direction to make the magnetic field at the center equal zero.",
-      "image": "exams/physics/toc/images/2024_q13.png",
-      "options": [
-        "0.5 A clockwise",
-        "0.5 A anticlockwise",
-        "2 A clockwise",
-        "2 A anticlockwise"
-      ],
-      "correct": 2
-    },
-    {
-      "q": "In an RLC circuit, what is the new resonant frequency if the inductance is 4 times and the capacitance is $\\frac{1}{16}$ of their original values?",
-      "options": [
-        "2f",
-        "0.5f",
-        "4f",
-        "0.25f"
-      ],
-      "correct": 0
-    },
-    {
-      "q": "According to the isothermal process figure, which of the following values equals zero?",
-      "image": "exams/physics/toc/images/2024_q15.png",
-      "options": [
-        "Internal Energy",
-        "Change in internal energy",
-        "Change in work done",
-        "Change in heat energy"
-      ],
-      "correct": 1
-    },
-    {
-      "q": "A capacitor is connected to an AC supply with $(V_{max})$ and frequency (f). If the frequency becomes 2f with $V_{max}$ constant, the effective current becomes:",
+      "q": "A capacitor connected to AC power supply of maximum voltage ($V_{max}$), frequency (f) and the effective value of current (I). if the frequency of AC power supply becomes 2 f at constant the maximum voltage, then the effective value of current will be ………….",
       "options": [
         "0.25 I",
         "0.5 I",
-        "2 I",
+        "2I",
         "4 I"
       ],
       "correct": 2
     },
     {
-      "q": "Two identical pulses centers are 16 cm apart moving at the same speed. If the vertical displacement at $t=2$ for the resultant pulse is zero, the speed of the pulses is:",
+      "q": "In series RLC circuit connected to AC power supply, the resonant frequency is $f_1$, if the value of inductance is increased to 4 times and value of capacitance is decreased to $\\frac{1}{16}$ of its initial values, then the new resonant frequency will be ………………….",
       "options": [
-        "8 cm/s",
-        "4 cm/s",
-        "2 cm/s",
-        "1 cm/s"
+        "$4 f_1$",
+        "$2 f_1$",
+        "$0.5 f_1$",
+        "$0.25 f_1$"
       ],
       "correct": 1
     },
     {
-      "q": "In a moving spring, at which displacement $x$ from the equilibrium position is the kinetic energy equal to the potential energy?",
+      "q": "A Silicon Sample is uniformly doped with pentavalent atoms of concentration $10^{16}$ atoms / $cm^3$ and trivalent atoms of concentration $2 \\times 10^{16}$ atoms / $cm^3$. What is the type of the material when all the dopants are fully ionized?",
       "options": [
-        "$A/\\sqrt{2}$",
-        "$A/2$",
-        "$A/4$",
-        "$A\\sqrt{2}$"
+        "N – type with carrier concentration of $10^{16}$ atoms/$cm^3$",
+        "P – type with carrier concentration of $10^{16}$ atoms/$cm^3$",
+        "P– type with carrier concentration of $2 \\times 10^{16}$ atoms/$cm^3$",
+        "N– type with carrier concentration of $2 \\times 10^{16}$ atoms/$cm^3$"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "In the circuit shown in the figure, NPN transistor is used in common emitter mode as a switch. What would happen to the voltage $V_1$ and $V_2$ When the value of $R_V$ is decreased?",
+      "image": "exams/physics/toc/images/2024-q15.png",
+      "options": [
+        "$V_1$ increases, $V_2$ increases",
+        "$V_1$ decreases, $V_2$ increases",
+        "$V_1$ increases, $V_2$ decreases",
+        "$V_1$ decreases, $V_2$ decreases"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Suppose we wish to double the wave speed of a wave on a long stretched string keeping the same string, the tension force in the string should be ………………… as its initial value.",
+      "options": [
+        "increased to $\\sqrt{2}$",
+        "increased to twice",
+        "increased to four times",
+        "increased to eight times"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "A particle of mass (m) executing a simple harmonic motion along a straight line that has angular velocity ($\\omega$) and amplitude (A). At what distance (Y) from the mean position, is the kinetic energy of the oscillatory particle equal to its potential energy?",
+      "options": [
+        "$Y = \\frac{A}{\\sqrt{2}}$",
+        "$Y = \\frac{A}{2}$",
+        "$Y = \\frac{A}{\\sqrt{3}}$",
+        "$Y = \\frac{A}{3}$"
       ],
       "correct": 0
     },
     {
-      "q": "An object is between two parallel plane mirrors. The distance to the right mirror is 10 cm. If the 5th image starting from the right reflection is 170 cm behind the mirror, find the distance between the mirrors.",
+      "q": "The opposite figure illustrates a person measures the periodic time of a simple pendulum inside a stationary lift (an elevator) and finds it to be T. The periodic time of this pendulum when the lift accelerates downwards with an acceleration of $\\frac{3g}{4}$ will be ………………….",
+      "image": "exams/physics/toc/images/2024_q18.png",
+      "options": [
+        "$\\sqrt{2} T$",
+        "$\\frac{T}{2}$",
+        "$\\frac{2T}{\\sqrt{7}}$",
+        "2 T"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "Two parallel mirrors are a distance d apart. An object is placed 10 cm in front of the right-hand mirror. After 5 reflections, with the first reflection from the right-hand mirror, an image is located 170 cm behind the right-hand mirror. Then, the distance between the mirrors is …………………",
       "options": [
         "32 cm",
         "40 cm",
@@ -196,178 +205,182 @@
       "correct": 1
     },
     {
-      "q": "A diffraction grating with 2000 lines/cm has an angle of $30^{\\circ}$ between the central and fourth order maximum. What is the wavelength?",
+      "q": "A concave spherical mirror has a radius of curvature of 50 cm. The image of an object located 35 cm in front of the mirror is …………………",
       "options": [
-        "625 nm",
-        "500 nm",
-        "450 nm",
-        "700 nm"
+        "real, inverted, magnified 2.5 times, and 87.5 cm from the mirror.",
+        "virtual, erect, magnified 2.5 times, and 87.5 cm from the mirror.",
+        "virtual, erect, magnified 3.3 times, and 117 cm from the mirror.",
+        "real, inverted, magnified 3.3 times, and 117 cm from the mirror."
       ],
       "correct": 0
     },
     {
-      "q": "In a double slit experiment ($d, L, \\lambda$), which combination results in the same fringe space $\\Delta y$?",
+      "q": "To increase the covering range of a TV transmitter tower to 3 times as its initial value, the height of the tower should be increased to ………………… times as its initial value.",
       "options": [
-        "$\\lambda, 2L, 2d$",
-        "$2\\lambda, L, 2d$",
-        "$4\\lambda, L, 4d$",
-        "All of the above"
+        "3",
+        "4.5",
+        "6",
+        "9"
       ],
       "correct": 3
     },
     {
-      "q": "A photon hits an electron and the scattered photon has wavelength $\\frac{5}{4}\\lambda$. Then:",
-      "image": "exams/physics/toc/images/2024_q22.png",
+      "q": "Which of the following statements belongs to amplitude modulation?",
       "options": [
-        "80% of energy transferred to electron",
-        "25% of energy transferred to electron",
-        "Photon speed decreases by 20%",
-        "Electron gains 20% of photon's energy"
+        "The amplitude of the carrier wave varies in accordance with the amplitude of the modulating signal.",
+        "The amplitude of the carrier wave remains constant.",
+        "The amplitude of the carrier varies in accordance with the frequency of the modulating signal.",
+        "Modulating frequency lies in the audio range."
+      ],
+      "correct": 0
+    },
+    {
+      "q": "A light ray passes from air into quartz, striking the surface of the quartz with an angle of incidence of $30^\\circ$,<br>I- speed of propagation<br>II- direction of propagation<br>III- frequency<br>IV- wavelength<br>Which of the following four quantities above change as the light enters the quartz?",
+      "options": [
+        "I and II only.",
+        "III and IV only.",
+        "I, II and III only.",
+        "I, II and IV only."
       ],
       "correct": 3
     },
     {
-      "q": "To triple the covering range of a TV transmitter tower, its height should be made:",
+      "q": "The opposite figure shows a right angled prism of refractive index 1.6, a layer of liquid is placed on the hypotenuse of the prism. Light ray incident normally on the short face of the prism. In order that the ray of light may get totally reflected at side AB as shown, the maximum value of refractive index of the liquid will be………",
+      "image": "exams/physics/toc/images/2024_q24.png",
       "options": [
-        "3 times",
-        "6 times",
-        "9 times",
-        "$\\sqrt{3}$ times"
-      ],
-      "correct": 2
-    },
-    {
-      "q": "A right-angled prism (60-30) has $n=1.6$ and a thin layer of liquid. Light falls normally. For total internal reflection, the maximum refractive index of the liquid is:",
-      "options": [
-        "1.8",
+        "1.85",
         "1.39",
         "1.35",
-        "1.5"
+        "1.29"
       ],
       "correct": 1
     },
     {
-      "q": "Rank the four pairs of polarizing sheets according to the fraction of initial intensity they pass, greatest first.",
+      "q": "A diffraction grating has 2000 lines per cm. The angle between the central maximum and the forth order maximum is $30^\\circ$. What is the wavelength of the light?",
       "options": [
-        "$a > c > b > d$",
-        "$d > b > c > a$",
-        "$a = b = c = d$",
-        "$b > a > d > c$"
+        "335 nm",
+        "485 nm",
+        "575 nm",
+        "625 nm"
       ],
-      "correct": 0
+      "correct": 3
     },
     {
-      "q": "When a wave hits quartz and enters the medium:",
+      "q": "In a double slit interference arrangement, the fringe spacing is $\\Delta Y$ when the wavelength of the monochromatic source is $\\lambda$, the distance between the double slits is $d$ and the distance between the slits and the plane of the observed fringes is $L$. In which one of the following cases would the fringe spacing also be $\\Delta Y$?",
+      "image": "exams/physics/toc/images/2024_q26.png",
       "options": [
-        "Direction, speed, and wavelength change, frequency remains fixed",
-        "Only speed changes",
-        "Frequency and wavelength change",
-        "Nothing changes"
+        "A",
+        "B",
+        "C",
+        "D"
       ],
-      "correct": 0
+      "correct": 3
     },
     {
-      "q": "Increasing the frequency of incident photons does what to the stopping potential ($V_s$) in the graph?",
+      "q": "The figure above shows four pairs of polarizing sheets, seen face-on. Each pair is mounted in the path of initially unpolarized light. The polarizing direction of each sheet (indicated by the dashed line) is referenced to either a horizontal x axis or a vertical y axis. Arrange the pairs according to the fraction of the initial intensity that they pass, greatest first.",
       "image": "exams/physics/toc/images/2024_q27.png",
       "options": [
-        "It will move to the Left",
-        "It will move to the Right",
-        "It will become Zero",
-        "It stays Fixed"
+        "a > d > b > c",
+        "a > c > b > d",
+        "d > c > a > b",
+        "d > b > c > a"
       ],
-      "correct": 0
+      "correct": 3
     },
     {
-      "q": "A pendulum in a lift has period T when stationary. When the lift accelerates down at $\\frac{3}{4}g$, what is the new period?",
+      "q": "Two Strings A and B in the figures below, have the same length and the linear density (mass per unit length), but the string A is under tension four times that the string B is stretched. Which of the following figures describes the two strings A and B are vibrating at the same resonant frequency?",
       "options": [
-        "2T",
-        "$T/2$",
-        "$2T/\\sqrt{7}$",
-        "$4T$"
-      ],
-      "correct": 0
-    },
-    {
-      "q": "A concave mirror has $R=50$ cm. An object is 35 cm away. Choose the description of the image:",
-      "options": [
-        "Real, inverted, 2.5 magnified, 87.5 cm away",
-        "Real, erect, 3.3 magnified, 117 cm away",
-        "Virtual, inverted, 3.3 magnified, 87.5 cm away",
-        "Virtual, erect, 3.3 magnified, 117 cm away"
-      ],
-      "correct": 0
-    },
-    {
-      "q": "Two waves A and B have equal velocity. If A's tension is four times that of B, which relationship regarding linear density is accurate?",
-      "options": [
-        "$\\mu_A = 4\\mu_B$",
-        "$\\mu_A = \\mu_B / 4$",
-        "$\\mu_A = 2\\mu_B$",
-        "$\\mu_A = \\mu_B$"
-      ],
-      "correct": 0
-    },
-    {
-      "q": "If black body radiation at 5000 K is at 420 nm, what is the wavelength if the temperature is raised by $1500^{\\circ}C$?",
-      "options": [
-        "3230 $Å$",
-        "3100 $Å$",
-        "5600 $Å$",
-        "6000 $Å$"
-      ],
-      "correct": 0
-    },
-    {
-      "q": "In amplitude modulation:",
-      "options": [
-        "Carrier amplitude varies with modulating signal amplitude",
-        "Carrier amplitude remains constant",
-        "Carrier amplitude varies with modulating signal frequency",
-        "Amplitude changes with modulating wavelength"
-      ],
-      "correct": 0
-    },
-    {
-      "q": "To double the velocity of a wave in a wire (constant linear density), the tension force must be:",
-      "options": [
-        "Decreased to half",
-        "Increased to double",
-        "Increased 4 times",
-        "Decreased to quarter"
+        "Figure (1) <img src='exams/physics/toc/images/2024_q28_a.png' alt='Graph A'/>",
+        "Figure (2) <img src='exams/physics/toc/images/2024_q28_b.png' alt='Graph B'/>",
+        "Figure (3) <img src='exams/physics/toc/images/2024_q28_c.png' alt='Graph C'/>",
+        "Figure (4) <img src='exams/physics/toc/images/2024_q28_d.png' alt='Graph D'/>"
       ],
       "correct": 2
     },
     {
-      "q": "The Miller indices of the diagonal plane of a cube are:",
+      "q": "The opposite diagram shows two identical pulses whose centers are initially 16 cm approaching each other on a string, The net vertical displacement of the string particles will be zero at t = 2 s . Then the speed of pulses at t = 2 s will be …………………",
+      "image": "exams/physics/toc/images/2024_q29.png",
       "options": [
-        "(110)",
-        "(1100)",
-        "(100)",
-        "(001)"
+        "8cm/s",
+        "4cm/s",
+        "2cm/s",
+        "1cm/s"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Three particles X, Y and Z have the same charge, the same kinetic energy, but they have different De Broglie wavelengths as are listed in the opposite table. The ratio between $\\lambda_1$, $\\lambda_2$ and $\\lambda_3$ respectively will be ….",
+      "image": "exams/physics/toc/images/2024_q30.png",
+      "options": [
+        "1: 4: 16",
+        "1: 2: 4",
+        "4: 2: 1",
+        "16: 4: 1"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "The opposite diagram shows the collision between photon of X- ray and electron (Compton effect), if the scattered photon has wavelength $5\\lambda/4$ which of the following is correct?",
+      "image": "exams/physics/toc/images/2024_q31.png",
+      "options": [
+        "The photon transfers 80% of its initial momentum to the electron.",
+        "The photon transfers 25% of its initial energy to the electron.",
+        "The speed of photon decreased by 20% of its initial speed due to the collision.",
+        "The kinetic energy of the electron increased by 20% from the initial energy of photon."
+      ],
+      "correct": 3
+    },
+    {
+      "q": "When the temperature of a blackbody is 5000 K, it emits radiations of maximum intensity for the wave length of 420 nm. If the temperature of the body is raised by $1500^{\\circ}C$, the maximum intensity of radiation would be observed at nearly:",
+      "options": [
+        "3230 $Å$",
+        "3100 $Å$",
+        "5460 $Å$",
+        "5690 $Å$"
       ],
       "correct": 0
     },
     {
-      "q": "Which of the following applies to superconductors (multiple): 1. Diamagnetic, 2. Repel magnetic fields, 3. Cooper pair energy is half the gap energy.",
+      "q": "The curve at the right side shows the relation between the photocurrent (Current) and the applied voltage (V) between cathode (emitter) and anode (collector) in photocell. Suppose the intensity of the incident light is held fixed but its frequency is increased. Which of the following statements belong to the stopping potential ($\\Delta V_s$) is correct?",
+      "image": "exams/physics/toc/images/2024_q33.png",
       "options": [
-        "1 and 2 only",
-        "2 and 3 only",
-        "1 and 3 only",
-        "All of the above"
+        "The stopping potential remains fixed at the same position in the curve.",
+        "The stopping potential move to the right.",
+        "The stopping potential move to the left.",
+        "The stopping potential will be zero"
       ],
-      "correct": 0
+      "correct": 2
     },
     {
-      "q": "Which of the following are properties of STM (multiple): 1. Atomic measurements, 2. Topography of atoms, 3. Low temperatures for superconductors, 4. Works with non-conductors.",
+      "q": "The Miller indices of the diagonal plane of a cube crystal are…………….",
       "options": [
-        "1, 2, and 3 only",
-        "2 and 4 only",
-        "1 and 3 only",
-        "All of the above"
+        "(1, 0, 0)",
+        "(1, 1, 0)",
+        "(0, 0, 1)",
+        "(1, 1, $\\infty$)"
       ],
-      "correct": 0
+      "correct": 1
+    },
+    {
+      "q": "The opposite curve shows the relation between the change in electric resistivity ($\\rho$) of a superconducting element with the change in its temperature (T).<br>I- The superconducting elements are generally diamagnetic materials.<br>II- below $T_c$, Superconducting elements do not allow the external magnetic fields penetrate inside them<br>III- The energy required to break a cooper pair is half of the energy gap of superconductor.<br>Which of the following is/are correct?",
+      "image": "exams/physics/toc/images/2024_q35.png",
+      "options": [
+        "I only",
+        "I and II only",
+        "II and III only",
+        "I, II and III"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "I- it is a type of microscope used for imaging surfaces at the atomic level.<br>II- At low temperatures (temperatures less than 4 K) is used to investigate the properties of superconducting material.<br>III- it allows to measure the topography of various materials down to atomic resolution based on Nano - technology.<br>IV- it can image conductive and non- conductive samples.<br>Which of the statements given above belong to scanning tunneling microscope (STM)?",
+      "options": [
+        "I, II only",
+        "II, III only",
+        "I, III, IV only",
+        "II, III, IV only"
+      ],
+      "correct": 2
     }
   ]
-
 }
-
