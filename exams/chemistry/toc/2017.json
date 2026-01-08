@@ -1,0 +1,422 @@
+{
+  "questions": [
+    {
+      "passage": "<div style='text-align: center'>Periodic Table of Elements</div>",
+      "image": "exams/chemistry/toc/images/periodic-table.png"
+    },
+    {
+      "endPassage": true
+    },
+    {
+      "q": "Which gas should not be collected over water due to its high solubility in water?",
+      "options": [
+        "$H_2$",
+        "$O_2$",
+        "$CH_4$",
+        "$HCl$"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "In the following reaction: $$C_3H_8 + 5O_2 \\rightarrow 3CO_2 + 4H_2O$$ What is the total mass of carbon dioxide, in grams, of products when $2.20\\text{ g}$ of propane is burned in excess oxygen?",
+      "options": [
+        "2.20",
+        "3.60",
+        "6.60",
+        "10.2"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Which pure compounds form intermolecular hydrogen bonds? <br>(i) $HF$ <br>(ii) $H_2S$ <br>(iii) $CH_4$ $$(H=2.5, S=3.5, C=2.5, F=4.0)$$",
+      "options": [
+        "i only",
+        "ii only",
+        "i and ii only",
+        "ii and iii only"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "A chemical reaction is carried out twice with the same quantity of gaseous reactants to form the same products but the pressure is different for the two experiments. Which does not change?",
+      "options": [
+        "$K_p$",
+        "heat released",
+        "$\\Delta T$ surroundings",
+        "Work done"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "An iron catalyst is used in the Haber process in which gaseous $N_2$ and $H_2$ react to produce $NH_3$. What is the role of this catalyst?",
+      "options": [
+        "It provides a pathway with a lower activation energy",
+        "It increases the equilibrium constant of the reaction",
+        "It raises the kinetic energies of the reactants",
+        "It interacts with the $NH_3$"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "In this reaction $$2NO_2(g) + 7H_2(g) \\rightleftharpoons 2NH_3(g) + 4H_2O(l)$$ what is the correct equilibrium expression for this reaction?",
+      "options": [
+        "$$K_c = \\frac{[NH_3]^2}{[NO_2]^2 [H_2]^7}$$",
+        "$$K_c = [NO_2][H_2]$$",
+        "$$K_c = \\frac{[NH_3]^2 [H_2O]^4}{[NO_2]^2 [H_2]^7}$$",
+        "$$K_c = \\frac{[NH_3]^2 [H_2O]^4}{[NO_2]^2}$$"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "In this reaction $$N_2O_4(g) \\rightleftharpoons 2NO_2(g)$$ The equilibrium reaction shown is endothermic as written. Which change will increase the amount of $NO_2$ at equilibrium?",
+      "options": [
+        "adding a catalyst",
+        "Increasing the volume of the container",
+        "Decreasing the temperature",
+        "Adding an inert gas to increase the pressure"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Which weak acid has the strongest conjugate base?",
+      "options": [
+        "acetic acid ($K_a = 1.8 \\times 10^{-5}$)",
+        "formic acid ($K_a = 1.8 \\times 10^{-4}$)",
+        "hydrofluoric acid ($K_a = 6.8 \\times 10^{-4}$)",
+        "propionic (propanoic) acid ($K_a = 5.5 \\times 10^{-5}$)"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "In this reaction: $$2NO(g) + Cl_2(g) \\rightarrow 2NOCl$$ $\\Delta H = -38\\text{ kJ}$. If the activation energy of the forward reaction is $62\\text{ kJ}$, what is the activation energy for the reverse reaction?",
+      "options": [
+        "24 kJ",
+        "38 kJ",
+        "62 kJ",
+        "100 kJ"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "Which $0.1\\text{ M}$ salt solution will have a pH of less than 7?",
+      "options": [
+        "$NaCl$",
+        "$NH_4Br$",
+        "$KF$",
+        "$CH_3COONa$"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "What is the pH of a $0.20\\text{ M } HA$ solution ($K_a = 1.0 \\times 10^{-6}$) that contains $0.40\\text{ M } NaA$?",
+      "options": [
+        "3.15",
+        "3.35",
+        "5.70",
+        "6.30"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "In an experiment to determine the empirical formula of magnesium oxide a student weighs an empty crucible then adds a magnesium metal strip and reweighs the crucible. The crucible and magnesium are heated with a burner flame which ignites the magnesium and forms a gray-white solid. After cooling, the crucible and solid are reweighed and the data is analyzed to give an empirical formula of $Mg_5O_4$. Which could account for the observed $Mg_5O_4$ result rather than the expected $MgO$?",
+      "options": [
+        "Some of the magnesium reacts with atmospheric nitrogen to produce magnesium nitride",
+        "A mix of magnesium oxide and magnesium peroxide forms during combustion",
+        "The piece of magnesium ribbon is shorter than recommended in the procedure",
+        "The crucible and magnesium are heated longer than recommended in the procedure"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Which change represents an oxidation?",
+      "options": [
+        "$$NO_2^- \\text{ to } N_2$$",
+        "$$VO^{2+} \\text{ to } VO^{3+}$$",
+        "$$ClO^- \\text{ to } Cl^-$$",
+        "$$CrO_4^{2-} \\text{ to } Cr_2O_7^{2-}$$"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "What is the value for the voltaic cell constructed from the half cells: $$Zn^{2+} + 2e^- \\rightarrow Zn \\ (-0.762\\text{ V})$$ and $$Ti^+ + e^- \\rightarrow Ti \\ (-0.336\\text{ V})$$?",
+      "options": [
+        "0.090 V",
+        "0.426 V",
+        "1.098 V",
+        "1.434 V"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "In which species is the carbon-nitrogen bond the shortest?",
+      "options": [
+        "$CH_3NH_2$",
+        "$CH_2NH$",
+        "$(CH_3)_4N^+$",
+        "$CH_3CN$"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "What are intermolecular forces?",
+      "options": [
+        "Attraction between atoms",
+        "Attraction between molecules",
+        "Attraction within atoms",
+        "Attraction within molecules"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "London dispersion forces:",
+      "options": [
+        "Are between 2 non-polar molecules",
+        "Form between hydrogen and a lone pair of electrons",
+        "Are temporary uneven distribution of electrons",
+        "Are intra-molecular forces"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "An element $X$ has the following values for successive ionization energies: $1093, 2359, 4627, 6229, 37839, 47284$. What group in the periodic table is it in?",
+      "options": [
+        "1A",
+        "2A",
+        "3A",
+        "4A"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "Which of the following is considered as an alcohol?",
+      "options": [
+        "$NaOH$",
+        "$CH_3CH_2COOH$",
+        "$CH_3CHO$",
+        "$CH_3CH_2OH$"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "Which is incorrect concerning these 2 molecules with the same formula $C_2H_6O$?",
+      "image": "exams/chemistry/toc/images/2017_q20.png",
+      "options": [
+        "Compound II will more likely be soluble in water than compound I",
+        "Compound I will have a lower boiling point than compound II",
+        "Hydrogen bonding will be the most likely for compound I",
+        "The two compounds are structural isomers"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "In a chemistry lab test you are asked to react a solution of bromine with each of the following unknown liquids. Which one will decolorize the bromine solution (i.e., reacts)?",
+      "options": [
+        "2,3-dimethylbutane",
+        "2-hexene",
+        "ethanoic acid",
+        "2-methyl-2-chlorobutane"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Which compound is most likely to be a gas at room temperature?",
+      "options": [
+        "propane",
+        "2-chloropropane",
+        "propanal",
+        "propanone"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "From the following list select the two molecules that are isomers: <br>(i) $CH_3CH_2CH_2CH_2CH_3$ <br>(ii) $CH_3CH_2CH(CH_3)_2$ <br>(iii) $CH_3CH_2CH_2CH_3$ <br>(iv) $CH_3CH_2CH_2C(CH_3)_3$",
+      "options": [
+        "i and ii only",
+        "ii and iii only",
+        "i and iii only",
+        "ii and iv only"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Which family of compounds is used most frequently as flavoring agents?",
+      "options": [
+        "acids",
+        "alkenes",
+        "esters",
+        "ethers"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Which solute is least soluble in water?",
+      "options": [
+        "1-butanol",
+        "ethanol",
+        "methanol",
+        "1-propanol"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "For which equation is the equilibrium constant equal to $K_a$ for the ammonium ion $NH_4^+$?",
+      "options": [
+        "$$NH_4^+(aq) + OH^-(aq) \\rightleftharpoons NH_3(aq) + H_2O(l)$$",
+        "$$NH_4^+(aq) + H_2O(l) \\rightleftharpoons NH_3(aq) + H_3O^+(aq)$$",
+        "$$NH_3(aq) + H_2O(l) \\rightleftharpoons NH_4^+(aq) + OH^-(aq)$$",
+        "$$NH_3(aq) + H_3O^+(aq) \\rightleftharpoons NH_4^+(aq) + H_2O(l)$$"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "The pH of a saturated solution of $Fe(OH)_2$ is 8.67. What is the $K_{sp}$ for $Fe(OH)_2$?",
+      "options": [
+        "$$5 \\times 10^{-6}$$",
+        "$$2 \\times 10^{-11}$$",
+        "$$1 \\times 10^{-16}$$",
+        "$$5 \\times 10^{-17}$$"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "In an operating voltaic cell electrons move through the external circuit and ions move through the electrolyte solution. Which statement describes these movements?",
+      "options": [
+        "Electrons and negative ions both move towards the anode",
+        "Electrons and negative ions both move towards the cathode",
+        "Electrons move toward the anode and the negative ions move towards the cathode",
+        "Electrons move toward the cathode and the negative ions move towards the anode"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "A $3.00\\text{ ampere}$ current is used to electrolyze the molten chlorides: $CaCl_2$, $MgCl_2$, $AlCl_3$, and $FeCl_2$. The deposition of which mass of metal will require the longest electrolysis time?",
+      "options": [
+        "100.0 g Ca",
+        "50.00 g Mg",
+        "75.00 g Al",
+        "125.0 g Fe"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Which formula represents an alkyne? (Assume all the following are non-cyclic)",
+      "options": [
+        "$C_3H_4$",
+        "$C_3H_6$",
+        "$C_2H_4$",
+        "$C_2H_6$"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "In the reaction $$NH_4Cl(s) + \\text{heat} \\rightleftharpoons NH_3(g) + HCl(g)$$ What kind of change will shift the reaction above to the right to form more products?",
+      "options": [
+        "An Increase in total pressure",
+        "An increase in the concentration of $HCl$",
+        "An increase in the pressure of $NH_3$",
+        "An increase in temperature"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "A catalyst can speed up the rate of a given chemical reaction by",
+      "options": [
+        "Increasing the equilibrium constant in favor of the products",
+        "Lowering the activation energy required for the reaction to occur",
+        "Raising the temperature at which the reaction occurs",
+        "Increasing the pressure of reactants thus favoring the products"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Of four different laboratory solutions, the solution of highest acidity has a pH of...",
+      "options": [
+        "11",
+        "7",
+        "5",
+        "3"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "In the reaction $$C_6H_6 + Br_2 \\rightarrow C_6H_5Br + HBr$$ Which of the following changes will cause an increase in the rate of the above reaction?",
+      "options": [
+        "Increasing the concentration of $Br_2$",
+        "Decreasing the concentration of $C_6H_6$",
+        "Increasing the concentration of $HBr$",
+        "Decreasing the temperature"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Potassium hydroxide ($KOH$) is a strong base because it:",
+      "options": [
+        "easily releases hydroxide ions",
+        "Does not dissolve in water",
+        "reacts to form salt crystals in water",
+        "does not conduct an electric current"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Equal volumes of $1\\text{ molar}$ hydrochloric acid ($HCl$) and $1\\text{ molar}$ sodium hydroxide base ($NaOH$) are mixed. After mixing the solution will be",
+      "options": [
+        "Strongly acidic",
+        "Weakly acidic",
+        "nearly neutral",
+        "weakly basic"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Which would be the most appropriate for collecting data during a neutralization reaction?",
+      "options": [
+        "statistics program",
+        "pH meter",
+        "Thermometer",
+        "Graphing program"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "$sp^2$ hybridization exists in all these compounds except",
+      "options": [
+        "ethene",
+        "benzene",
+        "acetylene",
+        "toluene"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Which is the weakest oxidizing agent in a $1\\text{ M}$ aqueous solution?",
+      "options": [
+        "$Ag^+(aq)$",
+        "$Cu^{2+}(aq)$",
+        "$H^+(aq)$",
+        "$Zn^{2+}(aq)$"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "What is the major organic compound formed from the reaction of $CH_3CH=CH_2$ and $HCl$?",
+      "options": [
+        "$CH_3CHClCH_3$",
+        "$CH_3CH_2CH_2Cl$",
+        "$CH_3CHClCH_2Cl$",
+        "$CH_2ClCH=CH_2$"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Fats and oils are formed from the combination of fatty acids and what other compound?",
+      "options": [
+        "Ethylene glycol",
+        "Glucose",
+        "Glycerol",
+        "Phenol"
+      ],
+      "correct": 2
+    }
+  ]
+}
