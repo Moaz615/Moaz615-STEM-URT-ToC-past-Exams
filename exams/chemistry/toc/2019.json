@@ -1,0 +1,311 @@
+{
+  "questions": [
+    {
+      "passage": "<div style= 'text-align: center'>Periodic Table of Elements</div>",
+      "image": "exams/chemistry/toc/images/periodic-table.png"
+    },
+    {
+      "endPassage": true
+    },
+    {
+      "q": "Consider the reaction $$3H_{2} + N_{2} \\longrightarrow 2NH_{3}$$ What is the initial rate of the appearance of ammonia to the rate of disappearance of hydrogen?",
+      "options": [
+        "1:2",
+        "2:3",
+        "3:2",
+        "3:1"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Which of the following statements about enzymes is incorrect?",
+      "options": [
+        "They are proteins that catalyze specific biological reactions",
+        "The molecules they react with are called substrates",
+        "They are equal to inorganic catalysts in efficiency",
+        "All of the previous"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "An analytical procedure requires a solution of chloride ions. How many grams of $CaCl_{2}$ must be dissolved to make $1.95\\text{ L}$ of $0.0561\\text{ M } Cl^{-}$?",
+      "options": [
+        "0.3280",
+        "6.0710",
+        "12.143",
+        "18.456"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Arrange the following compounds according to increasing solubility in water: <br>(i) $CH_{3}-CH_{2}-CH_{2}-CH_{3}$ <br>(ii) $CH_{3}-CH_{2}-O-CH_{2}-CH_{3}$ <br>(iii) $CH_{3}-CH_{2}-OH$ <br>(iv) $CH_{3}OH$",
+      "options": [
+        "1 < 2 < 3 < 4",
+        "3 < 4 < 2 < 1",
+        "1 < 2 < 4 < 3",
+        "4 < 3 < 1 < 2"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Solutions of benzene and toluene obey Raoult's law. The vapor pressures at $20^{\\circ}C$ are: benzene $76\\text{ torr}$; toluene $21\\text{ torr}$. The mole fraction of benzene in a benzene-toluene solution whose vapor pressure is $60\\text{ torr}$ at $20^{\\circ}C$ is ....",
+      "options": [
+        "0.42",
+        "0.65",
+        "0.71",
+        "0.29"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Calculate the osmotic pressure (in torr) of $6.00\\text{ L}$ of an aqueous $0.958\\text{ M}$ solution at $30^{\\circ}C$ if the solute concerned is totally ionized into three ions (e.g., it could be $Na_{2}SO_{4}$ or $MgCl_{2}$)",
+      "options": [
+        "71.5 torr",
+        "$5.43 \\times 10^{4}$",
+        "$3.23 \\times 10^{4}$",
+        "$1.81 \\times 10^{4}$"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "The measure of resistance to flow of a liquid is",
+      "options": [
+        "Viscosity",
+        "Van der Waals forces",
+        "Vapor pressure",
+        "Cohesion"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "The heat of combustion of bituminous coal is $2.50 \\times 10^4 \\, \\text{J} \\, \\text{g}^{-1}$. What quantity of the coal is required to produce the energy to convert 106.9 pounds of ice at $0.00^\\circ\\text{C}$ to steam at $100^\\circ\\text{C}$?<ul><li>Specific heat of ice = $2.10 \\, \\text{J} \\, \\text{g}^{-1} \\, ^\\circ\\text{C}^{-1}$</li><li>Specific heat of water = $4.18 \\, \\text{J} \\, \\text{g}^{-1} \\, ^\\circ\\text{C}^{-1}$</li><li>Heat of fusion = $333 \\, \\text{J} \\, \\text{g}^{-1}$</li><li>Heat of vaporization = $2259 \\, \\text{J} \\, \\text{g}^{-1}$</li></ul>",
+      "options": [
+        "0.646 kg",
+        "4.380 kg",
+        "0.811 kg",
+        "5.840 kg"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "The bonds between hydrogen and oxygen within a water molecule can be characterized as",
+      "options": [
+        "London dispersion forces",
+        "Hydrogen bonds",
+        "Intermolecular forces",
+        "Intramolecular forces"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "Which of the following does not contain at least one $\\pi$ bond?",
+      "options": [
+        "$CO_{2}$",
+        "$C_{2}H_{4}$",
+        "$C_{2}H_{6}$",
+        "$H_{2}CO$"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Using the following reaction data: $$H_{2}(g) + F_{2}(g) \\longrightarrow 2HF(g) &nbsp; (\\Delta H^{\\circ} = -543\\text{ kJ});$$ $$H_{2}(g) \\longrightarrow 2H(g) &nbsp; (\\Delta H^{\\circ} = 432\\text{ kJ});$$ $$F_{2}(g) \\longrightarrow 2F(g) &nbsp; (\\Delta H^{\\circ} = 154\\text{ kJ})$$ <br><br>Calculate the energy of an $H-F$ bond",
+      "options": [
+        "1128 kJ",
+        "22 kJ",
+        "44 kJ",
+        "564 kJ"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "The molecular structure of $H_{2}O$ is",
+      "options": [
+        "Pyramidal",
+        "Octahedral",
+        "Trigonal planar",
+        "Bent"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "Which of the following frequencies corresponds to light with the longest wavelength?",
+      "options": [
+        "$3.00 \\times 10^{13}\\text{ s}^{-1}$",
+        "$4.12 \\times 10^{5}\\text{ s}^{-1}$",
+        "$8.50 \\times 10^{20}\\text{ s}^{-1}$",
+        "$9.12 \\times 10^{12}\\text{ s}^{-1}$"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Which of the following combinations of quantum numbers is not allowed?",
+      "options": [
+        "$n=2, l=1, m_{l}=-1, m_{s}=1/2$",
+        "$n=3, l=0, m_{l}=0, m_{s}=-1/2$",
+        "$n=1, l=1, m_{l}=0, m_{s}=1/2$",
+        "$n=4, l=3, m_{l}=-2, m_{s}=-1/2$"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "For which of the following elements does the electron configuration for the lowest energy state show a partially filled $d$ orbital?",
+      "options": [
+        "V",
+        "Ag",
+        "Sr",
+        "I"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Which of the following processes represents the ionization energy of bromine?",
+      "options": [
+        "$Br(s) \\longrightarrow Br^{+}(g) + e^{-}$",
+        "$Br(l) \\longrightarrow Br^{+}(g) + e^{-}$",
+        "$Br_{2}(g) \\longrightarrow Br_{2}^{+}(g) + e^{-}$",
+        "$Br(g) \\longrightarrow Br^{+}(g) + e^{-}$"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "What is the kinetic energy of a $4.54\\text{ kg}$ object moving at $84.0\\text{ km/hr}$?",
+      "options": [
+        "$5.32 \\times 10^{4}\\text{ kJ}$",
+        "$1.24 \\times 10^{3}\\text{ kJ}$",
+        "$6.89 \\times 10^{2}\\text{ kJ}$",
+        "$2.04 \\times 10^{3}\\text{ kJ}$"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Which of the following salts is insoluble in water?",
+      "options": [
+        "$CaCO_{3}$",
+        "$Na_{2}S$",
+        "$Pb(NO_{3})_{2}$",
+        "$CaCl_{2}$"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Consider the following numbered processes: $$(1) A \\longrightarrow 2B, \\Delta H_{1}$$ $$(2) B \\longrightarrow C+D, \\Delta H_{2}$$ $$(3) E \\longrightarrow 2D, \\Delta H_{3}$$ Then $\\Delta H$ for the following process $$A \\longrightarrow 2C+E$$ is...",
+      "options": [
+        "$\\Delta H_{1} + \\Delta H_{2} + \\Delta H_{3}$",
+        "$\\Delta H_{1} + \\Delta H_{2} - \\Delta H_{3}$",
+        "$\\Delta H_{1} + 2\\Delta H_{2} - \\Delta H_{3}$",
+        "$\\Delta H_{1} + 2\\Delta H_{2} + \\Delta H_{3}$"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "A freighter carrying a cargo of uranium hexafluoride sank in the English channel in late August 1984. The cargo of uranium hexafluoride weighed $2.253 \\times 10^{7}\\text{ kg}$ and was contained in $30$ drums, each containing $1.47 \\times 10^{6}\\text{ L}$ of $UF_{6}$. What is the density ($g/mL$) of uranium hexafluoride?",
+      "options": [
+        "0.51 g/mL",
+        "1.53 g/mL",
+        "5.11 g/mL",
+        "2.25 g/mL"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "For the given reaction $$2NH_{3}(g) + 3Cl_{2}(g) \\longrightarrow N_{2}(g) + 6HCl(g)$$, you react $6.0\\text{ L}$ of $NH_{3}$ with $6.0\\text{ L}$ of $Cl_{2}$ measured at the same conditions in a closed container. Calculate the ratio of pressures in the container ($P_{final}/P_{initial}$)",
+      "options": [
+        "0.75",
+        "1.00",
+        "1.33",
+        "1.55"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Gaseous $C_{2}H_{4}$ reacts with $O_{2}$ according to the following equation: $$C_{2}H_{4}(g) + 3O_{2}(g) \\longrightarrow 2CO_{2}(g) + 2H_{2}O(g)$$. What volume of oxygen gas at STP is needed to react with $7.75\\text{ mol}$ of $C_{2}H_{4}$?",
+      "options": [
+        "$5.21 \\times 10^{2}\\text{ L}$",
+        "23.25 L",
+        "$1.29 \\times 10^{2}\\text{ L}$",
+        "43.2 L"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "What mass of solute is contained in $256\\text{ mL}$ of $0.838\\text{ M}$ ammonium chloride $NH_{4}Cl$ solution?",
+      "options": [
+        "174 g",
+        "16.3 g",
+        "216 g",
+        "11.5 g"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "The net ionic equation for the reaction of calcium bromide and sodium phosphate contains which of the following species?",
+      "options": [
+        "$PO_{4}^{3-}(aq)$",
+        "$3Ca^{2+}(aq)$",
+        "$Ca_{3}(PO_{4})_{2}(s)$",
+        "$2Br^{-}(aq)$"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "When the solutions of carbonic acid and potassium hydroxide react, which of the following are not present in the net ionic equation?",
+      "options": [
+        "potassium ions",
+        "Hydrogen ions",
+        "Hydroxide ions",
+        "Water"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "A sample of ammonia has a mass of $43.5\\text{ grams}$. How many molecules are in this sample?",
+      "options": [
+        "$2.62 \\times 10^{25}$ molecules",
+        "$2.36 \\times 10^{23}$ molecules",
+        "$1.54 \\times 10^{24}$ molecules",
+        "$8.63 \\times 10^{-16}$ molecules"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "A compound is composed of element $X$ and hydrogen. Analysis shows that the compound is $80\\% X$ by mass, with three times as many hydrogen atoms as $X$ per mole. Which element is element $X$?",
+      "options": [
+        "F",
+        "S",
+        "C",
+        "Ne"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "A sample of chemical $X$ is found to contain $5.0\\text{ grams}$ of oxygen, $10.0\\text{ grams}$ of carbon, and $20.0\\text{ grams}$ of nitrogen. The law of definite proportions would predict that a $70\\text{ gram}$ sample of chemical $X$ should contain how many grams of carbon?",
+      "options": [
+        "5.0 g",
+        "7.0 g",
+        "10 g",
+        "20 g"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "Which of the following is incorrectly named?",
+      "options": [
+        "$SO_{3}^{2-}$ sulfite ion",
+        "$S_{2}O_{3}^{2-}$ disulphite ion",
+        "$PO_{4}^{3-}$ Phosphate ion",
+        "$CN^{-}$ Cyanide ion"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Express the number $0.0810$ in scientific notation",
+      "options": [
+        "$810 \\times 10^{-4}$",
+        "$8.10 \\times 10^{-2}$",
+        "$0.810 \\times 10^{-1}$",
+        "$8.10 \\times 10^{2}$"
+      ],
+      "correct": 1
+    }
+  ]
+}
