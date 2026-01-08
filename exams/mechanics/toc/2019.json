@@ -1,0 +1,290 @@
+{
+    "questions": [
+        {
+            "q": "Replace the force and couple system acting on the member in the figure shown by an equivalent resultant force and couple moment acting at point O.",
+            "image": "exams/mechanics/toc/images/2019_q1.png",
+            "options": [
+                "$F_R = 461N, (M_R)_o = -37.5N.m$",
+                "$F_R = 324N, (M_R)_o = -44.5N.m$",
+                "$F_R = 562N, (M_R)_o = -59N.m$",
+                "$F_R = 461N, (M_R)_o = 37.5N.m$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A cube of side length $10\\text{ cm}$, Reduce the following force system with a force couple system at A",
+            "image": "exams/mechanics/toc/images/2019_q2.png",
+            "options": [
+                "$R_A = \\sqrt{1249}\\text{ N}, (M)_A = -40\\text{ N.m}$",
+                "$R_A = \\sqrt{1249}\\text{ N}, (M)_A = 40\\text{ N.m}$",
+                "$R_A = \\sqrt{1249}\\text{ N}, (M)_A = -230\\text{ N.m}$",
+                "$R_A = \\sqrt{1249}\\text{ N}, (M)_A = 230\\text{ N.m}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If the sum of all forces acting on a body is zero, it may be concluded that the body",
+            "options": [
+                "Must be in equilibrium",
+                "Cannot be in equilibrium",
+                "May be in equilibrium provided the forces are concurrent",
+                "May be in equilibrium provided the forces are parallel"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A ladder $PQ$ of weight $W$ is resting on a rough floor against a rough wall. It is on the point of slipping and the contact forces exerted on the ladder by the wall and floor are $X$ and $Y$ respectively. Which diagram most closely shows the directions of these forces?",
+            "options": [
+                "A <img src='exams/mechanics/toc/images/2019_q4_a.png' alt='Graph A'/>",
+                "B <img src='exams/mechanics/toc/images/2019_q4_b.png' alt='Graph B'/>",
+                "C <img src='exams/mechanics/toc/images/2019_q4_c.png' alt='Graph C'/>",
+                "D <img src='exams/mechanics/toc/images/2019_q4_d.png' alt='Graph D'/>"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The force $F=400\\text{ N}$ acts at the end of the angle bracket shown in the figure below. Determine the magnitude of the moment of the force about point $O$.",
+            "image": "exams/mechanics/toc/images/2019_q5.png",
+            "options": [
+                "$98.6\\text{ N.m}$",
+                "$178.6\\text{ N.m}$",
+                "$154.9\\text{ N.m}$",
+                "$112.5\\text{ N.m}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A wrench is used to tighten a bolt. A force of $60\\text{ N}$ is applied in a clockwise direction at $80^\\circ$ to the handle, $20\\text{ cm}$ from the centre of the bolt. Calculate the magnitude of the torque.",
+            "image": "exams/mechanics/toc/images/2019_q6.png",
+            "options": [
+                "$1.18\\text{ N.m}$",
+                "$1200\\text{ N.m}$",
+                "$2.08\\text{ N.m}$",
+                "$11.8\\text{ N.m}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Determine the moment produced by the force $\\vec{F}$ in the given figure about point $O$. Express the result as a Cartesian vector.",
+            "image": "exams/mechanics/toc/images/2019_q7.png",
+            "options": [
+                "$3\\hat{i} + 2\\hat{j} - \\hat{k}$",
+                "$-4\\hat{i} + 2\\hat{j}$",
+                "$2\\hat{i} - 4\\hat{k}$",
+                "$\\hat{i} + 2\\hat{j} - 2\\hat{k}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Find two like parallel forces acting at a distance of $24\\text{ cm}$ apart, which are equivalent to a given force of $20\\text{ N}$, the line of action of one being at a distance of $6\\text{ cm}$ from the given force.",
+            "options": [
+                "$10\\text{N}, 10\\text{N}$",
+                "$12\\text{N}, 8\\text{N}$",
+                "$15\\text{N}, 5\\text{N}$",
+                "$25\\text{N}, 5\\text{N}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A rod, $60\\text{ cm}$ long, supported by two vertical strings attached to its ends has weights of $4, 6, 8$ and $10\\text{ N}$ hung from the rod at distances of $12, 24, 36$ and $48\\text{ cm}$ from one end. If the weight of the rod be $2\\text{ N}$, what are the tensions of the strings?",
+            "image": "exams/mechanics/toc/images/2019_q9.png",
+            "options": [
+                "$T_1=17, T_2=13$",
+                "$T_1=13, T_2=17$",
+                "$T_1=T_2=15$",
+                "$T_1=10, T_2=20$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A door (seen from above in the figures below) has hinges on the left hand side. Which force produces the largest torque? The magnitudes of all forces are equal.",
+            "options": [
+                "A <img src='exams/mechanics/toc/images/2019_q10_a.png' alt='Graph A'/>",
+                "B <img src='exams/mechanics/toc/images/2019_q10_b.png' alt='Graph B'/>",
+                "C <img src='exams/mechanics/toc/images/2019_q10_c.png' alt='Graph C'/>",
+                "D <img src='exams/mechanics/toc/images/2019_q10_d.png' alt='Graph D'/>"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A rod on a horizontal tabletop is pivoted at one end and is free to rotate without friction about a vertical axis, as shown. A force $F$ is applied at the other end, at an angle to the rod. If $F$ were to be applied perpendicular to the rod, at what distance from the axis should it be applied in order to produce the same torque?",
+            "image": "exams/mechanics/toc/images/2019_q11.png",
+            "options": [
+                "$L \\sin \\theta$",
+                "$L \\cos \\theta$",
+                "$L \\tan \\theta$",
+                "$L$"
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "AB is a light rod of length $24\\text{ cm}$, parallel forces of magnitudes $7, F, 5$ Newton act on $AB$ as shown.",
+            "image": "exams/mechanics/toc/images/2019_q12.png"
+        },
+        {
+            "q": "Find $F$ and $AC$ if the system of forces are in equilibrium.",
+            "options": [
+                "$12\\text{N}, 10\\text{cm}$",
+                "$12\\text{N}, 12\\text{cm}$",
+                "$12\\text{N}, 13\\text{cm}$",
+                "$12\\text{N}, 14\\text{cm}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Find $F$ and $AC$ if the system of forces equivalent to a couple of algebraic measure &nbsp; &-36 N.cm&",
+            "options": [
+                "$12\\text{N}, 10\\text{cm}$",
+                "$12\\text{N}, 12\\text{cm}$",
+                "$12\\text{N}, 13\\text{cm}$",
+                "$12\\text{N}, 14\\text{cm}$"
+            ],
+            "correct": 2
+        },
+        {
+            "endPassage": true
+        },
+        {
+            "q": "Two children are playing with a door. Hend tries to open it by pulling on the handle with a force of $54\\text{ N}$ at right angles to the plane of the door, at a distance $0.8\\text{ m}$ from the hinges. Adel pushes at a point $0.6\\text{ m}$ from the hinges, also at right angles to the door and with sufficient force just to stop Hend opening it. With what force does Adel push?",
+            "image":"exams/mechanics/toc/images/2019_q13.png",
+            "options": [
+                "$50\\text{N}$",
+                "$72\\text{N}$",
+                "$40.5\\text{N}$",
+                "$60\\text{N}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A couple of $17k$ Newton-meters acts as shown on a weightless bar. Find the weight $W$ which will be held in equilibrium.",
+            "image": "exams/mechanics/toc/images/2019_q14.png",
+            "options": [
+                "$68\\text{ kg.wt}$",
+                "$9.93\\text{ N}$",
+                "$9.93\\text{ kg.wt}$",
+                "$0.68\\text{ N}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The diagram shows three children pushing a playground roundabout. Hannah and David want it to go one way but Rabina wants it to go the other way. Who wins?",
+            "image": "exams/mechanics/toc/images/2019_q15.png",
+            "options": [
+                "Hannah and David win and the playground roundabout rotate anticlockwise with moment $4.8$",
+                "Hannah and David win and the playground roundabout rotate clockwise with moment $4.8$",
+                "Rabina wins and the playground roundabout rotate anticlockwise with moment $4.8$",
+                "Rabina wins and the playground roundabout rotate clockwise with moment $4.8$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A particle of mass $3\\text{ kg}$ moves with velocity $\\vec{v}=3\\hat{i}\\text{ m/s}$ along the line $z=0, y=5.3\\text{ m}$. Find the angular momentum $\\vec{L}$ about the origin when the particle is at $x=12\\text{ m}, y=5.3\\text{ m}$.",
+            "options": [
+                "$47.7\\hat{k}$",
+                "$-47.7\\hat{k}$",
+                "$155.7\\hat{k}$",
+                "$-155.7\\hat{k}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A test car moves at a constant speed around a circular track. If the car is $48.2\\text{ m}$ from the track's center and has a centripetal acceleration of $8.05\\text{ m/s}^2$, what is the car's tangential speed?",
+            "options": [
+                "$2.84\\text{ m/s}$",
+                "$6.94\\text{ m/s}$",
+                "$2.45\\text{ m/s}$",
+                "$19.7\\text{ m/s}$"
+            ],
+            "correct": 3
+        },
+        {
+            "passage": "The Questions from ( 19 ) to ( 21 ) are dependent on the following graph answer choices. The figure shows five graphs of angular velocity as a function of time $ω(t)$",
+            "image": "exams/mechanics/toc/images/2019_q18.png"
+        },
+        {
+            "q": "Which graph has the greatest angular displacement?",
+            "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which graph has the greatest average angular acceleration?",
+            "options": [
+                "A",
+                "B",
+                "Both C and D",
+                "Both C and E"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which graph has the smallest average angular velocity?",
+            "options": [
+                "A",
+                "B",
+                "Both D and E",
+                "Both C and E"
+            ],
+            "correct": 2
+        },
+        {
+            "endPassage": true
+        },
+        {
+            "q": "A basketball is being pushed by two players during tip-off. One player exerts an upward force of $15\\text{ N}$ at a perpendicular distance of $14\\text{ cm}$ from the axis of rotation. The second player applies a downward force of $11\\text{ N}$ at a perpendicular distance of $7\\text{ cm}$ from the axis of rotation. Find the net torque acting on the ball about its center of mass.",
+            "options": [
+                "$-0.77\\text{ N-m}$",
+                "$-1.33\\text{ N-m}$",
+                "$-2.1\\text{ N-m}$",
+                "$2.87\\text{ N-m}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A wheel of radius $R$ and negligible mass is mounted on a horizontal frictionless axle so that the wheel is in a vertical plane. Three small objects having masses $m, M,$ and $2M$, respectively, are mounted on the rim of the wheel, as shown. If the system is in static equilibrium, what is the value of $m$ in terms of $M$?",
+            "image": "exams/mechanics/toc/images/2019_q22.png",
+            "options": [
+                "$\\frac{1}{2} M$",
+                "$M$",
+                "$\\frac{3}{2} M$",
+                "$2 M$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "An object $m$, on the end of a string, moves in a circle on a horizontal frictionless table as shown. As the string is pulled very slowly through a small hole in the table, which of the following is correct for an observer measuring from the hole in the table?",
+            "image": "exams/mechanics/toc/images/2019_q23.png",
+            "options": [
+                "The angular momentum of $m$ remains constant.",
+                "The angular momentum of $m$ decreases.",
+                "The kinetic energy of $m$ remains constant",
+                "The kinetic energy of $m$ decreases"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "On a frozen pond, a person kicks a $10\\text{ kg}$ sled, giving it an initial speed of $2.2\\text{ m/s}$. How far does the sled move if the coefficient of kinetic friction between the sled and the ice is $0.1$?",
+            "options": [
+                "$1.12\\text{ m}$",
+                "$2.24\\text{ m}$",
+                "$2.47\\text{ m}$",
+                "$4.94\\text{ m}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If $F = 5s + 6$, $m = 1\\text{ kg}$ and the body initially at rest at a point $O$, Find $v$ when $s = 4\\text{ m}$.",
+            "options": [
+                "$32\\text{ m/s}$",
+                "$128\\text{ m/s}$",
+                "$4\\sqrt{2}\\text{ m/s}$",
+                "$8\\sqrt{2}\\text{ m/s}$"
+            ],
+            "correct": 3
+        }
+    ]
+}
