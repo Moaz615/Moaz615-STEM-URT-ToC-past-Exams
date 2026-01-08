@@ -1,0 +1,292 @@
+{
+    "questions": [
+        {
+            "q": "A body travels along the x and y axes governed by the following equations $x=at^{3}$ $y=bt^{3}$. What is the velocity of the body at time t?",
+            "options": [
+                "$3t^{2}\\sqrt{a^{2}+b^{2}}$",
+                "$t^{2}\\sqrt{a^{2}+b^{2}}$",
+                "$3t\\sqrt{a^{2}+b^{2}}$",
+                "$t\\sqrt{a^{2}+b^{2}}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If the retardation force is directly proportional to the displacement, then the rate of loss of kinetic energy is proportional to...",
+            "options": [
+                "log x",
+                "x",
+                "$x^{2}$",
+                "$e^{x}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which of the following factors does not affect the center of mass of a system of point masses?",
+            "options": [
+                "The mass of the points",
+                "The relative distance",
+                "The forces affecting the points",
+                "The distances of the points from the origin"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A point mass travels along the curve $y=x^{3}$ The force acting on this point mass is given by $\\vec{F}=xy\\ i+y\\ j$. Find the work done by the force from $x=0$ to $x=1$.",
+            "options": [
+                "$\\frac{1}{7}$",
+                "$\\frac{2}{7}$",
+                "$\\frac{7}{10}$",
+                "$\\frac{10}{7}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The moment of a force about a point is numerically $=\\lambda\\Delta$ &nbsp; (the area of the triangle formed by the line representing the force and by joining the ends of this line to the point). Then &nbsp; $\\lambda$ &nbsp; equals...",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "For the following diagram, find the total moment of all the forces about the point O as well as the resultant force R.",
+            "image": "exams/mechanics/toc/images/2025_q6.png",
+            "options": [
+                "$R=8.58\\ kN, M_{O}=2.46\\ kN\\ m$",
+                "$R=8.85\\ kN, M_{O}=2.01\\ kN\\ m$",
+                "$R=8.58\\ kN, M_{O}=-2.46\\ kN\\ m$",
+                "$R=8.85\\ kN, M_{O}=-2.01\\ kN\\ m$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "For the following diagram find the total moment of all the forces about the point O as well as the resultant force R.",
+            "image": "exams/mechanics/toc/images/2025_q7.png",
+            "options": [
+                "$R=461, M_{O}=37.5$",
+                "$R=416, M_{O}=73.5$",
+                "$R=461, M_{O}=137.5$",
+                "$R=416, M_{O}=317.5$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which of the following statements is correct regarding a couple moment?",
+            "options": [
+                "A couple moment depends on the axis of rotation.",
+                "A couple moment depends on the line of action of the forces.",
+                "A couple moment depends on the normal distance between the forces.",
+                "A couple moment is measured by the sum of the force magnitudes only."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In the following diagram a ball weighing 5 kN rests on the side of a slab as illustrated. Find the minimum force P required to pull the ball just above the slab, find the reaction of the slab as well R.",
+            "image": "exams/mechanics/toc/images/2025_q9.png",
+            "options": [
+                "$P=4.33, R=2.5$",
+                "$P=4.22, R=2.5$",
+                "$P=4.33, R=5.2$",
+                "$P=4.22, R=5.2$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "For a point to be in equilibrium, which of the following is correct?",
+            "options": [
+                "The sum of all forces is equal to zero.",
+                "The sum of all torques (moments) is equal to zero.",
+                "Only one of (a) and (b) must be satisfied.",
+                "Both of (a) and (b) must be satisfied."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Find the total resultant force of the following force system.",
+            "image": "exams/mechanics/toc/images/2025_q12.png",
+            "options": [
+                "9.86 kN",
+                "7.46 kN",
+                "11.46 kN",
+                "12.46 kN"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The angular displacement of a point mass traveling along a uniform circular path is described by $\\theta=2e^{0.75t}+2t^{3}-6$. Find the angular velocity of that point mass at $t=2$.",
+            "options": [
+                "18.7225",
+                "18.2275",
+                "18.7252",
+                "18.7522"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "In the diagram, a no-slip pulley has a cord wrapped around it. One end of the cord is attached to a hanging mass m, and the other end is connected to a spring with stiffness constant k. If the system is in equilibrium, what is the elongation of the spring?",
+            "image": "exams/mechanics/toc/images/2025_q15.png",
+            "options": [
+                "$\\frac{k}{mg}$",
+                "$\\frac{2k}{mg}$",
+                "$\\frac{mg}{k}$",
+                "$\\frac{mg}{2k}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A point mass travels along a uniform circular path. The angular displacement of the point mass is given by the following equation $\\theta=3t^{2}-2t^{3}+18t-2$. Find the initial acceleration of the particle and the maximum attainable angular velocity w of the particle.",
+            "options": [
+                "5, 19.5",
+                "6, 19.5",
+                "5, 15.9",
+                "6, 15.9"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A flywheel accelerates with uniform angular acceleration and travels 100 rad in the first 5 seconds, it travels with constant angular velocity in the next 5 seconds and travels 80 rad. What is the initial angular velocity and the angular acceleration?",
+            "options": [
+                "24, -1.6",
+                "24, 1.6",
+                "26, -1.6",
+                "26, 1.6"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A light inextensible string is wrapped around a flywheel (disk) of radius r, and a small bob is attached to the free end. The system starts from rest and the bob is released, falling a vertical distance h. Assuming no slipping and no energy loss, what is the angular velocity w of the disk when the bob has descended the distance h? (Answer using g, h, and r)",
+            "options": [
+                "$\\sqrt{\\frac{2gh}{r}}$",
+                "$\\sqrt{\\frac{gh}{r}}$",
+                "$\\frac{1}{r}\\sqrt{\\frac{2gh}{3}}$",
+                "$\\frac{1}{r}\\sqrt{\\frac{4gh}{3}}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "An object starts rotating from rest with a constant angular acceleration $\\alpha=5\\ rad/s^{2}$, and has a moment of inertia $I=4\\ kg\\cdot m^{2}$. After how many seconds will the rotational kinetic energy reach 800 J?",
+            "options": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "For the following system, find the resultant force if the tension in the cord is 725 newtons.",
+            "image": "exams/mechanics/toc/images/2025_q21.png",
+            "options": [
+                "224.1",
+                "225.9",
+                "327.8",
+                "328.7"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Two flywheels have angular velocities in the ratio 4:3, and both possess the same rotational kinetic energy. What is the ratio of their moments of inertia?",
+            "options": [
+                "3: 4",
+                "9: 16",
+                "16: 9",
+                "4: 3"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A flywheel with initial angular velocity $\\omega_{0}=60\\ rad/s$ and moment of inertia $I=2\\ kg\\cdot m^{2}$ undergoes uniform angular deceleration and comes to rest in 5 minutes. What is its angular momentum after 3 minutes?",
+            "options": [
+                "24",
+                "48",
+                "72",
+                "96"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "In the following diagram find the magnitude of the reaction force at B.",
+            "image": "exams/mechanics/toc/images/2025_q24.png",
+            "options": [
+                "722.3 N",
+                "721.3 N",
+                "433.5 N",
+                "431.5 N"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Two circles of radii $r_{1}$ and $r_{2}$ are pivoted on the same axis. Masses $m_{1}$ and $m_{2}$ are attached at radii $r_{1}$ and $r_{2}$ respectively. What is the condition for equilibrium?",
+            "image": "exams/mechanics/toc/images/2025_q25.png",
+            "options": [
+                "$m_{1}r_{1}=m_{2}r_{2}$",
+                "$m_{1}r_{1}^{2}=m_{2}r_{2}^{2}$",
+                "$m_{1}r_{2}=m_{2}r_{1}$",
+                "$2m_{1}r_{2}=m_{2}r_{2}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A set of forces of 1 N, 2 N, 3 N, 4 N, 5 N, 6 N, are rotating in the same order, forming a hexagon. What is the magnitude of the resultant force?",
+            "options": [
+                "0",
+                "6",
+                "12",
+                "18"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "For a purely roll disk (no slip) of linear velocity v the total energy of the disk is given by ... $mv^{2}$",
+            "options": [
+                "$\\frac{1}{4}$",
+                "$\\frac{1}{2}$",
+                "$\\frac{3}{4}$",
+                "1"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A constant tangential force equal to the weight of the disc, $F=mg$, is applied at the rim of a uniform disc of mass m and radius r, initially at rest. Determine the angular velocity w of the disc after a time t, expressed only in terms of g, r, and t.",
+            "options": [
+                "$\\frac{gt}{r}$",
+                "$\\frac{2gt}{r}$",
+                "$\\frac{4gt}{r}$",
+                "$\\frac{gt}{2r}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A particle revolves around a circle with a uniform angular velocity of 3 rad/sec. What is the angular displacement of the particle after 6 sec in degrees?",
+            "options": [
+                "1301",
+                "1031",
+                "360",
+                "994"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A rod of length $l$, density $\\rho$, and cross-sectional area $S$ rotates about its axis perpendicular to the length and passing through its center. If the total kinetic energy of rotation $=... Sl^{3}\\rho\\omega^{2}$ what is the factor that should be in the dots?",
+            "options": [
+                "$\\frac{1}{6}$",
+                "$\\frac{1}{12}$",
+                "$\\frac{1}{18}$",
+                "$\\frac{1}{24}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A motorcyclist launches off the edge of a road elevated 1m above ground at 30 degrees above horizontal. Total time to impact is 1.5s. Determine horizontal distance (range) and initial speed $v_{a}$.",
+            "options": [
+                "17.4, 13.4",
+                "14.7, 12.4",
+                "17.4, 11.4",
+                "17.4, 10.4"
+            ],
+            "correct": 0
+        }
+    ]
+}
