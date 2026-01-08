@@ -29,7 +29,3 @@ A simple web app for practicing URT and ToC past papers for Physics, Chemistry, 
 - **Progress tracking** - See your best scores and attempt history
 - **Responsive design** - Works on desktop and mobile
 - **Local storage** - Your progress is saved locally
-
-## Tech stuff
-
-Built with plain HTML, CSS, and JavaScript. No frameworks needed - just simple, clean code that gets the job done.
