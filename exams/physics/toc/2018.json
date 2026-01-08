@@ -1,0 +1,380 @@
+{
+    "questions": [
+        {
+            "q": "By using prefixes, we can write $335 \\times 10^{-8}$ s as:",
+            "options": [
+                "0.335 μs",
+                "3.35 μs",
+                "33.5 μs",
+                "335 μs"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A truck is travelling at 10 m/s. A package drops off the truck. Neglecting air resistance, as the package hits the ground, its horizontal speed is",
+            "options": [
+                "0 m/s",
+                "10 m/s",
+                "Less than 10 m/s",
+                "Greater than 10 m/s"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A heavy rock and a light rock in free fall (zero air resistance) have the same acceleration. The reason the heavy rock doesn't have a greater acceleration is that",
+            "options": [
+                "Force due to gravity is the same on each.",
+                "Air resistance is always zero in free fall.",
+                "Inertia of both rocks is the same.",
+                "Ratio of force to mass is the same."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The given graph represents the relation between the acceleration (a) of four moving objects A, B, C, and D and the resultant force (F) acting on them. Which object is of the greatest mass?",
+            "image": "exams/physics/toc/images/2018_q4.png",
+            "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Fish are hung on a spring scale to determine their mass. What is the mass of the fish that stretches the spring 5.50 cm if the spring constant is $1.2 \\times 10^3$ N/m?",
+            "options": [
+                "66 kg",
+                "22.3 kg",
+                "6.7 kg",
+                "4.5 kg"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Spring 1 and 2 have spring constants $k_1 = 60$ N/m and $k_2 = 30$ N/m respectively are attached in series. The system is equivalent to a single spring, of spring constant k that equals",
+            "image": "exams/physics/toc/images/2018_q6.png",
+            "options": [
+                "20 N/m",
+                "30 N/m",
+                "90 N/m",
+                "180 N/m"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A person wants to take a bath and fills the tub with 50.0 L of water at a temperature of 38.0°C. After receiving a phone call from his friend, the bath water had cooled by 10.0°C. How much more hot water at 80.0°C must that person add to return the bath to the desired temperature?",
+            "options": [
+                "5 L",
+                "6.25 L",
+                "9.6 L",
+                "11.9 L"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A given mass of gas is enclosed in a gas cylinder so that its volume maintained constant. As the temperature of the gas is raised, what property of the gas shows no change?",
+            "options": [
+                "Density of gas",
+                "Pressure of gas",
+                "Average molecular energy",
+                "Mean square velocity of molecules"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "An AC voltage source is connected to a 'black box' which contains a circuit of unknown elements, as shown in Figure. Measurements outside the black box provide the following information: $V(t) = (80 V) \\sin(\\omega t)$ and $I(t) = (1.6 A) \\sin(\\omega t + 45^{\\circ})$. The unknown components inside the black box could be",
+            "image": "exams/physics/toc/images/2018_q9.png",
+            "options": [
+                "A capacitor only",
+                "A capacitor and a resistor",
+                "A resistor and an inductor",
+                "An inductor, a resistor and a capacitor at resonance"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "If you like to allow signals of frequency range from a certain cut-off frequency $f_0$ (about 100 kHz) and higher to infinity to pass through while blocking any lower frequencies, you may use a ......",
+            "options": [
+                "Low Pass Filter",
+                "High Pass Filter",
+                "Band Pass Filter",
+                "Band Stop Filter"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "At the center of which of the following four circular rings the magnetic field is the strongest, given that $X=2Y$?",
+            "options": [
+                "A <img src='exams/physics/toc/images/2018_q11_a.png' alt='Graph A'/>",
+                "B <img src='exams/physics/toc/images/2018_q11_b.png' alt='Graph B'/>",
+                "C <img src='exams/physics/toc/images/2018_q11_c.png' alt='Graph C'/>",
+                "D <img src='exams/physics/toc/images/2018_q11_d.png' alt='Graph D'/>"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "An electron and a proton are moving at the same speed (v) perpendicular to a magnetic field of strength (B). What most likely to happen is that",
+            "options": [
+                "They speed up, but the electron would be faster.",
+                "The magnetic force acting on the proton would be greater.",
+                "They move in circular paths, but the radius of the electron path would be greater.",
+                "They move in circular paths, but the radius of the electron path would be smaller."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The currents in two parallel wires are (I) and (3I) in the directions shown in the given diagram. The magnetic force on wire (2) due to the current in wire (1) is (F). The magnitude of the force on wire (1) due to the current in wire (2) is ....",
+            "image": "exams/physics/toc/images/2018_q13.png",
+            "options": [
+                "F",
+                "3F",
+                "6F",
+                "9F"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "In an ideal step up transformer, what electric quantity is higher in the secondary windings than that in the primary windings?",
+            "options": [
+                "Current",
+                "Voltage",
+                "Power",
+                "Frequency"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "An aluminum ring hangs vertically from a thread with its axis pointing East-West and is free to swing about point O. A coil is fixed near the ring and coaxial with it. With the switch closed, the rheostat R is adjusted to increase the current to a maximum before decreasing it again. What will the motion of the aluminum ring be during this time?",
+            "image": "exams/physics/toc/images/2018_q15.png",
+            "options": [
+                "Swing in the direction of E and remains there.",
+                "Swing in the direction of W and remains there.",
+                "Swing in the direction of E then in the direction of W.",
+                "Swing in the direction of W then in the direction of E."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "When a pentavalent impurity is added to a pure crystal of semiconductor, it becomes",
+            "options": [
+                "An electrically neutral crystal of p-type semiconductor.",
+                "A negatively charged crystal of n-type semiconductor.",
+                "A positively charged crystal of p-type semiconductor.",
+                "An electrically neutral crystal of n-type semiconductor."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which graph below shows the current-voltage characteristic curve of a pn junction diode?",
+            "options": [
+                "A <img src='exams/physics/toc/images/2018_q17_a.png' alt='Graph A'/>",
+                "B <img src='exams/physics/toc/images/2018_q17_b.png' alt='Graph B'/>",
+                "C <img src='exams/physics/toc/images/2018_q17_c.png' alt='Graph C'/>",
+                "D <img src='exams/physics/toc/images/2018_q17_d.png' alt='Graph D'/>"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "In the transistor circuit shown in figure, the input X may be either 0V or +5V. The output is represented by Z. Which combination is correct?",
+            "image": "exams/physics/toc/images/2018_q18.png",
+            "options": [
+                "X=0V, Q1=Reversed, Z=0V",
+                "X=+5V, Q1=Forward, Z=0V",
+                "X=0V, Q1=Forward, Z=+5V",
+                "X=+5V, Q1=Forward, Z=+5V"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A ray of monochromatic light, initially travelling in a direction above the horizontal, enters a region of atmosphere in which the refractive index increases steadily with height. Which of the graphs represents the path of the ray?",
+            "options": [
+                "A <img src='exams/physics/toc/images/2018_q19_a.png' alt='Graph A'/>",
+                "B <img src='exams/physics/toc/images/2018_q19_b.png' alt='Graph B'/>",
+                "C <img src='exams/physics/toc/images/2018_q19_c.png' alt='Graph C'/>",
+                "D <img src='exams/physics/toc/images/2018_q19_d.png' alt='Graph D'/>"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A ray of light, traveling in water, is incident on its surface open to air. The angle of incidence is less than the critical angle. Then there will be",
+            "options": [
+                "only a reflected ray and no refracted ray",
+                "only a refracted ray and no reflected ray",
+                "a reflected ray and refracted ray and the angle between them would be less than $(\\pi - 2\\theta)$",
+                "a reflected ray and refracted ray and the angle between them would be greater than $(\\pi - 2\\theta)$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "For a prism immersed in water ($n=1.33$) as shown, the minimum index of refraction that will produce total reflection of the indicated ray is approximately",
+            "image": "exams/physics/toc/images/2018_q21.png",
+            "options": [
+                "1.28",
+                "1.50",
+                "1.65",
+                "1.88"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "In a compound microscope, the image formed by the objective lens is:",
+            "options": [
+                "Virtual, erect and magnified",
+                "Real, erect and magnified",
+                "Real, inverted and magnified",
+                "Virtual, erect and diminished"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "There is a simple pendulum hanging from the ceiling of a lift. When the lift is stand still, the time period of the pendulum is T. If the resultant acceleration becomes $g/4$, then the new time period of the pendulum is ....",
+            "options": [
+                "0.25 T",
+                "0.80 T",
+                "2.00 T",
+                "4.00 T"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A candle (Object) is placed at a fixed distance in front of a wall (Screen). A lens is moved between them. At two particular positions, two sharp images are formed. The heights of the images are 50 cm and 8 cm respectively. What is the height of the candle?",
+            "image": "exams/physics/toc/images/2018_q24.png",
+            "options": [
+                "16 cm",
+                "20 cm",
+                "32 cm",
+                "40 cm"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A transverse pulse travelling to the right is divided into two portions as hitting a boundary between two different media. From the figure, you can conclude that...",
+            "image": "exams/physics/toc/images/2018_q25.png",
+            "options": [
+                "The medium to the left is denser than the right.",
+                "The medium to the right is denser than the left.",
+                "The boundary acts as a fixed end.",
+                "The wavelength of the transmitted pulse is less than the reflected pulse."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Two wave sources operating in phase produce the circular wave patterns shown. Which point is at a position of maximum destructive interference?",
+            "image": "exams/physics/toc/images/2018_q26.png",
+            "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Two spaceships A and B are both travelling at 0.8 c in the same direction. Spaceship A shines a light beam towards B. What is the speed of the light beam according to the captain on B?",
+            "image": "exams/physics/toc/images/2018_q27.png",
+            "options": [
+                "0.2 c",
+                "0.8 c",
+                "1.0 c",
+                "1.8 c"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A double-slit interference of monochromatic green light was set up as shown. What change would increase the distance between adjacent fringes?",
+            "image": "exams/physics/toc/images/2018_q28.png",
+            "options": [
+                "Use monochromatic red light",
+                "Reduce the width of each slit",
+                "Use a double-slit where the slits are further apart",
+                "Move the double-slit closer to the screen"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "In communication, Sky Waves:",
+            "options": [
+                "cannot be 'heard' close to the transmitter.",
+                "are reflected off the ionosphere.",
+                "are same as space waves.",
+                "are radio waves used for satellite communication."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The given graph represents the electrical behavior of two metals Y and Z at very low temperatures. Which statement is correct?",
+            "image": "exams/physics/toc/images/2018_q30.png",
+            "options": [
+                "Metal (Y) is a superconductor while metal (Z) is not.",
+                "Metal (Z) is a superconductor while metal (Y) is not.",
+                "Both metals are superconductors.",
+                "Neither metal (Y) nor metal (Z) are superconductors."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "This time-domain plot shows an amplitude-modulated (AM) radio signal. The frequencies of the modulated signal and the carrier signal respectively equal:",
+            "image": "exams/physics/toc/images/2018_q31.png",
+            "options": [
+                "1 Hz and 100 Hz",
+                "10 Hz and 100 Hz",
+                "10 Hz and 1000 Hz",
+                "100 Hz and 1000 Hz"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "An object has radiation spectrum as shown. In which direction would the peak shift if the temperature is increased?",
+            "image": "exams/physics/toc/images/2018_q32.png",
+            "options": [
+                "←",
+                "↑",
+                "↘",
+                "↗"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The diagram shows a circuit involving a photoelectric cell. When UV light is shone onto the metal cathode, electrons are emitted establishing a photocurrent. Which of the following changes could cause the photocurrent to stop?",
+            "image": "exams/physics/toc/images/2018_q33.png",
+            "options": [
+                "Increasing the potential difference of the power supply.",
+                "Increasing the frequency of the UV light.",
+                "Increasing the intensity of the UV light.",
+                "Changing the metal surface to one with a smaller work function."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "According to the band theory, in an insulator ...",
+            "options": [
+                "The valence band is partially filled with electrons.",
+                "The valence band is completely filled with electrons.",
+                "A significant number of electrons are set into motion in the conduction band by an electric field.",
+                "Electrons gain kinetic energy from the electric field fill higher energy states in the conduction band."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "One of the reasons that makes the Atomic Force Microscope (AFM) widely used in Nano-technology compared to Scanning Tunneling Microscope (STM) is that ..........",
+            "options": [
+                "The (AFM) tip is kept at a short distance from the surface.",
+                "The (AFM) operates only in high vacuum.",
+                "The (AFM) is applicable to both conductors and insulators.",
+                "The (AFM) was the first to be developed."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "An object of rest mass of 1 kg is moving at 99.5% of the speed of light. What is the approximate value of its measured mass?",
+            "options": [
+                "0.1 kg",
+                "1 kg",
+                "5 kg",
+                "10 kg"
+            ],
+            "correct": 3
+        }
+    ]
+}
