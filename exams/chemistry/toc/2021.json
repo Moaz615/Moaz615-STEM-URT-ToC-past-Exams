@@ -1,0 +1,369 @@
+{
+    "questions": [
+        {
+            "q": "A 50.0 mL sample of 0.0023 M HCl is mixed with 50.0 mL of 0.0025 M KOH, then the pH value for the resulting mixture is:",
+            "options": [
+                "10.00",
+                "5.00",
+                "4.00",
+                "1.00"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "During a chemical reaction, bromate ions $BrO_{3}^{-}$ react to produce bromine gas. The balanced half equation has:",
+            "options": [
+                "5 electrons on the left",
+                "5 electrons on the right",
+                "10 electrons on the right",
+                "10 electrons on the left"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "When 100 g of $FeCl_{3}$ in its solution is added to 50.0 g of $H_{2}S(aq)$ to form $Fe_{2}S_{3}$ at the end of the reaction, the mass of the unreacted substance is... <br/> Molar masses: $Fe=56, S=32, H=1, Cl=35.5$",
+            "options": [
+                "18.6 g of $H_{2}S$",
+                "20.9 g of $H_{2}S$",
+                "59.3 g of $FeCl_{3}$",
+                "38.1 g of $FeCl_{3}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A gas has a density of $2.59 \\text{ kg m}^{-3}$ at STP. What is the most reasonable formula for this compound? <br/> (Molar masses: $C=12, H=1, Cl=35.5, Na=23$)",
+            "options": [
+                "$C_{2}H_{6}$",
+                "$C_{4}H_{8}$",
+                "$CCl_{4}$",
+                "$C_{3}H_{6}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "In the electrolytic cells used to extract the metals X and Y from their salt solutions the quantity of electricity used to precipitate one mole of $X^{2+}$ ions... the quantity of electricity used to precipitate one mole of $Y^{3+}$ ions.",
+            "options": [
+                "1.5 times",
+                "$\\frac{2}{3}$ times",
+                "$\\frac{3}{2}$ times",
+                "0.5 times"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "All of the following are isomers of ethyl butanoate except:",
+            "options": [
+                "propyl propanoate",
+                "2-ethyl butanoic acid",
+                "hexanoic acid",
+                "butyl propanoate"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Sulfur trioxide decomposes to form sulfur dioxide and molecular oxygen. What is the proper form for the equilibrium expression for the reaction that actually occurred?",
+            "options": [
+                "$K_p = (P_{O_2})(P_{SO_2})$",
+                "$K_p = \\frac{(P_{O_2})(P_{SO_2})^2}{(P_{SO_3})^2}$",
+                "$K_p = (P_{O_2})(P_{SO_2})^2$",
+                "$K_p = \\frac{(P_{SO_3})}{(P_{O_2})(P_{SO_2})}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "In the previous reaction (question no. 7) which of the following diagrams correctly represents the change that will occur when more sulfur dioxide is injected into the system at time $t$ after equilibrium is established?",
+            "options": [
+                "A <img src='exams/chemistry/toc/images/2021_q8_a.png' alt='Graph A'/>",
+                "B <img src='exams/chemistry/toc/images/2021_q8_b.png' alt='Graph B'/>",
+                "C <img src='exams/chemistry/toc/images/2021_q8_c.png' alt='Graph C'/>",
+                "D <img src='exams/chemistry/toc/images/2021_q8_d.png' alt='Graph D'/>"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Any monoatomic ion of the representative elements in its maximum oxidation state is always:",
+            "options": [
+                "Of smaller radius than its atom",
+                "Of higher electronegativity than its atom",
+                "Iso-electronic with noble gases",
+                "Of smaller ionization potential than its atom"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which of the following pairs of liquids are expected to be immiscible?",
+            "options": [
+                "$H_2O$ and $CH_3OH$",
+                "$C_6H_6$ and $C_5H_{12}$",
+                "$C_{10}H_{22}$ and $CH_3CH_2CH_2OH$",
+                "$CH_3CH_2NH_2$ and $CH_3CH_2CH_2OH$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The dimerization of $NO_2(g)$ to form $N_2O_4(g)$ is an exothermic process. According to the Le Châtelier principle, which one of the following factors increases the amount of $N_2O_4(g)$ in the reaction medium?",
+            "options": [
+                "A decrease in the temperature",
+                "Adding a selective catalyst",
+                "Increasing the volume of the reaction vessel",
+                "Adding an inert gas at constant container volume"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "When a solid melts, the expected entropy changes and the enthalpy changes are:",
+            "options": [
+                "Positive enthalpy change and positive entropy change",
+                "Negative enthalpy change and negative entropy change",
+                "Negative enthalpy change and positive entropy change",
+                "Positive enthalpy change and negative entropy change"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "When 0.1665 moles of hypochlorous acid (HClO) is dissolved in water to prepare 500 mL of its solution. If $k_a = 3.0 \\times 10^{-4}$ what is the pH value of the solution?",
+            "options": [
+                "1.00",
+                "1.76",
+                "2.00",
+                "5.40"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "X is a main transition element found in column 10 of the periodic table, it forms the compound $X_2O_3$. The number of electrons in the third principle energy level of this compound is:",
+            "options": [
+                "7",
+                "8",
+                "15",
+                "16"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which of the following diagrams correctly represents the balanced chemical reaction between methane gas $CH_4(g)$ and water vapor to produce water gas (mixture of carbon monoxide and hydrogen gas)?",
+            "options": [
+                "A <img src='exams/chemistry/toc/images/2021_q15_a.png' alt='Diagram A'/>",
+                "B <img src='exams/chemistry/toc/images/2021_q15_b.png' alt='Diagram B'/>",
+                "C <img src='exams/chemistry/toc/images/2021_q15_c.png' alt='Diagram C'/>",
+                "D <img src='exams/chemistry/toc/images/2021_q15_d.png' alt='Diagram D'/>"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The ionic equation which represents the reaction between calcium iodide and potassium phosphate includes all of the following except:",
+            "options": [
+                "$2PO_4^{3-}$",
+                "$6I^-$",
+                "$3Ca^{2+}$",
+                "$2Ca_3(PO_4)_2$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The atoms of the compound methyl hydrazine, $CH_6N_2$, are connected as follows (lone pairs not shown): <br/>Ignoring the slight deviation from the ideal values caused by the spatial demands of multiple bonds and non-bonding electron pairs, what do you predict for the ideal values of the C-N-N and the H-N-H angles respectively?",
+            "image": "exams/chemistry/toc/images/2021_q17.png",
+            "options": [
+                "$109.5^\\circ$ and $109.5^\\circ$",
+                "$109.5^\\circ$ and $120^\\circ$",
+                "$120^\\circ$ and $109.5^\\circ$",
+                "$120^\\circ$ and $120^\\circ$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Formaldehyde has the following Lewis structure: Which of the following statements about the molecule is/are true? <br/> i. Two of the electrons in the molecule are used to make the $\\pi$ bond in the molecule <br/> ii. Six of the electrons in the molecule are used to make the $\\sigma$ bonds in the molecule <br/> iii. The C-O bond length in formaldehyde should be shorter than that in methanol, $CH_3OH$ <br/> iv. The angle in the molecule $= 109.5^\\circ$",
+            "image": "exams/chemistry/toc/images/2021_q18.png",
+            "options": [
+                "i and iv only",
+                "i, ii, and iii only",
+                "i and iii only",
+                "ii, iii, and iv only"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Molten $Al_2O_3$ is electrolyzed for 2.0 hours with a current of 0.50 amperes. Metallic aluminum is produced at one electrode and oxygen gas, $O_2$, is produced at the other. How many liters of $O_2$ are produced at STP when the electrode efficiency is only 80%?",
+            "options": [
+                "0.50 L",
+                "0.30 L",
+                "0.29 L",
+                "0.17 L"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A 1.0 M solution of a weak acid is diluted to 0.01 M by changing the volume. What do you expect of values of the $[H^+]$, the degree of dissociation, and the number of $H^+$ ions respectively?",
+            "options": [
+                "$[H^+]$ Decreases, degree of dissociation Decreases, number of $H^+$ ions Increases",
+                "$[H^+]$ Increases, degree of dissociation Increases, number of $H^+$ ions Increases",
+                "$[H^+]$ Decreases, degree of dissociation Increases, number of $H^+$ ions Increases",
+                "$[H^+]$ Increases, degree of dissociation Decreases, number of $H^+$ ions Decreases"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "When we construct a cell where both two half cells contain the same components but at different concentrations (electrolytes of different molarities) Which of the following is correct? <br/> i. The two half-cell potentials will not be identical <br/> ii. The cell will not exhibit a positive voltage <br/> iii. Electrons flow to the half-cell of high concentration solution <br/> iv. The ions move to the half-cell of high concentration solution",
+            "options": [
+                "i and iii only",
+                "ii only",
+                "i and iv only",
+                "i only"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "At a certain temperature, a 2.00 L flask initially contained 1.6 moles of B(g) and 3.8 mole of A(g). After the system reached equilibrium, 0.5 moles of C(g) were found in the flask. Where A decomposes according to the equation: <center> $A(g) \\rightleftharpoons B(g) + C(g)$ </center> The value of the equilibrium constant $k_c$ will be:",
+            "options": [
+                "$0.8 \\times 10^{-2}$",
+                "$14.0 \\times 10^{-2}$",
+                "$16.0 \\times 10^{-2}$",
+                "$12.0 \\times 10^{-2}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Identify X, Y and Z in the following sequence of reactions: <br/> $Propane \\xrightarrow{Cr_2O_3, 500^\\circ C} X \\xrightarrow{\\text{catalytic hydration}} Y \\xrightarrow{Oxidation} Z$",
+            "options": [
+                "propene, 2-propanol, propanal",
+                "propene, 1-propanol, propanoic acid",
+                "propene, 2-propanol, propanone",
+                "propene, 1-propanol, propanal"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The combination of the simplest member of phenols with the first member of aliphatic acids gives:",
+            "options": [
+                "An isomer of benzoic acid",
+                "Phenyl acetate",
+                "methyl benzoate",
+                "Phenyl ethanoate"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The reaction between nitrate ions and ferrous ions in an acidic aqueous solution is given by the following equation: <center> $2NaNO_3(aq) + 6FeSO_4(aq) + 4H_2SO_4(aq) \\longrightarrow$ <br>$3Fe_2(SO_4)_3(aq) + Na_2SO_4(aq) + 4H_2O(l) + 2NO(g)$ </center> Using the provided experimental data, identify the orders for all three reactants, the overall reaction order, and the rate constant.",
+            "image": "exams/chemistry/toc/images/2021_q25.png",
+            "options": [
+                "1, 1, 2; Overall: 4; $k = 3.5 \\times 10^{-3}$",
+                "1, 2, 1; Overall: 4; $k = 3.5 \\times 10^{-3}$",
+                "2, 2, 1; Overall: 5; $k = 4.4 \\times 10^{-3}$",
+                "2, 1, 1; Overall: 4; $k = 3.5 \\times 10^{-3}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "What is the smallest possible integer coefficient of $H^+$ in the following chemical equation when it is balanced? <center> $H^+(aq) + Cr_2O_7^{2-}(aq) + C_2H_5OH(l) \\longrightarrow Cr^{3+}(aq) + CO_2(g) + H_2O(l)$ </center>",
+            "options": [
+                "8",
+                "10",
+                "12",
+                "16"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "How many possible structural isomers have the formula: $C_5H_{12}O$?",
+            "options": [
+                "8",
+                "9",
+                "10",
+                "12"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The dry distillation of sodium propanoate then the chlorination of the product using 2 moles of chlorine gives:",
+            "options": [
+                "2,2-dichloroethane and hydrogen chloride",
+                "Tetrachloroethane and hydrogen chloride",
+                "1,2-dichloroethane and hydrogen chloride",
+                "1,1-dichloroethane and hydrogen chloride"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A solution of hydrogen peroxide is 10.0% by mass. What is the molarity of the solution? Assume that the solution has a density of 1.01 g/mL (Molar masses: H=1, O=16)",
+            "options": [
+                "2.90 M",
+                "3.72 M",
+                "5.00 M",
+                "6.02 M"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The formula for the conjugate acid of each of the following, respectively, is: $HSO_3^-, F^-, PO_4^{3-}, CO$",
+            "options": [
+                "$H_2SO_3, HF, HPO_4^{2-}, HCO^+$",
+                "$HSO_3^{2-}, HF^-, HPO_4^{3-}, HCO$",
+                "$HSO_3, HF, HPO_4^-, HCO^-$",
+                "$H_2SO_3^-, F^-, HPO_4^{2-}, CO$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which of the following titrations will have the end point at a pOH of less than 7?",
+            "options": [
+                "HCl and $NH_3$",
+                "$CH_3COOH$ and $NH_3$",
+                "HCl and NaOH",
+                "$CH_3COOH$ and NaOH"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "To differentiate between 2-methyl-2-pentanol and 2-methyl-3-pentanol which one of the following processes will be used?",
+            "options": [
+                "Alkaline hydrolysis",
+                "Oxidation",
+                "Halogenation",
+                "Acidic hydrolysis"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "To have cis and trans isomers, the compound must have:",
+            "options": [
+                "sp bonded carbon atoms",
+                "$sp^3$ bonded carbon atoms",
+                "$sp^2$ bonded carbon atoms",
+                "sp or $sp^3$ bonded carbon atoms"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "$CH_3COOH(aq) + H_2O(l) \\rightleftharpoons H_3O^+(aq) + CH_3COO^-(aq)$ <br/> What will happen in adding drops of diluted hydrochloric acid to the solution at equilibrium?",
+            "options": [
+                "The concentration of acetate anions decreases and the reaction shifts forwards",
+                "The concentration of acetate anions decreases and the reaction shifts backwards",
+                "The concentration of hydronium cations increases and the reaction shifts forwards",
+                "The concentration of hydronium cations increases and the ionization of the acid increases"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which hydrogen atom will be ionized when butanoic acid dissolves in water and why?",
+            "image": "exams/chemistry/toc/images/2021_q35.png",
+            "options": [
+                "Hydrogen #1 because it is at the end of the formula",
+                "Hydrogen #2 because carbon is less electronegative than oxygen",
+                "Hydrogen #1 because of the polarity of the O-H bond",
+                "Hydrogen #2 because the C-H bond is very weak"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "What is the molecular formula, the number of $\\sigma$ bonds, and the number of $\\pi$ bonds in the following compound?",
+            "image": "exams/chemistry/toc/images/2021_q36.png",
+            "options": [
+                "$C_{12}H_{10}$, 16 $\\sigma$, 7 $\\pi$",
+                "$C_{14}H_{10}$, 26 $\\sigma$, 7 $\\pi$",
+                "$C_{14}H_{14}$, 30 $\\sigma$, 8 $\\pi$",
+                "$C_{14}H_{10}$, 16 $\\sigma$, 7 $\\pi$"
+            ],
+            "correct": 1
+        }
+    ]
+}
