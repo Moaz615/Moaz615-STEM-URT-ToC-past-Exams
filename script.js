@@ -283,10 +283,12 @@ function startTimer() {
 }
 
 function getExamDuration() {
-    const baseDurations = {
-        'urt': 120,
-        'toc': 90
-    };
+    const isURT = session.type === 'urt';
+    const isScience = session.subject === 'chemistry' || session.subject === 'physics';
+    if (isURT && isScience){
+        return 60;
+    }
+    const baseDurations = { 'urt': 120, 'toc': 90 };
     return baseDurations[session.type] || 120;
 }
 
