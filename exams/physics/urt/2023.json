@@ -1,0 +1,276 @@
+{
+    "questions": [
+        {
+            "passage": "<div style='text-align: center'><h2>PASSAGE I</h2></div>When an object is thrown into the air, it is only subject to the effect of gravity. When it goes up and down, air resistance has little effect. The distance traveled horizontally from the launch site to the landing site is known as the range. The range of an angular launch projectile depends on the launch velocity and the launch angle (the angle between the launch direction and the horizontal). Figure (1) shows the effect of the firing angle on the range of a projectile at a firing speed of 40.0 m/s and five different firing angles.<br><div style='text-align: center'><b>Figure (1)</b><br>Trajectory Plot for Angled-Launched Projectiles</div>{{img0}}<br>A projectile is often thought of as having two independent and simultaneous motions - a motion in the horizontal direction and a motion in the vertical direction. Gravity, being a vertical force, affects only the vertical motion. When launched, a projectile acquires a distinctly different horizontal and vertical speed; the actual values depend on the launch angle. During its flight through the air, the horizontal speed of the projectile remains constant, the vertical speed changes due to gravity. The horizontal distance depends on two factors: the horizontal speed ($v_{ox}$) and the time the projectile has been in the air. The horizontal distance is the product of these two quantities. The height of the projectile depends on the original vertical speed ($v_{oy}$) and the time that the projectile has been in the air. Table (1) summarizes several mathematical quantities for a projectile launched with an original speed of 40.0 m/s.<br><div style='text-align: center'><u><b>Table (1)</b></u><br>Mathematical Parameters for a 40.0 m/s Launch Speed at Various Angles</div><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th>Angle (&deg;)</th><th>$v_{ox}$ (m/s)</th><th>$v_{oy}$ (m/s)</th><th>$t_{\\text{peak}}$ (s)</th><th>Max. Height (m)</th><th>$t_{\\text{total}}$ (s)</th><th>Range (m)</th></tr><tr><td>15</td><td>38.6</td><td>10.4</td><td>1.06</td><td>5.5</td><td>2.11</td><td>82</td></tr><tr><td>30</td><td>34.6</td><td>20.0</td><td>2.04</td><td>20.4</td><td>4.08</td><td>141</td></tr><tr><td>40</td><td>30.6</td><td>25.7</td><td>2.62</td><td>33.7</td><td>5.25</td><td>161</td></tr><tr><td>45</td><td>28.3</td><td>28.3</td><td>2.89</td><td>40.8</td><td>5.77</td><td>163</td></tr><tr><td>50</td><td>25.7</td><td>30.6</td><td>3.13</td><td>47.9</td><td>6.25</td><td>161</td></tr><tr><td>60</td><td>20.0</td><td>34.6</td><td>3.53</td><td>61.2</td><td>7.07</td><td>141</td></tr><tr><td>75</td><td>10.4</td><td>38.6</td><td>3.94</td><td>76.2</td><td>7.89</td><td>82</td></tr></table><br><b>Note:</b><ul><li>$t_{\\text{peak}}$ refers to the time it takes the projectile to reach its peak (i.e., highest point).</li><li>$t_{\\text{total}}$ refers to the total time it takes the projectile to travel through the air.</li><li>The Max. Height is the height that the projectile has when it is at its highest point.</li></ul>",
+            "images": [
+                "exams/physics/urt/images/2023_p1.png"
+            ]
+        },
+        {
+            "q": "Using a launch speed of 40.0 m/s and any angle between 0 and 90 degrees, what would be the largest possible range for a projectile?",
+            "options": [
+                "90 meters.",
+                "163 meters.",
+                "180 meters.",
+                "240 meters."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Based on the given launch parameters, which projectile will reach the highest peak?",
+            "options": [
+                "Launch speed = 40.0 m/s; launch angle = 30°",
+                "Launch speed = 40.0 m/s; launch angle = 45°",
+                "Launch speed = 40.0 m/s; launch angle = 60°",
+                "Launch speed = 40.0 m/s; launch angle = 85°"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which one of the following rules regarding the relationship between the launch angle and the range seems to best fit the data in Figure (1) and Table (1)?",
+            "options": [
+                "Two launch angles that add to 90° will result in the same range when launched at the same speed.",
+                "Any two angles that have a 2:1 ratio will result in the same range when launched at the same speed.",
+                "Launch angles that are evenly divisible by 10 will result in a shorter range than those that are not evenly divisible by 10.",
+                "If a large launch angle is evenly divisible (without a remainder) by a small launch angle, then their range will be the same."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A golfer is planning to club a ball towards the green but finds a large oak tree to be an imposing obstacle in his way. The trunk of the tree is 50 meters from the golfer. The canopy of the tree can be approximated as a circle with a radius of 15 meters. It extends to a height of 30 meters. Which listed launch angle will allow the golfer to direct the ball over the topmost branches of the tree and still drive the ball as far as possible? Assume a 40.0 m/s launch speed.",
+            "options": [
+                "30 degrees.",
+                "40 degrees.",
+                "60 degrees.",
+                "75 degrees."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A student observes the following correlation: the time a projectile is in the air ($t_{\\text{total}}$) increases as the original horizontal speed decreases ($v_{ox}$) and as the original vertical speed ($v_{oy}$) increases. The student wishes to determine which factor ($v_{ox}$ and $v_{oy}$), if any, is related to $t_{\\text{total}}$ in a cause-effect manner. Which experiment could be performed to resolve the issue?",
+            "options": [
+                "Launch projectiles with random angles and speeds and measure &nbsp; $t_{\\text{total}}$.",
+                "Launch projectiles at various angles from the top of a cliff and measure &nbsp; $t_{\\text{total}}$.",
+                "Launch projectiles at one angle with various launch speeds and measure &nbsp; $t_{\\text{total}}$.",
+                "Launch projectiles straight up in the air at various vertical speeds and measure &nbsp; $t_{\\text{total}}$."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Based on the figure (1), the projectile will reach the maximum horizontal distance when it thrown into the air with an angle equal",
+            "options": [
+                "30°",
+                "45°",
+                "65°",
+                "75°"
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<div style='text-align: center'><h2>PASSAGE II</h2></div>Some students experimentally determined the acceleration due to gravity (g) In each trial, the students suspended a spring from a stand and measured the spring length (L). They attached a mass to the suspended spring, allowed the spring-mass system to come to rest, and measured the length (y) of the extended spring (see figure 1).<br>{{img0}}<div style='text-align: center'><b>Figure 1</b></div><br/>Then they calculated the distance D = y - L<br>Next, they pulled the mass down to the release point (R) and released it, allowing the mass and spring to oscillate. Using the sensor and a computer, they are plotting the distance of the mass from point (R) over time (see figure 2){{img1}}<div style='text-align: center'><b>Figure 2</b></div><br/>The measured period (P) of the spring-mass system equaled the time that elapsed from the moment the mass left Point (R) until the moment the mass returned to point (R). Finally, the students used (D) and P to calculate (g)<br><br><b><u>Study (1):</u></b><br>In Trial (1), the students tested spring (1) with a 0.5 kg mass (spring constant k of 100 newtons/ meter). In trials (2) and (3) the students replaced the 0.5 kg mass with a 1 kg mass and a 1.5 kg mass respectively. The results are shown in table (1)<br><br><div style='text-align: center'><u><b>Table (1)</b></u></div><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th>Trial</th><th>Mass (Kg)</th><th>D (m)</th><th>P (Sec)</th><th>g ($m/s^2$)</th></tr><tr><td>1</td><td>0.50</td><td>0.049</td><td>0.444</td><td>9.8</td></tr><tr><td>2</td><td>1.00</td><td>0.098</td><td>0.628</td><td>9.8</td></tr><tr><td>3</td><td>1.50</td><td>0.146</td><td>0.767</td><td>9.8</td></tr></table><br><b><u>Study (2):</u></b><br>The students followed the procedure from study (1) except that they substituted spring (2) (k=200 N/m) for spring (1). The results are shown in table (2)<br><br><div style='text-align: center'><u><b>Table (2)</b></u></div><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th>Trial</th><th>Mass (Kg)</th><th>D (m)</th><th>P (Sec)</th><th>g ($m/s^2$)</th></tr><tr><td>4</td><td>0.50</td><td>0.025</td><td>0.315</td><td>9.9</td></tr><tr><td>5</td><td>1.00</td><td>0.049</td><td>0.444</td><td>9.8</td></tr><tr><td>6</td><td>1.50</td><td>0.073</td><td>0.544</td><td>9.7</td></tr></table><br><b><u>Study (3):</u></b><br>The students followed the procedure from study (1) except that they substituted spring (3) (k=300 N/m) for spring (1). The results are shown in table (3)<br><br><div style='text-align: center'><u><b>Table (3)</b></u></div><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th>Trial</th><th>Mass (Kg)</th><th>D (m)</th><th>P (Sec)</th><th>g ($m/s^2$)</th></tr><tr><td>7</td><td>0.50</td><td>0.016</td><td>0.257</td><td>9.6</td></tr><tr><td>8</td><td>1.00</td><td>0.033</td><td>0.363</td><td>9.9</td></tr><tr><td>9</td><td>1.50</td><td>0.049</td><td>0.443</td><td>9.9</td></tr></table>",
+            "images": [
+                "exams/physics/urt/images/2023_p2_1.png",
+                "exams/physics/urt/images/2023_p2_2.png"
+            ]
+        },
+        {
+            "q": "If in study (1) an additional trial had been conducted with a mass of 0.75 kg (P) would most likely have been ......",
+            "options": [
+                "less than 0.444 sec.",
+                "between 0.444 sec and 0.628 sec.",
+                "between 0.628 sec and 0.767 sec",
+                "greater than 0.767 sec"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "According to figure (2) each mass was at point (R) at which of the following 2 times?",
+            "options": [
+                "$t_1$ &nbsp; and &nbsp; $t_2$",
+                "$t_1$ &nbsp; and &nbsp; $t_3$",
+                "$t_2$ &nbsp; and &nbsp; $t_3$",
+                "$t_2$ &nbsp; and &nbsp; $t_4$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Based on the (3) studies, if the students had suspended a 1.5 kg mass from a spring with k = 400 N/m, (D) would most likely have been ........",
+            "options": [
+                "less than 0.049 m",
+                "between 0.049m and 0.073m",
+                "between 0.073m and 0.146m",
+                "greater than 0.146 m"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Based on the introductory information, when (D) was equal to 0, what was the relationship between (y) and (L)?",
+            "options": [
+                "$y = L$",
+                "$y = 2 \\times L$",
+                "$y = \\frac{L}{2}$",
+                "$y = \\frac{L}{4}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Based on trials (7-9), which of the following graphs best represents the relationship between mass and (D)?",
+            "options": [
+                "A <img src=\"exams/physics/urt/images/2023_q11_a.png\" alt=\"Graph A\">",
+                "B <img src=\"exams/physics/urt/images/2023_q11_b.png\" alt=\"Graph B\">",
+                "C <img src=\"exams/physics/urt/images/2023_q11_c.png\" alt=\"Graph C\">",
+                "D <img src=\"exams/physics/urt/images/2023_q11_d.png\" alt=\"Graph D\">"
+            ],
+            "correct": 2
+        },
+        {
+            "passage": "<div style='text-align: center'><h2>PASSAGE III</h2></div>Some physics students are investigating the effect of the mass of two colliding Carts upon their post-collision velocities. Being vectors, the velocities can be positive (for moving rightward) or negative (for moving leftward).<br><br><b><u>Experiment (1):</u></b><br>In Experiment (1), the students place Cart (B) at rest on the track. They push Cart (A) towards it. The two carts are equipped with Velcro strips so that they stick together when they collide. The two carts collide and move together at the same speed after the collision. They use a motion detector to determine the velocity of Cart (A) before and after the collision. They conduct several trials while varying the mass of the two carts by adding bricks to them. Their data is shown in Table (1).<br><br><div style='text-align: center'><u><b>Table (1)</b></u></div><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th>Trial</th><th>Mass of (A) (kg)</th><th>Mass of (B) (kg)</th><th>Pre-Collision Velocity of (A) (cm/s)</th><th>Post-Collision Velocity of (A) (cm/s)</th></tr><tr><td>1</td><td>0.50</td><td>0.50</td><td>34</td><td>17</td></tr><tr><td>2</td><td>0.50</td><td>1.00</td><td>42</td><td>14</td></tr><tr><td>3</td><td>0.50</td><td>1.50</td><td>36</td><td>9</td></tr><tr><td>4</td><td>0.50</td><td>2.00</td><td>40</td><td>8</td></tr><tr><td>5</td><td>1.00</td><td>0.50</td><td>33</td><td>22</td></tr><tr><td>6</td><td>1.50</td><td>0.50</td><td>36</td><td>27</td></tr><tr><td>7</td><td>1.00</td><td>1.00</td><td>36</td><td>18</td></tr></table><br><b><u>Experiment (2):</u></b><br>In Experiment (2), the students arrange the Carts so that magnets embedded in their ends repel each other before contact is made. Once again, they place Cart (B) at rest on the track and push Cart (A) towards it. After the collision, the Carts move along the track at separate velocities. Their velocities are measured using motion detectors. Several trials are conducted using different mass combinations. Their data is shown in Table (2).<br><br><div style='text-align: center'><u><b>Table (2)</b></u></div><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th>Trial</th><th>Mass of (A) (kg)</th><th>Mass of (B) (kg)</th><th>Pre-Collision Velocity of (A) (cm/s)</th><th>Post-Collision Velocity of (A) (cm/s)</th><th>Post-Collision Velocity of (B) (cm/s)</th></tr><tr><td>8</td><td>0.50</td><td>0.50</td><td>32</td><td>0</td><td>32</td></tr><tr><td>9</td><td>0.50</td><td>1.00</td><td>36</td><td>-12</td><td>24</td></tr><tr><td>10</td><td>0.50</td><td>1.50</td><td>42</td><td>-21</td><td>21</td></tr><tr><td>11</td><td>0.50</td><td>2.00</td><td>38</td><td>-23</td><td>15</td></tr><tr><td>12</td><td>1.00</td><td>0.50</td><td>33</td><td>11</td><td>44</td></tr><tr><td>13</td><td>1.50</td><td>0.50</td><td>32</td><td>16</td><td>48</td></tr><tr><td>14</td><td>1.00</td><td>1.00</td><td>40</td><td>0</td><td>40</td></tr></table>"
+        },
+        {
+            "q": "What is the purpose of these two experiments?",
+            "options": [
+                "To study general principles regarding collisions.",
+                "To measure the post-collision velocity of the two carts.",
+                "To determine the effect of cart mass upon the post-collision velocities.",
+                "To investigate collisions in order to determine if the velocity is conserved."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which of the following statements describe the effect of increasing the mass of Cart (B) as observed in Experiment (1)?",
+            "options": [
+                "The mass of Cart (A) increases.",
+                "The pre-collision velocity of cart (A) increases.",
+                "The post-collision velocity of cart (A) increases.",
+                "The post-collision velocity of cart (A) decreases."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A 2.0-kg cart moving at 60 cm/s approaches a 1.0-kg cart that is initially at rest. The two carts magnetically repel each other before actual contact is made. Which trial would provide sufficient evidence for predicting the post-collision speed of the two carts?",
+            "options": [
+                "Trial 2",
+                "Trial 5",
+                "Trial 9",
+                "Trial 12"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A 3.0-kg cart moving at 60 cm/s approaches a 1.0-kg cart that is initially at rest. The two carts magnetically repel each other before actual contact is made. What is the post-collision velocity of the two carts?",
+            "options": [
+                "Cart (A): 40 cm/s; Cart (B): 20 cm/s",
+                "Cart (A): 20 cm/s; Cart (B): 40 cm/s",
+                "Cart (A): -20 cm/s; Cart (B): 20 cm/s",
+                "Cart (A): 30 cm/s; Cart (B): 90 cm/s"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The collisions in Table (2) are often referred to as perfectly elastic collisions. What mathematical equation accurately relates the pre- and post-collision velocities (v) of carts (A) and (B) for all the perfectly elastic collisions? NOTE: the ' symbol indicates after the collision.",
+            "options": [
+                "$v_A = v_B'$ ",
+                "$v_A * v_A' = v_B'$ ",
+                "$v_A + v_B' = v_B + v_A'$ ",
+                "$v_A + v_A' = v_B + v_B'$ "
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Based on Table (2), which of the following conditions would result in the fastest post collision velocity for Cart (B)?",
+            "options": [
+                "Cart (A) moves fast before the collision and is the less massive of the two objects.",
+                "Cart (A) moves slowly before the collision and is the less massive of the two objects.",
+                "Cart (A) moves fast before the collision and is many times more massive than Cart (B).",
+                "Cart (A) moves slowly before the collision and is many times more massive than Cart (B)."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Based on Table (2), which of the following trials show that the Cart (A) was moved leftward after collision?",
+            "options": [
+                "Trials 8, 9 and 10",
+                "Trials 9, 10 and 11",
+                "Trials 10, 11 and 12",
+                "Trials 12, 13 and 14"
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<div style='text-align: center'><h2>PASSAGE IV</h2></div>The resistance (R) of a conductor is the extent to which it opposes the flow of electricity. Resistance depends not only on the conductor's resistivity ($\\rho$) but also on the conductor's length (L) and cross-sectional area (A). The resistivity of a conductor is a physical property of the material that varies with temperature.<br>A research team designing a new appliance was researching the best type of wire to use in a particular circuit. The most important consideration was the wire's resistance. The team studied the resistance of wires made from four metals—gold (Au), aluminum (Al), tungsten (W), and iron (Fe). Two lengths and two gauges (diameters) of each type of wire were tested at 20&deg;C. The results are recorded in the following table.<br><br>{{img0}}<div style='text-align: center'><b>Figure (1)</b></div><br><div style='text-align: center'><u><b>Table (1)</b></u></div><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th>Material</th><th>Resistivity (m$\\Omega$-cm)</th><th>Length (cm)</th><th>Cross-sectional Area ($mm^2$)</th><th>Resistance (m$\\Omega$)</th></tr><tr><td>Au</td><td>2.44</td><td>1.0</td><td>5.26</td><td>46.4</td></tr><tr><td>Au</td><td>2.44</td><td>1.0</td><td>1.31</td><td>186.0</td></tr><tr><td>Au</td><td>2.44</td><td>2.0</td><td>5.26</td><td>92.8</td></tr><tr><td>Au</td><td>2.44</td><td>2.0</td><td>1.31</td><td>372.0</td></tr><tr><td>Al</td><td>2.83</td><td>1.0</td><td>5.26</td><td>53.8</td></tr><tr><td>Al</td><td>2.83</td><td>1.0</td><td>1.31</td><td>216.0</td></tr><tr><td>Al</td><td>2.83</td><td>2.0</td><td>5.26</td><td>107.6</td></tr><tr><td>Al</td><td>2.83</td><td>2.0</td><td>1.31</td><td>432.0</td></tr><tr><td>W</td><td>5.51</td><td>1.0</td><td>5.26</td><td>105.0</td></tr><tr><td>W</td><td>5.51</td><td>1.0</td><td>1.31</td><td>421.0</td></tr><tr><td>W</td><td>5.51</td><td>2.0</td><td>5.26</td><td>210.0</td></tr><tr><td>W</td><td>5.51</td><td>2.0</td><td>1.31</td><td>842.0</td></tr><tr><td>Fe</td><td>10.0</td><td>1.0</td><td>5.26</td><td>190.0</td></tr><tr><td>Fe</td><td>10.0</td><td>1.0</td><td>1.31</td><td>764.0</td></tr><tr><td>Fe</td><td>10.0</td><td>2.0</td><td>5.26</td><td>380.0</td></tr><tr><td>Fe</td><td>10.0</td><td>2.0</td><td>1.31</td><td>1528.0</td></tr></table>",
+            "images": [
+                "exams/physics/urt/images/2023_p4.png"
+            ]
+        },
+        {
+            "q": "Of the wires tested, resistance increases for any given material as which parameter is decreased?",
+            "options": [
+                "Length",
+                "Cross-sectional area",
+                "Resistivity",
+                "Gauge"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Given the data in the table, which of the following best expresses resistance in terms of resistivity ($\\rho$), cross-sectional area (A), and length (L)?",
+            "options": [
+                "$\\frac{\\rho^A}{L}$",
+                "$\\frac{\\rho L}{A}$",
+                "$\\rho AL$",
+                "$\\frac{AL}{\\rho}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Given the data in the table, which of the following material has the highest resistance.",
+            "options": [
+                "Iron (Fe)",
+                "Tungsten (W)",
+                "Gold (Au)",
+                "Aluminum (Al)"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which of the following wires would have the highest resistance?",
+            "options": [
+                "A 1-cm aluminum wire with a cross-sectional area of 0.33 $mm^2$",
+                "A 2-cm aluminum wire with a cross-sectional area of 0.33 $mm^2$",
+                "A 1-cm tungsten wire with a cross-sectional area of 0.33 $mm^2$",
+                "A 2-cm tungsten wire with a cross-sectional area of 0.33 $mm^2$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "According to the information given, which of the following statements is (are) correct? $$\\text{I. 10-gauge wire has a larger diameter than 16-gauge wire.}$$ $$\\text{II. Gold has a higher resistivity than tungsten.}$$ $$\\text{III. Aluminum conducts electricity better than iron.}$$",
+            "options": [
+                "I only",
+                "II only",
+                "III only",
+                "I and III only"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which of the following graphs best represents the relationship between the resistivity of a tungsten wire and its length?",
+            "options": [
+                "A <img src=\"exams/physics/urt/images/2023_q24_a.png\" alt=\"Graph A\">",
+                "B <img src=\"exams/physics/urt/images/2023_q24_b.png\" alt=\"Graph B\">",
+                "C <img src=\"exams/physics/urt/images/2023_q24_c.png\" alt=\"Graph C\">",
+                "D <img src=\"exams/physics/urt/images/2023_q24_d.png\" alt=\"Graph D\">"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "If the length of the wires were increased to 4 cm, what could be expected in terms of resistance?",
+            "options": [
+                "Resistance would increase, but only with a 10-gauge wire.",
+                "Resistance would decrease, but only with a 16-gauge wire.",
+                "Resistance would increase on both the 10- and 16-gauge wires.",
+                "Resistance would not change because 2 cm is the maximum length that affects resistance."
+            ],
+            "correct": 2
+        }
+    ]
+}
