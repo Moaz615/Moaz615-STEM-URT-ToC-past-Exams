@@ -1077,7 +1077,87 @@ body.preload * {
 
 .contact-form {
     max-width: 500px;
-    margin: 0 auto;
+    margin: 0 auto 3rem auto;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 2px solid var(--border);
+}
+
+.contact-info h2 {
+    color: var(--text-main);
+    font-size: 1.8rem;
+    margin: 0 0 0.5rem 0;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.contact-info p {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin: 0 0 1.5rem 0;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    box-shadow: 0 2px 8px var(--shadow);
+}
+
+.social-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px var(--shadow-hover);
+}
+
+.social-link.whatsapp {
+    background: #25D366;
+    color: white;
+}
+
+.social-link.whatsapp:hover {
+    background: #20BA5A;
+}
+
+.social-link.github {
+    background: #24292e;
+    color: white;
+}
+
+[data-theme="dark"] .social-link.github {
+    background: #ffffff;
+    color: #24292e;
+}
+
+.social-link.github:hover {
+    background: #1a1e22;
+}
+
+[data-theme="dark"] .social-link.github:hover {
+    background: #e6e6e6;
+}
+
+.social-link.email {
+    background: #EA4335;
+    color: white;
+}
+
+.social-link.email:hover {
+    background: #D33426;
 }
 
 .form-group {
@@ -1188,6 +1268,16 @@ body.preload * {
     color: #fca5a5;
 }
 
+@media (max-width: 768px) {
+    .contact-info {
+        text-align: center;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+}
+
 @media (max-width: 600px) {
     .contact-title {
         font-size: 2rem;
@@ -1205,5 +1295,15 @@ body.preload * {
     .submit-btn {
         padding: 0.85rem 1.5rem;
         font-size: 1rem;
+    }
+
+    .social-link {
+        width: 44px;
+        height: 44px;
+    }
+
+    .social-link svg {
+        width: 20px;
+        height: 20px;
     }
 }
