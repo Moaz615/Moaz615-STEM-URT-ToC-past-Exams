@@ -1,0 +1,276 @@
+{
+    "questions": [
+        {
+            "passage": "<div style='text-align: center'><h2>PASSAGE I</h2></div>It was so noisy before the orchestra started to play.<br>Daughter: It is a great orchestra, but why is it all that haphazard and noisy every time we come early?<br>Dad: (laughing) Oh no! They are synchronizing their instruments.<br>Daughter: What do you mean? A great orchestra like this waits to synchronize their instruments in the theater. Why don't they do it earlier at home?<br>Dad: They do it together to compare the sound produced by one instrument to another.<br>Daughter: Oh, do you mean that it is not haphazard and noisy? How come?<br>Dad: Yes, they base it on a certain instrument that considered the base instrument; one that does not require any kind of adjustment. Then, it plays a certain tone, and the other instruments play at the same time with the same tone. If they hear a beat, then it requires adjustment.<br>Daughter: What is a beat?<br>Dad: It is a high sound with certain repetitions per second and increases when there is much difference between the two instruments and vanishes if the two instruments have the same frequency.<br>Daughter: Can I conclude that the number of repetitions per second is the difference between the two frequencies of the two instruments?<br>Dad: Exactly! Also, you must know that we hear the combination of the sound produced from more than one instrument. We hear the superposition, which may cause a high or low sound according to the relation: ($\\frac{\\Delta L}{\\lambda} = 0, 1, 2, ...$) for the fully constructive interference. or: ($\\frac{\\Delta L}{\\lambda} = 0.5, 1.5, 2.5, ...$) for the fully destructive interference (where $\\Delta L$ is the path difference. and $\\lambda$ is the wavelength of sound), and it already happens to our own voices. Each of us have two vocal cords that act as instruments that produce waves."
+        },
+        {
+            "q": "If the (Do) = 512 Hz, and a violin produces 4 beats compared to a flute which is considered a base instrument then the frequency of the violin sound is:",
+            "options": [
+                "512 Hz or 508 Hz",
+                "512 Hz or 516 Hz",
+                "514 Hz or 510 Hz",
+                "516 Hz or 508 Hz"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "If the wavelength of (Re) is 400/9 cm, and the distance between the audience and the first violin is 5 meters and from the second violin is 7 meters then:",
+            "options": [
+                "Interference takes place, and a low frequency sound is produced.",
+                "Interference takes place, and a high frequency sound is produced.",
+                "No Interference takes place, and a high frequency sound is produced.",
+                "No Interference takes place, and a low frequency sound is produced."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Beats depend on:",
+            "options": [
+                "The frequency of the first instrument only",
+                "The frequency of the second instrument only",
+                "The difference in frequency between the two instruments only",
+                "The distance between the audience and the instruments only"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Since we have two vocal cords:",
+            "options": [
+                "Our sound is a single wave.",
+                "Our sound is two waves.",
+                "Our sound is the beats due to the two waves.",
+                "Our sound is the interference of two waves."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A stretched string with a frequency of 258 Hz, whose frequencies overlap with the frequencies of a tuning fork, and 10 beats occur during a period of 5 seconds. If the frequency of the string is the higher frequency, then the frequency of the tuning fork is",
+            "options": [
+                "247 Hz",
+                "258 Hz",
+                "265 Hz",
+                "256 Hz"
+            ],
+            "correct": 3
+        },
+        {
+            "passage": "<div style='text-align: center'><h2>PASSAGE II</h2></div>A Thermistor is a type of Resistor whose Resistance strongly depends on Temperature.<br>If there is a linear relationship between current and voltage when a Resistor is placed in the circuit, the Resistor is considered an Ohmic device. Some Resistors are sensitive to small external temperature changes and will show a change in Resistance as a result of these temperature changes. These Resistors are called Thermistors. The change in Resistance exhibited by a Thermistor can be detected by a change in the observed current at a given voltage.<br>When power is supplied to Ohm's law circuit, an electric current will flow through the circuit and it can be measured by an ammeter in milliamps (mA). The voltage responsible for the current can be measured by a voltmeter and is measured in volts. When a Resistor is placed in a circuit, it dampens the current flowing through a circuit at a given voltage.<br>The following procedure was performed to investigate whether different Resistors acted as Ohmic devices in a circuit. The circuit was constructed as shown in Figure (1){{img0}}<div style='text-align: center'><b>Figure (1)</b></div><br>After each Resistor was connected to the circuit, the Resistor was submerged in water to detect any changes in temperature as well as its sensitivity to different beginning temperatures. The power source was turned on and the voltage of the power source and the resulting current were recorded. The voltage was changed several times and corresponding current was noted.<br>Table (1) summarizes the results when three different Resistors were tested at two different temperatures. In all cases, no change in water temperature was observed after the Resistor was submerged.<br><br><div style='text-align: center'><u><b>Table (1)</b></u></div><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th rowspan='2'>Voltage (V)</th><th colspan='2'>Resistor A</th><th colspan='2'>Resistor B</th><th colspan='2'>Resistor C</th></tr><tr><th>23°C Current (mA)</th><th>25°C Current (mA)</th><th>23°C Current (mA)</th><th>25°C Current (mA)</th><th>23°C Current (mA)</th><th>25°C Current (mA)</th></tr><tr><td>0.25</td><td>25</td><td>25</td><td>150</td><td>150</td><td>5</td><td>4.5</td></tr><tr><td>0.50</td><td>50</td><td>50</td><td>195</td><td>195</td><td>10</td><td>9.0</td></tr><tr><td>1.00</td><td>100</td><td>100</td><td>230</td><td>230</td><td>20</td><td>18.0</td></tr><tr><td>2.00</td><td>200</td><td>200</td><td>295</td><td>295</td><td>40</td><td>36.0</td></tr><tr><td>3.00</td><td>300</td><td>300</td><td>345</td><td>345</td><td>60</td><td>54.0</td></tr><tr><td>4.00</td><td>400</td><td>400</td><td>405</td><td>405</td><td>80</td><td>72.0</td></tr><tr><td>4.50</td><td>450</td><td>450</td><td>420</td><td>420</td><td>90</td><td>81.0</td></tr><tr><td>5.00</td><td>500</td><td>500</td><td>445</td><td>445</td><td>100</td><td>90.0</td></tr></table>",
+            "images": [
+                "exams/physics/urt/images/2021_p2.png"
+            ]
+        },
+        {
+            "q": "During the trials, when the Resistor's temperature was 25°C and the current was measured at 100 mA, what was the corresponding voltage?",
+            "options": [
+                "1.00 volt",
+                "2.00 volts",
+                "3.00 volts",
+                "5.00 volts"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "When the voltage was 4.50 volts and the temperature was 23 °C, what was the current when Resistor C was used?",
+            "options": [
+                "60 mA",
+                "72 mA",
+                "81 mA",
+                "90 mA"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Of the three Resistors used in the trials, which would be considered an Ohmic device but not a Thermistor?",
+            "options": [
+                "Resistor A and Resistor B only",
+                "Resistor A only",
+                "Resistor B only",
+                "Resistor C only"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "At a temperature of 25 °C, what voltage would produce a current of 126 mA if Resistor C is used?",
+            "options": [
+                "5.50 volts",
+                "6.00 volts",
+                "7.00 volts",
+                "8.00 volts"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If the water temperature had increased after submerging Resistor B, which of the following statements would have been most accurate?",
+            "options": [
+                "The fact that the water temperature increased after submerging Resistor B shows that Resistor B is a thermistor.",
+                "Since the measured current was the same when the initial water temperature was 23 °C as when it was 25 °C, Resistor B is not a Thermistor.",
+                "The fact that the water temperature increased after submerging Resistor B shows that Resistor B is not an Ohmic device.",
+                "Since the measured current was the same when the initial water temperature was 23 °C as when it was 25 °C, resistor B is an Ohmic device."
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<div style='text-align: center'><h2>Passage III</h2></div>It is interesting to speculate on how far the particle model of light may be carried. Encouraged by the successful particle explanation of the photoelectric and Compton effects, one may ask whether the photon possesses an effective gravitational mass, and whether photons will be attracted gravitationally by large masses, such as those of the Sun or Earth, and experience an observable change in energy.<br>To investigate these questions, knowing that the photon has zero mass, but its effective inertial mass, $m_i$, may reasonably be taken to be the mass equivalent of the photon energy $E$, or $m_i = \\frac{E}{c^2} = \\frac{h\\nu}{c^2}$. The same result is obtained if we divide the photon momentum by the photon's speed $c$: $m_i = \\frac{p}{c} = \\frac{h\\nu}{c^2}$. Knowing that the effective inertial mass determines how the photon responds to an applied force such as that exerted on it during a collision with an electron. The gravitational mass of an object determines the force of gravitational attraction of that object to another, such as the Earth. Although it is a remarkable unexplained fact in Newtonian mechanics that the inertial mass of all material bodies is equal to the gravitational mass to within one part in $10^{12}$, Einstein’s Equivalence Principle of general relativity requires this result.<br><br>Let us assume that the photon, like other objects, also has a gravitational mass equal to its inertial mass. In this case a photon falling from a height $H$ should increase in energy by $mgH$ and therefore increase in frequency, although its speed cannot increase and remains at $c$. In fact, experiments have been carried out that show this increase in frequency and confirm that the photon indeed has an effective gravitational mass of $hf/c^2$.<br>An expression for $f'$ in terms of $f$ may be derived by applying conservation of energy to the photon at points A and B.<br>$KE_B + PE_B = KE_A + PE_A$<br>Because the photon's kinetic energy is $E = pc = hf$ and its potential energy is $mgH$, where $m = hf/c^2$, we have: $hf' + 0 = hf + (hf/c^2)gH$ or:<br><div style='text-align: center'>$f' = f \\left( 1 + \\frac{gH}{c^2} \\right)$</div><br>The fractional change in frequency is given by:<br><div style='text-align: center'>$\\frac{\\Delta f}{f} = \\frac{f' - f}{f} = \\frac{gH}{c^2}$</div><br>This incredibly small increase in frequency has been measured (with difficulty)!"
+        },
+        {
+            "q": "Electron and photon are common in ...",
+            "options": [
+                "both can gain energy.",
+                "both can increase their mass.",
+                "both are accompanied with electromagnetic waves.",
+                "both can affect by magnetic field."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "According to the properties of photon, which of the following statement is correct?",
+            "options": [
+                "It can gain energy increasing its speed.",
+                "It can lose energy decreasing its wavelength.",
+                "It can gain energy increasing its mass.",
+                "It can lose energy decreasing its frequency."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "What will happen to the frequency of photons when light ray travel from sun to earth?",
+            "options": [
+                "Increases then remains constant, then decreases.",
+                "Decreases then remains constant then increases.",
+                "Increases then remains constant then increases again.",
+                "Decreases then remains constant then decreases again."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "When a photon travels vertically upwards, what will be the effect of the elevation of its nature?",
+            "options": [
+                "Increases its mass and its velocity.",
+                "Decreases its mass and its velocity.",
+                "Increases its mass while its velocity will not affect.",
+                "Decreases its mass while its velocity will not affect."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The ratio between the increase of photons frequency to the initial frequency, depends on",
+            "options": [
+                "directly proportional to the velocity of photon.",
+                "directly proportional to the initial frequency of photon.",
+                "directly proportional to the traveling distance.",
+                "directly proportional to the altitude of new position."
+            ],
+            "correct": 3
+        },
+        {
+            "passage": "<div style='text-align: center'><h2>Passage IV</h2></div>To measure the average speed, students performed three studies by using a flat surface and a remote-controlled car with different types of wheels. Each study was conducted indoors in a temperature-controlled room. A straight track was constructed and measured to be 15 meters long. The car's travel time was measured from start to finish with a stopwatch. The temperature in the room was kept constant at 10°C and the surface was returned to its original condition after each trial. No modifications were made to the car aside from changing the wheels, and the car's batteries were fully charged before each trial.<br><br><b><u>Study (1):</u></b><br>The students fitted the car with hard rubber wheels, which had deep treads, and placed it on the surface. One student started the car as another student simultaneously started the stopwatch. The student stopped the stopwatch as the car crossed the 15-meter mark. The students calculated the results of three separate trials and averaged the results as shown in Table (1).<br><br><div style='text-align: center'><u><b>Table (1)</b></u></div><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th>Trial</th><th>Time (s)</th><th>Speed (m/s)</th></tr><tr><td>1</td><td>4.56</td><td>0.66</td></tr><tr><td>2</td><td>4.64</td><td>0.65</td></tr><tr><td>3</td><td>4.50</td><td>0.67</td></tr><tr><td>Average</td><td>4.57</td><td>0.66</td></tr></table><br><b><u>Study (2):</u></b><br>The students repeated the procedure used in Study (1), except they fitted the car with soft rubber wheels, which were smooth and lacked treads. The results are shown in Table (2).<br><br><div style='text-align: center'><u><b>Table (2)</b></u></div><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th>Trial</th><th>Time (s)</th><th>Speed (m/s)</th></tr><tr><td>1</td><td>11.40</td><td>0.26</td></tr><tr><td>2</td><td>11.28</td><td>0.27</td></tr><tr><td>3</td><td>11.32</td><td>0.26</td></tr><tr><td>Average</td><td>11.30</td><td>0.26</td></tr></table><br><b><u>Study (3):</u></b><br>The students repeated the procedure used in Study (1), except they fitted the car with hard rubber wheels, which had studs imbedded into them instead of treads. The results are shown in Table (3).<br><br><div style='text-align: center'><u><b>Table (3)</b></u></div><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th>Trial</th><th>Time (s)</th><th>Speed (m/s)</th></tr><tr><td>1</td><td>2.26</td><td>1.33</td></tr><tr><td>2</td><td>2.32</td><td>1.29</td></tr><tr><td>3</td><td>2.42</td><td>1.24</td></tr><tr><td>Average</td><td>2.33</td><td>1.29</td></tr></table>"
+        },
+        {
+            "q": "The use of which wheels resulted in the fastest recorded average speed?",
+            "options": [
+                "The speeds remained constant.",
+                "Hard rubber wheels with studs.",
+                "Soft rubber wheels with no treads.",
+                "Hard rubber wheels with deep treads."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "According to Study (1), the average speed for all three trials was:",
+            "options": [
+                "greater than the speed measured in Trial (3).",
+                "less than the speed measured in Trial (1).",
+                "greater than the speed measured in Trial (2).",
+                "equal to the speed measured in Trial (2)."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which of the following statements is best supported by the results of all three studies?",
+            "options": [
+                "The average speed of a car with deeply treaded hard rubber wheels is approximately half the average speed of a car with soft rubber wheels.",
+                "The average speed of a car with studded, hard rubber wheels is approximately half the average speed of a car with deeply treaded hard rubber wheels.",
+                "The average speed of a car with soft rubber wheels lacking treads is approximately twice the average speed of a car with deeply treaded hard rubber wheels.",
+                "The average speed of a car with studded, hard rubber wheels is approximately twice the average speed of a car with deeply treaded hard rubber wheels."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Based on the passage, the higher average speeds were probably the result of:",
+            "options": [
+                "greater friction.",
+                "temperature variations.",
+                "too much sunlight.",
+                "statistical error."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "During which of the following was the travel time of the car the slowest?",
+            "options": [
+                "Study 2, Trial 1",
+                "Study 2, Trial 2",
+                "Study 3, Trial 1",
+                "Study 1, Trial 2"
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<div style='text-align: center'><h2>PASSAGE V</h2></div>Students conducted experiments to study the effects of temperature on density. In the experiments, each flask was filled to the top with either distilled water or salty (NaCl) water at 20°C. A rubber stopper with 2 holes, one fitted with a thermometer and the other fitted with glass tubing, was placed in the neck of the flask (as shown in figure). {{img0}}The initial height of the liquid in the tubing was adjusted to 25 mm above the top of the stopper.<br><br><b><u>Experiment (1):</u></b><br>A flask filled with distilled water was slowly heated. As the temperature of the water increased, the height of the water in the tubing increased. At 100°C, water and steam squirted out the top of the tubing.<br><br><b><u>Experiment (2):</u></b><br>The body of a flask filled with distilled water was submerged in a cold bath at -6°C. As the temperature of the water in the apparatus decreased, the height of the water in the tubing decreased. At 4°C, the height of the water in the tubing stopped decreasing, and then began to increase. At 0°C, water and ice were forced out the top of the tubing. Eventually, the flask cracked in several places.<br><br><b><u>Experiment (3):</u></b><br>Two salty water solutions were prepared. Solution I had a lower salt concentration (in gm/mL) than did Solution II. Two flasks containing Solutions I and II, respectively, were slowly heated. In both flasks, the salt water in the tubing rose and then squirted out the top of the tubing (at 102°C for Solution I and at 104°C for Solution II). Two flasks containing Solutions I and II, respectively, were cooled as in Experiment (2). In both flasks, the height of the salt water in the tubing decreased until the temperature reached -6°C and then remained level (no freezing occurred).",
+            "images": [
+                "exams/physics/urt/images/2021_p5.png"
+            ]
+        },
+        {
+            "q": "Water in the upper part of a hypothetical (2) compartment container is at 10 °C, and water in the lower part is at 80 °C, as shown in the figure below. If the barrier separating the 2 compartments could be removed without disturbing the water, what mixing, if any, would occur?",
+            "image": "exams/physics/urt/images/2021_q21.png",
+            "options": [
+                "No mixing would occur, because the water in the upper part of the container is denser than the water in the lower part of the container.",
+                "No mixing would occur, because the water in the upper part of the container is less dense than the water in the lower part of the container.",
+                "Mixing would occur, because the water in the lower part of the container is denser than the water in the upper part of the container.",
+                "Mixing would occur, because the water in the lower part of the container is less dense than the water in the upper part of the container."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Based on the results of Experiments (1) and (3), 1 L of distilled water with which of the following quantities of NaCl added to it would most likely boil at the lowest temperature?",
+            "options": [
+                "0 gm",
+                "10 gm",
+                "20 gm",
+                "30 gm"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which of the following changes in the procedure of Experiment (3) would have provided the most information about the effect of decreasing temperature on the density of salt water?",
+            "options": [
+                "Using a bath at -3 °C to cool the flask.",
+                "Using a bath at -13 °C to cool the flask.",
+                "Using a larger flask.",
+                "Using a smaller flask."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Suppose that equal volumes of Solutions I and II from Experiment (3) were mixed and the resulting solution was then tested as in Experiment (1). Salt water would most likely have started to squirt out of the top of the tubing when the temperature was:",
+            "options": [
+                "less than 100 °C",
+                "between 100 °C and 102 °C",
+                "between 102 °C and 104 °C",
+                "greater than 104 °C"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "As the height of the water in the glass tubing decreased in Experiment (2), which of the following properties of the water in the apparatus also changed?\nI. Volume\nII. Mass\nIII. Density",
+            "options": [
+                "I only.",
+                "I and II only.",
+                "I and III only.",
+                "I, II, and III."
+            ],
+            "correct": 2
+        }
+    ]
+}
