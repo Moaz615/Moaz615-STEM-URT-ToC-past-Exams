@@ -15,10 +15,10 @@
             "q": "Find the magnitude and direction of the resultant $R$ of four concurrent forces of magnitudes: $2P, 4P$ in the vertical directions, $P, 3P$ in the horizontal directions, are acting at $O$ as shown in the opposite figure",
             "image": "exams/mechanics/toc/images/2023_q2.png",
             "options": [
-                "$5\\sqrt{2}P$, acting at $45^\\circ$ (anticlockwise dir.) with respect to $4P$ force",
-                "$5P$, acting at $45^\\circ$ (anticlockwise dir.) with respect to $3P$ force",
-                "$2\\sqrt{2}P$ acting at $45^\\circ$ (anticlockwise dir.) with respect to $3P$ force",
-                "$3\\sqrt{2}P$ acting at $45^\\circ$ (anticlockwise dir.) with respect to $2P$ force"
+                "$5\\sqrt{2}P$, nbsp; acting at nbsp; $45^\\circ$ nbsp; (anticlockwise dir.) with respect to nbsp; $4P$ nbsp; force",
+                "$5P$, nbsp; acting at nbsp; $45^\\circ$ nbsp; (anticlockwise dir.) with respect to nbsp; $3P$ nbsp; force",
+                "$2\\sqrt{2}P$ nbsp; acting at nbsp; $45^\\circ$ nbsp; (anticlockwise dir.) with respect to nbsp; $3P$ nbsp; force",
+                "$3\\sqrt{2}P$ nbsp; acting at nbsp; $45^\\circ$ nbsp; (anticlockwise dir.) with respect to nbsp; $2P$ nbsp; force"
             ],
             "correct": 2
         },
@@ -35,10 +35,10 @@
         {
             "q": "Find the moment about the origin of a force $3\\vec{j}$ N acting at the point which has position vector $4\\vec{i}$ m",
             "options": [
-                "$0$ N.m",
-                "$3$ N.m",
-                "$4$ N.m",
-                "$12$ N.m"
+                "$0 N.m$",
+                "$3 N.m$",
+                "$4 N.m$",
+                "$12 N.m$"
             ],
             "correct": 3
         },
@@ -46,20 +46,20 @@
             "q": "The forces of magnitudes: $2, 4, 2, 5$ and $3\\sqrt{2}$ N act along: $AB, \\vec{BC}, \\vec{CD}, \\vec{DA}$ and $\\vec{DB}$ respectively of the square $ABCD$ in the indicated directions. Find the magnitude of the force $R$, which is equivalent to the system of forces",
             "image": "exams/mechanics/toc/images/2023_q5.png",
             "options": [
-                "$3$ N",
-                "$4$ N",
-                "$5$ N",
-                "$7$ N"
+                "$3 N$",
+                "$4 N$",
+                "$5 N$",
+                "$7 N$"
             ],
             "correct": 2
         },
         {
             "q": "Find the moment about the point $P$ with position vector $(-3\\vec{i} + 4\\vec{j})$ m of a force $(6\\vec{i} + 5\\vec{j})$ N that acting at a point $Q$, which has position vector $(2\\vec{i} + \\vec{j})$ m",
             "options": [
-                "$43$ N.m",
-                "$7$ N.m",
-                "$-7$ N.m",
-                "$-43$ N.m"
+                "$43 N.m$",
+                "$7 N.m$",
+                "$-7 N.m$",
+                "$-43 N.m$"
             ],
             "correct": 0
         },
@@ -121,19 +121,19 @@
         {
             "q": "A particle revolves around a circle with a uniform angular velocity of $3$ rad/sec. What is the angular displacement of the particle in $6$ sec?",
             "options": [
-                "$1031$ degrees",
-                "$3600$ degrees",
-                "$1318$ degrees",
-                "$1014$ degrees"
+                "$1031$ nbsp; degrees",
+                "$3600$ nbsp; degrees",
+                "$1318$ nbsp; degrees",
+                "$1014$ nbsp; degrees"
             ],
             "correct": 0
         },
         {
             "q": "If the angular position of a rigid body changes with time as $\\theta = 4t^3 - 12t - 14$, then the angular velocity of the body at $t = 1$ sec is",
             "options": [
-                "$1$ rad/sec",
-                "$-14$ rad/sec",
-                "$14$ rad/sec",
+                "$1$ nbsp; rad/sec",
+                "$-14$ nbsp; rad/sec",
+                "$14$ nbsp; rad/sec",
                 "zero"
             ],
             "correct": 3
@@ -151,20 +151,20 @@
         {
             "q": "The initial angular velocity of an object is $10$ rad/sec, after $10$ seconds, the angular velocity becomes $20$ rad/sec. Find the angular acceleration of the object.",
             "options": [
-                "$1$ rad/s$^2$",
-                "$1$ rad/s",
-                "$10$ rad/s",
-                "$10$ rad/s$^2$"
+                "$1$ \\text{rad}/s^2$",
+                "$1 \\text{rad}/s$",
+                "$10 \\text{rad}/s$",
+                "$10 \\text{rad}/s^2$"
             ],
             "correct": 0
         },
         {
             "q": "A wheel of moment of inertia $0.40$ kg.m$^2$ is making $2100$ rotations per minute. The wheel is brought to stop in $2$ sec. The angular acceleration of the wheel is",
             "options": [
-                "$-35\\pi$ radian/s$^2$",
-                "$-55\\pi$ radian/s$^2$",
-                "$-110\\pi$ radian/s$^2$",
-                "$-220\\pi$ radian/s$^2$"
+                "$-35\\pi \\text{adian}/s^2$",
+                "$-55\\pi \\text{adian}/s^2$",
+                "$-110\\pi \\text{adian}/s^2$",
+                "$-220\\pi \\text{adian}/s^2$"
             ],
             "correct": 0
         },
@@ -221,10 +221,10 @@
         {
             "q": "A body of moment of inertia $160$ kg.m$^2$ is rotating with an angular velocity of $5$ rad/sec. Find the angular momentum of the body",
             "options": [
-                "$1600$ kg.m$^2$/sec",
-                "$800$ kg.m$^2$/sec",
-                "$600$ kg.m$^2$/sec",
-                "$32$ kg.m$^2$/sec"
+                "$1600 kg.m^2$/sec",
+                "$800 kg.m^2$/sec",
+                "$600 kg.m^2$/sec",
+                "$32 kg.m^2$/sec"
             ],
             "correct": 1
         },
@@ -261,10 +261,10 @@
         {
             "q": "A particle moves in the direction of the positive x-axis under the influence of a varying force $F = 0.2x$ N, where $x$ (in meters) is the distance of the particle from the origin. Find the work done on the particle by $F$ when it moves from $x = 0$ to $x = 10$ m",
             "options": [
-                "$0.2$ J",
-                "$5$ J",
-                "$10$ J",
-                "$20$ J"
+                "$0.2 J$",
+                "$5 J$",
+                "$10 J$",
+                "$20 J$"
             ],
             "correct": 2
         },
@@ -281,13 +281,14 @@
         {
             "q": "A body of mass $10$ kg is projected vertically upwards through a viscous liquid with an initial velocity of $18$ m/sec. It experiences a resisting force of $(3v$ N), $v$ is the speed in m/sec at any instant. Find the distance above its point of projection at which it comes instantaneously rest.",
             "options": [
-                "$12.2$ m",
-                "$6.8$ m",
-                "$5.2$ m",
-                "$3.4$ m"
+                "$12.2 m$",
+                "$6.8 m$",
+                "$5.2 m$",
+                "$3.4 m$"
             ],
             "correct": 0
         }
     ]
 
 }
+
