@@ -151,20 +151,20 @@
         {
             "q": "The initial angular velocity of an object is $10$ rad/sec, after $10$ seconds, the angular velocity becomes $20$ rad/sec. Find the angular acceleration of the object.",
             "options": [
-                "$1$ \\text{rad}/s^2$",
-                "$1 \\text{rad}/s$",
-                "$10 \\text{rad}/s$",
-                "$10 \\text{rad}/s^2$"
+                "$1$ &nbsp; rad/$s^2$",
+                "$1$ &nbsp; rad/$s$",
+                "$10$ &nbsp; rad/s",
+                "$10$ &nbsp; rad/$s^2$"
             ],
             "correct": 0
         },
         {
             "q": "A wheel of moment of inertia $0.40$ kg.m$^2$ is making $2100$ rotations per minute. The wheel is brought to stop in $2$ sec. The angular acceleration of the wheel is",
             "options": [
-                "$-35\\pi \\text{adian}/s^2$",
-                "$-55\\pi \\text{adian}/s^2$",
-                "$-110\\pi \\text{adian}/s^2$",
-                "$-220\\pi \\text{adian}/s^2$"
+                "$-35\\pi$ &nbsp; radian/$s^2$",
+                "$-55\\pi$ &nbsp; radian/$s^2$",
+                "$-110\\pi$ &nbsp; adian/$s^2$",
+                "$-220\\pi$ &nbsp; radian/$s^2$"
             ],
             "correct": 0
         },
@@ -291,5 +291,6 @@
     ]
 
 }
+
 
 
