@@ -15,10 +15,10 @@
             "q": "Find the magnitude and direction of the resultant $R$ of four concurrent forces of magnitudes: $2P, 4P$ in the vertical directions, $P, 3P$ in the horizontal directions, are acting at $O$ as shown in the opposite figure",
             "image": "exams/mechanics/toc/images/2023_q2.png",
             "options": [
-                "$5\\sqrt{2}P$, nbsp; acting at nbsp; $45^\\circ$ nbsp; (anticlockwise dir.) with respect to nbsp; $4P$ nbsp; force",
-                "$5P$, nbsp; acting at nbsp; $45^\\circ$ nbsp; (anticlockwise dir.) with respect to nbsp; $3P$ nbsp; force",
-                "$2\\sqrt{2}P$ nbsp; acting at nbsp; $45^\\circ$ nbsp; (anticlockwise dir.) with respect to nbsp; $3P$ nbsp; force",
-                "$3\\sqrt{2}P$ nbsp; acting at nbsp; $45^\\circ$ nbsp; (anticlockwise dir.) with respect to nbsp; $2P$ nbsp; force"
+                "$5\\sqrt{2}P$, &nbsp; acting at &nbsp; $45^\\circ$ &nbsp; (anticlockwise dir.) with respect to &nbsp; $4P$ &nbsp; force",
+                "$5P$, &nbsp; acting at &nbsp; $45^\\circ$ &nbsp; (anticlockwise dir.) with respect to &nbsp; $3P$ &nbsp; force",
+                "$2\\sqrt{2}P$ &nbsp; acting at &nbsp; $45^\\circ$ &nbsp; (anticlockwise dir.) with respect to &nbsp; $3P$ &nbsp; force",
+                "$3\\sqrt{2}P$ &nbsp; acting at &nbsp; $45^\\circ$ &nbsp; (anticlockwise dir.) with respect to &nbsp; $2P$ &nbsp; force"
             ],
             "correct": 2
         },
@@ -121,19 +121,19 @@
         {
             "q": "A particle revolves around a circle with a uniform angular velocity of $3$ rad/sec. What is the angular displacement of the particle in $6$ sec?",
             "options": [
-                "$1031$ nbsp; degrees",
-                "$3600$ nbsp; degrees",
-                "$1318$ nbsp; degrees",
-                "$1014$ nbsp; degrees"
+                "$1031$ &nbsp; degrees",
+                "$3600$ &nbsp; degrees",
+                "$1318$ &nbsp; degrees",
+                "$1014$ &nbsp; degrees"
             ],
             "correct": 0
         },
         {
             "q": "If the angular position of a rigid body changes with time as $\\theta = 4t^3 - 12t - 14$, then the angular velocity of the body at $t = 1$ sec is",
             "options": [
-                "$1$ nbsp; rad/sec",
-                "$-14$ nbsp; rad/sec",
-                "$14$ nbsp; rad/sec",
+                "$1$ &nbsp; rad/sec",
+                "$-14$ &nbsp; rad/sec",
+                "$14$ &nbsp; rad/sec",
                 "zero"
             ],
             "correct": 3
@@ -291,4 +291,5 @@
     ]
 
 }
+
 
