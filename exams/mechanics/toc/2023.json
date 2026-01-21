@@ -87,6 +87,7 @@
         },
         {
             "q": "$\\overline{AB}$ is a uniform beam, of length $2$ m and mass $4$ kg, has a mass of $3$ kg which is attached at one end and a mass of $1$ kg attached at the other end. Find the position of a support if the beam rests in a horizontal position. $S = ...$ m",
+            "image": "exams/mechanics/toc/images/2023_q9.png",
             "options": [
                 "$0.25$",
                 "$0.50$",
@@ -288,4 +289,5 @@
             "correct": 0
         }
     ]
+
 }
