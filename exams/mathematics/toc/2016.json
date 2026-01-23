@@ -109,7 +109,7 @@
                 "$f(4)$ does not exist",
                 "$f'(4) < 0$"
             ],
-            "correct": 3
+            "correct": 1
         },
         {
             "q": "Which of the following functions has exactly two local extreme on its domain?",
@@ -374,4 +374,5 @@
             "correct": 1
         }
     ]
+
 }
