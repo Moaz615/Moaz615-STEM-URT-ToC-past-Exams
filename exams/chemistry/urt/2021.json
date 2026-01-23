@@ -1,0 +1,276 @@
+{
+    "questions": [
+        {
+            "passage": "<div style='text-align: center'><h2>Passage I</h2></div>In 1864, Cato Maximilian Guldberg (1836–1902) and Peter Waage (1833–1900) postulated their <b>law of mass action</b>, which expresses, for any reaction, the relationship between the concentrations of the reactants and products presents at equilibrium. Suppose we have the general equilibrium equation:<br><div style='text-align: center'>$a A + b B \\rightleftharpoons d D + e E$</div><br>where A, B, D, and E are the chemical species involved and $a, b, d,$ and $e$ are their coefficients in the balanced chemical equation. According to the law of mass action, the equilibrium condition is described by the expression:<br><div style='text-align: center'>$K_c = \\frac{[D]^d [E]^e}{[A]^a [B]^b}$</div><br>We call this relationship the <b>equilibrium-constant expression</b> (or merely the <i>equilibrium expression</i>) for the reaction. The constant $K_c$, the <b>equilibrium constant</b>, is the numerical value obtained when we substitute molar equilibrium concentrations into the equilibrium-constant expression. The subscript $c$ on the $K$ indicates that concentrations expressed in molarity are used to evaluate the constant.<br><br>The numerator of the equilibrium-constant expression is the product of the concentrations of all substances on the product side of the equilibrium equation, each raised to a power equal to its coefficient in the balanced equation. The denominator is similarly derived from the reactant side of the equilibrium equation. Thus, for the <b>Haber process</b>,<br><div style='text-align: center'>$N_{2(g)} + 3 H_{2(g)} \\rightleftharpoons 2 NH_{3(g)}$</div><br>The equilibrium-constant expression is $K_c = \\frac{[NH_3]^2}{[N_2][H_2]^3}$.<br><br>The equilibrium-constant expression depends only on the stoichiometry of the reaction, not on its mechanism. In this way equilibrium-constant expressions are different from rate laws. The value of the equilibrium constant at any given temperature does not depend on the initial amounts of reactants and products. It also does not matter whether other substances are present, as long as they do not react with a reactant or a product. The value of $K_c$ depends only on the particular reaction and on the temperature. The law of mass action was discovered empirically and demonstrate that the equilibrium constant is independent of starting concentrations by examining a series of experiments involving dinitrogen tetroxide and nitrogen dioxide:<br><div style='text-align: center'>$N_2O_{4(g)} \\rightleftharpoons 2 NO_{2(g)}, K_c = \\frac{[NO_2]^2}{[N_2O_4]}$</div><br>We start with several sealed tubes containing different concentrations of $NO_2$ and $N_2O_4$. The tubes are kept at 100 °C until equilibrium is reached. We then analyze the mixtures and determine the equilibrium concentrations of $NO_2$ and $N_2O_4$, which are shown in Table (1). To evaluate $K_c$, we insert the equilibrium concentrations into the equilibrium constant.<br><br><div style='text-align: center'><b>TABLE 1 &nbsp; Initial and Equilibrium Concentrations of $N_2O_4(g)$ and $NO_2(g)$ at 100 °C</b></div><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th rowspan='2'>Experiment</th><th>Initial</th><th>Initial</th><th>Equilibrium</th><th>Equilibrium</th><th rowspan='2'>$K_c$</th></tr><tr><th>$[N_2O_4] (M)$</th><th>$[NO_2] (M)$</th><th>$[N_2O_4] (M)$</th><th>$[NO_2] (M)$</th></tr><tr><td>1</td><td>0.0</td><td>0.0200</td><td>0.00140</td><td>0.0172</td><td>0.211</td></tr><tr><td>2</td><td>0.0</td><td>0.0300</td><td>0.00280</td><td>0.0243</td><td>0.211</td></tr><tr><td>3</td><td>0.0</td><td>0.0400</td><td>0.00452</td><td>0.0310</td><td>0.213</td></tr><tr><td>4</td><td>0.0200</td><td>0.0</td><td>0.00452</td><td>0.0310</td><td>0.213</td></tr></table>"
+        },
+        {
+            "q": "According to the passage: For the reaction $$2SO_{2}(g) + O_{2}(g) \\rightleftharpoons 2SO_{3}(g)$$ which of the following is the correct equilibrium-constant expression?",
+            "options": [
+                "$K_{c} = \\frac{[SO_{2}]^{2}[O_{2}]}{[SO_{3}]^{2}}$",
+                "$K_{c} = \\frac{2[SO_{2}][O_{2}]}{2[SO_{3}]}$",
+                "$K_{c} = \\frac{[SO_{3}]^{2}}{[SO_{2}]^{2}[O_{2}]}$",
+                "$K_{c} = \\frac{2[SO_{3}]}{2[SO_{2}]^{2}[O_{2}]}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Based on the passage, the value of the equilibrium constant depends on......",
+            "options": [
+                "The initial amounts of reactants.",
+                "Whether other substances are present.",
+                "The particular reaction and on the temperature.",
+                "The initial amounts of products."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "According the table (1), which Experiment shows that equilibrium can be achieved beginning with $N_{2}O_{4}$ rather than with $NO_{2}$?",
+            "options": [
+                "Experiment 1.",
+                "Experiment 2.",
+                "Experiment 3.",
+                "Experiment 4."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The equilibrium constant for the reaction $$N_{2}O_{4}(g) \\rightleftharpoons 2NO_{2}(g)$$ at $2^{\\circ}C$ is $K_{c} = 2.0$. If each yellow sphere represents 1 mol of $N_{2}O_{4}$ and each brown sphere represents 1 mol of $NO_{2}$, which of the following 1.0 L containers represents the equilibrium mixture at $2^{\\circ}C$?",
+            "options": [
+                "<img src='exams/chemistry/urt/images/2021_q4_a.png' alt='Graph A'/>",
+                "<img src='exams/chemistry/urt/images/2021_q4_b.png' alt='Graph B'/>",
+                "<img src='exams/chemistry/urt/images/2021_q4_c.png' alt='Graph C'/>",
+                "<img src='exams/chemistry/urt/images/2021_q4_d.png' alt='Graph D'/>"
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<div style='text-align: center'><h2>Passage II</h2></div><b>Heat of fusion</b> is the amount of heat energy required to change the state of matter of a substance from a <b>solid</b> to a <b>liquid</b>. Units are commonly <b>J/g</b>, <b>cal/g</b>, or <b>kJ/mol</b> for molar heat of fusion.<br><br>The <b>molar heat of fusion</b> ($\\Delta H_{fus}$) is the amount of heat necessary to melt 1.00 mole of a substance at its melting point at a constant pressure. For water, this value is 6.02 kJ/mol.<br><br>The formula to calculate heat energy is: <div style='text-align: center'>$q = m \\cdot \\Delta H_{fus}$</div><br>The following table lists data for several elements at 1 atm:<br><br><table><tr><th>Element</th><th>Melting point (°C)</th><th>Boiling point (°C)</th><th>$\\Delta H_{fus}$ (kJ/mol)</th></tr><tr><td>Zinc</td><td>419.73</td><td>907</td><td>7.35</td></tr><tr><td>Magnesium</td><td>649</td><td>1090</td><td>8.7</td></tr><tr><td>Aluminum</td><td>660.25</td><td>2519</td><td>10.7</td></tr><tr><td>Copper</td><td>1084.6</td><td>2562</td><td>13.1</td></tr></table>"
+        },
+        {
+            "q": "According to the passage, $\\Delta H_{fus}$ of water:",
+            "options": [
+                "is less than &nbsp; $\\Delta H_{fus}$ &nbsp; of Zinc.",
+                "is greater than &nbsp; $\\Delta H_{fus}$ &nbsp; of Magnesium.",
+                "is greater than &nbsp; $\\Delta H_{fus}$ &nbsp; of Copper.",
+                "is greater than &nbsp; $\\Delta H_{fus}$ &nbsp; of Aluminum."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "According to the passage, if the heat of fusion of water is 80 Cal/g, the amount of heat energy required to change 15.0 grams of ice at 0°C to 15.0 grams of water at 0°C is.....",
+            "options": [
+                "5.300 Cal.",
+                "66.66 Cal.",
+                "1200 Cal.",
+                "2400 Cal."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The energy required to melt 2.00 mole of Copper at 1084.6°C and constant pressure of 1 atm is:",
+            "options": [
+                "21.4 kJ",
+                "26.2 kJ",
+                "5038 kJ",
+                "2.562 kJ"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The boiling point of Cadmium is 767°C. If Cadmium follows the general pattern of the other elements in the table, its heat of fusion would be:",
+            "options": [
+                "between 6.0 and 7.0 kJ/mol.",
+                "between 7.0 and 9.0 kJ/mol.",
+                "between 9.0 and 11.0 kJ/mol.",
+                "between 11.0 and 13.0 kJ/mol."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Molar heat of fusion is directly related to the strength of the forces that hold molecules together; strong forces make it difficult for molecules to break away into the liquid or gaseous phase. Data in the table support the conclusion that those forces are stronger in:",
+            "options": [
+                "Zinc than in magnesium.",
+                "Magnesium than in copper.",
+                "Copper than in zinc.",
+                "Aluminum than in copper."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "It was hypothesized that the heat of fusion will increase as the boiling point increases. Based on the data in the table, which of the following pairs of elements support(s) this hypothesis?<br>I. copper and Aluminum<br>II. Water and Zinc<br>III. magnesium and copper",
+            "options": [
+                "I only",
+                "III only",
+                "II and III only",
+                "I, II, and III"
+            ],
+            "correct": 3
+        },
+        {
+            "passage": "<div style='text-align: center'><h2>Passage III</h2></div>Radioactive decay is the process in which a radioactive atom spontaneously gives off radiation in the form of energy or particles to reach a more stable state. Some radionuclides go through a series of transformations before they reach a stable state. For example, Uranium-238 ultimately transforms into a stable atom of Lead. But in the process, several types of radioactive atoms are generated. This is called a decay chain. When Uranium-238 decays, it produces several isotopes. As shown in Figure (1).<br><br>{{img0}}<div style='text-align: center'><b>Figure (1) Uranium-238 decays</b></div><br>The radioactive isotope (chemical element) spontaneously decays into another element. The unstable nucleus disintegrates by emitting alpha or beta particles, or gamma rays. This process changes the composition of the nucleus and continues to take place until a stable nucleus is reached. <i>Half-life</i> refers to the amount of time it takes for half (50%) of the atoms in a sample to decay. Figures (2) and (3) show the decay of Radon 222 and Mercury 206.<br><br>{{img1}}<div style='text-align: center'><b>Figure (2) the decay from Radon 222 to Polonium 218 and other decay product</b></div><br>{{img2}}<div style='text-align: center'><b>Figure (3) the decay from Mercury 206 to Thallium 206 to Lead 206.</b></div><br><div style='text-align: center'><u><b>Table (1)</b></u></div><div style='text-align: center'>decay products and associated energy in MeV, million electron volts, and the type of particle emitted from the decay.</div><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th>Isotope</th><th>Decay product</th><th>Energy (MeV)</th><th>Particle emitted</th></tr><tr><td>Radon 222</td><td>Polonium 218</td><td>5.590</td><td>Alpha</td></tr><tr><td>Lead 210</td><td>Mercury 206</td><td>3.792</td><td>Alpha</td></tr><tr><td>Mercury 206</td><td>Thallium 206</td><td>1.308</td><td>Beta</td></tr><tr><td>Thallium 206</td><td>Lead 206</td><td>1.533</td><td>Beta</td></tr></table>",
+            "images": [
+                "exams/chemistry/urt/images/2021_p3_1.png",
+                "exams/chemistry/urt/images/2021_p3_2.png",
+                "exams/chemistry/urt/images/2021_p3_3.png"
+            ]
+        },
+        {
+            "q": "According to Figure (1), Uranium-238 decays to lead-207 through a series of nuclear reactions. Only $\\alpha$ particles and $\\beta$ particles are emitted. How many $\\alpha$ particles are emitted?",
+            "options": [
+                "3",
+                "5",
+                "7",
+                "8"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "According to Figure (2), what is the approximate half-life of Radon 222?",
+            "options": [
+                "2 days",
+                "4 days",
+                "8 days",
+                "10 days"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Based on Table (1), what is the relationship between decay energy and the type of particle emitted?",
+            "options": [
+                "Alpha particles tend to have lower decay energies.",
+                "Alpha particles tend to have higher decay energies.",
+                "Beta particles tend to have higher decay energies.",
+                "There is no apparent relationship between type of particle and decay energy"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "According to the data in Table (1), When Radium-225 decays into Actinium 225, the decay energy is 1.42 MeV., the decay particle type is most likely:",
+            "options": [
+                "An alpha particle.",
+                "A beta particle.",
+                "Similar to that of Radon 222.",
+                "Extremely stable."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "According to Figure (3), approximately when do Mercury 206 and lead 206 have the same percent of atoms remaining?",
+            "options": [
+                "In 3 min",
+                "In 7 min",
+                "In 8 min.",
+                "In 10 min"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "What statement best explains the meaning of the shape of the Radon 222 curve in Figure (2) and the Mercury 206 curve in Figure (3)?",
+            "options": [
+                "The rate of decay is erratic.",
+                "The rate of decay starts off slowly and then speeds up.",
+                "The rate of decay occurs very quickly at first and slows as the number of atoms is reduced.",
+                "The rate of decay occurs at a fairly steady rate over time."
+            ],
+            "correct": 3
+        },
+        {
+            "passage": "<div style='text-align: center'><h2>Passage IV</h2></div>The extent to which one substance dissolves in another depends on the nature of both substances. It also depends on temperature and, at least for gases, on pressure. The natural tendency of substances to mix and the various interactions among solute and solvent particles are all involved in determining solubilities. Nevertheless, insight into variations in solubility can often be gained by focusing on the interaction between the solute and solvent. The data in Table (1) show that the attractive forces between the gas molecules and solvent molecules are mainly dispersion forces, which increase with increasing size and molecular mass. Thus, the solubilities of gases in water increase as the attraction between solute (gas) and solvent (water) increases. In general, when other factors are comparable, the stronger the attractions between solute and solvent molecules, the greater the solubility of the solute in that solvent. Because of favorable dipole-dipole attractions between polar solvent molecules and polar solute molecules, <i>polar liquids tend to dissolve in polar solvents</i>. Water is both polar and able to form hydrogen bonds. Thus, polar molecules, especially those that can form hydrogen bonds with water molecules, tend to be soluble in water.<br><br><div style='text-align: center'><b>TABLE 1 Solubilities of Gases in Water at 20°C, at 101.3 kPa Gas Pressure.</b></div><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th>Gas</th><th>Molar Mass (g/mol)</th><th>Solubility (M)</th></tr><tr><td>$N_2$</td><td>28.0</td><td>$0.69 \\times 10^{-3}$</td></tr><tr><td>$O_2$</td><td>32.0</td><td>$1.38 \\times 10^{-3}$</td></tr><tr><td>Ar</td><td>39.9</td><td>$1.50 \\times 10^{-3}$</td></tr><tr><td>Kr</td><td>83.8</td><td>$2.79 \\times 10^{-3}$</td></tr></table><br>Liquids that mix in all proportions, such as acetone and water, are miscible, whereas those that do not dissolve in one another are immiscible. Gasoline, which is a mixture of hydrocarbons, is immiscible with water. The attraction between the polar water molecules and the nonpolar hydrocarbon molecules is not sufficiently strong to allow the formation of a solution. Many organic compounds have polar groups attached to a nonpolar framework of carbon and hydrogen atoms. Table (2) all contain the polar (OH) group. Organic compounds with this molecular feature are called <i>alcohols</i>. One way to enhance the solubility of a substance in water is to increase the number of polar groups the substance contains. For example, increasing the number of (OH) groups in a solute increases the extent of hydrogen bonding between that solute and water, thereby increasing solubility. Over years of study, examination of different solvent-solute combinations has led to an important generalization: \"like dissolves like.\"<br><br><div style='text-align: center'><b>TABLE (2) Solubilities of Some Alcohols in Water and in Hexane*</b></div><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><th>Alcohol</th><th>Solubility in $H_2O$</th><th>Solubility in $C_6H_{14}$</th></tr><tr><td>$CH_3OH$ (methanol)</td><td>∞</td><td>0.12</td></tr><tr><td>$CH_3CH_2OH$ (ethanol)</td><td>∞</td><td>∞</td></tr><tr><td>$CH_3CH_2CH_2OH$ (propanol)</td><td>∞</td><td>∞</td></tr><tr><td>$CH_3CH_2CH_2CH_2OH$ (butanol)</td><td>0.11</td><td>∞</td></tr><tr><td>$CH_3CH_2CH_2CH_2CH_2OH$ (pentanol)</td><td>0.030</td><td>∞</td></tr><tr><td>$CH_3CH_2CH_2CH_2CH_2CH_2OH$ (hexanol)</td><td>0.0058</td><td>∞</td></tr></table><br>Solubility in $H_2O$: expressed in mol alcohol/100 g solvent at 20°C. The infinity symbol (∞) indicates that the alcohol is completely miscible with the solvent. The solubilities of solids and liquids are not appreciably affected by pressure, whereas the solubility of a gas in any solvent is increased as the partial pressure of the gas above the solvent increases. We can understand the effect of pressure on gas solubility by considering Figure (1).<br><br>{{img0}}<div style='text-align: center'><b>Figure (1) Effect of pressure on gas solubility</b></div><br>The relationship between pressure and gas solubility is expressed by <b>Henry’s law</b>: $S_g = kP_g$ where, $S_g$ is the solubility of the gas in the solvent (usually expressed as molarity), $P_g$ is the partial pressure of the gas over the solution, and $k$ is a proportionality constant known as the <i>Henry’s law constant</i>. The value of this constant depends on the solute, solvent, and temperature. The temperature of solution affects in the solubility of most solid and gaseous solutes in water as shown in Figure (2) and Figure (3).<br><br>{{img1}}<div style='text-align: center'><b>Figure (2) Solubilities of some ionic compounds in water as a function of temperature.</b></div><br>{{img2}}<div style='text-align: center'><b>Figure (3) Solubilities of four gases in water as a function of temperature.</b></div>",
+            "images": [
+                "exams/chemistry/urt/images/2021_p4_1.png",
+                "exams/chemistry/urt/images/2021_p4_2.png",
+                "exams/chemistry/urt/images/2021_p4_3.png"
+            ]
+        },
+        {
+            "q": "According to Table (1) the solubilities of gases in water at 20°C, at 101.3 $KPa$ decrease by....",
+            "options": [
+                "Increase the molar mass of gas.",
+                "Decrease the molar mass of gas.",
+                "Increase the size of gas.",
+                "Decrease the size of gas."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "According to Table (2), arrange the following substances in order of increasing solubility in water:\n$C_{5}H_{12}$ - $C_{5}H_{11}OH$ - $C_{5}H_{10}(OH)_{2}$ - $C_{5}H_{11}Cl$.",
+            "options": [
+                "$C_{5}H_{11}OH < C_{5}H_{10}(OH)_{2} < C_{5}H_{12} < C_{5}H_{11}Cl$",
+                "$C_{5}H_{11}Cl < C_{5}H_{11}OH < C_{5}H_{10}(OH)_{2} < C_{5}H_{12}$",
+                "$C_{5}H_{10}(OH)_{2} < C_{5}H_{11}OH < C_{5}H_{11}Cl < C_{5}H_{12}$",
+                "$C_{5}H_{12} < C_{5}H_{11}Cl < C_{5}H_{11}OH < C_{5}H_{10}(OH)_{2}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "In Figure (1), if the pressure of a gas over the solution is doubled, the concentration of a gas in the solution would .........",
+            "options": [
+                "Same without any change.",
+                "Half.",
+                "Double.",
+                "Triple."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Calculate the concentration of $CO_{2}$ in a soft drink that is bottled with a partial pressure of $CO_{2}$ of 0.41 $MPa$ over the liquid at 25°C, the Henry's law constant for $CO_{2}$ in water at this temperature is $3.4 \\times 10^{-4}$ mol/m³ . Pa",
+            "options": [
+                "0.14 M",
+                "0.28 M",
+                "0.41 M",
+                "0.82 M"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "You double the partial pressure of a gas over a liquid at constant temperature. Which of these statements is then true?",
+            "options": [
+                "The Henry's law constant is doubled.",
+                "The Henry's law constant is decreased by half.",
+                "There are half as many gas molecules in the liquid.",
+                "There are twice as many gas molecules in the liquid."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "According to Figure(2), at temperature 50°C, the more soluble ionic compound is......",
+            "options": [
+                "$K_{2}Cr_{2}O_{7}$",
+                "KCl",
+                "$Pb(NO_{3})_{2}$",
+                "$NaNO_{3}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In Figure (3), between which two gases would you expect ($N_{2}$) to fit on this graph?",
+            "options": [
+                "Between &nbsp; $CH_{4}$ &nbsp; and &nbsp; $O_{2}$ ",
+                "Between &nbsp; $O_{2}$ &nbsp; and &nbsp; $CO$",
+                "Between &nbsp; $CO$ &nbsp; and &nbsp; $He$",
+                "Between &nbsp; $CH_{4}$ &nbsp; and &nbsp; $CO$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "According to the passage, predict whether each of the following substances is more likely to dissolve in the nonpolar solvent carbon tetrachloride ($CCl_{4}$) or in water ($H_{2}O$):\n$C_{7}H_{16}, Na_{2}SO_{4}, HCl$ and $I_{2}$.",
+            "options": [
+                "$I_{2}$ &nbsp; and &nbsp; $C_{7}H_{16}$ &nbsp; would be more soluble in &nbsp; $CCl_{4}$, whereas water would be better for &nbsp; $Na_{2}SO_{4}$ &nbsp; and &nbsp; $HCl$.",
+                "$C_{7}H_{16}$ &nbsp; and &nbsp; $HCl$ &nbsp; would be more soluble in &nbsp; $CCl_{4}$, whereas water would be better for &nbsp; $Na_{2}SO_{4}$ &nbsp; and &nbsp; $I_{2}$.",
+                "$HCl$ &nbsp; and &nbsp; $Na_{2}SO_{4}$ &nbsp; would be more soluble in &nbsp; $CCl_{4}$, whereas water would be better for &nbsp; $C_{7}H_{16}$ &nbsp; and &nbsp; $I_{2}$",
+                "$HCl$ &nbsp; and &nbsp; $I_{2}$ &nbsp; would be more soluble in &nbsp; $CCl_{4}$, whereas water would be better for &nbsp; $Na_{2}SO_{4}$ &nbsp; and &nbsp; $C_{7}H_{16}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "From figures (2) and (3), you can conclude that:",
+            "options": [
+                "The solubility of most solid solutes in water increases as the temperature increases and the solubility of gas solutes in water increases as the temperature increases",
+                "The solubility of most solid solutes in water decreases as the temperature increases and the solubility of gas solutes in water decreases as the temperature increases",
+                "The solubility of most solid solutes in water increases as the temperature increases, but the solubility of gas solutes in water doesn't change as the temperature increases",
+                "The solubility of most solid solutes in water increases as the temperature increases, but the solubility of gas solutes in water decreases as the temperature increases"
+            ],
+            "correct": 3
+        }
+    ]
+}
