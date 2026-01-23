@@ -44,7 +44,7 @@
         {
             "q": "If $C$ is the set of complex numbers, $z \\in C$, which of the following statements is true?",
             "options": [
-                "$z-\\overline{z}$ is real",
+                "$z-\\overline{z}$&nbsp;is real",
                 "$|z-1|=\\{\\begin{matrix}z-1 & \\text{if } z \\ge 1 \\\\ -z+1 & \\text{if } z < 1 \\end{matrix}$",
                 "$\\arg(z)+\\arg(\\overline{z})=\\pi$",
                 "$|z|=|\\overline{z}|$"
@@ -54,8 +54,8 @@
         {
             "q": "If $\\mathbb{C}$ is the set of complex numbers, $z = \\frac{(a+b)+i(a-b)}{(a-b)+i(a+b)}$, then $|z| =$",
             "options": [
-                "a^2 + b^2",
-                "a^2 - b^2",
+                "$a^2 + b^2$",
+                "$a^2 - b^2$",
                 "2ab",
                 "1"
             ],
@@ -74,10 +74,10 @@
         {
             "q": "If $z_1 = 5 - i$, and $z_2 = a + bi$, are complex numbers such that $a, b \\in \\mathbb{R}$, we can say that the product $z_1 \\cdot z_2$ is real",
             "options":[
-                "if and only if $a = b = 0$",
-                "if $b = 5a$",
-                "if $a = 5b$",
-                "for all values of $a$ and $b$"
+                "if and only if&nbsp;$a = b = 0$",
+                "if&nbsp;$b = 5a$",
+                "if&nbsp;$a = 5b$",
+                "for all values of&nbsp;$a$&nbsp;and&nbsp;$b$"
             ],
             "correct": 2
         },
@@ -104,9 +104,9 @@
         {
             "q": "If $f$ is a continuous, decreasing function on $[0, 10]$ with a critical point at $(4, 2)$, which of the following statements must be false?",
             "options": [
-                "$f(10)$ is an absolute minimum of $f$ on $[0, 10]$",
-                "$f(4)$ is neither a relative maximum nor a relative minimum.",
-                "$f(4)$ does not exist",
+                "$f(10)$&nbsp;is an absolute minimum of&nbsp;$f$&nbsp;on&nbsp;$[0, 10]$",
+                "$f(4)$&nbsp;is neither a relative maximum nor a relative minimum.",
+                "$f(4)$&nbsp;does not exist",
                 "$f'(4) < 0$"
             ],
             "correct": 1
@@ -134,20 +134,20 @@
         {
             "q": "The x - coordinates of the points of inflection of the curve $y = x^5 - 5x^4 + 3x + 7$ is / are:",
             "options": [
-                "$0$ only",
-                "$3$ only",
-                "$0$ and $3$",
-                "$0$ and $-3$"
+                "$0$&nbsp;only",
+                "$3$&nbsp;only",
+                "$0$&nbsp;and&nbsp;$3$",
+                "$0$&nbsp;and&nbsp;$-3$"
             ],
             "correct": 1
         },
         {
             "q": "If $g$ is a differentiable function such that $g(x) < 0$ for all real numbers $x$ and $f$ is a differentiable function such that $f^{\\prime} = (x^2 - 9) \\cdot g(x)$, which of the following sentences is true?",
             "options": [
-                "$f$ has a relative maximum at $x = -3$ and a relative minimum at $x = 3$",
-                "$f$ has a relative minimum at $x = -3$ and a relative maximum at $x = 3$",
-                "$f$ has relative minima at $x = -3$ and at $x = 3$",
-                "$f$ has relative maxima at $x = -3$ and at $x = 3$"
+                "$f$&nbsp;has a relative maximum at&nbsp;$x = -3$&nbsp;and a relative minimum at&nbsp;$x = 3$",
+                "$f$&nbsp;has a relative minimum at&nbsp;$x = -3$&nbsp;and a relative maximum at&nbsp;$x = 3$",
+                "$f$&nbsp;has relative minima at&nbsp;$x = -3$&nbsp;and at&nbsp;$x = 3$",
+                "$f$&nbsp;has relative maxima at&nbsp;$x = -3$&nbsp;and at&nbsp;$x = 3$"
             ],
             "correct": 0
         },
@@ -262,12 +262,12 @@
             "correct": 0
         },
         {
-            "q": "If we are trying to evaluate the integral $\\int e^{\\cos x} \\sin x dx$, which substitution would be most appropriate?<br>$I$. $u = \\cos x$<br>$II$. $u = \\sin x$<br>$III$. $u = e^{\\cos x}$",
+            "q": "If we are trying to evaluate the integral $\\int e^{\\cos x} \\sin x dx$, which substitution would be most appropriate?<br>$I$. $u = \cos x$<br>$II$. $u = \sin x$<br>$III$. $u = e^{\cos x}$",
             "options": [
-                "$I$ only",
-                "$II$ only",
-                "$I$ and $II$ only",
-                "$I$ and $III$ only"
+                "$I$&nbsp;only",
+                "$II$&nbsp;only",
+                "$I$&nbsp;and&nbsp;$II$&nbsp;only",
+                "$I$&nbsp;and&nbsp;$III$&nbsp;only"
             ],
             "correct": 3
         },
@@ -374,5 +374,4 @@
             "correct": 1
         }
     ]
-
 }
