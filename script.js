@@ -4,10 +4,10 @@ let currentQuestionIndex = 0;
 let timerInterval = null;
 let timerSeconds = 0;
 let isPaused = false;
-let examState = { answers: {}, startTime: null, elapsedTime: 0, completed: false };
+let examState = { answers: {}, marked: {}, startTime: null, elapsedTime: 0, completed: false };
 
 function initTheme() {
-    const savedTheme = localStorage.getItem('theme') || 'dark';
+    const savedTheme = localStorage.getItem('theme') || 'light';
     const themeIcon = document.getElementById('theme-icon');
 
     document.documentElement.setAttribute('data-theme', savedTheme);
@@ -26,6 +26,8 @@ function updateThemeIcon(icon, theme) {
     } else {
         icon.innerHTML = '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>';
     }
+
+    renderSidebar();
 }
 
 function toggleTheme() {
@@ -38,6 +40,8 @@ function toggleTheme() {
     if (themeIcon) {
         updateThemeIcon(themeIcon, newTheme);
     }
+
+    renderSidebar();
 }
 
 const routes = {
@@ -59,7 +63,7 @@ function clearAllExamStates() {
             localStorage.removeItem(key);
         }
     });
-    examState = { answers: {}, startTime: null, elapsedTime: 0, completed: false };
+    examState = { answers: {}, marked: {}, startTime: null, elapsedTime: 0, completed: false };
 }
 
 function resetCurrentExam() {
@@ -79,21 +83,35 @@ function navigateTo(stepName, pushState = true, resetExam = false) {
     document.querySelectorAll(".step-section").forEach(s => s.classList.remove("active"));
     document.getElementById(`step-${stepNumber}`).classList.add("active");
 
+    if (stepName !== 'exam' && timerInterval) {
+        clearInterval(timerInterval);
+        timerInterval = null;
+    }
+
     if (stepName === 'home') {
         clearAllExamStates();
-        if (timerInterval) {
-            clearInterval(timerInterval);
-        }
     }
 
     if (resetExam && stepName !== 'exam' && stepName !== 'results' && currentExamData) {
         resetCurrentExam();
     }
 
+    if (stepName === 'exam') {
+        document.body.classList.add('exam-mode');
+    } else {
+        document.body.classList.remove('exam-mode');
+        const sb = document.getElementById('exam-sidebar');
+        if (sb) sb.classList.remove('open');
+        const overlay = document.querySelector('.sidebar-overlay');
+        if (overlay) overlay.classList.remove('active');
+    }
+
     if (pushState) {
         const url = stepName === 'home' ? window.location.pathname : `?step=${stepName}`;
         history.pushState({ step: stepName }, "", url);
     }
+
+    renderSidebar();
 }
 
 window.onpopstate = function (event) {
@@ -102,6 +120,8 @@ window.onpopstate = function (event) {
     } else {
         navigateTo('home', false);
     }
+
+    renderSidebar();
 };
 
 function setSession(key, val) {
@@ -117,6 +137,8 @@ function setSession(key, val) {
         }
         navigateTo(nextStep);
     }
+
+    renderSidebar();
 }
 
 async function checkExamAvailability(year) {
@@ -173,24 +195,28 @@ async function renderYearButtons() {
 
 function saveExamState() {
     if (!currentExamData) return;
-    const questions = getQuestionList();
-    examState.answers = {};
-    questions.forEach((q, i) => {
-        const selected = document.querySelector(`input[name="q${i}"]:checked`);
-        if (selected) examState.answers[i] = Number(selected.value);
-    });
+
     if (session.mode === 'full') {
+        const questions = getQuestionList();
+        examState.answers = {};
+        questions.forEach((q, i) => {
+            const selected = document.querySelector(`input[name="q${i}"]:checked`);
+            if (selected) examState.answers[i] = Number(selected.value);
+        });
+    }
+
+    if (session.mode === 'full' && timerSeconds > 0) {
         examState.elapsedTime = (getExamDuration() * 60) - timerSeconds;
         examState.startTime = Date.now() - (examState.elapsedTime * 1000);
     }
-    const stateKey = `exam_state_${session.subject}_${session.type}_${session.year}`;
+    const stateKey = `exam_state_${session.subject}_${session.type}_${session.year}_${session.mode}`;
     localStorage.setItem(stateKey, JSON.stringify(examState));
 }
 
 function loadExamState() {
     if (!currentExamData) return false;
 
-    const stateKey = `exam_state_${session.subject}_${session.type}_${session.year}`;
+    const stateKey = `exam_state_${session.subject}_${session.type}_${session.year}_${session.mode}`;
     const saved = localStorage.getItem(stateKey);
 
     if (saved) {
@@ -205,9 +231,9 @@ function loadExamState() {
 }
 
 function clearExamState() {
-    const stateKey = `exam_state_${session.subject}_${session.type}_${session.year}`;
+    const stateKey = `exam_state_${session.subject}_${session.type}_${session.year}_${session.mode}`;
     localStorage.removeItem(stateKey);
-    examState = { answers: {}, startTime: null, elapsedTime: 0, completed: false };
+    examState = { answers: {}, marked: {}, startTime: null, elapsedTime: 0, completed: false };
 }
 
 function restoreExamState() {
@@ -237,6 +263,8 @@ function restoreExamState() {
             label.style.pointerEvents = 'none';
         });
     }
+
+    renderSidebar();
 }
 
 function startTimer() {
@@ -280,6 +308,8 @@ function startTimer() {
             }
         }, 1000);
     }
+
+    renderSidebar();
 }
 
 function getExamDuration() {
@@ -307,6 +337,8 @@ function updateTimerDisplay() {
         timerElement.style.color = 'var(--primary)';
         timerElement.style.animation = 'none';
     }
+
+    renderSidebar();
 }
 
 function updateProgressBar() {
@@ -426,12 +458,9 @@ async function startExam(year) {
         currentExamData = await res.json();
         currentQuestionIndex = 0;
 
+        examState = { answers: {}, marked: {}, startTime: null, elapsedTime: 0, completed: false };
+
         const hasExistingState = loadExamState();
-
-        if (!hasExistingState) {
-            examState = { answers: {}, startTime: null, elapsedTime: 0, completed: false };
-        }
-
         renderExam();
         navigateTo('exam');
         if (session.mode === 'full' && !examState.completed) {
@@ -441,6 +470,8 @@ async function startExam(year) {
         console.error('Failed to load exam data:', err);
         alert("Exam data could not be loaded!");
     }
+
+    renderSidebar();
 }
 
 function getImagesHtml(q, inReview = false) {
@@ -486,6 +517,7 @@ function renderExam() {
         questionNav.style.display = 'none';
         submitBtn.style.display = isCompleted ? 'none' : 'inline-block';
         questionControls.style.display = 'none';
+
         renderFullExam();
     } else {
         timerContainer.style.display = 'none';
@@ -494,6 +526,8 @@ function renderExam() {
         questionControls.style.display = 'flex';
         renderQuestionByQuestion();
     }
+
+    renderSidebar();
 
     if (window.MathJax) MathJax.typesetPromise();
 }
@@ -521,8 +555,18 @@ function renderFullExam() {
         } else if (item.q) {
             const disabledAttr = isCompleted ? 'disabled' : '';
             html += `
-            <div class="question-card">
-                <p class="question-text"><strong>Q${qCount + 1}:</strong> ${item.q}</p>
+            <div class="question-card" id="q-card-${qCount}">
+                <div class="question-header-row">
+                    <div class="question-text"><strong>Q${qCount + 1}:</strong> ${item.q}</div>
+                    <button class="mark-btn-small ${examState.marked[qCount] ? 'marked' : ''}" 
+                            onclick="toggleQuestionMark(${qCount})" 
+                            id="mark-btn-${qCount}"
+                            title="Mark for Review">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="${examState.marked[qCount] ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                        </svg>
+                    </button>
+                </div>
                 ${getImagesHtml(item, false)}
                 <div class="options-container">
                     ${item.options.map((opt, idx) => `
@@ -597,8 +641,18 @@ function renderQuestionByQuestion() {
         html += `<div class="passage-box">${formatPassage(activePassageObj)}</div>`;
     }
     html += `
-    <div class="question-card">
-        <p class="question-text"><strong>Q${currentQuestionIndex + 1}:</strong> ${q.q}</p>
+    <div class="question-card" id="q-card-${currentQuestionIndex}">
+        <div class="question-header-row">
+        <div class="question-text"><strong>Q${currentQuestionIndex + 1}:</strong> ${q.q}</div>
+            <button class="mark-btn-small ${examState.marked[currentQuestionIndex] ? 'marked' : ''}" 
+                    onclick="toggleQuestionMark(${currentQuestionIndex})" 
+                    id="mark-btn-${currentQuestionIndex}"
+                    title="Mark for Review">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="${examState.marked[currentQuestionIndex] ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2">
+                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+            </button>
+        </div>
         ${getImagesHtml(q, false)}
         <div class="options-container">
             ${q.options.map((opt, idx) => `
@@ -637,6 +691,10 @@ function renderQuestionByQuestion() {
     document.getElementById('prev-question-btn').disabled = currentQuestionIndex === 0;
     document.getElementById('next-question-btn').textContent = currentQuestionIndex === totalQuestions - 1 ? 'Finish' : 'Next';
     if (window.MathJax) MathJax.typesetPromise();
+
+    updateSidebarUI();
+
+
 }
 
 function checkAnswer() {
@@ -647,6 +705,7 @@ function checkAnswer() {
     const isCorrect = userIndex === q.correct;
 
     examState.answers[currentQuestionIndex] = userIndex;
+    saveExamState();
 
     const allLabels = document.querySelectorAll('.option-label');
     const selectedLabel = selected.parentElement;
@@ -654,6 +713,8 @@ function checkAnswer() {
     selectedLabel.classList.add(isCorrect ? 'correct' : 'incorrect');
     correctLabel.classList.add('correct-answer');
     document.querySelectorAll('input[name="current-question"]').forEach(input => input.disabled = true);
+
+    updateSidebarUI();
 }
 
 function nextQuestion() {
@@ -664,6 +725,8 @@ function nextQuestion() {
     } else {
         processResults();
     }
+
+    renderSidebar();
 }
 
 function previousQuestion() {
@@ -672,14 +735,17 @@ function previousQuestion() {
         renderQuestionByQuestion();
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
+
+    renderSidebar();
 }
 
 function saveExamResult(subject, type, year, score, total, timeTaken = null) {
-    const resultKey = `exam_result_${subject}_${type}_${year}`;
+    const resultKey = `exam_result_${subject}_${type}_${year}_${session.mode}`;
     const percentage = Math.round((score / total) * 100);
     const timestamp = new Date().toISOString();
 
-    const existingResult = getExamResult(subject, type, year);
+    const saved = localStorage.getItem(resultKey);
+    const existingResult = saved ? JSON.parse(saved) : null;
     const attempts = existingResult ? (existingResult.attempts || 1) + 1 : 1;
     const bestScore = existingResult ? Math.max(existingResult.bestScore || existingResult.score, score) : score;
     const bestPercentage = existingResult ? Math.max(existingResult.bestPercentage || existingResult.percentage, percentage) : percentage;
@@ -718,9 +784,19 @@ function saveExamResult(subject, type, year, score, total, timeTaken = null) {
 }
 
 function getExamResult(subject, type, year) {
-    const resultKey = `exam_result_${subject}_${type}_${year}`;
-    const saved = localStorage.getItem(resultKey);
-    return saved ? JSON.parse(saved) : null;
+    const fullKey = `exam_result_${subject}_${type}_${year}_full`;
+    const qbyqKey = `exam_result_${subject}_${type}_${year}_question`;
+
+    const fullSaved = localStorage.getItem(fullKey);
+    const qbyqSaved = localStorage.getItem(qbyqKey);
+
+    const fullRes = fullSaved ? JSON.parse(fullSaved) : null;
+    const qbyqRes = qbyqSaved ? JSON.parse(qbyqSaved) : null;
+
+    if (fullRes && qbyqRes) {
+        return (fullRes.bestPercentage >= qbyqRes.bestPercentage) ? fullRes : qbyqRes;
+    }
+    return fullRes || qbyqRes;
 }
 
 function getAllExamResults() {
@@ -764,7 +840,7 @@ function processResults() {
 
             reviewHtml += `
             <div class="review-card ${isCorrect ? "status-correct" : "status-wrong"}">
-                <p class="question-text"><strong>Question ${qIndex + 1}:</strong> ${item.q}</p>
+                <div class="question-text"><strong>Question ${qIndex + 1}:</strong> ${item.q}</div>
                 ${getImagesHtml(item, true)}
                 <p class="${isCorrect ? "correct-tag" : "wrong-tag"}">
                     Your Answer: ${userIndex !== null ? item.options[userIndex] : "No answer"} ${isCorrect ? " &nbsp; ✓" : " &nbsp; ✗"}
@@ -791,7 +867,7 @@ function processResults() {
         examState.finalScore = score;
         examState.totalQuestions = questions.length;
 
-        const stateKey = `exam_state_${session.subject}_${session.type}_${session.year}`;
+        const stateKey = `exam_state_${session.subject}_${session.type}_${session.year}_${session.mode}`;
         localStorage.setItem(stateKey, JSON.stringify(examState));
     }
 
@@ -960,4 +1036,159 @@ window.onload = () => {
                 });
         });
     }
+
+    renderSidebar();
 };
+
+
+
+function toggleSidebar() {
+    const sidebar = document.getElementById('exam-sidebar');
+    const overlay = document.querySelector('.sidebar-overlay');
+
+    if (!overlay && window.innerWidth <= 1024) {
+        const newOverlay = document.createElement('div');
+        newOverlay.className = 'sidebar-overlay';
+        newOverlay.onclick = toggleSidebar;
+        document.body.appendChild(newOverlay);
+        setTimeout(() => newOverlay.classList.toggle('active'), 10);
+    } else if (overlay) {
+        overlay.classList.toggle('active');
+    }
+
+    sidebar.classList.toggle('open');
+}
+
+
+function getQuestionButtonClass(idx, q, isCurrentModeQuestion) {
+    let classes = 'q-btn';
+    if (idx === currentQuestionIndex && isCurrentModeQuestion) classes += ' current';
+
+    if (examState.answers[idx] !== undefined) {
+        if (isCurrentModeQuestion) {
+            const isCorrect = examState.answers[idx] === q.correct;
+            classes += isCorrect ? ' answered' : ' wrong';
+        } else {
+            classes += ' answered';
+        }
+    }
+    if (examState.marked[idx]) classes += ' marked';
+    return classes;
+}
+
+function renderSidebar() {
+    if (!currentExamData) return;
+
+    const questions = getQuestionList();
+    const grid = document.getElementById('question-grid');
+    if (!grid) return;
+
+    const isQuestionMode = session.mode === 'question';
+    let html = '';
+    questions.forEach((q, idx) => {
+        const classes = getQuestionButtonClass(idx, q, isQuestionMode);
+        html += `<button class="${classes}" onclick="jumpToQuestion(${idx})" id="sb-q-${idx}">${idx + 1}</button>`;
+    });
+
+    grid.innerHTML = html;
+    updateSidebarStats();
+}
+
+function updateSidebarUI() {
+    const questions = getQuestionList();
+    const isQuestionMode = session.mode === 'question';
+
+    questions.forEach((q, idx) => {
+        const btn = document.getElementById(`sb-q-${idx}`);
+        if (!btn) return;
+
+        btn.className = getQuestionButtonClass(idx, q, isQuestionMode);
+
+        const markBtn = document.getElementById(`mark-btn-${idx}`);
+        if (markBtn) {
+            const svg = markBtn.querySelector('svg');
+            if (examState.marked[idx]) {
+                markBtn.classList.add('marked');
+                svg.setAttribute('fill', 'currentColor');
+            } else {
+                markBtn.classList.remove('marked');
+                svg.setAttribute('fill', 'none');
+            }
+        }
+    });
+
+    updateSidebarStats();
+}
+
+function updateSidebarStats() {
+    if (!currentExamData) return;
+    const total = getQuestionList().length;
+    const answered = Object.keys(examState.answers).length;
+    const marked = Object.keys(examState.marked).length;
+    const remaining = total - answered;
+
+    const elAnswered = document.getElementById('sb-answered-count');
+    if (elAnswered) elAnswered.textContent = answered;
+
+    const elMarked = document.getElementById('sb-marked-count');
+    if (elMarked) elMarked.textContent = marked;
+
+    const elRemaining = document.getElementById('sb-remaining-count');
+    if (elRemaining) elRemaining.textContent = remaining;
+
+    const pct = (answered / total) * 100;
+    const fill = document.getElementById('sb-progress-fill');
+    if (fill) fill.style.width = `${pct}%`;
+}
+
+function jumpToQuestion(index) {
+    if (session.mode === 'question') {
+        currentQuestionIndex = index;
+        renderQuestionByQuestion();
+        if (window.innerWidth <= 1024) toggleSidebar();
+    } else {
+        const cards = document.querySelectorAll('.question-card');
+        if (cards[index]) {
+            cards[index].scrollIntoView({ behavior: 'smooth', block: 'center' });
+            cards[index].style.borderColor = 'var(--primary)';
+            setTimeout(() => cards[index].style.borderColor = 'var(--border)', 2000);
+
+            if (window.innerWidth <= 1024) toggleSidebar();
+        }
+    }
+}
+
+
+
+function toggleQuestionMark(index) {
+    if (examState.marked[index]) {
+        delete examState.marked[index];
+    } else {
+        examState.marked[index] = true;
+    }
+    saveExamState();
+    updateSidebarUI();
+}
+
+function preSubmitValidation() {
+    const total = getQuestionList().length;
+    const answered = Object.keys(examState.answers).length;
+    const marked = Object.keys(examState.marked).length;
+
+    if (answered < total || marked > 0) {
+        document.getElementById('unanswered-count').textContent = total - answered;
+        document.getElementById('unanswered-warning').style.display = (answered < total) ? 'block' : 'none';
+
+        document.getElementById('marked-count').textContent = marked;
+        document.getElementById('marked-warning').style.display = (marked > 0) ? 'block' : 'none';
+
+        const modal = document.getElementById('validation-modal');
+        modal.style.display = 'flex';
+    } else {
+        processResults();
+    }
+}
+
+function closeValidationModal() {
+    document.getElementById('validation-modal').style.display = 'none';
+}
