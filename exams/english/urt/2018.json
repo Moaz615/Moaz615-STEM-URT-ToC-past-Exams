@@ -1,0 +1,519 @@
+{
+    "questions": [
+        {
+            "passage": "<p align=\"center\"><b><u>Passage (1)</u></b></p><b><center>(1)</b></center><p>Hides and skins are the raw material of the leather manufacturer or tanner. When man first used animal skins is not known. Skins, even when preserved by tanning, do not last as long as stone, pottery, metals and bone, and our knowledge about the early use of skins is vague. However, the numerous flint scrapers and bone or ivory sewing needles in our museums show that tens of thousands of years ago, in the early Stone Age, skins were prepared and used long before textiles.</p><b><center>(2)</b></center><p>Any animal skin can be made into leather, but the skins chiefly used come from cattle, sheep, goats, and horses. To a lesser extent the skins from dogs, deer, reptiles, marine animals, fish and birds are also used. Snakes, lizards, seals, whales, and sharks all contribute to leather manufacture.</p><b><center>(3)</b></center><p>'<u><b>Hide</b></u>' is the trade word for the skins of the larger animals such as full grown cattle and horses; and 'skin' for the smaller animals, and immature large animals such as ponies and calves. Some skins are made into leather after the hair or wool has been removed; but the skins of the fur-bearing animals and sometimes of sheep, lambs and ponies are processed, or 'dressed', with the hair or wool still in place.</p><b><center>(4)</b></center><p>Most cattle hides come from South America, the U.S.A. and from Australia with smaller quantities from East and West Africa, Central America and the Sudan. Sheepskins come from Australia and New Zealand, and the best goat skins come from India, Pakistan, Ethiopia, Arabia and Nigeria.</p><b><center>(5)</b></center><p>There is usually a long interval between the <u><b>flaying</b></u>, or stripping, of the skin from the animal and putting it into the <u><b>tannery</b></u> for processing. If the flayed skins were left wet, they would go bad, just like meat; they must therefore be preserved in some way. The commonest method is salting. This involves sprinkling the skins with salt on their inner side; or immersing the skins completely in strong salt solution for some hours, after which they are drained and sprinkled with solid salt.</p><b><center>(6)</b></center><p>Another method of drying is to stretch the skins out on the ground, or on frames and to dry them in the sun, or even better in the shade. Beetles and other insects eat skins and must be kept away by the use of some chemical such as D.D.T. The dried skins are called 'crust' leather and are sent in this form to the tanneries for the very complicated process of tanning. After tanning, only the 'corium' or middle layer of the skin is left to provide leather as we know it. It is to the closely knit fibre structure of the corium that leather owes its virtues of flexibility, strength and elasticity, its resistance to rubbing and its unique power of allowing water vapour and air to pass through it while resisting penetration by liquid water itself.</p>"
+        },
+        {
+            "q": "The first use of animal skin in industry is...",
+            "options": [
+                "absolutely known",
+                "definitely unknown",
+                "still under research",
+                "tentatively known"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "\"Hides\" in paragraph (3) has almost the same meaning as",
+            "options": [
+                "skin",
+                "flesh",
+                "calf's material",
+                "certain animals"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The writer thought that .......... is used in industry.",
+            "options": [
+                "certain animal skin",
+                "nearly all animal skin",
+                "few animal skin",
+                "human skin"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The best word that describes \"flaying\" in paragraph (5) could be..",
+            "options": [
+                "killing animals",
+                "cutting animal flesh",
+                "separating animal skin",
+                "colouring animal skin"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The \"Tannery\" in paragraph (5) is a type of",
+            "options": [
+                "industry",
+                "leather",
+                "profession",
+                "factory"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Leather flexibility, strength and elasticity are due to..",
+            "options": [
+                "the process of slaying",
+                "the use of some chemicals",
+                "how the corium is formed",
+                "how it hinders water to pass through"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "It can be inferred from the passage that,",
+            "options": [
+                "animal skins are of the same quality",
+                "animal skins are of different ranks",
+                "certain animal skins are of no value",
+                "animal skins are better than hide"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "According to the information given in the passage",
+            "options": [
+                "skin can be processed directly after slaughtering",
+                "skin needs a long period of time before processing",
+                "skin needs a short period of time before processing",
+                "skin does not need any time for processing"
+            ],
+            "correct": 1
+        },
+        {
+            "q": ".......... are common methods used to preserve flayed wet skin before processing.",
+            "options": [
+                "Salting and drying",
+                "Tanning and striping",
+                "Sprinkling and immersing",
+                "Draining and drying"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "It can be inferred from the passage that hides usually come from countries that have....",
+            "options": [
+                "vast grass areas",
+                "mountainous areas",
+                "wide desert areas",
+                "coast areas"
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>Passage (2)</u></b></p><b><center>(1)</b></center><p>Meteorology is the scientific study of the weather. The scientists who specialize in this area are called meteorologists. Their job is to collect data, make observations about the data and interpret the data. To interpret means to say what they think the data means. Their goal is to make informed predictions about what kind of weather we can expect.</p><b><center>(2)</b></center><p>Most weather systems in the United States move from the west to the east. Meteorologists track weather patterns to the west. Then they can be reasonably sure of the kind and severity of the weather that is approaching the areas that lie to the east.</p><b><center>(3)</b></center><p>Technological advances over the years have made the work of the meteorologists more and more respected. Over time, their ability to make accurate predictions has increased. Using computers, meteorologists are able to design and print weather maps. The maps show approaching weather patterns and how they are likely to behave when they reach us. They are filled with colorful symbols that show the different strengths and temperatures of wind, cloud formations, and storm systems.</p><b><center>(4)</b></center><p>Doppler radar stations provide meteorologists with radar images of weather all over the United States. They make it possible to <strong><u>anticipate</u></strong> weather systems sooner, and to understand how strong they are. Weather balloons are sent up into the higher levels of the atmosphere to gather data and take pictures. Satellites relay weather data from high above Earth down to reporting stations.</p><b><center>(5)</b></center><p>In addition to their high-tech computers and radar systems, meteorologists have some basic weather instruments that have been around for many years. We are all familiar with the first one: a thermometer. A thermometer allows us to measure the air temperature using either the Celsius or Fahrenheit scale. The United States mostly uses the Fahrenheit scale. An anemometer is used to measure the speed of the wind as it blows. A weather vane, or wind vane, is used to show the direction the wind is blowing. A barometer measures air pressure. In spite of all these tools, there is always a little bit of mystery involved in the weather.</p>"
+        },
+        {
+            "q": "Which direction do most weather systems move in the United States?",
+            "options": [
+                "west to east",
+                "east to west",
+                "north to south",
+                "west to south"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "An anemometer is a tool to measure",
+            "options": [
+                "air pressure",
+                "wind speed",
+                "wind direction",
+                "air thickness"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Weather maps have become easy to print because of",
+            "options": [
+                "photocopiers",
+                "weather patterns",
+                "computers",
+                "predictions"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The best word to replace \"anticipate\" in the following excerpt \"They make it possible to anticipate weather systems sooner\" in paragraph (4) could be",
+            "options": [
+                "wait",
+                "visualise",
+                "forecast",
+                "assume"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A meteorologist's job is to",
+            "options": [
+                "observe the weather",
+                "collect data about the weather",
+                "analyse data and predict the weather",
+                "A, B and C"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which of the following is a correct statement?",
+            "options": [
+                "Because of technology, traditional tools are abandoned.",
+                "Though using technology, meteorologists are still using traditional tools.",
+                "Traditional tools hinder the work of meteorologists.",
+                "Both traditional tools and technological sets hinder the work of meteorologists."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Meteorologists in the US track weather patterns to the west to.",
+            "options": [
+                "predict the weather in the east",
+                "study the effect of weather in the west",
+                "study the effect of weather in the east",
+                "predict the weather conditions in the north"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "According to the passage, weather balloons are sent into the atmosphere to...",
+            "options": [
+                "collect data and take pictures",
+                "give prediction of the weather",
+                "send data to Doppler radar station",
+                "collect data from satellites"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "As a result of meteorological predictions, people",
+            "options": [
+                "make sure the weather will not affect work",
+                "draw plans for the weather conditions",
+                "modify weather patterns to suit work",
+                "adapt to the weather conditions"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which of the following statements is true?",
+            "options": [
+                "Meteorologists are sure about the weather.",
+                "Meteorologists are never sure about any prediction.",
+                "Meteorologists' predictions are more accurate nowadays.",
+                "Meteorologists' predictions were better in the past."
+            ],
+            "correct": 2
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>Passage (3)</u></b></p> <b><center>(1)</b></center><p>Concussions are brain injuries that occur when a person receives a blow to the head, face, or neck. Although most people who suffer a concussion experience initial bouts of dizziness, nausea, and drowsiness, these symptoms often disappear after a few days. The long-term effects of concussions, however, are less understood and far more severe. Recent studies suggest that people who suffer multiple concussions are at a significant risk for developing <b>chronic traumatic encephalopathy (CTE)</b>, a degenerative brain disorder that causes a variety of dangerous mental and emotional problems to arise weeks, months, or even years after the initial injury. These psychological problems can include depression, anxiety, memory loss, inability to concentrate, and aggression. In extreme cases, people suffering from CTE have even committed suicide or homicide. The majority of people who develop these issues are athletes who participate in popular high-impact sports, especially football. Although both new sports regulations and improvements in helmet technology can help protect players, the sports media and fans alike bear some of the responsibility for reducing the incidence of these devastating injuries.</p><b><center>(2)</b></center><p>Improvements in diagnostic technology have provided substantial evidence to link severe- and often fatal-psychological disorders to the head injuries players receive while on the field. Recent autopsies performed on the brains of football players who have committed suicide have shown advanced cases of CTE in every single victim.</p><b><center>(3)</b></center><p>In response to the growing understanding of this danger, the National Football League (NFL) has revised its safety regulations. Players who have suffered a head injury on the field must undergo a \"concussion sideline assessment\"&mdash;a series of mental and physical fitness tests&mdash;before being allowed back in the game. In an effort to diminish the amount of head and neck injuries on the field, NFL officials have begun enforcing stricter penalty calls for helmet-to-helmet contact, leading with the head, and hitting a defenseless player. Furthermore, as of 2010, if a player's helmet is accidentally wrenched from his head during play, the ball is immediately whistled dead. There is hope that these new regulations, coupled with advances in helmet design, will reduce the number of concussions players endure, and thus curb the number of CTE cases.</p><b><center>(4)</b></center><p>Efforts by the NFL and other professional sports leagues are certainly <u><b>laudable</b></u>; indeed, we should commend every attempt to protect the mental and physical health of players. However, new regulations at the professional level cannot protect amateur players, especially young people. Fatal cases of CTE have been reported in victims as young as 21. With appropriate equipment and form, tackling need not be dangerous. Proper tackling form&mdash;using the arms and shoulders to aim for a player's midsection rather than leading with the top of the head&mdash;should be taught at an early age. Youth, high school, and college leagues should also adopt safety rules even more stringent that the NFL's. Furthermore, at an early age, athletes should be educated about the serious dangers of head injuries.</p>"
+        },
+        {
+            "q": "Players who suffer concussion",
+            "options": [
+                "must pass certain tests to go back to the field",
+                "go back to the field without any tests",
+                "go through physical training before going back to the field",
+                "get psychological training before going back to the field"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Based on the information given in the passage, which of the following sentences is TRUE?",
+            "options": [
+                "The minority of people who suffer from CTE commit suicide.",
+                "No one suffering from CTE commits suicide.",
+                "All people suffering from CTE commit suicide.",
+                "People suffering from severe CTE commit suicide."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "As used in paragraph 4. which is the best synonym for laudable?",
+            "options": [
+                "praiseworthy",
+                "ineffective",
+                "determined",
+                "blameworthy"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The author apparently believes that",
+            "options": [
+                "NFL officials have not thoroughly implemented stricter safety regulations",
+                "doctors need to do more research about the potential long-term effects of CTE",
+                "amateur athletes suffer more serious long-term effects of CTE than professional athletes",
+                "fans share some of the blame for athletes' injuries"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "According to the author, the long-term effects of concussions are..",
+            "options": [
+                "more understood",
+                "never critical",
+                "never studied",
+                "more acute"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The new NFL regulations at the professional level",
+            "options": [
+                "can protect both professional and amateur players",
+                "can protect neither professional nor amateur players",
+                "cannot protect young amateur players",
+                "cannot protect young professional players"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "According to the author, each of the following statements is true EXCEPT which one?",
+            "options": [
+                "Tackling itself is not dangerous; however, players who use improper tackling form may suffer injury.",
+                "Scientists have established a link between players who shoot themselves and others and the onset of CTE.",
+                "NFL officials have done nothing to address the problem of CTE.",
+                "Athletes who are praised for exceptionally brutal hits are likely to continue engaging in such dangerous behaviour."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "People who suffer a concussion have symptoms that ..",
+            "options": [
+                "never disappear",
+                "disappear a few days later",
+                "disappear after a year",
+                "appear from time to time"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "According to the author, which of the following contribute(s) to an increase in incidences of CTE in amateur players?<br>I. Fewer safety regulations than professional players<br>II. A lack of education geared to youth players about the dangers of head injuries<br>III.A desire to emulate professionals",
+            "options": [
+                "I only",
+                "II only",
+                "I and II only",
+                "I, II, and III"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Using the appropriate equipment makes tackling..",
+            "options": [
+                "more dangerous",
+                "less dangerous",
+                "completely safe",
+                "less safe"
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>Passage (4)</u></b></p><b><center>(1)</b></center><p>Auctions are public sales of goods, conducted by an officially approved <b>auctioneer</b>. He asks the crowd assembled in the auction-room to make offers, or <b><u>'bids'</u></b>, for the various items on sale. He encourages buyers to bid higher figures, and finally names the highest bidder as the buyer of the goods. This is called <b>'knocking down'</b> the goods, for the bidding ends when the auctioneer bangs a small hammer on a table at which he stands. This is often set on a raised platform called a <u><b>rostrum</b></u>.</p><b><center>(2)</b></center><p>The ancient Romans probably invented sales by auction, and the English word comes from the Latin <i>auctio</i>, meaning 'increase'. The Romans usually sold in this way the <u><b>spoils</b></u> taken in war; these sales were called <i>sub hasta</i>, meaning 'under the spear', a spear being stuck in the ground as a signal for a crowd to gather. In England in the eighteenth and nineteenth centuries goods were often sold 'by the candle': a short candle was lit by the auctioneer, and bids could be made while it stayed alight.</p><b><center>(3)</b></center><p>Practically all goods whose qualities vary are sold by auction. Among these are coffee, hides, skins, wool, tea, cocoa, furs, spices, fruit and vegetables and wines. Auction sales are also usual for land and property, antique furniture, pictures, rare books, old china and similar works of art. The auction-rooms at Christie's and Sotheby's in London and New York are world-famous.</p><b><center>(4)</b></center><p>An auction is usually advertised beforehand with full particulars of the articles to be sold and where and when they can be viewed by prospective buyers. If the advertisement cannot give full details, catalogues are printed, and each group of goods to be sold together, called a 'lot', is usually given a number. The auctioneer need not begin with Lot 1 and continue in numerical order; he may wait until he registers the fact that certain dealers are in the room and then produce the lots they are likely to be interested in. The auctioneer's services are paid for in the form of a percentage of the price the goods are sold for. The auctioneer therefore has a direct interest in pushing up the bidding as high as possible.</p><b><center>(5)</b></center><p>The auctioneer must know fairly accurately the current market values of the goods he is selling, and he should be acquainted with regular buyers of such goods. He will not waste time by starting the bidding too low. He will also play on the rivalries among his buyers and succeed in getting a high price by encouraging two business competitors to bid against each other. It is largely on his advice that a seller will fix a 'reserve' price, that is, a price below which the goods cannot be sold. Even the best auctioneers, however, find it difficult to stop a 'knock-out', whereby dealers illegally arrange beforehand not to bid against each other, but nominate one of themselves as the only bidder, in the hope of buying goods at extremely low prices. If such a 'knock-out' comes off, the real auction sale takes place privately afterwards among the dealers.</p>"
+        },
+        {
+            "q": "The best word that can replace \"bids\" in \"He asks the crowd assembled in the auction-room to make offers, or 'bids'\", is",
+            "options": [
+                "buy",
+                "sell",
+                "supply",
+                "tender"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "\"Knocking down the goods\" means..",
+            "options": [
+                "lowering the price",
+                "raising the price",
+                "selling for the least value",
+                "selling for the highest value"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The word spoils in the following sentence \"The Romans usually sold in this way the spoils taken in war\", can be replaced by",
+            "options": [
+                "gains",
+                "losses",
+                "damages",
+                "casualties"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Based on the information given in the passage, the auctioneer",
+            "options": [
+                "gets a fixed salary",
+                "gets wages by day",
+                "gets money beforehand",
+                "gets a proportion of the money paid"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Before the auction starts,",
+            "options": [
+                "full details are given",
+                "a summary of goods is given",
+                "no information is given",
+                "information is given on demand"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The word \"rostrum\" in paragraph (1) means..",
+            "options": [
+                "stairs",
+                "podium",
+                "ladder",
+                "steps"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "According to the passage .......... can be sold by auction.",
+            "options": [
+                "only certain goods",
+                "a variety of goods",
+                "new brand goods",
+                "only old goods"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The auctioneer must be",
+            "options": [
+                "an amateur seller",
+                "an antique man",
+                "a professional seller",
+                "a novice seller"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "To help sell the goods perfectly in an auction, the start price should be",
+            "options": [
+                "fluctuating",
+                "high enough",
+                "low enough",
+                "fixed"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "If the dealers had an illegal agreement on one bidder, the auctioneer ............",
+            "options": [
+                "can stop the auction",
+                "must stop the auction",
+                "has nothing to do with it",
+                "becomes part of the deal"
+            ],
+            "correct": 2
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>Passage (5)</u></b></p><b><center>(1)</b></center><p>Primitive man found out by trial and error how to carry out a certain number of simple chemical changes, but under the ancient Egyptian civilization men learned how to <b>work</b> copper, tin, iron and precious metals; knew how to make pottery, glass, soap and coloring <b>agents</b>, and how to <b>bleach</b> and dye textile fabrics. These arts were the beginnings of the chemical industries of today.</p><b><center>(2)</b></center><p>The early scientific study of chemistry, known as alchemy, grew up in the first few centuries A.D. at Alexandria in Egypt. There, two important things came together: one was the practical knowledge of the Egyptian workers in metals, pottery and dyes; the other was the learning of the earlier Greek philosophers, such as Hippocrates and Aristotle. At the same time alchemy was much influenced by ideas from the East about magic and astrology - foretelling the future from the stars.</p><b><center>(3)</b></center><p>Greek philosophers regarded debate about the nature of matter as superior to experiment, and some held that all matter was made up of the same four &lsquo;elements&rsquo; - earth, fire, air and water. Many people therefore thought that if these elements could be rearranged, one substance could be changed into another. For instance, a base metal could perhaps be turned into gold. The chief aim of the alchemists was to find a way of doing this.</p><b><center>(4)</b></center><p>Alchemy came under Arab influence during the seventh century. The Arabs carried its study into Western Europe when they advanced into Spain. Many Arabic words are still used in chemistry - &lsquo;alkali&rsquo;, &lsquo;alcohol&rsquo; and even &lsquo;alchemy&rsquo; itself, which means &lsquo;the art of Egypt&rsquo;. The greatest Arab alchemist was Jabir ibnHayyan, possibly the same person as Geber, author of two important books on alchemy known from the Latin translations of the thirteenth century. Jabir claimed that mercury and sulphur were &lsquo;elements&rsquo; like the four Greek ones. He said that all metals were composed of mercury and sulfur in different proportions. To change a base metal into gold required the proportions to be changed by the action of a mysterious substance which came to be called &lsquo;the philosopher&rsquo;s stone&rsquo;. Alchemists searched in vain for this substance for several hundred years.</p><b><center>(5)</b></center><p>Alchemy was studied widely in Europe during the twelfth and following centuries, and attracted the attention of many learned men. Though they were doomed to fail in their attempts to make gold, their work led to the growth of a great deal of new chemical knowledge and of methods of making experiments. Many of the later European alchemists, however, were complete <b>frauds</b> who preyed upon trusting people by all sorts of tricks, and the subject fell into disrepute. By the first half of the sixteenth century, the aim of the alchemists had changed from the making of gold to the making of medicines. In particular, they sought a fanciful substance called &lsquo;the elixir of life&rsquo;, a powerful medicine which was to cure all ills, and which some people thought would turn out to be the same substance as &lsquo;the philosopher&rsquo;s stone&rsquo;. This phase of chemistry lasted till about 1700.</p>"
+        },
+        {
+            "q": "According to the information given in the passage, chemistry was known at first as a branch of...........",
+            "options": [
+                "science",
+                "medicine",
+                "arts",
+                "astrology"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Based on the information given in the passage, the................... were the first to use chemical reactions.",
+            "options": [
+                "Egyptians",
+                "Chinese",
+                "Greek",
+                "Europeans"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which is the best word to replace \"fraud\" in the following statement \"European alchemists, however, were complete frauds who preyed upon trusting people by all sorts of tricks\" in paragraph (5) ?",
+            "options": [
+                "fear",
+                "courage",
+                "deceit",
+                "ideas"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which of the following sentences is true according to the passage?",
+            "options": [
+                "Scientists tried to change metal into gold.",
+                "Scientists tried to show the importance of chemistry.",
+                "Philosophers did not think of changing all matter.",
+                "Philosophers encouraged people to study chemistry."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The best title of the passage could be .......................",
+            "options": [
+                "History of chemistry",
+                "Gold production",
+                "Medicine production",
+                "Alchemists"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A lot of Arabic words are still used in chemistry because .......................",
+            "options": [
+                "the Arabs introduced alchemy to Europe",
+                "the Arabs studied chemistry in Egypt",
+                "only the Arabs made advances in chemistry",
+                "the Europeans studied chemistry in Arab countries"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which of the following sentences about the early study of chemistry is true?",
+            "options": [
+                "It was based only on practice.",
+                "It was based only on theory.",
+                "It was based on superstition.",
+                "It was based on both theory and practice."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Early scientists ...................",
+            "options": [
+                "could produce gold using 'the philosopher's stone'",
+                "could never produce gold using 'the philosopher's stone'",
+                "thought 'the philosopher's stone' is related to medicine.",
+                "could mine gold using 'the philosopher's stone'"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Greek philosophers thought that matter included .......................",
+            "options": [
+                "earth, fire, air and water",
+                "earth, fire and mercury",
+                "mercury, sulphur and air",
+                "earth, fire, mercury and sulphur"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Jabir ibn Hayyan ....................... two new elements to the Greek philosophers' idea about matter.",
+            "options": [
+                "proved",
+                "refuted",
+                "proposed",
+                "rejected"
+            ],
+            "correct": 2
+        }
+    ]
+}

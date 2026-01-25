@@ -1,0 +1,519 @@
+{
+    "questions": [
+        {
+            "passage": "<p align=\"center\"><b><u>Passage (1)</u></b></p><b><center>(1)</b></center><p>You know that you are doing something big when your company name becomes a verb. Ask Xerox. In 1959 they created the first plain paper copy machine. It was one of the most successful products ever. The company name Xerox grew into a verb that means \"to copy,\" as in \"Bob, can you Xerox this for me?\" Around 5 years later, the same thing happened to Google. Their company name grew into a verb that means \"to do an internet search. Now everyone and their grandma know what it means to Google it.</p><b><center>(2)</b></center><p>Unlike Xerox, Google was not the first company to invent their product, not by a long shot. Lycos released their search engine in 1993. Yahoo! came out in 1994. AltaVista began serving results in 1995. Google did not come out until years later, in 1998. Though a few years difference may not seem like much, this is a major head start in the fast-moving world of tech. So how did Google do it? How did they overtake their competitors who had such huge leads in time and money? One innovative idea made all the difference.</p><b><center>(3)</b></center><p>There are millions and millions of sites on the internet. How does a search engine know which ones are relevant to your search? This is a question that great minds have been working on for decades. To understand how Google changed the game, you need to know how search engines worked in 1998. Back then most websites looked at the words in your query. They counted how many times those words appeared on each page. Then they might return pages where the words in your query appeared the most. This system did not work well, and people often had to click through pages and pages of results to find what they wanted.</p><b><center>(4)</b></center><p>Google was the first search engine that began considering links. Links are those blue underlined words that take you to other pages when you click on them. Larry Page, cofounder of Google, believed that meaningful data could be drawn from how those links connect. Page figured that websites with many links pointing at them were more important than those that had few. He was right. Google's search results were much better than their rivals. They would soon become the world's most used search engine.</p><b><center>(5)</b></center><p>It was not just the great search results that led to Google becoming so well liked. It also had to do with the way that they presented their product. Most of the other search engines were cluttered. Their home pages were filled with everything from news stories to stock quotes. But Google's homepage was, and still is, clean. There is nothing on it but the logo, the search box, and a few links. It almost appears empty. In fact, when they were first testing it, users would wait at the home page and not do anything. When asked why, they said that they were, \"waiting for the rest of the page to load.\" People could not imagine such a clean and open page as being complete. But the fresh design grew on people once they got used to it.</p><b><center>(6)</b></center><p>These days Google has its hands in everything from self-driving cars to helping humans live longer. Though they have many other popular products, they will always be best known for their search engine. The Google search engine has changed our lives and our language. Not only is it a fantastic product, but it is also a standing example that one innovative idea (and a lot of demanding work) can change the world.</p>"
+        },
+        {
+            "q": "Which event happened last?",
+            "options": [
+                "Lycos released their search engine.",
+                "Yahoo! released their search engine.",
+                "Google released their search engine.",
+                "Xerox released their copy machine."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which statement would the author of this text disagree with?",
+            "options": [
+                "Part of Google's success is due to the design of their homepage.",
+                "Google succeeded by following examples of others in their field.",
+                "Google was not the first search engine, but it was the best.",
+                "Google's success may not have been possible without Larry Page."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which best expresses the main idea of the third paragraph?",
+            "options": [
+                "There are lots and lots of websites connected to the internet.",
+                "Google created a better way to organize search results.",
+                "Many smart people have worked on search engines over the years.",
+                "Older search engines used unreliable methods to order results."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "What is the author's main purpose in drafting this article?",
+            "options": [
+                "To explain how Google overtook its rivals.",
+                "To compare Google and Xerox.",
+                "To persuade readers to use Google for internet searches.",
+                "To discuss how companies can influence language over time."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which statement would the author agree with?",
+            "options": [
+                "Google became successful because its founders were well-connected.",
+                "Google was the world's first and best search engine.",
+                "Google changed the world by solving an old problem in a new way.",
+                "Google's other products are now more important to its success than search."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which best expresses the main idea of the fourth paragraph?",
+            "options": [
+                "Links allow people to surf from one website to the next.",
+                "Larry Page's ideas about links helped Google get to the top.",
+                "Larry Page contributed to the internet by inventing the link.",
+                "Google is a website that serves important links to users."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which best explains why the author discusses Xerox in this text?",
+            "options": [
+                "He is discussing big companies that came before Google.",
+                "He is explaining how companies must change with the times.",
+                "He is showing how companies can affect our language.",
+                "He is comparing and contrasting Google and Xerox."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "How did Google improve search quality in 1998?",
+            "options": [
+                "They counted how many times queries appeared on each page.",
+                "They looked more closely at the words in search queries.",
+                "They linked to more pages.",
+                "They studied the relationships of links."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which was cited as a reason Google became so popular?",
+            "options": [
+                "Google's homepage was clean.",
+                "Google provided catchy news stories on their homepage.",
+                "Google homepage loaded quickly.",
+                "Google provided useful stock quotes on their homepage."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which title best expresses the author's main purpose in writing this text?",
+            "options": [
+                "Xerox Vs. Google: Battle of the Titans",
+                "Search Engines: How They Work and Why They're Important",
+                "A Better Way: How Google Rose to the Top",
+                "Search Engines: A Short History of Important Tools."
+            ],
+            "correct": 2
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>Passage (2)</u></b></p><b><center>(1)</b></center><p>\"Click!\" That is the sound of safety. That is the sound of survival. That is the sound of a seat belt locking in place. Seat belts save lives and that is a fact. That is why I do not drive anywhere until mine is on tight. Choosing to wear your seat belt is a simple as choosing between life and death. Which one do you choose?</p><b><center>(2)</b></center><p>Think about it. When you are driving in a car, you may be going 60 MPH or faster. That car is zipping down the road. Then somebody ahead of you locks up his or her brakes. Your driver does not have time to stop. The car that you are in crashes. Your car was going sixty miles per hour. Now it has suddenly stopped. Your body, however, is still going 60 MPH. What is going to stop your body? Will it be the windshield or your seat belt? Every time that you get into a car you make that choice. I choose the seat belt.</p><b><center>(3)</b></center><p>Some people think that seat belts are uncool. They think that seat belts cramp their style, or that seat belts are uncomfortable. To them I say, what is more uncomfortable'? Wearing a seat belt or flying through a car windshield? What is more uncool? Being safely anchored to a car, or skidding across the road in your jean shorts? Wearing a seat belt is both cooler and more comfortable than the alternatives.</p><b><center>(4)</b></center><p>Let us just take a closer look at your choices. If you are not wearing your seat belt, you can hop around the car and slide in and out of your seat easily. That sounds like a lot of fun. But you are also more likely to die or suffer serious injuries. If you are wearing a seat belt, you must stay in your seat. That is no fun. But you are much more likely to walk away unharmed from a car accident. Hmmm...A small pleasure for a serious pain. That is a tough choice. I think that I will avoid the serious pain.</p><b><center>(5)</b></center><p>How about giving money away? Do you like to give your money away? Probably not. And when you do not wear your seat belt, you are begging to give your money away. That is because kids are required to wear seat belts in every state in America. If you are riding in a car, and you do not have a seat belt on, the police can give you or your driver a ticket. Then you will have to give money to the city. I would rather keep my money, but you can spend yours how you want.</p><b><center>(6)</b></center><p>Wearing a seat belt does not make you invincible. You can still get hurt or killed while wearing your seat belt. But wearing them has proven to be safer than driving without them. You are much less likely to be killed in a car wreck if you are wearing a seat belt. You are much less likely to get seriously injured if you are wearing one. So why not take the safer way? Why not go the way that has been proven to result in fewer deaths? You do want to live, don't you?</p>"
+        },
+        {
+            "q": "Which title best expresses the main idea of this text?",
+            "options": [
+                "Car Accidents: Ways That We Can Prevent Them",
+                "Slow Down: Save Lives by Driving Slower",
+                "Seat Belts: Wear Them to Survive Any Wreck",
+                "Why Not? Improve Your Odds with Seat Belts"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which best expresses the author's main purpose in writing this text?",
+            "options": [
+                "To inform readers about seat belt laws",
+                "To persuade readers to wear seat belts.",
+                "To entertain readers with stories and jokes about seat belts",
+                "To describe what car accidents are like without seat belts."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which best describes the text structure in the fourth paragraph?",
+            "options": [
+                "Compare and contrast.",
+                "Chronological order",
+                "Sequential order",
+                "Problem and solution"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which best defines the word alternatives as it is used in the third paragraph?",
+            "options": [
+                "Being safe",
+                "Being unsafe",
+                "Other choices",
+                "Driving fast"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which best expresses the main idea of the fifth paragraph?",
+            "options": [
+                "Seat belts are a waste of money.",
+                "People do not like to give money away.",
+                "Not wearing a seat belt may cost you.",
+                "Seat belt laws save lives."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which best defines the word \"invincible\" as it is used in the last paragraph?",
+            "options": [
+                "Uncool",
+                "Difficult or impossible to see.",
+                "Glow-in-the-dark.",
+                "Unable to be harmed."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which statement would the author agree with?",
+            "options": [
+                "Being safe is more important than being cool.",
+                "Moving freely around a car is worth the risks.",
+                "Seat belts will keep you safe in any car accident.",
+                "You should be most concerned with your comfort."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which argument is not made by the author?",
+            "options": [
+                "Not wearing a seat belt can be expensive.",
+                "Penalties for not wearing a seat belt should increase.",
+                "Seat belts keep you from flying through the windshield.",
+                "Wearing a seat belt is cooler than suffering an injury."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which statement would the author disagree with?",
+            "options": [
+                "Seat belts save lives.",
+                "Every state in America has seat belt laws.",
+                "You should not drive anywhere until you are wearing your seat belt.",
+                "Seat belts increase your chances of being injured in a car wreck."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which best explains why the author starts his essay with the word click?",
+            "options": [
+                "He is trying to scare readers.",
+                "He is trying to get the reader's attention.",
+                "He is trying to remind readers how seat belts sound when clasped.",
+                "He is trying to describe what it is like to ride in a car."
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>Passage (3)</u></b></p><b><center>(1)</b></center><p>More than a million people immigrate to the United States to start new lives every year, and if they are arriving in New York, one of the first sights that they will see is the Statue of Liberty. The Statue of Liberty stands on Liberty Island, near Manhattan in New York. Though she is often thought to be resident of New York, Liberty Island is federal property, which means that the Statue of Liberty belongs to the whole country. The Statue of Liberty is not only the tallest statue in America, but it is also one of the most recognizable American symbols.</p><b><center>(2)</b></center><p>The Statue of Liberty is huge. From the tip of the torch to the pedestal on which she stands, she is just over 151 feet tall. If you include the pedestal in your measurement, she stands more than 305 feet off the ground. That is more than thirty basketball hoops or an entire football field. Her waist size is thirty-five feet, which would make it tough to find pants, and the tablet she holds is twenty-three feet long. Do not worry though; she has not had any trouble holding that tablet yet with her 8-foot index finger. Talk about heavy handed.</p><b><center>(3)</b></center><p>Though America financed and built the pedestal on which the Statue of Liberty stands, the statue itself was a gift from France. In this way the complete work, much like the United States, is a product of both American and French contributions. At one time America was ruled by the British. The founding fathers of America chose to fight against Great Britain for the independence of their country. France supported America by providing money, men, and weapons of war. Had it not been for French contributions during the Revolutionary War, America would not exist in the way that it does today; therefore, it is quite fitting that the Statue of Liberty, which represents freedom, came to being by a joint American and French effort. On October 28th, 1886, just over one-hundred years after America declared its independence from Great Britain, the Statue of Liberty was completed and dedicated by its designer, Frédéric Auguste Bartholdi.</p><b><center>(4)</b></center><p>No person did more to bring the statue into being than Bartholdi. Not only did Bartholdi gain both French and American approval for the project, but he also led the French fundraising efforts and designed the appearance of the statue. The appearance of the Statue of Liberty is derived from Libertas, the Roman goddess of freedom. The torch represents how liberty enlightens the world. The seven points or rays coming from the top of the crown represent the sun, the seven seas, the seven continents, and (as with the torch) how liberty enlightens the world. Though much of the statue was modeled after depictions of goddesses, Bartholdi modeled the face after his mother. Now that's a Mother's Day gift that is hard to top. Though Bartholdi was responsible for the external appearance of statute, the internal design can be credited to innovative designer, Gustave Eiffel. Though Mr. Eiffel is best known for his contributions to a tower in Paris that is named after him, he also engineered the internal structure that holds up the Statue of Liberty. Eiffel chose to use a flexible structure, so that changes in the temperature and intense winds from the ocean would not cause the statue to crack. Because of Eiffel's crafty design, the Statue of Liberty may sway as much as three inches on a windy day. If the winds exceed fifty miles per hour, the torch may sway five inches. Eiffel is also responsible for including two spiraling staircases on the interior of the statue to help visitors reach the observation point in the crown.</p><b><center>(5)</b></center><p>While most people appreciate the Statue of Liberty today, during its construction in the 1870s, many Americans were critical of the project. Some took issue with the fact that Bartholdi was French. They believed that American monuments should be designed and constructed by Americans. Others felt that the statue was not much of a gift since it required Americans to foot the bill for the pedestal. After the Panic of 1873, America fell into a deep economic depression that lasted through much of the 1870s. (During an economic depression people spend less money and it is harder to find jobs.) Because the nation was going through a depression, many Americans thought that money should not be spent to support a giant French statue. I think most Americans would now agree that it was a sound investment.</p>"
+        },
+        {
+            "q": "Which is not represented by the seven points on the crown of the Statue of Liberty according to the text?",
+            "options": [
+                "The points represent how liberty enlightens the world.",
+                "The points represent the seven continents.",
+                "The points represent the sun.",
+                "The points represent the seven days of creation."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Information in the second paragraph is organized using which text structure?",
+            "options": [
+                "Spatial order",
+                "Order of importance",
+                "Chronological order",
+                "Cause and effect."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which best expresses the main idea of the third paragraph?",
+            "options": [
+                "France assisted the United States in the Revolutionary War.",
+                "The statue was a joint effort between France and the U.S. just like U.S. independence.",
+                "The U.S. was once a colony of Great Britain.",
+                "The statue of liberty was dedicated one hundred years after America declared its independence."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which is not a reason people criticizing the Statue of Liberty during its construction?",
+            "options": [
+                "Some people felt that the statue should have been bigger.",
+                "Some people felt that the statue should have been built by an American.",
+                "Some people felt that France should have paid for the statue and the pedestal.",
+                "Some people felt that America should not spend money on a statue during a depression."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which of the following statements is false?",
+            "options": [
+                "The tablet that the Statue of Liberty holds is twenty-three feet long.",
+                "The Statue of Liberty's waste size is thirty-five feet.",
+                "The pedestal underneath the Statue of Liberty is 305 tall.",
+                "The Statue of Liberty is over 151 feet tall."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which best expresses the author's purpose in writing the last paragraph?",
+            "options": [
+                "To describe what a depression is",
+                "To show that some people did not think very highly of the French.",
+                "To argue why the Statue of Liberty was a sound investment.",
+                "To explain why some people were against building the statue."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which of the following is an opinion?",
+            "options": [
+                "The Statue of Liberty cost a tremendous amount of money to build.",
+                "The Statue of Liberty was sculpted by Frederic Auguste Bartholdi.",
+                "The Statue of Liberty is over 151 feet tall.",
+                "The Statue of Liberty may sway three inches on a windy day."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which of the following statements is false?",
+            "options": [
+                "The guy who built the Eiffel Tower also designed the inside of the Statue of Liberty.",
+                "The Eiffel Tower was a gift to the Americans from the people of France.",
+                "The Statue of Liberty is located on federal property.",
+                "Bartholdi got permission from both the French and the US to build the statue."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which of the following is not one of the ways that Bartholdi contributed to the statue?",
+            "options": [
+                "He designed the interior of the statue.",
+                "He gained approval for the project from the U.S. and from France.",
+                "He sculpted the exterior of the statue.",
+                "He gained financing to complete the project from France."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which best expresses the author's purpose in writing this text?",
+            "options": [
+                "To persuade people to visit the Statue of Liberty",
+                "To inform readers with interesting facts about the Statue of Liberty",
+                "To entertain readers with stories about the construction of the Statue of Liberty",
+                "To describe the appearance of the Statue of Liberty."
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>Passage (4)</u></b></p><b><center>(1)</b></center><p>The need for a surgical operation, especially an emergency operation, always comes as a severe shock to the patient and his family. Despite modern advances, most people still have an irrational fear of hospitals and an aesthetics. Patients do not often believe they really need surgery - cutting into a part of the body as opposed to treatment with drugs.</p><b><center>(2)</b></center><p>In the early years of this century there was little specialization in surgery. A good surgeon could perform every operation that had been devised up to that time. Today the situation is different. Operations are now being carried out that were not even dreamed of fifty years ago. The heart can be safely opened, and its valves repaired. Clogged blood vessels can be cleaned out, and broken ones mended or replaced. A lung, the whole stomach, or even part of the brain can be removed and still permit the patient to live a comfortable and satisfactory life. However, not every surgeon wants to, or is qualified to carry out every type of modern operation.</p><b><center>(3)</b></center><p>The scope of surgery has increased remarkably in this century. Its safety has increased too. Deaths from most operations are about 20% of what they were in 1910 and surgery has been extended in many directions, for example to certain types of birth defects in newborn babies, and, at the other end of the scale, to life-saving operations for the octogenarian. The hospital stay after surgery has been shortened to as little as a week for most major operations. Most patients are out of bed on the day after an operation and may be back at work in two or three weeks.</p><b><center>(4)</b></center><p>Many developments in modern surgery are almost incredible. They include the replacement of damaged blood vessels with simulated ones made of plastic; the replacement of heart valves with plastic substitutes; the transplanting of tissues such as the lens of the eye; the invention of the artificial kidney to clean the blood of poisons at regular intervals and the development of heart and lung machines to keep patients alive during very long operations. All these things open a hopeful vista for the future of surgery.</p><b><center>(5)</b></center><p>One of the most revolutionary areas of modern surgery is that of organ transplants. Until a few years ago, no person, except an identical twin, was able to accept into his body the tissues of another person without reacting against them and eventually killing them. Recently, however, it has been discovered that with the use of x-rays and special drugs, it is possible to graft tissues from one person to another which will survive for periods of a year or more. Kidneys have been successfully transplanted between non-identical twins. Heart and lung transplants have been reason-ably successful in animals, though rejection problems in humans have yet to be solved.</p><b><center>(6)</b></center><p>'Spare parts' surgery, the simple routine replacement of all worn-out organs by new ones, is still a dream of the distant future. Yet, surgery is not ready for such miracles. In the meantime, you can be happy if your doctor says to you, 'Yes, I think it is possible to operate on you for this condition.'</p>"
+        },
+        {
+            "q": "Most people are afraid of being operated on",
+            "options": [
+                "despite improvements in modern surgery.",
+                "because they think modern drugs are dangerous.",
+                "because they do not believe they need an aesthetics.",
+                "unless it is an emergency operation."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Surgeons in the early years of this century, compared with modern ones",
+            "options": [
+                "needed more knowledge.",
+                "could perform every operation known today.",
+                "were more trusted by their patients.",
+                "had less to care about surgery."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Open heart surgery has been possible",
+            "options": [
+                "from prehistoric times.",
+                "since the nineteenth century.",
+                "only in the last fifty years.",
+                "since the invention of valves."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A patient can still live a comfortable and satisfactory life, even after the removal of",
+            "options": [
+                "his brain.",
+                "his lungs.",
+                "a major organ such as the stomach or one lung.",
+                "part of the stomach or the whole liver."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Modern surgeons...........",
+            "options": [
+                "do not like to perform operations of the new type.",
+                "are obliged to specialize more than their predecessors.",
+                "are not as highly qualified as the older ones.",
+                "often perform operations which are not really needed."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Today, compared with 1910..",
+            "options": [
+                "five times fewer patients after being operated on.",
+                "20% fewer of all operation patients die.",
+                "Twenty percent of all operation patients recover.",
+                "operation deaths have increased by 20%."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Some of the more astonishing innovations in modern surgery include...........",
+            "options": [
+                "ear, nose and throat transplants.",
+                "valve fewer plastic hearts.",
+                "leg transplants.",
+                "plastic heart valves."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The main difficulty with organ transplants is..........",
+            "options": [
+                "it is difficult to find organs of the same size.",
+                "only identical twins can give permission for their organs to be exchanged.",
+                "the body's tendency to reject alien tissues.",
+                "the patient is not allowed to use drugs after them."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "'Spare parts' surgery ............",
+            "options": [
+                "has yet to become a reality.",
+                "will be available soon.",
+                "is only possible for animals.",
+                "has been replaced by modern drug treatments."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "You can be happy if your surgeon can operate because it means...........",
+            "options": [
+                "he is a good doctor.",
+                "he thinks your condition may be curable.",
+                "he knows you will survive.",
+                "you are getting better already."
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>Passage (5)</u></b></p><b><center>(1)</b></center><p>Pottery is the name given to all kinds of pots and utensils made from clay and other minerals when they have been 'fired', that is, hardened by heat in the potter's kiln. Articles made of pottery include plates, cups and saucers, cooking dishes, wall and floor tiles, chemical storage jars, bathroom fittings, filters, drainpipes, electrical insulators, and ornaments for the home.</p><b><center>(2)</b></center><p>Pottery is one of the oldest crafts, which began to be practiced as soon as man learned to control fire, and long before the melting of metals. It enabled him from incredibly early times to make vessels for storing and cooking food, for carrying water, and for ritual burial purposes. Early vessels were shaped by hand and probably' fired' in a big bonfire by covering them over with dried grass and dead branches, which were then set alight.</p><b><center>(3)</b></center><p>A great advance in pottery followed the invention of the potter's wheel and the kiln. It is not certainly known where the potter's wheel was first used, but it is thought that by about 3500 B.C. potters in Central Asia were using some kind of wheel. From there its use spread west and east to Egypt, Crete, China - and then to Ancient Greece and Rome.</p><b><center>(4)</b></center><p>At first the wheel was nothing more than a small disc, turned on a pivot by hand, but later it was improved by raising it and providing it with a larger circular platform near the ground as well which could be rotated by the potter with his feet. Such a wheel was in use in Egypt by about 200 B.C., though this is only conjecture; but it was certainly still in use in Europe at the beginning of the nineteenth century. In the eighteenth century, however, the potter's wheel was improved so that it could be worked by a treadle or turned by an assistant. Modern potters' wheels are power driven.</p><b><center>(5)</b></center><p>There are three principal ways articles may be made of pottery. They may be simply shaped by hand. They may be thrown on the potter's wheel and shaped against the spin with the fingers or some scraping tool. Thirdly, the wet clay may be put in a pre-shaped 'form' of plaster-of Paris.</p><b><center>(6)</b></center><p>After the pots have been made, they are slowly baked in the kiln. This produces chemical changes in the' clay which have a hardening effect. The time taken for firing pottery varies with the size of the kiln and the type of clay. It can take anything from 24 hours to as long as 2 weeks.</p><b><center>(7)</b></center><p>If pottery is to hold water, it must be 'glazed', since clay is porous by nature. Glaze consists of the raw materials of glass, ground together and mixed with water to a creamy consistency. The glaze is sprayed on to the pot which is then heated in the kiln again until it is, in effect, covered with a very thin layer of glass. This seals the pores in the clay and gives us the versatile table and oven dishes we know so well today.</p>"
+        },
+        {
+            "q": "Pottery is the name given to",
+            "options": [
+                "all kinds of utensils.",
+                "all kinds of pots and utensils",
+                "domestic fittings and table dishes.",
+                "things made of baked clay or other minerals."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The early making of pottery",
+            "options": [
+                "pre-dated the discovery of fire.",
+                "post-dated the smelting of metals.",
+                "was dependent on the control of fire.",
+                "avoided the need for storing and treating food."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Before the invention of the potter's wheel",
+            "options": [
+                "pottery vessels were shaped by hand.",
+                "it was impossible to make pottery vessels.",
+                "pottery vessels were shaped by heating in a bonfire.",
+                "pottery could only be obtained from Central Asia."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The first potter's wheel was invented.",
+            "options": [
+                "in Central Asia.",
+                "in Egypt.",
+                "in Ancient Greece.",
+                "before 3500 B.C."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The time taken for firing pottery varies according to",
+            "options": [
+                "the type of clay the kiln is made of.",
+                "the type of clay and the size of kiln in which it is baked.",
+                "the type of kiln the pottery is baked in.",
+                "atmospheric conditions."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The glaze on a pottery vessel",
+            "options": [
+                "keeps the clay soft.",
+                "prevents the clay from becoming porous.",
+                "prevents the clay from allowing moisture to pass through its pores.",
+                "makes it more attractive to look at."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The ancient Greeks and Romans.",
+            "options": [
+                "did not use the potter's wheel.",
+                "learned about the potter's wheel from elsewhere.",
+                "did not make pottery.",
+                "carried the potter's wheel to Egypt, Crete, and China."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Improvements to the potter's wheel",
+            "options": [
+                "came only in the twentieth century.",
+                "have never really been successful.",
+                "have been concerned with motive power methods.",
+                "ceased after 200 B.C."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A foot-operated potter's wheel was in use in Egypt.",
+            "options": [
+                "certainly by 2000 B.C.",
+                "by the beginning of the nineteenth century.",
+                "for a brief period in the second century A.D.",
+                "around 200 B.C."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The three ways articles can be made of pottery are.",
+            "options": [
+                "spinning, molding, and 'throwing'.",
+                "'throwing', hand shaping, and on a wheel.",
+                "handcrafting, firing, and painting.",
+                "shaping, glazing, and decorating."
+            ],
+            "correct": 1
+        }
+    ]
+}

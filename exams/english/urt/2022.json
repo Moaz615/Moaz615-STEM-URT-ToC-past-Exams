@@ -1,0 +1,519 @@
+{
+    "questions": [
+        {
+            "passage": "<p align=\"center\"><b><u>Passage (1)</u></b></p><p>Most people wish they had better memories. They also worry about forgetting things as they get older. But did you know that we have different kinds of memory? When one or more of these kinds of memories start to fail, there are a few simple things that everyone can do to improve their memories.</p><p>What most people think of as memory is, in fact, five different categories of memory. Our capability to remember things from the past, that is, years or days ago, depends on two categories of memory. They are remote memory and recent memory, respectively. Think back to last year's birthday. What did you do? If you can't remember that, you are having a problem with your remote memory. On the other hand, if you can't remember what you ate for lunch yesterday, that is a problem with your recent memory.</p><p>Remembering past events is only one way we use memories. When taking a test, we need to draw on our semantic memories. That is the sum of our acquired knowledge. Or maybe we want to remember to do or use something in the future, either minutes or days from now. These cases use our immediate and prospective memories, respectively. Have you ever thought to yourself, \"I need to remember to turn off the light,\" but then promptly forgot it? That would be a faulty immediate memory. On the other hand, maybe you can easily remember to meet your friend for lunch next week. That means that at least your prospective memory is in good working order.</p><p>Many people think that developing a bad memory is unavoidable as we get older, but this is actually not the case. Of our five kinds of memory, immediate, remote, and prospective (if aided with cues like memos) do not degrade with age. But how can we prevent a diminishing of our semantic and unaided prospective memories? The secret seems to be activity. Studies have shown that a little mental activity, like learning new things or even doing crossword puzzles, goes a long way in positively affecting our memories. Regular physical activity appears to be able to make our memories better as well. This is possibly due to having a better blood supply to the brain. The one thing to avoid at all costs, though, is stress. When we are stressed, our bodies release a hormone called cortisol, which is harmful to our brain cells and thus our memories. Reducing stress through meditation, exercise, or other activities can help to preserve our mental abilities.</p>"
+        },
+        {
+            "q": "The passage emphasizes mainly on",
+            "options": [
+                "how to reduce stress",
+                "man memory",
+                "functions of brain",
+                "how to stay active"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "........memory refers to the memory's storage of general knowledge.",
+            "options": [
+                "Immediate",
+                "Recent",
+                "Semantic",
+                "Remote"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "........ memory is the category of memory would you use to remember why you went to the kitchen.",
+            "options": [
+                "Recent",
+                "Remote",
+                "Semantic",
+                "Immediate"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "........is one of the activities which would positively affect your memory.",
+            "options": [
+                "Sleeping",
+                "Stretching",
+                "Working a lot",
+                "Producing cortisol"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "According to the passage, ........ can help you to have a good memory.",
+            "options": [
+                "important events",
+                "physical activity",
+                "being stressed",
+                "blood pressure"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "............ is a synonym of the underlined word \"diminishing\".",
+            "options": [
+                "Decreasing",
+                "Systematizing",
+                "Degrading",
+                "Upgrading"
+            ],
+            "correct": 0
+        },
+        {
+            "q": ".............is closest in meaning to the underlined word \"secret\".",
+            "options": [
+                "A hidden thing",
+                "A private thing",
+                "An unexplainable thing",
+                "A successful method"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "According to the passage, ............ may change your brain in ways that affect your memory.",
+            "options": [
+                "getting older.",
+                "body cells.",
+                "getting stressed.",
+                "blood supply."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Studies have shown that a little mental activity ............ ",
+            "options": [
+                "leads to a big beneficial result later.",
+                "causes serious problems in the future.",
+                "has a bad effect on memorizing things.",
+                "results from practising crossword puzzles."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "When you forgot ...................; this means, you might have a defect in your prospective memory.",
+            "options": [
+                "the place where you parked your car.",
+                "when you will be interviewed for a job.",
+                "to book tickets for watching your favourite team.",
+                "how you dealt with a problem in your class."
+            ],
+            "correct": 2
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>Passage (2)</u></b></p><p>The immune system is equal in complexity to the combined intricacies of the brain and nervous system. The success of the immune system in defending the body relies on a dynamic regulatory communications network consisting of millions and millions of cells. Organized into sets and subsets, these cells pass information back and forth like clouds of bees swarming around a hive. The result is a sensitive system of checks and balances that produces an immune response that is prompt, appropriate, effective, and self-limiting.</p><p>At the heart of the immune system is the ability to distinguish between self and non-self. When immune defenders encounter cells or organisms carrying foreign or non-self-molecules, the immune troops move quickly to eliminate the intruders. Virtually every body cell carries distinctive molecules that identify it as self. The body's immune defenses do not normally attack tissues that carry a self-marker. Rather, immune cells and other body cells coexist peaceably in a state known as self-tolerance.</p><p>When a normally functioning immune system attacks a non-self-molecule, the system has the ability to \"remember\" the specifics of the foreign body. Upon subsequent encounters with the same species of molecules, the immune system reacts accordingly. With the possible exception of antibodies passed during lactation, this so called immune system memory is not inherited. Despite the occurrence of a virus in your family, your immune system must \"learn\" from experience with the many millions of distinctive non-self-molecules in the sea of microbes in which we live. Learning entails producing the appropriate molecules and cells to match up with and counteract each non-self-invader.</p><p>Any substance capable of triggering an immune response is called an antigen. Antigens are not to be confused with allergens, which are most often harmless substances (such as ragweed pollen or cat hair) that provoke the immune system to set off the inappropriate and harmful response known as allergy. An antigen can be a virus, a bacterium, a fungus, a parasite, or even a portion or product of one of these organisms. Tissues or cells from another individual (except an identical twin, whose cells carry identical self-markers) also act as antigens; because the immune system recognizes transplanted tissues as foreign, it rejects them. The body will even reject nourishing proteins unless they are first broken down by the digestive system into their primary, nonantigenic building blocks. An antigen announces its foreignness by means of intricate and characteristic shapes called epitopes, which protrude from its surface. Most antigens, even the simplest microbes, carry several different kinds of epitopes on their surface; some may even carry several hundred. Some epitopes will be more effective than others at stimulating an immune response. Only in abnormal situations does the immune system wrongly identify self as non-self and execute a misdirected immune attack. The result can be a so-called autoimmune disease such as rheumatoid arthritis or systemic lupus erythematosis. The painful side effects of these diseases are caused by a person's immune system actually attacking itself.</p>"
+        },
+        {
+            "q": "The successful defense of immune system to the body depends on the ............ network among its cells.",
+            "options": [
+                "communications network",
+                "immune troops",
+                "immune cells",
+                "microbe's communications."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The immune cells and other cells in the body coexist peaceably in a state known as...",
+            "options": [
+                "equilibrium.",
+                "harmony.",
+                "self-confidence.",
+                "self-tolerance."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Sensitivity to ............ vary from one person to another and they are allergic to an unusual number of substances.",
+            "options": [
+                "antigens",
+                "microbes",
+                "allergens",
+                "diseases"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A/An ............ is the part of an antigen that is recognized by the immune system as \"foreign\" or \"non-self?\".",
+            "options": [
+                "molecule",
+                "fragment",
+                "arthritis",
+                "epitope"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The overall function of the immune system is to ............ infection.",
+            "options": [
+                "increase",
+                "recognize",
+                "prevent",
+                "inherit"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The main idea of this passage is",
+            "options": [
+                "the immune system and its vital role.",
+                "an antigen triggers an immune response",
+                "immune system's allergic response.",
+                "the human body is a habitat for microbes"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "When an organ is transplanted from identical twin to another, the recipient's immune system ............. it",
+            "options": [
+                "won't be rejected",
+                "might not be rejected",
+                "may be rejected.",
+                "could be rejected."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "According to the passage, the underlined word \"intricacies\" means",
+            "options": [
+                "confusion of pathways.",
+                "elaborate interconnections.",
+                "inherent perplexity.",
+                "comprehensive coverage."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "One can suffer from systemic lupus erythematosis when one's body............",
+            "options": [
+                "attacks itself.",
+                "eliminates the intruders.",
+                "distinguish between self and non-self.",
+                "recognizes transplanted tissues as foreign."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The underlined word \"triggering\" can be replaced by.",
+            "options": [
+                "activating",
+                "relevant.",
+                "different.",
+                "impacting"
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>Passage (3)</u></b></p><p>Nothing is similar to the taste of chocolate. It is simply delicious. What is chocolate? Where does it come from? In this article, I'll tell you some facts about it. Christopher Columbus was probably the first to take cacao beans from the New World to Europe in around 1502. But the history of chocolate goes back at least 4,000 years! The Aztecs, who lived in America, thought that their bitter cacao drink was a divine gift from heaven. In fact, the scientist Carolus Linnaeus named the plant Theobroma, which means \"food of the gods.\"</p><p>The Spanish explorer Hernando Cortez went to America in 1519. He visited the Mexican emperor Montezuma. He saw that Montezuma drank cacao mixed with vanilla and spices. Cortez took some cacao home as a gift to the Spanish King Charles. In Spain, people began to drink Cortez's chocolate in a drink with chili peppers. However, the natural taste of cocoa was too bitter for most people. To sweeten the drink, Europeans added sugar to the cacao drink. As a sweet drink, it became more popular. By the 17th century, rich people in Europe were drinking it.</p><p>Many decades later, people started using chocolate in pastries, like pies and cakes. In 1828, Dutch chocolate makers started using a new process for removing the fat from cocoa beans, and getting to the center of the cocoa bean. The Dutch chocolate maker Conrad J. van Houten made a machine that pressed the fat from the bean. The resulting powder mixed better with water than cacao did. Now, some call van Houten's chocolate \"Dutch chocolate.\" It was easy to mix Dutch chocolate powder with sugar. So other chocolate makers started trying new recipes that used powdered chocolate. People started mixing sweetened chocolate with cocoa butter to make solid chocolate bars. In 1849, an English chocolate maker made the first chocolate bar. In the 19th century, the Swiss started making milk chocolate by mixing powdered milk with sweetened chocolate. Milk chocolate has not changed much since this process was invented.</p><p>Today, two countries - Brazil and Ivory Coast - account for almost half the world's chocolate. The United States imports most of the chocolate in the world, but the Swiss eat the most chocolate per person. The most chocolate eaten today is sweet milk chocolate, but people also eat white chocolate and dark chocolate. Cocoa and dark chocolate are believed to help prevent heart attacks, or help keep them from happening. They are supposed to be good for the circulatory system. On the other hand, the high fat content of chocolate can cause weight gain, which is not good for people's health. Other health claims for chocolate have not been proven, but some research shows that chocolate could be good for the brain. Chocolate is a popular holiday gift. A popular Valentine's Day gift is a box of chocolate candies with a card and flowers. Chocolate is sometimes given for Christmas and birthdays. Chocolate eggs are sometimes given at Easter.</p><p>Chocolate is toxic to some animals. An ingredient in chocolate is poisonous to dogs, cats, parrots, small rodents, and some livestock. Their bodies cannot process some of the chemicals found in chocolate. Therefore, they should never be fed chocolate.</p>"
+        },
+        {
+            "q": "People first knew chocolate",
+            "options": [
+                "Before Christ",
+                "Anno Domini",
+                "in 1502.",
+                "in 1519"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The Aztecs and Carolus Linnaeus thought cocoa was a godly thing, but was only thought ............ ",
+            "options": [
+                "realistic",
+                "factual",
+                "truthful",
+                "mythical"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The taste of chocolate is thought to be ............ taste to others",
+            "options": [
+                "similar",
+                "incomparable.",
+                "equivalent",
+                "analogous"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Cortez played ............ role of transfer the cocoa drinks to Spain.",
+            "options": [
+                "minor",
+                "tiny",
+                "neglected",
+                "essential"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Cocoa became more popular as a ....... drink.",
+            "options": [
+                "sweet",
+                "biter",
+                "mixed",
+                "soft"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Making powder from cocoa beans was a new era for using it in many ............ ",
+            "options": [
+                "drinks",
+                "countries",
+                "towns.",
+                "recipes"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The first chocolate bar was made in.......",
+            "options": [
+                "England",
+                "German",
+                "Spain",
+                "Mexica"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "According to the passage, cocoa and dark chocolate are thought to be ............ ",
+            "options": [
+                "double-weapon edge",
+                "have only good effects",
+                "have only bad effects",
+                "dangerous for brain"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "It has been proven that chocolate is ............ ",
+            "options": [
+                "only bad for livestock",
+                "toxic for many people",
+                "only good for dogs",
+                "poisonous for many animals"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Although Brazil and Ivory Coast account for almost half the world's chocolate, they are both .............. countries",
+            "options": [
+                "developed",
+                "developing",
+                "modern",
+                "ancient"
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>Passage (4)</u></b></p><p>Many great inventions are greeted with ridicule and disbelief. The invention of the airplane was no exception. Although many people who heard about the first powered flight on December 17, 1903, were excited and impressed, others reacted with peals of laughter. The idea of flying an aircraft was repulsive to some people. Such people called Wilbur and Orville Wright, the inventors of the first flying machine, impulsive fools. Negative reactions, however, did not stop the Wrights. Impelled by their desire to succeed, they continued their experiments in aviation.</p><p>Orville and Wilbur Wright had always had a compelling interest in aeronautics and mechanics. As young boys they earned money by making and selling kites and mechanical toys. Later, they designed a newspaper-folding machine, built a printing press, and operated a bicycle-repair shop. In 1896, when they read about the death of Otto Lilienthal, the brother's interest in flight grew into a compulsion. Lilienthal, a pioneer in hang-gliding, had controlled his gliders by shifting his body in the desired direction. This idea was repellent to the Wright brothers, however, and they searched for more efficient methods to control the balance of airborne vehicles. In 1900 and 1901, the Wrights tested numerous gliders and developed control techniques. The brothers' inability to obtain enough lift power for the gliders almost led them to abandon their efforts.</p><p>After further study, the Wright brothers concluded that the published tables of air pressure on curved surfaces must be wrong. They set up a wind tunnel and began a series of experiments with model wings. Because of their efforts, the old tables were repealed in time and replaced by the first reliable figures for air pressure on curved surfaces. This work, in turn, made it possible for them to design a machine that would fly. In 1903 the Wrights built their first airplane, which cost less than one thousand dollars. They even designed and built their own source of propulsion - a lightweight gasoline engine. When they started the engine on December 17, the airplane pulsated wildly before taking off. The plane managed to stay aloft for twelve seconds, however, and it flew one hundred twenty feet. By 1905 the Wrights had perfected the first airplane that could turn, circle, and remain airborne for half an hour at a time. Others had flown in balloons or in hang gliders, but the Wright brothers were the first to build a full-size machine that could fly under its own power. As the contributors of one of the most outstanding engineering achievements in history, the Wright brothers are accurately called the fathers of aviation.</p>"
+        },
+        {
+            "q": "Some people reacted with peals of laughter on the first powered flight this means they thought it was....... idea",
+            "options": [
+                "ridiculous",
+                "wonderful",
+                "exciting.",
+                "funny"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Without ............ the Wright brothers couldn't have succeeded.",
+            "options": [
+                "demotivation",
+                "conceding",
+                "determination",
+                "surrendering"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The underlined word \"repulsive\" can be replaced by.",
+            "options": [
+                "impressive",
+                "repellent",
+                "pleasant",
+                "appealing"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Lilenthal's idea about controlling airborne vehicles was ........... the Wrights.",
+            "options": [
+                "proven wrong by",
+                "opposite to the ideas of",
+                "disliked by",
+                "accepted by"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The old tables were ............ and replaced by the first reliable figures for air pressure on curved surfaces.",
+            "options": [
+                "destroyed",
+                "canceled",
+                "multiplied",
+                "discarded"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The underlined word aviation means…………….. .",
+            "options": [
+                "vain",
+                "aeroplane",
+                "availing",
+                "aeronautics"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The antonym of the underlined word \"aloft\" can be…………….",
+            "options": [
+                "forward",
+                "upward",
+                "backward",
+                "downward"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The Wright brothers succeeded in building the first plane because they…… .",
+            "options": [
+                "were impulsive fools",
+                "were good students",
+                "never gave up",
+                "spent a lot of money"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "According to the passage, the idea of inventing the plane came to Wilbur's mind while…………………….. .",
+            "options": [
+                "reading about a man experimenting his own invention",
+                "writing an article for the local paper",
+                "reading a book about great inventions",
+                "reading a newspaper story about a woman’s flying trial"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The Wrights designed and built their own source of……………..",
+            "options": [
+                "a weightless engine",
+                "force for turning around",
+                "force for moving forward",
+                "a magnitude and powerful engine"
+            ],
+            "correct": 2
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>Passage (5)</u></b></p><p>Mokhles Amin, a famous artist and activist, collapsed in a seat at Grand Café in Aswan. He put his head in his hands and let out a deep sigh. Mokhles had come to Edfu, a small town in Aswan to do a public service. He had come up with the idea to develop a play for children affected by torrents, and he had secured a modest grant from the government to do so. But he hadn’t accounted for the major hindrance he would face: blistering heat in August with no clean water to drink. Buying water for his crew of 40 volunteers for weeks on end would be far too expensive to do on his shoestring budget, and he had no one to turn to on such short notice for help. Mokhles feared he would have to close up the production and return home. As he sipped on a glass of soda, he found it ironic that water, which flooded this city and left many residents without homes or hope, would now be his downfall as he tried to spread the joy of theater to its children.</p><p>“Hello, sir,” a man at the table next to him said. “What brings you to this distant area?” Mokhles shook his head. Later, he would find it amusing that this man knew just by looking that Mokhles was not a local. For now, he was just tired and irritated. “Look, I don’t mean to be rude, but I’ve had a bad day,” Mokhles said. “I don’t much feel like talking.” “What brings you to town?” the man said, pleasantly. Mokhles grudgingly talked a bit about his work as a theater director in Cairo and his dream to bring a top-flight play to the children of Edfu.</p><p>The next day, as Mokhles left a blazing hot outdoor studio, he noticed the same man from the cafe, parked on the street. A shock of fluffy white hair framed his dark face, making him look almost saintly. “Look, sir, what do you want?” “To help.” “How?” “What do you need?” “What I really need is clean water. That’s all I need.” Mokhles turned and walked away. He had been rude, he knew, but he was so frustrated by this problem. When he arrived back at his hotel room that evening, the front desk clerk handed Mokhles an unmarked envelope. Inside was a cheque for 5,000£. The memo line read, “For water.” Mokhles was flabbergasted. Who was this man? As he pondered his good fortune, the phone rang in his hotel room. “Will that get you some water?” a voice said on the other end. “Why, yes, yes it will,” Mokhles said. “Thank you so much for your generosity.” “My wife and I would like to entertain you to dinner.” Mokhles could not refuse! This man was his savior, and his curiosity had grown the best of him.</p><p>Who was this benefactor? At dinner, Karim and his wife, Magda, formally introduced themselves. Mr. Karim never graduated from high school, but inherited 5 acres of land from his father upon his death. For years, Mr. Karim grew cucumbers on the land, barely making a living. One day, a neighbor offered Karim a bag of money if Mr. Karim would let him bury three old trucks at the back of his property. Mr. Karim took the bag and agreed. Later, he could not believe how much money was in the bag. “And just for letting him bury some trucks!” The next morning, Mr. Karim said, he woke up, picked all the cucumbers off his land, and converted the 5 acres into a waste management facility. He is now one of Edfu’s few multimillionaires. “So, I have all this money now and live to help others,” said Mr. Karim. “That is why I’ve helped you.”</p>"
+        },
+        {
+            "q": "Which best describes Mokhles's mood at the beginning of this passage?",
+            "options": [
+                "Tired and vindictive.",
+                "Angry and conniving.",
+                "Pensive and high-strung.",
+                "Frustrated and overwhelmed."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The climax of this story happens when ……………….. .",
+            "options": [
+                "Mr. Karim describes how he got so rich",
+                "Mr. Karim shows up at the studio",
+                "Mokhles opens the envelope",
+                "Mokhles accepts Mr. Karim's invitation to dinner"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which of the following best describes Mokhles 's mood after he gets the cheque?",
+            "options": [
+                "Suspicious and cautious.",
+                "Confused and questioning.",
+                "Excited and nervous.",
+                "Surprised and curious."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The best antonym for \"hindrance\" is …………………. .",
+            "options": [
+                "obstacle",
+                "assistance",
+                "profit",
+                "friend"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "In paragraph 3, the author uses the term \"shoestring budget.\" This means to",
+            "options": [
+                "accept help when it is offered",
+                "have to rely on luck",
+                "operate with little money",
+                "have extreme patience"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The best antonym for \"irritated\" is ………………….. .",
+            "options": [
+                "acclimated",
+                "bashful",
+                "melancholy",
+                "pacified"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Why does Mokhles grudgingly talk to Mr. Karim in Grand Cafe?",
+            "options": [
+                "He is thirsty and wants to drink fizzy water.",
+                "He is irritated and does not feel like being bothered.",
+                "He decided conversation might make him feel better.",
+                "He wanted to spread the word about his theater program."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The underlined words \"top-flight\" can be replaced by…………….",
+            "options": [
+                "extinguished",
+                "first-rate",
+                "satisfied",
+                "clear-cut"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "What lesson does Mokhles learn in this passage?",
+            "options": [
+                "It is okay to be somewhat rude on first meeting someone.",
+                "Help can come from the most unlikely places.",
+                "Frustration can often cloud one's judgment.",
+                "Theatre programs are an excellent way to help those in need."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Mokhles and Mr. Karim are alike because both……………………. ,",
+            "options": [
+                "have charitable interests.",
+                "are quick to show emotion.",
+                "lack ambition.",
+                "are patient."
+            ],
+            "correct": 0
+        }
+    ]
+}

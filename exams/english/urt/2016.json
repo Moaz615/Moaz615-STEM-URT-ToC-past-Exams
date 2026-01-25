@@ -1,0 +1,519 @@
+{
+  "questions": [
+    {
+      "passage": "<p align=\"center\"><b><u>Passage (1)</u></b></p><p>(1) I grew up with buckets, shovels, and nets <u>waiting by the back door</u>, hip-waders hanging in the closet; tide table charts covering the refrigerator door; and a microscope <u>sat</u> on the kitchen table. <u>My mother is</u> a marine biologist. <u>Our household might have been described as uncooperative.</u> Our meals weren't always served in the expected order of breakfast, lunch, and supper. Everything <u>depended on</u> the tides. When the tide was low, Mom could be found down on the mudflats. When the tide was high, she would be standing on the inlet bridge with her plankton net.</p><p>(2) I have great respect for my mother. I learned early that the moon affected the tides. Mom was always waiting for a full moon, when low tide would be much lower than usual and high tide much higher. <u>The moon is</u> closer to the earth when full, so <u>one's</u> gravitational pull is stronger. I knew that it took about eight hours for the tides to change from high to low and <u>sixteen hours for a complete cycle of tides</u>. I didn't have to wait to learn these things in school. In our house they were everyday knowledge.</p><p>(3) [1] Often, <u>brother and I,</u> joined our mother on her adventures into tidal lands. [2] At the <u>very low tides of the full moon, when almost all the water was sucked away, we found</u> the hideaways where crabs, snails, starfish, and sea urchins stored in order not to be seen. [3] Sometimes we would dig with shovels in the mud, where yellow and white worms lived in their leathery tunnels.</p><p>(4) For plankton tows, we would stand on the bridge while Mom lowered a cone-shaped <u>net that is often used by marine biologists.</u> Then we would patiently wait. After a while, she would pull up the net, and we would go home. Later, we would see her sitting at the kitchen table, peering through the lenses of her microscope <u>at a drop of water from the bottle</u> watching the thousands of tiny swimming organisms.</p>"
+    },
+    {
+      "q": "Which choice would best fit the underlined portion in line 1?",
+      "options": [
+        "waiting by the back door.",
+        "waiting by the back door;",
+        "waiting, by the back door,",
+        "NO CHANGE"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "Which choice would best fit the word \"sat\" in line 3?",
+      "options": [
+        "was sitting",
+        "sitting",
+        "NO CHANGE",
+        "would sit"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Which choice would best fit \"My mother is\" in line 3?",
+      "options": [
+        "NO CHANGE",
+        "As my mother's interest is science, she is",
+        "My mother's occupation is that of",
+        "Having studied, my mother is"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Which choice for \"our household might have been described as uncooperative\" would most effectively introduce the rest of paragraph 1?",
+      "options": [
+        "NO CHANGE",
+        "Our household was not run on a regular routine.",
+        "There seemed to be no explanation for why mom ran our household the way she did.",
+        "Mom ran our household in a most remarkable manner."
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Which choice would best describe \"depended on\" in line 5?",
+      "options": [
+        "was subservient to the disposal",
+        "trusted in",
+        "NO CHANGE",
+        "was defenseless in the face of"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Which choice would best replace \"The moon is\" in line 10?",
+      "options": [
+        "Is",
+        "Since the moon is",
+        "NO CHANGE",
+        "The moon,"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Which choice would best replace \"one's\" in line 10?",
+      "options": [
+        "it's",
+        "its'",
+        "NO CHANGE",
+        "Its"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "If the writer were to delete the phrase \"sixteen hours for a complete cycle of tides\" in line 12, the essay would primarily lose a detail that:",
+      "options": [
+        "reflects the narrator's knowledge regarding the tides.",
+        "helps establish the setting for the essay.",
+        "contradicts a point made earlier in the paragraph.",
+        "shows how the narrator's interests are different from the mother's interests."
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Which choice would best fit \"brother and I,\" in line 14?",
+      "options": [
+        "brother, and I",
+        "NO CHANGE",
+        "brother, and I,",
+        "my brother and I"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "Which choice would best fit the underlined words in line 15?",
+      "options": [
+        "away. We",
+        "away; we",
+        "NO CHANGE",
+        "away. Then we"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Given that all of the choices are true, which one provides information that is relevant to line 20 and that makes the rest of paragraph 4 understandable?",
+      "options": [
+        "NO CHANGE",
+        "was shaped like a three-dimensional geometric figure.",
+        "was woven from flax and nylon material.",
+        "had a sample bottle tied to its smaller end."
+      ],
+      "correct": 3
+    },
+    {
+      "q": "The best placement for \"at a drop of water from the bottle\" in lines 22 and 23 would be:",
+      "options": [
+        "after the word peering.",
+        "after the word lenses.",
+        "where it is now.",
+        "after the word watching."
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Which choice most effectively signals the shift from paragraph 1 to the first line of paragraph 2?",
+      "options": [
+        "NO CHANGE",
+        "The moon is a mysterious orb afloat in the sky.",
+        "A contrast between the moon and the tides.",
+        "The effects of the phases of the moon on our lives."
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Which of the following sequences of sentences makes paragraph 3 most logical?",
+      "options": [
+        "3, 2, 1",
+        "2, 1, 3",
+        "3, 1, 2",
+        "NO CHANGE"
+      ],
+      "correct": 3
+    },
+    {
+      "passage": "<p align=\"center\"><b><u>Passage (2)</u></b></p><p>(1) Surrounded by the ancient city of Rome, Vatican City is an independent nation on the west bank of the Tiber River. This tiny country <u>about one-sixth of a square mile in all-</u> is also home to a disproportionately large number of sites with <u>great</u> historical, artistic, and <u>as well as</u> religious significance.</p><p>(2) The Vatican Museums house <u>a great many valuable</u> paintings, sculptures, pieces of jewelry, tapestries, and the world's most extensive collections of ancient manuscripts. Scholars often <u>check out</u> the museums archives of early written works for insights into lives led long ago.</p><p>(3) <u>Accordingly,</u> St. Peter's Basilica, the largest cathedral in the Northern Hemisphere, is remarkable. Built upon second-century foundations: St. Peter's features a dome designed by the artist and architect Michelangelo. Intricate mosaics enormous <u>\"paintings\"</u> fashioned from millions of tiny cut stones of various colors-line each of the Basilica's several smaller domes. The marble floor, with its intricate designs, covers the cathedral's catacombs, where popes are buried. Sculptures by Michelangelo and Bernini, including Michelangelo's poignant Pietà, contributes to the basilica's beauty.</p><p>(4) However, to many, the most spectacular part of Vatican City is the Sistine Chapel. This vast chapel displays what many <u>consider some</u> of the most important works of Renaissance art: Michelangelo's awe inspiring frescoes. These frescoes-paintings made on freshly spread, still-moist plaster capture the attention of viewers with a complex array of religious images. One of his most famous frescoes, The Last Judgment, is painted on the west wall. A series of interrelated frescoes covers the vaulted ceiling. Despite its small size, Vatican City offers its many visitors a chance to see a wide range of historical and artistic wonders. It is easy to understand why the city has become one of the most frequently visited places in the world.</p>"
+    },
+    {
+      "q": "Given that all of the choices are true, which one in lines 1 and 2 best supports the sentence's claim about Vatican City's status as an independent nation?",
+      "options": [
+        "its own financial system, postal service, military forces and government.",
+        "an amazing history.",
+        "NO CHANGE",
+        "that has to buy most of it needs, even such necessities as water and food."
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Which choice would best fit \"about one-sixth of a square mile in all-\" in line 2?",
+      "options": [
+        "NO CHANGE",
+        "a grand total sum of about one-sixth of a square mile-",
+        "a total of about one-sixth of a square mile when added together-",
+        "about one-sixth of a square mile in its center"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "If the writer were to delete the word 'great' in line 3, it would primarily lose:",
+      "options": [
+        "an emphasis on the location of the country.",
+        "parts of the setting of the essay.",
+        "a comparison between Vatican City and Rome.",
+        "information that stresses the importance of the sites."
+      ],
+      "correct": 3
+    },
+    {
+      "q": "Which choice would best fit the underlined words in line 4?",
+      "options": [
+        "NO CHANGE",
+        "OMIT the underlined portion.",
+        "which have",
+        "having"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Given that all of the choices are true, which one best emphasizes the extent and worth of the museums' holdings for \"a great many valuable\" in line 5?",
+      "options": [
+        "NO CHANGE",
+        "numerous important",
+        "a group of precious",
+        "thousands of treasures"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "Which choice would best fit \"check out\" in line 7?",
+      "options": [
+        "grab an eyeful of",
+        "pry out",
+        "probe through",
+        "NO CHANGE"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Which choice would best fit the underlined portion in line 9?",
+      "options": [
+        "Nevertheless,",
+        "NO CHANGE",
+        "OMIT the underlined portion.",
+        "For instance,"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "If the writer were to delete the quotation marks around the word \"paintings\" in line 11, the sentence would primarily lose a feature that suggests:",
+      "options": [
+        "how carefully mosaics are grouped together.",
+        "that the mosaics in St. Peter's are the same as the mosaics in general.",
+        "that mosaics are not paintings in the exact meaning of the word.",
+        "the huge number of complexity of the mosaics in St. Peter's."
+      ],
+      "correct": 2
+    },
+    {
+      "q": "In paragraph 3, the writer is considering adding the following true statement: \"In addition to being an architect and artist, Michelangelo wrote poetry, including more than 300 sonnets.\" Should the writer make this addition here?",
+      "options": [
+        "No, since it does not focus on the main idea of the paragraph.",
+        "No, because it limits Michelangelo's contributions.",
+        "Yes, because it implies that Michelangelo was extremely gifted.",
+        "Yes, because it provides further details about Michelangelo."
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Which choice would best fit the underlined portion in line 17?",
+      "options": [
+        "NO CHANGE",
+        "consider as some",
+        "consider that some",
+        "consider for some"
+      ],
+      "correct": 0
+    },
+    {
+      "passage": "<p align=\"center\"><b><u>Passage (3)</u></b></p><p>(1) <u>I was 16 when my father unequivocally decided he would send me to wilderness camp for several months.</u> He had threatened to do it many times before, but <u>my mother had always managed</u> to prevent him from actually packing me up and shipping me off. This time he was dead set on it. My latest transgression was viewed as <u>the last straw.</u> In a fit of <u>unbridled</u> rage, I had shoved my math teacher down a flight of steps at school. He broke his arm in two places and severely dislocated his shoulder. The man hadn't done a thing to me. I am hard-pressed to remember why I was so irritated at him.</p><p>(2) <u>Anyway, Mr. Ford, my math teacher</u>, had agreed not to press charges as favor to my dad. He was a friend of my dad's from way back. Mr. Ford knew what was at stake. We all did. Dad was in the middle of a tight race for sheriff in our town. This latest \"Danny Thing,\" as my reckless behavior was now called, had all my dad's closest advisors talking. \"John, he's your son and he's a kid, but he is dragging you down,\" I heard Jake Hutch tell my dad through his closed office door the night after I pushed Mr. Ford. \"If it appears you can't set the course for enforcement in your own home, how can you set the course for this town?\" So, off to Pisgah National Forest I went. I knew in my heart that \"Wilderness Camp\" was surely just a <u>euphemism</u> for \"Torture Center.\" I imagined hours of untold abuse at the hands of some lumberjack-sized drill sergeant. I resolved not to be broken and to emerge from the program unchanged. I was who I was.</p><p>(3) Nearly everyday for six months, a small group of other troubled teens and I lugged our 30-pound backpacks on a trek that covered about 10 miles. We hiked in a rugged wilderness which seemed untouched by civilization. <u>The grandeur of the sky, rock, and wilderness made me reverent.</u> Our counselors were firm but kind, not the ogres I had imagined. We learned how to make a fire without matches and create a shelter with twigs, branches, and grass. We learned which plants were safe to eat out in the wild. Late into the night, we talked about our fears and hopes. We were devoid of radios, televisions, and cell phones. I felt myself change. I was calm and often reflective. <u>My old impulsive self was gone.</u></p><p>(4) One morning, six months later, my dad came to pick me up. I ran to hug him and saw relief and love in his eyes. \"So what's it like being sheriff?\" I asked on the ride home. \"I lost the race, Danny,\" he said. \"I'm sorry, Dad.\" I knew my behavior probably had a lot to do with his defeat. Dad squeezed my shoulder and brought me close. \"As long as I don't ever lose you, I'm okay.\"</p>"
+    },
+    {
+      "q": "Which of the following is the best way to rewrite the underlined sentence in paragraph 1 while keeping its original meaning as used in the story?",
+      "options": [
+        "I was 16 when my father angrily decided he would send me to wilderness camp for several months.",
+        "I was 16 when, over the course of several months, my father decided he would send me to wilderness camp.",
+        "I was 16 when my father decided without question he would send me to wilderness camp for several months.",
+        "I was 16 when my father tentatively decided he would send me to wilderness camp for several months."
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Which choice would best fit the sentence \"my mother had always managed\" in lines 2 and 3?",
+      "options": [
+        "NO CHANGE",
+        "my mother was having always managed",
+        "my mother always managed",
+        "my mother has always managed"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "What does the idiomatic expression, \"the last straw,\" in line 4 suggest?",
+      "options": [
+        "the biggest problem of all",
+        "the worst thing someone could have done",
+        "the last in a line of unacceptable occurrences",
+        "the deed someone wishes he or she could take back"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Which choice would be an appropriate synonym of \"unbridled\" used in line 5?",
+      "options": [
+        "peaceful",
+        "amusing",
+        "scarce",
+        "unrestrained"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "Which choice would best fit the sentence \"Anyway, Mr. Ford, my math teacher\" in line 8?",
+      "options": [
+        "Away Mr. Ford, my math teacher",
+        "NO CHANGE",
+        "Away; Mr. Ford, my math teacher",
+        "Away, Mr. Ford, my math teacher"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "As it is used in line 16, the underlined word \"euphemism\" most nearly means:",
+      "options": [
+        "a meaningless title",
+        "code word",
+        "a less offensive term",
+        "a nick name"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Which of the following is the best way to rewrite the sentence \"The grandeur of the sky, rock and wilderness made me reverent\" without changing its original meaning?",
+      "options": [
+        "I was awed by the majesty of the sky, rock, and wilderness.",
+        "The inherent danger of the sky, rock, and wilderness made me nervous.",
+        "The power of the sky, rock and wilderness made me regret my past behavior.",
+        "I felt small in comparison to the sheer size of the sky, rock, and wilderness."
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Which choice would best fit the underlined sentence in lines 26 and 27?",
+      "options": [
+        "NO CHANGE",
+        "My old; impulsive self was gone.",
+        "My old, impulsive self was gone.",
+        "My impulsive old self was gone."
+      ],
+      "correct": 2
+    },
+    {
+      "q": "What is evident at the end of the story? I. How much Danny has changed II. How much John loves his son III. How much John wanted the office",
+      "options": [
+        "I, II and III",
+        "I only",
+        "II and III",
+        "I and II"
+      ],
+      "correct": 3
+    },
+    {
+      "passage": "<p align=\"center\"><b><u>Passage (4)</u></b></p><p>(1) How should the law treat a mentally disturbed person who commits a criminal offense? Should individuals whose mental faculties are impaired be held responsible for their actions? These questions are of concern to social scientists, to members of the legal profession, and to individuals who work with criminal offenders.</p><p>(2) Over the centuries, an important part of Western law has been the concept that a civilized society should not punish a person who is mentally incapable of controlling his or her conduct. In 1724, an English court maintained that a man was not responsible for an act if “he doth not know what he is doing, no more than . . . a wild beast.” Modern standards of legal responsibility, however, have been based on the McNaghten decision of 1843. McNaghten, a Scotsman, suffered the paranoid delusion that the English Prime Minister, Sir Robert Peel, was persecuting him. In an attempt to kill Peel, he mistakenly shot Peel’s secretary. Everyone involved in the trial were convinced by McNaghten’s senseless ramblings that he was insane. He was judged not responsible by reason of insanity and sent to a mental hospital, where he remained until his death. But Queen Victoria was not pleased with the verdict—apparently she felt that political assassinations should not be taken lightly—and called on the House of Lords to review the decision. The decision was upheld and rules for the legal definition of insanity were put into writing. The McNaghten Rule states that a defendant may be found “not guilty by reason of insanity” only if he were so severely disturbed at the time of his act that he did not know what he was doing, or that if he did know what he was doing, he did not know it was wrong.</p><p>(3) The McNaghten Rule was adopted in the United States, and the distinction of knowing right from wrong remained the basis of most decisions of legal insanity for over a century. Some states added to their statutes the doctrine of “irresistible impulse,” which recognizes that some mentally ill individuals may respond correctly when asked if a particular act is morally right or wrong but still be unable to control their behavior.</p><p>(4) During the 1970s, a number of state and federal courts adopted a broader legal definition of insanity proposed by the American Law Institute, which states: “A person is not responsible for criminal conduct if at the time of such conduct, as a result of mental disease or defect, he lacks substantial capacity either to appreciate the wrongfulness of his conduct or to conform his conduct to the requirements of the law.” The word substantial suggests that “any” incapacity is not enough to avoid criminal responsibility but that “total” incapacity is not required either. The use of the word <u>appreciate</u> rather than know implies that intellectual awareness of right or wrong is not enough; individuals must have some understanding of the moral or legal consequences of their behavior before they can be held criminally responsible.</p><p>(5) The problem of legal responsibility in the case of mentally disordered individuals is currently a topic of intense debate, and a number of legal and mental health professionals have recommended abolishing the insanity plea as a defense. Many experts believe that the current courtroom procedures—in which psychiatrists and psychologists for the prosecution and the defense present contradictory evidence as to the defendant’s mental state—are confusing to the jury and do little to help the cause of justice. Some also argue that the abuse of the insanity plea by clever lawyers has allowed too many criminals to escape conviction. Others claim that acquittal by reason of insanity often leads to a worse punishment (an indeterminate sentence to an institution for the criminally insane that may confine a person for life) than being convicted and sent to prison (with the possibility of parole in a few years).</p><p>(6) Despite the current controversy, actual cases of acquittal by reason of insanity are quite rare. Jurors seem reluctant to believe that people are not morally responsible for their acts, and lawyers, knowing that an insanity plea is apt to fail, tend to use it only as a last resort. In California in 1980, only 259 defendants (out of approximately 52,000) were successful in pleading not guilty by reason of insanity.</p>"
+    },
+    {
+      "q": "From information in paragraphs 3 and 4, it can reasonably be inferred that the legal definition of insanity was changed in the 1970s after:",
+      "options": [
+        "federal courts won a case with state courts over a proposal made by the American Law Institute.",
+        "the doctrine of “irresistible impulse” was found to be in contrast with accepted notions of justice.",
+        "supporters of the McNaghten Rule had been using the insanity defense in far too many murder cases.",
+        "courts found that justice was not always established when the McNaghten Rule was applied."
+      ],
+      "correct": 3
+    },
+    {
+      "q": "Based on the passage, the primary purpose for the 1970s redefinition of insanity proposed by the American Law Institute was to:",
+      "options": [
+        "remove the insanity defense from American courtrooms.",
+        "define more precisely the concepts of responsibility and intellectual capacity.",
+        "redefine legal insanity to include as many criminals as possible.",
+        "apply the McNaghten Rule only to trials comprising cases of mistaken identity."
+      ],
+      "correct": 1
+    },
+    {
+      "q": "According to the explanation provided in paragraph 4, the use of the verb \"appreciate\" in the phrase \"to appreciate the wrongfulness\" instead of \"know\" implies which of the following?",
+      "options": [
+        "The contrast between right and wrong is something people feel rather than know, which makes deciding legal responsibility difficult.",
+        "To know suggests inevitability, and distinguishing right from wrong is often a subjective issue in determining legal responsibility.",
+        "The verb \"appreciate\" implies that an action and that action’s implications must be understood for there to be legal responsibility.",
+        "An insane person would “know” something the way a sane person would “know” something, and be able to value that knowledge, too."
+      ],
+      "correct": 2
+    },
+    {
+      "q": "According to the passage, a lawyer contemplating using insanity as a defense for a client should do which of the following?",
+      "options": [
+        "Carefully assess using the defense, since in actual practice it rarely works",
+        "Assemble for trial a team of expert witnesses with a wide range of viewpoints on mental illness",
+        "Ensure that the prosecution in a client’s trial does not use the doctrine of “irresistible impulse”",
+        "Recommend that the client be acquitted because a doctor has judged him/her criminally insane"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "The passage indicates that individuals who use the insanity defense:",
+      "options": [
+        "are not allowed to do so unless it can be proved that they are really insane.",
+        "should be tried, convicted, and punished whether or not they are really insane",
+        "are legally responsible for their actions even if a jury decides they are not guilty.",
+        "might risk a lifelong imprisonment even if the acquittal is based on insanity."
+      ],
+      "correct": 3
+    },
+    {
+      "q": "According to the passage, one of the reasons some mental health and legal groups want to abolish the insanity defense is that:",
+      "options": [
+        "even skillful lawyers are confused about when to use and when not to use it.",
+        "juries that must classify conflicting testimony become confused, and justice suffers.",
+        "when it is invoked, even if the case is won, the punishment often ends up being too lenient.",
+        "innocent defendants are too often being punished unfairly by unsympathetic juries."
+      ],
+      "correct": 1
+    },
+    {
+      "q": "The passage states that McNaghten wanted to kill the English prime minister because the Scotsman thought that he:",
+      "options": [
+        "would establish a new standard for the legal definition of insanity.",
+        "was being persecuted by the prime minister.",
+        "could escape conviction by pleading insanity.",
+        "was mistakenly identified as a criminal."
+      ],
+      "correct": 1
+    },
+    {
+      "q": "According to the passage, the McNaghten Rule was initially reviewed because:",
+      "options": [
+        "the House of Lords wanted to establish rules for legal insanity.",
+        "McNaghten's ramblings were considered senseless.",
+        "Queen Victoria was dissatisfied with the original verdict.",
+        "the prime minister's secretary had been killed."
+      ],
+      "correct": 2
+    },
+    {
+      "q": "As used in the final paragraph, the word \"apt\" most nearly means:",
+      "options": [
+        "appropriate",
+        "likely",
+        "quick",
+        "skilled"
+      ],
+      "correct": 1
+    },
+    {
+      "passage": "<p align=\"center\"><b><u>Passage (5)</u></b></p><p>(1) In the neighborhood center, Abshu has been the director of the community theater program for ten years. He has seen many children grow up and move on to successful careers. Abshu believes that the theater is a powerful tool for social change. He works tirelessly to ensure that the children in his program have access to the best resources available. Abshu often spends his own money to buy costumes and props for the plays.</p><p>(2) One of the biggest challenges Abshu faces is obtaining funding for the program. He spends a lot of time writing grant applications and meeting with potential donors. Abshu is very thorough in his search for financial aid. He wants the children to understand the importance of hard work and dedication. He often involves the children in the fundraising process so they can learn valuable skills.</p><p>(3) Abshu's ultimate goal is to help the children change their views of themselves and their future. He believes that every child has the potential to achieve greatness if given the right opportunities. Abshu is a firm believer in the power of art and literature to transform lives. He encourages the children to read universal themes and participate in creative dramatic arts.</p>"
+    },
+    {
+      "q": "Based on the passage, Abshu's primary motivation for running the theater program is to:",
+      "options": [
+        "make a profit from the plays.",
+        "become a famous theater director.",
+        "use theater as a tool for social change.",
+        "provide a place for his own children to play."
+      ],
+      "correct": 2
+    },
+    {
+      "q": "How does Abshu handle the financial needs of the theater program?",
+      "options": [
+        "He relies solely on government funding.",
+        "He asks the children to pay for everything.",
+        "He writes grant applications and sometimes uses his own money.",
+        "He ignores the financial needs and focuses only on the plays."
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Abshu involves the children in the fundraising process primarily to:",
+      "options": [
+        "make them work for their roles in the plays.",
+        "help them learn valuable skills and the importance of hard work.",
+        "save himself from having to do all the work.",
+        "ensure that they have enough money for their personal needs."
+      ],
+      "correct": 1
+    },
+    {
+      "q": "In terms of obtaining outside funding, Abshu can be characterized as:",
+      "options": [
+        "thorough in searching for potential sources for financial aid.",
+        "reluctant to spoil the children with charity.",
+        "interested in having the children write grant applications for financial aid.",
+        "determined on letting the children decide how the money would be spent."
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Which statement would Abshu likely agree with regarding raising a child?",
+      "options": [
+        "Children must enhance their sense of discipline to shoulder community responsibility.",
+        "Children must give priority to the society to accomplish greatness.",
+        "Achieving happiness for a child requires being religious from the early years.",
+        "A child must get involved in works of art and literature including universal themes."
+      ],
+      "correct": 3
+    },
+    {
+      "q": "Which of the following is a cherished dream that Abshu expects to make a reality in his lifetime?",
+      "options": [
+        "Establishing similar centers all over the country due to the achievements of the district center.",
+        "Helping most of the children, if not all, change their views of themselves and their future life.",
+        "Making a big sum of money to restore his family in one house.",
+        "Helping most of the children, if not all, at the neighborhood center transition from sports to creative dramatic arts."
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Abshu's attitude toward the children in his program can be described as:",
+      "options": [
+        "strict and demanding.",
+        "indifferent and professional.",
+        "supportive and visionary.",
+        "skeptical and cautious."
+      ],
+      "correct": 2
+    },
+    {
+      "q": "The term \"social change\" as used in the passage refers to:",
+      "options": [
+        "changing the rules of the theater.",
+        "improving the lives and perspectives of individuals in the community.",
+        "moving to a different neighborhood.",
+        "replacing old costumes with new ones."
+      ],
+      "correct": 1
+    }
+  ]
+}

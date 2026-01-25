@@ -1,0 +1,525 @@
+{
+    "questions": [
+        {
+            "passage": "<p align=\"center\"><b><u>A- Language Functions</u></b></p> <p><b>1) <u>Write a dialogue of FIVE exchanges</u></b> between Ali, a new graduate and his father: Ali's father offers to help him start a small project. Greetings are not counted.</p>"
+        },
+        {
+            "endPassage": true
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>B- Vocabulary & Structure</u></b></p> <p><b>2) <u>Choose the correct answer from a, b, c or d:</u></b></p>"
+        },
+        {
+            "q": "The... between Cairo and my town is 650 kilometres.",
+            "options": [
+                "district",
+                "area",
+                "distance",
+                "space"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "It is hard to walk in space because there is no..",
+            "options": [
+                "gravity",
+                "waiting",
+                "spin",
+                "air"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "She... an archaeologist when she leaves university.",
+            "options": [
+                "is going to become",
+                "is becoming",
+                "will become",
+                "becomes"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Six months.. half a year.",
+            "options": [
+                "are",
+                "is",
+                "be",
+                "were"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "I am writing. that my teacher asked for.",
+            "options": [
+                "essay",
+                "an essay",
+                "the essay",
+                "that essay"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "After the accident, the doctor. her to check if she was not injured.",
+            "options": [
+                "examined",
+                "looked at",
+                "tested",
+                "studied"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Wind and wave power are .types of energy.",
+            "options": [
+                "new",
+                "waste",
+                "renewable",
+                "cheap"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "When I was younger, I .go swimming every day.",
+            "options": [
+                "am used to",
+                "used",
+                "use",
+                "used to"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "It that air travel will become more popular in the future.",
+            "options": [
+                "is thought",
+                "was thought",
+                "thought",
+                "thinks"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Her uncle can't remember his accident. The doctor thinks he may have.......",
+            "options": [
+                "headache",
+                "phobia",
+                "amnesia",
+                "injury"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Wanting friends is part of human.",
+            "options": [
+                "conflict",
+                "nature",
+                "will",
+                "life"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "She didn't see her brother this morning. He..... the flat very early.",
+            "options": [
+                "must have left",
+                "can't have left",
+                "must leave",
+                "can't leave"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "That plant has been. so that it gets lots of light.",
+            "options": [
+                "explored",
+                "purchased",
+                "positioned",
+                "sold"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Ahmed's mother asked him where.",
+            "options": [
+                "he had been",
+                "had he been",
+                "has he been",
+                "he has been"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Accidents more frequently when the roads are busy.",
+            "options": [
+                "take part",
+                "come in",
+                "cause",
+                "occur"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "That tower is one of the town's most famous.",
+            "options": [
+                "marks",
+                "landmarks",
+                "events",
+                "products"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "My brother his ambition when he became a doctor.",
+            "options": [
+                "achieved",
+                "won",
+                "got",
+                "made"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Ali was very tired yesterday evening because he for a school test all day.",
+            "options": [
+                "has revised",
+                "had been revising",
+                "revised",
+                "revising"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "I really to very loud music in public places.",
+            "options": [
+                "disagree",
+                "argue",
+                "can't stand",
+                "object"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Whose is it to make sure children arrive safely at school?",
+            "options": [
+                "responsible",
+                "responsibility",
+                "response",
+                "respond"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Five pounds. a lot for a cup of coffee.",
+            "options": [
+                "are",
+                "cost",
+                "pay",
+                "is"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "In some countries, people use a passport instead of a/an...... card.",
+            "options": [
+                "identity",
+                "personal",
+                "national",
+                "individual"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Did they ever discover the. of the fire?",
+            "options": [
+                "reason",
+                "purpose",
+                "explanation",
+                "cause"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "My sister promised ...me after school this afternoon.",
+            "options": [
+                "meeting",
+                "to meet",
+                "met",
+                "meet"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "I've just finished a novel ........the main character is an 80-year-old man.",
+            "options": [
+                "which",
+                "in which",
+                "who",
+                "whose"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "I've heard that a new treatment for flu has been discovered.",
+            "options": [
+                "effective",
+                "useless",
+                "real",
+                "cruel"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "On ........ the news that he had passed his driving test, Taha was very happy.",
+            "options": [
+                "heard",
+                "hear",
+                "to hear",
+                "hearing"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "There was great.. when our team won the football match.",
+            "options": [
+                "procession",
+                "depression",
+                "excitement",
+                "attachment"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "He wasn't getting enough exercise, he joined a sports club.",
+            "options": [
+                "because",
+                "although",
+                "and",
+                "so"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "By this time next week, the exam results will",
+            "options": [
+                "have been published",
+                "have published",
+                "be publishing",
+                "publish"
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>C- Reading Comprehension</u></b></p> <p><b>3) <u>Read the following passage, then answer the questions:</u></b></p> Do you like video games? Lots of people do. There are many types of video games. Some people like action games. Other people like driving games. But the most popular game of all time is a puzzle game. Tetris is a game about making lines. Blocks fall from the top of the screen. They fall one at a time. The player moves the blocks. Once the blocks hit the bottom, they are locked in place. Players try to make lines go across the screen with no gaps. Complete lines disappear. This gives players more room. The blocks pile up during the game. The game ends when the blocks get to the top of the screen. A man named Alexey made Tetris in 1984. All the pieces in Tetris have four blocks. The word \"tetra\" means four. Alexey named his game after tetra and tennis. He made Tetris while working at a science academy in Moscow. Moscow is in Russia. Alexey made his game on a screen that only showed letters. He could not use blocks. The blocks were made out of letters in the first game of Tetris. Still, all Alexey's friends loved his game. It was easy to learn and fun to play. Soon the game spread across the world. It was on every computer. It was in arcades. It came with every one of Nintendo's Game Boy. More than 100 million Game Boys were sold. Tetris was all over the place. Even today Tetris comes with many phones. Dr. Richard Haier has studied Tetris players. He ran many tests. He found that playing Tetris boosts mental activity. Dr. Haier thinks Tetris is good for the brain. I agree with this finding. Now go and play some Tetris. It's just what the doctor recommended."
+        },
+        {
+            "q": "1- This article is about",
+            "options": [
+                "Video games",
+                "Tetris",
+                "Alexey",
+                "Blocks"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "2- The goal of Tetris is",
+            "options": [
+                "to make tall piles of blocks",
+                "to match the colors of blocks",
+                "to make complete lines",
+                "to get blocks to the top of the screen"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "3- Tetris is named after",
+            "options": [
+                "the number ten",
+                "fish",
+                "Paris",
+                "tennis"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "4- When Alexey created Tetris, he was in",
+            "options": [
+                "Paris",
+                "Russia",
+                "The United States of America",
+                "Germany"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "5- The highest selling game of all time is",
+            "options": [
+                "a driving game",
+                "Call of Duty",
+                "Tetris",
+                "an action game"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "6- Which event happened first?",
+            "options": [
+                "Tetris was played with letters instead of blocks.",
+                "Tetris was released on the phone.",
+                "Tetris was released in the arcade.",
+                "Tetris was brought to the Game Boy."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "7- The main idea of the second paragraph is",
+            "options": [
+                "to persuade readers to play Tetris",
+                "to explain how Tetris is played",
+                "to describe different types of games",
+                "to compare Tetris to other puzzle games"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "8- According to Dr. Richard Haier, which is true about Tetris?",
+            "options": [
+                "Tetris lowers blood pressure.",
+                "Tetris increases physical strength.",
+                "Tetris boosts mental activity.",
+                "Tetris has many side effects."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "9- What happens to a block that hits the bottom and does not form a complete line in Tetris?",
+            "options": [
+                "It disappears and reappears at the top.",
+                "It is locked in place.",
+                "The player moves the block.",
+                "It gives the player more room."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "10- Why did the first game of Tetris use letters instead of blocks?",
+            "options": [
+                "Alexey did not think of using blocks.",
+                "Alexey thought letters were more fun.",
+                "Alexey's screen could only show letters.",
+                "Alexey wanted to teach people to read."
+            ],
+            "correct": 2
+        },
+        {
+            "passage": "<p><b>4) <u>Read the following passage, then answer the questions:</u></b></p>Televisions show sounds and pictures. They get data from cables, discs, or over-the-air signals. They turn this data into sounds and images. People watch news and shows on them. You probably call them TVs. John Baird made the first TV in 1925. It had one color. It could only show 30 lines. This was just enough room for a face. It didn't work well, but it was a start. The first TV station was set up in 1928. It was in New York. Few people had TVs. The broadcasts were not meant to be watched. They showed a Felix the Cat doll for two hours a day. The doll spun around on a record player. They were experimenting. It took many years to get it right. By the end of the 1930s, TVs were working well. America got its first taste at the 1939 World's Fair. This was one of the biggest events ever. There were 200 small, black and white TVs set up around the fair. The U.S. President gave a speech over the TVs. The TVs were only five inches big but the people loved it. They wanted TVs. But World War II was going on during that time. Factories were busy making guns and bombs. When the war was over, TV spread across the country. By 1948 there were 4 big TV networks in America. They aired their shows from 8 to 11 each night. Local shows were aired at other times. Most of the time, nothing was shown at all. TV was not \"always on\" like it is now. Color TVs came out in 1953. They cost too much money for most. Also, shows were aired in black and white. By 1965, color TVs were cheaper. TV stations started airing shows in color. People had to switch if they wanted to see the shows. Now most TVs are high-def. This means that they have many lines on them. This makes the image clear. TVs have come a long way since Baird's 30 line set. High-def. TVs have 1080 lines. There are state of the art sets called 4K TVs. These TVs have 3840 lines. Some people watch TV in 3D. I wonder what they will come up with next."
+        },
+        {
+            "q": "1- Color TVs came out in",
+            "options": [
+                "1925",
+                "1953",
+                "1965",
+                "1939"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "2- Which was not true about the first TV?",
+            "options": [
+                "It could only show one color.",
+                "It only had 30 lines.",
+                "It did not have sound.",
+                "It did not work well."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "3- Networks started showing programs in color in",
+            "options": [
+                "1948",
+                "1953",
+                "1939",
+                "1965"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "4- Why did the first TV station only show Felix the Cat for two hours a day?",
+            "options": [
+                "They were running tests.",
+                "Felix the Cat was really popular.",
+                "Felix the Cat had been a big radio star.",
+                "Felix the Cat was the only show that they had."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "5- ........ slowed the spread of TVs.",
+            "options": [
+                "The World's Fair of 1939",
+                "The Civil War",
+                "The election of the U.S. President",
+                "World War II"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "6- The author's main purpose is to",
+            "options": [
+                "try to explain how a TV works.",
+                "tell readers how TVs became popular.",
+                "describe the history of the TV.",
+                "try to get people to watch more TV."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "7- Why did many families switch to color TVs in 1965?",
+            "options": [
+                "Color TVs cost a lot of money.",
+                "Many shows were only shown in color.",
+                "Color TVs came out in 1965.",
+                "World War II ended and troops returned home."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "8- 1939 was an important year for TV because",
+            "options": [
+                "many Americans were introduced to TV.",
+                "the first color TV was released.",
+                "the first TV station began broadcasting.",
+                "John Baird created the first TV."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "9- How many lines does a 4K TV have?",
+            "options": [
+                "30",
+                "1080",
+                "4000",
+                "3840"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "10- Which happened first?",
+            "options": [
+                "The 1939 World's Fair",
+                "The release of high-def. TVs",
+                "The end of World War II",
+                "The release of color TVs"
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>D- The Novel</u></b></p><br><br><br><center>مش هتحتاجهم يسطا النوفل اتغيرت</center><br><br><br>"
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>E- Writing</u></b></p> <p><b>5) <u>Write an essay of not less than 250 words on the following topic:</u></b><br> \"Do you agree or disagree that modern technology has great effects on everyday life?\" Discuss. <div style=\"width: 100%; height: 800px; background-image: linear-gradient(to bottom, transparent 28px, #888 28px, #888 30px); background-size: 100% 30px; border-top: 2px dotted #888;\"></div>"
+        }
+    ]
+}

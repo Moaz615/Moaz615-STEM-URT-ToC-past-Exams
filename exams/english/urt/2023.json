@@ -1,0 +1,519 @@
+{
+  "questions": [
+    {
+      "passage": "<p align=\"center\"><b><u>Passage (1)</u></b></p><p>A young dreamer named Ali lived in the rural outskirts of a thriving nation, amidst the colorful fabric of busy markets and emerald rice fields. Ali's intense love for engineering shone brilliantly despite his family's modest means, paving the way for a better future. His unrelenting commitment and unshakable determination quickly attracted the notice of a distinguished scholarship program, which presented him with the opportunity of a lifetime: a scholarship to attend a renowned international institution.</p><p>With trembling hands and a heart brimming with anticipation, Ali embarked on a journey that would redefine his destiny. The bustling streets of his town faded into distant memories as he stepped onto the sprawling campus of the international university, greeted by a variety of cultures and ideas. Overwhelmed yet exhilarated by the diversity, Ali found solace in the camaraderie of his peers and the unwavering support of his professors.</p><p>Inspired by the innovative atmosphere that permeated every corner of the university, Ali's imagination soared to new heights. It was during one fateful research project that Ali stumbled upon a discovery that would alter the course of his life forever. With the encouragement of his mentors, Ali delved deeper into his invention, pouring countless hours into its refinement and development.</p><p>As whispers of Ali's groundbreaking invention echoed through the hallowed halls of academia, he found himself at the center of attention, attracting the gaze of investors and mentors alike. Despite the allure of fame and fortune, Ali remained grounded in his roots, steadfast in his commitment to uplifting his community. In the end, Ali's journey from the rural outskirts of a developing country to the corridors of an international university culminated not in isolation or loneliness, but in the warm embrace of fame and recognition. His invention, a testament to the power of perseverance and the boundless potential of the human spirit, stood as a beacon of hope for generations to come.</p>"
+    },
+    {
+      "q": "Ali's journey to the international university was marked by",
+      "options": [
+        "despair and disappointment",
+        "excitement and anticipation",
+        "fear and uncertainty",
+        "reluctance and hesitation"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Upon arriving at the university, Ali was overwhelmed by",
+      "options": [
+        "the opulence of the campus",
+        "the diversity of cultures",
+        "the competitiveness of his peers",
+        "the isolation from his home"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Despite facing initial challenges, Ali found solace in",
+      "options": [
+        "his dormitory room",
+        "the support of his family",
+        "the support of his professors",
+        "his hometown memories"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Inspired by the innovative atmosphere of the university, Ali began to ........",
+      "options": [
+        "doubt his abilities",
+        "question his purpose",
+        "explore supreme target",
+        "withdraw from social interactions"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "One day, while conducting research for a class project, Ali stumbled upon",
+      "options": [
+        "an old laboratory",
+        "a groundbreaking discovery",
+        "a hidden treasure",
+        "a mysterious formula"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "With the support and dedication Ali had, he decided to",
+      "options": [
+        "abandon his project",
+        "pursue his invention further",
+        "desert his hometown forever",
+        "return to his homeland"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "With determination and perseverance, Ali worked tirelessly to",
+      "options": [
+        "impress his classmates",
+        "secure a high-paying job",
+        "refine his invention",
+        "maintain his scholarship"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "As soon as Ali's invention spread, it attracted the attention of ...",
+      "options": [
+        "jealous rivals",
+        "investors and mentors",
+        "skeptical critics",
+        "distant relatives"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Despite the temptation to return home with his newfound success, Ali chose to",
+      "options": [
+        "share his knowledge with his community",
+        "keep his invention away from",
+        "pursue fame and fortune",
+        "ties with his past"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "In the end, Ali's journey from a small village to an international university culminated in",
+      "options": [
+        "isolation and loneliness",
+        "fame and recognition",
+        "failure and disappointment",
+        "selfishness and greed"
+      ],
+      "correct": 1
+    },
+    {
+      "passage": "<p align=\"center\"><b><u>Passage (2)</u></b></p><p>Despite the trend toward the use of hi-tech diagnostic equipment, the humble stethoscope remains the tool most closely identified with medical care. Even those doctors in specialties other than internal medicine who do not routinely examine patients' hearts and lungs tend to keep a stethoscope close at hand. More than just a helpful device, it has become a fully-fledged symbol of medicine.</p><p>The 18th-century doctor attempting to diagnose diseases of the heart and lungs had to rely almost completely on the patient's verbal description of symptoms - the 'history'. Although the then novel practices of anatomical dissection was leading to revelations about the physical basis of many diseases, doctors had few means of gathering objective data that might point to a specific condition (such as a leaky heart valve) before the patient reached the autopsy table. In trying to hear the sounds coming from the thoracic organs, the doctor would press an ear directly against the patient's chest to listen carefully. Apart from being unrewarding from a diagnostic standpoint, this technique was considered undignified and sometimes imprudent. Since it required close physical contact between doctor and patient, it inevitably increased the probability of contagious diseases spreading. Such transmission may have contributed to the death of one proponent of this approach, the French doctor Robert Bayle, who died of tuberculosis.</p><p>Laënnec - a French physician and musician - solved the problem by recalling an acoustic phenomenon he had experimented with as a child in Brittany. By scratching one end of a wooden plank, he could send coded messages to his friends at the other end. When he applied this principle to the problem at hand, Laënnec literally transformed the practice of medicine. Tightly rolling up the pages of his notebook, he placed one end of the makeshift cylinder on his patient's chest and put the other to his ear; the heart sounds could be heard more distinctly. Other European doctors later developed flexible versions, and in 1855, an American doctor named George Cammann devised a binaural stethoscope that had two ivory-tipped earpieces connected to an ebony chest plate by cloth-covered, spiral-wire tubes. This version, which cost about £2, allowed doctors to listen to a patient's chest with both ears. Since then, the stethoscope has changed only modestly.</p>"
+    },
+    {
+      "q": "Based on the information in the passage, what is the most likely title?",
+      "options": [
+        "A Brief History of the Stethoscope",
+        "The Doctor as Musician: Laënnec's Innovation",
+        "The Importance of Physical Examinations in Medicine",
+        "Acoustic Phenomena and their Medical Applications"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Before the invention of the stethoscope, doctors primarily relied on",
+      "options": [
+        "hi-tech diagnostic equipment",
+        "objective data from autopsies",
+        "anatomical dissection for disease diagnosis",
+        "patients' verbal descriptions of symptoms"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "Why was directly pressing an ear to the chest for diagnosis considered problematic?",
+      "options": [
+        "It wasn't accurate enough",
+        "Doctors found it uncomfortable",
+        "It was unhygienic and could spread diseases",
+        "It offended the patients"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Laënnec's innovation with the stethoscope was inspired by",
+      "options": [
+        "his childhood experiments",
+        "his love for music",
+        "his interest in anatomy",
+        "his experience with hi-tech equipment"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Laënnec's initial stethoscope was made from",
+      "options": [
+        "a wooden plank",
+        "a notebook",
+        "ivory and ebony",
+        "spiral-wire tubes"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "The development of the binaural stethoscope",
+      "options": [
+        "increased the cost of the device",
+        "decreased its effectiveness",
+        "allowed for listening with both ears",
+        "reduced the need for physical contact"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "The stethoscope's design has changed",
+      "options": [
+        "drastically since its invention",
+        "only in recent years",
+        "modestly over time",
+        "due to technological advancements"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "The primary purpose of the stethoscope is to",
+      "options": [
+        "facilitate communication with patients",
+        "gather objective data for diagnosis",
+        "replace the need for verbal descriptions of symptoms",
+        "prevent the spread of contagious diseases"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "The use of the stethoscope is associated with",
+      "options": [
+        "increased risk of patient mortality",
+        "decreased reliance on medical history",
+        "improved diagnostic capabilities",
+        "limited accessibility in certain regions"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "What is the significance of the stethoscope beyond its use as a medical tool?",
+      "options": [
+        "It represents a doctor's authority.",
+        "It is a reminder of early medical practices.",
+        "It demonstrates a patient's trust in the doctor.",
+        "It symbolizes the medical profession."
+      ],
+      "correct": 3
+    },
+    {
+      "passage": "<p align=\"center\"><b><u>Passage (3)</u></b></p><p>Thank you\" and \"sorry\" are the two most often used phrases. However, how frequently do we mean them? Before saying \"thank you,\" it is important to comprehend the fundamentals of thankfulness. Gratitude is the capacity to show kindness, feel grateful, or express appreciation for something. We are occupied now with attempting to live, meet our needs, and accomplish our objectives. We frequently fail to see or value the things that surround us. The little things that add up to the broader picture are the straightforward ones.</p><p>Many of us operate with efficiency and precision in a clockwise manner. However, the real agents of change are the others. Even though they are compensated for their work, the people who labor to make our lives comfortable and easy are still very important to us, yet we rarely give them any thought. List all the things in your life for which you are genuinely thankful. Give something you haven't given much thought to yet that extra thinking. Start feeling thankful for what you already have and what brings you joy, rather than stressing about what you do not have or are not receiving. Make a connection with the happy and positive emotions you have as a result of certain persons in your life. The more you concentrate on your positive emotions, the more happy opportunities you'll encounter.</p><p>Find out from people who don't have access to the sea. Whenever you can, see how they respond to being close to the ocean. They'll turn around right away and tell other people how fortunate those individuals are to live so near to the ocean. We might not even be aware of how much we take for granted. A person, thing, circumstance, or essence are frequently felt in their \"absence.\" Instead of desiring to go back in time, make the most of each moment and express gratitude and happiness for what you already have. Modify your perspective, show empathy for others, and stop taking them for granted. Saying \"thank you\" or \"I'm sorry\" to others and showing gratitude for everything that improves your life can come from an open heart.</p>"
+    },
+    {
+      "q": "The main idea of the passage is",
+      "options": [
+        "\"Thank you\" and \"sorry\" should be said more often.",
+        "We should appreciate good things in life and practice gratitude.",
+        "Material possessions are the key to happiness in our life.",
+        "Focus on what we lack leads to a more fulfilling life."
+      ],
+      "correct": 1
+    },
+    {
+      "q": "According to the author, is a common obstacle of feeling gratitude.",
+      "options": [
+        "a lack of time",
+        "difficulty expressing emotions",
+        "focusing on what we don't have",
+        "knowing the proper etiquette for expressing thanks"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "What does the author recommend before saying \"thank you\"?",
+      "options": [
+        "Rehearsing how you will say it.",
+        "Understanding the true meaning of gratitude.",
+        "Only thanking people for big things.",
+        "Waiting for a special occasion."
+      ],
+      "correct": 1
+    },
+    {
+      "q": "According to the passage, who are often overlooked when it comes to gratitude?",
+      "options": [
+        "People who give us gifts",
+        "People who help us achieve our goals",
+        "People who perform essential services for our daily lives",
+        "People who are successful and wealthy"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "In the fourth paragraph, the following sentences \"Find out from people who don't have access to the sea. how fortunate those individuals are to live so near to the ocean,\" demonstrates that what is taken for granted for some people is a/an... for others.",
+      "options": [
+        "nature",
+        "warranted",
+        "ill-fated",
+        "affluence"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "According to the passage, we can infer that true happiness comes from",
+      "options": [
+        "dwelling on the past and wishing for what we had",
+        "focusing on what we lack and striving to get more",
+        "cultivating gratitude for what we already have",
+        "comparing ourselves to others and wanting what they have"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "What does the passage recommend instead of taking things for granted?",
+      "options": [
+        "ignoring them completely",
+        "Showing empathy and expressing appreciation",
+        "Trying to control them",
+        "Taking advantage of them whenever possible"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Gratitude is a strong tie of people relation and costs us nothing more than",
+      "options": [
+        "expensive gifts all the time",
+        "an open and sincere heart",
+        "grand gestures only on special occasions",
+        "following strict social etiquette rules"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "The underlined sentence \"We rarely give them any thought.\" indicates that some people can be ........ for those who support them by neglecting them.",
+      "options": [
+        "ingrate",
+        "genuine",
+        "sincere",
+        "weakness"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "What does the clockwise motion likely represent in the passage?",
+      "options": [
+        "Time passing quickly.",
+        "A routine and busy lifestyle.",
+        "The importance of punctuality.",
+        "The cycle of life and death."
+      ],
+      "correct": 1
+    },
+    {
+      "passage": "<p align=\"center\"><b><u>Passage (4)</u></b></p><p>The ozone layer, a region of Earth's stratosphere containing high concentrations of ozone (O3) molecules, plays a crucial role in protecting life on our planet from the harmful effects of ultraviolet (UV) radiation emitted by the sun. Without this protective layer, life on Earth would be profoundly impacted, with far-reaching consequences for ecosystems, human health, and the environment. If we were to lose the ozone layer, the most immediate and devastating effect would be the drastic increase in UV radiation reaching the Earth's surface.</p><p>UV radiation is known to cause a variety of harmful effects, including skin cancer, cataracts, and immune suppression in humans. Exposure to high levels of UV radiation can also damage DNA in plants and animals, leading to reduced fertility, genetic mutations, and disruptions in ecosystems. Furthermore, the increase in UV radiation would have widespread implications for agriculture and food security. Many crops are sensitive to UV radiation, and increased exposure could reduce yields and alter the nutritional content of food. UV radiation can also disrupt photosynthesis, the process by which plants convert sunlight into energy, leading to decreased crop productivity and food shortages.</p><p>The loss of the ozone layer would also have profound effects on marine ecosystems. UV radiation can penetrate ocean waters, causing damage to phytoplankton, the microscopic organisms that form the base of the marine food chain. Phytoplankton play a crucial role in regulating the Earth's climate and producing oxygen through photosynthesis. A decline in phytoplankton populations could disrupt marine food webs and lead to widespread ecosystem collapse.</p><p>In addition to its direct effects on living organisms, the loss of the ozone layer would have cascading effects on Earth's climate and atmospheric chemistry. Changes in UV radiation levels could alter atmospheric circulation patterns, leading to shifts in weather patterns and climate variability. Furthermore, increased UV radiation can accelerate the breakdown of greenhouse gases such as methane and nitrous oxide, exacerbating global warming and climate change. Overall, the loss of the ozone layer would have catastrophic consequences for life on Earth, affecting everything from human health and food security to ecosystems and climate stability. Protecting and preserving the ozone layer remains essential for ensuring the well-being of our planet and all its inhabitants.</p>"
+    },
+    {
+      "q": "The ozone layer protects life on Earth from",
+      "options": [
+        "cosmic rays from outer space.",
+        "harmful pollutants in the atmosphere.",
+        "extreme weather events such as hurricanes.",
+        "ultraviolet radiation emitted by the sun."
+      ],
+      "correct": 3
+    },
+    {
+      "q": "Agriculture would be affected by the loss of the ozone layer due to",
+      "options": [
+        "increased resistance to pests and diseases.",
+        "decreased crop yields and food shortages.",
+        "changes in soil composition and fertility.",
+        "expansion of arable land due to warmer temperatures."
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Without the ozone layer, increased UV radiation would lead to",
+      "options": [
+        "disruption of marine food webs.",
+        "reduced fertility in plants and animals.",
+        "higher rates of skin cancer in humans.",
+        "decline in phytoplankton populations."
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Marine ecosystems would suffer from increased UV radiation by ...",
+      "options": [
+        "accelerating ocean acidification.",
+        "disrupting coral reef ecosystems.",
+        "damaging phytoplankton populations.",
+        "impacting marine mammal populations."
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Loss of the ozone layer would have cascading effects on Earth's climate by ...",
+      "options": [
+        "altering atmospheric circulation patterns.",
+        "shifting ocean currents.",
+        "intensifying extreme weather events.",
+        "exacerbating global warming and climate change."
+      ],
+      "correct": 3
+    },
+    {
+      "q": "Protecting the ozone layer is essential for ...",
+      "options": [
+        "ensuring human health and well-being.",
+        "mitigating the impacts of climate change.",
+        "preserving biodiversity and ecosystem stability.",
+        "supporting agricultural productivity."
+      ],
+      "correct": 0
+    },
+    {
+      "q": "UV radiation can damage DNA in living organisms, leading to",
+      "options": [
+        "increased genetic mutations.",
+        "reduced fertility and reproductive success.",
+        "weakening of the immune system.",
+        "disruption of hormone regulation."
+      ],
+      "correct": 0
+    },
+    {
+      "q": "The loss of the ozone layer would result in",
+      "options": [
+        "increased rates of sunburn and skin damage.",
+        "higher levels of air pollution.",
+        "depletion of the ozone layer.",
+        "reduced effectiveness of sunscreen."
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Phytoplankton are important because they",
+      "options": [
+        "form the base of the marine food chain.",
+        "regulate Earth's climate.",
+        "produce oxygen through photosynthesis.",
+        "support deep-sea ecosystems."
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Human activities that contribute to ozone depletion include",
+      "options": [
+        "deforestation and land use changes.",
+        "burning of fossil fuels.",
+        "release of chlorofluorocarbons (CFCs) in refrigerants.",
+        "use of aerosol sprays containing hydrocarbons."
+      ],
+      "correct": 2
+    },
+    {
+      "passage": "<p align=\"center\"><b><u>Passage (5)</u></b></p><p>Asteroids are sharp pieces of creation that occasionally strike Earth. It is estimated that 150 traverse the route of the planet. These resemble so much of the debris left over after creation, lying in a loose belt between Mars and Jupiter. The initial asteroid was too small for the unaided eye to see. It was discovered by an Italian monk named Giuseppe Piazzi, working at an observatory in Palermo, Sicily. The largest found so far is about 8 km wide.</p><p>A massive asteroid can detonate with the power of a thousand hydrogen bombs, launching a large amount of dust and crushed rock 26 km/s into the sky, blocking the majority of sunlight. A large portion of civilization and agriculture might be severely damaged, and billions of people could starve to death. For months, there may be nothing but darkness and cold.</p><p>Dr. David Morrison, co-chairman of the study including almost 100 experts and a member of the National Aeronautics and Space Administration's (NASA) Ames Research Centre in California, stated in an interview that \"the risk is real.\" Dr. Morrison adds that it is difficult for the general public to understand and that scientists have only recently become aware of the threat posed by asteroids. He asserted, however, that it is clear that humanity exists in a sort of cosmic shooting gallery.</p><p>According to Dr. Morrison, robot spacecraft has discovered several impact craters throughout the solar system that may contain asteroidal information that could help explain the planets. Earth also has a large number of craters that geologists have discovered. Twenty of the 130 have been found, and the list is expanding by five or six per year. The biggest crater is located in Ontario and spans 198 kilometers from rim to rim.</p><p>The admiration of close encounters and unusual happenings has enhanced with the new knowledge about asteroid impacts. A celestial object that never made it to Earth detonated in the atmosphere of the Tunguska region of Siberia in 1908 with the force of several hydrogen bombs. Hundreds of square miles of forest were leveled by the following shock wave. Researchers now estimate that the object's diameter may have just been 38 meters.</p>"
+    },
+    {
+      "q": "Most asteroids are located …in our solar system.",
+      "options": [
+        "between the Sun and Mercury",
+        "between Mars and Jupiter",
+        "beyond Neptune",
+        "throughout the solar system"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "… is the estimated destructive power of a large asteroid impact.",
+      "options": [
+        "The equivalent of a thousand hydrogen bombs",
+        "The force of a small firecracker",
+        "It would cause minor localized damage",
+        "The impact wouldn't be noticeable"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "According to the passage, there are potential consequences such as … is mentioned for a major asteroid strike.",
+      "options": [
+        "a surge in technological advancements",
+        "a more colorful night sky",
+        "an increase in global temperatures",
+        "widespread starvation due to lack of sunlight"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "What is the potential consequence of a large asteroid impact on Earth?",
+      "options": [
+        "Minor damage to buildings",
+        "Creating a new moon",
+        "Blocking sunlight and disrupting agriculture",
+        "A more colorful night sky"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "According to Dr. David Morrison, how well does the public understand the threat from asteroids?",
+      "options": [
+        "Very well informed",
+        "Scientists are unsure",
+        "The risk is minimal",
+        "Not well understood by the general public"
+      ],
+      "correct": 3
+    },
+    {
+      "q": "… the evidence that scientists used to study past asteroid impacts.",
+      "options": [
+        "Ancient painting depicting celestial events were",
+        "Impact craters on Earth and other planets were",
+        "Studying the composition of the asteroid belt was",
+        "Tracking the movements of known asteroids was"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "At what approximate rate are new asteroids being discovered?",
+      "options": [
+        "None are being discovered currently",
+        "1-2 per year",
+        "5-6 per year",
+        "Over 10 per year"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "What is the size of the largest known impact crater in North America?",
+      "options": [
+        "10 kilometers",
+        "38 meters",
+        "198 kilometers",
+        "The size is unknown"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "How many impact craters have been discovered on Earth so far?",
+      "options": [
+        "All 130 mentioned in the passage",
+        "An unknown number",
+        "20, with more being found each year",
+        "None"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Impact craters can provide insights about asteroids, including their …",
+      "options": [
+        "chemical composition",
+        "proximity to Earth",
+        "effective destruction methods",
+        "atmospheric conditions on other planets"
+      ],
+      "correct": 0
+    }
+  ]
+}

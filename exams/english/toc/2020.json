@@ -1,0 +1,422 @@
+{
+    "questions": [
+        {
+            "passage": "<p align=\"center\"><b><u>A- Language Functions</u></b></p> <p><b>1) <u>Write a dialogue of FIVE exchanges</u></b> between two friends one of them wants to watch the match at a café or a club while the other prefers to watch it at home</p>"
+        },
+        {
+            "endPassage": true
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>B- Vocabulary & Structure</u></b></p> <p><b>2) <u>Choose the correct answer from a, b, c or d:</u></b></p>"
+        },
+        {
+            "q": "At a horserace, even the most detached and indifferent spectator ....... away by enthusiasm.",
+            "options": [
+                "excited",
+                "moved",
+                "stirred",
+                "carried"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "My friend had to quit smoking because the doctor advised ....... doing so.",
+            "options": [
+                "to do",
+                "doing",
+                "to doing",
+                "do"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "An ..... boat was found miles away from the shore; the police never found out who had been on it.",
+            "options": [
+                "abandoned",
+                "outworn",
+                "austere",
+                "outmoded"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Some say that success in today's competitive workplace calls for toughness and.......",
+            "options": [
+                "ruthlessness",
+                "rudeness",
+                "cruelness",
+                "callousness"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "After a long training session, the coach allowed his players to let their ........ down for an hour.",
+            "options": [
+                "hair",
+                "heads",
+                "hearts",
+                "hands"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "You're working so hard. Why don't you ....... some of your work to your assistant?",
+            "options": [
+                "delegate",
+                "design",
+                "resign",
+                "consolidate"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Most asthma patients have mild disease, ....... the burden of mild asthma is not well understood nor studied.",
+            "options": [
+                "while",
+                "due to",
+                "although",
+                "despite"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If you suffer from reflux, it is more important to avoid eating and drinking right before bed since this can make your symptoms .......",
+            "options": [
+                "the worst",
+                "further",
+                "worse",
+                "worst"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Regular exercise can improve sleep quality and duration; ....... exercising immediately before bedtime can have a stimulant effect on the body.",
+            "options": [
+                "consequently",
+                "furthermore",
+                "nonetheless",
+                "nevertheless"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Had the weather forecast been predicted ....... we would have a perfect picnic tomorrow",
+            "options": [
+                "carefully",
+                "acutely",
+                "astutely",
+                "accurately"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "He never shows his emotions ;no matter what happens, he always keeps a stiff ....... lip",
+            "options": [
+                "hand",
+                "eye",
+                "head",
+                "upper"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Whatever candidates may think about examiners, they are not in fact ....... monsters",
+            "options": [
+                "insensitive",
+                "responsive",
+                "inaccurate",
+                "insensible"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "I tried on two of the trousers but ....... of them fitted me.",
+            "options": [
+                "both",
+                "neither",
+                "either",
+                "all"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "It is still uncertain whether or not the place ....... . The decision must be made in May.",
+            "options": [
+                "will be rebuilt",
+                "has been rebuilt",
+                "is rebuilt",
+                "was rebuilt"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The tailor was wondering whether Omar is not holding his stomach ....... as his waist was two centimetres more than the last time he measured it.",
+            "options": [
+                "away",
+                "for",
+                "in",
+                "off"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "We hope doctors may someday be able to diagnose lung cancer with ....... more than a quick swab of the mouth.",
+            "options": [
+                "nothing",
+                "everything",
+                "something",
+                "anything"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Throughout history, there have been some books which had an extraordinary impact, ....... this was nothing compared to the influence the new media have.",
+            "options": [
+                "yet",
+                "because",
+                "otherwise",
+                "in spite of"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Parents tend to overlook the rates of their children's intelligence and usually make overly ....... predictions about their future.",
+            "options": [
+                "optimistic",
+                "pessimistic",
+                "intrinsic",
+                "extrinsic"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "It is observed that nobody becomes great without self-doubt. But you can't let it ....... you.",
+            "options": [
+                "consume",
+                "decay",
+                "support",
+                "uphold"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A cave is a natural opening in the ground extending beyond the ....... zone of light, and large enough to permit the entry of man.",
+            "options": [
+                "district",
+                "hamlet",
+                "glow",
+                "zone"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Far-....... actions have a very wide range of influence that affects a great number of things.",
+            "options": [
+                "fetched",
+                "reaching",
+                "stretching",
+                "sighted"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The architect's idea recommended modernising various ....... of the house without changing its essential character.",
+            "options": [
+                "ways",
+                "sides",
+                "aspects",
+                "paths"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "....... she wanted to stay at the party, she had to leave.",
+            "options": [
+                "Otherwise",
+                "Much as",
+                "In contrast",
+                "However"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The engineer referred the workers ....... the information in the vehicle operation manual.",
+            "options": [
+                "of",
+                "on",
+                "for",
+                "to"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "....... attempt to explain why humans think and behave in the way that they do will inevitably be linked to one or another branch of psychology.",
+            "options": [
+                "Some",
+                "None",
+                "All",
+                "Any"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Jewellery was important in ....... nomadic societies and was worn for festive occasions and for displaying wealth.",
+            "options": [
+                "just as / when",
+                "either / or",
+                "neither / nor",
+                "both / and"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The UN should introduce measures to put ....... , or at least restrict, organised crime.",
+            "options": [
+                "up",
+                "out",
+                "off",
+                "down"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "There is ....... rain and intense sunlight in tropical climates; consequently, plant life is luxuriant and varied.",
+            "options": [
+                "insufficient",
+                "detrimental",
+                "abundant",
+                "deficient"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Talented musicians are ....... at playing at least four instruments.",
+            "options": [
+                "adept",
+                "keen",
+                "careful",
+                "awkward"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Because many elderly are in poor health and have weakened immune systems, they are vulnerable to getting the disease when exposed to the virus ....... they have already been immunized.",
+            "options": [
+                "as if",
+                "even if",
+                "as long as",
+                "in case"
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>C- Reading Comprehension</u></b></p> <p><b>3) <u>Read the following passage, then answer the questions:</u></b></p>Many great inventions are initially greeted with ridicule and disbelief. The invention of the airplane was no exception. Although many people who heard about the first powered flight on December 17, 1903 were excited and impressed, others reacted with peals of laughter. The idea of flying an aircraft was repulsive to some people. Such people called Wilbur and Orville Wright, the inventors of the first flying machine, impulsive fools. Negative reactions, however, did not stop the Wrights. Impelled by their desire to succeed, they continued their experiments in aviation. <br><br>Orville and Wilbur Wright had always had a compelling interest in aeronautics and mechanics. As young boys they earned money by making and selling kites and mechanical toys. Later, they designed a newspaper-folding machine, built a printing press, and operated a bicycle-repair shop. In 1896, when they read about the death of Otto Lilienthal, the brothers' interest in flight grew into a compulsion. <br><br>Lilienthal, a pioneer in hang-gliding, had controlled his gliders by shifting his body in the desired direction. This idea was repellent to the Wright brothers, however, and they searched for more efficient methods to control the balance of airborne vehicles. In 1900 and 1901, the Wrights tested numerous gliders and developed control techniques. The brothers' inability to obtain enough lift power for the gliders almost led them to abandon their efforts. <br><br>After further study, the Wright brothers concluded that the published tables of air pressure on curved surfaces must be wrong. They set up a wind tunnel and began a series of experiments with model wings. Because of their efforts, the old tables were repealed in time and replaced by the first reliable figures for air pressure on curved surfaces. This work, in turn, made it possible for the brothers to design a machine that would fly. In 1903 the Wrights built their first airplane, which cost less than $1,000. They even designed and built their own source of propulsion a lightweight gasoline engine. When they started the engine on December 17, the airplane pulsated wildly before taking off. The plane managed to stay aloft for 12 seconds, however, and it flew 120 feet. <br><br>By 1905, the Wrights had perfected the first airplane that could turn, circle, and remain airborne for half an hour at a time. Others had flown in balloons and hang gliders, but the Wright brothers were the first to build a full-size machine that could fly under its own power. As the contributors of one of the most outstanding engineering achievements in history, the Wright brothers are accurately called the fathers of aviation."
+        },
+        {
+            "q": "1- The idea of flying an aircraft was ....... to some people.",
+            "options": [
+                "boring",
+                "distasteful",
+                "exciting",
+                "needless"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "2- The best word to replace \"repellent\" in \"This idea was repellent...\" could be",
+            "options": [
+                "rejecting",
+                "motivating",
+                "harmful",
+                "harmless"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "3-The Wrights' interest in aviation .......",
+            "options": [
+                "appeared suddenly",
+                "was frustrating",
+                "was competitive",
+                "was undeniable"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "4- According to the passage, the Wright Brothers made a plane that .......",
+            "options": [
+                "never took off",
+                "fought enemies",
+                "travelled long distances",
+                "flew for a short time"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "5- The best title for this passage could be .......",
+            "options": [
+                "Wrong theories",
+                "Aviation Forerunners",
+                "Scientific research",
+                "Passion for interest"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "6- People thought that the Wright brothers had .......",
+            "options": [
+                "acted without thinking",
+                "been negatively influenced",
+                "been too cautious",
+                "been mistaken"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "7- The Wrights' interest in flight grew into a .......",
+            "options": [
+                "financial empire",
+                "plan",
+                "need to act",
+                "foolish thought"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "8-. Lilienthal's idea about controlling airborne vehicles was ....... the Wrights.",
+            "options": [
+                "proven wrong by",
+                "opposite to the ideas of",
+                "rejected by",
+                "improved by"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "9- The old tables were ....... and replaced by the first reliable figures for air pressure on curved surfaces..",
+            "options": [
+                "destroyed",
+                "cancelled",
+                "multiplied",
+                "approved"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "10- The Wrights designed and built their own source of .......",
+            "options": [
+                "force for moving forward",
+                "force for turning around",
+                "force of moving downward",
+                "force for going backward"
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>D- The Novel</u></b></p><br><br><br><center>مش هتحتاجهم يسطا النوفل اتغيرت</center><br><br><br>"
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>E- Writing</u></b></p> <p><b>5) <u>Write an essay of not less than 250 words on the following topic:</u></b><br> One of your friends told you that his family has a lot of old books and clothes. What advice can you give him about the best ways to make use of them?</p> <div style=\"width: 100%; height: 800px; background-image: linear-gradient(to bottom, transparent 28px, #888 28px, #888 30px); background-size: 100% 30px; border-top: 2px dotted #888;\"></div>"
+        }
+    ]
+}

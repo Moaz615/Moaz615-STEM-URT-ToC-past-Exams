@@ -1,0 +1,519 @@
+{
+    "questions": [
+        {
+            "passage": "<p align=\"center\"><b><u>Passage (1)</u></b></p><p>There was once a shoemaker who, through no fault of his own, had become so poor that at last he had only leather enough left for one pair of shoes. At evening he cut out the shoes which he intended to begin upon the next morning, and since he had a good conscience, he lay down quietly, said his prayers, and fell asleep. In the morning when he had prayed, as usual, and was preparing to sit down to work, he found the pair of shoes standing finished on his table. He was amazed, and could not understand it in the least. He took the shoes in his hand to examine them more closely. They were so neatly sewn that not a stitch was out of place, and were as good as the work of a master-hand.</p><p>Soon after a purchaser came in, and as he was much pleased with the shoes, he paid more than the ordinary price for them, so that the shoemaker was able to buy leather for two pairs with the money. He cut them out in the evening, and next day, with fresh courage was about to go to work; but he had no need to, for when he got up, the shoes were finished, and buyers were not lacking. These gave him so much money that he was able to buy leather for four pairs of shoes. Early next morning he found the four pairs finished, and so it went on; what he cut out at evening was finished in the morning, so that he was soon again in comfortable circumstances, and became a well-to-do man. One evening, he had cut out shoes as usual, that he said to his wife: \"How would it be if we were to sit up to-night to see who it is that lends us such a helping hand?\" The wife agreed, lighted a candle, and they hid themselves in the corner of the room behind the clothes which were hanging there.</p><p>At midnight came two little men without clothes, who sat down at the shoemaker's table, took up the cut-out work, and began with their tiny fingers to stitch, sew, and hammer so neatly and quickly, that the shoemaker could not believe his eyes. They did not stop till everything was quite finished, and stood complete on the table; then they ran swiftly away.</p><p>The next day the wife said: \"The little men have made us rich, and we ought to show our gratitude. They run about with nothing on, and must freeze with cold. Now I will make them little shirts, coats, waistcoats, and hose, and will even knit them stout stockings, and you shall make them each a pair of shoes.\" The husband agreed, and at evening, when they had everything ready, they laid out the presents on the table, and hid themselves to see how the little men would behave. At midnight they came skipping in, and were about to set to work; but, instead of the leather ready cut out, they found the charming little clothes. At first they were surprised, then excessively delighted. With the greatest speed they put on and smoothed down the pretty clothes, singing:</p><p align=\"center\">Now we're dressed so fine and neat,<br>Why cobble more for others' feet?</p><p>Then they hopped and danced about, and leaped over chairs and tables and out at the door. Henceforward, they came back no more, but the shoemaker fared well as long as he lived, and had good luck in all his undertakings.</p>"
+        },
+        {
+            "q": "The topic of this passage is related to .......................................",
+            "options": [
+                "science",
+                "social & Emotional Learning",
+                "narrative Fiction",
+                "poetry"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "What did the shoemaker find on his table in the morning?",
+            "options": [
+                "two little men",
+                "a finished pair of shoes",
+                "the leather he had cut out the night before",
+                "two sets of clothes"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "How did the shoemaker change in the story?",
+            "options": [
+                "The shoemaker went from being very poor to being a rich, well-to-do man.",
+                "The shoemaker went from being very rich to being a very poor man.",
+                "The shoemaker went from being happy to being an angry and jealous man.",
+                "The shoemaker went from being hardworking to being a lazy man."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The synonym of the word cobble in \"Why cobble more for others' feet?\" is .......",
+            "options": [
+                "ruin",
+                "divide",
+                "raze",
+                "complete"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "According to the passage, What kind of impact have the two men, who helped the shoemaker, had on his life?",
+            "options": [
+                "They have had a negative impact on the shoemaker's life.",
+                "They have had a small impact on the shoemaker's life.",
+                "They have had no impact on the shoemaker's life.",
+                "They have had a big, positive impact on the shoemaker's life."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "How do the shoemaker and his wife show their gratitude to the two helpful men?",
+            "options": [
+                "The shoemaker and his wife make them each clothes and shoes.",
+                "The shoemaker and his wife spy on the two little men at night.",
+                "The shoemaker and his wife give the two little men jobs as shoemakers.",
+                "The shoemaker and his wife give the two little men riches."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "What is a main theme of this story?",
+            "options": [
+                "Shoemaking is a difficult job that requires a lot of skill.",
+                "People may show their appreciation to those responsible for their good fortune.",
+                "Sometimes people do not always get the appreciation they deserve.",
+                "Riches do not always make people happy."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "What is the antonym of the word \"gratitude\" in this sentence \"The little men have made us rich, and we ought to show our gratitude\"",
+            "options": [
+                "recognition",
+                "appreciation",
+                "thanklessness",
+                "grief or sadness"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which conjunction is the best choice to complete the following: At midnight, the little men came skipping in and were about to set to work on the leather; .......instead of the leather ready to cut out, they found the charming little clothes.",
+            "options": [
+                "therefore",
+                "finally",
+                "however",
+                "meanwhile"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Why might the little men have stopped helping the shoemaker?",
+            "options": [
+                "The shoemaker became a well-to-do man.",
+                "They found the charming little clothes.",
+                "The shoemaker was no longer in need of their help",
+                "The leather was not ready to cut out"
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>Passage (2)</u></b><br><b>How does fear spread</b></p><p>It has long been known that fear spreads quickly from person to another. However, until recently, neuroscientists believed that this fear was communicated mainly through facial expressions. Now a new study has shown that body language may be just as important as facial expressions for communicating fear. It shows that fearful body postures are processed in the emotional part of the brain and lead to add automatic response. Since the link between the emotional part of the brain and action is stronger than the link between the visual part of the brain and action, viewing the fearful body expressions may create an automatic response to fear. \"Like in the animal world, we also communicate through our bodies without our conscious minds be aware of it,\" said Beatrice de Gelder.</p><p>Unlike earlier studies, which concentrated on the way the brain reacted, to still images of facial expressions, the experiment which de Gelder and her team carried out aimed to prove that fearful body posture can create fear in observers. Since previous studies has used still images, the scientists decided to use stills from video clips. Participants had their brains scanned while they were shown video stills of actors who were showing fear. For example, in one situation, they had just opened the door to find an armed rubber waiting for them. They were also shown in neutral situations; pouring a glass of water or combing their hair. In each case, though, the actors' faces were blocked out so that participants viewing them could only react to their body posture and not to any facial expressions. The results showed that when participants saw fearful images, the emotional part of the brain was active as well as regions of the brain to connect to motor process that are responsible for movement. There was a lot more going on the brain than when neutral images were shown. These only activated the visual areas of the brain.</p><p>The response of fear appears to be quite automatic, and this commonly seen in the animal kingdom. If flock of birds have been feeding on the ground and one is frightened by something and takes off, the others immediately follow. It's an extremely important evolutionary mechanism because any bird left behind may become prey. Something similar happens with humans. At fearful moment, humans like animals need to be ready to react quickly because they are given only a fraction of a second to evaluate the situation. If a fire breaks out, for instance, people quickly adopted the body posture of those close to them. However, our reaction to danger is sometimes slowed down as we try to rationalise fear by asking ourselves whether there is a reason to react.</p><p>In the future, such as research may be used in the building of robotic human companions that would be able to perceive decide, communicate and react as humans do.</p>"
+        },
+        {
+            "q": "Scientists have recently discovered that fear........................",
+            "options": [
+                "is expressed in the body as much as the face.",
+                "is more strongly expressed in the face than the body.",
+                "is mainly expressed in the body.",
+                "creates automatic response in others."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The automatic response to fearful postures comes from the part of the brain that processes................",
+            "options": [
+                "visual images.",
+                "emotions.",
+                "language.",
+                "facial expressions."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "According to de Gelder..........",
+            "options": [
+                "humans communicate mainly through speech.",
+                "humans don't realise they are using body language.",
+                "humans think body language is unimportant.",
+                "humans can control their body language."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "De Gelder's study differed from previous ones in that ......................",
+            "options": [
+                "it used still images",
+                "it showed images of the face and body.",
+                "it showed images of the body.",
+                "it used moving images."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The study showed that neutral and fearful body postures ......................",
+            "options": [
+                "are processed differently by the human brain.",
+                "create similar response in the human brain.",
+                "create automatic responses in humans.",
+                "are similar in all animals."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The automatic response to fear......",
+            "options": [
+                "is always the same in animals and humans.",
+                "is responsible for people adopting different body postures.",
+                "is the result of careful evaluation of a dangerous situation.",
+                "is developed as a way to escape danger."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Neuroscientists research and study both the biological and ................. aspects of the nervous system.",
+            "options": [
+                "sociological",
+                "theological",
+                "Psychological",
+                "dermatological"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The word ................. can be a synonym of the word fraction.",
+            "options": [
+                "fullness",
+                "whole",
+                "entirety",
+                "portion"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "According to the passage our conscious minds .........",
+            "options": [
+                "are aware of everything goes arround.",
+                "link between the visual part of the brain and action.",
+                "activate the visual areas which the brain is aware of.",
+                "communicate through our bodies without being aware of some ways of body communications."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "People sometimes slowly react to danger because .............",
+            "options": [
+                "there is no reason for fear.",
+                "danger is too much to bear.",
+                "they need to make sure there is a reason for danger.",
+                "they think of a way of reacting."
+            ],
+            "correct": 2
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>Passage (3)</u></b></p><p>“Feel what it’s like to truly starve, and I guarantee that you’ll forever think twice before wasting food.” Researchers estimate that a billion people struggle to get enough to eat. Poor children still die by their millions; if we could compile the amount of food, land, water, and energy used to raise the 10 billion animals slaughtered each year for meat, we could use those resources to feed every single starving person on earth. The majority of these resources are depleted by concentrated animal feeding operations (CAFOs). CAFOs are factory farms that mass-produce livestock—harming animals, the environment, and humans in the process.</p><p>It is true that these farming methods provide an abundant source of food and employ thousands of workers across the country. However, CAFOs should be placed under more stringent restrictions because of their unfair treatment of animals and the harm they do to both the environment and humans. One of the key controversies surrounding factory farms is animal rights. Factory farms raise livestock indoors, as opposed to allowing the animals to graze in fields and pastures. The farmers favor this overcrowded environment because it maximizes profits. Providing less space for the animals costs less money; filling pens to their maximum capacity ensures that no space is wasted. Consequently, animal pens are often so small that larger animals cannot lie down or turn around. In some cases, these small cages are beneficial for more than just maximizing capacity: calves, for example, do not gain muscle mass in this environment. This keeps their meat more tender, which makes it more attractive to consumers.</p><p>Livestock in CAFOs are often found living in their own urine and feces, stimulating the spread of diseases—such as avian flu, foot and mouth disease, and mad cow disease—among other animals on the farm. In order to combat this, farmers must give the animals antibiotics. In many cases, however, antibiotics are used for disease prevention instead of treatment. In addition to being used to combat the spread of disease, antibiotics are also commonly used to encourage faster growth in livestock. This overuse increases the risk of livestock developing immunity to antibiotics, ironically making animals even more susceptible to disease. After being digested, these antibiotics are released back into the environment in the form of milk, meat, and waste, which can affect the people who eat these products or the environment that absorbs them.</p><p>CAFOs also negatively impact the environment in the form of air and water pollution. These farms also have notable consequences for the environment in terms of water pollution. Another negative environmental impact of factory farms is resource depletion. Factory farming uses more land than any other agricultural or industrial enterprise in the country. CAFOs consume a great deal of resources in terms of grain, energy, and land. There are far more efficient ways of using these resources to feed people. For example, it has been estimated that the grain used to feed livestock in the United States alone could feed up to 800 million people in one year. By contrast, the production of livestock in CAFOs is a wasteful use of energy.</p><p>While both chicken meat and soybeans are good sources of protein, producing equivalent amounts of protein from chicken meat and soybeans does not require equivalent amounts of energy: chicken meat production consumes 14 times more energy than soybean production. Grain and energy supplies should be used more efficiently to <b><u>advocate</u></b> produce food sources other than livestock. In order to combat the unfair treatment of animals and the risks to environmental and human health, CAFOs should be placed under stricter guidelines.</p>"
+        },
+        {
+            "q": "The primary purpose of the passage is to .......................................",
+            "options": [
+                "persuade readers that factory farms should be more strictly regulated to minimize the harm they cause",
+                "suggest economic alternatives to factory farms, such as organic farming and soybean production",
+                "complain about the water pollution caused by the irresponsible practice of keeping waste lagoons on CAFOs",
+                "educate readers about the pros and cons of CAFOs"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Based on information in the passage, it can be inferred that animals raised on CAFOs live indoors because................",
+            "options": [
+                "II only",
+                "I and II only",
+                "II and III only",
+                "I, II, and III"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The author describes CAFOs as having a negative impact on the environment for all of the following reasons except ............",
+            "options": [
+                "animal waste pollutes water sources near factory farms",
+                "exhaust from farm machinery contributes to air pollution",
+                "animals that live in overcrowded environments waste energy",
+                "fertilizer-rich runoff from farms contaminates the environment"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The overuse increases the risk of livestock developing immunity to antibiotics make animals .............",
+            "options": [
+                "exposed to diseases.",
+                "avoid diseases.",
+                "fight diseases.",
+                "easily digest food."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which of the following statements represents an opinion, as opposed to a fact?",
+            "options": [
+                "\"Factory farming uses more land than any other agricultural or industrial enterprise in the country.\"",
+                "\"It has been estimated that the grain used to feed livestock in the United States alone could feed up to 800 million people in one year.\"",
+                "\"Chicken meat production consumes 14 times more energy than soybean production.\"",
+                "\"Grain and energy supplies should be used more efficiently to produce food sources other than livestock\""
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which of the following pieces of information, if true, would best strengthen the author's argument?",
+            "options": [
+                "People who reduce their intake of meat raised on factory farms reduce their chances of developing high blood pressure and heart conditions.",
+                "A town in North Carolina that used to be situated next to a hog waste lagoon reported 50% fewer cases of respiratory illness after the lagoon was shut down.",
+                "Factory farms that are forced to adhere to air and water quality protection standards often report a 30% decrease in annual profits.",
+                "The Clean Water Act was enacted in 1948 and expanded in 1972."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "CAFOs should be placed under stricter guidelines in order to.......",
+            "options": [
+                "ensure the fair treatment of animals and the environmental and human health",
+                "combat the fair treatment of animals and the risks to environmental and human health",
+                "argue that it is more important to address the broader resource crisis",
+                "worry about food prices."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "As used in the final paragraph, which is the best synonym for <u><b>advocate?</u></b>",
+            "options": [
+                "criticize",
+                "found",
+                "support",
+                "censor"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Using more land for Factory Farming is considered .........",
+            "options": [
+                "a pitfall",
+                "a point of strength",
+                "a merit",
+                "a great gain"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Soybean production consumes ............. time(s) more energy than chicken meat production.",
+            "options": [
+                "7",
+                "14",
+                "0.07",
+                "0.7"
+            ],
+            "correct": 2
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>Passage (4)</u></b></p><p>“I shall collect plants and fossils, and with the best of instruments make astronomic observations. Yet this is not the main purpose of my journey. I shall endeavor to find out how nature's forces act upon one another, and in what manner the geographic environment exerts its influence on animals and plants. In short, I must find out about the harmony in nature.”</p><p><b><u>Baron Alexander von Humboldt</u></b></p><p>Simply, Alexander summarized the philosophy of his work.</p><p>In the summer of 2012, paleontologists working on a fossil excavation in Kenya announced that the human race, as we know it, was never alone. Scientists unveiled pieces of skull and bone that are approximately 2 million years old. Their discovery confirmed what earlier fossil findings had introduced as a possible piece of the human origin story: that humankind is merely one of a number of human-like species, each with its own lifespan. Every other species has been long extinct, making <i>Homo sapiens</i>, our species, the sole surviving member of the extended human family. Indeed, these findings have confirmed that the family was bigger than anyone had previously imagined.</p><p>In conversations about prehistoric evolution, whether humans evolved from apes, is a common but misleading question. Evolution, at its core, is a process that spawns a diversity of species. Some are quite similar and some are quite different. Some strains of evolution take place over millions of years, while other strains (for example, microorganisms that pass through multiple generations in the span of a day) take place over a number of months, even weeks. To track the evolution of various organisms over time is to reveal the natural world's knack for never putting all of its bones in one basket, so to speak.</p><p><b>Dating Prehistoric Man: Not as Awkward as It Sounds</b></p><p>A more revealing question, then, is scientists' inquiry into multiple branches of the <i>Homo</i> genus. Assembling a “fossil record” over the course of two centuries, scientists have amassed enough evidence to date the earliest known appearance of <i>Homo sapiens</i> to about 200,000 years ago. Their research has also proven that a number of human-like species preceded and accompanied <i>Homo sapiens</i> on the prehistoric timeline.</p><p>The creation and preservation of an accurate fossil record is no easy task. Bones dug up from the ground don't often offer much information about their own age, so paleontologists have developed several methods to analyze the earth surrounding those bones instead. By inspecting the <b>proximity</b> of a fossil, one can figure out approximately (sometimes precisely) when the fossil itself was actually a living organism.</p><p>Radiometric dating—the use of technology to detect radioactive elements to identify the age of whatever those elements are in—is a precise but limited technique for determining the age of a fossil. The precision of radiometric dating comes from the fact that radioactive elements have clear, well-documented decay times (or how long it takes for traces of an element to disintegrate). Using this technique, scientists can narrow down the age of a fossil, even one that's over 50 million years old, to a very close estimate. Unfortunately, radiometric dating only works when radioactive elements were present in the first place.</p><p>The alternative method of dating fossils is stratigraphy. Based in the geographic study of layers of sediment that have stacked on top of each other for ages, stratigraphy includes a host of techniques for analyzing these various layers to determine the age of objects found wedged within them. Simply put: If people find a fossil between two layers of dirt, and they know how old those layers of dirt are, they can then say the fossil was part of a living creature between those dates.</p>"
+        },
+        {
+            "q": "Baron Alexander seems to be ............",
+            "options": [
+                "a philosopher",
+                "a paleontologist",
+                "an explorer",
+                "a radiologist"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The word prehistoric can be a synonym for.........",
+            "options": [
+                "ante historic",
+                "ant historic",
+                "anti historic",
+                "pro historic"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "According to the discovery of the pieces of skull and bone, it came true that ......",
+            "options": [
+                "humankind is merely one of a number of human-like species.",
+                "the geographic environment exerts its influence on animals and plants.",
+                "collecting plants and fossils is a must.",
+                "there are no theories for evolution."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Homo sapiens is ............",
+            "options": [
+                "the scientific name for the human species.",
+                "a fossil existed 2 million years ago.",
+                "an extinct human.",
+                "a name of a paleontologist"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "All these sentences are correctly using the word proximity except.......",
+            "options": [
+                "Because of the town's proximity to the airport, its property values are really low.",
+                "The newly married couple took a trip to a resort based on its proximity to the crowds where they could celebrate privately.",
+                "The lazy woman always chooses her parking spot based on its proximity to the building she plans to enter.",
+                "The hotel is popular with travelers because of its proximity to the airport."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Paleontologists have developed several methods to analyze the earth surrounding the bones in order to............",
+            "options": [
+                "find a fossil between two layers of dirt.",
+                "unveil pieces of skulls and bones.",
+                "create and preserve an accurate fossil record.",
+                "detect radioactive elements."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Strains of evolution take place at .........",
+            "options": [
+                "a fixed rate.",
+                "variable rates.",
+                "compound rates",
+                "annual rates"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "\"The human race was never alone.\" is ..........",
+            "options": [
+                "a fact based on an opinion.",
+                "a fact based on an experiment.",
+                "an opinion based on a theory.",
+                "an opinion based on a fact."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Using the technology of radiometric dating, scientists can .........",
+            "options": [
+                "estimate the age of fossils only.",
+                "estimate the age of natural materials only.",
+                "estimate the age of man-made materials only.",
+                "estimate the age of a variety of natural and man-made materials."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "If the radioactive elements were not present in the first place, scientists could use .............. to date them.",
+            "options": [
+                "Radiometric dating",
+                "stratigraphy",
+                "microorganisms",
+                "strains of evolution"
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>Passage (5)</u></b></p><p>Read the following passage, then answer the questions below:</p><p>If you think that image has nothing to do with reality, you are wrong. The Wright Brothers wanted to fly, and people consider them lunatics. Leonardo da Vinci, Thomas Edison and Bill Gates were considered as daydreamers when actually, they were visualizing and imagining their vision.</p><p>Whatever they were imagining years ago is now a solid reality. Imagination has much to do with reality. It shapes the way we see our reality, and therefore, affects our expectations and hopes, our actions and behavior. Imagination is like software that programs our behavior and actions. This means that we have to be very careful with what we imagine since what we see in our mind’s eye can become our reality.</p><p>If we imagine bad things, we program our mind accordingly, and sooner or later, we act and behave accordingly, and create what we imagined. This also works the other way. Imagine good things, and this will affect your actions and behavior, which consequently would create in your life what you imagined in your mind. Your reality mirrors what goes on in your mind. If you imagine yourself weak and poor, you will enact this part in your life, but if you imagine yourself powerful and rich, you will eventually become so. Everything starts in the mind. A business starts as a thought and a mental image. You first imagine yourself possessing a certain kind of car, and then you do something to get it.</p><p>If you wish to lose weight, you start by imagining yourself slim and well-shaped. If this thought is clear and focused, and you allow no doubt, you will sooner or later find the ideas, the information, and the energy to do something about it. If you imagine yourself an athlete, a teacher or an actor, and repeat this thought in your mind, day after day, this thought will drive you into action, and eventually would turn into reality. This is exactly how successful people become prosperous.</p><p>Imagination is creating the events in your life. When you imagine a certain thing, gradually you start thinking about it most of the time. This will drive you instinctively to search for information about it. Using your imagination to build a mental picture of what you want tells your subconscious mind that you really want it. Consequently, the subconscious mind will supply you the energy to do something about it. Your thoughts create a mental image of the object, and in subtle ways, affect you and your environment. You, through your imagination are shaping your life's events. If you tend to worry, think negatively and expect failure, and vice versa. If you imagine and envision progress, promotion and successful results, you will attract opportunities and take actions.</p>"
+        },
+        {
+            "q": "The main idea of the text is:",
+            "options": [
+                "Everything can't start in the mind.",
+                "Imagination can be compared with a software.",
+                "Successful people depend only on imagination.",
+                "Imagination can turn into reality."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The synonym for ' instinctively ' is .......................................",
+            "options": [
+                "effectively",
+                "suddenly",
+                "automatically",
+                "hardly"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "According to the text, thinking negatively leads to.......................................",
+            "options": [
+                "failure",
+                "progress",
+                "reality",
+                "death"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The word that shows abnormal or sick state of mind is ...............................",
+            "options": [
+                "daydreamers",
+                "wrong",
+                "clear",
+                "lunatics"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Storing your beliefs, your previous thoughts and mental pictures is the function of your .............",
+            "options": [
+                "energy",
+                "subconscious mind",
+                "behavior",
+                "mind"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "All the following meanings refer to the underline adjective <b><u>prosperous</u></b> except ............................",
+            "options": [
+                "flourish",
+                "success",
+                "lack",
+                "accomplishment"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "\" vision \" in the text means .................",
+            "options": [
+                "the sense of sight",
+                "what one sees",
+                "blinding",
+                "a dream"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "After reading the text, I think that imagination and reality are .............",
+            "options": [
+                "connected",
+                "similar",
+                "equal",
+                "dreadful"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The word \"mirrors\" in paragraph 3 is a /an .................",
+            "options": [
+                "verb",
+                "noun",
+                "adjective",
+                "adverb"
+            ],
+            "correct": 0
+        },
+        {
+            "q": " ............. is what you perceive and experience. It demands your physical presence and your mental judgment.",
+            "options": [
+                "thinking",
+                "imagination",
+                "information",
+                "reality"
+            ],
+            "correct": 3
+        }
+    ]
+}
