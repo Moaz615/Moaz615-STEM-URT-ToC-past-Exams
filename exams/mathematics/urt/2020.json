@@ -444,12 +444,12 @@
             "q": "Refer to the following graph, which represents a hypothetical potential energy curve for a particle of mass $m$. If the particle is released from rest at position $r_0$, its speed at position $2r_0$ is most nearly",
             "image": "exams/mathematics/urt/images/2020_q44.png",
             "options": [
-                "A <img src='exams/mathematics/urt/images/2020_q44_a.png' alt='Option A'/>",
-                "B <img src='exams/mathematics/urt/images/2020_q44_b.png' alt='Option B'/>",
-                "C <img src='exams/mathematics/urt/images/2020_q44_c.png' alt='Option C'/>",
-                "D <img src='exams/mathematics/urt/images/2020_q44_d.png' alt='Option D'/>"
+                "$\\sqrt{\\frac{8U_0}{m}}$",
+                "$\\sqrt{\\frac{6U_0}{m}}$",
+                "$\\sqrt{\\frac{4U_0}{m}}$",
+                "$\\sqrt{\\frac{2U_0}{m}}$"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "q": "A wheel with rotational inertia $I$ is mounted on a fixed, frictionless axle. The angular speed $\\omega$ of the wheel is increased from zero to $\\omega_f$ in a time interval $T$. What is the average power input to the wheel during this time interval?",
