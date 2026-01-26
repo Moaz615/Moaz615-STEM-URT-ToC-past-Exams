@@ -1,0 +1,207 @@
+{
+    "questions": [
+        {
+            "passage": "<p align=\"center\"><b><u>1. Texterfassung</u></b></p> <p><b><u>Lies bitte den Text!</u></b><br>Hi Mona, du fragst nach meinem Wochenende. Am Donnerstag fahre ich nach Luxor. Dort wohnt Familie Hans. Hans ist ein Deutscher und mit einer Ägypterin verheiratet. Sie heißt Maha. Wir sind gute Freundinnen. Am Freitag hat Hans Geburtstag. Er wird 40 Jahre alt. Ich fahre mit dem Nachzug dorthin. Meine Tochter Rana fährt auch mit. Familie Hans hat ein Haus mit großem Garten in der Nähe vom Karnak-Tempel. Im Garten macht Hans seine Geburtstagsparty. Viele Freunde haben Kinder. Dort können sie spielen. Ein schönes Grillfest machen Hans und Maha für uns, Am Abend essen wir Kuchen und trinken Cola. Ich bleibe sieben Tage dort. Geschenke kaufe ich am besten von Kairo, Bis bald! Sama"
+        },
+        {
+            "q": "Wohin fährt Sama?",
+            "options": [
+                "Kairo",
+                "Luxor",
+                "Berlin"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Wie heißt Samas Tochter?",
+            "options": [
+                "Mona",
+                "Maha",
+                "Rana"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Herr Hans wird ______ Jahre alt.",
+            "options": [
+                "vierzig",
+                "vierzehn",
+                "vier"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Sama bleibt eine Woche bei Familie Hans.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Sama fährt mit dem Bus nach Luxor.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Familie Hans macht die Party im Garten.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Die Kinder spielen im Kinderzimmer.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>II. Alltagssituationen</u></b></p> <p><b>A) <u> Was sagst du in den folgenden Situationen?</u></b></p>"
+        },
+        {
+            "q": "Du fragst nach dem Preis einer Fahrkarte.",
+            "options": [
+                "Wann kann ich die Fahrkarte abholen?",
+                "Was kostet die Fahrkarte?",
+                "Wie findest du die Fahrkarte?"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Dein Freund sagt: „Es ist laut im Zimmer\". Du sagst:",
+            "options": [
+                "Mach das Fenster zu!",
+                "Mach das Fenster auf!",
+                "Mach das Radio aus!"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Dein Freund braucht Brot. Du sagst:",
+            "options": [
+                "Geh zur Bäckerei!",
+                "Geh zum Museum!",
+                "Geh ins Kino!"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Dein Handy ist kaputt. Du sagst ich gehe:",
+            "options": [
+                "zum Arzt.",
+                "zum Optiker.",
+                "zum Techniker."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Dein Freund sagt: Zwei Wochen\", Du fragst:",
+            "options": [
+                "Wie lange dauert die Reise?",
+                "Wann machst du Urlaub?",
+                "Wann hast du Geburtstag?"
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<p><b>B) <u> Wann sagst du das?</u></b></p>"
+        },
+        {
+            "q": "Pizza schmeckt mir gut\". Dein Freund fragt:",
+            "options": [
+                "Wo kann man eine Pizza kaufen?",
+                "Wie findest du Pizza?",
+                "Was kostet eine Pizza?"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Frohes neues Jahr!\" Dein Freund:",
+            "options": [
+                "feiert Silvester.",
+                "macht ein Picknick.",
+                "hat einen Test."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Die Bluse passt dir nicht\".",
+            "options": [
+                "Die Bluse gefällt dir.",
+                "Die Bluse ist zu groß.",
+                "Die Bluse steht dir gut."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Geh zum Arzt!\". Dein Freund:",
+            "options": [
+                "isst Eis.",
+                "macht Sport.",
+                "hat Zahnschmerzen."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "„Kann ich bitte schon heute kommen? Es ist dringend\". Du möchtest einen Termin:",
+            "options": [
+                "vereinbaren.",
+                "verschieben.",
+                "absagen."
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>III. Dialogergänzung</u></b></p> <p><b><u>Ergänze den Dialog!</u></b></p> <b>Mazen:</b> Hallo Ahmed! (1) ___________________?<br><b>Ahmed:</b> Hallo Mazen! Mir geht es gut, danke!<br><b>Mazen:</b> (2) ___________________?<br><b>Ahmed:</b> Heute Abend will ich einkaufen.<br><b>Mazen:</b> Geht deine Mutter mit?<br><b>Ahmed:</b> Nein, meine Schwester Nada kommt mit.<br><b>Mazen:</b> Warum?<br><b>Ahmed:</b> (3) ___________________<br><b>Mazen:</b> Wie geht ihr dorthin?<br><b>Ahmed:</b> (4) ___________________<br><b>Mazen:</b> Was wollt ihr kaufen?<br><b>Ahmed:</b> (5) ___________________<br><b>Mazen:</b> Viel Spaß!<br><b>Ahmed:</b> (6) ___________________"
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>IV. Bilde Sätze</u></b></p>"
+        },
+        {
+            "q": "gibt - im Fernsehen - was - heute - es?",
+            "options": [
+                "Was gibt es heute im Fernsehen?",
+                "Was heute es gibt im Fernsehen?",
+                "Heute was gibt es im Fernsehen?"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "dein - möchte - Auto - haben - bis morgen - ich",
+            "options": [
+                "Ich möchte haben dein Auto bis morgen.",
+                "Dein Auto ich möchte bis morgen haben.",
+                "Ich möchte dein Auto bis morgen haben."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "hier - darf - ich - parken - für zwei Stunden?",
+            "options": [
+                "Darf ich hier für zwei Stunden parken?",
+                "Darf ich parken hier für zwei Stunden?",
+                "Hier ich darf für zwei Stunden parken?"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "nach dem - Cola - trinke - Essen - ich",
+            "options": [
+                "Nach dem Essen ich trinke Cola.",
+                "Nach dem Essen trinke ich Cola.",
+                "Ich Cola trinke nach dem Essen."
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>V. Landeskunde</u></b></p> <p><b><u>Beantworten nur 5 Fragen!</u></b><ol><li>Wo ist die Allianz Arena?<li>Nennen Sie ein deutsches Bundesland?<li>Wie heißt die Hauptstadt von Ägypten?<li>Wann beginnt die Woche in Deutschland?<li>Wie ist das Wetter im Winter in Ägypten?<li>Welche Sehenswürdigkeit kann man in Wien besichtigen?</ol></p>"
+        }
+    ]
+}

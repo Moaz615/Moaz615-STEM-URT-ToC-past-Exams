@@ -1,0 +1,145 @@
+{
+    "questions": [
+        {
+            "passage": "<br><center><strong>ده امتحان مش عارف هو سنة كام بس لقيته نظام حديث فحطيته 22</strong></center><br><p align=\"center\"><b><u>Grammatik</u></b></p><p><b>Wähle die richtige Antwort aus!</b></p>"
+        },
+        {
+            "q": "Du siehst heute süß aus. Das Kleid steht .............. echt gut.",
+            "options": [
+                "mir",
+                "dir",
+                "du"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Entschuldigen Sie, .............. Sie mir helfen?",
+            "options": [
+                "kannst",
+                "kann",
+                "können"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Wir haben ein Glas Milch .............. .",
+            "options": [
+                "trinken",
+                "getrunken",
+                "trinkt"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Isst du gern Pizza? - Ja, aber ich esse .............. Spaghetti.",
+            "options": [
+                "lieber",
+                "gut",
+                "viel"
+            ],
+            "correct": 0
+        },
+        {
+            "q": ".............. doch bitte das Fenster auf! Es ist heiß.",
+            "options": [
+                "Ja",
+                "Mach",
+                "Macht"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Wohin geht ihr jetzt? - .............. Park. Wir möchten unsere Freunde treffen.",
+            "options": [
+                "Ins",
+                "Im",
+                "Zum"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Mein Traumberuf ist Architekt, .............. mache ich ein Praktikum.",
+            "options": [
+                "dann",
+                "oder",
+                "deshalb"
+            ],
+            "correct": 2
+        },
+        {
+            "q": ".............. Wochenende darf John in die Disco gehen.",
+            "options": [
+                "Vor",
+                "Am",
+                "Im"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Letztes Jahr .............. ich und meine Familie in Schweden. Es war toll.",
+            "options": [
+                "war",
+                "hatte",
+                "waren"
+            ],
+            "correct": 2
+        },
+        {
+            "q": ".............. Fahrrad kauft Mona? - Dieses da.",
+            "options": [
+                "Welches",
+                "Wie",
+                "Viel"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Sara .............. nach Ecuador gefahren.",
+            "options": [
+                "sind",
+                "ist",
+                "seid"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Wie findest du das T-Shirt? - .............. ist elegant.",
+            "options": [
+                "Den",
+                "Das",
+                "Die"
+            ],
+            "correct": 1
+        },
+        {
+            "q": ".............. warst du in Deutschland? - 3 Wochen.",
+            "options": [
+                "Wie lange",
+                "Wo",
+                "Was"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Wohin fahren die Jugendlichen im Winter? - .............. die Berge.",
+            "options": [
+                "Nach",
+                "Zu",
+                "In"
+            ],
+            "correct": 2
+        },
+        {
+            "q": ".............. Woche ist mein Geburtstag.",
+            "options": [
+                "Nächten",
+                "Nächste",
+                "Nächstes"
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>Schriftlicher Ausdruck</u></b></p><p><b>A) Antworte auf die folgende E-Mail in 5 ganzen Sätzen!</b></p><p>Liebe Sandra,<br>Ich habe gehört, du warst in Berlin.<br>Wie findest du die Stadt?<br>Wie sind die Leute dort?<br>Was hast du gesehen?<br>Wie lange bist du dort geblieben?<br>Welche Städte hast du noch besucht?<br>Schreib mir bald!<br>Liebe Grüße<br>Sven</p> <div style=\"width: 100%; height: 350px; background-image: linear-gradient(to bottom, transparent 28px, #888 28px, #888 30px); background-size: 100% 30px; border-top: 2px dotted #888;\"></div> <p><b>B) Aufsatz!</b><br>Schreiben Sie mindestens 50 Wörter über eins der folgenden Themen! Verwenden Sie dabei die angegebenen Wörter!</p><p>1. Eine Reise ins Ausland.<center>Sommer – Sprachen – Fotos – dauern – schön.</center></p><div style=\"width: 100%; height: 350px; background-image: linear-gradient(to bottom, transparent 28px, #888 28px, #888 30px); background-size: 100% 30px; border-top: 2px dotted #888;\"></div><p>2. E-Mail<br>Du heißt Konouz. Schreib an deine Freundin Sara über dein Wochenende.<center>Freitag – treffen – Kino – spät – aufstehen.</center></p> <div style=\"width: 100%; height: 350px; background-image: linear-gradient(to bottom, transparent 28px, #888 28px, #888 30px); background-size: 100% 30px; border-top: 2px dotted #888;\"></div>"
+        }
+    ]
+}

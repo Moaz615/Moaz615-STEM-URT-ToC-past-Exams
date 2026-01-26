@@ -1,0 +1,110 @@
+{
+    "questions": [
+        {
+            "passage": "<p align=\"center\"><b><u>I. Grammatik</u></b></p> <p><b><u>Wählen Sie das richtige Wort aus!</u></b></p>"
+        },
+        {
+            "q": "Seht mal, da kommt ........... Lehrerin, Kinder!",
+            "options": [
+                "deine",
+                "ihr",
+                "eure",
+                "unseren"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Im letzten Sommer waren wir ........... USA.",
+            "options": [
+                "in der",
+                "in den",
+                "im",
+                "zum"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Wie lange lernst du schon Deutsch? – ........... drei Jahren.",
+            "options": [
+                "Bis",
+                "Vor",
+                "Seit",
+                "In"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Wo ist die Nilstraße?– ........... Sie mir bitte den Weg beschreiben?",
+            "options": [
+                "Könnten",
+                "Müssen",
+                "Haben",
+                "Sein"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "........... Ihnen die Jacken? – Ja, sie sind klasse.",
+            "options": [
+                "Kaufen",
+                "Gefallen",
+                "Brauchen",
+                "Schmecken"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Ahmad war krank, aber jetzt geht es ihm wieder ............",
+            "options": [
+                "viel",
+                "meisten",
+                "gern",
+                "besser"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "........... Bus fährt zum Bahnhof? – Dieser da, die Nummer fünf.",
+            "options": [
+                "Welcher",
+                "Welches",
+                "Welche",
+                "Welchen"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Entschuldigung, Frau Radwa, kann ich ........... etwas fragen?",
+            "options": [
+                "dich",
+                "mich",
+                "Sie",
+                "ihnen"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Frau Rana putzt die Wohnung, ........... heute Abend kommt Besuch.",
+            "options": [
+                "aber",
+                "oder",
+                "denn",
+                "noch"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Am Freitag ........... ich 18.",
+            "options": [
+                "wird",
+                "wirst",
+                "werde",
+                "werdet"
+            ],
+            "correct": 2
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>II. Schriftlicher Ausdruck</u></b></p> <p><b>Schreibe mindestens 50 Wörter über eins der folgenden Themen! Verwende dabei die angegebenen Wörter!</b></p><br><p><b>1. Aufsatz:</b><br><b>Was hast du heute alles gemacht?</b><br> <center><b>aufstehen – zuerst – Schule – Nachmittag – fernsehen</b></center></p> <div style=\"width: 100%; height: 350px; background-image: linear-gradient(to bottom, transparent 28px, #888 28px, #888 30px); background-size: 100% 30px; border-top: 2px dotted #888;\"></div> <p><b>2. E-Mail:</b><br> Du heißt Adham. Dein Freund Timo kommt nach Ägypten. Schreibe ihm eine E-Mail.<br> <center><b>vom Flughafen – fahren – Einzelzimmer – besichtigen – am Abend</b></center></p> <div style=\"width: 100%; height: 350px; background-image: linear-gradient(to bottom, transparent 28px, #888 28px, #888 30px); background-size: 100% 30px; border-top: 2px dotted #888;\"></div>"
+        }
+    ]
+}

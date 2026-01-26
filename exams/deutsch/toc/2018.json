@@ -1,0 +1,100 @@
+{
+  "questions": [
+    {
+      "passage": "<p align=\"center\"><b><u>I. Grammatik</u></b></p> <p><b><u>Wähle das richtige Wort aus!</u></b></p>"
+    },
+    {
+      "q": "Wo ist deine Schule? - Meine Schule ist ............. der Bank.",
+      "options": [
+        "in",
+        "neben",
+        "zwischen"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Warum lernt Hala Deutsch? - Sie ............. Fremdsprachen.",
+      "options": [
+        "mag",
+        "magst",
+        "mögt"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "............. ist dein Vater? - Im Garten.",
+      "options": [
+        "Wo",
+        "Wohin",
+        "Wie"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "Ramy will ins Kino gehen, ............. er hat Zeit.",
+      "options": [
+        "aber",
+        "denn",
+        "oder"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "............. lebst du in Kairo? - Seit zwei Jahren.",
+      "options": [
+        "Wann",
+        "Wo",
+        "Wie lange"
+      ],
+      "correct": 2
+    },
+    {
+      "q": "Welcher Rock gefällt dir? - ............. hier.",
+      "options": [
+        "Dieses",
+        "Dieser",
+        "Diesen"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Morgen ............. mein Sohn 20 Jahre alt.",
+      "options": [
+        "werdet",
+        "wird",
+        "wirst"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "Du ............. Tante Maha besuchen. Sie ist sehr krank.",
+      "options": [
+        "musst",
+        "muss",
+        "müsst"
+      ],
+      "correct": 0
+    },
+    {
+      "q": "............. gehen wir heute in den Klub? – Mit dem Bus.",
+      "options": [
+        "Wo",
+        "Wie",
+        "Wohin"
+      ],
+      "correct": 1
+    },
+    {
+      "q": "............. du das Zimmer aufräumen? - Ja, gern.",
+      "options": [
+        "Würdest",
+        "Würden",
+        "Würdet"
+      ],
+      "correct": 0
+    },
+    {
+      "passage": "<p align=\"center\"><b><u>II. Schriftlicher Ausdruck</u></b></p> <p><b>Schreibe mindestens 50 Wörter über eins der folgenden Themen! Verwende dabei die angegebenen Wörter!</b></p><br><p><b>1. Aufsatz: Meine Hobbys</b><br><center><b>aufstehen – zuerst – Schule – Nachmittag – fernsehen</b></center></p><br><p><b>2. E-Mail:</b><br> Du heißt Maha schreibe an Sara 7 Sätze über <b>deine Wohnung</b>.<br><center><b>groß – haben – mein Zimmer – Möbel – kochen</b></center></p>"
+    }
+  ]
+}

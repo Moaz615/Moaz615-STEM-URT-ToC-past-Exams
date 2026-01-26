@@ -1,0 +1,240 @@
+{
+    "questions": [
+        {
+            "passage": "<p align=\"center\"><b><u>I. Texterfassung:</u></b></p> <p align=\"center\"><b><u>Text (1)</u></b></p> <p>Liebe Renate,<br>wie ist es in Frankfurt? Hast du dein Praktikum fertig gemacht? Uns geht es gut. Martin hat jetzt eine neue Stelle und ist in der neuen Firma wirklich glücklich. Tina geht seit September in die Schule. Ich habe nur ein Problem.</p><p>Du weißt ja, ich habe früher immer gern gearbeitet. Meine Zeit als Sekretärin bei Osborn war richtig schön. Jetzt bin ich seit sieben Jahren Hausfrau und Mutter und möchte gern wieder arbeiten. Tina ist am Vormittag in der Schule und ich denke, in dieser Zeit kann ich etwas arbeiten. Am Nachmittag will ich zu Hause sein und mit Tina Hausaufgaben machen. Gestern habe ich die Stellenangebote gelesen. Zwei Anzeigen waren interessant: Agfa sucht von 7.00 Uhr bis 9.00 Uhr eine Putzhilfe. Die andere Stellenanzeige war auch gut: Neukauf, der neue Supermarkt hier in Dettingen, sucht eine Verkäuferin. Der Supermarkt macht um 7.30 Uhr auf. Die Arbeitszeit ist von 8.00 Uhr bis 12.00 Uhr. Neukauf bezahlt ganz gut. Die Stelle als Verkäuferin finde ich sehr interessant. Aber glaubst du, das geht: Vormittags arbeiten, dann zu Hause putzen, kochen, waschen und am Nachmittag mit Tina Hausaufgaben machen? Martin ist am Abend sehr müde und kann mir nicht helfen.<br>Viele Grüße<br>Sandra</p>"
+        },
+        {
+            "q": "Renate macht ein Praktikum ____________",
+            "options": [
+                "bei Firma Osborn.",
+                "in Frankfurt.",
+                "in Dettingen."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Martin findet die neue Stelle ____________",
+            "options": [
+                "langweilig.",
+                "anstrengend.",
+                "super."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Tina ist ____________ in der Schule.",
+            "options": [
+                "vormittags",
+                "abends.",
+                "nachmittags."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Sandra hat früher als ____________ gearbeitet.",
+            "options": [
+                "Lehrerin.",
+                "Hausfrau.",
+                "Sekretärin."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Sandra hat jetzt ____________",
+            "options": [
+                "einen Job.",
+                "keine Arbeit.",
+                "eine Firma."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Der Supermarkt \"Neukauf\" braucht eine Verkäuferin für ____________",
+            "options": [
+                "4 Stunden.",
+                "8 Stunden.",
+                "12 Stunden."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Wer hilft Tina bei den Hausaufgaben?",
+            "options": [
+                "Martin.",
+                "Renate.",
+                "Sandra."
+            ],
+            "correct": 2
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>Text (2)</u></b></p><p>Liebe Anne,<br>herzliche Grüße von der Ostsee! Ralf und ich sind mit dem Fahrrad unterwegs. Wir haben Glück, die Sonne scheint fast immer. Es hat nur einmal geregnet. Gestern waren wir in Lübeck. Die Stadt gefällt mir. Wir haben die Altstadt besichtigt und auch eine Stadtführung gemacht. Es gibt viele interessante Sehenswürdigkeiten. Unser Hotel war auch im Zentrum, aber das Zimmer war ein bisschen laut. Wir haben nicht so gut geschlafen. Heute sind wir schon 60 km gefahren. Unser Urlaub macht viel Spaß, aber das Fahrradfahren ist auch anstrengend! Bis bald! Am Samstagnachmittag sind wir wieder in Köln!<br>Liebe Grüße<br>Caroline</p>"
+        },
+        {
+            "q": "Anne hat die E-Mail geschrieben.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Ralf und Caroline haben eine Stadtführung in Lübeck gemacht.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Ralf und Caroline waren mit dem Hotel nicht zufrieden.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Das Wetter an der Ostsee war schön.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Anne war auch an der Ostsee.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Ralf ist jetzt in einer Geschäftsreise.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Caroline fährt am Samstag nach Köln.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>II. Alltagssituationen:</u></b></p>"
+        },
+        {
+            "q": "Dein Freund sagt: \"<i>Das Big Band-konzert ist am Samstag, kommst du mit?</i>\"",
+            "options": [
+                "Er macht einen Vorschlag.",
+                "Er will einen Film sehen.",
+                "Er hat Geburtstag."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Jemand fragt: \"<i>Welche Hobbys hast du?</i>\" Was sagst du?",
+            "options": [
+                "Ich bin Schüler und gehe jeden Tag zur Schule.",
+                "Ich habe keinen Ball.",
+                "Ich spiele gern Fußball und sammle Videos."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Du willst Gefallen ausdrücken.",
+            "options": [
+                "Das T-Shirt gefällt mir nicht.",
+                "Der Pullover ist zu teuer.",
+                "Ich finde die Bluse sehr schön."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Dein Freund sagt: \"<i>Ich komme aus Luxor. Das ist meine Heimatstadt.</i>\" Das heißt:",
+            "options": [
+                "Er hat Luxor besucht.",
+                "Er ist in Luxor geboren.",
+                "Er studiert in Luxor."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Du beschreibst den Weg für deine Freundin. Was sagst du?",
+            "options": [
+                "Gehen Sie bitte geradeaus dann rechts.",
+                "Ich gehe heute ins Kino.",
+                "Ich bin auch fremd hier."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Dein Freund fragt dich: ........ Du antwortest: \"<i>Bis acht Uhr.</i>\"",
+            "options": [
+                "Wie lange bleibst du zu Hause?",
+                "Wann besuchst du uns?",
+                "Um wie viel Uhr beginnt der Film?"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Herzlichen Glückwunsch.",
+            "options": [
+                "einen Test.",
+                "Geburtstag.",
+                "eine Reise."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Maria feiert das Neujahr.",
+            "options": [
+                "Ein gutes neues Jahr!",
+                "Viel Spaß!",
+                "Viel Erfolg!"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Ali lädt dich zur Party ein. Du entschuldigst dich.",
+            "options": [
+                "Ich bringe Getränke mit.",
+                "Tut mir leid.",
+                "Ich komme allein."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Im Restaurant findest du das Essen sehr gut.",
+            "options": [
+                "Es schmeckt wunderbar.",
+                "Es mag ich nicht.",
+                "Es ist teuer."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Du fragst einen Freund nach dem Befinden.",
+            "options": [
+                "Wie geht es dir?",
+                "Wohin gehst du?",
+                "Woher bist du?"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Du drückst einen Wunsch aus.",
+            "options": [
+                "Ich kann gut Basketball spielen.",
+                "Ich darf ins Café gehen.",
+                "Ich möchte Arzt werden."
+            ],
+            "correct": 2
+        }
+    ]
+}

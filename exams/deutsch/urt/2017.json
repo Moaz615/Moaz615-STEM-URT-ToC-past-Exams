@@ -1,0 +1,228 @@
+{
+    "questions": [
+        {
+            "passage": "<p align=\"center\"><b><u>I- Texterfassung</u></b></p> <p><b><u>Lesen Sie den Text!</u></b><br>Gesundheit ist sehr wichtig. Das findet jede Person in meiner Familie. Ich heiße Franziska und arbeite als Ärztin. Jeden Morgen stehen wir früh auf. Um 7.30 Uhr gehe ich eine Stunde ins Sportstudio. Dann dusche ich mich und frühstücke mit meinem Sohn Timo und meinem Mann Hans zusammen. Danach gehe ich ins Krankenhaus. Hans geht in die Arbeit mit dem Fahrrad, lieber als mit dem Bus. Am Nachmittag macht Timo viel Sport. Er spielt gern Basketball. Manchmal geht er mit unserem Hund, Basti, spazieren. Am Abend haben wir alle großen Hunger. Wir essen kein Fast Food. Deshalb koche ich alles frisch. Das braucht viel Zeit, aber manchmal hilft Timo auch dabei. Ich glaube, wir leben gesund."
+        },
+        {
+            "q": "Was ist Franziska von Beruf?",
+            "options": [
+                "Lehrerin",
+                "Krankenschwester",
+                "Ärztin",
+                "Verkäuferin"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Was findet Franziskas Familie wichtig?",
+            "options": [
+                "Die Arbeit",
+                "Den Hund",
+                "Die Gesundheit",
+                "Das Fahrrad"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Franziska geht um ___________________________________ ins Sportstudio.",
+            "options": [
+                "halb acht",
+                "viertel vor sieben",
+                "sieben Uhr",
+                "halb sieben"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Basti ist Franziskas Sohn.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Timo isst gern Fast Food.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Timo hilft beim Kochen.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Familie Hans isst zu Hause zu Abend.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>II- Alltagssituationen</u></b></p> <p><b>A) <u> Was sagst du in diesen Situationen?</u></b></p>"
+        },
+        {
+            "q": "Du hast den Reparaturservice angerufen. ",
+            "options": [
+                "Mein Computer funktioniert nicht mehr.",
+                "Ich möchte einen Computer kaufen. ",
+                "Ich finde den Computer teuer."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Du fragst nach der Medizin. ",
+            "options": [
+                "Ist der Arzt krank?",
+                "Was hilft gegen Kopfschmerzen?",
+                "Studierst du Medizin?"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Deine Freundin sagt: „Gefällt dir mein Kleid?“ ",
+            "options": [
+                "Den finde ich super.",
+                "Ja, das finde ich toll.",
+                "Sehr günstig! Sie gefällt mir sehr."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Dein Freund hat die Prüfung bestanden. ",
+            "options": [
+                "Viel Erfolg!",
+                "Viel Spaß!",
+                "Gratuliere."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Wer ist am Apparat?",
+            "options": [
+                "Du weißt, wer telefoniert.",
+                "Du weißt nicht, wer telefoniert.",
+                "Du hast kein Telefon."
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<p><b>B) <u> Wann sagst du das?</u></b></p>"
+        },
+        {
+            "q": "Wann fragst du: „Wer ist am Apparat?“",
+            "options": [
+                "Du weißt, wer telefoniert.",
+                "Du weißt nicht, wer telefoniert.",
+                "Du hast kein Telefon."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Achtung, das Flugzeug kommt nicht pünktlich an.“?",
+            "options": [
+                "Das Flugzeug ist modern.",
+                "Das Flugzeug kommt spät an.",
+                "Das Flugzeug fliegt heute nicht."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Gehen Sie geradeaus, dann nach rechts.“?",
+            "options": [
+                "Du kennst den Weg nicht.",
+                "Dein Handy ist weg.",
+                "Du beschreibst den Weg."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Ich kann leider nicht“?",
+            "options": [
+                "Du willst einen Termin absagen.",
+                "Du willst in die Disko gehen.",
+                "Du willst einen Termin vereinbaren."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "„Mit dem Zug.“ Jemand fragt dich nach dem...",
+            "options": [
+                "Befinden.",
+                "Verkehrsmittel.",
+                "Fahrplan."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Ich weiß es nicht.“?",
+            "options": [
+                "Die Hose gefällt mir! Und dir?",
+                "Sehr gut, danke.",
+                "Die Hose ist blau."
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>III- Dialogergänzung</u></b></p> <p><b><u>Ergänze den Dialog!</u></b></p> <b>Zahnarzt:</b> ___________________________________?<br><b>Dina:</b> Bitte nehmen Sie Platz.<br><b>Zahnarzt:</b> Nicht so gut. Ich habe seit zwei Tagen starke Zahnschmerzen.<br><b>Dina:</b> ___________________________________?<br><b>Zahnarzt:</b> Links oben. Machen Sie bitte Ihren Mund ganz weit auf! Haben Sie hier Schmerzen?<br><b>Dina:</b> Und hier?<br><b>Zahnarzt:</b> Nein, dort nicht.<br><b>Dina:</b> ___________________________________?<br><b>Zahnarzt:</b> Vor drei Wochen. Warum sind Sie damals zu mir nicht gekommen?<br><b>Dina:</b> ___________________________________<br><b>Zahnarzt:</b> Kein Problem! Du sollst diese Medizin nehmen und die Schmerzen werden bald weg.<br><b>Dina:</b> ___________________________________?<br><b>Zahnarzt:</b> Drei Tage. Gute Besserung!<br><b>Dina:</b> Danke!"
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>IV- Bilde Sätze!</u></b></p>"
+        },
+        {
+            "q": "gefallen - mir - nicht - die Schuhe - so gut",
+            "options": [
+                "Die Schuhe gefallen mir nicht so gut.",
+                "Die Schuhe mir gefallen nicht so gut.",
+                "Mir nicht so gut gefallen die Schuhe."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "organisiert - für - Corinna - ein Fest - Timo",
+            "options": [
+                "Timo ein Fest für Corinna organisiert.",
+                "Ein Fest Timo organisiert für Corinna.",
+                "Timo organisiert ein Fest für Corinna."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "auf - feiern - den Geburtstag - wir - einem Schiff",
+            "options": [
+                "Wir feiern den Geburtstag auf einem Schiff.",
+                "Auf einem Schiff wir feiern den Geburtstag.",
+                "Wir auf einem Schiff feiern den Geburtstag."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Damenkleidung - Erdgeschoss - findet - im - man",
+            "options": [
+                "Man Damenkleidung findet im Erdgeschoss.",
+                "Man im Erdgeschoss findet Damenkleidung.",
+                "Im Erdgeschoss findet man Damenkleidung."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "bezahlen - könnten - die Rechnung - bitte - Sie?",
+            "options": [
+                "Könnten Sie bitte die Rechnung bezahlen?",
+                "Könnten bezahlen Sie bitte die Rechnung?",
+                "Sie könnten bitte die Rechnung bezahlen?"
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>V- Landeskunde</u></b></p> <p><b>A) <u> Beantworten Sie nur 5 Fragen!</u></b><ol><li>Wo liegt Hamburg? <li>Was ist Berlin? <li>Wie heißt das Geld in Deutschland? <li>Was ist Weihnachten? <li>Wo ist das Kaufhaus KaDeWe? <li>Wann ist es sehr kalt in Deutschland?</ol></p>"
+        }
+    ]
+}
