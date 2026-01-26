@@ -1,0 +1,110 @@
+{
+    "questions": [
+        {
+            "passage": "<p align=\"center\"><b><u>I. Grammatik</u></b></p> <div><p><b><u>Wählen Sie das richtige Wort aus</u></b></p>"
+        },
+        {
+            "q": "Die Zeit bei der Gastfamilie ........... ich nie vergessen.",
+            "options": [
+                "werde",
+                "wird",
+                "werdet",
+                "würdet"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Ich möchte gern wissen, ........... der Film dauert.",
+            "options": [
+                "wann",
+                "wie lange",
+                "ob",
+                "wie"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Herr Akram hat uns die Regel gut ...........",
+            "options": [
+                "erklären",
+                "erklärt",
+                "erkläre",
+                "erklärst"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Marwa ist sauer, ........... sie darf heute nicht ins Kino gehen.",
+            "options": [
+                "deshalb",
+                "außerdem",
+                "denn",
+                "weil"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Die blaue Bluse ist ........... als die weiße da.",
+            "options": [
+                "schöner",
+                "schöne",
+                "schön",
+                "am schönsten"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Ich habe gelesen, ........... Ahmad Helmy nach Amerika geflogen ist.",
+            "options": [
+                "ob",
+                "dass",
+                "als",
+                "dann"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Entschuldigung, wie komme ich ........... Bahnhof?",
+            "options": [
+                "zum",
+                "nach",
+                "auf",
+                "bei"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Am letzten Montag ........... es einen tollen Film im Fernsehen.",
+            "options": [
+                "sah",
+                "gab",
+                "hatte",
+                "traf"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Wenn es möglich ..........., würde ich jetzt nach Deutschland fliegen.",
+            "options": [
+                "wäre",
+                "hätte",
+                "ist",
+                "war"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Der Kalender hängt ........... der Wand.",
+            "options": [
+                "auf",
+                "unter",
+                "an",
+                "zwischen"
+            ],
+            "correct": 2
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>II. Schriftlicher Ausdruck</u></b></p> <p><b>Schreiben Sie an einem der folgenden Themen! Verwenden Sie dabei die angegebenen Wörter! (mindestens 50 Wörter)</b></p><br><b>A) Aufsatz: Hobbys</b><center><b>Am Wochenende  ━  in den Klub  ━  treffen  ━  Fußball</center></b> <br><div style=\"width: 100%; height: 350px; background-image: linear-gradient(to bottom, transparent 28px, #888 28px, #888 30px); background-size: 100% 30px; border-top: 2px dotted #888;\"></div><br><b>B) E  ━  Mail:</b><p>Sie heißen Adel. Schreiben Sie eine E  ━  Mail an Thomas über Ihren <b>Traumberuf</b></p><center><b>Medizin  ━  berühmt  ━  Praxis  ━  helfen </center></b> <br><div style=\"width: 100%; height: 350px; background-image: linear-gradient(to bottom, transparent 28px, #888 28px, #888 30px); background-size: 100% 30px; border-top: 2px dotted #888;\"></div>"
+        }
+    ]
+}

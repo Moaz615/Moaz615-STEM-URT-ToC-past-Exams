@@ -1,0 +1,219 @@
+{
+    "questions": [
+        {
+            "passage": "<p align=\"center\"><b><u>I- Texterfassung</u></b></p> <p><b><u>Lies bitte den Text!</u></b><br>Hallo, ich bin Akram Galal und arbeite als Programmierer in der Marketing-Abteilung bei Firma Samsung in Kairo. Ich fahre oft ins Ausland. Das freut mich sehr. Heute ist mir aber ein Stresstag. Ab 23 Uhr bin ich im Flughafen. Das Flugzeug nach Pekin soll um halb eins abfliegen. Aber es ist schon eins. So hat das Flugzeug eine halbe Stunde Verspätung. Am Informationsschalter gibt man keine Auskunft. Man sagt nur, das Wetter ist unbeständig und wir sollen einfach warten. Ich habe im Imbiss lange gewartet. Es war sehr langweilig. Endlich habe ich eine Durchsage gehört: „Achtung, das Flugzeug nach Pekin kann heute leider nicht abfliegen.“. Ach, Mist! Da muss ich im Flughafen-Hotel übernachten. Das ist doch eine andere schlechte Überraschung, wir fliegen morgen um 8 Uhr nach Dubi. Dort haben wir noch einen Anschluss um 13 Uhr nach Pekin. So kommen wir gegen 23 Uhr in Pekin an. Oh Gott! Und wie ist es mit meinen Terminen? Die muss ich sicher auf übermorgen verschieben.</p>"
+        },
+        {
+            "q": "Wo arbeitet Herr Akram?",
+            "options": [
+                "In Pekin.",
+                "In Dubi.",
+                "In Kairo.",
+                "Am Flughafen."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Warum hat das Flugzeug Verspätung?",
+            "options": [
+                "Das Flugzeug ist kaputt.",
+                "Das Wetter ist nicht so gut.",
+                "Herr Akram findet kein Flugticket.",
+                "Die Leute im Flughafen arbeiten heute nicht."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Akram muss in ..... umsteigen.",
+            "options": [
+                "Dubi.",
+                "Kairo.",
+                "Pekin.",
+                "Hotel."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Akram fährt nicht gern ins Ausland.",
+            "options": [
+                "richtig.",
+                "falsch."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Heute übernachtet Akram in Kairo.",
+            "options": [
+                "richtig.",
+                "falsch."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Die Ankunft in Pekin ist um 13 Uhr.",
+            "options": [
+                "richtig.",
+                "falsch."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Akram muss seine Termine ändern.",
+            "options": [
+                "richtig.",
+                "falsch."
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<div><p align=\"center\"><b><u>II- Alltagssituationen</u></b></p> <p><b>A) <u> Was sagst du in diesen Situationen?</u></b></p>"
+        },
+        {
+            "q": "Dein Freund fragt dich nach deinem Befinden.",
+            "options": [
+                "Ich bin gesund, danke.",
+                "Gute Besserung!",
+                "Ja, das passt gut."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Hier ist es aber dunkel.",
+            "options": [
+                "Würden Sie das Licht ausmachen?",
+                "Würden Sie das Fenster zumachen?",
+                "Würden Sie das Licht anmachen?"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Du willst eine Nachricht auf dem Anrufbeantworter hinterlassen.",
+            "options": [
+                "Wie funktioniert der Anrufbeantworter?",
+                "Könnten Sie mich unter 2901983.... zurückrufen?",
+                "Bis wann reparieren Sie den Anrufbeantworter?"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Die Hose ist zu klein.",
+            "options": [
+                "Die Hose passt mir nicht.",
+                "Die Hose steht mir gut.",
+                "Die Hose ist sehr günstig."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Dein Freund fragt nach dem Datum.",
+            "options": [
+                "Heute ist Freitag.",
+                "Heute ist der erste Mai.",
+                "Heute ist der Muttertag.</div>"
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<div><p><b>B) <u> Wann sagst du das?</u></b></p>"
+        },
+        {
+            "q": "Kann ich heute vorbeikommen?",
+            "options": [
+                "Du hast einen Termin beim Frisör.",
+                "Du brauchst einen Termin beim Frisör.",
+                "Du sagst deinen Termin beim Frisör ab."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Da vorne, auf Gleis 5.",
+            "options": [
+                "Wann fährt der nächste Zug nach Frankfurt ab?",
+                "Wie weit ist es nach Hamburg?",
+                "Wo fährt der nächste Zug nach Berlin ab?"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Wie lange brauchen Sie für die Reparatur?",
+            "options": [
+                "Dein Auto ist kaputt.",
+                "Du willst ein Auto kaufen.",
+                "Du willst dein altes Auto verkaufen."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Der ist super und steht dir auch. Dein Freund fragt:",
+            "options": [
+                "Wie viel kostet der Mantel?",
+                "Wem gehört der Mantel?",
+                "Wie findest du den Mantel?"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Alles Gute für dich!",
+            "options": [
+                "Dein Freund feiert Weihnachten.",
+                "Dein Bruder feiert seinen Geburtstag.",
+                "Man feiert Ostern.</div>"
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>III- Dialogergänzung</u></b></p> <p><b><u>Ergänze den Dialog!</u></b><br><b>Mahmud:</b> Ich möchte eine Jeanshose.<br><b>Verkäufer:</b> Sehen Sie mal, die Hose da!<br><b>Mahmud:</b> Die finde ich schön. ___________________________________?<br><b>Verkäufer:</b> Ja, wir haben diese Hose in Blau. ___________________________________?<br><b>Mahmud:</b> Ich brauche Größe 34. Und wo findet man Hemden?<br><b>Verkäufer:</b> ___________________________________<br><b>Mahmud:</b> Dieses Hemd gefällt mir. ___________________________________?<br><b>Verkäufer:</b> Das kostet 120 Pfund.<br><b>Mahmud:</b> ___________________________________<br><b>Verkäufer:</b> Tut mir leid! Hier haben wir keine Schuhe.<br><b>Mahmud:</b> O.K.! Ich nehme die Hose und das Hemd. ___________________________________?<br><b>Verkäufer:</b> Hier an der Kasse.</p>"
+        },
+        {
+            "passage": "<div><p align=\"center\"><b><u>IV- Bilde Sätze!</u></b></p>"
+        },
+        {
+            "q": "abholen ihr Ticket - soll - Frau Wagner - am Schalter 3.",
+            "options": [
+                "Frau Wagner soll ihr Ticket am Schalter 3 abholen.",
+                "Am Schalter 3 soll ihr Ticket Frau Wagner abholen.",
+                "Ihr Ticket soll am Schalter 3 Frau Wagner abholen."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "einen Termin - heute - Frau Dr. Meyer - habe - bei - ich.",
+            "options": [
+                "Ich habe heute einen Termin bei Frau Dr. Meyer.",
+                "Heute habe ich bei Frau Dr. Meyer einen Termin.",
+                "Einen Termin habe ich heute bei Frau Dr. Meyer."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "seinen Geburtstag - Ahmad - am nächsten Freitag - feiert - im Klub.",
+            "options": [
+                "Ahmad feiert am nächsten Freitag seinen Geburtstag im Klub.",
+                "Am nächsten Freitag feiert Ahmad im Klub seinen Geburtstag.",
+                "Im Klub feiert Ahmad seinen Geburtstag am nächsten Freitag."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "möchten einen Tisch für vier Personen - reservieren - wir.",
+            "options": [
+                "Wir möchten einen Tisch für vier Personen reservieren.",
+                "Einen Tisch für vier Personen möchten wir reservieren.",
+                "Reservieren möchten wir einen Tisch für vier Personen."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "du bekommen - wann den Führerschein - hast?",
+            "options": [
+                "Wann hast du den Führerschein bekommen?",
+                "Wann du den Führerschein bekommen hast?",
+                "Wann hast den Führerschein du bekommen?</div>"
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>V- Landeskunde</u></b></p> <p><b><u>Beantworten Sie nur 5 Fragen!</u></b><ol><li>Wo liegt Wien?<li>Wie heißt die Hauptstadt von Deutschland?<li>Nenne einen Fluss in Deutschland!<li>Was ist Nordrhein-Westfalen?<li>Wo ist die Allianz Arena?<li>Was ist KaDeWe?</ol></p>"
+        }
+    ]
+}

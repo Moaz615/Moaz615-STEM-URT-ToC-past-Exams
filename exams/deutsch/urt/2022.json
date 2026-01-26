@@ -1,0 +1,240 @@
+{
+    "questions": [
+        {
+            "passage": "<p align=\"center\"><b><u>Texterfassung</u></b></p> <p align=\"center\"><b><u>Text ( 1 )</u></b></p> <p>Hallo, Saleh! <br><br> Wie geht es? Bald ist die Schule zu End. Da habe ich viel Zeit für meine Hobbys. Ich spiele gern Fußball. Montags, mittwochs und freitags gehe ich zum Training in den Fußballklub. Das finde ich super,  denn ich kann dort meine Freunde treffen. Danach können wir in ein Cafe gehen. Meine Mutter findet das nicht gut. Sie meint, ich soll gleich nach dem Training nach Hause kommen und die Hausaufgaben schreiben. Zum Glück ist mein Vater auch Fußball-Fan. Manchmal gehen wir am Freitag zusammen ins Stadion und sehen interessante Fußballspiele. Aber in den Ferien ist das ganz anders: Keine Schule und keine Hausaufgaben. Und wie ist es jetzt bei dir in Frankfurt? Ich weiβ, du hast deine Ausbildung als Puppenspieler vor einem Monat fertig gemacht? Wann kommst du wieder nach Kairo? Schreib mir bald! <br><br> Viele Grüβe! <br><br> Ahmad</p>"
+        },
+        {
+            "q": "Wer hat die E-Mail geschrieben?",
+            "options": [
+                "Saleh",
+                "Ahmad",
+                "Ahmads Vater"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Wo trifft Ahmad seine Freunde?",
+            "options": [
+                "In der Schule.",
+                "Zu Hause.",
+                "Im Klub."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Wohin geht Ahmad nach dem Training?",
+            "options": [
+                "Er fährt nach Hause.",
+                "Er geht ins Stadion.",
+                "Er geht in ein Cafe."
+            ],
+            "correct": 2
+        },
+        {
+            "q": " ................... mag auch Fuβball.",
+            "options": [
+                "Saleh.",
+                "Ahmads Vater.",
+                "Ahmads Mutter."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Saleh ist jetzt .................... .",
+            "options": [
+                "in Frankfurt.",
+                "im Klub.",
+                "In Kairo."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Wann hat Ahmad Zeit für seine Hobbys?",
+            "options": [
+                "Am Abend.",
+                "In den Ferien.",
+                "Vor einem Monat."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Was ist Saleh von Beruf?",
+            "options": [
+                "Fuβballspieler.",
+                "Puppenspieler.",
+                "Schüler."
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>Text ( 2 )</u></b></p> <p>Heide und Klaus hatten drei Jahre ein eigenes Auto. Aber nun sind sie von Düsseldorf nach Münster gezogen.Jetzt fahren die beiden viel Fahrrad und haben das Auto letzte Woche verkauft. Denn sie haben gemerkt: Das Auto ist viel zu teuer und sie brauchen das Auto nicht. Das Fahrrad ist genug. Heide fährt mit dem Fahrrad zum Einkaufen und es geht ihr viel besser. \"<i>Ich komme nach Hause und bin total entspannt. Die frische Luft tut einfach gut</i>\" sagt sie. <br><br> Klaus meint : \"<i>Ich war immer viel erkältet. Ich bin in die Fahrrad-stadt Münster gezogen.Und nun bin ich fit wie ein Sportler.</i>\"<br><br> Für das Ehepaar Heide und Klaus hat sich der Umzog gelohnt, Klaus hat eine bessere Stelle bekommen. Er ist Chefkoch in der Uni-Mensa und verdient auch mehr Geld. Heide will noch zwei Jahre arbeiten, dann wollen sie ein Kind haben. \"<i>Aber ich will mindestens drei</i>\" lacht Heide und Klaus guckt kritisch. \"<i>Ich war immerallein, ich hatte keine Geschwister</i>\", sagt Heide. <br><br> Klaus glaubt: Dann müssen sie wieder ein Auto kaufen. Drei kleine und nur Fahrräder – das geht nicht! Klaus weiß,wovon er spricht. Er und seine zwei Brüder waren klein und seine Eltern hatten kein Auto. \"<i>Es war manchmal sehr schwierig für meine Eltern</i>\" sagt er. Jetzt haben seine Eltern ein kleines Auto und genießen es. Klaus leiht es sich manchmal von seinen Eltern.</p>"
+        },
+        {
+            "q": "Heide fährt nicht gern Rad.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Münster ist eine Fahrrad-stadt",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Klaus studiert an der Uni.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Heide hat zweiBrüder F.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Heide und Klaus haben kein Auto.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Klaus bekommt ein gutes Gehalt.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Die Eltern von Klaus hatten früherein Auto.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<div><p align=\"center\"><b><u>II. Alltagssituationen:</u></b></p> <p>Wähle die richtige Antwort aus!Beantworte 11 von 12 Fragen!</p>"
+        },
+        {
+            "q": "Deine Freundin macht eine Fahrt.",
+            "options": [
+                "Viel Erfolg.",
+                "Gute Reise.",
+                "Alles Gute."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Du stimmst einem Freund zu.",
+            "options": [
+                "Du hast Recht.",
+                "Ich bin dagegen.",
+                "Das geht leider nicht."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Wie lange bleibst du in Rostock?.",
+            "options": [
+                "Du fragst nach der Dauer.",
+                "Du fragst nach der Lage von Rostock.",
+                "Du willst nach Rostock fahren."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Das finde ich ganz traurig.",
+            "options": [
+                "Du machst ein Kompliment.",
+                "Du drückst Mitgefühl aus.",
+                "Du findest etwas interessant."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Deine Freundin hat eine Reise nach Berlin gemacht.",
+            "options": [
+                "Gute Reise.",
+                "Wie war es in Berlin?",
+                "Viel Spaß."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Du fragst nach dem Befinden.",
+            "options": [
+                "Wie geht es?",
+                "Wie findest du das?",
+                "Was trinkst du gern?"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "\"<i>Wie viel kostet deine Jacke?</i>\"     Du fragst deinen Freund nach .........",
+            "options": [
+                "der Meinung.",
+                "dem Preis.",
+                "dem Grund."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Dein Freund hat viele Probleme. Was sagst du ?",
+            "options": [
+                "Es tut mir leid.",
+                "Das ist gut.",
+                "Viel Glück!"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Du fragst nach dem Weg zum Flughafen.",
+            "options": [
+                "Wie findest du den Flughafen?",
+                "Gibt es einen Flughafen in Frankfurt?",
+                "Wie komme ich zum Flughafen?"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Du machst ein Kompliment.  Was sagst du?",
+            "options": [
+                "Du siehst schick aus.",
+                "Es tut mir leid.",
+                "Ich kann gut schwimmen."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Du fragst nach dem Verkehrsmittel.",
+            "options": [
+                "Wann fährst du zur Schule?",
+                "Wie fährst du zur Schule?",
+                "Warum fährst du zur Schule?"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Du fragst deinen Freund nach seinem Wunsch.",
+            "options": [
+                "Kannst du gut mit dem Computer arbeiten?",
+                "Darfst du mit ins Kino gehen?",
+                "Willst du wirklich Informatik studieren?"
+            ],
+            "correct": 2
+        }
+    ]
+}

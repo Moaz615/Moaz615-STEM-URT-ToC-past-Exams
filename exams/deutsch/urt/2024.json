@@ -1,0 +1,249 @@
+{
+    "questions": [
+        {
+            "passage": "<p align=\"center\"><b><u>Texterfassung</u></b></p> <p align=\"center\"><b><u>Text 1</u></b></p> <p>Ich bin Stefan Hartmann. Ich habe zwei Söhne Alex und Tom. Sie sind im Stress jeden Tag! Vor allem am Morgen. Sie stehen um 6:30 auf. Sie müssen dann duschen, frühstücken und die Taschen packen. Die Zeit ist ziemlich knapp. Sie nehmen den Bus um 7:30 und der ist immer so voll, sie bekommen da nie einen Sitzplatz. Das ist echt stressig! <br><br> Alex, 17 Jahre: Dieses Jahr ist besonders stressig für ihn. Er hat von Montag bis Donnerstag acht Stunden Schule. Da kommt er erst um vier von der Schule nach Hause. Da schreibt er so viele Klassenarbeiten. <br><br> Tom, 15 Jahre: Der hat auch Stress. Er macht viel Sport. Er spielt Tennis. Vier Tage in der Woche hat er Training und kommt erst um acht Uhr abends nach Hause. Dann muss er natürlich auch noch Hausaufgaben machen. Er hat sehr wenig Freizeit. Für ihn ist das normal. Aber eigentlich ist das zu viel. <br><br> Wir können nur am Wochenende etwas zusammen machen. Das ist doch echt wenig und ich finde das total schade.</p>"
+        },
+        {
+            "q": "Der Text spricht über ____________",
+            "options": [
+                "Stefans Schultag",
+                "Das Wochenende",
+                "Stress im Alltag"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Wann stehen Alex und tom jeden Tag auf?",
+            "options": [
+                "Um halb sechs",
+                "Um halb sieben",
+                "Um halb acht"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Wo können Alex und Tom nie Sitzplatz bekommen?",
+            "options": [
+                "Zu Hause",
+                "In der Schule",
+                "Im Bus"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Alex ____________",
+            "options": [
+                "ist der Vater von Stefan.",
+                "ist der Bruder von Tom.",
+                "hat jeden Tag acht Stunden."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Warum ist dieses Jahr stressig für Alex?",
+            "options": [
+                "Er muss lange Zeit in der Schule bleiben.",
+                "Er hat keine Schule am Sonntag.",
+                "Er hat wenige Klassenarbeit."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Wer kommt um 20 Uhr nach Haus?",
+            "options": [
+                "Tom",
+                "Alex",
+                "Stefan"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "____________ macht Tom die Hausaufgaben.",
+            "options": [
+                "Vor dem Training",
+                "In der Schule",
+                "Nach dem Training"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "____________ können am Wochenende etwas zusammen machen.",
+            "options": [
+                "Nur Alex und Tom",
+                "Nur Stefan und Alex",
+                "Stefan und seine Söhne"
+            ],
+            "correct": 2
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>Text 2</u></b></p> <p>Letztes Jahr war Ahmed Naguib als Austauschschüler in Deutschland. Er hat ein Jahr in Bremen gelebt. Am Anfang war ihm alles anders: die Mentalität, die Menschen, die Natur, das Essen und die Sprache. Seine Gastfamilie war aber sehr nett. Er hatte eine kleine Gastschwester, 7 Jahre alt, und noch einen Gastbruder. Er heißt Andreas und ist 16 Jahre alt. Ahmed ist mit Andreas zusammen in die Schule gegangen. Die Schule war anders als in Ägypten. Man muss dort nicht jeden Tag Uniform tragen. Sie sind auch in Jeans und Pullover zur Schule gegangen. Ahmed hatte täglich acht bis neun Stunden. <br><br> Am Anfang hat er wenig Deutsch gesprochen. Das war ihm natürlich ein Problem. Aber die Schule war ganz gut und die Schüler in seiner Klasse waren freundlich. Sie haben ihm viel geholfen. In der Freizeit hat er mit der Familie zusammen Ausflüge gemacht. Sie hat ihm viel von Bremen gezeigt. Zum Beispiel sind sie einmal an die Nordsee gefahren. Das war total schön. Ahmed hat ein Jahr lang in seinem Traumland gelebt. Aber jetzt ist er auch zufrieden, denn er ist wieder in seiner Heimat 'Ägypten'.</p>"
+        },
+        {
+            "q": "Vor einem Jahr war Ahmed in Bremen.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Andreas kommt aus Deutschland.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Ahmeds Gastfamilie hatte drei Kinder.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Die Schule in Bremen hat Ahmed gut gefallen.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "In Bremen kann man in Jeans zur Schule gehen.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Ahmed hat mit den Schülern Ausflüge gemacht.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Deutschland ist Ahmeds Traumland und er lebt noch dort.",
+            "options": [
+                "richtig",
+                "falsch"
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<div><p align=\"center\"><b><u>II. Alltagssituationen:</u></b></p>"
+        },
+        {
+            "q": "Lises Zimmer ist klein und dunkel. Sie ist nicht gern in ihrem Zimmer. Das heißt:",
+            "options": [
+                "Lise mag ihr Zimmer gern.",
+                "Das Zimmer gefällt Lise nicht.",
+                "Lise findet das Zimmer gemütlich."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Dein Freund fragt \"<i>Wann können wir zusammen ins Kino gehen</i>\". Was sagst du?",
+            "options": [
+                "Am Montagabend",
+                "zwei Stunden",
+                "mit dem Bus"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "\"<i>Adam, wir haben heute einen Besuch. Kannst du bitte aufraümen.</i>\" Du fragst nach ____________",
+            "options": [
+                "den Vorlieben",
+                "dem Hobbys",
+                "der Möglichkeit"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Dein Freund fragt dich \"<i>Was hast du gestern gemacht</i>\". Wie ist die Antwort?",
+            "options": [
+                "Ich habe viel gelernt",
+                "Ich will den Film sehen",
+                "Ich kann viel machen."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Du fragst nach dem Weg zum Bahnhof. Wie heißt die Frage?",
+            "options": [
+                "Wer holt mich vom Flughafen ab?",
+                "Gibt es einen Flughafen in Frankfurt?",
+                "Wie komme ich zum Flughafen"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "\"<i>Wie lange bleibst du in Berlin?</i>\" Du fragst nach ____________",
+            "options": [
+                "der Dauer",
+                "dem Termin",
+                "dem Datum"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Dein Freund hat ein Problem in der Schule. Was sagst du ihm?",
+            "options": [
+                "Du hast super nett",
+                "Oh es tut mir leid",
+                "Das finde ich schön"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Du willst deiner Freundin ein Kompliment machen. Was sagst du?",
+            "options": [
+                "Du kommst oft zu spät",
+                "Ich kann gut schwimmen",
+                "Du siehst schick aus"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Dein Freund trägt eine Jacke. Die gefällt dir sehr. Was sagst du?",
+            "options": [
+                "Ich trage gern einen Pullover",
+                "Die finde ich super",
+                "Jacken gefallen mir nicht"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "\"<i>Die Sonne scheint und das Wetter ist sehr gut.</i>\" Jemand fragt dich:",
+            "options": [
+                "Wie ist es heute?",
+                "Was ist heute?",
+                "Wie geht es dir?"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Jemand fragt dich nach deinem Wunsch. Was sagst du?",
+            "options": [
+                "Ich will ein Picknick machen",
+                "Ich kann gut Klavier spielen",
+                "Heute darf ich ins Kino gehen"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Dein Freund fragt \"<i>Gehen wir morgen ins Konzert</i>\". Aber du lehnst das ab. Was sagst du?",
+            "options": [
+                "Das ist eine gute Idee",
+                "Morgen habe ich frei",
+                "Das geht leider nicht"
+            ],
+            "correct": 2
+        }
+    ]
+}
