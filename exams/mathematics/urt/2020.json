@@ -454,10 +454,10 @@
         {
             "q": "A wheel with rotational inertia $I$ is mounted on a fixed, frictionless axle. The angular speed $\\omega$ of the wheel is increased from zero to $\\omega_f$ in a time interval $T$. What is the average power input to the wheel during this time interval?",
             "options": [
-                "$I\\omega_f^2 / 2T$",
-                "$I\\omega_f^2 / T$",
-                "$I\\omega_f / T$",
-                "$I\\omega_f^2 / 2$"
+                "$\\frac{I\\omega_f^2}{2T}$",
+                "$\\frac{I\\omega_f^2}{T}$",
+                "$\\frac{I\\omega_f}{T}$",
+                "$\\frac{I\\omega_f^2}{2}$"
             ],
             "correct": 0
         },
