@@ -1,0 +1,422 @@
+{
+    "questions": [
+        {
+            "passage": "<p align=\"center\"><b><u>A- Language Functions</u></b></p> <p><b>1) <u>Write a dialogue of FIVE exchanges</u></b> between Mr. and Mrs. Ahmed. The former suggests entertaining some foreign guests at a restaurant, while the latter prefers to invite them at home. Each tries to persuade the other, giving his/her reasons.</p>"
+        },
+        {
+            "endPassage": true
+        },
+        {
+            "passage": "<div><p align=\"center\"><b><u>B- Vocabulary & Structure</u></b></p> <p><b>2) <u>Choose the correct answer from a, b, c or d:</u></b></p>"
+        },
+        {
+            "q": "During our stay in London, we paid a visit to the hospital founded ________ the nurse Florence Nightingale.",
+            "options": [
+                "in honour of",
+                "in favour of",
+                "in case of",
+                "in place of"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Ali and his wife had invited them both over for a family cookout but Ahmed didn't want to be around someone ________ comfortable world when his was a tossed salad.",
+            "options": [
+                "elses",
+                "else",
+                "elses'",
+                "else's"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The others picked themselves up from the ground one by one and quickly rejoined their fellows, so for a/an ________ the fighter thought he had won the fight with ease.",
+            "options": [
+                "time",
+                "moment",
+                "suddenly",
+                "once"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Do you expect ________ to be possible that more and more students from poor families will be able to go to college?",
+            "options": [
+                "it",
+                "this",
+                "that",
+                "which"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "By the mid-20th century, America's dreamers were preoccupied with their great and glorious future which seemed ________",
+            "options": [
+                "avoidable",
+                "capable",
+                "inevitable",
+                "invisible"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Persons found guilty of bringing false charges of ________ were liable to criminal prosecution by the state and a fine on conviction.",
+            "options": [
+                "commitment",
+                "blackmail",
+                "admit",
+                "recuperate"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "He finally won the general election because many of his promises were quite popular ________ the voters.",
+            "options": [
+                "in",
+                "for",
+                "with",
+                "to"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "________ stretched as far as she could see in either direction with uneven stone and shale between her and the rest of the island.",
+            "options": [
+                "Rays",
+                "Stones",
+                "Cliffs",
+                "Stairs"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "When I go out in the evening, I use the bike ________ the car if I can.",
+            "options": [
+                "regardless of",
+                "in spite of",
+                "other than",
+                "rather than"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Being an/a ________ character, he immigrated to America when he was seventeen years old.",
+            "options": [
+                "conventional",
+                "suitable",
+                "adventurous",
+                "timid"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Dr. Perkins is a brilliant and dedicated scientist who had expected to be selected as the director of the institute. She was very surprised not ________ the position.",
+            "options": [
+                "having offered",
+                "having been offered",
+                "to have offered",
+                "to have been offered"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Why does she always ask you for help? - Because there is no one else ________",
+            "options": [
+                "for whom to turn",
+                "she can turn to",
+                "for her to turn",
+                "who to turn to"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "This fuel, he believes, will ________ be vastly better than anything we produce.",
+            "options": [
+                "luckily",
+                "completely",
+                "currently",
+                "probably"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Americans consume ________ vegetables per person today as they did in 1910.",
+            "options": [
+                "twice as many",
+                "as twice as many",
+                "more than twice",
+                "more than twice many"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Of all the mortals ________ he'd ever known, he'd never considered one a friend.",
+            "options": [
+                "apart",
+                "different",
+                "no word",
+                "same"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Near the table ________ a poor dog, who desired to satisfy his hunger with what fell from the table.",
+            "options": [
+                "lied",
+                "lay",
+                "lain",
+                "laid"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The earth has an enormous ________ core that contains vast amounts of energy.",
+            "options": [
+                "water",
+                "cold",
+                "molten",
+                "hard"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Whether you believe it or not, it is ________ that causes your illness.",
+            "options": [
+                "because the overweight",
+                "because you overweight",
+                "you are so overweight",
+                "your being overweight"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "More and more people try to avoid public transportation delays by using their own cars, and this ________ creates further problems.",
+            "options": [
+                "in case",
+                "in turn",
+                "after all",
+                "once again"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The free enterprise system is established ________ markets reward those who devise solutions for, say, pollution abatement or alternative energy creation.",
+            "options": [
+                "even if",
+                "if only",
+                "as soon as",
+                "as long as"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The early inhabitants, whose race is unknown, were ________ extirpated or absorbed in the subsequent migrations.",
+            "options": [
+                "illuminated",
+                "illustrated",
+                "occurred",
+                "absorbed"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The space underneath the roof, where they stood, permitted them to see on all sides of the tall building, and they looked with ________ curiosity at the city spread out beneath them.",
+            "options": [
+                "few",
+                "a few",
+                "many",
+                "much"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Tom had a bad headache yesterday, so he asked his twin brother Tim ________ to class for him. The teacher didn't know the difference between them.",
+            "options": [
+                "is going",
+                "to go",
+                "goes",
+                "has gone"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Most businessmen are more interested in the ________ success of their products than their educational values.",
+            "options": [
+                "criminal",
+                "classical",
+                "cultural",
+                "commercial"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Despite the excellent qualifications and experience of several candidates, we couldn't find ________ who we thought would be the right man for the job.",
+            "options": [
+                "sometime",
+                "something",
+                "anywhere",
+                "anyone"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "His idea of having weekly family meals together, which seemed difficult at first, has ________ many good changes in their lives.",
+            "options": [
+                "turned into",
+                "got through",
+                "brought about",
+                "resulted from"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "He's one of ________ people I've ever met. He never stops talking and never says anything interesting.",
+            "options": [
+                "the most boring",
+                "the more boring",
+                "the least bored",
+                "the more bored"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Distance learning is being ________ in some countries to help children in remote rural schools obtain higher education.",
+            "options": [
+                "adept",
+                "adopted",
+                "adopting",
+                "adapting"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The crisis we are facing now is ________ than any of the previous ones.",
+            "options": [
+                "the most serious",
+                "seriously",
+                "more serious",
+                "as serious"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "He had pulled through so many sharp attacks of his \"vile ________\" and other lung disorders that he began to be seriously alarmed only three days before his death.",
+            "options": [
+                "influenza",
+                "amnesia",
+                "diabetes",
+                "fever</div>"
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>C- Reading Comprehension</u></b></p> <p><b>3) <u>Read the following passage, then answer the questions:</u></b></p> English Ivy betrays its poor reputation as a nuisance by its unparalleled ability to provide shade. By seamlessly covering the exterior of a building, it works as a natural insulator, blocking the sun and decreasing air conditioning costs. This means big savings for both building tenants and homeowners alike. And it can happen quickly, too. Under the proper conditions, established English Ivy can grow to cover an area of roughly 500 square feet per year. Given that most homes have a roof measuring roughly 2000 square feet, ivy-friendly homeowners can rest assured that their roofs will be completely covered in about four years. When considering growth rates of newly planted ivy, just remember the old adage: First year, it sleeps. Second year, it creeps. Third year, it leaps! For English Ivy, this is especially true. Now, detractors may take this opportunity to remind readers about how invasive English Ivy can be. For what ivy enthusiast hasn't been cautioned about is its ability to burrow holes, fracture windows, and even deteriorate brick. But be warned. Oftentimes, this suggestion is taken to the comical extreme. Naysayers take a strange pleasure in spinning yarns about a particularly malevolent strand of ivy-one that slips in through the cracks on a hot summer night, silently strangling homeowners in their sleep. Admittedly, this can be a funny story to tell. But are we to believe such a tale? The intelligent gardener will quickly dismiss such rubbish for what it is."
+        },
+        {
+            "q": "The primary purpose of the passage is to",
+            "options": [
+                "highlight the reasons why English Ivy is beneficial.",
+                "argue that English Ivy is an essential for homeowners.",
+                "defend the reputation of English Ivy.",
+                "belittle detractors of English Ivy."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "As used in paragraph 1, which is the best definition of betrays?",
+            "options": [
+                "gives away",
+                "contradicts",
+                "reveals",
+                "supports"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "In paragraph 1, the author states, \"Given that most homes have a roof measuring roughly 2000 square feet, ivy-friendly homeowners can rest assured that their roofs will be completely covered in about four years.\" Which of the following logical mistakes DON'T apply to the passage? I. English Ivy will not cover the area of most roofs in 4 years if it only grows 500 square feet per year. II. Most homes may not have the proper conditions necessary for English Ivy to grow at the specified rate. III. Newly planted ivy does not grow as fast as established ivy.",
+            "options": [
+                "I only",
+                "II only",
+                "I and II only",
+                "II and III only"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Based on information in paragraph 1, which of the following would most likely be considered an insulator?",
+            "options": [
+                "an elevator",
+                "an automobile",
+                "poster",
+                "a winter jacket"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which choice would best replace \"Admittedly, this can ...\" ?",
+            "options": [
+                "NO CHANGE",
+                "Admittedly: this can...",
+                "Admittedly; this can...",
+                "Admittedly this can..."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "As mentioned in paragraph 2, the word fracture is an /a",
+            "options": [
+                "noun",
+                "adjective",
+                "adverb",
+                "verb"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which of the following characteristics of Ivy is NOT mentioned in the passage?",
+            "options": [
+                "It wards off evil spirits.",
+                "It digs holes.",
+                "It breaks windows.",
+                "It provides shades."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "As used in paragraph 2, which is the best antonym of malevolent?",
+            "options": [
+                "wary",
+                "sensitive",
+                "virtuous",
+                "serious"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "This passage would most likely be found",
+            "options": [
+                "in a scholarly journal about botany.",
+                "in a magazine article about gardening.",
+                "in a letter from one gardener to another.",
+                "on a website identifying different types of plants."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The author's tone can best be described as",
+            "options": [
+                "comic",
+                "passionate",
+                "neutral",
+                "persuasive"
+            ],
+            "correct": 3
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>D- The Novel</u></b></p><br><br><br><center>مش هتحتاجهم يسطا النوفل اتغيرت</center><br><br><br>"
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>E- Writing</u></b></p> <p><b>5) <u>Write an essay of not less than 250 words on the following topic:</u></b><br> There wasn't any topics provided in the original exam paper.</p> <div style=\"width: 100%; height: 800px; background-image: linear-gradient(to bottom, transparent 28px, #888 28px, #888 30px); background-size: 100% 30px; border-top: 2px dotted #888;\"></div>"
+        }
+    ]
+}

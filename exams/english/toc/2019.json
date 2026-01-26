@@ -1,0 +1,535 @@
+{
+    "questions": [
+        {
+            "passage": "<p align=\"center\"><b><u>A- Language Functions</u></b></p> <p><b>1) <u>Write a dialogue of FIVE exchanges</u> between a talk show host and a sociology professor, discussing one of the contemporary social issues in Egypt. (Greetings are not counted)</b></p>"
+        },
+        {
+            "endPassage": true
+        },
+        {
+            "passage": "<div><p align=\"center\"><b><u>B- Vocabulary & Structure</u></b></p> <p><b>2) <u>Choose the correct answer from a, b, c or d:</u></b></p>"
+        },
+        {
+            "q": "She...... the train to university for the time being, but will go in the car with classmate as soon as she can.",
+            "options": [
+                "is taking",
+                "takes",
+                "has taken",
+                "had taken"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The service at the new restaurant is exceptional and it reasonably inexpensive.",
+            "options": [
+                "was",
+                "is",
+                "has been",
+                "is being"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "I had a feeling that the vacation a disaster",
+            "options": [
+                "was going to be",
+                "is going to be",
+                "will be",
+                "is being"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "How long been training when he enters Tokyo 2020 Paralympic Games?",
+            "options": [
+                "will he have",
+                "will he train",
+                "will he be",
+                "has he trained"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "There was no trace of cancer, was there any indication that she had ever had any!",
+            "options": [
+                "no",
+                "and",
+                "either",
+                "nor"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "These measures have been taken. increasing the company's profits.",
+            "options": [
+                "in order that",
+                "so that",
+                "with a view to",
+                "so as to"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Giraffes, which are graceful and mostly gentle,.................on by lions but an adult giraffe can be extremely dangerous to lions as well",
+            "options": [
+                "are preyed",
+                "preyed",
+                "preys",
+                "'d been preyed"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "How can we get all the employees to arrive on time? \"Get\" here means...",
+            "options": [
+                "permit something to happen",
+                "force or require someone to take an action",
+                "give someone else the responsibility to do something",
+                "convince/encourage someone to do something"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "We've tried. the most likely problems, but it's impossible to be prepared for all eventualities.",
+            "options": [
+                "anticipate",
+                "to anticipate",
+                "anticipating",
+                "being anticipated"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "These legal documents are really complicated. I can't ...............heads or tails of them",
+            "options": [
+                "do",
+                "cause",
+                "let",
+                "make"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Presidential Candidate Hillary Clinton broke...................during the speech.",
+            "options": [
+                "up",
+                "down",
+                "into",
+                "of"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Many wild animals are...... teetering extinction due to pollution and loss of habitat.",
+            "options": [
+                "on second thoughts",
+                "on the verge of",
+                "on the off-chance",
+                "on a whim"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "It was his fault and he felt it necessary to own up and face the..........",
+            "options": [
+                "solitude",
+                "realm",
+                "crime",
+                "music"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "He has taken some painkillers but when the effects ........... his leg will hurt quite badly.",
+            "options": [
+                "wear away",
+                "wear down",
+                "wear off",
+                "wear out"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "He had to put........... .his dental appointment until the next day because of a business meeting.",
+            "options": [
+                "off",
+                "on",
+                "up with",
+                "aside"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "He says that he doesn't feel very well, but I expect he will out for ice cream. if I suggest going",
+            "options": [
+                "mark off",
+                "ride on",
+                "live out",
+                "perk up"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The good home workers are independent, self-motivated and self-",
+            "options": [
+                "hood",
+                "esteem",
+                "identity",
+                "disciplined"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "After a............. in the Civil Service, he became a Justice of the Peace and presided over minor cases in court",
+            "options": [
+                "career",
+                "work",
+                "profession",
+                "place"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Jeff has quite a/an..... position at this firm; after all, he's got the manager's ear",
+            "options": [
+                "impact",
+                "influential",
+                "influence",
+                "informative"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "In attempt to lose some weight, I have taken to reading the labels on the food I buy.",
+            "options": [
+                "a vain",
+                "vain",
+                "vanity",
+                "vine"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "In the case of......... support given from children to parents, showing affection and love may be the major demand of the older generation.",
+            "options": [
+                "morale",
+                "morality",
+                "moral",
+                "immoral"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The company is ...a new range of scented soaps.",
+            "options": [
+                "casting",
+                "launching",
+                "glistering",
+                "dispatching"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The film follows one man's ................to find the mother from whom he was separated at birth.",
+            "options": [
+                "pony-trekking",
+                "package tour",
+                "backpacking",
+                "odyssey"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The frightened woman increased her pace; she had a gut........ that she was about to be robbed",
+            "options": [
+                "instinct",
+                "fulfilment",
+                "spirit",
+                "spur"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "With great........ .......and soothing words he persuaded the delegate to resume his place at the bargaining table",
+            "options": [
+                "diplomacy",
+                "underestimation",
+                "imagery",
+                "breakthrough"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Many of Charles Dickens' works reflect his own early. life",
+            "options": [
+                "blasted",
+                "smirked",
+                "wretched",
+                "grinned"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "An is defined as the ability to understand something, without the need for conscious reasoning.",
+            "options": [
+                "inspiration",
+                "intellect",
+                "incivility",
+                "intuition"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "I'm absolutely exhausted, that was such a(n) workout.",
+            "options": [
+                "strenuous",
+                "harrowing",
+                "daunting",
+                "absorbing"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Charles Babbage was an early .............of computer science; he invented the first successful automatic calculator.",
+            "options": [
+                "ally",
+                "pioneer",
+                "penultimate",
+                "terminal"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The page of the book had become through continuous use",
+            "options": [
+                "dog-eared",
+                "dog-eat-dog",
+                "top dog",
+                "a dog's life</div>"
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>C- Reading Comprehension</u></b></p> <p><b>3) <u>Read the following passage, then answer the questions:</u></b></p> <p align=\"center\">(1)</p> <p>Medical waste has been a growing concern because of recent incidents of public exposure to discarded blood vials, needles (sharps), empty prescription bottles, and syringes. Medical waste can typically include general refuse, human blood and blood products, cultures and stocks of infectious agents, laboratory animal carcasses, contaminated bedding material, and pathological wastes.</p> <p align=\"center\">(2)</p> <p>Wastes are generally collected by gravity chutes, carts, or pneumatic tubes, each of which has its own advantages and disadvantages. Chutes are limited to vertical transport, and there is some risk of exhausting contaminants into hallways if a door is left open during use. Another disadvantage of gravity chutes is that the waste container may get jammed while dropping or it may be broken upon hitting the bottom. Carts are primarily for horizontal transport of bagged or containerized wastes. The main risk here is that bags may be broken or torn during transport, potentially exposing the worker to the wastes. Using automated carts can reduce the potential for exposure. Pneumatic tubes offer the best performance for waste transport in a large facility. Advantages include high-speed movement, movement in any direction, and minimal intermediate storage of untreated wastes. However, some objects cannot be conveyed pneumatically.</p> <p align=\"center\">(3)</p> <p>Off-site disposal of regulated medical wastes remains a viable option for smaller hospitals (those with less than 150 beds). Some preliminary on-site processing, such as compaction or hydro- pulping, may be necessary prior to sending the waste off site. Compaction reduces the total volume of solid wastes, often reducing transportation and disposal costs, but it does not change the hazardous characteristics of the waste. Compaction may not be economical if transportation and disposal costs are based on weight rather than volume.</p> <p align=\"center\">(4)</p> <p>Hydro-pulping involves grinding the waste in the presence of an oxidizing fluid, such as hypochlorite solution. The liquid is separated from the pulp and discharged directly into the sewer unless local limits require additional pretreatment prior to discharge. The pulp can often be disposed of at a landfill. One advantage is that waste can be rendered innocuous and reduced in size within the same system. Disadvantages are the added operating burden, difficulty of controlling fugitive emissions, and the difficulty of conducting microbiological tests to determine whether all organic matters and infectious organisms have been destroyed from the waste.</p> <p align=\"center\">(5)</p> <p>On-site disposal is a feasible alternative for hospitals generating two tons or more per day of total solid waste. Common treatment techniques include steam sterilization and incineration. Although other options are available, incineration is currently the preferred method for on-site treatment of hospital waste.</p> <p align=\"center\">(6)</p> <p>Steam sterilization is limited in the types of medical waste it can treat, but is appropriate for laboratory cultures and/or substances contaminated with infectious organisms. The waste is subjected to steam in a sealed, pressurized chamber. The liquid that may form is drained off to the sewer or sent for processing. The unit is then reopened after a vapor release to the atmosphere, and the solid waste is removed for further processing or disposal. One advantage of steam sterilization is that it has been used for many years in hospitals to sterilize instruments and containers and to treat small quantities of waste. However, since sterilization does not change the appearance of the waste, there could be a problem in gaining acceptance of the waste for landfilling.</p> <p align=\"center\">(7)</p> <p>A properly designed, maintained, and operated incinerator achieves a relatively high level of organism destruction. Incineration reduces the weight and volume of the waste as much as 95% and is especially appropriate for pathological wastes and sharps. The most common incineration system for medical waste is the controlled-air type. The principal advantage of this type of incinerator is low particulate emissions. Rotary-kiln and grate-type units have been used, but use of grate-type units has been discontinued because of high air emissions. The rotary kiln also puts out high emissions, and the costs have been prohibitive for smaller units.</p>"
+        },
+        {
+            "q": "Which of the following organizational schemes is most prevalent in the passage?",
+            "options": [
+                "comparison-contrast",
+                "chronological order",
+                "order by topic",
+                "hierarchical order"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "One disadvantage of the compaction method of waste disposal is that it",
+            "options": [
+                "does not allow hospitals to confirm that organic matter has been eliminated.",
+                "cannot reduce transportation costs.",
+                "does not reduce the weight of solid waste material.",
+                "reduces the volume of solid waste material."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "For hospitals that dispose of waste on their own premises, the optimum treatment method is",
+            "options": [
+                "compaction.",
+                "incineration.",
+                "sterilization.",
+                "hydro-pulping."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "According to the passage, which of the following could be safely disposed of in a landfill but might not be accepted by landfill facilities?",
+            "options": [
+                "incinerated waste",
+                "hydro-pulped material",
+                "laboratory cultures",
+                "sterilized waste"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The two processes mentioned in the passage that involve the formation of liquid are",
+            "options": [
+                "Hydro-pulping and sterilization.",
+                "compaction and hydro-pulping.",
+                "sterilization and incineration.",
+                "incineration and compaction."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "According to the passage, two effective methods for treating waste caused by infectious matter are",
+            "options": [
+                "steam sterilization and incineration.",
+                "incineration and compaction.",
+                "hydro-pulping and steam sterilization.",
+                "hydro-pulping and incineration."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Hospitals can minimize employee contact with dangerous waste by switching from",
+            "options": [
+                "a manual cart to a gravity chute.",
+                "a gravity chute to a manual cart.",
+                "an automated cart to a hydropulping machine.",
+                "a manual cart to an automated cart."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The process that transforms waste from hazardous to harmless and diminishes waste volume is",
+            "options": [
+                "sterilization.",
+                "oxidizing.",
+                "hydro-pulping.",
+                "compacting."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The underlined word exhausting, as it is used in the second paragraph of the passage, most nearly means",
+            "options": [
+                "detonating.",
+                "debilitating.",
+                "discharging.",
+                "disregarding."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Budgetary constraints have precluded some small hospitals from purchasing",
+            "options": [
+                "pneumatic tubes.",
+                "sterilization equipment.",
+                "rotary kilns.",
+                "controlled-air kilns."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The underlined phrase fugitive emissions in the fourth paragraph most nearly means",
+            "options": [
+                "contaminants that escape the disposal process.",
+                "contaminants that are extremely toxic.",
+                "contaminants that come from micro-biological testing",
+                "contaminants that are illegally discharged."
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<p><b><u>4) Read the following passage, then answer the question</u></b></p><p align=\"center\">(1)</p><p>Autism spectrum disorders (ASD) are a range of psychological conditions characterized by abnormalities in social interaction, behavior, interests, and communication. The five forms of ASD include classical autism, Asperger syndrome, Pervasive Developmental Disorder, Rett syndrome, and Childhood Disintegrative Disorder. Although the number of reported cases of ASD has experienced a dramatic increase in the past 25 years, the majority of doctors agree that this increase is due to changes in diagnostic practices and advances in the understanding of psychiatric health. While there is no general consensus among medical professionals</p><p align=\"center\">8</p><hr><p>about the underlying causes of ASD, theories range from genetic inheritance to environmental factors.</p><p align=\"center\">(2)</p><p>One of the most <b><u>controversial</u></b> theories to have emerged in recent times is the hypothesis that ASD could be caused by the MMR vaccine, which is an immunization against measles, mumps, and rubella that was first developed in the 1960's. The vaccine is a mixture of three live viruses and is administered via injection to children when they are one year old. By the late 1990's, this vaccination had led to the near-eradication of measles in countries that employed widespread inoculation. However, a combination of <b><u>spurious</u></b> scientific data and alarmist media attention led to an entirely preventable resurgence in measles cases in the early 21st century.</p><p align=\"center\">(3)</p><p>The first claims of a connection between the MMR vaccine and autism were made in 1998, when an article in <i>The Lancet</i>, a respected British medical journal, reported on eight cases of autism that could possibly be traced back to the administration of an MMR vaccine. The parents of the children in this study contended that the symptoms of autism in their children developed within days of vaccination. During a press conference, Andrew Wakefield, one of the authors of the article, called on British doctors to stop giving combined MMR vaccines, instead advocating for individual inoculations against measles, mumps, and rubella. Following the publication of this article, Wakefield published several follow-up papers that further questioned the safety of the MMR vaccine. An onslaught of media coverage then began. Parents appeared on television sharing anecdotal evidence linking their child's inoculation to the onset of ASD. The popular press quickly seized upon this story; in 2002, over 1200 articles were written about the link between MMR vaccines and ASD. Less than 30% of these articles mentioned that an overwhelming amount of scientific evidence suggested that these vaccinations were completely safe.</p><p align=\"center\">(4)</p><p>Since the initial panic, fears that MMR vaccines cause ASD have generally subsided. A survey completed in 2004 showed that only 2% of people in the United Kingdom thought that there was a legitimate link between MMR vaccines and ASD. Fears were most likely</p><p align=\"center\">9</p><hr><p>allayed when, in 2004, an investigative reporter discovered that Andrew Wakefield had received a large sum of money from lawyers seeking evidence to use in cases against vaccine manufacturers. It was then discovered that Wakefield had applied for patents on an alternate MMR vaccine. These severe conflicts of interest damaged the credibility of Wakefield's study beyond repair. In 2010, Wakefield was tried by Britain's General Medical Council under allegations that he had falsified data and manipulated test results. The Council found that Wakefield had acted \"dishonestly and irresponsibly,\" and consequently <i>The Lancet</i> officially retracted Wakefield's 1998 article.</p><p align=\"center\">(5)</p><p>The anti-MMR vaccine panic that arose immediately after Wakefield's article was published had a significant negative effect on the health of thousands of children. Once the controversy began, the number of parents in the United Kingdom who inoculated their children with the MMR vaccine experienced a sharp decline. Not surprisingly, the number of reported cases of measles increased; while there were only 56 confirmed cases of measles in the UK in 1998; in 2008 there were over 1300. Between 2002 and 2008, there were outbreaks of measles throughout Europe and North America. These outbreaks cost millions of dollars in health care and resulted in the deaths of dozens of children and adults with compromised immune systems.</p><p align=\"center\">(6)</p><p>Who is to blame for these deaths? It is easy to hold Andrew Wakefield accountable, but the media must also bear some of the responsibility. The media's appetite for a sensational medical story overshadowed the fact that there was very little scientific evidence behind Wakefield's claim. Although Wakefield is certainly not the first person to publish fraudulent scientific findings in a respected medical journal, the magnitude of this event was <b><u>anomalous</u></b>, as most medical hoaxes are discredited before they can reach the popular media. While <i>The Lancet</i> should not have published Wakefield's article without checking it thoroughly, the popular media should not have blown the study out of proportion without fully considering the consequences.</p>"
+        },
+        {
+            "q": "The primary purpose of the passage is to ...................",
+            "options": [
+                "warn parents about the dangers of not vaccinating their children against measles",
+                "criticize The Lancet for publishing Wakefield’s article without vetting it more thoroughly",
+                "provide an overview of the MMR vaccine controversy, including its consequences and responsible parties",
+                "inform readers about the history of the MMR vaccine, especially in the U.S. and the UK"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "As used in paragraph 1, which is the best antonym for spurious?",
+            "options": [
+                "reassuring",
+                "safe",
+                "legitimate",
+                "necessary"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which of the following statements most accurately summarizes the author’s explanation for the increase in reported cases of ASD over the past 25 years?",
+            "options": [
+                "Over the past 25 years, parents have been more likely to have their young children inoculated against MMR.",
+                "The increase in reported cases of ASD is mainly the result of an increased understanding of how to recognize ASD",
+                "The decline in reported cases of ASD is mainly the result of an increased understanding of how to recognize ASD",
+                "The drastic changes in our environment that have occurred over the past 25 years have most significantly contributed to an increase in cases of ASD."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which of the following pieces of evidence from paragraphs 2 and 3 support(s) the author’s claim that popular media is partially responsible for creating unnecessary panic?<br>I. “An article published in The Lancet, a respected British medical journal, reported on eight cases of autism that could possibly be traced back to the administration of an MMR vaccine.”<br>II. “In 2002, over 1200 articles were written about the link between MMR vaccines and ASD. Less than 30% of these articles mentioned that an overwhelming amount of scientific evidence suggested that these vaccinations were completely safe.”<br>III. “Parents appeared on television sharing anecdotal evidence regarding the links between their child’s inoculation and the onset of ASD.”",
+            "options": [
+                "l only",
+                "II only",
+                "I and II only",
+                "II and III only"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "In paragraph 4, the author cites all of the following as ways that Wakefield’s study was discredited EXCEPT",
+            "options": [
+                "investigators discovered that the parents of children in Wakefield’s study were litigants in a lawsuit against the pharmaceutical company that made the MMR vaccine",
+                "The Lancet eventually retracted Wakefield’s original article",
+                "it was discovered that Wakefield accepted money from lawyers who were filing a suit against the pharmaceutical companies responsible for making the MMR vaccine",
+                "an investigation into Wakefield’s research found that he had falsified data in his initial study"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Based on its use in paragraph 4, it can be inferred that the phrase “conflicts of interest” means situations in which people",
+            "options": [
+                "unethically accept large sums of money",
+                "have interests that fail to accord with those of the mainstream media",
+                "falsify data and manipulate test results",
+                "have personal interests that threaten their official objectivity"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "As used in paragraph 6, which is the best synonym for anomalous?",
+            "options": [
+                "timely",
+                "calamitous",
+                "abnormal",
+                "coincidental"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which of the following pieces of evidence, if true, would best strengthen the author’s argument in paragraph 6?",
+            "options": [
+                "An estimated 1.4 million measles deaths are averted each year due to MMR immunization.",
+                "90% of parents in the UK who decided not to immunize their children against measles reported that they did so against their doctors’ wishes.",
+                "Measles outbreaks in Japan can be traced back to Japanese exchange students who were studying in the UK.",
+                "In the United States, over 60% of children who are not immunized against MMR never exhibit any symptoms of the measles."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The antonym of the word controversial is..........",
+            "options": [
+                "argumentative",
+                "disputatious",
+                "contentious",
+                "irrefutable"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The writing style of this article is ..........",
+            "options": [
+                "expository",
+                "descriptive",
+                "persuasive",
+                "narrative"
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>D- The Novel</u></b></p><br><br><br><center>مش هتحتاجهم يسطا النوفل اتغيرت</center><br><br><br>"
+        },
+        {
+            "passage": "<p align=\"center\"><b><u>E- Writing</u></b></p> <p><b>5) <u>Write an essay of not less than 250 words on the following topic:</u></b><br> Freelancing takes root around the world and is becoming a lucrative option for the best minds. However, traditional careers are still highly recommended. Discuss this debatable topic and give your own opinion</p> <div style=\"width: 100%; height: 800px; background-image: linear-gradient(to bottom, transparent 28px, #888 28px, #888 30px); background-size: 100% 30px; border-top: 2px dotted #888;\"></div>"
+        }
+    ]
+}
