@@ -22,7 +22,7 @@
     </script>
 
     <meta name="description"
-        content="STEM URT & ToC Exams — practice URT and ToC past papers and solutions for Physics, Chemistry, Mathematics, and Mechanics.">
+        content="STEM URT & ToC Exams — practice URT and ToC past papers and solutions for English, Deutsch, Physics, Chemistry, Mathematics, and Mechanics.">
 </head>
 
 <body class="preload">
@@ -90,8 +90,7 @@
             <div class="welcome-container">
                 <h1 style="text-align: center;">STEM URT & ToC Exams</h1>
                 <img src="STEM Vector.svg" alt="STEM Logo" class="logo-img">
-                <p style="text-align: center;">Access URT and ToC practice materials for Physics, Chemistry,
-                    Mathematics, and Mechanics.</p>
+                <p style="text-align: center;">URT & ToC practice for English, Deutsch, and STEM subjects.</p>
                 <button class="primary-btn" onclick="navigateTo('subject')">Start Practicing</button>
                 <button class="primary-btn secondary-btn" onclick="showResultsHistory()"
                     style="margin-top: 0.5rem;">View Results History</button>
@@ -114,6 +113,8 @@
                 <button class="btn-choice" onclick="setSession('subject','chemistry')">Chemistry</button>
                 <button class="btn-choice" onclick="setSession('subject','mathematics')">Mathematics</button>
                 <button class="btn-choice" onclick="setSession('subject','mechanics')">Mechanics</button>
+                <button class="btn-choice" onclick="setSession('subject','deutsch')">Deutsch</button>
+                <button class="btn-choice" onclick="setSession('subject','english')">English</button>
             </div>
         </section>
 
@@ -240,7 +241,7 @@
                 <div id="exam-container"></div>
 
                 <div id="exam-controls">
-                    <button class="primary-btn mobile-submit-btn" id="submit-exam-btn"
+                    <button class="primary-btn" id="submit-exam-btn"
                         onclick="preSubmitValidation()">Submit Exam</button>
                     <div id="question-controls" style="display: none;">
                         <button class="secondary-btn" id="prev-question-btn" onclick="previousQuestion()"
