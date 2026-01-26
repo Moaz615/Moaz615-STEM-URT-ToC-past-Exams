@@ -1,0 +1,517 @@
+{
+    "questions": [
+        {
+            "q": "The table below shows all the juniors and the senior students at a high school classified according to their responses to the question, \"How do you usually get to school?\" <br/><br/><center><table border='1' style='border-collapse: collapse; width: 50%; text-align: center;'><tr><th></th><th>Car</th><th>Bus</th><th>Walk</th></tr><tr><td>Juniors</td><td>96</td><td>122</td><td>56</td></tr><tr><td>Seniors</td><td>184</td><td>58</td><td>30</td></tr></table></center><br/>What is the probability of the seniors' student taking cars to the school?",
+            "options": [
+                "$\\frac{20}{39}$",
+                "$\\frac{23}{34}$",
+                "$\\frac{92}{273}$",
+                "$\\frac{35}{34}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "There are ten finalists in a figure skating competition. How many ways can Gold, Silver, and Bronze medals be awarded?",
+            "options": [
+                "720",
+                "810",
+                "640",
+                "1000"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "By how many ways we can select a set of 3 boys and 2 girls from 15 boys and 10 girls?",
+            "options": [
+                "500",
+                "245700",
+                "2820",
+                "20475"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "In a basketball passing drill, 7 basketball players stand evenly spaced around a circle. The player with the ball (the passer) passes it to another player (the receiver). The receiver cannot be the player to the passer's immediate right or left and cannot be the player who last passed the ball. A designated player begins the drill as the first passer. This player will be the receiver for the first time on which pass of the ball?",
+            "options": [
+                "5th",
+                "7th",
+                "6th",
+                "8th"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "How many two digit numbers can be formed by out of the digits 3, 7, 9, 1 and 5?",
+            "options": [
+                "125",
+                "25",
+                "20",
+                "30"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Ahmed is registered in a website. His password contains four numbers and two Arabic alphabet letters. The password has the number first then the letters. There are 26 Arabic alphabet letters. No zero number is included. How many possible combinations of passwords are allowed?",
+            "options": [
+                "6760000",
+                "54756",
+                "170586",
+                "4435236"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "In the equation $x^2 + mx + n = 0$, $m$ and $n$ are integers. The only possible values for $x$ are 4 and -4. What is the value of $n$ and $m$?",
+            "options": [
+                "8, 8",
+                "-8, 8",
+                "16, 0",
+                "-16, 0"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "What is the solution set of the equation: $x - 2 = \\frac{1}{x}$",
+            "options": [
+                "$1 \\pm \\sqrt{2}$",
+                "$1 \\pm 3\\sqrt{2}$",
+                "$1 \\pm \\sqrt{8}$",
+                "$1 \\pm \\sqrt{6}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "In the xy-coordinate plane above, line $l$ contains the point (0, 0) and (1, 2). If line $m$ (not shown) contains the point (0, 0) and is perpendicular to $l$, what is an equation of $m$?",
+            "image": "exams/mathematics/urt/images/2020_q9.png",
+            "options": [
+                "$y = -\\frac{1}{3}x$",
+                "$y = -\\frac{1}{3}x + 1$",
+                "$y = -x + 3$",
+                "$y = -3x$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "For a project in Home Economics class, Kirk is making a tablecloth for a circular table 4 feet in diameter. The finished tablecloth needs to hang down 5 inches over the edge of the table all the way around. To finish the edge of the tablecloth, Kirk will fold under and sew down 1 inch of the material all around the edge. Kirk is going to use a single piece of rectangular fabric that is 70 inches wide. What is the shortest length of fabric, in inches, Kirk could use to make the tablecloth without putting any separate pieces of fabric together?",
+            "options": [
+                "10",
+                "28",
+                "20",
+                "60"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which of the following is the domain of the function $g(x) = \\frac{3-x}{\\sqrt{12 - 7x + x^2}}$?",
+            "options": [
+                "$R - [3, 4]$",
+                "$R - ]3, 4[$",
+                "$]3, 4[$",
+                "$[3, 4]$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The inequality $4(x+3) > 5(x-4)$ is equivalent to which of the following inequalities?",
+            "options": [
+                "$x < -8$",
+                "$x < 16$",
+                "$x < 23$",
+                "$x < 32$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "What is the solution set of: $\\sin^2(x) + 2\\cos(x) + 2 = 0$, where $n$ is an integer?",
+            "options": [
+                "$\\frac{\\pi}{2} + 2n\\pi$",
+                "$\\pi + 2n\\pi$",
+                "$\\pi - 2n\\pi$",
+                "$\\frac{\\pi}{2} - 2n\\pi$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "$\\sqrt{-(-4)^2} = \\dots$ (Note: $i^2 = -1$)",
+            "options": [
+                "$4i$",
+                "$4 + i$",
+                "$4 - i$",
+                ""
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If $(A, X, B)$ is an arithmetic sequence and $(A, Y, B)$ is a geometric sequence so that $A$ and $B$ are positive and $A \\neq B$, then...",
+            "options": [
+                "$Y = X$",
+                "$Y < X$",
+                "$Y > X$",
+                "$XY = 1$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The point that lies on the solution region of the inequalities: $x < 1, y > x, y + 3x > 7$ is:",
+            "options": [
+                "(-1, 10)",
+                "(-1, 15)",
+                "(1, 2)",
+                "(-2, 9)"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If $n = 7$ and $32 \\times 2^m = 4^{n-7}$, then $m = ?$",
+            "options": [
+                "-5",
+                "-3",
+                "0",
+                "1"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "If $y = 2x^2 + 5x + 1$ and $x = 2z^4$, then $\\frac{dy}{dz} = \\dots$",
+            "options": [
+                "$64z^7 + 40z^3$",
+                "$64z^5 + 40z^3$",
+                "$32z^7 + 20z^3$",
+                "$32z^5 + 20z^3$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which determinant in the following has the same value as for the determinant $\\begin{vmatrix} 5 & 2 \\\\ -3 & 4 \\end{vmatrix}$?",
+            "options": [
+                "$\\begin{vmatrix} 6 & 1 \\\\ 8 & 1 \\end{vmatrix}$",
+                "$\\begin{vmatrix} 1 & 6 \\\\ 4 & 2 \\end{vmatrix}$",
+                "$\\begin{vmatrix} 6 & 4 \\\\ 1 & 5 \\end{vmatrix}$",
+                "$\\begin{vmatrix} -3 & 2 \\\\ 10 & 2 \\end{vmatrix}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "For a population that grows at a constant rate of r% per year, the formula $P(t) = P_0(1 + r/100)^t$ models the population t years after an initial population of $P_0$ people is counted. The population of the city of San Jose was 782,000 in 1995. Assume the population grows at a constant rate of 7% per year. According to this formula, which of the following is an expression for the population of San Jose in the year 2005?",
+            "options": [
+                "$782,000(7)^{10}$",
+                "$782,000(1.7)^{10}$",
+                "$782,000(1.07)^{10}$",
+                "$(782,000 \\times 1.7)^{10}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "An animal moves with uniform velocity, with magnitude 18 m/sec from position A to position B passing through point C without a stop. If the distance between the animal and the position B is given by the rule $s(t) = 18|5 - t|$, where $t$ is in sec and $s$ is in meters. The distance between the animal and the position B equals 36 m when $t =$",
+            "options": [
+                "3 sec or 7 sec",
+                "3 sec only",
+                "7 sec only",
+                "1 sec or 7 sec"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The expression $-3x^4(2x^6 - 3x^5)$ is equivalent to:",
+            "options": [
+                "$-6x^{10} + 9x^9$",
+                "$-6x^{10} - 9x^9$",
+                "$-6x^{24} + 9x^{20}$",
+                "$-18x^{15}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which of the following function is represented by the given graph?",
+            "image": "exams/mathematics/urt/images/2020_q23.png",
+            "options": [
+                "$g(X) = 2[X+2] - 9$",
+                "$g(X) = 2[X+2] + 9$",
+                "$g(X) = -2[X+2] - 9$",
+                "$g(X) = -2[X+2] + 9$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Lines $p$ and $n$ lie in the standard (x, y) coordinate plane. An equation for line $p$ is $y = 0.1x + 8,000$. The slope of line $n$ is 0.12 greater than the slope of line $p$. What is the slope of line $n$?",
+            "options": [
+                "0.012",
+                "0.02",
+                "0.22",
+                "1.2"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The triangle, $\\Delta XYZ$, shown below has side lengths of $x, y,$ and $z$ inches and is not a right triangle. Let $X'$ be the image of $X$ when the triangle is reflected across $YZ$. Which of the following is an expression for the perimeter, in inches, of quadrilateral $X'YXZ$?",
+            "image": "exams/mathematics/urt/images/2020_q25.png",
+            "options": [
+                "$2(x + y + z)$",
+                "$2(x + y)$",
+                "$2(x + z)$",
+                "$2(y + z)$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The equations of the 2 graphs shown below are $y_1(t) = b_1 \\sin(a_1 t)$ and $y_2(t) = b_2 \\cos(a_2 t)$, where the constants $a_1$ and $a_2$ are both positive real numbers. $y_1$ is the dotted line and $y_2$ is the solid line. Which of the following statements is true of the constants $b_1$ and $b_2$?",
+            "image": "exams/mathematics/urt/images/2020_q26.png",
+            "options": [
+                "$0 < b_1 < b_2$",
+                "$0 < b_2 < b_1$",
+                "$b_1 < 0 < b_2$",
+                "$b_1 < b_2 < 0$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which of the following equations represents the linear relationship between time, $t$, and velocity, $v$, shown in the table below? <br/><br/><table border='1' style='border-collapse: collapse; text-align: center;'><tr><th>T</th><td>0</td><td>1</td><td>2</td></tr><tr><th>V</th><td>100</td><td>120</td><td>140</td></tr></table>",
+            "options": [
+                "$v = 20t$",
+                "$v = 20t + 100$",
+                "$v = 100t$",
+                "$v = 100t + 20$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The coordinates of the endpoints of $CD$, in the standard (x, y) coordinate plane, are (-3, 5) and (13, 3). What is the x-coordinate of the midpoint of $CD$?",
+            "options": [
+                "4",
+                "-8",
+                "5",
+                "8"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Each side of the smaller square in the figure below is $x$ inches long, and each side of the larger square is $c$ inches longer than a side of the smaller square. The area of the smaller square is how many square inches less than the area of the larger square? <br><center><div style=\"width: 200px; height: 200px; background-color: #b0b3b5; position: relative; border: 1px solid #333;\"> <div style=\"width: 80px; height: 80px; background-color: #ffffff; position: absolute; bottom: 0; left: 0; border-top: 1px solid #333; border-right: 1px solid #333;\"> <span style=\"position: absolute; bottom: -25px; left: 50%; transform: translateX(-50%); font-style: italic;\">x</span> <span style=\"position: absolute; left: -20px; top: 50%; transform: translateY(-50%); font-style: italic;\">x</span> </div> <span style=\"position: absolute; bottom: -25px; right: 40px; font-style: italic;\">c</span> <span style=\"position: absolute; left: -20px; top: 40px; font-style: italic;\">c</span> </div><br></center>",
+            "options": [
+                "$c^2$",
+                "4c",
+                "$(x + c)^2$",
+                "$2xc + c^2$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "If the radius of the circle with center O is 7 and the measure of angle $AOB$ is 100°, what is the best approximation to the length of arc $AB$? ",
+            "image": "exams/mathematics/urt/images/2020_q30.png",
+            "options": [
+                "12",
+                "11",
+                "10",
+                "9"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A boat departs Port Isabelle, Texas, traveling to an oil rig. The oil rig is located 3 miles east and 4 miles north of the boat's departure point. About how many miles is the oil rig from the departure point?",
+            "options": [
+                "1",
+                "$\\sqrt{41}$",
+                "5",
+                "12"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which of the following is an expression of the area, in square feet, of the triangle shown below?",
+            "image": "exams/mathematics/urt/images/2020_q32.png",
+            "options": [
+                "$6x^2$",
+                "12x",
+                "$12x^2$",
+                "Cannot be determined from the given information"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "In $\\Delta ABC$, if $(a + b - c)(a + b + c) = 3ab$, then $m(\\angle C) = \\dots$",
+            "options": [
+                "30°",
+                "45°",
+                "60°",
+                "90°"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If the ratio among the heights of a triangle is 3:4:5, then the ratio among the sides of the triangle in which these heights are drawn perpendicular to them equals",
+            "options": [
+                "3:4:5",
+                "12:15:20",
+                "20:15:12",
+                "10:15:20"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "35. The equation of the graphed function is ...",
+            "image": "exams/mathematics/urt/images/2020_q35.png",
+            "options": [
+                "$y = 3 \\cos 2\\theta$",
+                "$y = \\frac{1}{3} \\cos 2\\theta$",
+                "$y = 3 \\cos \\frac{1}{2}\\theta$",
+                "$y = \\frac{1}{3} \\cos \\frac{1}{2}\\theta$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "36. If $\\sin(xy) = x$, then $\\frac{dy}{dx} =$",
+            "options": [
+                "$\\frac{1}{\\cos(xy)}$",
+                "$\\frac{1}{x\\cos(xy)}$",
+                "$\\frac{1-\\cos(xy)}{\\cos(xy)}$",
+                "$\\frac{1-y\\cos(xy)}{x\\cos(xy)}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "For the function f, <br/> I. $f'(-3) > 0$ <br/> II. $f'(0) < 0$ <br/> III. $f$ is differentiable on the interval (0,1) <br/> Which one of the following is true?",
+            "image": "exams/mathematics/urt/images/2020_q37.png",
+            "options": [
+                "I only",
+                "II only",
+                "III only",
+                "I and II"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The graph of $y = x^3 \u2013 5x^2 + 4x + 2$ has a local minimum at",
+            "options": [
+                "(0.46, 2.87)",
+                "(0.46, 0)",
+                "(2.94, -4.05)",
+                "(4.06, 2.87)"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The point lying on the curve of $y = x^3 - 6x^2 - 15x + 20$. At which point the tangent is parallel to the x-axis?",
+            "options": [
+                "(-1, 28)",
+                "(5, -8)",
+                "(-1, 28) (5, -8)",
+                "(1, 0) (-5, -180)"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The graph of the function $f$ shown below consists of a semicircle and a straight line segment. Then $\\int_{0}^{4} f(x) dx =$",
+            "image": "exams/mathematics/urt/images/2020_q40.png",
+            "options": [
+                "$2\\pi + 1$",
+                "$2\\pi - 2$",
+                "$\\pi + 2$",
+                "$\\pi + 1$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The value of the $\\sqrt{2 + \\frac{3}{2} i}$ is ..........",
+            "options": [
+                "$-\\frac{3}{2} - \\frac{1}{2}i$",
+                "$\\frac{3}{2} - \\frac{1}{2}i$",
+                "$\\frac{3}{2} + \\frac{1}{2}i$",
+                "D Both A and B"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If $F_1, F_2, F_3$ act at the points A(2, 3), B(-2, 3) and C(4, -6) respectively, then the forces are:",
+            "options": [
+                "equivalent to a negative torque",
+                "equivalent to a positive torque",
+                "in equilibrium",
+                "none of the previous"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "As shown in the top view below, a disc of mass $m$ is moving horizontally to the right with speed $v$ on a table with negligible friction when it collides with a second disc of mass $2m$. The second disc is moving horizontally to the right with speed $v/2$ at the moment of impact. The two discs stick together upon impact. The speed of the composite body immediately after the collision is:",
+            "image": "exams/mathematics/urt/images/2020_q43.png",
+            "options": [
+                "$v/3$",
+                "$v/2$",
+                "$2v/3$",
+                "$3v/2$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Refer to the following graph, which represents a hypothetical potential energy curve for a particle of mass $m$. If the particle is released from rest at position $r_0$, its speed at position $2r_0$ is most nearly",
+            "image": "exams/mathematics/urt/images/2020_q44.png",
+            "options": [
+                "A <img src='exams/mathematics/urt/images/2020_q44_a.png' alt='Option A'/>",
+                "B <img src='exams/mathematics/urt/images/2020_q44_b.png' alt='Option B'/>",
+                "C <img src='exams/mathematics/urt/images/2020_q44_c.png' alt='Option C'/>",
+                "D <img src='exams/mathematics/urt/images/2020_q44_d.png' alt='Option D'/>"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A wheel with rotational inertia $I$ is mounted on a fixed, frictionless axle. The angular speed $\\omega$ of the wheel is increased from zero to $\\omega_f$ in a time interval $T$. What is the average power input to the wheel during this time interval?",
+            "options": [
+                "$I\\omega_f^2 / 2T$",
+                "$I\\omega_f^2 / T$",
+                "$I\\omega_f / T$",
+                "$I\\omega_f^2 / 2$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The graph above shows the force on an object of mass M as a function of time. For the time interval 0 to 4 s, the total change in the momentum of the object is:",
+            "image": "exams/mathematics/urt/images/2020_q46.png",
+            "options": [
+                "40 kg m/s",
+                "20 kg m/s",
+                "0 kg m/s",
+                "10 kg m/s"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which of the following statements are true? <br/> I. The mean of a population is denoted by $\\bar{x}$. <br/> II. Sample size is never larger than population size. <br/> III. The population mean is a statistic.",
+            "options": [
+                "I only",
+                "II only",
+                "III only",
+                "All of the above"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A researcher uses a regression equation to predict home heating bills (LE cost), based on home size (square feet). The correlation between predicted bills and home size is 0.70. What is the correct interpretation of this finding?",
+            "options": [
+                "70% of the variability in home heating bills can be explained by home size.",
+                "49% of the variability in home heating bills can be explained by home size.",
+                "For each added square foot of home size, heating bills increased by 70 cents.",
+                "For each added square foot of home size, heating bills increased by 49 cents."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Using the graph of the function $f$ given below, the range of $f$ is: ..........",
+            "image": "exams/mathematics/urt/images/2020_q49.png",
+            "options": [
+                "$R$",
+                "$R - {0}$",
+                "$R^+$",
+                "$R^-$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A cuboid with square base, then the number of planes of symmetry of the cuboid is \u2026",
+            "options": [
+                "1",
+                "2",
+                "4",
+                "5"
+            ],
+            "correct": 3
+        }
+    ]
+}
