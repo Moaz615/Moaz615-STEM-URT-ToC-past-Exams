@@ -1,6 +1,6 @@
 # STEM URT & ToC Exams
 
-A simple web app for practicing URT and ToC past papers for Physics, Chemistry, Mathematics, and Mechanics.
+A simple web app for practicing URT and ToC past papers for English, Deutsch, and STEM subjects.
 
 ## What it does
 
@@ -12,7 +12,7 @@ A simple web app for practicing URT and ToC past papers for Physics, Chemistry, 
 
 ## Try it out
 
-**Live Demo:** [Demo Link](https://stem-g12-exams.moaz.site)
+**Live Demo:** [Click Me](https://stem-g12-exams.moaz.site)
 
 ## How it works
 
