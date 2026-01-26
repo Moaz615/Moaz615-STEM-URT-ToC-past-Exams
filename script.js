@@ -5,6 +5,9 @@ let timerInterval = null;
 let timerSeconds = 0;
 let isPaused = false;
 let examState = { answers: {}, marked: {}, startTime: null, elapsedTime: 0, completed: false };
+let tickSound = new Audio('clock-ticking.mp3');
+tickSound.loop = true;
+let isTickPlaying = false;
 
 function initTheme() {
     const savedTheme = localStorage.getItem('theme') || 'light';
@@ -86,6 +89,14 @@ function navigateTo(stepName, pushState = true, resetExam = false) {
     if (stepName !== 'exam' && timerInterval) {
         clearInterval(timerInterval);
         timerInterval = null;
+    }
+
+    if (stepName !== 'exam') {
+        if (isTickPlaying) {
+            tickSound.pause();
+            tickSound.currentTime = 0;
+            isTickPlaying = false;
+        }
     }
 
     if (stepName === 'home') {
@@ -292,7 +303,7 @@ function startTimer() {
                 updateTimerDisplay();
                 updateProgressBar();
 
-                if (timerSeconds % 5 === 0) {
+                if (timerSeconds % 2 === 0) {
                     saveExamState();
                 }
 
@@ -303,6 +314,14 @@ function startTimer() {
 
                 if (timerSeconds <= 0) {
                     clearInterval(timerInterval);
+                    if (isTickPlaying) {
+                        tickSound.pause();
+                        tickSound.currentTime = 0;
+                        isTickPlaying = false;
+                    }
+                    if (document.body.classList.contains('body-red-pulse')) {
+                        document.body.classList.remove('body-red-pulse');
+                    }
                     processResults();
                 }
             }
@@ -316,9 +335,9 @@ function getExamDuration() {
     const isURT = session.type === 'urt';
     const isScience = session.subject === 'chemistry' || session.subject === 'physics';
     if (isURT && isScience) {
-        return 60;
+        return 40;
     }
-    const baseDurations = { 'urt': 120, 'toc': 90 };
+    const baseDurations = { 'urt': 90, 'toc': 90 };
     return baseDurations[session.type] || 120;
 }
 
@@ -330,12 +349,32 @@ function updateTimerDisplay() {
     const timerElement = document.getElementById('timer-text');
     timerElement.textContent = display;
 
-    if (timerSeconds <= 60) {
+    if (timerSeconds <= 60 && timerSeconds > 0) {
         timerElement.style.color = 'var(--error)';
         timerElement.style.animation = 'pulse 1s infinite';
+
+        if (!document.body.classList.contains('body-red-pulse')) {
+            document.body.classList.add('body-red-pulse');
+        }
+
+        if (!isTickPlaying && !isPaused) {
+            tickSound.play().then(() => {
+                isTickPlaying = true;
+            }).catch(e => console.log("Audio play failed:", e));
+        }
     } else {
         timerElement.style.color = 'var(--primary)';
         timerElement.style.animation = 'none';
+
+        if (document.body.classList.contains('body-red-pulse')) {
+            document.body.classList.remove('body-red-pulse');
+        }
+
+        if (isTickPlaying) {
+            tickSound.pause();
+            tickSound.currentTime = 0;
+            isTickPlaying = false;
+        }
     }
 
     renderSidebar();
@@ -350,6 +389,24 @@ function updateProgressBar() {
 function toggleTimer() {
     isPaused = !isPaused;
     document.getElementById('pause-btn').textContent = isPaused ? 'Resume' : 'Pause';
+
+    if (isPaused) {
+        if (isTickPlaying) {
+            tickSound.pause();
+        }
+        if (timerSeconds <= 60 && timerSeconds > 0) {
+            document.body.classList.add('body-red-pulse');
+        }
+    } else {
+        if (timerSeconds <= 60 && timerSeconds > 0) {
+            if (!document.body.classList.contains('body-red-pulse')) {
+                document.body.classList.add('body-red-pulse');
+            }
+            tickSound.play().then(() => {
+                isTickPlaying = true;
+            }).catch(e => console.log("Audio play failed:", e));
+        }
+    }
 
     const answerOptions = document.querySelectorAll('input[type="radio"]');
     answerOptions.forEach(radio => {
@@ -417,6 +474,17 @@ function showTimeWarning() {
 
 function resetTimer() {
     clearInterval(timerInterval);
+
+    if (isTickPlaying) {
+        tickSound.pause();
+        tickSound.currentTime = 0;
+        isTickPlaying = false;
+    }
+
+    if (document.body.classList.contains('body-red-pulse')) {
+        document.body.classList.remove('body-red-pulse');
+    }
+
     timerSeconds = getExamDuration() * 60;
     isPaused = false;
     document.getElementById('pause-btn').textContent = 'Pause';
@@ -583,6 +651,12 @@ function renderFullExam() {
         html += `</div>`;
     }
 
+    html += `
+        <div class="exam-end-message" style="text-align: center; font-weight: bold; margin-top: 40px; padding: 20px; font-size: 1.2rem; color: var(--text-secondary);">
+            [ انتهت الأسئلة ]
+        </div>
+    `;
+
     document.getElementById("exam-container").innerHTML = html;
     setTimeout(() => { restoreExamState(); }, 100);
 }
@@ -596,7 +670,6 @@ function renderQuestionByQuestion() {
     let questionTracker = 0;
     let passageQuestionStart = -1;
     let passageQuestionEnd = -1;
-
     let latestPassage = null;
 
     for (let i = 0; i < currentExamData.questions.length; i++) {
@@ -636,10 +709,12 @@ function renderQuestionByQuestion() {
 
     document.getElementById('question-progress').textContent = `Question ${currentQuestionIndex + 1} of ${totalQuestions}`;
     document.getElementById('question-progress-fill').style.width = `${((currentQuestionIndex + 1) / totalQuestions) * 100}%`;
+    
     let html = "";
     if (activePassageObj) {
         html += `<div class="passage-box">${formatPassage(activePassageObj)}</div>`;
     }
+    
     html += `
     <div class="question-card" id="q-card-${currentQuestionIndex}">
         <div class="question-header-row">
@@ -661,22 +736,27 @@ function renderQuestionByQuestion() {
                 </label>`).join("")}
         </div>
     </div>`;
+    
     document.getElementById("exam-container").innerHTML = html;
+
+    if (currentQuestionIndex === totalQuestions - 1) {
+        const endMsg = document.createElement('div');
+        endMsg.innerHTML = "[ انتهت الأسئلة ]";
+        endMsg.style.cssText = "text-align: center; font-weight: bold; margin-top: 30px; padding: 10px; color: var(--text-secondary); font-size: 1.2rem;";
+        document.getElementById("exam-container").appendChild(endMsg);
+    }
 
     if (examState.answers[currentQuestionIndex] !== undefined || isCompleted) {
         const userIndex = examState.answers[currentQuestionIndex];
         const isCorrect = userIndex === q.correct;
-
         const radios = document.querySelectorAll('input[name="current-question"]');
         if (userIndex !== undefined && radios[userIndex]) {
             radios[userIndex].checked = true;
         }
-
         const allLabels = document.querySelectorAll('.option-label');
         if (userIndex !== undefined) {
             const selectedLabel = allLabels[userIndex];
             const correctLabel = allLabels[q.correct];
-
             if (selectedLabel) {
                 selectedLabel.classList.add(isCorrect ? 'correct' : 'incorrect');
             }
@@ -684,19 +764,14 @@ function renderQuestionByQuestion() {
                 correctLabel.classList.add('correct-answer');
             }
         }
-
         radios.forEach(input => input.disabled = true);
     }
 
     document.getElementById('prev-question-btn').disabled = currentQuestionIndex === 0;
     document.getElementById('next-question-btn').textContent = currentQuestionIndex === totalQuestions - 1 ? 'Finish' : 'Next';
     if (window.MathJax) MathJax.typesetPromise();
-
     updateSidebarUI();
-
-
 }
-
 function checkAnswer() {
     const selected = document.querySelector('input[name="current-question"]:checked');
     if (!selected) return;
@@ -723,122 +798,125 @@ function nextQuestion() {
         renderQuestionByQuestion();
         window.scrollTo({ top: 0, behavior: 'smooth' });
     } else {
-        processResults();
-    }
-
-    renderSidebar();
-}
-
-function previousQuestion() {
-    if (currentQuestionIndex > 0) {
-        currentQuestionIndex--;
-        renderQuestionByQuestion();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-
-    renderSidebar();
-}
-
-function saveExamResult(subject, type, year, score, total, timeTaken = null) {
-    const resultKey = `exam_result_${subject}_${type}_${year}_${session.mode}`;
-    const percentage = Math.round((score / total) * 100);
-    const timestamp = new Date().toISOString();
-
-    const saved = localStorage.getItem(resultKey);
-    const existingResult = saved ? JSON.parse(saved) : null;
-    const attempts = existingResult ? (existingResult.attempts || 1) + 1 : 1;
-    const bestScore = existingResult ? Math.max(existingResult.bestScore || existingResult.score, score) : score;
-    const bestPercentage = existingResult ? Math.max(existingResult.bestPercentage || existingResult.percentage, percentage) : percentage;
-
-    const result = {
-        subject,
-        type,
-        year,
-        mode: session.mode,
-        score,
-        total,
-        percentage,
-        bestScore,
-        bestPercentage,
-        attempts,
-        timestamp,
-        lastAttempt: timestamp
-    };
-
-    if (timeTaken !== null && session.mode === 'full') {
-        result.timeTaken = timeTaken;
-        if (existingResult && existingResult.timeTaken) {
-            result.bestTime = Math.min(existingResult.bestTime || existingResult.timeTaken, timeTaken);
-        } else {
-            result.bestTime = timeTaken;
+        const confirmFinish = confirm("Are you sure you want to finish the exam and see the results?");
+        if (confirmFinish) {
+            processResults();
         }
     }
 
-    localStorage.setItem(resultKey, JSON.stringify(result));
-
-    const allResults = getAllExamResults();
-    allResults[resultKey] = result;
-    localStorage.setItem('all_exam_results', JSON.stringify(allResults));
-
-    return result;
-}
-
-function getExamResult(subject, type, year) {
-    const fullKey = `exam_result_${subject}_${type}_${year}_full`;
-    const qbyqKey = `exam_result_${subject}_${type}_${year}_question`;
-
-    const fullSaved = localStorage.getItem(fullKey);
-    const qbyqSaved = localStorage.getItem(qbyqKey);
-
-    const fullRes = fullSaved ? JSON.parse(fullSaved) : null;
-    const qbyqRes = qbyqSaved ? JSON.parse(qbyqSaved) : null;
-
-    if (fullRes && qbyqRes) {
-        return (fullRes.bestPercentage >= qbyqRes.bestPercentage) ? fullRes : qbyqRes;
+        renderSidebar();
     }
-    return fullRes || qbyqRes;
-}
 
-function getAllExamResults() {
-    const saved = localStorage.getItem('all_exam_results');
-    return saved ? JSON.parse(saved) : {};
-}
-function processResults() {
-    if (timerInterval) clearInterval(timerInterval);
-    let score = 0;
-    let reviewHtml = "";
-    const questions = getQuestionList();
-    let currentPassage = null;
-    let inPassageGroup = false;
+    function previousQuestion() {
+        if (currentQuestionIndex > 0) {
+            currentQuestionIndex--;
+            renderQuestionByQuestion();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
 
-    currentExamData.questions.forEach((item) => {
-        if (item.passage) {
-            if (inPassageGroup) {
-                reviewHtml += `</div>`;
+        renderSidebar();
+    }
+
+    function saveExamResult(subject, type, year, score, total, timeTaken = null) {
+        const resultKey = `exam_result_${subject}_${type}_${year}_${session.mode}`;
+        const percentage = Math.round((score / total) * 100);
+        const timestamp = new Date().toISOString();
+
+        const saved = localStorage.getItem(resultKey);
+        const existingResult = saved ? JSON.parse(saved) : null;
+        const attempts = existingResult ? (existingResult.attempts || 1) + 1 : 1;
+        const bestScore = existingResult ? Math.max(existingResult.bestScore || existingResult.score, score) : score;
+        const bestPercentage = existingResult ? Math.max(existingResult.bestPercentage || existingResult.percentage, percentage) : percentage;
+
+        const result = {
+            subject,
+            type,
+            year,
+            mode: session.mode,
+            score,
+            total,
+            percentage,
+            bestScore,
+            bestPercentage,
+            attempts,
+            timestamp,
+            lastAttempt: timestamp
+        };
+
+        if (timeTaken !== null && session.mode === 'full') {
+            result.timeTaken = timeTaken;
+            if (existingResult && existingResult.timeTaken) {
+                result.bestTime = Math.min(existingResult.bestTime || existingResult.timeTaken, timeTaken);
+            } else {
+                result.bestTime = timeTaken;
             }
-            currentPassage = item;
-            inPassageGroup = true;
-            reviewHtml += `<div class="passage-group">
+        }
+
+        localStorage.setItem(resultKey, JSON.stringify(result));
+
+        const allResults = getAllExamResults();
+        allResults[resultKey] = result;
+        localStorage.setItem('all_exam_results', JSON.stringify(allResults));
+
+        return result;
+    }
+
+    function getExamResult(subject, type, year) {
+        const fullKey = `exam_result_${subject}_${type}_${year}_full`;
+        const qbyqKey = `exam_result_${subject}_${type}_${year}_question`;
+
+        const fullSaved = localStorage.getItem(fullKey);
+        const qbyqSaved = localStorage.getItem(qbyqKey);
+
+        const fullRes = fullSaved ? JSON.parse(fullSaved) : null;
+        const qbyqRes = qbyqSaved ? JSON.parse(qbyqSaved) : null;
+
+        if (fullRes && qbyqRes) {
+            return (fullRes.bestPercentage >= qbyqRes.bestPercentage) ? fullRes : qbyqRes;
+        }
+        return fullRes || qbyqRes;
+    }
+
+    function getAllExamResults() {
+        const saved = localStorage.getItem('all_exam_results');
+        return saved ? JSON.parse(saved) : {};
+    }
+    function processResults() {
+        if (timerInterval) clearInterval(timerInterval);
+        let score = 0;
+        let reviewHtml = "";
+        const questions = getQuestionList();
+        let currentPassage = null;
+        let inPassageGroup = false;
+
+        currentExamData.questions.forEach((item) => {
+            if (item.passage) {
+                if (inPassageGroup) {
+                    reviewHtml += `</div>`;
+                }
+                currentPassage = item;
+                inPassageGroup = true;
+                reviewHtml += `<div class="passage-group">
                 <div class="passage-box review-passage">${formatPassage(item)}</div>`;
-        } else if (item.endPassage) {
-            if (inPassageGroup) {
-                reviewHtml += `</div>`;
-                inPassageGroup = false;
-                currentPassage = null;
-            }
-        } else if (item.q) {
-            const qIndex = questions.indexOf(item);
-            const selected = document.querySelector(`input[name="q${qIndex}"]:checked`);
-            let userIndex = null;
-            if (selected) {
-                userIndex = Number(selected.value);
-            } else if (examState.answers[qIndex] !== undefined) {
-                userIndex = examState.answers[qIndex];
-            }
-            const isCorrect = userIndex === item.correct;
-            if (isCorrect) score++;
+            } else if (item.endPassage) {
+                if (inPassageGroup) {
+                    reviewHtml += `</div>`;
+                    inPassageGroup = false;
+                    currentPassage = null;
+                }
+            } else if (item.q) {
+                const qIndex = questions.indexOf(item);
+                const selected = document.querySelector(`input[name="q${qIndex}"]:checked`);
+                let userIndex = null;
+                if (selected) {
+                    userIndex = Number(selected.value);
+                } else if (examState.answers[qIndex] !== undefined) {
+                    userIndex = examState.answers[qIndex];
+                }
+                const isCorrect = userIndex === item.correct;
+                if (isCorrect) score++;
 
-            reviewHtml += `
+                reviewHtml += `
             <div class="review-card ${isCorrect ? "status-correct" : "status-wrong"}">
                 <div class="question-text"><strong>Question ${qIndex + 1}:</strong> ${item.q}</div>
                 ${getImagesHtml(item, true)}
@@ -847,89 +925,89 @@ function processResults() {
                 </p>
                 ${!isCorrect ? `<p class="actual-answer"><strong>Correct Answer:</strong> ${item.options[item.correct]}</p>` : ""}
             </div>`;
+            }
+        });
+
+        if (inPassageGroup) {
+            reviewHtml += `</div>`;
         }
-    });
 
-    if (inPassageGroup) {
-        reviewHtml += `</div>`;
-    }
+        document.getElementById("raw-score-display").innerText = `${score} / ${questions.length}`;
+        document.getElementById("review-container").innerHTML = reviewHtml;
 
-    document.getElementById("raw-score-display").innerText = `${score} / ${questions.length}`;
-    document.getElementById("review-container").innerHTML = reviewHtml;
+        if (!examState.completed) {
+            let timeTaken = null;
+            if (session.mode === 'full' && examState.elapsedTime) {
+                timeTaken = examState.elapsedTime;
+            }
+            saveExamResult(session.subject, session.type, session.year, score, questions.length, timeTaken);
+            examState.completed = true;
+            examState.finalScore = score;
+            examState.totalQuestions = questions.length;
 
-    if (!examState.completed) {
-        let timeTaken = null;
-        if (session.mode === 'full' && examState.elapsedTime) {
-            timeTaken = examState.elapsedTime;
+            const stateKey = `exam_state_${session.subject}_${session.type}_${session.year}_${session.mode}`;
+            localStorage.setItem(stateKey, JSON.stringify(examState));
         }
-        saveExamResult(session.subject, session.type, session.year, score, questions.length, timeTaken);
-        examState.completed = true;
-        examState.finalScore = score;
-        examState.totalQuestions = questions.length;
 
-        const stateKey = `exam_state_${session.subject}_${session.type}_${session.year}_${session.mode}`;
-        localStorage.setItem(stateKey, JSON.stringify(examState));
+        navigateTo('results');
+        window.scrollTo(0, 0);
+        if (window.MathJax) MathJax.typesetPromise();
     }
 
-    navigateTo('results');
-    window.scrollTo(0, 0);
-    if (window.MathJax) MathJax.typesetPromise();
-}
-
-function resetApp() {
-    if (timerInterval) {
-        clearInterval(timerInterval);
-    }
-    clearAllExamStates();
-    localStorage.removeItem('stem_session');
-    window.location.href = window.location.pathname;
-}
-
-function showResultsHistory() {
-    const allResults = getAllExamResults();
-    const container = document.getElementById('history-container');
-
-    if (!container) return;
-
-    const resultsArray = Object.values(allResults);
-
-    if (resultsArray.length === 0) {
-        container.innerHTML = '<p style="text-align: center; color: var(--text-secondary); padding: 2rem;">No completed exams yet.</p>';
-        navigateTo('history');
-        return;
+    function resetApp() {
+        if (timerInterval) {
+            clearInterval(timerInterval);
+        }
+        clearAllExamStates();
+        localStorage.removeItem('stem_session');
+        window.location.href = window.location.pathname;
     }
 
-    resultsArray.sort((a, b) => new Date(b.lastAttempt) - new Date(a.lastAttempt));
+    function showResultsHistory() {
+        const allResults = getAllExamResults();
+        const container = document.getElementById('history-container');
 
-    let html = '<div class="history-grid">';
-    resultsArray.forEach(result => {
-        const date = new Date(result.lastAttempt).toLocaleDateString();
-        const time = new Date(result.lastAttempt).toLocaleTimeString();
-        const modeText = result.mode === 'full' ? 'Full-Length' : 'Question-by-Question';
+        if (!container) return;
 
-        let timeInfo = '';
-        if (result.mode === 'full' && result.timeTaken !== undefined) {
-            const timeMinutes = Math.floor(result.timeTaken / 60);
-            const timeSeconds = result.timeTaken % 60;
-            const timeStr = `${timeMinutes}m ${timeSeconds}s`;
+        const resultsArray = Object.values(allResults);
 
-            if (result.bestTime !== undefined && result.bestTime !== result.timeTaken) {
-                const bestMinutes = Math.floor(result.bestTime / 60);
-                const bestSeconds = result.bestTime % 60;
-                const bestStr = `${bestMinutes}m ${bestSeconds}s`;
-                timeInfo = `<div class="stat-item">
+        if (resultsArray.length === 0) {
+            container.innerHTML = '<p style="text-align: center; color: var(--text-secondary); padding: 2rem;">No completed exams yet.</p>';
+            navigateTo('history');
+            return;
+        }
+
+        resultsArray.sort((a, b) => new Date(b.lastAttempt) - new Date(a.lastAttempt));
+
+        let html = '<div class="history-grid">';
+        resultsArray.forEach(result => {
+            const date = new Date(result.lastAttempt).toLocaleDateString();
+            const time = new Date(result.lastAttempt).toLocaleTimeString();
+            const modeText = result.mode === 'full' ? 'Full-Length' : 'Question-by-Question';
+
+            let timeInfo = '';
+            if (result.mode === 'full' && result.timeTaken !== undefined) {
+                const timeMinutes = Math.floor(result.timeTaken / 60);
+                const timeSeconds = result.timeTaken % 60;
+                const timeStr = `${timeMinutes}m ${timeSeconds}s`;
+
+                if (result.bestTime !== undefined && result.bestTime !== result.timeTaken) {
+                    const bestMinutes = Math.floor(result.bestTime / 60);
+                    const bestSeconds = result.bestTime % 60;
+                    const bestStr = `${bestMinutes}m ${bestSeconds}s`;
+                    timeInfo = `<div class="stat-item">
                     <span class="stat-label">Time:</span>
                     <span class="stat-value">${timeStr} (Best: ${bestStr})</span>
                 </div>`;
-            } else {
-                timeInfo = `<div class="stat-item">
+                } else {
+                    timeInfo = `<div class="stat-item">
                     <span class="stat-label">Time:</span>
                     <span class="stat-value">${timeStr}</span>
                 </div>`;
+                }
             }
-        }
 
-        html += `
+            html += `
             <div class="history-card">
                 <div class="history-header">
                     <h3>${result.subject.toUpperCase()} ${result.type.toUpperCase()} - ${result.year}</h3>
@@ -956,239 +1034,240 @@ function showResultsHistory() {
                 </div>
             </div>
         `;
-    });
-    html += '</div>';
+        });
+        html += '</div>';
 
-    container.innerHTML = html;
-    navigateTo('history');
-}
-
-window.onload = () => {
-    initTheme();
-    const themeToggle = document.getElementById('theme-toggle');
-    if (themeToggle) {
-        themeToggle.addEventListener('click', toggleTheme);
+        container.innerHTML = html;
+        navigateTo('history');
     }
 
-    const params = new URLSearchParams(window.location.search);
-    const step = params.get('step') || 'home';
-    const saved = localStorage.getItem('stem_session');
-
-    if (saved) session = JSON.parse(saved);
-
-    if (step === 'exam' && session.year && session.mode) {
-        startExam(session.year);
-    } else if (step === 'history') {
-        showResultsHistory();
-    } else if (routes[step] !== undefined) {
-        navigateTo(step, false);
-        if (step === 'year' && session.subject && session.type) {
-            renderYearButtons();
+    window.onload = () => {
+        initTheme();
+        const themeToggle = document.getElementById('theme-toggle');
+        if (themeToggle) {
+            themeToggle.addEventListener('click', toggleTheme);
         }
-    } else {
-        navigateTo('home', false);
-    }
 
-    const contactForm = document.getElementById('contact-form');
-    if (contactForm) {
-        contactForm.addEventListener('submit', function (e) {
-            e.preventDefault();
-            const submitBtn = contactForm.querySelector('.submit-btn');
-            const formStatus = document.getElementById('form-status');
-            const originalText = submitBtn.textContent;
+        const params = new URLSearchParams(window.location.search);
+        const step = params.get('step') || 'home';
+        const saved = localStorage.getItem('stem_session');
 
-            submitBtn.disabled = true;
-            submitBtn.textContent = 'Sending...';
-            formStatus.innerHTML = '';
+        if (saved) session = JSON.parse(saved);
 
-            const formData = new FormData(contactForm);
+        if (step === 'exam' && session.year && session.mode) {
+            startExam(session.year);
+        } else if (step === 'history') {
+            showResultsHistory();
+        } else if (routes[step] !== undefined) {
+            navigateTo(step, false);
+            if (step === 'year' && session.subject && session.type) {
+                renderYearButtons();
+            }
+        } else {
+            navigateTo('home', false);
+        }
 
-            fetch(contactForm.action, {
-                method: 'POST',
-                body: formData,
-                headers: {
-                    'Accept': 'application/json'
-                }
-            })
-                .then(response => {
-                    if (response.ok) {
-                        formStatus.innerHTML = '<div class="success-message">Thank you for your message! We\'ll get back to you soon.</div>';
-                        contactForm.reset();
-                    } else {
-                        return response.json().then(data => {
-                            if (Object.hasOwn(data, 'errors')) {
-                                throw new Error(data["errors"].map(error => error["message"]).join(", "));
-                            } else {
-                                throw new Error("Oops! There was a problem sending your message. Please try again.");
-                            }
-                        });
+        const contactForm = document.getElementById('contact-form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+                const submitBtn = contactForm.querySelector('.submit-btn');
+                const formStatus = document.getElementById('form-status');
+                const originalText = submitBtn.textContent;
+
+                submitBtn.disabled = true;
+                submitBtn.textContent = 'Sending...';
+                formStatus.innerHTML = '';
+
+                const formData = new FormData(contactForm);
+
+                fetch(contactForm.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'Accept': 'application/json'
                     }
                 })
-                .catch(error => {
-                    formStatus.innerHTML = `<div class="error-message">${error.message}</div>`;
-                })
-                .finally(() => {
-                    submitBtn.textContent = originalText;
-                    submitBtn.disabled = false;
-                    setTimeout(() => {
-                        formStatus.innerHTML = '';
-                    }, 6000);
-                });
-        });
-    }
-
-    renderSidebar();
-};
-
-
-
-function toggleSidebar() {
-    const sidebar = document.getElementById('exam-sidebar');
-    const overlay = document.querySelector('.sidebar-overlay');
-
-    if (!overlay && window.innerWidth <= 1024) {
-        const newOverlay = document.createElement('div');
-        newOverlay.className = 'sidebar-overlay';
-        newOverlay.onclick = toggleSidebar;
-        document.body.appendChild(newOverlay);
-        setTimeout(() => newOverlay.classList.toggle('active'), 10);
-    } else if (overlay) {
-        overlay.classList.toggle('active');
-    }
-
-    sidebar.classList.toggle('open');
-}
-
-
-function getQuestionButtonClass(idx, q, isCurrentModeQuestion) {
-    let classes = 'q-btn';
-    if (idx === currentQuestionIndex && isCurrentModeQuestion) classes += ' current';
-
-    if (examState.answers[idx] !== undefined) {
-        if (isCurrentModeQuestion) {
-            const isCorrect = examState.answers[idx] === q.correct;
-            classes += isCorrect ? ' answered' : ' wrong';
-        } else {
-            classes += ' answered';
+                    .then(response => {
+                        if (response.ok) {
+                            formStatus.innerHTML = '<div class="success-message">Thank you for your message! We\'ll get back to you soon.</div>';
+                            contactForm.reset();
+                        } else {
+                            return response.json().then(data => {
+                                if (Object.hasOwn(data, 'errors')) {
+                                    throw new Error(data["errors"].map(error => error["message"]).join(", "));
+                                } else {
+                                    throw new Error("Oops! There was a problem sending your message. Please try again.");
+                                }
+                            });
+                        }
+                    })
+                    .catch(error => {
+                        formStatus.innerHTML = `<div class="error-message">${error.message}</div>`;
+                    })
+                    .finally(() => {
+                        submitBtn.textContent = originalText;
+                        submitBtn.disabled = false;
+                        setTimeout(() => {
+                            formStatus.innerHTML = '';
+                        }, 6000);
+                    });
+            });
         }
+
+        renderSidebar();
+    };
+
+
+
+    function toggleSidebar() {
+        const sidebar = document.getElementById('exam-sidebar');
+        const overlay = document.querySelector('.sidebar-overlay');
+
+        if (!overlay && window.innerWidth <= 1024) {
+            const newOverlay = document.createElement('div');
+            newOverlay.className = 'sidebar-overlay';
+            newOverlay.onclick = toggleSidebar;
+            document.body.appendChild(newOverlay);
+            setTimeout(() => newOverlay.classList.toggle('active'), 10);
+        } else if (overlay) {
+            overlay.classList.toggle('active');
+        }
+
+        sidebar.classList.toggle('open');
     }
-    if (examState.marked[idx]) classes += ' marked';
-    return classes;
-}
 
-function renderSidebar() {
-    if (!currentExamData) return;
 
-    const questions = getQuestionList();
-    const grid = document.getElementById('question-grid');
-    if (!grid) return;
+    function getQuestionButtonClass(idx, q, isCurrentModeQuestion) {
+        let classes = 'q-btn';
+        if (idx === currentQuestionIndex && isCurrentModeQuestion) classes += ' current';
 
-    const isQuestionMode = session.mode === 'question';
-    let html = '';
-    questions.forEach((q, idx) => {
-        const classes = getQuestionButtonClass(idx, q, isQuestionMode);
-        html += `<button class="${classes}" onclick="jumpToQuestion(${idx})" id="sb-q-${idx}">${idx + 1}</button>`;
-    });
-
-    grid.innerHTML = html;
-    updateSidebarStats();
-}
-
-function updateSidebarUI() {
-    const questions = getQuestionList();
-    const isQuestionMode = session.mode === 'question';
-
-    questions.forEach((q, idx) => {
-        const btn = document.getElementById(`sb-q-${idx}`);
-        if (!btn) return;
-
-        btn.className = getQuestionButtonClass(idx, q, isQuestionMode);
-
-        const markBtn = document.getElementById(`mark-btn-${idx}`);
-        if (markBtn) {
-            const svg = markBtn.querySelector('svg');
-            if (examState.marked[idx]) {
-                markBtn.classList.add('marked');
-                svg.setAttribute('fill', 'currentColor');
+        if (examState.answers[idx] !== undefined) {
+            if (isCurrentModeQuestion) {
+                const isCorrect = examState.answers[idx] === q.correct;
+                classes += isCorrect ? ' answered' : ' wrong';
             } else {
-                markBtn.classList.remove('marked');
-                svg.setAttribute('fill', 'none');
+                classes += ' answered';
             }
         }
-    });
+        if (examState.marked[idx]) classes += ' marked';
+        return classes;
+    }
 
-    updateSidebarStats();
-}
+    function renderSidebar() {
+        if (!currentExamData) return;
 
-function updateSidebarStats() {
-    if (!currentExamData) return;
-    const total = getQuestionList().length;
-    const answered = Object.keys(examState.answers).length;
-    const marked = Object.keys(examState.marked).length;
-    const remaining = total - answered;
+        const questions = getQuestionList();
+        const grid = document.getElementById('question-grid');
+        if (!grid) return;
 
-    const elAnswered = document.getElementById('sb-answered-count');
-    if (elAnswered) elAnswered.textContent = answered;
+        const isQuestionMode = session.mode === 'question';
+        let html = '';
+        questions.forEach((q, idx) => {
+            const classes = getQuestionButtonClass(idx, q, isQuestionMode);
+            html += `<button class="${classes}" onclick="jumpToQuestion(${idx})" id="sb-q-${idx}">${idx + 1}</button>`;
+        });
 
-    const elMarked = document.getElementById('sb-marked-count');
-    if (elMarked) elMarked.textContent = marked;
+        grid.innerHTML = html;
+        updateSidebarStats();
+    }
 
-    const elRemaining = document.getElementById('sb-remaining-count');
-    if (elRemaining) elRemaining.textContent = remaining;
+    function updateSidebarUI() {
+        const questions = getQuestionList();
+        const isQuestionMode = session.mode === 'question';
 
-    const pct = (answered / total) * 100;
-    const fill = document.getElementById('sb-progress-fill');
-    if (fill) fill.style.width = `${pct}%`;
-}
+        questions.forEach((q, idx) => {
+            const btn = document.getElementById(`sb-q-${idx}`);
+            if (!btn) return;
 
-function jumpToQuestion(index) {
-    if (session.mode === 'question') {
-        currentQuestionIndex = index;
-        renderQuestionByQuestion();
-        if (window.innerWidth <= 1024) toggleSidebar();
-    } else {
-        const cards = document.querySelectorAll('.question-card');
-        if (cards[index]) {
-            cards[index].scrollIntoView({ behavior: 'smooth', block: 'center' });
-            cards[index].style.borderColor = 'var(--primary)';
-            setTimeout(() => cards[index].style.borderColor = 'var(--border)', 2000);
+            btn.className = getQuestionButtonClass(idx, q, isQuestionMode);
 
+            const markBtn = document.getElementById(`mark-btn-${idx}`);
+            if (markBtn) {
+                const svg = markBtn.querySelector('svg');
+                if (examState.marked[idx]) {
+                    markBtn.classList.add('marked');
+                    svg.setAttribute('fill', 'currentColor');
+                } else {
+                    markBtn.classList.remove('marked');
+                    svg.setAttribute('fill', 'none');
+                }
+            }
+        });
+
+        updateSidebarStats();
+    }
+
+    function updateSidebarStats() {
+        if (!currentExamData) return;
+        const total = getQuestionList().length;
+        const answered = Object.keys(examState.answers).length;
+        const marked = Object.keys(examState.marked).length;
+        const remaining = total - answered;
+
+        const elAnswered = document.getElementById('sb-answered-count');
+        if (elAnswered) elAnswered.textContent = answered;
+
+        const elMarked = document.getElementById('sb-marked-count');
+        if (elMarked) elMarked.textContent = marked;
+
+        const elRemaining = document.getElementById('sb-remaining-count');
+        if (elRemaining) elRemaining.textContent = remaining;
+
+        const pct = (answered / total) * 100;
+        const fill = document.getElementById('sb-progress-fill');
+        if (fill) fill.style.width = `${pct}%`;
+    }
+
+    function jumpToQuestion(index) {
+        if (session.mode === 'question') {
+            currentQuestionIndex = index;
+            renderQuestionByQuestion();
             if (window.innerWidth <= 1024) toggleSidebar();
+        } else {
+            const cards = document.querySelectorAll('.question-card');
+            if (cards[index]) {
+                cards[index].scrollIntoView({ behavior: 'smooth', block: 'center' });
+                cards[index].style.borderColor = 'var(--primary)';
+                setTimeout(() => cards[index].style.borderColor = 'var(--border)', 2000);
+
+                if (window.innerWidth <= 1024) toggleSidebar();
+            }
         }
     }
-}
 
 
 
-function toggleQuestionMark(index) {
-    if (examState.marked[index]) {
-        delete examState.marked[index];
-    } else {
-        examState.marked[index] = true;
+    function toggleQuestionMark(index) {
+        if (examState.marked[index]) {
+            delete examState.marked[index];
+        } else {
+            examState.marked[index] = true;
+        }
+        saveExamState();
+        updateSidebarUI();
     }
-    saveExamState();
-    updateSidebarUI();
-}
 
-function preSubmitValidation() {
-    const total = getQuestionList().length;
-    const answered = Object.keys(examState.answers).length;
-    const marked = Object.keys(examState.marked).length;
+    function preSubmitValidation() {
+        const total = getQuestionList().length;
+        const answered = Object.keys(examState.answers).length;
+        const marked = Object.keys(examState.marked).length;
 
-    if (answered < total || marked > 0) {
-        document.getElementById('unanswered-count').textContent = total - answered;
-        document.getElementById('unanswered-warning').style.display = (answered < total) ? 'block' : 'none';
+        if (answered < total || marked > 0) {
+            document.getElementById('unanswered-count').textContent = total - answered;
+            document.getElementById('unanswered-warning').style.display = (answered < total) ? 'block' : 'none';
 
-        document.getElementById('marked-count').textContent = marked;
-        document.getElementById('marked-warning').style.display = (marked > 0) ? 'block' : 'none';
+            document.getElementById('marked-count').textContent = marked;
+            document.getElementById('marked-warning').style.display = (marked > 0) ? 'block' : 'none';
 
-        const modal = document.getElementById('validation-modal');
-        modal.style.display = 'flex';
-    } else {
-        processResults();
+            const modal = document.getElementById('validation-modal');
+            modal.style.display = 'flex';
+        } else {
+        if (confirm("Are you sure you want to finish your exam and see the results?")) {
+            processResults();
+        }
     }
-}
-
-function closeValidationModal() {
-    document.getElementById('validation-modal').style.display = 'none';
-}
+    }
+    function closeValidationModal() {
+        document.getElementById('validation-modal').style.display = 'none';
+    }
