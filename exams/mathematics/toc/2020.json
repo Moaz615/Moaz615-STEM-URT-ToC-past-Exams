@@ -276,7 +276,7 @@
       "correct": 1
     },
     {
-      "q": "The graph of function f is given below. Let $g(x)=\\int_{0}^{x}f(t)dt.$ Then for $0<x<2,$ $g(x)$ is",
+      "q": "The graph of function f is given below. Let $g(x)=\\int_{0}^{x}f(t)dt.$ Then for $0< x <2,$ $g(x)$ is",
       "image": "exams/mathematics/toc/images/2020_q28.png",
       "options": [
         "Increasing and convex down",
@@ -361,3 +361,4 @@
   ]
 
 }
+
