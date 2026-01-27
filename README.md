@@ -25,9 +25,9 @@ A simple web app for practicing URT and ToC past papers for English, Deutsch, an
 ## Features
 
 - **Timer mode** - Full exams with countdown timer and pause functionality
-- **Report Feature** - Report if there is an issue with a question
 - **Practice mode** - Go through questions one by one with instant feedback
-- **Exam Sidebar** - Quick navigation between the questions and showing question status 
+- **Exam Sidebar** - Quick navigation between the questions and showing question status
+- **Report Feature** - Report if there is an issue with a question
 - **Progress tracking** - See your best scores and attempt history
 - **Responsive design** - Works on desktop and mobile
 - **Local storage** - Your progress is saved locally
