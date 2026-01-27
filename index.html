@@ -241,8 +241,8 @@
                 <div id="exam-container"></div>
 
                 <div id="exam-controls">
-                    <button class="primary-btn" id="submit-exam-btn"
-                        onclick="preSubmitValidation()">Submit Exam</button>
+                    <button class="primary-btn" id="submit-exam-btn" onclick="preSubmitValidation()">Submit
+                        Exam</button>
                     <div id="question-controls" style="display: none;">
                         <button class="secondary-btn" id="prev-question-btn" onclick="previousQuestion()"
                             disabled>Previous</button>
@@ -381,6 +381,49 @@
                 </div>
             </div>
         </section>
+    </div>
+    <div id="report-modal" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Report Question</h3>
+            </div>
+            <p id="report-info" style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 15px;"></p>
+
+            <form id="report-form">
+                <input type="hidden" id="report-q-index">
+
+                <div class="report-field">
+                    <label for="report-name">Your Name</label>
+                    <input type="text" id="report-name" required placeholder="Enter your name">
+                </div>
+
+                <div class="report-field">
+                    <label for="report-email">Your Email</label>
+                    <input type="email" id="report-email" required placeholder="Enter your email">
+                </div>
+
+                <div class="report-field">
+                    <label for="report-reason">Reason</label>
+                    <select id="report-reason" required>
+                        <option value="" disabled selected>Choose a reason...</option>
+                        <option value="Wrong Answer">The answer is wrong</option>
+                        <option value="Missing Image">Image is missing/broken</option>
+                        <option value="Incorrect Question">Question is incorrect</option>
+                        <option value="Typo">Typo/Grammar error</option>
+                    </select>
+                </div>
+
+                <div class="report-field">
+                    <label for="report-details">Additional Details (Optional)</label>
+                    <textarea id="report-details" rows="3" placeholder="Explain the issue..."></textarea>
+                </div>
+
+                <div class="modal-buttons">
+                    <button type="button" class="secondary-btn" onclick="closeReportModal()">Cancel</button>
+                    <button type="submit" class="primary-btn" id="submit-report-btn">Send Report</button>
+                </div>
+            </form>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
