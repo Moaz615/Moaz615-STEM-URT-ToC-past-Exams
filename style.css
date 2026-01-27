@@ -383,42 +383,48 @@ body {
 
 
 @keyframes redPulseIntense {
-  0%, 100% {
-    background-color: rgba(220, 38, 38, 0.4);
-    box-shadow: inset 0 0 40px rgba(220, 38, 38, 0.2);
-  }
-  50% {
-    background-color: rgba(220, 38, 38, 0.8);
-    box-shadow: inset 0 0 80px rgba(220, 38, 38, 0.5);
-  }
+
+    0%,
+    100% {
+        background-color: rgba(220, 38, 38, 0.4);
+        box-shadow: inset 0 0 40px rgba(220, 38, 38, 0.2);
+    }
+
+    50% {
+        background-color: rgba(220, 38, 38, 0.8);
+        box-shadow: inset 0 0 80px rgba(220, 38, 38, 0.5);
+    }
 }
 
 @keyframes containerGlow {
-  0%, 100% {
-    transform: scale(1);
-    box-shadow: 0 10px 25px var(--shadow);
-  }
-  50% {
-    transform: scale(1.005);
-    box-shadow: 0 15px 35px rgba(220, 38, 38, 0.2);
-  }
+
+    0%,
+    100% {
+        transform: scale(1);
+        box-shadow: 0 10px 25px var(--shadow);
+    }
+
+    50% {
+        transform: scale(1.005);
+        box-shadow: 0 15px 35px rgba(220, 38, 38, 0.2);
+    }
 }
 
 .body-red-pulse {
-  animation: redPulseIntense 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
-  transition: background-color 0.5s ease;
+    animation: redPulseIntense 2s cubic-bezier(0.4, 0, 0.6, 1) infinite !important;
+    transition: background-color 0.5s ease;
 }
 
 .exam-mode.body-red-pulse .card {
-  background-color: var(--card-bg);
-  backdrop-filter: blur(8px);
-  border: 2px solid rgba(220, 38, 38, 0.3);
-  animation: containerGlow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    background-color: var(--card-bg);
+    backdrop-filter: blur(8px);
+    border: 2px solid rgba(220, 38, 38, 0.3);
+    animation: containerGlow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
 [data-theme="dark"] .exam-mode.body-red-pulse .card {
-  background-color: rgba(30, 41, 59, 0.95);
-  border-color: rgba(248, 113, 113, 0.4);
+    background-color: rgba(30, 41, 59, 0.95);
+    border-color: rgba(248, 113, 113, 0.4);
 }
 
 .option-grid {
@@ -1931,7 +1937,6 @@ body.exam-mode .card {
 
     .timer-display {
         padding: 0 50px 0 50px;
-        /* Clear sidebar toggle on left and common buttons on right */
         flex-direction: column;
         gap: 0.5rem;
         align-items: center;
@@ -2001,4 +2006,74 @@ body.exam-mode .card {
 
 .mark-btn-small svg {
     pointer-events: none;
+}
+
+.report-btn-circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #a63639;
+    color: #f7e6d4;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 0;
+    flex-shrink: 0;
+}
+
+.report-btn-circle:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.report-field {
+    margin-bottom: 15px;
+}
+
+.report-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: var(--text-main);
+}
+
+.report-field select,
+.report-field textarea,
+.report-field input[type="text"],
+.report-field input[type="email"] {
+    width: 100%;
+    padding: 12px 14px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    color: var(--text-main);
+    font-family: inherit;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+    outline: none;
+}
+
+.report-field select:focus,
+.report-field textarea:focus,
+.report-field input[type="text"]:focus,
+.report-field input[type="email"]:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+    background: var(--bg);
+}
+
+.report-field textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
 }
