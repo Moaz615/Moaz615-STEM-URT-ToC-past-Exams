@@ -1,0 +1,269 @@
+{
+    "questions": [
+        {
+            "passage": "<center><h3>PASSAGE I</h3></center><p>Magnetic, electrostatic force and gravitational forces are the three fundamental non-contact forces in nature. In the next discussion, there two points of view about magnetism.</p><h3>Scientist ($1$):</h3><p>Attraction of an iron ring to a loadstone (magnetic stone) can be attributed to a stream of tiny particles given off this magnetic stone which blows and expels all the air in the place between the stone and the iron ring. When air in this area is evacuated and this space is emptied, the particles flowing from the stone were related in shape to those flowing from the iron, so easily interlocked, and after bounding between the stone and the iron become entangled and draw the two together. In other word, \"Tiny particles emanating from the loadstone sweep away the air and consequently, the iron ring is drawn to the loadstone\". The point that causes loadstone not able to attract gold is that the gold is too heavy, so it doesn't move.</p><h3>Scientist ($2$):</h3><p>The atoms in ferromagnetic materials can behave like little magnets. Normally the magnetic fields around atoms direct randomly resulting in almost nil magnetic.</p><p>However, if a strong external magnetic field is applied, atoms will align together to produce a stronger magnetic field in the material. They can also keep their alignment even if the external field is removed creating a permanent magnet. Ferromagnetic materials are usually very brittle and will easily chip or fracture if dropped or allowed to slam together. They will also lose their magnetic properties if heated strongly. All of these actions cause the individual atoms to lose their alignment.</p>"
+        },
+        {
+            "q": "How a magnetic material is demagnetized can be explained by:",
+            "options": [
+                "Scientist (1) only.",
+                "Scientist (2) only.",
+                "Both Scientists.",
+                "None of them."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "According to scientist (1)'s point of view, the possible reason for the inability of loadstone to attract gold is that gold atoms:",
+            "options": [
+                "cannot be aligned.",
+                "have no magnetic fields.",
+                "have great atomic weight.",
+                "are not related in shape to the stone atoms."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The inability of a magnet to attract a piece of wood contradicts the argument proposed by:",
+            "options": [
+                "Scientist (1).",
+                "Scientist (2).",
+                "Both Scientists.",
+                "None of them."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Both arguments proposed by the two scientists can offer an explanation for:",
+            "options": [
+                "The repulsion that takes place between two like magnetic poles.",
+                "The suspension of a chain of paper clips by a magnetic pole.",
+                "The ability of the electric current to magnetize an iron nail.",
+                "The capability of a magnet to attract an iron nail."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The repulsion that takes place between two like magnetic poles contradicts the argument proposed by:",
+            "options": [
+                "Scientist (1).",
+                "Scientist (2).",
+                "Both Scientists.",
+                "None of them."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Creating a permanent magnet can be explained by:",
+            "options": [
+                "Scientist (1) only.",
+                "Scientist (2) only.",
+                "Both Scientists.",
+                "None of them"
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<center><h3>PASSAGE II</h3></center>Matter has three states, a solid, a liquid and a gas state. Matter can be changed from one state to another by heating or cooling. Melting of matter refers to the change of it from the solid to the liquid state at its melting point temperature. Boiling of matter refers to the change of it from the liquid to the gaseous state at its boiling point temperature.<p>Consider a substance that is present in a sealed container in its solid state at a temperature well below its melting point. Over the course of about $15$ minutes, the container is heated. At first, the application of heat causes the temperature of the substance to increase until it reaches its melting point temperature. At its melting point temperature, heat is continually added, causing the solid to transition to a liquid at a constant temperature. Once all the solid has melted, the substance is heated to its boiling point temperature. At its boiling point temperature, the addition of heat causes the liquid to transition to a gas at a constant temperature. Once all the liquid has boiled, the sample continues to be heated (cautiously), causing the temperature of the gas to increase. This process is depicted in Figure ($1$).</p>",
+            "image": "exams/physics/urt/images/2022_p2.png"
+        },
+        {
+            "q": "Which one of the following statements are TRUE of the sample of matter described by Figure (1)?",
+            "options": [
+                "As heat is added to the sample, its temperature always increases.",
+                "The sample is melting between a temperature of about -100 °C and -10 °C.",
+                "The liquid state would be observed in the sample at both 200 seconds and 400 seconds.",
+                "The solid state would be observed in the sample at both 600 seconds and 800 seconds."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "According to Figure (1), at what temperature does the substance transition between the solid state and the liquid state?",
+            "options": [
+                "Approximately -65 °C",
+                "Approximately -7 °C",
+                "Approximately 135 °C",
+                "Approximately 190 °C"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "There are five labeled points on the line of the graph in Figure (1). What changes, in order, are observed in the sample of matter between point (A) and point (C)?",
+            "options": [
+                "First the sample melts; then its temperature stabilizes; then it boils.",
+                "First the sample increases its temperature; then it melts; then its temperature increases.",
+                "First the sample increases its temperature; then it melts; then its temperature stabilizes.",
+                "First the sample increases its temperature; then it melts; then it stabilizes its temperature."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "There are five labeled points on the line of the graph in Figure (1). At which of the labeled points is the sample a mixture of liquid and gas?",
+            "options": [
+                "The sample is a mixture of liquid and gas at point (C).",
+                "The sample is a mixture of liquid and gas at point (D).",
+                "The sample is a mixture of liquid and gas at point (E).",
+                "There could never be a mixture of both liquid and gas under these conditions."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "According to Figure (1), at any of the following points, the sample contains only one state of matter?",
+            "options": [
+                "At point (A), (C) and (E).",
+                "At point (A), (B) and (D).",
+                "At point (B), (D) and (E).",
+                "At point (B), (C) and (D)."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Suppose that Figure (1) represents the heating curve for Substance (X). Figure (2) below represents the heating curve for Substance (Y). What conclusion can be drawn regarding the melting points and boiling points of Substance (X) and Substance (Y)?",
+            "image": "exams/physics/urt/images/2022_q12.png",
+            "options": [
+                "Substance (X) has a higher melting point and a higher boiling point than Substance (Y).",
+                "Substance (Y) has a higher melting point and a higher boiling point than Substance (X).",
+                "Substance (X) has the higher melting point but Substance (Y) has the higher boiling point.",
+                "Substance (Y) has the higher melting point but Substance (X) has the higher boiling point."
+            ],
+            "correct": 3
+        },
+        {
+            "passage": "<center><h3>PASSAGE III</center></h3><p>Sound of many musical instruments is produced due to vibrations resonating within a column of air. There are two basic types of air columns — referred to as <strong>closed-end air columns</strong> and <strong>open-end air columns</strong>. The difference depends on whether one or both ends of the column are open to the surrounding atmosphere.</p><p>Any column of air has a set of frequencies at which the air particles will naturally vibrate. These frequencies are called <strong>harmonics</strong>; their value is dependent upon the length of the air column. The lowest frequency in the set is known as the <strong>first harmonic</strong>. Other frequencies in the set are whole number multiples of the lowest frequency. The mathematical relationship between the wavelength, frequency, and speed for the various harmonics is very predictable. Table (1) illustrates these relationships for a $60\\text{ cm}$ long closed-end air column. While table (2) illustrates these relationships for a $60\\text{ cm}$ long open-end air column.</p><h3>Table (1): Closed-End Air Columns</h3><table border='1'><tr><th>Harmonic</th><th>Frequency</th><th>Wavelength</th><th>Speed</th></tr><tr><td>$1^{st}$</td><td>$142\\text{ Hz}$</td><td>$2.40\\text{ m}$</td><td>$340\\text{ m/s}$</td></tr><tr><td>$3^{rd}$</td><td>$425\\text{ Hz}$</td><td>$0.80\\text{ m}$</td><td>$340\\text{ m/s}$</td></tr><tr><td>$5^{th}$</td><td>$708\\text{ Hz}$</td><td>$0.48\\text{ m}$</td><td>$340\\text{ m/s}$</td></tr><tr><td>$7^{th}$</td><td>$992\\text{ Hz}$</td><td>$0.34\\text{ m}$</td><td>$340\\text{ m/s}$</td></tr></table><h3>Table (2): Open-End Air Columns</h3><table border='1'><tr><th>Harmonic</th><th>Frequency</th><th>Wavelength</th><th>Speed</th></tr><tr><td>$1^{st}$</td><td>$283\\text{ Hz}$</td><td>$1.20\\text{ m}$</td><td>$340\\text{ m/s}$</td></tr><tr><td>$2^{nd}$</td><td>$567\\text{ Hz}$</td><td>$0.60\\text{ m}$</td><td>$340\\text{ m/s}$</td></tr><tr><td>$3^{rd}$</td><td>$850\\text{ Hz}$</td><td>$0.40\\text{ m}$</td><td>$340\\text{ m/s}$</td></tr><tr><td>$4^{th}$</td><td>$1133\\text{ Hz}$</td><td>$0.30\\text{ m}$</td><td>$340\\text{ m/s}$</td></tr><tr><td>$5^{th}$</td><td>$1417\\text{ Hz}$</td><td>$0.24\\text{ m}$</td><td>$340\\text{ m/s}$</td></tr></table><p>When a specific note is played on a musical instrument, the air particles immediately begin to vibrate with a set of many frequencies. These frequencies combine to produce the sound that we hear. Some of the frequencies within the set quickly dissipate and do not affect the overall sound. Other frequencies are sustained over time and become the prominent frequencies that affect the sound. These enduring frequencies are the harmonic frequencies. Two different instruments can play the same note, yet the resulting sounds can be quite different. A computer analysis of these sounds reveals that the difference has to do with the relative strength of the various harmonics that the instrument produces. The analysis results in a <strong>frequency spectrum</strong>. The spectrum shows the specific frequencies within the sound and their relative intensity or amplitude. Frequency spectra for a clarinet and a flute playing the note $C_4$ are shown in Figure (1).</p><center>Figure (1)</center><p></p>",
+            "image": "exams/physics/urt/images/2022_p3.png"
+        },
+        {
+            "q": "Use the pattern in Table (2) to predict the frequency of the $10^{th}$ harmonic of a $60\\text{ cm}$ long open-end air column.",
+            "options": [
+                "Approximately $2830\\text{ Hz}$.",
+                "Approximately $1410\\text{ Hz}$.",
+                "Approximately $1000\\text{ Hz}$.",
+                "Approximately $340\\text{ Hz}$."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which changes are observed of the frequency, wavelength, and speed as the harmonic number of any given air column is increased?",
+            "options": [
+                "The frequency, wavelength, and speed increase.",
+                "The frequency and wavelength increase but the speed remains constant.",
+                "The frequency and speed increase but the wavelength remains constant.",
+                "The frequency increases, the wavelength decreases, and the speed is not changed."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which statement accurately compares the frequencies of first harmonic for both types of air columns? Assume each air column has the same length.",
+            "options": [
+                "Their frequencies are identical.",
+                "The frequencies vary, and a pattern cannot be predicted.",
+                "The frequency of the open-end air column is two times higher.",
+                "The frequency of the closed-end air column is two times higher."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The spikes shown in the frequency spectrum in Figure (1) represent the harmonic frequencies of the instrument. What are the frequencies of the three strongest harmonics for the clarinet?",
+            "options": [
+                "Approximately $260\\text{ Hz}$, $520\\text{ Hz}$, and $790\\text{ Hz}$.",
+                "Approximately $250\\text{ Hz}$, $750\\text{ Hz}$, and $1250\\text{ Hz}$.",
+                "Approximately $260\\text{ Hz}$, $780\\text{ Hz}$, and $1320\\text{ Hz}$.",
+                "Approximately $1100\\text{ Hz}$, $300\\text{ Hz}$, and $100\\text{ Hz}$."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Inspect the ratio of frequencies for the spikes of the clarinet's frequency spectrum in Figure (1). Compare it to the ratio of frequencies of the various harmonics shown in Table (1) and Table (2). What is the evidence that exists that the clarinet consists of either a closed-end or an open-end air column?",
+            "options": [
+                "The clarinet consists of an open-end air column because all the harmonics are multiples of the first harmonic.",
+                "The clarinet consists of an open-end air column because the height of the spikes in Figure (1) is consistent with the pattern of the wavelengths in Table (2).",
+                "The clarinet consists of a closed-end air column because the height of the spikes in Figure (1) is consistent with the pattern of the wavelengths in Table (1).",
+                "The clarinet consists of a closed-end air column because the frequencies of the second and third spikes are three times and five times the frequency of the first spike."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "According to table (1) for Closed-End Air Columns, what are the frequency and wavelength of $9^{th}$ harmonic?",
+            "options": [
+                "Approximately ($992\\text{ Hz}$ and $0.27\\text{ m}$).",
+                "Approximately ($1275\\text{ Hz}$ and $0.27\\text{ m}$).",
+                "Approximately ($1275\\text{ Hz}$ and $0.34\\text{ m}$).",
+                "Approximately ($1375\\text{ Hz}$ and $0.34\\text{ m}$)."
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<h3><center>PASSAGE IV</center></h3><p>The most common in our life that light ray travel from one medium to another, and meet different medium through its traveling, when it meet the boundary between two medium it may reflect or refract, it depends on the kind of medium, some media causing reflection and others causing refraction where light change its direction except if it fall perpendicular. we have to know her that both phenomenon happened at the same time, and in all cases its velocity depends on the medium and since the frequency depends only on the source, then according to the relation $v=\\lambda\\upsilon$, the change of velocity casing change also in the wavelength ($\\lambda$) without changing of frequency ($\\upsilon$). If the light ray travel from air to pass through triangular glass prism, part of the light ray will reflect and part will refract, causing dim of the image formed by the prism, therefore in case of total reflection prisms it must covered with a certain material to avoid or decrease the reflected part, to increase the efficiency of prism in producing image.</p><p>Different medium causing the light to travel with different velocities, and by getting the ratio between velocity of light in a certain medium to the velocity of light in air which called the refracted index for each medium ($n_{medium}$), not only the velocity of light in the medium can be calculated but also the angle of refraction can be determined where $n_m = \\frac{c}{v} = \\frac{\\sin\\phi}{\\sin\\theta}$ where ($v$) is the velocity of light in the medium, ($c$) is the velocity of light in space, ($\\phi$) angle of incident of light ray, and ($\\theta$) is the angle of refraction. Table (1) shows some refractive index for some media.</p><h3>Table (1): Some refractive index for some media.</h3><table border='1' style='border-collapse: collapse; text-align: center;'><tr><th style='padding: 5px; writing-mode: vertical-rl; transform: rotate(180deg);'>Vacuum</th><th style='padding: 5px; writing-mode: vertical-rl; transform: rotate(180deg);'>Air</th><th style='padding: 5px; writing-mode: vertical-rl; transform: rotate(180deg);'>Carbon dioxide</th><th style='padding: 5px; writing-mode: vertical-rl; transform: rotate(180deg);'>Ice</th><th style='padding: 5px; writing-mode: vertical-rl; transform: rotate(180deg);'>Pure water</th><th style='padding: 5px; writing-mode: vertical-rl; transform: rotate(180deg);'>Ethyl alcohol</th><th style='padding: 5px; writing-mode: vertical-rl; transform: rotate(180deg);'>Quartz</th><th style='padding: 5px; writing-mode: vertical-rl; transform: rotate(180deg);'>Vegetable oil</th><th style='padding: 5px; writing-mode: vertical-rl; transform: rotate(180deg);'>Olive oil</th><th style='padding: 5px; writing-mode: vertical-rl; transform: rotate(180deg);'>Acrylic</th><th style='padding: 5px; writing-mode: vertical-rl; transform: rotate(180deg);'>Table salt</th><th style='padding: 5px; writing-mode: vertical-rl; transform: rotate(180deg);'>Glass</th><th style='padding: 5px; writing-mode: vertical-rl; transform: rotate(180deg);'>Sapphire</th><th style='padding: 5px; writing-mode: vertical-rl; transform: rotate(180deg);'>Zircon</th><th style='padding: 5px; writing-mode: vertical-rl; transform: rotate(180deg);'>Diamond</th></tr><tr><td style='padding: 5px;'>1.00</td><td style='padding: 5px;'>1.0003</td><td style='padding: 5px;'>1.0005</td><td style='padding: 5px;'>1.31</td><td style='padding: 5px;'>1.33</td><td style='padding: 5px;'>1.36</td><td style='padding: 5px;'>1.46</td><td style='padding: 5px;'>1.47</td><td style='padding: 5px;'>1.48</td><td style='padding: 5px;'>1.49</td><td style='padding: 5px;'>1.51</td><td style='padding: 5px;'>1.52</td><td style='padding: 5px;'>1.77</td><td style='padding: 5px;'>1.92</td><td style='padding: 5px;'>2.42</td></tr></table>"
+        },
+        {
+            "q": "A light ray travel from water to ice then it meets a metallic surface and reflects. which of the following is the best description to what happen to the wavelength of light?",
+            "options": [
+                "Increase then decrease.",
+                "Decrease then increase.",
+                "Increase then remain constant.",
+                "Decrease then remain constant."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Light ray fall from air to ice surface, what is the best description to the reflected ray?",
+            "options": [
+                "Has lower frequency than the incident ray.",
+                "Has shorter wavelength of the incident ray.",
+                "Has slower velocity than the incident ray.",
+                "Has less intensity than the incident ray."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Total reflected glass prism should cover with Cryolite to avoid or decrease the reflection of light, what is the refractive index of cryolite compared to other medium?",
+            "options": [
+                "Greater than refractive index of air and less than refractive index of glass.",
+                "Less than refractive index of air and less than refractive index of glass.",
+                "Less than refractive index of air and greater than refractive index of glass.",
+                "Greater than refractive index of air and greater than refractive index of glass."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "What will happen to the light ray in the reflection phenomena?",
+            "options": [
+                "Both direction and velocity change.",
+                "Both wavelength and intensity change.",
+                "Both direction and wavelength change.",
+                "Both velocity and intensity change."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which of the following consider as right ascending sort in the point of view velocity of light?",
+            "options": [
+                "Diamond, zircon, air",
+                "Water, diamond, ice.",
+                "Ethyl alcohol, olive oil, table salt.",
+                "Quartz, air, ice."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The eyepiece lens of the microscope should diverge the light ray sharply. Which of the following material is the best to make eyepiece lens?",
+            "options": [
+                "Diamond.",
+                "Olive oil.",
+                "Water.",
+                "Quartz."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Source of light is trapped inside ice ball that float over water, if we study two rays one goes to the air ($R_1$), and the other go deeper in water ($R_2$). The two rays ($R_1$) and ($R_2$) have the same initial",
+            "options": [
+                "velocity but differ in both final wavelength and final frequency.",
+                "wavelength but differ in final velocity and frequency.",
+                "wavelength and velocity but differ in final frequency.",
+                "frequency and velocity but differ in final wavelength."
+            ],
+            "correct": 3
+        }
+    ]
+}
