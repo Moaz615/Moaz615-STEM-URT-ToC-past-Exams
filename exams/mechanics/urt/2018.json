@@ -31,7 +31,7 @@
             "correct": 3
         },
         {
-            "passage": "In a group of 1000 people, an advertising agency found that 700 people read Al-Ahram magazine, 650 read Al-Gomhoria magazine, and 400 people read both magazines. One of people in the group is selected randomly. <div style=\"text-align: center;\"> Answer the following two questions - (4 and 5) </div> "
+            "passage": "<div>In a group of 1000 people, an advertising agency found that 700 people read Al-Ahram magazine, 650 read Al-Gomhoria magazine, and 400 people read both magazines. One of people in the group is selected randomly. <div style=\"text-align: center;\"> Answer the following two questions - (4 and 5) </div> "
         },
         {
             "q": "What is the probability that the selected person reads at least one of the two magazines, Al-Ahram or Al-Gomhoria?",
@@ -49,9 +49,12 @@
                 "0.3",
                 "0.05",
                 "0.6",
-                "0.35"
+                "0.35</div>"
             ],
             "correct": 0
+        },
+        {
+            "endPassage": true
         },
         {
             "q": "Three different DVD's and their corresponding DVD cases are randomly strewn about on a shelf. If a young child puts the DVD's in the cases at random, the probability of correctly matching all DVD's and cases is .....",
@@ -165,7 +168,7 @@
             "correct": 1
         },
         {
-            "q": "If $\\begin{pmatrix} \\lim_{x \\to 1} (x+1) & \\frac{d}{dx}(3x) \\\\ \\log_2 |x| & 0 \\end{pmatrix} = \\begin{pmatrix} \\log_2 y & 2 \\\\ \\sqrt{3}^2 & \\log_2 z \\end{pmatrix}^t$, then $xyz = \\dots\\dots$",
+            "q": "If $\\begin{pmatrix} \\lim_{x \\to 1} (x+1) & \\frac{d}{dx}(3x) \\\\ \\log_2 |x| & \\lfloor 0 \\end{pmatrix} = \\begin{pmatrix} \\log_2 y & 2 \\\\ \\sqrt{3}^2 & \\log_2 z \\end{pmatrix}^t$, then $xyz = \\dots\\dots$",
             "options": [
                 "32",
                 "24",
@@ -195,7 +198,7 @@
             "correct": 1
         },
         {
-            "q": "Mr. Osama made the opposite stem-and-leaf plot to show the test scores in his Mathematics class. What is the range of the score of these test scores?",
+            "q": "Mr. Osama made the opposite stem-and-leaf plot to show the test scores in his mechanics class. What is the range of the score of these test scores?",
             "image": "exams/mechanics/urt/images/2018_q20.png",
             "options": [
                 "49",
@@ -452,11 +455,12 @@
         },
         {
             "q": "The shaded region in the opposite graph represents the solution set of which of the following systems of inequalities?",
+            "image": "exams/mechanics/urt/images/2018_q49.png",
             "options": [
-                "${\\begin{matrix} y < -x + 2 \\\\ (x - 1)^2 + (y - 2)^2 < 9 \\end{matrix}}$",
-                "${\\begin{matrix} y > -x + 2 \\\\ (x - 1)^2 + (y - 2)^2 < 9 \\end{matrix}}$",
-                "${\\begin{matrix} y < -x + 2 \\\\ (x - 1)^2 + (y - 2)^2 > 9 \\end{matrix}}$",
-                "${\\begin{matrix} y > -x + 2 \\\\ (x - 1)^2 + (y - 2)^2 > 9 \\end{matrix}}$"
+                "$\\begin{cases} y < -x + 2 \\\\ (x - 1)^2 + (y - 2)^2 < 9 \\end{cases}$",
+                "$\\begin{cases} y > -x + 2 \\\\ (x - 1)^2 + (y - 2)^2 < 9 \\end{cases}$",
+                "$\\begin{cases} y < -x + 2 \\\\ (x - 1)^2 + (y - 2)^2 > 9 \\end{cases}$",
+                "$\\begin{cases} y > -x + 2 \\\\ (x - 1)^2 + (y - 2)^2 > 9 \\end{cases}$"
             ],
             "correct": 0
         }
