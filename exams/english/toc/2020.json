@@ -20,7 +20,7 @@
             "correct": 3
         },
         {
-            "q": "My friend had to quit smoking because the doctor advised ....... doing so.",
+            "q": "My friend had to quit smoking because the doctor advised ......... so.",
             "options": [
                 "to do",
                 "doing",
@@ -419,4 +419,5 @@
             "passage": "<p align=\"center\"><b><u>E- Writing</u></b></p> <p><b>5) <u>Write an essay of not less than 250 words on the following topic:</u></b><br> One of your friends told you that his family has a lot of old books and clothes. What advice can you give him about the best ways to make use of them?</p> <div style=\"width: 100%; height: 800px; background-image: linear-gradient(to bottom, transparent 28px, #888 28px, #888 30px); background-size: 100% 30px; border-top: 2px dotted #888;\"></div>"
         }
     ]
+
 }
