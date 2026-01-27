@@ -31,7 +31,7 @@
             "correct": 3
         },
         {
-            "passage": "In a group of 1000 people, an advertising agency found that 700 people read Al-Ahram magazine, 650 read Al-Gomhoria magazine, and 400 people read both magazines. One of people in the group is selected randomly. <div style=\"text-align: center;\"> Answer the following two questions - (4 and 5) </div> "
+            "passage": "<div>In a group of 1000 people, an advertising agency found that 700 people read Al-Ahram magazine, 650 read Al-Gomhoria magazine, and 400 people read both magazines. One of people in the group is selected randomly. <div style=\"text-align: center;\"> Answer the following two questions - (4 and 5) </div> "
         },
         {
             "q": "What is the probability that the selected person reads at least one of the two magazines, Al-Ahram or Al-Gomhoria?",
@@ -49,7 +49,7 @@
                 "0.3",
                 "0.05",
                 "0.6",
-                "0.35"
+                "0.35</div>"
             ],
             "correct": 0
         },
