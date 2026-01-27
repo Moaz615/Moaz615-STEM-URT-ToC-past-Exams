@@ -626,14 +626,21 @@ function renderFullExam() {
             <div class="question-card" id="q-card-${qCount}">
                 <div class="question-header-row">
                     <div class="question-text"><strong>Q${qCount + 1}:</strong> ${item.q}</div>
-                    <button class="mark-btn-small ${examState.marked[qCount] ? 'marked' : ''}" 
-                            onclick="toggleQuestionMark(${qCount})" 
-                            id="mark-btn-${qCount}"
-                            title="Mark for Review">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="${examState.marked[qCount] ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2">
-                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                        </svg>
-                    </button>
+                    <div class="header-actions" style="display: flex; gap: 8px; align-items: center;">
+                        <button class="report-btn-circle" onclick="openReportModal(${qCount})" title="Report">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M14.4 6L14 4H5V21H7V14H12.6L13 16H20V6H14.4Z"></path>
+                            </svg>
+                        </button>
+                        <button class="mark-btn-small ${examState.marked[qCount] ? 'marked' : ''}" 
+                                onclick="toggleQuestionMark(${qCount})" 
+                                id="mark-btn-${qCount}"
+                                title="Mark for Review">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="${examState.marked[qCount] ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2">
+                                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                            </svg>
+                        </button>
+                    </div>
                 </div>
                 ${getImagesHtml(item, false)}
                 <div class="options-container">
@@ -709,24 +716,31 @@ function renderQuestionByQuestion() {
 
     document.getElementById('question-progress').textContent = `Question ${currentQuestionIndex + 1} of ${totalQuestions}`;
     document.getElementById('question-progress-fill').style.width = `${((currentQuestionIndex + 1) / totalQuestions) * 100}%`;
-    
+
     let html = "";
     if (activePassageObj) {
         html += `<div class="passage-box">${formatPassage(activePassageObj)}</div>`;
     }
-    
+
     html += `
     <div class="question-card" id="q-card-${currentQuestionIndex}">
         <div class="question-header-row">
-        <div class="question-text"><strong>Q${currentQuestionIndex + 1}:</strong> ${q.q}</div>
-            <button class="mark-btn-small ${examState.marked[currentQuestionIndex] ? 'marked' : ''}" 
-                    onclick="toggleQuestionMark(${currentQuestionIndex})" 
-                    id="mark-btn-${currentQuestionIndex}"
-                    title="Mark for Review">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="${examState.marked[currentQuestionIndex] ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2">
-                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
-                </svg>
-            </button>
+            <div class="question-text"><strong>Q${currentQuestionIndex + 1}:</strong> ${q.q}</div>
+            <div class="header-actions" style="display: flex; gap: 8px; align-items: center;">
+                <button class="report-btn-circle" onclick="openReportModal(${currentQuestionIndex})" title="Report">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M14.4 6L14 4H5V21H7V14H12.6L13 16H20V6H14.4Z"></path>
+                    </svg>
+                </button>
+                <button class="mark-btn-small ${examState.marked[currentQuestionIndex] ? 'marked' : ''}" 
+                        onclick="toggleQuestionMark(${currentQuestionIndex})" 
+                        id="mark-btn-${currentQuestionIndex}"
+                        title="Mark for Review">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="${examState.marked[currentQuestionIndex] ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                </button>
+            </div>
         </div>
         ${getImagesHtml(q, false)}
         <div class="options-container">
@@ -736,7 +750,7 @@ function renderQuestionByQuestion() {
                 </label>`).join("")}
         </div>
     </div>`;
-    
+
     document.getElementById("exam-container").innerHTML = html;
 
     if (currentQuestionIndex === totalQuestions - 1) {
@@ -804,119 +818,119 @@ function nextQuestion() {
         }
     }
 
-        renderSidebar();
+    renderSidebar();
+}
+
+function previousQuestion() {
+    if (currentQuestionIndex > 0) {
+        currentQuestionIndex--;
+        renderQuestionByQuestion();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    function previousQuestion() {
-        if (currentQuestionIndex > 0) {
-            currentQuestionIndex--;
-            renderQuestionByQuestion();
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+    renderSidebar();
+}
+
+function saveExamResult(subject, type, year, score, total, timeTaken = null) {
+    const resultKey = `exam_result_${subject}_${type}_${year}_${session.mode}`;
+    const percentage = Math.round((score / total) * 100);
+    const timestamp = new Date().toISOString();
+
+    const saved = localStorage.getItem(resultKey);
+    const existingResult = saved ? JSON.parse(saved) : null;
+    const attempts = existingResult ? (existingResult.attempts || 1) + 1 : 1;
+    const bestScore = existingResult ? Math.max(existingResult.bestScore || existingResult.score, score) : score;
+    const bestPercentage = existingResult ? Math.max(existingResult.bestPercentage || existingResult.percentage, percentage) : percentage;
+
+    const result = {
+        subject,
+        type,
+        year,
+        mode: session.mode,
+        score,
+        total,
+        percentage,
+        bestScore,
+        bestPercentage,
+        attempts,
+        timestamp,
+        lastAttempt: timestamp
+    };
+
+    if (timeTaken !== null && session.mode === 'full') {
+        result.timeTaken = timeTaken;
+        if (existingResult && existingResult.timeTaken) {
+            result.bestTime = Math.min(existingResult.bestTime || existingResult.timeTaken, timeTaken);
+        } else {
+            result.bestTime = timeTaken;
         }
-
-        renderSidebar();
     }
 
-    function saveExamResult(subject, type, year, score, total, timeTaken = null) {
-        const resultKey = `exam_result_${subject}_${type}_${year}_${session.mode}`;
-        const percentage = Math.round((score / total) * 100);
-        const timestamp = new Date().toISOString();
+    localStorage.setItem(resultKey, JSON.stringify(result));
 
-        const saved = localStorage.getItem(resultKey);
-        const existingResult = saved ? JSON.parse(saved) : null;
-        const attempts = existingResult ? (existingResult.attempts || 1) + 1 : 1;
-        const bestScore = existingResult ? Math.max(existingResult.bestScore || existingResult.score, score) : score;
-        const bestPercentage = existingResult ? Math.max(existingResult.bestPercentage || existingResult.percentage, percentage) : percentage;
+    const allResults = getAllExamResults();
+    allResults[resultKey] = result;
+    localStorage.setItem('all_exam_results', JSON.stringify(allResults));
 
-        const result = {
-            subject,
-            type,
-            year,
-            mode: session.mode,
-            score,
-            total,
-            percentage,
-            bestScore,
-            bestPercentage,
-            attempts,
-            timestamp,
-            lastAttempt: timestamp
-        };
+    return result;
+}
 
-        if (timeTaken !== null && session.mode === 'full') {
-            result.timeTaken = timeTaken;
-            if (existingResult && existingResult.timeTaken) {
-                result.bestTime = Math.min(existingResult.bestTime || existingResult.timeTaken, timeTaken);
-            } else {
-                result.bestTime = timeTaken;
+function getExamResult(subject, type, year) {
+    const fullKey = `exam_result_${subject}_${type}_${year}_full`;
+    const qbyqKey = `exam_result_${subject}_${type}_${year}_question`;
+
+    const fullSaved = localStorage.getItem(fullKey);
+    const qbyqSaved = localStorage.getItem(qbyqKey);
+
+    const fullRes = fullSaved ? JSON.parse(fullSaved) : null;
+    const qbyqRes = qbyqSaved ? JSON.parse(qbyqSaved) : null;
+
+    if (fullRes && qbyqRes) {
+        return (fullRes.bestPercentage >= qbyqRes.bestPercentage) ? fullRes : qbyqRes;
+    }
+    return fullRes || qbyqRes;
+}
+
+function getAllExamResults() {
+    const saved = localStorage.getItem('all_exam_results');
+    return saved ? JSON.parse(saved) : {};
+}
+function processResults() {
+    if (timerInterval) clearInterval(timerInterval);
+    let score = 0;
+    let reviewHtml = "";
+    const questions = getQuestionList();
+    let currentPassage = null;
+    let inPassageGroup = false;
+
+    currentExamData.questions.forEach((item) => {
+        if (item.passage) {
+            if (inPassageGroup) {
+                reviewHtml += `</div>`;
             }
-        }
-
-        localStorage.setItem(resultKey, JSON.stringify(result));
-
-        const allResults = getAllExamResults();
-        allResults[resultKey] = result;
-        localStorage.setItem('all_exam_results', JSON.stringify(allResults));
-
-        return result;
-    }
-
-    function getExamResult(subject, type, year) {
-        const fullKey = `exam_result_${subject}_${type}_${year}_full`;
-        const qbyqKey = `exam_result_${subject}_${type}_${year}_question`;
-
-        const fullSaved = localStorage.getItem(fullKey);
-        const qbyqSaved = localStorage.getItem(qbyqKey);
-
-        const fullRes = fullSaved ? JSON.parse(fullSaved) : null;
-        const qbyqRes = qbyqSaved ? JSON.parse(qbyqSaved) : null;
-
-        if (fullRes && qbyqRes) {
-            return (fullRes.bestPercentage >= qbyqRes.bestPercentage) ? fullRes : qbyqRes;
-        }
-        return fullRes || qbyqRes;
-    }
-
-    function getAllExamResults() {
-        const saved = localStorage.getItem('all_exam_results');
-        return saved ? JSON.parse(saved) : {};
-    }
-    function processResults() {
-        if (timerInterval) clearInterval(timerInterval);
-        let score = 0;
-        let reviewHtml = "";
-        const questions = getQuestionList();
-        let currentPassage = null;
-        let inPassageGroup = false;
-
-        currentExamData.questions.forEach((item) => {
-            if (item.passage) {
-                if (inPassageGroup) {
-                    reviewHtml += `</div>`;
-                }
-                currentPassage = item;
-                inPassageGroup = true;
-                reviewHtml += `<div class="passage-group">
+            currentPassage = item;
+            inPassageGroup = true;
+            reviewHtml += `<div class="passage-group">
                 <div class="passage-box review-passage">${formatPassage(item)}</div>`;
-            } else if (item.endPassage) {
-                if (inPassageGroup) {
-                    reviewHtml += `</div>`;
-                    inPassageGroup = false;
-                    currentPassage = null;
-                }
-            } else if (item.q) {
-                const qIndex = questions.indexOf(item);
-                const selected = document.querySelector(`input[name="q${qIndex}"]:checked`);
-                let userIndex = null;
-                if (selected) {
-                    userIndex = Number(selected.value);
-                } else if (examState.answers[qIndex] !== undefined) {
-                    userIndex = examState.answers[qIndex];
-                }
-                const isCorrect = userIndex === item.correct;
-                if (isCorrect) score++;
+        } else if (item.endPassage) {
+            if (inPassageGroup) {
+                reviewHtml += `</div>`;
+                inPassageGroup = false;
+                currentPassage = null;
+            }
+        } else if (item.q) {
+            const qIndex = questions.indexOf(item);
+            const selected = document.querySelector(`input[name="q${qIndex}"]:checked`);
+            let userIndex = null;
+            if (selected) {
+                userIndex = Number(selected.value);
+            } else if (examState.answers[qIndex] !== undefined) {
+                userIndex = examState.answers[qIndex];
+            }
+            const isCorrect = userIndex === item.correct;
+            if (isCorrect) score++;
 
-                reviewHtml += `
+            reviewHtml += `
             <div class="review-card ${isCorrect ? "status-correct" : "status-wrong"}">
                 <div class="question-text"><strong>Question ${qIndex + 1}:</strong> ${item.q}</div>
                 ${getImagesHtml(item, true)}
@@ -925,89 +939,89 @@ function nextQuestion() {
                 </p>
                 ${!isCorrect ? `<p class="actual-answer"><strong>Correct Answer:</strong> ${item.options[item.correct]}</p>` : ""}
             </div>`;
-            }
-        });
-
-        if (inPassageGroup) {
-            reviewHtml += `</div>`;
         }
+    });
 
-        document.getElementById("raw-score-display").innerText = `${score} / ${questions.length}`;
-        document.getElementById("review-container").innerHTML = reviewHtml;
-
-        if (!examState.completed) {
-            let timeTaken = null;
-            if (session.mode === 'full' && examState.elapsedTime) {
-                timeTaken = examState.elapsedTime;
-            }
-            saveExamResult(session.subject, session.type, session.year, score, questions.length, timeTaken);
-            examState.completed = true;
-            examState.finalScore = score;
-            examState.totalQuestions = questions.length;
-
-            const stateKey = `exam_state_${session.subject}_${session.type}_${session.year}_${session.mode}`;
-            localStorage.setItem(stateKey, JSON.stringify(examState));
-        }
-
-        navigateTo('results');
-        window.scrollTo(0, 0);
-        if (window.MathJax) MathJax.typesetPromise();
+    if (inPassageGroup) {
+        reviewHtml += `</div>`;
     }
 
-    function resetApp() {
-        if (timerInterval) {
-            clearInterval(timerInterval);
+    document.getElementById("raw-score-display").innerText = `${score} / ${questions.length}`;
+    document.getElementById("review-container").innerHTML = reviewHtml;
+
+    if (!examState.completed) {
+        let timeTaken = null;
+        if (session.mode === 'full' && examState.elapsedTime) {
+            timeTaken = examState.elapsedTime;
         }
-        clearAllExamStates();
-        localStorage.removeItem('stem_session');
-        window.location.href = window.location.pathname;
+        saveExamResult(session.subject, session.type, session.year, score, questions.length, timeTaken);
+        examState.completed = true;
+        examState.finalScore = score;
+        examState.totalQuestions = questions.length;
+
+        const stateKey = `exam_state_${session.subject}_${session.type}_${session.year}_${session.mode}`;
+        localStorage.setItem(stateKey, JSON.stringify(examState));
     }
 
-    function showResultsHistory() {
-        const allResults = getAllExamResults();
-        const container = document.getElementById('history-container');
+    navigateTo('results');
+    window.scrollTo(0, 0);
+    if (window.MathJax) MathJax.typesetPromise();
+}
 
-        if (!container) return;
+function resetApp() {
+    if (timerInterval) {
+        clearInterval(timerInterval);
+    }
+    clearAllExamStates();
+    localStorage.removeItem('stem_session');
+    window.location.href = window.location.pathname;
+}
 
-        const resultsArray = Object.values(allResults);
+function showResultsHistory() {
+    const allResults = getAllExamResults();
+    const container = document.getElementById('history-container');
 
-        if (resultsArray.length === 0) {
-            container.innerHTML = '<p style="text-align: center; color: var(--text-secondary); padding: 2rem;">No completed exams yet.</p>';
-            navigateTo('history');
-            return;
-        }
+    if (!container) return;
 
-        resultsArray.sort((a, b) => new Date(b.lastAttempt) - new Date(a.lastAttempt));
+    const resultsArray = Object.values(allResults);
 
-        let html = '<div class="history-grid">';
-        resultsArray.forEach(result => {
-            const date = new Date(result.lastAttempt).toLocaleDateString();
-            const time = new Date(result.lastAttempt).toLocaleTimeString();
-            const modeText = result.mode === 'full' ? 'Full-Length' : 'Question-by-Question';
+    if (resultsArray.length === 0) {
+        container.innerHTML = '<p style="text-align: center; color: var(--text-secondary); padding: 2rem;">No completed exams yet.</p>';
+        navigateTo('history');
+        return;
+    }
 
-            let timeInfo = '';
-            if (result.mode === 'full' && result.timeTaken !== undefined) {
-                const timeMinutes = Math.floor(result.timeTaken / 60);
-                const timeSeconds = result.timeTaken % 60;
-                const timeStr = `${timeMinutes}m ${timeSeconds}s`;
+    resultsArray.sort((a, b) => new Date(b.lastAttempt) - new Date(a.lastAttempt));
 
-                if (result.bestTime !== undefined && result.bestTime !== result.timeTaken) {
-                    const bestMinutes = Math.floor(result.bestTime / 60);
-                    const bestSeconds = result.bestTime % 60;
-                    const bestStr = `${bestMinutes}m ${bestSeconds}s`;
-                    timeInfo = `<div class="stat-item">
+    let html = '<div class="history-grid">';
+    resultsArray.forEach(result => {
+        const date = new Date(result.lastAttempt).toLocaleDateString();
+        const time = new Date(result.lastAttempt).toLocaleTimeString();
+        const modeText = result.mode === 'full' ? 'Full-Length' : 'Question-by-Question';
+
+        let timeInfo = '';
+        if (result.mode === 'full' && result.timeTaken !== undefined) {
+            const timeMinutes = Math.floor(result.timeTaken / 60);
+            const timeSeconds = result.timeTaken % 60;
+            const timeStr = `${timeMinutes}m ${timeSeconds}s`;
+
+            if (result.bestTime !== undefined && result.bestTime !== result.timeTaken) {
+                const bestMinutes = Math.floor(result.bestTime / 60);
+                const bestSeconds = result.bestTime % 60;
+                const bestStr = `${bestMinutes}m ${bestSeconds}s`;
+                timeInfo = `<div class="stat-item">
                     <span class="stat-label">Time:</span>
                     <span class="stat-value">${timeStr} (Best: ${bestStr})</span>
                 </div>`;
-                } else {
-                    timeInfo = `<div class="stat-item">
+            } else {
+                timeInfo = `<div class="stat-item">
                     <span class="stat-label">Time:</span>
                     <span class="stat-value">${timeStr}</span>
                 </div>`;
-                }
             }
+        }
 
-            html += `
+        html += `
             <div class="history-card">
                 <div class="history-header">
                     <h3>${result.subject.toUpperCase()} ${result.type.toUpperCase()} - ${result.year}</h3>
@@ -1034,240 +1048,296 @@ function nextQuestion() {
                 </div>
             </div>
         `;
-        });
-        html += '</div>';
+    });
+    html += '</div>';
 
-        container.innerHTML = html;
-        navigateTo('history');
+    container.innerHTML = html;
+    navigateTo('history');
+}
+
+window.onload = () => {
+    initTheme();
+    const themeToggle = document.getElementById('theme-toggle');
+    if (themeToggle) {
+        themeToggle.addEventListener('click', toggleTheme);
     }
 
-    window.onload = () => {
-        initTheme();
-        const themeToggle = document.getElementById('theme-toggle');
-        if (themeToggle) {
-            themeToggle.addEventListener('click', toggleTheme);
+    const params = new URLSearchParams(window.location.search);
+    const step = params.get('step') || 'home';
+    const saved = localStorage.getItem('stem_session');
+
+    if (saved) session = JSON.parse(saved);
+
+    if (step === 'exam' && session.year && session.mode) {
+        startExam(session.year);
+    } else if (step === 'history') {
+        showResultsHistory();
+    } else if (routes[step] !== undefined) {
+        navigateTo(step, false);
+        if (step === 'year' && session.subject && session.type) {
+            renderYearButtons();
         }
+    } else {
+        navigateTo('home', false);
+    }
 
-        const params = new URLSearchParams(window.location.search);
-        const step = params.get('step') || 'home';
-        const saved = localStorage.getItem('stem_session');
+    const contactForm = document.getElementById('contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+            const submitBtn = contactForm.querySelector('.submit-btn');
+            const formStatus = document.getElementById('form-status');
+            const originalText = submitBtn.textContent;
 
-        if (saved) session = JSON.parse(saved);
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending...';
+            formStatus.innerHTML = '';
 
-        if (step === 'exam' && session.year && session.mode) {
-            startExam(session.year);
-        } else if (step === 'history') {
-            showResultsHistory();
-        } else if (routes[step] !== undefined) {
-            navigateTo(step, false);
-            if (step === 'year' && session.subject && session.type) {
-                renderYearButtons();
-            }
-        } else {
-            navigateTo('home', false);
-        }
+            const formData = new FormData(contactForm);
 
-        const contactForm = document.getElementById('contact-form');
-        if (contactForm) {
-            contactForm.addEventListener('submit', function (e) {
-                e.preventDefault();
-                const submitBtn = contactForm.querySelector('.submit-btn');
-                const formStatus = document.getElementById('form-status');
-                const originalText = submitBtn.textContent;
-
-                submitBtn.disabled = true;
-                submitBtn.textContent = 'Sending...';
-                formStatus.innerHTML = '';
-
-                const formData = new FormData(contactForm);
-
-                fetch(contactForm.action, {
-                    method: 'POST',
-                    body: formData,
-                    headers: {
-                        'Accept': 'application/json'
+            fetch(contactForm.action, {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+                .then(response => {
+                    if (response.ok) {
+                        formStatus.innerHTML = '<div class="success-message">Thank you for your message! We\'ll get back to you soon.</div>';
+                        contactForm.reset();
+                    } else {
+                        return response.json().then(data => {
+                            if (Object.hasOwn(data, 'errors')) {
+                                throw new Error(data["errors"].map(error => error["message"]).join(", "));
+                            } else {
+                                throw new Error("Oops! There was a problem sending your message. Please try again.");
+                            }
+                        });
                     }
                 })
-                    .then(response => {
-                        if (response.ok) {
-                            formStatus.innerHTML = '<div class="success-message">Thank you for your message! We\'ll get back to you soon.</div>';
-                            contactForm.reset();
-                        } else {
-                            return response.json().then(data => {
-                                if (Object.hasOwn(data, 'errors')) {
-                                    throw new Error(data["errors"].map(error => error["message"]).join(", "));
-                                } else {
-                                    throw new Error("Oops! There was a problem sending your message. Please try again.");
-                                }
-                            });
-                        }
-                    })
-                    .catch(error => {
-                        formStatus.innerHTML = `<div class="error-message">${error.message}</div>`;
-                    })
-                    .finally(() => {
-                        submitBtn.textContent = originalText;
-                        submitBtn.disabled = false;
-                        setTimeout(() => {
-                            formStatus.innerHTML = '';
-                        }, 6000);
-                    });
-            });
-        }
-
-        renderSidebar();
-    };
-
-
-
-    function toggleSidebar() {
-        const sidebar = document.getElementById('exam-sidebar');
-        const overlay = document.querySelector('.sidebar-overlay');
-
-        if (!overlay && window.innerWidth <= 1024) {
-            const newOverlay = document.createElement('div');
-            newOverlay.className = 'sidebar-overlay';
-            newOverlay.onclick = toggleSidebar;
-            document.body.appendChild(newOverlay);
-            setTimeout(() => newOverlay.classList.toggle('active'), 10);
-        } else if (overlay) {
-            overlay.classList.toggle('active');
-        }
-
-        sidebar.classList.toggle('open');
+                .catch(error => {
+                    formStatus.innerHTML = `<div class="error-message">${error.message}</div>`;
+                })
+                .finally(() => {
+                    submitBtn.textContent = originalText;
+                    submitBtn.disabled = false;
+                    setTimeout(() => {
+                        formStatus.innerHTML = '';
+                    }, 6000);
+                });
+        });
     }
 
+    renderSidebar();
+};
 
-    function getQuestionButtonClass(idx, q, isCurrentModeQuestion) {
-        let classes = 'q-btn';
-        if (idx === currentQuestionIndex && isCurrentModeQuestion) classes += ' current';
 
-        if (examState.answers[idx] !== undefined) {
-            if (isCurrentModeQuestion) {
-                const isCorrect = examState.answers[idx] === q.correct;
-                classes += isCorrect ? ' answered' : ' wrong';
+
+function toggleSidebar() {
+    const sidebar = document.getElementById('exam-sidebar');
+    const overlay = document.querySelector('.sidebar-overlay');
+
+    if (!overlay && window.innerWidth <= 1024) {
+        const newOverlay = document.createElement('div');
+        newOverlay.className = 'sidebar-overlay';
+        newOverlay.onclick = toggleSidebar;
+        document.body.appendChild(newOverlay);
+        setTimeout(() => newOverlay.classList.toggle('active'), 10);
+    } else if (overlay) {
+        overlay.classList.toggle('active');
+    }
+
+    sidebar.classList.toggle('open');
+}
+
+
+function getQuestionButtonClass(idx, q, isCurrentModeQuestion) {
+    let classes = 'q-btn';
+    if (idx === currentQuestionIndex && isCurrentModeQuestion) classes += ' current';
+
+    if (examState.answers[idx] !== undefined) {
+        if (isCurrentModeQuestion) {
+            const isCorrect = examState.answers[idx] === q.correct;
+            classes += isCorrect ? ' answered' : ' wrong';
+        } else {
+            classes += ' answered';
+        }
+    }
+    if (examState.marked[idx]) classes += ' marked';
+    return classes;
+}
+
+function renderSidebar() {
+    if (!currentExamData) return;
+
+    const questions = getQuestionList();
+    const grid = document.getElementById('question-grid');
+    if (!grid) return;
+
+    const isQuestionMode = session.mode === 'question';
+    let html = '';
+    questions.forEach((q, idx) => {
+        const classes = getQuestionButtonClass(idx, q, isQuestionMode);
+        html += `<button class="${classes}" onclick="jumpToQuestion(${idx})" id="sb-q-${idx}">${idx + 1}</button>`;
+    });
+
+    grid.innerHTML = html;
+    updateSidebarStats();
+}
+
+function updateSidebarUI() {
+    const questions = getQuestionList();
+    const isQuestionMode = session.mode === 'question';
+
+    questions.forEach((q, idx) => {
+        const btn = document.getElementById(`sb-q-${idx}`);
+        if (!btn) return;
+
+        btn.className = getQuestionButtonClass(idx, q, isQuestionMode);
+
+        const markBtn = document.getElementById(`mark-btn-${idx}`);
+        if (markBtn) {
+            const svg = markBtn.querySelector('svg');
+            if (examState.marked[idx]) {
+                markBtn.classList.add('marked');
+                svg.setAttribute('fill', 'currentColor');
             } else {
-                classes += ' answered';
+                markBtn.classList.remove('marked');
+                svg.setAttribute('fill', 'none');
             }
         }
-        if (examState.marked[idx]) classes += ' marked';
-        return classes;
-    }
+    });
 
-    function renderSidebar() {
-        if (!currentExamData) return;
+    updateSidebarStats();
+}
 
-        const questions = getQuestionList();
-        const grid = document.getElementById('question-grid');
-        if (!grid) return;
+function updateSidebarStats() {
+    if (!currentExamData) return;
+    const total = getQuestionList().length;
+    const answered = Object.keys(examState.answers).length;
+    const marked = Object.keys(examState.marked).length;
+    const remaining = total - answered;
 
-        const isQuestionMode = session.mode === 'question';
-        let html = '';
-        questions.forEach((q, idx) => {
-            const classes = getQuestionButtonClass(idx, q, isQuestionMode);
-            html += `<button class="${classes}" onclick="jumpToQuestion(${idx})" id="sb-q-${idx}">${idx + 1}</button>`;
-        });
+    const elAnswered = document.getElementById('sb-answered-count');
+    if (elAnswered) elAnswered.textContent = answered;
 
-        grid.innerHTML = html;
-        updateSidebarStats();
-    }
+    const elMarked = document.getElementById('sb-marked-count');
+    if (elMarked) elMarked.textContent = marked;
 
-    function updateSidebarUI() {
-        const questions = getQuestionList();
-        const isQuestionMode = session.mode === 'question';
+    const elRemaining = document.getElementById('sb-remaining-count');
+    if (elRemaining) elRemaining.textContent = remaining;
 
-        questions.forEach((q, idx) => {
-            const btn = document.getElementById(`sb-q-${idx}`);
-            if (!btn) return;
+    const pct = (answered / total) * 100;
+    const fill = document.getElementById('sb-progress-fill');
+    if (fill) fill.style.width = `${pct}%`;
+}
 
-            btn.className = getQuestionButtonClass(idx, q, isQuestionMode);
+function jumpToQuestion(index) {
+    if (session.mode === 'question') {
+        currentQuestionIndex = index;
+        renderQuestionByQuestion();
+        if (window.innerWidth <= 1024) toggleSidebar();
+    } else {
+        const cards = document.querySelectorAll('.question-card');
+        if (cards[index]) {
+            cards[index].scrollIntoView({ behavior: 'smooth', block: 'center' });
+            cards[index].style.borderColor = 'var(--primary)';
+            setTimeout(() => cards[index].style.borderColor = 'var(--border)', 2000);
 
-            const markBtn = document.getElementById(`mark-btn-${idx}`);
-            if (markBtn) {
-                const svg = markBtn.querySelector('svg');
-                if (examState.marked[idx]) {
-                    markBtn.classList.add('marked');
-                    svg.setAttribute('fill', 'currentColor');
-                } else {
-                    markBtn.classList.remove('marked');
-                    svg.setAttribute('fill', 'none');
-                }
-            }
-        });
-
-        updateSidebarStats();
-    }
-
-    function updateSidebarStats() {
-        if (!currentExamData) return;
-        const total = getQuestionList().length;
-        const answered = Object.keys(examState.answers).length;
-        const marked = Object.keys(examState.marked).length;
-        const remaining = total - answered;
-
-        const elAnswered = document.getElementById('sb-answered-count');
-        if (elAnswered) elAnswered.textContent = answered;
-
-        const elMarked = document.getElementById('sb-marked-count');
-        if (elMarked) elMarked.textContent = marked;
-
-        const elRemaining = document.getElementById('sb-remaining-count');
-        if (elRemaining) elRemaining.textContent = remaining;
-
-        const pct = (answered / total) * 100;
-        const fill = document.getElementById('sb-progress-fill');
-        if (fill) fill.style.width = `${pct}%`;
-    }
-
-    function jumpToQuestion(index) {
-        if (session.mode === 'question') {
-            currentQuestionIndex = index;
-            renderQuestionByQuestion();
             if (window.innerWidth <= 1024) toggleSidebar();
-        } else {
-            const cards = document.querySelectorAll('.question-card');
-            if (cards[index]) {
-                cards[index].scrollIntoView({ behavior: 'smooth', block: 'center' });
-                cards[index].style.borderColor = 'var(--primary)';
-                setTimeout(() => cards[index].style.borderColor = 'var(--border)', 2000);
-
-                if (window.innerWidth <= 1024) toggleSidebar();
-            }
         }
     }
+}
 
 
 
-    function toggleQuestionMark(index) {
-        if (examState.marked[index]) {
-            delete examState.marked[index];
-        } else {
-            examState.marked[index] = true;
-        }
-        saveExamState();
-        updateSidebarUI();
+function toggleQuestionMark(index) {
+    if (examState.marked[index]) {
+        delete examState.marked[index];
+    } else {
+        examState.marked[index] = true;
     }
+    saveExamState();
+    updateSidebarUI();
+}
 
-    function preSubmitValidation() {
-        const total = getQuestionList().length;
-        const answered = Object.keys(examState.answers).length;
-        const marked = Object.keys(examState.marked).length;
+function preSubmitValidation() {
+    const total = getQuestionList().length;
+    const answered = Object.keys(examState.answers).length;
+    const marked = Object.keys(examState.marked).length;
 
-        if (answered < total || marked > 0) {
-            document.getElementById('unanswered-count').textContent = total - answered;
-            document.getElementById('unanswered-warning').style.display = (answered < total) ? 'block' : 'none';
+    if (answered < total || marked > 0) {
+        document.getElementById('unanswered-count').textContent = total - answered;
+        document.getElementById('unanswered-warning').style.display = (answered < total) ? 'block' : 'none';
 
-            document.getElementById('marked-count').textContent = marked;
-            document.getElementById('marked-warning').style.display = (marked > 0) ? 'block' : 'none';
+        document.getElementById('marked-count').textContent = marked;
+        document.getElementById('marked-warning').style.display = (marked > 0) ? 'block' : 'none';
 
-            const modal = document.getElementById('validation-modal');
-            modal.style.display = 'flex';
-        } else {
+        const modal = document.getElementById('validation-modal');
+        modal.style.display = 'flex';
+    } else {
         if (confirm("Are you sure you want to finish your exam and see the results?")) {
             processResults();
         }
     }
+}
+function closeValidationModal() {
+    document.getElementById('validation-modal').style.display = 'none';
+}
+
+function openReportModal(index) {
+    const questions = getQuestionList();
+    const capitalize = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+    document.getElementById('report-q-index').value = index;
+    const infoText = `Subject: ${capitalize(session.subject)} | Type: ${session.type.toUpperCase()} | Year: ${session.year} | Q${index + 1}`;
+    document.getElementById('report-info').innerText = infoText;
+    document.getElementById('report-modal').style.display = 'flex';
+}
+
+function closeReportModal() {
+    document.getElementById('report-modal').style.display = 'none';
+    document.getElementById('report-form').reset();
+}
+
+document.getElementById('report-form').onsubmit = async function (e) {
+    e.preventDefault();
+    const btn = document.getElementById('submit-report-btn');
+    const index = document.getElementById('report-q-index').value;
+    const questions = getQuestionList();
+
+    btn.disabled = true;
+    btn.innerText = "Sending...";
+
+    const reportData = {
+        _subject: "Question Report",
+        user_name: document.getElementById('report-name').value,
+        user_email: document.getElementById('report-email').value,
+        exam_info: `${session.subject.toUpperCase()} ${session.type.toUpperCase()} ${session.year}`,
+        question_number: Number(index) + 1,
+        question_text: questions[index].q,
+        issue: document.getElementById('report-reason').value,
+        user_comment: document.getElementById('report-details').value,
+        submitted_at: new Date().toLocaleString()
+    };
+
+    try {
+        const response = await fetch("https://formspree.io/f/mojvjeed", {
+            method: 'POST',
+            body: JSON.stringify(reportData),
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }
+        });
+
+        if (response.ok) {
+            alert("Report sent successfully.");
+            closeReportModal();
+        } else {
+            alert("Failed to send report.");
+        }
+    } catch (err) {
+        alert("Failed to send report.");
+    } finally {
+        btn.disabled = false;
+        btn.innerText = "Send Report";
     }
-    function closeValidationModal() {
-        document.getElementById('validation-modal').style.display = 'none';
-    }
+};
