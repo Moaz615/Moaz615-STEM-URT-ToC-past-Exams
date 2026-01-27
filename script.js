@@ -932,7 +932,16 @@ function processResults() {
 
             reviewHtml += `
             <div class="review-card ${isCorrect ? "status-correct" : "status-wrong"}">
-                <div class="question-text"><strong>Question ${qIndex + 1}:</strong> ${item.q}</div>
+                <div class="question-header-row">
+                    <div class="question-text"><strong>Question ${qIndex + 1}:</strong> ${item.q}</div>
+                    <div class="header-actions" style="display: flex; gap: 8px; align-items: center;">
+                        <button class="report-btn-circle" onclick="openReportModal(${qIndex})" title="Report">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M14.4 6L14 4H5V21H7V14H12.6L13 16H20V6H14.4Z"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
                 ${getImagesHtml(item, true)}
                 <p class="${isCorrect ? "correct-tag" : "wrong-tag"}">
                     Your Answer: ${userIndex !== null ? item.options[userIndex] : "No answer"} ${isCorrect ? " &nbsp; ✓" : " &nbsp; ✗"}
