@@ -1300,44 +1300,29 @@ function closeReportModal() {
     document.getElementById('report-form').reset();
 }
 
-document.getElementById('report-form').onsubmit = async function (e) {
+document.getElementById('report-form').onsubmit = function (e) {
     e.preventDefault();
-    const btn = document.getElementById('submit-report-btn');
     const index = document.getElementById('report-q-index').value;
     const questions = getQuestionList();
+    const name = document.getElementById('report-name').value;
+    const email = document.getElementById('report-email').value;
+    const reason = document.getElementById('report-reason').value;
+    const details = document.getElementById('report-details').value;
+    const info = `${session.subject.toUpperCase()} ${session.type.toUpperCase()} ${session.year}`;
 
-    btn.disabled = true;
-    btn.innerText = "Sending...";
+    const subject = encodeURIComponent(`Question Report: ${info} (Q${Number(index) + 1})`);
+    const body = encodeURIComponent(
+        `Reporter Name: ${name}\n` +
+        `Reporter Email: ${email}\n\n` +
+        `Exam Info: ${info}\n` +
+        `Question Number: ${Number(index) + 1}\n` +
+        `Question Text: ${questions[index].q}\n\n` +
+        `Issue: ${reason}\n` +
+        `Additional Details: ${details || "None"}\n\n` +
+        `Submitted at: ${new Date().toLocaleString()}`
+    );
 
-    const reportData = {
-        _subject: "Question Report",
-        user_name: document.getElementById('report-name').value,
-        user_email: document.getElementById('report-email').value,
-        exam_info: `${session.subject.toUpperCase()} ${session.type.toUpperCase()} ${session.year}`,
-        question_number: Number(index) + 1,
-        question_text: questions[index].q,
-        issue: document.getElementById('report-reason').value,
-        user_comment: document.getElementById('report-details').value,
-        submitted_at: new Date().toLocaleString()
-    };
-
-    try {
-        const response = await fetch("https://formspree.io/f/mojvjeed", {
-            method: 'POST',
-            body: JSON.stringify(reportData),
-            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }
-        });
-
-        if (response.ok) {
-            alert("Report sent successfully.");
-            closeReportModal();
-        } else {
-            alert("Failed to send report.");
-        }
-    } catch (err) {
-        alert("Failed to send report.");
-    } finally {
-        btn.disabled = false;
-        btn.innerText = "Send Report";
-    }
+    const mailtoUrl = `mailto:mazmhmd493@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = mailtoUrl;
+    closeReportModal();
 };
