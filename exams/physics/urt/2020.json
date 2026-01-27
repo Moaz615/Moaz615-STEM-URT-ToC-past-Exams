@@ -1,0 +1,274 @@
+{
+    "questions": [
+        {
+            "passage": "<div style='text-align: center'><h2>PASSAGE I</h2></div>In October 2012, Felix Baumgartner, an Austrian skydiver, ascended 39 km to the stratosphere in a capsule carried by a balloon. At 39 km above sea level, he stepped out of the capsule and fell to Earth and landed in New Mexico, USA. On that day he broke several records, including highest freefall and fastest speed in a freefall which was estimated as 1,357.64 km/h. Felix was the first human who travels faster than the speed of sound without machine assistance. The speed of sound is measured in Mach (1 Mach = 310 m/s).<br>{{img0}}<div style='text-align: center'><b>Figure (1) Felix Jump</b></div><br>As Felix fell through air, the force of gravity caused him to continuously speed up. During falling, he experienced an air resistance (a drag force) that acted upward and opposed the force of gravity.<br><br>This air resistance depends basically on the size and shape of the falling object. Objects with a large surface area (like a parachute) will have a much lower terminal velocity than objects with a smaller surface area (like a person falling from a plane).<br><br>Also, the air resistance depends on several factors, including the speed at which the object is falling (v), the surface area of the object (A), the density of the air (d) and the drag coefficient (C), which is determined by how aerodynamic the object is. The air resistance (R) can be expressed as: $R = \\frac{1}{2} \\times d \\times A \\times C \\times v^2$.<br><br>The most important factor in determining the air drag force is the velocity of the object. As it speeds up, the drag force gets bigger and bigger. Accordingly, the air resistance to Felix's motion increased as he got faster and faster. Eventually he went so fast that the air resistance became exactly equal to the force of gravity that was causing him to speed up. At that point, the two forces were balanced, and the net force acting on him equal to zero. He did not speed up any more but continued to fall at the same constant velocity. This constant velocity is called the terminal velocity.<br><br>Figure (2) illustrates changes to Felix's velocity with altitude and also the velocity of sound at that altitude as a reference.{{img1}}",
+            "images": [
+                "exams/physics/urt/images/2020_p1_1.png",
+                "exams/physics/urt/images/2020_p1_2.png"
+            ]
+        },
+        {
+            "q": "What causes falling object to reach terminal velocity?",
+            "options": [
+                "The air resistance decreases until it becomes equal to the force of gravity",
+                "The air resistance increases until it becomes equal to the force of gravity",
+                "The force of gravity decreases until it becomes equal to the air resistance",
+                "The force of gravity increases until it becomes equal to the air resistance"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Referring to figure (2), Felix moved at a velocity higher than 1 Mach for a vertical distance of:",
+            "options": [
+                "about 11.0 km",
+                "about 28.0 km",
+                "about 33.5 km",
+                "about 39.0 km"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Referring to figure (2), the drag force due to the air resistance against Felix's motion as he fell freely was the greatest at the point:",
+            "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "What do you expect to happen to Felix's velocity when he opened the parachute?",
+            "options": [
+                "It remained constant at a terminal velocity equal to 50 m/s.",
+                "It remained constant at a terminal velocity slightly greater than 50 m/s.",
+                "It increased till reaching a terminal velocity higher than 50 m/s.",
+                "It dropped till reaching a terminal velocity much less than 50 m/s."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "What reason causes the speed of sound to increase as the altitude decreases?",
+            "options": [
+                "the decrease in air density.",
+                "the increase in air density.",
+                "the increase in force of gravity.",
+                "the increase in free fall acceleration."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Two skydivers who weigh the same were dropped from a plane at the same time. The skydiver (V) dived pointing almost vertically, while the skydiver (H), stretched his body almost horizontally. Five seconds later, (before they open parachute):",
+            "image": "exams/physics/urt/images/2020_q6.png",
+            "options": [
+                "They reach the same terminal velocity.",
+                "They move at the same acceleration.",
+                "The skydiver (H) experiences a greater acceleration.",
+                "The skydiver (V) experiences a greater acceleration."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Which graph would represent the acceleration of motion if Felix repeated a similar skydive 39 km high abovr the surface of the moon?",
+            "options": [
+                "<img src='exams/physics/urt/images/2020_q7_a.png' alt='Graph A'/>",
+                "<img src='exams/physics/urt/images/2020_q7_b.png' alt='Graph B'/>",
+                "<img src='exams/physics/urt/images/2020_q7_c.png' alt='Graph C'/>",
+                "<img src='exams/physics/urt/images/2020_q7_d.png' alt='Graph D'/>"
+            ],
+            "correct": 2
+        },
+        {
+            "passage": "<center><h2>Passage II</h2></center><p>Some investigations are carried out to explore the rate of heating and cooling in different circumstances.</p><h3>Investigation (1):</h3><p>The temperature inside a parked car can dramatically rise to life-threatening levels especially if the sun is shining. That contradicts the idea that a parked car can be a safe place for a child or pet.</p><p>The air temperature outside a parking car on a sunny day was recorded. Also, the temperature inside the car was recorded every 10 minutes over an hour. The process was repeated on different days (as shown in Table 1).</p><center><strong>Table (1)</strong></center><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><tr><td>Air temperature outside the car</td><td>Day (1)</td><td>Day (2)</td><td>Day (3)</td><td>Day (4)</td><td>Day (5)</td></tr><tr><td></td><td>21.1°C</td><td>23.8°C</td><td>26.7°C</td><td>29.4°C</td><td>32.2°C</td></tr></table><br><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th rowspan='2'>Elapsed time (minutes)</th><th colspan='5'>Air temperatures inside the car</th></tr><tr><th>Day (1)</th><th>Day (2)</th><th>Day (3)</th><th>Day (4)</th><th>Day (5)</th></tr></thead><tbody><tr><td>10</td><td>31.7°C</td><td>34.4°C</td><td>37.3°C</td><td>40.0°C</td><td>42.8°C</td></tr><tr><td>20</td><td>37.2°C</td><td>40.0°C</td><td>42.8°C</td><td>45.6°C</td><td>48.3°C</td></tr><tr><td>30</td><td>40.0°C</td><td>42.8°C</td><td>45.6°C</td><td>48.3°C</td><td>51.1°C</td></tr><tr><td>40</td><td>42.2°C</td><td>45.0°C</td><td>47.8°C</td><td>50.6°C</td><td>53.3°C</td></tr><tr><td>50</td><td>43.9°C</td><td>46.6°C</td><td>49.4°C</td><td>52.2°C</td><td>55.0°C</td></tr><tr><td>60</td><td>45.0°C</td><td>47.6°C</td><td>50.6°C</td><td>53.3°C</td><td>56.1°C</td></tr></tbody></table><hr><h3>Investigation (2):</h3><p>The rate of heat loss from liquid was investigated. The volume of liquid in a calorimeter that had initial temperature $42\\text{°C}$ each time in the experiment was varied. The temperature of water was measured once every 60 seconds for a period of 5 minutes in the experiment, assuming that the surrounding temperature was kept constant and the experiment was carried out under the same conditions. Table (2) shows the results of the investigation.</p><center><strong>Table (2)</strong></center><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Time (minutes)</th><th>Temperature (°C) of 50 ml</th><th>Temperature (°C) of 75 ml</th><th>Temperature (°C) of 125 ml</th><th>Temperature (°C) of 150 ml</th></tr></thead><tbody><tr><td>0</td><td>42.0</td><td>42.0</td><td>42.0</td><td>42.0</td></tr><tr><td>1</td><td>41.0</td><td>41.3</td><td>41.8</td><td>41.9</td></tr><tr><td>2</td><td>40.0</td><td>40.8</td><td>41.3</td><td>41.6</td></tr><tr><td>3</td><td>39.0</td><td>40.0</td><td>40.5</td><td>40.9</td></tr><tr><td>4</td><td>38.0</td><td>39.7</td><td>40.1</td><td>40.4</td></tr><tr><td>5</td><td>36.0</td><td>38.8</td><td>39.4</td><td>39.6</td></tr></tbody></table>"
+        },
+        {
+            "q": "Based on the data recorded in table (1), what was the most likely air temperature inside the car on the day (3) after three quarters of an hour since temperature had been recorded?",
+            "options": [
+                "45.0 °C",
+                "47.2 °C",
+                "48.8 °C",
+                "50.2 °C"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If a trial was carried out at a temperature of 30 °C outside the car, how long would it take for the air inside the car to reach 42.9 °C?",
+            "options": [
+                "Less than 10 minutes",
+                "between 10 - 20 minutes",
+                "between 20 - 30 minutes",
+                "between 30 - 40 minutes"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Referring to table (1), the average rate of temperature rise over the whole daylong inside the car was:",
+            "options": [
+                "The greatest on day 1",
+                "The greatest on day 3",
+                "The greatest on day 5",
+                "The same on all days"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Based on data in table (1), which graph of the following represents the change in temperature inside the car?",
+            "options": [
+                "<img src='exams/physics/urt/images/2020_q11_a.png' alt='Graph A'/>",
+                "<img src='exams/physics/urt/images/2020_q11_b.png' alt='Graph B'/>",
+                "<img src='exams/physics/urt/images/2020_q11_c.png' alt='Graph C'/>",
+                "<img src='exams/physics/urt/images/2020_q11_d.png' alt='Graph D'/>"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "What independent variable that affect the rate of cooling is investigated?",
+            "options": [
+                "The type of liquid.",
+                "Total duration of time.",
+                "The number of liquid molecules.",
+                "The initial temperature of the liquid."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "According to table (2), the quantity of liquid that first reached a temperature of 40.0 °C, is:",
+            "options": [
+                "50 ml",
+                "75 ml",
+                "125 ml",
+                "150 ml"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "According to table (2), the rate of cooling (the decrease in temperature per unit time) during the five-minute period is the greatest for a quantity of liquid of:",
+            "options": [
+                "150 ml",
+                "125 ml",
+                "75 ml",
+                "50 ml"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Depending on table (2), the average rate of cooling for 100 ml of liquid over a five-minute period would have a value:",
+            "options": [
+                "between 0.50 - 0.52 °C per minute",
+                "between 0.52 - 0.64 °C per minute",
+                "between 0.64 - 1.20 °C per minute",
+                "more than 1.20 °C per minute"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "According to table (2), when the five-minute period is over, in which quantity of the following the average kinetic energy of the liquid molecules was the greatest?",
+            "options": [
+                "In 50 ml",
+                "In 75 ml",
+                "In 125 ml",
+                "In 150 ml"
+            ],
+            "correct": 3
+        },
+        {
+            "passage": "<center><h2>Passage III</h2></center><p>The action of a simple bi-convex thin lens is governed by the principles of refraction (which is a function of lens curvature radius and refractive index), and can be understood with the aid of a few simple rules about the geometry involved in tracing light rays through the lens. The distance between the lens and the object is known as the <strong>object distance</strong>, and the distance from the lens to the image is termed the <strong>image distance</strong>. Most properties of an image can be defined via its magnification factor (M).</p><p style='text-align: center;'>{{img0}}$$\\text{Magnification factor} = \\frac{\\text{height of image}}{\\text{height of object}} = \\frac{\\text{image distance}}{\\text{object distance}}$$</p><p>Two groups of students investigated how variations in the refractive index and radius of a bi-convex lens affect the relationship between the object and the image produced by the lens. Each group used a symmetrical bi-convex thin lens made of a certain type of glass whose refractive index of 1.50 and a radius of 70 millimeters, as a default lens, to form an image of the object positioned 140 millimeters from the lens.</p><h3>Investigation (1):</h3><p>What change may happen to the action of the lens when lenses of the same type of glass (same refractive index) but of different radii are used instead of the default lens?</p><h3>Investigation (2):</h3><p>What change may happen to the action of the lens when lenses of the same radius but of different materials (different refractive indices) are used instead of the default lens?</p><p>The results achieved by students are recorded in the table below:</p><center><strong>Table of Results</strong></center><table border='1' style='width:100%; border-collapse: collapse; text-align: center;'><thead><tr><th>Trial</th><th>Refractive index of lens material</th><th>Radius of lens</th><th>Focal length of lens</th><th>Object position from lens</th><th>Image position from lens</th><th>Magnification of image</th></tr></thead><tbody><tr><td>1</td><td>1.50</td><td>70 mm</td><td>70 mm</td><td>140 mm</td><td>140 mm</td><td>1.00</td></tr><tr><td>2</td><td>1.50</td><td>80 mm</td><td>80 mm</td><td>140 mm</td><td>185 mm</td><td>1.31</td></tr><tr><td>3</td><td>1.50</td><td>90 mm</td><td>89 mm</td><td>140 mm</td><td>250 mm</td><td>1.77</td></tr><tr><td>4</td><td>1.55</td><td>70 mm</td><td>63 mm</td><td>140 mm</td><td>117 mm</td><td>0.82</td></tr><tr><td>5</td><td>1.60</td><td>70 mm</td><td>58 mm</td><td>140 mm</td><td>99 mm</td><td>0.70</td></tr><tr><td>6</td><td>1.65</td><td>70 mm</td><td>54 mm</td><td>140 mm</td><td>88 mm</td><td>0.62</td></tr></tbody></table>",
+            "images": [
+                "exams/physics/urt/images/2020_p3.png"
+            ]
+        },
+        {
+            "q": "As the lens radius is bigger, the lens grows thinner (less rounded) and:",
+            "options": [
+                "its focal length is short.",
+                "its focal length is long.",
+                "its refractive index is high.",
+                "its refractive index is low."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Increasing or decreasing the radius of a bi-convex lens affects:",
+            "options": [
+                "The size of the image but not its position.",
+                "The position of the image but not its size.",
+                "Both the size and the position of the image.",
+                "Neither the size nor the position of the image."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "As the refractive index of the lens material is high, what would happen to the positions of its focal points?",
+            "options": [
+                "The focal point on either side moves closer to the lens.",
+                "The focal point on either side moves further away from the lens.",
+                "The focal points of the lens are fixed points, they remain in position.",
+                "One focal point moves closer while the other moves apart from the lens."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "In these investigations that were carried out by the students, what parameter has no influence on the position of the image formed by the lens?",
+            "options": [
+                "Object Height",
+                "Thickness of lens",
+                "Focal Length of lens",
+                "Refractive index of lens material"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A student used a symmetrical bi-convex thin lens made of material whose refractive index of 1.50 and a radius of 70 millimeters, to form an image of an object positioned 140 millimeters from the lens. What step you make to form an image longer than that object?",
+            "options": [
+                "Increase the object distance by 50 millimeters.",
+                "Use a lens of material whose refractive index 1.65.",
+                "Use a lens of focal length 50 millimeters.",
+                "Use a lens of radius 90 millimeters."
+            ],
+            "correct": 3
+        },
+        {
+            "passage": "<center><h2>Passage IV</h2></center><p>Magnetic, electrostatic force and gravitational forces are the three fundamental non-contact forces in nature. In the next discussion, there two points of view about magnetism.</p><h3>Scientist (1):</h3><p>Attraction of an iron ring to a loadstone (magnetic stone) can be attributed to a stream of tiny particles given off this magnetic stone which blows, and expels all the air in the place between the stone and the iron ring. When air in this area is evacuated and this space is emptied, the particles flowing from the stone were related in shape to those flowing from the iron, so easily interlocked, and after bounding between the stone and the iron become entangled and draw the two together. In other word, \"Tiny particles emanating from the loadstone sweep away the air and consequently, the iron ring is drawn to the loadstone\". The point that causes loadstone not able to attract gold is that the gold is too heavy, so it doesn't move.</p><h3>Scientist (2):</h3><p>The atoms in ferromagnetic materials can behave like little magnets. Normally the magnetic fields around atoms direct randomly resulting in almost nil magnetic. However, if a strong external magnetic field is applied, atoms will align together to produce a stronger magnetic field in the material. They can also keep their alignment even if the external field is removed creating a permanent magnet. Ferromagnetic materials are usually very brittle and will easily chip or fracture if dropped or allowed to slam together. They will also lose their magnetic properties if heated strongly. All of these actions cause the individual atoms to lose their alignment.</p>"
+        },
+        {
+            "q": "How a magnetic material is demagnetized can be explained by:",
+            "options": [
+                "Scientist (1) only.",
+                "Scientist (2) only.",
+                "Both Scientists.",
+                "None of them."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "According to scientist (1)'s point of view, the possible reason for the inability of loadstone to attract gold is that gold atoms:",
+            "options": [
+                "cannot be aligned.",
+                "have no magnetic fields.",
+                "have great atomic weight.",
+                "are not related in shape to the stone atoms."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The inability of a magnet to attract a piece of wood contradicts the argument proposed by:",
+            "options": [
+                "Scientist (1).",
+                "Scientist (2).",
+                "Both Scientists.",
+                "None of them."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Both arguments proposed by the two scientists can offer an explanation for:",
+            "options": [
+                "The repulsion that takes place between two like magnetic poles.",
+                "The suspension of a chain of paper clips by a magnetic pole.",
+                "The ability of the electric current to magnetize an iron nail.",
+                "The capability of a magnet to attract an iron nail."
+            ],
+            "correct": 3
+        }
+    ]
+}
