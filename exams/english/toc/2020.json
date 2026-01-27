@@ -200,7 +200,7 @@
             "correct": 0
         },
         {
-            "q": "A cave is a natural opening in the ground extending beyond the ....... zone of light, and large enough to permit the entry of man.",
+            "q": "A cave is a natural opening in the ground extending beyond the ....... of light, and large enough to permit the entry of man.",
             "options": [
                 "district",
                 "hamlet",
@@ -421,3 +421,4 @@
     ]
 
 }
+
