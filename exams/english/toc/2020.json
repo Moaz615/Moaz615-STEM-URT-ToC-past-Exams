@@ -260,7 +260,7 @@
             "correct": 3
         },
         {
-            "q": "Jewellery was important in ....... nomadic societies and was worn for festive occasions and for displaying wealth.",
+            "q": "Jewellery was important in ....... settled......... nomadic societies and was worn for festive occasions and for displaying wealth.",
             "options": [
                 "just as / when",
                 "either / or",
@@ -421,4 +421,5 @@
     ]
 
 }
+
 
