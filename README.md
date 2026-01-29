@@ -12,7 +12,7 @@ A simple web app for practicing URT and ToC past papers for English, Deutsch, an
 
 ## Try it out
 
-**Live Demo:** [Click Me](https://stem-g12-exams.moaz.site)
+**Live Demo:** [Click Here](https://stem-g12-exams.moaz.site)
 
 ## How it works
 
