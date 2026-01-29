@@ -1,0 +1,280 @@
+{
+    "questions": [
+        {
+            "passage": "<h3><center>Passage I</center></h3><p>When vaporization occurs in an open container, the vapor moves away from the liquid. Little, if any, is recaptured at the surface of the liquid. Equilibrium never occurs, and the vapor continues to form until the liquid evaporates to dryness. Substances with high vapor pressure (such as gasoline) evaporate more quickly than substances with low vapor pressure (such as motor oil). Liquids that evaporate readily are said to be <b>volatile</b>.</p><p>Hot water evaporates more quickly than cold water because vapor pressure increases with increasing temperature. <b>Figure 1</b> shows the distribution of kinetic energies of the molecules at the surface of a liquid at two temperatures. As the temperature is increased, the molecules move more energetically and more of them can break free from their neighbors and enter the gas phase, increasing the vapor pressure.</p><p>{{img0}}<b>Figure 2</b> depicts the variation in vapor pressure with temperature for four common substances that differ greatly in volatility. Note that the vapor pressure in all cases increases nonlinearly with increasing temperature. The weaker the intermolecular forces in the liquid, the more easily molecules can escape and, therefore, the higher the vapor pressure at a given temperature.</p>{{img1}}<p>The <b>boiling point</b> of a liquid is the temperature at which its vapor pressure equals the external pressure, acting on the liquid surface. At this temperature, the thermal energy of the molecules is great enough for the molecules in the interior of the liquid to break free from their neighbors and enter the gas phase. The boiling point increases as the external pressure increases. The boiling point of a liquid at $101.3 \\text{ kPa}$ pressure is called its <b>normal boiling point</b>.</p>",
+            "images": [
+                "exams/chemistry/urt/images/2023_p1_1.png",
+                "exams/chemistry/urt/images/2023_p1_2.png"
+            ]
+        },
+        {
+            "q": "According to figure 1, As the temperature increases, the rate of molecules escaping into the gas phase .................",
+            "options": [
+                "Decreases, because the molecules have less kinetic energy.",
+                "Increases, because the molecules have more kinetic energy.",
+                "Decreases, because the molecules have more kinetic energy.",
+                "Increases, because the molecules have less kinetic energy."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "According to figure 2 and first paragraph, List the following substances in order of increasing volatility (ethanol, ethylene glycol, diethyl ether, water).",
+            "options": [
+                "Ethylene glycol > Water > Ethanol > Diethyl ether.",
+                "Ethanol > Diethyl ether > Ethylene glycol > Water.",
+                "Water > Ethylene glycol > Diethyl ether > Ethanol.",
+                "Diethyl ether > Ethanol > Water > Ethylene glycol."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The vapor pressure of ethylene glycol at its normal boiling point is ......",
+            "options": [
+                "10 kPa.",
+                "30kPa.",
+                "101.3 kPa.",
+                "120 kPa."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "By using Figure 2, what is the external pressure if ethanol boils at 60°C?",
+            "options": [
+                "about 45 kPa",
+                "about 75 kPa",
+                "90 kPa",
+                "101.3 kPa"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Using the vapor-pressure curves in Figure 2, estimate the boiling point of diethyl ether at an external pressure of 133.7 kPa approximately ..........",
+            "options": [
+                "40°C.",
+                "34.6°C.",
+                "26.2°C.",
+                "20°C."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "In the mountains, water in an open container will boil when ..........",
+            "options": [
+                "its critical temperature exceeds room temperature.",
+                "its vapor pressure equals atmospheric pressure.",
+                "its temperature is 100°C.",
+                "enough energy is supplied to break covalent bonds."
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<h3><center>Passage II</center></h3><p>All substances change temperature when they are heated, but the magnitude of the temperature change produced by a given quantity of heat varies from substance to substance. The temperature changes experienced by an object when it absorbs a certain amount of heat is determined by its <b>heat capacity</b>, denoted (C). The heat capacity of an object is the amount of heat required to raise its temperature by $1\\text{ K}$ (or $1^\\circ\\text{C}$). The greater the heat capacity, the greater the heat required to produce a given increase in temperature.</p> {{img0}}<p>For pure substances the heat capacity is usually given for a specified amount of the substance. The heat capacity of one mole of a substance is called its <i>molar heat capacity</i> ($C_m$). The heat capacity of one gram of a substance is called its <i>specific heat capacity</i>, or merely its <b>specific heat</b> ($C_s$). The specific heat, $C_s$, of a substance can be determined experimentally by measuring the temperature change, $\\Delta T$, that a known mass $m$ of the substance undergoes when it gains or loses a specific quantity of heat $q$:</p>$$\\text{Specific heat} = \\frac{(\\text{quantity of heat transferred})}{(\\text{grams of substance}) \\times (\\text{temperature change})} \\quad \\therefore \\quad C_s = \\frac{q}{m \\times \\Delta T} \\quad [2.1]$$<p>For example, $209\\text{ J}$ is required to increase the temperature of $50.0\\text{ g}$ of water by $1.00\\text{ K}$. Thus, the specific heat of water is: $$C_s = \\frac{209\\text{ J}}{(50.0\\text{ g}) \\times (1.00\\text{ K})} = 4.18\\text{ J/g} \\cdot \\text{K}$$ Notice how the units combine in the calculation. A temperature change in kelvins is equal in magnitude to the temperature change in degrees Celsius: $\\Delta T \\text{ in K} = \\Delta T \\text{ in } ^\\circ\\text{C}$. Therefore, this specific heat for water can also be reported as $4.18\\text{ J/g} \\cdot ^\\circ\\text{C}$, where the unit is pronounced \"Joules per gram-degree Celsius.\"</p><p>Because the specific heat values for a given substance can vary slightly with temperature, the temperature is often precisely specified. The $4.18\\text{ J/g} \\cdot \\text{K}$ value we use here for water, for instance, is for water initially at $14.5^\\circ\\text{C}$ (Figure 1). Water's specific heat at this temperature is used to define the calorie: $1\\text{ cal.} = 4.184\\text{ J}$ exactly.</p><p>When a sample absorbs heat (positive $q$), its temperature increases (positive $\\Delta T$). Rearranging Equation [2.1], we get: $$q = C_s \\times m \\times \\Delta T \\quad [2.2]$$ Thus, we can calculate the quantity of heat a substance gains or loses by using its specific heat together with its measured mass and temperature change. <center><b>Table 1 lists the specific heats of several substances.</b></center></p> <table style=\"width:100%; border-collapse: collapse; text-align: left; border: 1px solid black;\"><thead><tr><th colspan=\"2\" style=\"border: 1px solid black; padding: 8px; text-align: center;\">Elements</th><th colspan=\"2\" style=\"border: 1px solid black; padding: 8px; text-align: center;\">Compounds</th></tr><tr><th style=\"border: 1px solid black; padding: 8px;\">Substance</th><th style=\"border: 1px solid black; padding: 8px;\">Specific Heat (J/g-K)</th><th style=\"border: 1px solid black; padding: 8px;\">Substance</th><th style=\"border: 1px solid black; padding: 8px;\">Specific Heat (J/g-K)</th></tr></thead><tbody><tr><td style=\"border: 1px solid black; padding: 8px;\">N<sub>2</sub>(g)</td><td style=\"border: 1px solid black; padding: 8px;\">1.04</td><td style=\"border: 1px solid black; padding: 8px;\">H<sub>2</sub>O(l)</td><td style=\"border: 1px solid black; padding: 8px;\">4.18</td></tr><tr><td style=\"border: 1px solid black; padding: 8px;\">Al(s)</td><td style=\"border: 1px solid black; padding: 8px;\">0.90</td><td style=\"border: 1px solid black; padding: 8px;\">CH<sub>4</sub>(g)</td><td style=\"border: 1px solid black; padding: 8px;\">2.20</td></tr><tr><td style=\"border: 1px solid black; padding: 8px;\">Fe(s)</td><td style=\"border: 1px solid black; padding: 8px;\">0.45</td><td style=\"border: 1px solid black; padding: 8px;\">CO<sub>2</sub>(g)</td><td style=\"border: 1px solid black; padding: 8px;\">0.84</td></tr><tr><td style=\"border: 1px solid black; padding: 8px;\">Hg(l)</td><td style=\"border: 1px solid black; padding: 8px;\">0.14</td><td style=\"border: 1px solid black; padding: 8px;\">CaCO<sub>3</sub>(s)</td><td style=\"border: 1px solid black; padding: 8px;\">0.82</td></tr></tbody></table>",
+            "images": [
+                "exams/chemistry/urt/images/2023_p2.png"
+            ]
+        },
+        {
+            "q": "Which substance in Table 1 undergoes the greatest temperature change when the same mass of each substance absorbs the same quantity of heat?",
+            "options": [
+                "CH4(g)",
+                "H2O(l)",
+                "N2(g)",
+                "Hg(l)"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "How much heat is needed to warm 250 g of water (about 1 cup) from 22 °C (about room temperature) to 98 °C (near its boiling point)?",
+            "options": [
+                "12.5 x 10^4 J",
+                "10.2 x 10^4 J",
+                "7.9 x 10^4 J",
+                "2.3 x 10^4 J"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Based on table 1, Calculate its molar heat capacity of aluminum.",
+            "options": [
+                "0.9 J/mol.K",
+                "24.3 J/mol.K",
+                "27 J/mol.K",
+                "30 J/mol.K"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "According to passage and table 1, Which will require more heat, increasing the temperature of 1 mol of octane C8H18(l) by a certain amount or increasing the temperature of 1 mol of H2O(l) by the same amount knowing that Cs of octane = 2.22 J/g.K ?",
+            "options": [
+                "One mole of octane, C8H18(l) will require more heat.",
+                "One mole of water, H2O(l) will require more heat.",
+                "Both water and octane will require the same heat.",
+                "One mole of water will require double heat than one mole of octane."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Based on table 2 and figure 1, What amount of heat (in joules) is required to raise the temperature of 1 mole of water by 1 kelvin?",
+            "options": [
+                "4.18 J",
+                "8.22 J",
+                "37.56 J",
+                "75.4 J"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "If you know the specific heat of aluminum, what addition information do you need to calculate the heat capacity of a particular piece of an aluminum component?",
+            "options": [
+                "The temperature change of a particular piece of aluminum component must be known.",
+                "The final temperature of a particular piece of aluminum component must be known.",
+                "The mass of a particular piece of aluminum component must be known.",
+                "The atomic weight of aluminum in a particular piece of aluminum component must be known."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The coinage metals (Group 11) copper, silver, and gold have specific heats of 0.385, 0.233, and 0.129 J/g.K, respectively. Among this group, the specific heat capacity ...................., and the molar heat capacity .................... as the atomic weight increases.",
+            "options": [
+                "increases, increases.",
+                "increases, decreases.",
+                "decreases, increases.",
+                "decreases, decreases."
+            ],
+            "correct": 2
+        },
+        {
+            "passage": "<center><h3>Passage III</h3></center><p>The speed of a chemical reaction – its <b>reaction rate</b> – is the change in the concentration of reactants or products per unit of time. The units for reaction rate are usually molarity per second ($M/s$)—that is, the change in concentration measured in molarity divided by a time interval measured in seconds.</p>{{img0}}<p>Let’s consider the hypothetical reaction $A \\rightarrow B$, depicted in <b>Figure 1</b>. Each red sphere represents $0.01 \\text{ mol}$ of A, each blue sphere represents $0.01 \\text{ mol}$ of B, and the container has a volume of $1.00 \\text{ L}$. At the beginning of the reaction, there is $1.00 \\text{ mol A}$, so the concentration is $1.00 \\text{ mol/L} = 1.00 \\text{ M}$. After $20 \\text{ s}$, the concentration of A has fallen to $0.54 \\text{ M}$ and the concentration of B has risen to $0.46 \\text{ M}$. The sum of the concentrations is still $1.00 \\text{ M}$ because $1 \\text{ mol}$ of B is produced for each mole of A that reacts.</p><p>The rate of this reaction can be expressed either as the rate of disappearance of reactant A or as the rate of appearance of product B. The <i>average rate of appearance</i> of B over a particular time interval is given by the change in concentration of B divided by the change in time:</p>$$\\text{Average rate of appearance of B} = \\frac{\\text{change in concentration of B}}{\\text{change in time}} = \\frac{[B] \\text{ at } t_2 - [B] \\text{ at } t_1}{t_2 - t_1} = \\frac{\\Delta [B]}{\\Delta t} \\quad [3-1]$$<p>We use brackets around a chemical formula, as in $[B]$, to indicate molarity. The average rate of appearance of B over the $20 \\text{ s}$ interval from the beginning of the reaction ($t_1 = 0 \\text{ s}$ to $t_2 = 20 \\text{ s}$) is:</p>$$\\text{Average rate} = \\frac{0.46M - 0.00M}{20 \\text{ s} - 0 \\text{ s}} = 2.3 \\times 10^{-2} M/s$$<p>We could equally well express the reaction rate in terms of the reactant, A. In this case, we would be describing the rate of disappearance of A, which we express as:</p>$$\\text{Average rate of disappearance of A} = -\\frac{\\text{change in concentration of A}}{\\text{change in time}} = -\\frac{[A] \\text{ at } t_2 - [A] \\text{ at } t_1}{t_2 - t_1} = -\\frac{\\Delta [A]}{\\Delta t} \\quad [3-2]$$<p>Notice the minus sign in this equation, which we use to indicate that the concentration of A decreases. By convention, rates are always expressed as positive quantities. Because $[A]$ decreases, $\\Delta [A]$ is a negative number. The minus sign we put in the equation converts the negative $\\Delta [A]$ to a positive rate of disappearance. Because one molecule of A is consumed for every molecule of B that forms, the average rate of disappearance of A equals the average rate of appearance of B:</p>$$\\text{Average rate} = -\\frac{\\Delta [A]}{\\Delta t} = -\\frac{0.54M - 1.00M}{20 \\text{ s} - 0 \\text{ s}} = 2.3 \\times 10^{-2} M/s$$",
+            "images": [
+                "exams/chemistry/urt/images/2023_p3.png"
+            ]
+        },
+        {
+            "q": "From the data in Figure 1, calculate the average rate at which A disappears over the time interval from 20 s to 40 s.",
+            "options": [
+                "2.7 x 10^-2 M/s",
+                "1.5 x 10^-2 M/s",
+                "1.2 x 10^-2 M/s",
+                "0.6 x 10^-2 M/s"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "From Figure 1, Assume that you estimate the number of moles of A in the mixture after 30.s and it was 0.42M, calculate the average rate at which B appears over the time interval from 20 s to 30 s.",
+            "options": [
+                "5.8 x 10^-2 M/s",
+                "4.2 x 10^-2 M/s",
+                "1.9 x 10^-2 M/s",
+                "1.4 x 10^-2 M/s"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "If the experiment in Figure 1 is run for 60 s, 0.16 mol A remain. Which of the following statements is or are true? \\n (i) After 60 s there are 0.84 mol B in the flask. \\n (ii) The decrease in the number of moles of A from $t_1 = 0$ s to $t_2 = 20$ s is greater than that from $t_1 = 40$ to $t_2 = 60$ s. \\n (iii) The average rate for the reaction from $t_1 = 40$ s to $t_2 = 60$ s is $7.0 \\times 10^{-3}$ M/s.",
+            "options": [
+                "Statements (i) and (ii) are true.",
+                "Statements (ii) and (iii) are true.",
+                "Statements (i) and (iii) are true.",
+                "All three statements are true."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Use the data in Figure 1, to calculate the average rate of appearance of B over the time interval from 0 s to 40 s.",
+            "options": [
+                "0.6 x 10^-2 M/s.",
+                "0.8 x 10^-2 M/s.",
+                "1.8 x 10^-2 M/s.",
+                "3.5 x 10^-2 M/s."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Or the following gas-phase reaction, indicate how the rate of disappearance of reactant is related to the rate of appearance of each product: $$N_2O_{4(g)} \\rightarrow 2 NO_{2(g)}$$",
+            "options": [
+                "$\\Delta [N_2O_4] / \\Delta t = \\Delta [NO_2] / \\Delta t$",
+                "-$\\Delta [N_2O_4] / \\Delta t = \\Delta [NO_2] / \\Delta t$",
+                "$[N_2O_4] = [NO_2]$",
+                "- $\\Delta [NO_2] / \\Delta t = \\Delta [N_2O_4] / \\Delta t$"
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<center><h3>Passage IV</center></h3><p>With growing evidence that the atom is composed of smaller particles, scientists gave attention to how the particles fit together. During the early 1900s, <b>Thomson</b> reasoned that because electrons contribute only a very small fraction of an atom's mass, they probably are responsible for an equally small fraction of the atom's size. He proposed that the atom consists of a uniform positive sphere of matter in which the mass is evenly distributed and in which the electrons are embedded like raisins in a pudding or seeds in a watermelon (<b>Figure 1</b>). This <i>plum-pudding model</i>, named after a traditional English dessert, was very short-lived.</p>{{img0}}<p>In 1910, <b>Rutherford</b> was studying the angles at which $\\alpha$ particles were deflected, or <i>scattered</i>, they passed through a thin sheet of gold foil (<b>Figure 2</b>){{img1}}. He discovered that almost all the particles passed directly through the foil without deflection, with a few particles deflected about $1^\\circ$, consistent with Thomson's plum-pudding model. For the sake of completeness, Rutherford suggested that Ernest Marsden (1889&ndash;1970), an undergraduate student working in the laboratory, look for scattering at large angles. To everyone's surprise, a small amount of scattering was observed at large angles, with some particles scattered back in the direction from which they had come. The explanation for these results was not immediately obvious, but they were clearly inconsistent with Thomson's plum-pudding model.</p><p><b>Rutherford</b> explained the results by postulating the <b>nuclear model</b> of the atom, in which most of the mass of each gold atom and all of its positive charge reside in a very small, extremely dense region that he called the <b>nucleus</b>. He postulated further that most of the volume of an atom is empty space in which electrons move around the nucleus. In the $\\alpha$-scattering experiment, most of the particles passed through the foil unscattered because they did not encounter the minute nucleus of any gold atom. Occasionally, however, a particle came close to a gold nucleus. In such encounters, the repulsion between the highly positive charge of the gold nucleus and the positive charge of the $\\alpha$ particle was strong enough to deflect the particle, as shown in <b>Figure 2</b>.</p><p>Subsequent experiments led to the discovery of positive particles (<b>protons</b>) and neutral particles (<b>neutrons</b>) in the nucleus. Protons were discovered in 1919 by Rutherford and neutrons in 1932 by British scientist James Chadwick (1891&ndash;1972). Thus, the atom is composed of electrons, protons, and neutrons.</p>",
+            "images": [
+                "exams/chemistry/urt/images/2023_p4_1.png",
+                "exams/chemistry/urt/images/2023_p4_2.png"
+            ]
+        },
+        {
+            "q": "Which of the following best describes to the plum-pudding model of the atom?",
+            "options": [
+                "The atom, in which most of the mass of atom and all of its positive charge reside in a very small, extremely dense region that he called the nucleus.",
+                "The atom consists of a uniform positive sphere of matter in which the mass is evenly distributed and in which the electrons are embedded in it.",
+                "The atom is composed of electrons, protons, and neutrons.",
+                "The atom is composed of protons and neutral particles neutrons in the nucleus"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "In Rutherford's experiment, a thin gold foil was bombarded with alpha particles. According to Thomson's 'plum-pudding' model of the atom, what should have happened?",
+            "options": [
+                "All the alpha particles would have been deflected by the foil.",
+                "All the alpha particles should have bounced straight back from the foil.",
+                "Alpha particles should have passed through the foil with little or no deflection.",
+                "Alpha particles should have become embedded in the foil."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "According to figure 2, What is the charge on the particles that form the beam? Will they be attracted to or repelled from the positively charged gold nuclei?",
+            "options": [
+                "The beam consists of proton, which carry a +ve charge. They are repelled from the positively charged gold nuclei.",
+                "The beam consists of gamma ray, which neutral charge. They are attracted to the positively charged gold nuclei.",
+                "The beam consists of beta particles, which carry a -ve charge. They are attracted to the positively charged gold nuclei.",
+                "The beam consists of alpha particles, which carry a +2 charge. They are repelled from the positively charged gold nuclei."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The particles which were deflected backward in Rutherford's experiment were hit upon by................",
+            "options": [
+                "Nucleus.",
+                "Empty space.",
+                "Electron.",
+                "Proton."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "In Rutherford's gold foil experiment, some of the alpha particles passed straight through the gold foil, completely undeflected. What could Rutherford conclude from this observation?",
+            "options": [
+                "Alpha particles have a positive charge.",
+                "Electrons have a positive charge.",
+                "The atom is made up of mostly empty space.",
+                "There must be a small, positively charged dense area within the atom."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "What would you expect about the number of alpha particles scattered at large angles in Rutherford's experiment as the thickness of the gold foil increases? As the thickness of the gold foil increases ......... .",
+            "options": [
+                "there is a higher probability that the alpha particle will collide with a nucleus as it passes through the foil, decreasing the number of alpha particles scattered at large angles.",
+                "there is a higher probability that the alpha particle will collide with a nucleus as it passes through the foil, increasing the number of alpha particles scattered at large angles.",
+                "there is a higher probability that the alpha particle will collide with a nucleus as it passes through the foil, stay the same number of alpha particles scattered at large angles.",
+                "there is a lower probability that the alpha particle will collide with a nucleus as it passes through the foil, increasing the number of alpha particles scattered at large angles."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Neutrons were discovered by ............................",
+            "options": [
+                "J. J. Thomson.",
+                "Ernest Rutherford.",
+                "James Chadwick.",
+                "Ernest Marsden."
+            ],
+            "correct": 2
+        }
+    ]
+}
