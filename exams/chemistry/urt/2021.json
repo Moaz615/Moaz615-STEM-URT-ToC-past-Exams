@@ -132,7 +132,7 @@
                 "8 days",
                 "10 days"
             ],
-            "correct": 0
+            "correct": 1
         },
         {
             "q": "Based on Table (1), what is the relationship between decay energy and the type of particle emitted?",
@@ -273,4 +273,5 @@
             "correct": 3
         }
     ]
+
 }
