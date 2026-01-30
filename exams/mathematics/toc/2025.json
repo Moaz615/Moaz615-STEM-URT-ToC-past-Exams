@@ -133,7 +133,7 @@
             "correct": 2
         },
         {
-            "q": "In a study of dog populations, the known population mean is $\\mu=25.$ A sample of size $n=49$ is taken, and the alternative hypothesis is $H_{1}$: $\\mu\\ne25$ Given that the sample mean is not equal to 25, and the calculated test statistics is one of the following, what is its value?",
+            "q": "In a study of dog populations, the known population mean is $\\mu=25.$ A sample of size $n=49$ is taken, and the alternative hypothesis is $H_{1}$: $\\mu\\ne25$ Given that the sample mean is not equal to 25, and the calculated test statistics is one of the following, what is its value?<br><br><center>The question is probably incorrect, please choose the answer \"D\"</center>",
             "options": [
                 "-0.9",
                 "-0.8",
@@ -360,3 +360,4 @@
     ]
 
 }
+
