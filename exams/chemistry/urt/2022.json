@@ -1,0 +1,282 @@
+{
+    "questions": [
+        {
+            "passage": "<h3><center>Passage I</center></h3><p>The basic assumptions of the kinetic-molecular theory of gases give us insight into why real gases deviate from ideal behavior. The molecules of an ideal gas are assumed to occupy no space and have no attraction for one another. Real molecules, however, do have finite volumes and do attract one another.</p><p>Another reason for nonideal behavior at high pressures is that the attractive forces between molecules come into play at the short intermolecular distances found when molecules are crowded together at high pressures. Because of these attractive forces, the impact of a given molecule with the container wall is lessened. If we could stop the motion in a gas, as a result, the gas pressure is less than that of an ideal gas. This effect decreases $PV/RT$ to below its ideal value, as seen at the lower pressures in Figures 1 and 2. When the pressure is sufficiently high, however, the volume effects dominate and $PV/RT$ increases to above the ideal value.</p><p>The ideal-gas equation is: $\\frac{PV}{RT} = n$.<br>This form of the equation tells us that for 1 mol of ideal gas, the quantity $\\frac{PV}{RT}$ equals 1 at all pressures. In Figure 1, $\\frac{PV}{RT}$ is plotted as a function of P for 1 mol of several real gases. At high pressures (generally above 1.013 MPa), the deviation from ideal behavior ($\\frac{PV}{RT} = 1$) is clearly seen.</p> {{img0}}<center><b>Figure 1:</b> The effect of pressure on the behavior of several real gases. Data for 1 mol of gas in all cases. Data for $N_2$, $CH_4$, and $H_2$ are at 300 K; for $CO_2$ data are at 313 K because under high pressure $CO_2$ liquefies at 300 K.</center><br>{{img1}}<center><b>Figure 2:</b> The effect of temperature and pressure on the behavior of nitrogen gas.</center><br>",
+            "images": [
+                "exams/chemistry/urt/images/2022_p1_1.png",
+                "exams/chemistry/urt/images/2022_p1_2.png"
+            ]
+        },
+        {
+            "q": "Real gases deviate from ideal behavior when:",
+            "options": [
+                "the volume of the molecules is negligible.",
+                "the density of the gas decreases.",
+                "the intermolecular forces affect the motion of the molecules.",
+                "the attractive forces between molecules are negligible"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "According to figure 1, all gases show ideal behavior; that is their PV/RT values all converge to 1 as pressure approaches:",
+            "options": [
+                "100 MPa.",
+                "60 MPa.",
+                "20 MPa.",
+                "Zero MPa."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "According to figure 1, which gas shows ideal behavior at 50 MPa?",
+            "options": [
+                "N₂",
+                "CO₂",
+                "CH₄",
+                "H₂"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The properties of $N_{2(g)}$ will deviate more from ideality at:",
+            "options": [
+                "1000 K.",
+                "800 K.",
+                "400 K.",
+                "200 K."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "From figure 1 and 2 a real gas most closely approaches the behavior of an ideal gas under conditions of:",
+            "options": [
+                "high pressure and low temperature.",
+                "low pressure and high temperature.",
+                "low pressure and temperature.",
+                "high pressure and temperature."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "From figure 2 shows that, at pressures below about 40 MPa.....",
+            "options": [
+                "cooling increases the extent to which a gas deviates from ideal behavior.",
+                "cooling decreases the extent to which a gas deviates from ideal behavior.",
+                "heating increases the extent to which a gas deviates from ideal behavior.",
+                "heating decreases the extent to which a gas converges from ideal behavior."
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<h3><center>PASSAGE II</center></h3><p>The vapor–pressure curves for the liquid and solid phases meet at the triple point. In Figure 1, we see that the triple-point temperature of the solution is lower than the triple-point temperature of pure liquid.</p><p>It is easy to see in Figure 1, that the triple-point temperature of the solution is lower than that of the pure liquid, but it is also true for all points along the solid–liquid equilibrium curve: <i>the freezing point of the solution is lower than that of the pure liquid.</i></p>{{img0}}<p>Like the boiling-point elevation, the change in freezing point $\\Delta T_f$ is directly proportional to solute molality ($\\text{Molality} = \\frac{\\text{moles of solute}}{\\text{kilograms of solvent}}$), taking into account the Van’t Hoff factor $i$ (For a nonelectrolyte, we can always assume $i = 1$; for an electrolyte, $i$ will depend on how the substance ionizes in that solvent. For instance, $i = 2$ for NaCl in water, assuming complete dissociation of ions. As a result, we expect the freezing-point depression of a 0.1m aqueous solution of NaCl is nearly twice than that of 0.1 m of 0.1 glucose solution):</p><p>$$\\Delta T_f = T_f(\\text{solution}) - T_f(\\text{solvent}) = -i K_f m$$</p><p>The proportionality constant $K_f$ is the molal freezing-point-depression constant, analogous to $K_b$ for boiling-point elevation. Note that because the solution freezes at a <i>lower</i> temperature than does the pure solvent, the value of $\\Delta T_f$ is <i>negative</i>. Some typical values of $K_b$ and $K_f$ for several common solvents are given in Table 1.</p><p>For water, the table shows $K_b = 0.51\\text{ °C}/m$, which means that the boiling point of any aqueous solution that is $1\\text{ }m$ in nonvolatile solute particles is $0.51\\text{ °C}$ higher than the boiling point of pure water. Because solutions generally do not behave ideally, the constants listed in Table 1, serve well only for solutions that are rather dilute.</p><p>For water, $K_f$ is $1.86\\text{ °C}/m$. Therefore, any aqueous solution that is $1\\text{ }m$ in nonvolatile solute particles (such as $1\\text{ }m$ $\\text{C}_6\\text{H}_{12}\\text{O}_6$ or $0.5\\text{ }m$ $\\text{NaCl}$) freezes at the temperature that is $1.86\\text{ °C}$ lower than the freezing point of pure water.</p> <center><b>TABLE 1:</b> Molal Boiling-Point-Elevation and Freezing-Point-Depression Constants</center><table><thead><tr><th>Solvent</th><th>Normal Boiling Point (°C)</th><th>$K_b$ (°C/m)</th><th>Normal Freezing Point (°C)</th><th>$K_f$ (°C/m)</th></tr></thead><tbody><tr><td>Water, H<sub>2</sub>O</td><td>100.0</td><td>0.51</td><td>0.0</td><td>1.86</td></tr><tr><td>Benzene, C<sub>6</sub>H<sub>6</sub></td><td>80.1</td><td>2.53</td><td>5.5</td><td>5.12</td></tr><tr><td>Ethanol, C<sub>2</sub>H<sub>5</sub>OH</td><td>78.4</td><td>1.22</td><td>-114.6</td><td>1.99</td></tr><tr><td>Carbon tetrachloride, CCl<sub>4</sub></td><td>76.8</td><td>5.02</td><td>-22.3</td><td>29.8</td></tr><tr><td>Chloroform, CHCl<sub>3</sub></td><td>61.2</td><td>3.63</td><td>-63.5</td><td>4.68</td></tr></tbody></table>",
+            "images": [
+                "exams/chemistry/urt/images/2022_p2.png"
+            ]
+        },
+        {
+            "q": "Based on figure 1, the triple-point temperature of the solution is lower than the triple-point temperature of pure liquid because the solution has:",
+            "options": [
+                "a lower vapor pressure than the pure liquid.",
+                "a higher vapor pressure than the pure liquid.",
+                "the same vapor pressure of the pure liquid.",
+                "the double vapor pressure of pure liquid."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "A solute dissolved in water causes the boiling point to increase by $0.51^{\\circ}C$. So this necessarily means that the concentration of the:",
+            "options": [
+                "solute is 1.0 m.",
+                "solute is 0.5 m.",
+                "solvent is 1.0 m.",
+                "solvent is 0.5 m."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "According to the passage, the change in freezing point $\\Delta T_{f}$ is negative because:",
+            "options": [
+                "the pure solvent freezes at a lower temperature than does the solution.",
+                "the pure solvent freezes at a higher temperature than does the solution.",
+                "the solution freezes at a higher temperature than does the pure solvent.",
+                "the solution freezes at the same temperature that does the pure solvent."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "For Ethanol, the table shows $K_{f}=1.99^{\\circ}C/m,$ which means that:",
+            "options": [
+                "any Ethanol solution that is 1 m in nonvolatile solute particles freezes at the temperature that is $1.99^{\\circ}C$ higher than the freezing point of pure Ethanol.",
+                "any Ethanol solution that is 1 m in volatile solute particles freezes at the temperature that is $1.99^{\\circ}C$ lower than the freezing point of pure Ethanol.",
+                "any Ethanol solution that is 1 m in volatile solute particles freezes at the temperature that is $1.99^{\\circ}C$ higher than the freezing point of pure Ethanol.",
+                "any Ethanol solution that is 1 m in nonvolatile solute particles freezes at the temperature that is $1.99^{\\circ}C$ lower than the freezing point of pure Ethanol."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Referring to Table 1, the freezing point of a solution containing 0.600 kg of $CHCl_{3}$ and 42.0 g of eucalyptol ($C_{10}H_{18}O$) equals: [C=12, H=1, O=16]",
+            "options": [
+                "$-58.82^{\\circ}C$",
+                "$-63.5^{\\circ}C$",
+                "$-65.6^{\\circ}C$",
+                "$-68.18^{\\circ}C$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The list of the following aqueous solutions in order of decreasing freezing point: 0.080m KBr, 0.130m urea ($CO(NH_{2})_{2}$), 0.070 m $Mg(NO_{3})_{2}$ is:",
+            "options": [
+                "0.080 m KBr < 0.130 m urea < 0.070 m &nbsp;$Mg(NO_{3})_{2}$",
+                "0.130 m urea < 0.080 m KBr < 0.070 m &nbsp;$Mg(NO_{3})_{2}$",
+                "0.070 m &nbsp;$Mg(NO_{3})_{2}$&nbsp; < 0.080 m KBr < 0.130 m urea",
+                "0.130 m urea < 0.070 m &nbsp;$Mg(NO_{3})_{2}$&nbsp; < 0.080 m KBr"
+            ],
+            "correct": 1
+        },
+        {
+            "passage": "<h3><center>PASSAGE III</center></h3><p>Voltaic cells are based on spontaneous redox reactions. It is also possible for <i>nonspontaneous</i> redox reactions to occur, however, by using electrical energy to drive them. For example, electricity can be used to decompose molten sodium chloride into its component elements Na and Cl<sub>2</sub>. Such processes driven by an outside source of electrical energy are called electrolysis reactions and take place in electrolytic cells.</p><p>An electrolytic cell consists of two electrodes immersed either in a molten salt or in a solution. A battery or some other source of electrical energy acts as an electron pump, pushing electrons into one electrode and pulling them from the other. Just as in voltaic cells, the electrode at which reduction occurs is called the cathode, and the electrode at which oxidation occurs is called the anode.</p>{{img0}}<center><b>Figure 1:</b> Electrolysis of molten sodium chloride. Pure NaCl melts at 801 C.</center><p>In the electrolysis of molten NaCl, Na<sup>+</sup> ions gain electrons and are reduced to Na at the cathode, <b>Figure 1</b>. As Na<sup>+</sup> ions near the cathode are depleted, additional Na<sup>+</sup> ions migrate in. Similarly, there is net movement of Cl<sup>-</sup> ions to the anode where they are oxidized.</p><p>Notice how the energy source is connected to the electrodes in <b>Figure 2</b>, to force electrons to move from the anode to the cathode. Because of the high melting points of ionic substances, the electrolysis of molten salts requires very high temperatures. Do we obtain the same products if we electrolyze the aqueous solution of a salt instead of the molten salt? Frequently, the answer is no because water itself might be oxidized to form O<sub>2</sub> or reduced to form H<sub>2</sub> rather than the ions of the salt.</p>{{img1}} <center><b>Figure 2:</b> Electrolytic cell with an active metal electrode. Nickel dissolves from the anode to form $Ni^{2+}$(aq). At the cathode, $Ni^{2+}$(aq) ts reduced and forms a nickel \"plate\" on the steel cathode.</center><p>In our examples of the electrolysis of NaCl, the electrodes are <i>inert</i>; they do not react but merely serve as the surface where oxidation and reduction occur. Several practical applications of electrochemistry, however, are based on <i>active</i> electrodes—electrodes that participate in the electrolysis process. <i>Electroplating</i>, for example, uses electrolysis to deposit a thin layer of one metal on another metal to improve beauty or resistance to corrosion. Examples include electroplating nickel or chromium on to steel and electroplating a precious metal like silver on to a less expensive one.</p><p>Figure 2 illustrates an electrolytic cell for electroplating nickel on to a piece of steel. The electrodes are immersed in a solution of $\\text{NiSO}_{4(aq)}$. When an external voltage is applied, reduction occurs at the cathode. The standard reduction potential of $\\text{Ni}^{2+}$ ($E^\\circ_{\\text{red}} = -0.28\\text{ V}$) is less negative than that of $\\text{H}_2\\text{O}$ ($E^\\circ_{\\text{red}} = -0.83\\text{ V}$), so $\\text{Ni}^{2+}$ is preferentially reduced, depositing a layer of nickel metal on the steel cathode.</p><p>At the anode, the nickel metal is oxidized. To explain this behavior, we need to compare the substances in contact with the anode, $\\text{H}_2\\text{O}$ and $\\text{NiSO}_{4(aq)}$ with the anode material, $\\text{Ni}$. For the $\\text{NiSO}_{4(aq)}$ solution, neither $\\text{Ni}^{2+}$ nor $\\text{SO}_4^{2-}$ can be oxidized (because both already have their elements in their highest common oxidation state). Both the $\\text{H}_2\\text{O}$ solvent and the $\\text{Ni}$ atoms in the anode, however, can undergo oxidation:</p><p>$$\\begin{align} 2\\text{H}_2\\text{O}(l) &\\longrightarrow \\text{O}_2(g) + 4\\text{H}^+(aq) + 4e^- & E^\\circ_{\\text{red}} &= +1.23\\text{ V} \\\\ \\text{Ni}(s) &\\longrightarrow \\text{Ni}^{2+}(aq) + 2e^- & E^\\circ_{\\text{red}} &= -0.28\\text{ V} \\end{align}$$</p><p>The half-reaction with the more negative $E^\\circ_{\\text{red}}$ undergoes oxidation more readily. (The strongest reducing agents, which are the substances oxidized most readily, have the most negative $E^\\circ_{\\text{red}}$ values.) If we look at the overall reaction, it appears as if nothing has been accomplished. However, this is not true because $\\text{Ni}$ atoms are transferred from the $\\text{Ni}$ anode to the steel cathode, plating the steel with a thin layer of nickel atoms.</p>",
+            "images": [
+                "exams/chemistry/urt/images/2022_p3_1.png",
+                "exams/chemistry/urt/images/2022_p3_2.png"
+            ]
+        },
+        {
+            "q": "Based on the passage electrolysis reactions are........",
+            "options": [
+                "spontaneous.",
+                "nonspontaneous.",
+                "spontaneous and nonspontaneous.",
+                "neither spontaneous nor nonspontaneous."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "In Figure 1, the overall reaction for the electrolysis is......",
+            "options": [
+                "2Na⁺(l) + 2e⁻ → 2Na(l)",
+                "2Cl⁻(l) → Cl₂(g) + 2e⁻",
+                "2Na⁺(l) + 2Cl⁻(l) → 2Na(l) + Cl₂(g)",
+                "2Na(l) + Cl₂(g) → 2Na⁺(l) + 2Cl⁻(l)"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "According to Figure 1 and passage, sodium metal is not obtained when an aqueous solution of NaCl undergoes electrolysis because $H_{2}O$ is preferentially:",
+            "options": [
+                "reducing to form $H_{2(g)}.$",
+                "oxidizing to form $H_{2(g)}.$",
+                "reducing to form $O_{2(g)}$.",
+                "oxidizing to form $H_{2}O_{(v)}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "In Figure 2, to force electrons to move from the anode to the cathode, the way which the energy source is connected to the electrodes:",
+            "options": [
+                "The negative terminal is connected to the anode and the positive terminal is connected to the cathode.",
+                "The nickel terminal is connected to the cathode and the steel terminal is connected to the anode.",
+                "The positive terminal is connected to the anode and the negative terminal is connected to the cathode.",
+                "The positive terminal is connected to the cathode and the negative terminal is connected to the anode."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In an electrolytic cell for electroplating nickel on to a piece of steel as in Figure 2, the strongest reducing agent is:",
+            "options": [
+                "H₂O(l)",
+                "Ni(s)",
+                "Ni⁺²(aq)",
+                "O₂(g)"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which one of the following processes can occur in the electrolytic cell for electroplating nickel on a piece of steel after an external voltage is applied?",
+            "options": [
+                "Reduction occurs at the anode.",
+                "Oxidation occurs at the nickel ions.",
+                "Reduction occurs at the nickel atoms.",
+                "Oxidation occurs at the anode."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "The standard emf for the overall reaction $E_{cell}^{\\circ}$ in Figure 2 equals......",
+            "options": [
+                "- 0.56 V",
+                "- 0.28 V",
+                "Zero",
+                "+ 0.56 V"
+            ],
+            "correct": 2
+        },
+        {
+            "passage": "<h3><center>PASSAGE IV</center></h3><p>During the mid-1800s, scientists began to study electrical discharge through a glass tube pumped almost empty of air (Figure 1). When a high voltage was applied to the electrodes in the tube, radiation was produced between the electrodes. This radiation, called cathode rays, originated at the negative electrode and traveled to the positive electrode. Although the rays could not be seen, their presence was detected because they cause certain materials to <i>fluoresce</i>, or to give off light.</p><p>Experiments showed that cathode rays are deflected by electric or magnetic fields in a way consistent with there being a stream of negative electrical charge. The British scientist J. J. Thomson (1856–1940) observed that cathode rays are the same regardless of the identity of the cathode material. In a paper published in 1897, Thomson described cathode rays as streams of negatively charged particles that we now call electrons.</p><p>{{img0}}</p><p>Thomson constructed a cathode-ray tube having a hole in the anode through which the cathode rays could pass. Electrically charged plates and a magnet were positioned perpendicular to the beam, and a fluorescent screen that would give off light when struck with a cathode ray was located at one end (Figure 2). Because the electron is a negatively charged particle, the electric field deflected the rays in one direction, and the magnetic field deflected them in the opposite direction. Thomson adjusted the strengths of the fields so that the effects balanced each other, allowing the electrons to travel in a straight path to the screen. Knowing the strengths that resulted in the straight path made it possible to calculate a value of $1.76 \\times 10^8$ coulombs per gram for the ratio of the electron's electrical charge to its mass.</p><p>{{img1}}</p><p>Once the charge-to-mass ratio of the electron was known, measuring either quantity allowed scientists to calculate the other. In 1909, Robert Millikan (1868–1953) of the University of Chicago succeeded in measuring the charge of an electron by performing the experiment described in Figure 3. He then calculated the mass of the electron by using his experimental value for the charge, $1.602 \\times 10^{-19}$ C, and Thomson’s charge-to-mass ratio, $1.76 \\times 10^8$ C/g:</p><p>$$\\text{Electron mass} = \\frac{1.602 \\times 10^{-19} \\text{ C}}{1.76 \\times 10^8 \\text{ C/g}} = 9.10 \\times 10^{-28} \\text{ g}$$</p><p>This result agrees well with the currently accepted value for the electron mass, $9.10938 \\times 10^{-28}$ g. This mass is about 2000 times smaller than that of hydrogen, the lightest atom.</p><p>{{img2}}</p>",
+            "images": [
+                "exams/chemistry/urt/images/2022_p4_1.png",
+                "exams/chemistry/urt/images/2022_p4_2.png",
+                "exams/chemistry/urt/images/2022_p4_3.png"
+            ]
+        },
+        {
+            "q": "Which of the following may be an incorrect statement regarding cathode ray discharge tube?",
+            "options": [
+                "Presence of negative charge in cathode rays.",
+                "The magnetic field deflects these rays.",
+                "It needs high voltage.",
+                "Protons are present in cathode rays."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "what will happen if the fluorescent screen were removed from the tube?",
+            "options": [
+                "Cathode rays would still be generated but without the fluorescent screen you would not be able to see them.",
+                "Cathode rays would not be generated and you would not be able to see them.",
+                "Cathode rays would still be generated and you would be able to see them.",
+                "Cathode rays would be deflected and you would be able to see them."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "In figure 2, assume that, no magnetic field were applied, what would you expect?",
+            "options": [
+                "The electron beam would be deflected upward because of repulsion by the upper negative plate and attraction toward the positive plate.",
+                "The electron beam would be deflected downward because of repulsion by the positive plate and attraction toward the upper negative plate.",
+                "The electron beam would be deflected downward because of repulsion by the upper negative plate and attraction toward the positive plate.",
+                "The electron beam would be deflected up because of repulsion by the positive plate and attraction toward the upper negative plate."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which of the following is an implication of Thomson’s observation that the type of metal used to make the cathode does not matter?",
+            "options": [
+                "The cathode rays do not originate in the cathode.",
+                "The particles that make up cathode rays must be present in all metals.",
+                "The cathode rays could pass from the hole in the cathode rays' tube.",
+                "The cathode rays could move from negative cathode to positive anode."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Based on figure 3, when electrons accumulate on the oil drops, the masses of oil drops are.....",
+            "options": [
+                "changed significantly because the electrons mass equal $9.10 \\times 10^{-28}$ g.",
+                "changed because the electron's electrical charge to its mass equals $1.76 \\times 10^{8}$ C/g.",
+                "not changed because the electrons are of negligible mass compared with an oil drop.",
+                "not changed because the electrons are negatively charged particles."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "According to the passage, which one of the following statements is agreed with Robert Millikan experimental?",
+            "options": [
+                "Cathode rays are deflected by electric or magnetic fields.",
+                "The electrons to travel in a straight path.",
+                "Electrically charged plates and a magnet were positioned perpendicular to the beam",
+                "The mass of electron is about 2000 times smaller than that of hydrogen."
+            ],
+            "correct": 3
+        }
+    ]
+}
