@@ -1,0 +1,280 @@
+{
+    "questions": [
+        {
+            "passage": "<h3><center>Passage I</center></h3><p>The entropy of a pure, perfect crystalline solid at 0 K is zero and that the entropy increases as the temperature of the crystal is increased. <strong>Figure 1</strong> shows that the entropy of the solid increases steadily with increasing temperature up to the melting point of the solid. When the solid melts, the atoms or molecules are free to move about the entire volume of the sample. The added degrees of freedom increase the randomness of the substance, thereby increasing its entropy. We therefore see a sharp increase in the entropy at the melting point.</p>{{img0}}<center><b>Figure 1</b> Entropy increases with increasing temperature</center><p>After all the solid has melted, the temperature again increases and with it, the entropy.</p><p>At the boiling point of the liquid, another abrupt increase in entropy occurs, this increase as resulting from the increased volume available to the atoms or molecules as they enter the gaseous state. When the gas is heated further, the entropy increases steadily as more energy is stored in the translational motion of the gas atoms or molecules. Another change occurring at higher temperatures is the skewing of molecular speeds toward higher values. The expansion of the range of speeds leads to increased kinetic energy and increased disorder and, hence, increased entropy. Entropy generally increases with increasing temperature because the increased motional energy leads to a greater number of possible microstates. Entropy versus temperature graphs such as <strong>Figure 1</strong>, can be obtained by carefully measuring how the heat capacity of a substance varies with temperature, and we can use the data to obtain the absolute entropies at different temperatures. Entropies are usually tabulated as molar quantities, in units of joules per mole-kelvin (J/mol·K). Molar entropies for substances in their standard states are known as standard molar entropies and denoted $S^\\circ$. <strong>Table 1</strong>, The entropy changes in a chemical reaction:</p><p>$$\\Delta S^\\circ = \\sum n S^\\circ(\\text{products}) - \\sum m S^\\circ(\\text{reactants}) \\quad [1]$$</p><p>As in Equation [1], the coefficients $n$ and $m$ are the coefficients for each reactant and product in the balanced chemical equation for the reaction.</p><br><center><b>TABLE 1</b> Standard Molar Entropies of Selected Substances at 298 K</center><table border=\"1\">  <tr>    <th>Substance</th>    <th>$S^\\circ$ (J/mol·K)</th>  </tr>  <tr><td>$H_2(g)$</td><td>130.6</td></tr>  <tr><td>$N_2(g)$</td><td>191.5</td></tr>  <tr><td>$O_2(g)$</td><td>205.0</td></tr>  <tr><td>$H_2O(g)$</td><td>188.8</td></tr>  <tr><td>$NH_3(g)$</td><td>192.5</td></tr>  <tr><td>$CH_3OH(g)$</td><td>237.6</td></tr>  <tr><td>$C_6H_6(g)$</td><td>269.2</td></tr>  <tr><td>$H_2O(l)$</td><td>69.9</td></tr>  <tr><td>$CH_3OH(l)$</td><td>126.8</td></tr>  <tr><td>$C_6H_6(l)$</td><td>172.8</td></tr>  <tr><td>$Li(s)$</td><td>29.1</td></tr>  <tr><td>$Na(s)$</td><td>51.4</td></tr>  <tr><td>$K(s)$</td><td>64.7</td></tr>  <tr><td>$Fe(s)$</td><td>27.23</td></tr>  <tr><td>$FeCl_3(s)$</td><td>142.3</td></tr>  <tr><td>$NaCl(s)$</td><td>72.3</td></tr></table>",
+            "images": [
+                "exams/chemistry/urt/images/2024_p1.png"
+            ]
+        },
+        {
+            "q": "According to Figure 1, why does the plot show vertical jumps at the melting and boiling points?",
+            "options": [
+                "During a phase change, the temperature remains constant but the entropy change can be large as molecules increase their degrees of freedom and motion.",
+                "During a phase change, the temperature decreases but the entropy change can be large as molecules increase their degrees of freedom and motion.",
+                "During a phase change, the temperature remains constant but the entropy change can be small as molecules decrease their degrees of freedom and motion.",
+                "During a phase change, the temperature increases but the entropy change can be large as molecules decrease their degrees of freedom and motion."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Based on Table 1, which of the following observations about the $S^\\circ$ values is/are true? <br> i- Standard molar entropies of elements at the reference temperature of 298 K are zero. <br> ii- Standard molar entropies generally increase with increasing molar mass. <br> iii- Standard molar entropies generally increase with an increasing number of atoms in the formula of a substance.",
+            "options": [
+                "i and ii only.",
+                "i and iii only.",
+                "ii and iii only.",
+                "i, ii and iii."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The standard molar entropies of gases are greater than those of liquids and solids, as represented in Figure 1, due to....................",
+            "options": [
+                "decrease temperature which increased motional energy leads to a greater number of possible microstates.",
+                "increase temperature which increased motional energy leads to a greater number of possible microstates.",
+                "add degrees of freedom which decrease the randomness of the substance.",
+                "increase kinetic energy and decreased disorder and, hence, increased entropy."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Using the standard molar entropies in Table 1, calculate the standard entropy change, $\\Delta S^\\circ$, for the \"water-splitting\" reaction at 298K. <br> $2 H_2O_2(l) \\rightarrow 2 H_2(g) + O_2(g)$",
+            "options": [
+                "326.3 J/K",
+                "265.7 J/K",
+                "163.2 J/K",
+                "88.5 J/K"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Based on Table 1 and the standard molar entropies of three hydrocarbons in the gas phase in the following diagrams, what might you expect for the value of $S^\\circ$ for butane, $C_4H_{10}$? <br> we would predict that $S^\\circ(C_4H_{10})$ would be between ....................",
+            "image": "exams/chemistry/urt/images/2024_q5.png",
+            "options": [
+                "140 to 145 J/mol K.",
+                "225 to 230 J/mol K.",
+                "310 to 315 J/mol K.",
+                "410 to 415 J/mol K."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "According to Table 1, the change in the standard entropy of the system, $\\Delta S^\\circ$, for the synthesis of ammonia from $N_2(g)$ and $H_2(g)$ at 298 K equals.................... <br> $N_2(g) + 3 H_2(g) \\rightarrow 2 NH_3(g)$",
+            "options": [
+                "$198.3 J/K.$",
+                "$129.6 J/K.$",
+                "$- 129.6 J/K.$",
+                "$- 198.3 J/K.$"
+            ],
+            "correct": 3
+        },
+        {
+            "passage": "<h3><center>Passage II</center></h3><p>Some nuclides, such as $^{12}_6\\text{C}$ and $^{13}_6\\text{C}$ are stable, whereas others, such as $^{14}_6\\text{C}$, are unstable and undergo radioactive decay because like charges repel each other, it may seem surprising that a large number of protons can reside within the small volume of the nucleus. At close distances, however, a strong force of attraction, called the strong nuclear force, exists between nucleons. Neutrons are intimately involved in this attractive force. All nuclei other than $^1_1\\text{H}$ contain neutrons. As the number of protons in a nucleus increases, there is an ever-greater need for neutrons to counteract the proton-proton repulsions. Stable nuclei with atomic numbers up to about 20 have approximately equal numbers of neutrons and protons. For nuclei with atomic number above 20, the number of neutrons exceeds the number of protons. Indeed, the number of neutrons necessary to create a stable nucleus increases more rapidly than the number of protons.</p><p>Thus, the neutron-to-proton ratios of stable nuclei increase with increasing atomic number, as illustrated by the following isotopes: $^{12}_6\\text{C}$ (n/p = 1), manganese, $^{55}_{25}\\text{Mn}$ (n/p = 1.20), and gold $^{197}_{79}\\text{Au}$ (n/p = 1.49).</p><p><strong>Figure 1</strong> shows all known isotopes of the elements through Z = 100 plotted according to their numbers of protons and neutrons. Notice how the plot goes above the line for 1:1 neutron-to-proton for heavier elements. The dark blue dots in the figure represent stable (nonradioactive) isotopes. The region of the graph covered by these dark blue dots is known as the <em>belt of stability</em>. The belt of stability ends at element 83 (bismuth), which means that all nuclei with 84 or more protons are radioactive. For example, all isotopes of uranium, Z = 92, are radioactive. Different radionuclides decay in different ways. The type of decay that occurs depends largely on a nuclide's neutron-to-proton ratio and how it compares with the ratio of nearby nuclei that lie within the belt of stability. We can envision three general situations, which are labeled 1, 2, and 3, in Figure 1.</p>",
+            "image": "exams/chemistry/urt/images/2024_p2.png"
+        },
+        {
+            "q": "According to Figure 1, Which of the following radioactive nuclei is most likely to decay via emission of a $\\beta^-$ particle?",
+            "options": [
+                "$^{13}_7\\text{N}$",
+                "$^{23}_{12}\\text{Mg}$",
+                "$^{83}_{37}\\text{Rb}$",
+                "$^{243}_{90}\\text{Th}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "According to Figure 1, One would predict that the mode of decay of $^{239}_{94}\\text{Pu}$ decays via .............. emission.",
+            "options": [
+                "$\\beta^-$",
+                "$\\alpha$",
+                "$\\gamma$",
+                "$\\beta^+$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Nuclei below the belt of stability can increase their ratio and so move closer to the belt of stability by positron emission because it decays ..............",
+            "options": [
+                "increases the number of neutrons and decrease the number of protons.",
+                "decreases the number of neutrons and increases the number of protons.",
+                "decreases the number of neutrons and decreases the number of protons.",
+                "increases the number of neutrons and increases the number of protons."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "From Figure 1, the belt of stability for a nucleus containing 70 protons lies at approximately .............. neutrons.",
+            "options": [
+                "70",
+                "85",
+                "102",
+                "110"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "A radioisotope has high neutron-to-proton ratios. One would predict that it decays via .............",
+            "options": [
+                "neutron emission.",
+                "alpha emission.",
+                "positron emission.",
+                "beta emission."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Based on the passage complete the following, all nuclei with 84 or more protons are ................. isotopes and tend to undergo.................emission.",
+            "options": [
+                "Nonradioactive, alpha.",
+                "Nonradioactive, beta.",
+                "Radioactive, alpha.",
+                "Radioactive, beta."
+            ],
+            "correct": 2
+        },
+        {
+            "passage": "<h3><center>Passage III</center></h3><p><strong>Enthalpy</strong>, which we denote by the symbol H, is defined as the internal energy plus the product of the pressure, P, and volume, V, of the system: $H = E + PV$ [1]</p><p>Like internal energy E, both P and V are state functions—they depend only on the current state of the system and not on the path taken to that state. Because energy, pressure, and volume are all state functions, enthalpy is also a state function.</p><p>To better understand the significance of enthalpy, recall from Equation [1] that $\\Delta E$ involves not only the heat q added to or removed from the system but also the work w done by or on the system. Most commonly, the only kind of work produced by chemical or physical changes open to the atmosphere is the mechanical work associated with a change in volume.</p><p>The work involved in the expansion or compression of gases is called pressure–volume work (P–V work). When pressure is constant in a process, as in our preceding example, the sign and magnitude of the pressure–volume work are given by $w = -P \\Delta V$ [2] where P is pressure and $\\Delta V = V_{final} - V_{initial}$ is the change in volume of the system.</p><p>When a change occurs at constant pressure, the change in enthalpy, $\\Delta H$, is given by the relationship</p><p>$\\Delta H = \\Delta(E + PV) = \\Delta E + P\\Delta V$ (constant pressure) [3]</p><p>$\\Delta E = q + w$ [4], Substituting $-w$ for $P\\Delta V$ and $q + w$ for $\\Delta E$ into [3], we have</p><p>$\\Delta H = \\Delta E + P\\Delta V = (q_p + w) - w = q_p$ [5]</p><p>The subscript P on q indicates that the process occurs at constant pressure. Thus, the equations show: The change in enthalpy equals the heat $q_p$ gained or lost at constant pressure. When $\\Delta H$ is positive (that is, when $q_p$ is positive), the system has gained heat from the surroundings, which means the process is endothermic. When $\\Delta H$ is negative, the system has released heat to the surroundings.</p>{{img0}}<p>The enthalpy change for a chemical reaction is given by:</p><p>$\\Delta H = H_{products} - H_{reactants}$ [6]</p><p>The enthalpy change that accompanies a reaction is called either the enthalpy of reaction or the heat of reaction and is sometimes written $\\Delta H_{rxn}$, where \"rxn\" is a commonly used abbreviation for \"reaction.\" When we give a numerical value for $\\Delta H_{rxn}$, we must specify the reaction involved.</p><p>For example, when 2 mol $H_2(g)$ burn to form 2 mol $H_2O(g)$ at a constant pressure, the system releases 483.6 kJ of heat. We can summarize this information as:</p><p>$2\\ H_2(g) + O_2(g) \\rightarrow 2\\ H_2O(g)$ &emsp; $\\Delta H = -483.6\\ kJ$ [7]</p><p>The negative sign for $\\Delta H$ tells us that this reaction is exothermic.</p><p>The exothermic nature of this reaction is also shown in the enthalpy diagram in <strong>Figure 1</strong>. Notice that the enthalpy of the reactants is greater (more positive) than the enthalpy of the products.</p><p>Thus, $\\Delta H = H_{products} - H_{reactants}$ is negative.</p><center><b>Figure 1:</b> Exothermic reaction of hydrogen with oxygen</center>",
+            "images": [
+                "exams/chemistry/urt/images/2024_p3.png"
+            ]
+        },
+        {
+            "q": "A fuel is burned in a cylinder equipped with a piston. The initial volume of the cylinder is 0.250 L, and the final volume is 0.980 L. If the piston expands against a constant pressure of 136.8 kPa, how much work (in J) is done?",
+            "options": [
+                "-34.2",
+                "-99.8 J",
+                "-134.1 J",
+                "-192.9"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Calculate the work, in J, if the volume of a system contracts from 1.55 to 0.85 L at a constant pressure of 99.8 kPa.",
+            "options": [
+                "-85 J",
+                "-70 J",
+                "70 J",
+                "85 J"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "According to the passage, A chemical reaction that gives off heat to its surroundings is said to be ................. and has a value of ..................$\\Delta H$.",
+            "options": [
+                "endothermic, positive.",
+                "endothermic, negative.",
+                "exothermic, positive.",
+                "exothermic, negative."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Indicate the sign of the enthalpy change, $\\Delta H$, in an ice cube melts processes carried out under atmospheric pressure and indicate whether each process is endothermic or exothermic.",
+            "options": [
+                "Positive, exothermic.",
+                "negative, exothermic.",
+                "positive, endothermic.",
+                "negative, endothermic."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "If the reaction to form water were written $H_2(g) + \\frac{1}{2} O_2(g) \\rightarrow H_2O(g)$, would you expect the same value of $\\Delta H$ as in Equation 7? Why or why not?",
+            "options": [
+                "No. Because only half as much matter is involved, the value of $\\Delta H$ would be $\\frac{1}{2}$ (− 483.6 KJ) = -241.8 kJ.",
+                "No. Because only half as much matter is involved, the value of $\\Delta H$ would be 2 (−483.6 KJ) = -967.2 kJ.",
+                "Yes. Because it depends on the states of the reactants and product not on amount of reactants.",
+                "Yes. Because it depends on the states of the reactants and product not on amount of products."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Based on the following figure, we can conclude that, reversing a reaction ................",
+            "image": "exams/chemistry/urt/images/2024_q18.png",
+            "options": [
+                "has the same sign and magnitude of the enthalpy change.",
+                "changes the sign but not the magnitude of the enthalpy change.",
+                "changes the magnitude but not the sign of the enthalpy change.",
+                "changes both the sign and the magnitude of the enthalpy change."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "According to the following equation $\\Delta H$ for the reverse of that equation when the amount of reactants become doubled is .....................<br>$CH_4(g) + 2\\ O_2(g) \\rightarrow CO_2(g) + 2\\ H_2O(\\ell)$ &emsp; $\\Delta H = -890\\ kJ$",
+            "options": [
+                "$- 890 KJ$",
+                "$890 KJ$",
+                "$- 1780 kJ$",
+                "$1780 kJ$"
+            ],
+            "correct": 3
+        },
+        {
+            "passage": "<h3><center>Passage IV</center></h3><p><strong>Figure 1</strong> shows a voltaic (or galvanic) cell that uses the redox reaction given in Equation:</p><p>$Zn_{(s)} + Cu^{2+}_{(aq)} \\rightarrow Zn^{2+}_{(aq)} + Cu_{(s)}$ [1]</p><p>In the voltaic cell the Zn metal and $Cu^{2+}_{(aq)}$ are not in direct contact with each other. Instead, Zn metal is in contact with $Zn^{2+}_{(aq)}$ in one compartment, and Cu metal is in contact with $Cu^{2+}_{(aq)}$ in the other compartment. Consequently, $Cu^{2+}_{(aq)}$ reduction can occur only by the flow of electrons through an external circuit, namely, a wire connecting the Zn and Cu strips. Electrons flowing through a wire and ions moving in solution both constitute an electrical current. This flow of electrical charge can be used to accomplish electrical work. Each compartment of a voltaic cell is called a half-cell. One half-cell is the site of the oxidation half-reaction, and the other is the site of the reduction half-reaction. In our present example, Zn is oxidized and $Cu^{2+}$ is reduced:</p><p>Anode (oxidation half-reaction): $Zn_{(s)} \\rightarrow Zn^{2+}_{(aq)} + 2e^-$</p><p>Cathode (reduction half-reaction): $Cu^{2+}_{(aq)} + 2e^- \\rightarrow Cu_{(s)}$</p>{{img0}}<p>Electrons become available as zinc metal is oxidized at the anode. They flow through the external circuit to the cathode, where they are consumed as $Cu^{2+}_{(aq)}$ is reduced. Because $Zn_{(s)}$ is oxidized in the cell, the zinc electrode loses mass, and the concentration of the $Zn^{2+}_{(aq)}$ solution increases as the cell operates. At the same time, the Cu electrode gains mass, and the $Cu^{2+}_{(aq)}$ solution becomes less concentrated as $Cu^{2+}_{(aq)}$ is reduced to $Cu_{(s)}$. For a voltaic cell to work, the solutions in the two half-cells must remain electrically neutral.</p><p>As Zn is oxidized in the anode half-cell, $Zn^{2+}_{(aq)}$ ions enter the solution, upsetting the initial $Zn^{2+}/SO_4^{2-}$ charge balance. To keep the solution electrically neutral, there must be some means for $Zn^{2+}_{(aq)}$ cations to migrate out of the anode half-cell and for anions to migrate in. Similarly, the reduction of $Cu^{2+}_{(aq)}$ at the cathode removes these cations from the solution, leaving an excess of $SO_4^{2-}$ anions in that half-cell. To maintain electrical neutrality, some of these anions must migrate out of the cathode half-cell, and positive ions must migrate in. In fact, no measurable electron flow occurs between electrodes unless a means is provided for ions to migrate through the solution from one half-cell to the other, thereby completing the circuit. In <strong>Figure 1</strong>, a porous glass disc separating the two half-cells allows ions to migrate and maintain the electrical neutrality of the solutions.</p>{{img1}}<p>In <strong>Figure 2</strong>, a salt bridge serves this purpose. The salt bridge consists of a U-shaped tube containing an electrolyte solution, such as $NaNO_{3(aq)}$, whose ions will not react with other ions in the voltaic cell or with the electrodes.</p><p>As oxidation and reduction proceed at the electrodes, ions from the salt bridge migrate into the two half cells: cations migrating to the cathode half-cell and anions migrating to the anode half-cell to neutralize charge in the half-cell solutions. Whichever device is used to allow ions to migrate between half-cells, anions always migrate toward the anode and cations toward the cathode.</p><p><strong>Figure 3</strong> summarizes the various relationships in a voltaic cell.</p>{{img2}}",
+            "images": [
+                "exams/chemistry/urt/images/2024_p4_1.png",
+                "exams/chemistry/urt/images/2024_p4_2.png",
+                "exams/chemistry/urt/images/2024_p4_3.png"
+            ]
+        },
+        {
+            "q": "According to Figure 1 and equation 1, which one of the following is oxidized in this voltaic cell?",
+            "options": [
+                "Cu",
+                "Zn",
+                "$Cu^{+2}$",
+                "$Zn^{+2}$"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Indicate whether each statement is/are true:<br>i. The cathode is the electrode at which oxidation takes place.<br>ii. A galvanic cell is another name for a voltaic cell.<br>iii. Electrons flow spontaneously from anode to cathode in a voltaic cell.",
+            "options": [
+                "i and ii only",
+                "i and iii only",
+                "ii and iii only",
+                "i, ii and iii"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Based on the passage, The following two half-reactions occur in a voltaic cell:<br>$Ni_{(s)} \\rightarrow Ni^{2+}_{(aq)} + 2e^-$ &emsp; (electrode = Ni)<br>$Cu^{2+}_{(aq)} + 2e^- \\rightarrow Cu_{(s)}$ &emsp; (electrode = Cu)<br>Which one of the following descriptions most accurately describes what is occurring in the half-cell containing the Cu electrode and $Cu^{2+}_{(aq)}$ solution?",
+            "options": [
+                "The electrode is losing mass and cations from the salt bridge are flowing into the half-cell.",
+                "The electrode is gaining mass and cations from the salt bridge are flowing into the half-cell.",
+                "The electrode is losing mass and anions from the salt bridge are flowing into the half-cell.",
+                "The electrode is gaining mass and anions from the salt bridge are flowing into the half-cell."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "According to Figure 2, Which of the following the role of the salt bridge?",
+            "options": [
+                "Anions migrate towards the anodic half-cell, and cations migrate towards the cathodic half-cell.",
+                "Cations migrate towards the anodic half-cell, and anions migrate towards the cathodic half-cell.",
+                "Both cations and anions migrate towards the cathodic half-cell.",
+                "Both cations and anions migrate towards the anodic half-cell."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "The two half-reactions in a voltaic cell are:<br>${Zn}_{(s)} \\rightarrow {Zn^{2+}}_{(aq)} + 2e^-$ &nbsp; (electrode = Zn)<br>${ClO_3^-}_{(aq)} + 6\\ {H^+}_{(aq)} + 6e^- \\rightarrow {Cl^-}_{(aq)} + 3\\ {H_2O}_{(\\ell)}$ &nbsp; (electrode = Pt)<br>Indicate which reaction occurs at the anode and which at the cathode.",
+            "options": [
+                "The first and the second reactions occur at the cathode.",
+                "The first and the second reactions occur at the anode.",
+                "The first reaction occurs at the cathode and the second reaction at the anode.",
+                "The first reaction occurs at the anode and the second reaction at the cathode."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Based on figures 2, 3 which of the following statements are true about voltaic cell?<br>i. Electrons flow from the anode through the external circuit to the cathode.<br>ii. A salt bridge is used to allow ions to migrate between half-cells.<br>iii. A salt bridge containing an electrolyte solution, whose ions will react with other ions in the Voltaic cell.",
+            "options": [
+                "i and ii only",
+                "i and iii only",
+                "ii and iii only",
+                "i, ii and iii"
+            ],
+            "correct": 0
+        }
+    ]
+}
