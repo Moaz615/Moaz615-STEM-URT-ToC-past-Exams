@@ -31,7 +31,7 @@
             "correct": 0
         },
         {
-            "q": "Find the value of the following expression $(\\frac{a}{\\omega}-\\frac{a}{\\omega^{2}}+\\frac{3a}{\\omega^{4}}-\\frac{3a^{2}}{\\omega^{5}})^{2}=...$",
+            "q": "Find the value of the following expression $(\\frac{a}{\\omega}-\\frac{a}{\\omega^{2}}+\\frac{3a}{\\omega^{4}}-\\frac{3a}{\\omega^{5}})^{2}=...$",
             "options": [
                 "$-48a^{2}$",
                 "$-16a^{2}$",
@@ -41,7 +41,7 @@
             "correct": 0
         },
         {
-            "q": "For the following expression $y=4~sin^{2}3x+4~cos^{2}3x+4~tan^{2}3x$ if $\\frac{dy}{dx}=m~sec^{2}x~tan~x$ what is the value of m?",
+            "q": "For the following expression $y=4~sin^{2}3x+4~cos^{2}3x+4~tan^{2}3x$ if $\\frac{dy}{dx}=m~sec^{2}3x~tan~3x$ what is the value of m?",
             "options": [
                 "12",
                 "16",
@@ -63,10 +63,10 @@
         {
             "q": "Find the value of the integral expression $\\int\\frac{1}{x^{2}\\sqrt{4-x^{2}}}dx$",
             "options": [
-                "$-\\frac{4x}{\\sqrt{4-x^{2}}}$",
-                "$\\frac{\\sqrt{4+x^{2}}}{4x}$",
-                "$-\\frac{\\sqrt{4-x^{2}}}{4x}$",
-                "$\\frac{4x}{\\sqrt{4+x^{2}}}$"
+                "$-\\frac{4x}{\\sqrt{4-x^{2}}} + C$",
+                "$\\frac{\\sqrt{4+x^{2}}}{4x} + C$",
+                "$-\\frac{\\sqrt{4-x^{2}}}{4x} + C$",
+                "$\\frac{4x}{\\sqrt{4+x^{2}}} + C$"
             ],
             "correct": 2
         },
@@ -94,10 +94,10 @@
         {
             "q": "Find the local maximum of $\\frac{ln~x}{x^{2}}...$",
             "options": [
-                "$(\\sqrt{e}/2,1)$",
+                "$(\\frac{\\sqrt{e}}{2},1)$",
                 "$(2\\sqrt{e},0.1)$",
                 "$(\\sqrt{e},\\frac{1}{2e})$",
-                "$(\\sqrt{e}/4,-5.2)$"
+                "$(\\frac{\\sqrt{e}}{4},-5.2)$"
             ],
             "correct": 2
         },
@@ -358,4 +358,5 @@
             "correct": 0
         }
     ]
+
 }
