@@ -1,0 +1,279 @@
+{
+    "questions": [
+        {
+            "passage": "<h3><center>Passage I</center></h3><p>In solution, solvent molecules tend to move from a region of higher concentration to one of lower concentration. When two different solutions are separated by a <b>semipermeable membrane</b>, in this case the solvent molecules, a net flow of solvent molecules from the side with higher concentration to the side with lower concentration will occur. This net flow through the semipermeable membrane produces a pressure called <b>osmotic pressure</b>, indicated as $\\Pi$. It can be defined as the force that must be applied to prevent the movement of the solvent molecules through a semipermeable membrane.</p><p>At a constant temperature, osmotic pressure is dependent only on a solute's ability to dissociate or ionize in the solvent (<i>van't Hoff factor</i>) and the concentration of solute particles.</p>{{img0}}<sub><center><b>Figure (1)</b> shows the effect of the van 't Hoff factor on the osmotic pressure.</center></sub><br><p>The Osmotic pressure can be calculated using the following equation:</p><p>$$\\Pi = i M R T$$</p><p>where: $\\Pi = \\text{Osmotic pressure}$, $i = \\text{van't Hoff factor}$, $M = \\text{Molar concentration of solution (mol/l)}$, $R = \\text{Ideal gas constant (0.0821 L atm mol}^{-1} \\text{ K}^{-1})$ and $T = \\text{The temperature in Kelvin (K)}$</p><p>Table (1) records van 't Hoff factor for some common substances. Higher van't Hoff factors correlate with greater dissociation or ionization.</p><center><b>Table 1</b></center><table><thead><tr><th>Substance</th><th>van't Hoff factor *</th></tr></thead><tbody><tr><td>glucose</td><td>1.0</td></tr><tr><td>NaCl</td><td>1.9</td></tr><tr><td>MgCl<sub>2</sub></td><td>2.7</td></tr><tr><td>FeCl<sub>3</sub></td><td>3.4</td></tr></tbody></table><center><i>*Values given at 300 K</i></center>",
+            "images": [
+                "exams/chemistry/urt/images/2020_p1.png"
+            ]
+        },
+        {
+            "q": "According to Figure (1), which of the following solutions would exhibit the least osmotic pressure?",
+            "options": [
+                "0.5 M MgCl₂ solution",
+                "0.5 M FeCl₃ solution",
+                "1.0 M Glucose solution",
+                "1.0 M NaCl solution"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "What is the Molar concentration of FeCl₃ solution when the osmotic pressure equal 122 atm. At 300 K?",
+            "options": [
+                "1.20 M.",
+                "1.45 M.",
+                "2.00 M.",
+                "2.60 M."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which of the following solutions would exhibit the closest osmotic pressure to that of a 1.5 M MgCl₂ solution at 300 K, if the gas constant is 0.0821 L atm mol⁻¹ K⁻¹?",
+            "options": [
+                "0.8 M FeCl₃ solution",
+                "1.0 M FeCl₃ solution",
+                "1.5 M NaCl solution",
+                "2.1 M NaCl solution"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "If 2.5 M solutions of various solutes were prepared, which of the following solutions would have the highest level of ionization?",
+            "options": [
+                "Glucose.",
+                "FeCl₃.",
+                "MgCl₂.",
+                "NaCl."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Based on Figure (1), the pressure required to hold solvent concentration across a membrane at equilibrium will only decrease, as the concentration of solute:",
+            "options": [
+                "increases.",
+                "decreases.",
+                "remains constant.",
+                "increases then remains constant."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "A scientist recently discovered a compound that ionizes readily in solution ($i = 4.2$) and results in low osmotic pressure. Are the findings of this scientist consistent with Figure (1)?",
+            "options": [
+                "Yes, because FeCl₃ causes lower osmotic pressure than glucose.",
+                "Yes, because FeCl₃ causes higher osmotic pressure than glucose.",
+                "No, because glucose causes lower osmotic pressure than FeCl₃.",
+                "No, because glucose causes higher osmotic pressure than FeCl₃."
+            ],
+            "correct": 2
+        },
+        {
+            "passage": "<h3><center>Passage II</center></h3><p>In the fifth century B.C., the Greek philosopher Democritus expressed the belief that all matter consists of very small, indivisible particles which he named atomos. The turn of the twentieth century. Two ground-breaking experiments challenged the idea that atoms are the smallest constituent of matter. These experiments were very different, but both pointed to the fact that atoms contained even smaller parts.</p><b>Experiment 1: The Cathode Ray Tube Experiments</b><p>Scientists in the late 1890s investigated a new device known as a cathode ray tube (CRT). When high voltage was applied across the electrodes, inside the CRT mysterious green rays appeared at one end of the tube. These rays were called cathode rays. It was not immediately known if these rays were a type of wave or particle, but several experiments were conducted on them. First it was discovered that the rays would always be attracted to an area of excess positive charge and away from an area of excess negative charge. Precise measurements could not determine the exact mass of the cathode rays, but it was determined that they did have mass. After that discovery, the rays were considered a particle instead of a wave.</p> <p>The mass-to-charge ratio of the cathode rays was determined to be more than 1,000 times smaller than the same ratio for any known atom or ion.</p><b>Experiment 2: The Gold Foil Experiment</b><p>At the time, the accepted model of the atom was a relatively solid sphere, an experiment in 1911 brought that model into question. A beam of alpha particles (small, high-energy, positively charged particles) was shot into a piece of gold foil approximately $8.6 \\times 10^{-8}\\text{ m}$ in thickness. The alpha particles were thought to have enough energy to pass straight through the foil and hit a detector on the other side, and most of the particles did just that. However, a small fraction of alpha particles were deflected a few degrees as they passed through the foil. Upon closer examination of the data, a more startling fact was found—some alpha particles never hit the detector.</p> <p>More detectors were added around the gold foil, and it was discovered that a tiny portion of the alpha particles (1 out of every 20,000 particles) was deflected 90 degrees or more from the beam. Some particles even bounced straight back toward the alpha particle source. The scientist was so surprised by the results that he stated, so it was concluded that there must be some particle inside an atom causing these major deflections of alpha particles.</p>"
+        },
+        {
+            "q": "Which of the following best describes what experiment 2 concluded about the newly discovered small particles that make up atoms?",
+            "options": [
+                "Dense and sturdy.",
+                "Negatively charged.",
+                "Positively charged.",
+                "Small, Low energy."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Based on the Experiment (1) and Experiment (2), upon which of the following statements both experiments agree?",
+            "options": [
+                "Atoms are highly charged particles.",
+                "Atoms are not indestructible and indivisible.",
+                "Atoms are composed of a dense core known as a nucleus.",
+                "The mass-to-charge ratio of atoms is much smaller than was originally thought."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The opposite figure offers a common diagram of subatomic particles. Which particle would have an undefined mass-to-charge ratio?",
+            "image": "exams/chemistry/urt/images/2020_q34.png",
+            "options": [
+                "Electron.",
+                "Proton.",
+                "Neutron.",
+                "Nucleus."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Although atoms were once considered to be solid spheres, it has been proven that they are mostly empty space with just a few tiny particles. Which one of the following statements explains this fact?",
+            "options": [
+                "Experiment 1: Cathode rays have a small mass-to-charge ratio.",
+                "Experiment 1: Cathode rays are attracted to areas of positive electric charge.",
+                "Experiment 2: One out of every 20,000 particles got deflected to a large extent.",
+                "Experiment 2: Some alpha particles deflected off the beam at large angles."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "How thick was the gold foil in micrometer ($\\mu m$) in Experiment 2? (knowing that one micrometer is equivalent to 0.000001 m).",
+            "options": [
+                "0.086 $\\mu m$.",
+                "0.86 $\\mu m$.",
+                "8.600 $\\mu m$.",
+                "86 $\\mu m$."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which of the following statements matches the conclusions of the experiment 2?",
+            "options": [
+                "Cathode Rays mostly go through but a few bounce off.",
+                "Cathode Rays destroy atoms.",
+                "Gold Foil: solid particles in atoms are incredibly small.",
+                "Gold Foil: Alpha particles are found inside atoms."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "\"I can see no escape off the conclusion that they are particles of matter carry charges of negative electricity\". Which scientists would conclude the previous statement?",
+            "options": [
+                "Scientists working on Experiment (1)",
+                "Scientists working on Experiment (2)",
+                "Scientists working on either experiment",
+                "Scientists working on both experiments"
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<h3><center>Passage III</center></h3><p>In science laboratory, students studied the pH strength of acids and bases. The terms strong and weak describes the ability of acid and base solutions to conduct electricity. Figure (1) displays the pH scale used to rank solutions as acidic or basic, and Table (1) provides an overview of what pH levels are considered strong and weak solutions.</p>{{img0}}<center><b>Figure (1)</b></center><br><center><b>Table (1)</b></center><table><thead><tr><th>Solution</th><th>pH</th></tr></thead><tbody><tr><td>Strong acid</td><td>0-3</td></tr><tr><td>Weak acid</td><td>4-6</td></tr><tr><td>Neutral</td><td>7</td></tr><tr><td>Weak base</td><td>8-10</td></tr><tr><td>Strong base</td><td>11-14</td></tr></tbody></table><br><b>Experiment (1)</b><p>Students will test the conductivity of various solutions with a light bulb apparatus, as shown in figure (2). The light bulb circuit is incomplete. If the circuit is completed by a solution containing a large number of ions, the light bulb will glow brightly indicating a strong ability to conduct electricity. If the circuit is completed by a solution containing large numbers of molecules and either no ions or few ions, the solution does not conduct or conducts very weakly. The results are reported in Table (2).</p>{{img1}}<center><b>Figure (2)</b></center><br><center><b>Table (2)</b></center><table><thead><tr><th>Solution</th><th>Acid or Base</th><th>Light Bulb</th></tr></thead><tbody><tr><td>H<sub>2</sub>O</td><td>Neutral</td><td>No light</td></tr><tr><td>HCl</td><td>Acid</td><td>Bright</td></tr><tr><td>HC<sub>2</sub>H<sub>3</sub>O<sub>2</sub></td><td>Acid</td><td>Dim</td></tr><tr><td>H<sub>2</sub>SO<sub>4</sub></td><td>Acid</td><td>Bright</td></tr><tr><td>H<sub>2</sub>CO<sub>3</sub></td><td>Acid</td><td>Dim</td></tr><tr><td>NaOH</td><td>Base</td><td>Bright</td></tr><tr><td>KOH</td><td>Base</td><td>Bright</td></tr><tr><td>NH<sub>4</sub>OH</td><td>Base</td><td>Dim</td></tr></tbody></table><br><b>Experiment (2)</b><p>Students mixed 50 mL of each chemical with 1 liter of water and then tested the pH of the solution. Table (3) displays the pH found for each chemical.</p><center><b>Table (3)</b></center><table><thead><tr><th>Chemical</th><th>pH</th></tr></thead><tbody><tr><td>HCl</td><td>0.86</td></tr><tr><td>HC<sub>2</sub>H<sub>3</sub>O<sub>2</sub></td><td>2.92</td></tr><tr><td>H<sub>2</sub>SO<sub>4</sub></td><td>1.29</td></tr><tr><td>H<sub>2</sub>CO<sub>3</sub></td><td>3.73</td></tr><tr><td>NaOH</td><td>13.1</td></tr><tr><td>KOH</td><td>11.2</td></tr><tr><td>NH<sub>4</sub>OH</td><td>9.2</td></tr></tbody></table>",
+            "images": [
+                "exams/chemistry/urt/images/2020_p3_1.png",
+                "exams/chemistry/urt/images/2020_p3_2.png"
+            ]
+        },
+        {
+            "q": "Based on the information presented in Figure (1) and Table (1), the solution that would be the weakest base has pH value of:",
+            "options": [
+                "0.2",
+                "7",
+                "9.7",
+                "12.5"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "According to the results of experiments (1) and (2), which of the following statements is true?",
+            "options": [
+                "The more the pH value of the solution, the brighter the light bulb glows.",
+                "The weaker the acid or base, the brighter the light bulb glows.",
+                "The stronger the acid or base, the brighter the light bulb glows.",
+                "The less the pH value of the solution, the brighter the light bulb glows."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Based on the results of Experiment (2), H₂CO₃ would be classified as:",
+            "options": [
+                "a strong acid.",
+                "a weak acid.",
+                "a strong base.",
+                "a weak base."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Based on the information presented in Figure (1) and Table (3), it can be concluded the acidic solution that contains the highest hydrogen is:",
+            "options": [
+                "HC₂H₃O₂",
+                "H₂SO₄",
+                "H₂CO₃",
+                "HCl"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Based on Table (3), which of the following figures best represents the pH values for the 3 bases tested?",
+            "options": [
+                "A <img src='exams/chemistry/urt/images/2020_q18_a.png' alt='Graph A'/>",
+                "B <img src='exams/chemistry/urt/images/2020_q18_b.png' alt='Graph B'/>",
+                "C <img src='exams/chemistry/urt/images/2020_q18_c.png' alt='Graph C'/>",
+                "D <img src='exams/chemistry/urt/images/2020_q18_d.png' alt='Graph D'/>"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Based on the passage, which of the following summarizes the characteristics of strong acids?",
+            "options": [
+                "Large numbers of molecules, few numbers of ions, high conductivity and pH value between 0 - 3.",
+                "Few numbers of molecules, large numbers of ions, high conductivity and pH value between 0 - 3.",
+                "Few numbers of molecules, large numbers of ions, strong conductivity and pH value between 10 - 14.",
+                "Large numbers of molecules, few numbers of ions, strong conductivity and pH value between 10 - 14."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Assume that the students decided to test the conductivity of an extra solution according to the procedures outlined in Experiment (1). They tested a solution of Na₃PO₄, and they found that the solution caused the light bulb to glow brightly and its pH value was found to be close to the end of scale. The students would correctly classify Na₃PO₄ solution as:",
+            "options": [
+                "A strong base",
+                "A weak base",
+                "A weak acid",
+                "A strong acid"
+            ],
+            "correct": 0
+        },
+        {
+            "passage": "<h3><center>Passage IV</center></h3><p>There are four main variables that can affect the reaction rate at which a reaction in the gas phase occurs; whose are pressure, temperature, volume, and amount of reactant. A change in any of these variables changes the likelihood of particles running into each other and reacting: Increasing any one increases reaction rate; decreasing any one decreases reaction rate.</p> <p>Pressure is measured in atmospheres, atm., where 1 atm. is the sea level pressure of earth's atmosphere. Volume is measured in liters, L. The amount of reactant is measured in moles, where 1 mole is $6.02 \\times 10^{23}$ molecules.</p> <p>Figure 1 shows how temperature and pressure affect the gaseous reactants in an experiment. Figures (2) and (3) show how the rate of Reaction (A) recorded as (% of rate at latm. 50 degrees Celsius) is affected by pressure and temperaturc. respectively.</p>{{img0}}<sub><center><b>Figure 1</b></center></sub><br>{{img1}}<sub><center><b>Figure 2</b></center></sub><br>{{img2}}<sub><center><b>Figure 3</b></center></sub>",
+            "images": [
+                "exams/chemistry/urt/images/2020_p4_1.png",
+                "exams/chemistry/urt/images/2020_p4_2.png",
+                "exams/chemistry/urt/images/2020_p4_3.png"
+            ]
+        },
+        {
+            "q": "Based on figure (2) When the temperature decreases from 80 °C to 40°C the rate of the reaction will:",
+            "options": [
+                "Decrease to half of its value.",
+                "Decrease to quarter of its value.",
+                "Increase to double of its value.",
+                "Increase four time of its value."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Based on Figures (2) and (3), the reactions occur at the same rate at what temperature and pressure?",
+            "options": [
+                "20°C and 2.0 atm.",
+                "40°C and 1.5 atm.",
+                "70°C and 1.5 atm.",
+                "70°C and 3.5 atm."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Based on figure 1, if reaction (A) occurs according to the following chemical equation:<p>$$2X_{(g)} + Y_{(g)} \\rightarrow X_2Y_{(g)}$$</p>If there are two moles of X and two moles of Y in the same container, the rate of the reaction will:",
+            "options": [
+                "increase due to increase the speed of the molecules.",
+                "increase due to increase the number of the molecules.",
+                "be constant because the excess molecules do not involve in the reaction.",
+                "be constant because the volume doesn't change."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "In the experimental design of reaction (A), which of the following changes can be used to increase the time of the Reaction (A)?",
+            "options": [
+                "Change the volume of container from 1 litre to 2 litres.",
+                "Change the pressure from 1.0 atm. to 5.0 atm.",
+                "Change the temperature from 60°C to 120 °C.",
+                "Change the number of moles of reactants to double."
+            ],
+            "correct": 0
+        },
+        {
+            "q": "In reaction (A), the reaction rate can be changed by changing either temperature or pressure of the gaseous reactants. Based on the data in Figures (2) and (3), which property used to make the greatest change in the rate of reaction (A)?",
+            "options": [
+                "Temperature: decreased from 50°C to 20°C.",
+                "Temperature: increased from 50°C to 100°C.",
+                "Pressure: decreased from 1 atm to 0.5 atm.",
+                "Pressure: increased from 1 atm to 3 atm."
+            ],
+            "correct": 1
+        }
+    ]
+}
