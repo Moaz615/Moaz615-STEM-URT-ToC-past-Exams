@@ -258,7 +258,7 @@
                 "<img src='exams/chemistry/toc/images/2020_q25_c.png' alt='Diagram C'/>",
                 "<img src='exams/chemistry/toc/images/2020_q25_d.png' alt='Diagram D'/>"
             ],
-            "correct": 0
+            "correct": 2
         },
         {
             "q": "The pH of a $0.125M$ solution of a weak base is $10.45$, what is the $K_b$ of this base?",
