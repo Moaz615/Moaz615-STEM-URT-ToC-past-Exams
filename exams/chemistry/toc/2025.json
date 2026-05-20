@@ -1,221 +1,231 @@
 {
     "questions": [
         {
-            "q": "In a laboratory, you begin classifying different elements by their qualitative properties. you classify the elements into metals and nonmetals, how can you classify the non-metals?",
+            "q": "In a laboratory setting, you are given some of unknown elements, and perform tests to classify them as metals or nonmetals. Which set of observations would lead you to classify an element as a nonmetal?",
             "options": [
-                "Shiny, malleable, good conductor of electricity, good conductor of electricity, oxide forms an acidic solution",
-                "Brittle, Dull, poor conductor of electricity, oxide forms a basic solution",
-                "Ductile, malleable, good conductor of electricity, oxide forms acidic solution",
-                "malleable, good conductor of electricity, oxide is neutral"
-            ],
-            "correct": 2
-        },
-        {
-            "q": "atoms react with each other to form compounds based on the electron configuration, which best describes this phenomena?",
-            "options": [
-                "They react to form the lowest possible energy regardless of electron configuration",
-                "They react to form the same stable electron configuration, the same as a noble gas.",
-                "They react to form the highest charge as an ion.",
-                "They react to form the highest possible energy state as a noble gas"
+                "High luster, good conductivity of heat and electricity, malleable.",
+                "Dull appearance, brittle, poor conductivity of heat and electricity, oxide forms an acidic solution when dissolved in water.",
+                "Shiny, ductile, reacts vigorously with hydrochloric acid, oxide forms a basic solution when dissolved in water.",
+                "Malleable, ductile, conducts electricity only at high temperatures, oxide is neutral."
             ],
             "correct": 1
         },
         {
-            "q": "The following graph represents the solubility of (A) $NaOH$ (B) $KNO_{3}$ in water. what is the molality of each of them respectively at $20^{\\circ}C$?",
+            "q": "Atoms interact with each other to achieve a stable electron arrangement. Which of the following best describes this principle?",
+            "options": [
+                "Atoms interact to achieve the lowest possible energy state, regardless the electron configuration.",
+                "Atoms interact to achieve a stable electron configuration, as a noble gas.",
+                "Atoms interact to maximize their charge, forming highly charged ions.",
+                "Atoms always interact to achieve the highest possible energy state, to be as a noble gas."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "This solubility graph represents the solubility of two chemical substances (A & B) if: Substance (A) is: NaOH, Substance (B) is: $KNO_{3}$. Which of the following represents the molality of (A) and (B) aqueous solutions at $20^{\\circ}C$ respectively?",
             "image": "exams/chemistry/toc/images/2025_q3.png",
             "options": [
-                "1.25 and 0.27",
-                "12.5 and 2.97",
-                "2.5 and 1.5",
-                "0.339 and 1.8887"
-            ],
-            "correct": 1
-        },
-        {
-            "q": "0.250 g of an element M reacts with an excess of fluorine to form 0.547 grams of $MF_{6}$ what is the metal?",
-            "options": [
-                "S",
-                "Cr",
-                "MO",
-                "W"
-            ],
-            "correct": 3
-        },
-        {
-            "q": "a human breathes on average in one minute 2.5 grams of $O_{2}$. how many molecules of $O_{2}$ does he inhale in one minute?",
-            "options": [
-                "$2.3\\times10^{22}$",
-                "$6.1\\times10^{20}$",
-                "$4.7\\times10^{21}$",
-                "$3.1\\times10^{23}$"
-            ],
-            "correct": 0
-        },
-        {
-            "q": "In the following compound, what is the hybridization of carbons: 1, 2, and 3 respectively?",
-            "image": "exams/chemistry/toc/images/2025_q6.png",
-            "options": [
-                "$sp^{3}$ $sp^{2}$ $sp^{2}$",
-                "$sp^{2}$ $sp^{3}$ $sp^{2}$",
-                "$sp^{3}$ $sp^{2}$ $sp^{3}$",
-                "$sp^{3}$ $sp^{3}$ $sp^{2}$"
-            ],
-            "correct": 0
-        },
-        {
-            "q": "which of the following correctly explains the effect of the geometry of a molecule on the London dispersion forces?",
-            "options": [
-                "smaller and more compact molecules that have a small surface area have larger London dispersion forces",
-                "Elongated and larger molecules that have a larger surface area have larger London dispersion forces",
-                "Only polar molecules have high London dispersion forces due to their polarity",
-                "Only elements have large London dispersion forces."
-            ],
-            "correct": 1
-        },
-        {
-            "q": "For the following reaction: $Mg^{2+} + Pb^{2+} + 2Cl^{-} + 2ClO^{-} \\rightarrow PbCl_{2}(s) + 2ClO^{-} + Mg^{2+}$. Which of the following ions is/are the spectator ion(s) and what type of reaction do they undergo?",
-            "options": [
-                "$Pb^{2+}$&nbsp; and&nbsp; $Cl^{-}$, the reaction between them is double-displacement",
-                "$Pb^{2+}$&nbsp; and&nbsp; $Cl^{-}$, the reaction between them is redox",
-                "$Mg^{2+}$ &nbsp;and &nbsp;$ClO^{-}$, the reaction between them is catalyze",
-                "$Mg^{2+}$&nbsp; and &nbsp;$ClO^{-}$, the reaction between them is double-displacement"
-            ],
-            "correct": 3
-        },
-        {
-            "q": "In the chemical process of photosynthesis. What happens to the entropy and why?",
-            "options": [
-                "Entropy increases, because one of the products is an element",
-                "Entropy decreases, because the (?)",
-                "Entropy increases because the products are solid and the reactants are liquid",
-                "Entropy does not change because the atoms of the products are the same as the atoms of the reactants."
-            ],
-            "correct": 1
-        },
-        {
-            "q": "Which of the following is true about the qualitative analysis of a mixture of elements/substances?",
-            "options": [
-                "From the qualitative analysis you can know the exact amount of the substances",
-                "You are able to differentiate between different substances in a mixture by qualitative analysis",
-                "(?)",
-                "You can better determine elements with qualitative analysis than compounds"
-            ],
-            "correct": 1
-        },
-        {
-            "q": "From the following reaction: $$2NO_{2}+O_{2}\\rightleftharpoons3NO_{3}$$ If the $NO_{2}$ consumption is $0.1~mol/s$ what is the rate of appearance of $NO_{3}$ in $g/s$?",
-            "options": [
-                "0.1 g/s",
-                "3.2 g/s",
-                "4.6 g/s",
-                "31.9 g/s"
-            ],
-            "correct": 3
-        },
-        {
-            "q": "From the following reaction: $$CO_{2} + Mg + heat \\rightarrow CO + MgO$$ which of the following increases the products only? Assume the gases behave ideally.",
-            "options": [
-                "Increasing the pressure",
-                "Increasing the temperature",
-                "Decreasing the &nbsp;$CO_{2}$&nbsp; concentration",
-                "Increasing the volume"
-            ],
-            "correct": 1
-        },
-        {
-            "q": "which of the following is the resultant of the dry distillation of 2-methyl-sodium-pentanoate?",
-            "options": [
-                "1-Propanol",
-                "Butane",
-                "Pentane",
-                "2-butanol"
-            ],
-            "correct": 1
-        },
-        {
-            "q": "For the following reaction what is the process X and what is the final molecule generated?",
-            "image": "exams/chemistry/toc/images/2025_q14.png",
-            "options": [
-                "X: halogenation, Product: cyclochlorohexane",
-                "X: alkylation, Product: Toluene",
-                "X: hydrogenation, Product: Ethene",
-                "X: oxidation, Product: Ethanol"
-            ],
-            "correct": 1
-        },
-        {
-            "q": "Which of the following is true regarding the following diagram?",
-            "image":"exams/chemistry/toc/images/2025_q15.png",
-            "options": [
-                "The compound B is ethanol",
-                "The compound A is sodium phenoxide",
-                "The compound A is ethyl benzoate",
-                "The compound B is benzene"
-            ],
-            "correct": 1
-        },
-        {
-            "q": "For a reversible reaction, adding a catalyst does which of the following?",
-            "options": [
-                "Increase the equilibrium position without affecting the rates of any of the reactions",
-                "Increases the rate of both the forward reaction and the backward reaction equally without affecting the equilibrium position",
-                "Increases the rate of both the forward reaction and the backward reaction equally and pushes the equilibrium position to the right",
-                "Does absolutely nothing to the reaction."
-            ],
-            "correct": 1
-        },
-        {
-            "q": "Which of the following anions can undergo both reduction and oxidation?",
-            "options": [
-                "$Cr_{2}O_{7}^{2-}$",
-                "$ClO^{-}$",
-                "$OCl^{-}$",
-                "$SO_{3}^{2-}$"
-            ],
-            "correct": 3
-        },
-        {
-            "q": "In a certain electrolytic cell, the electrolysis of Iron III chloride occurs. If 0.56 grams of Fe are produced, how much gas evolves (In litres)?",
-            "options": [
-                "0.168 L",
-                "0.336 L",
-                "0.672 L",
-                "1.832 L"
-            ],
-            "correct": 1
-        },
-        {
-            "q": "For each of the following ions: $Na^{+}$, $Mg^{2+}$, $Be^{2+}$, $Li^{+}$. Which of the previous have the closest approximate atomic radius?",
-            "options": [
-                "$Na^{2+}$ &nbsp;and&nbsp; $Mg^{+}$",
-                "$Be^{2+}$ &nbsp;and&nbsp; $Li^{+}$",
-                "$Li^{2+}$ &nbsp;and&nbsp; $Na^{+}$",
-                "$Na^{2+}$ &nbsp;and&nbsp; $Li^{+}$"
-            ],
-            "correct": 1
-        },
-        {
-            "q": "In the following <b>unbalanced</b> redox reaction: $C_{3}H_{7}OH+Cr_{2}O_{7}^{2-}+H^{+}\\rightarrow C_{3}H_{6}O+Cr^{3+}+H_{2}O$. Which of the following is true?",
-            "options": [
-                "The reduction half-reaction is: $Cr_{2}O_{7}^{2-}+6e^{-}\\rightarrow2Cr^{3+}+7OH^{-}$",
-                "The oxidation half-reaction is: $C_{3}H_{7}OH+H_{2}O\\rightarrow C_{3}H_{6}O+2H^{+}+4e^{-}$",
-                "The total redox reaction is: $S_{3}H_{7}OH+3Cr_{2}O_{7}^{2-}+16H^{+}\\rightarrow C_{3}H_{6}O+3Cr^{3+}+17H_{2}O$",
-                "The total redox reaction is: $2C_{3}H_{7}OH+3Cr_{2}O_{7}^{2-}+24H^{+}\\rightarrow 2C_{3}H_{6}O+6Cr^{3+}+14H_{2}O$"
-            ],
-            "correct": 3
-        },
-        {
-            "q": "It is important to not use multiple metals in contact with one another in a marine environment because",
-            "options": [
-                "it causes the metals to fuse together under high humidity",
-                "it can interfere with magnetic compass readings",
-                "In order to stop galvanic corrosion",
-                "it increases the thermal conductivity of the structure"
+                "1.25 m, 0.3 m",
+                "2.5 m, 2.9 m",
+                "12.5 m, 2.97 m",
+                "0.00125 m, 0.00297 m"
             ],
             "correct": 2
         },
         {
-            "q": "In the following <b>unbalanced</b> redox reaction: $Br_{2}+OH^{-}\\rightarrow Br^{-}+BrO_{3}^{-}+H_{2}O$. What is the coefficient of OH in the balanced chemical reaction?",
+            "q": "0.250 g of an element M reacts with excess fluorine to produce 0.547 g of the hexafluoride compound ($MF_6$), Which of the following is the element (M)?",
+            "options": [
+                "Cr",
+                "Mo",
+                "S",
+                "Te"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "If you know that adult person inhaled 2.5 g of $O_{2}$ by the average in one minute, how many molecules of $O_{2}$ are inhaled?",
+            "options": [
+                "$1.9\\times10^{22}$",
+                "$3.8\\times10^{22}$",
+                "$4.7\\times10^{22}$",
+                "$9.4\\times10^{22}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "What type of hybridization of carbon atoms 1, 2 & 3 in the hydrocarbon compound in front of you respectively is?",
+            "image": "exams/chemistry/toc/images/2025_q6.png",
+            "options": [
+                "$sp^{3}$ $sp^{2}$, $sp^{2}$",
+                "$sp^{3}$ sp, $sp^{2}$",
+                "$sp^{2}$, $sp^{2}$, $sp^{3}$",
+                "$sp^{3}$ $sp^{2}$, sp"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "What are the spectator ions in the following chemical reaction, and what is the type of the reaction are they typically observed? $Mg^{2+}_{(aq)}+2Cl^{-}_{(aq)}+Pb^{2+}_{(aq)}+2ClO_{4}^{-}_{(aq)}\\rightarrow PbCl_{2(s)}+Mg^{2+}_{(aq)}+2ClO_{4}^{-}_{(aq)}$",
+            "options": [
+                "$Pb^{2+}_{(aq)}$, $ClO_{4^{-}}_{(aq)}$, redox reactions.",
+                "${Pb^{2+}}_{(aq)}$, $Cl^{-}_{(aq)}$, double-displacement reactions.",
+                "$Mg^{2+}_{(aq)}$, $ClO_{4^{-}(aq)}$, catalyze reactions.",
+                "$Mg^{2+}_{(aq)}$, $ClO_{4}^{-}_{(aq)}$, double-displacement reactions."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "How does the shape of a molecule affect the strength of London dispersion forces?",
+            "options": [
+                "Molecular shape has no effect on London dispersion forces.",
+                "More compact molecules have stronger London dispersion forces.",
+                "Elongated molecules with larger surface areas have stronger London dispersion forces.",
+                "Only in polar molecules have stronger London dispersion forces."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which statement describes the entropy change during photosynthesis?",
+            "options": [
+                "Entropy increases because one of the products is an element.",
+                "Entropy decreases because of substantially of product molecules than of reactants.",
+                "Entropy increases because the products is a solid while the reactants is a liquid.",
+                "Entropy does not change because both sides have the same number of atoms."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "What role does qualitative analysis play in identifying unknown compounds?",
+            "options": [
+                "Qualitative analysis determines the exact amount of each substance in a sample.",
+                "Qualitative analysis determines which substances are present in a sample",
+                "Qualitative analysis is only useful for identifying elements, not compounds.",
+                "Qualitative analysis depends only on quantitative measurements."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "In the chemical reaction: $2NO_{(g)}+O_{2(g)}\\rightleftharpoons2NO_{2(g)}$ If the rate of nitric oxide consumption was $0.1~mol/s$ at $23^{\\circ}C$, the rate of formation of nitrogen dioxide at $23^{\\circ}C$ is equal to g/s",
+            "options": [
+                "0.1",
+                "3",
+                "4.6",
+                "36.8"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "The following reaction is done in a closed container: $[CO_{2(g)}+Mg_{(s)}+Heat\\rightleftharpoons CO_{(g)}+MgO_{(s)}]$ Which one of the following does increase the reaction products only ?",
+            "options": [
+                "Transfer to a larger container",
+                "Raise the temperature",
+                "Adding a catalyst",
+                "Increased pressure"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Whan a quantity of electricity passes in a molten a iron III chloride. 0.56 g of iron deposit at the cathode of the cell. What is the amount of the evolved gas? ($Fe=56$, $Cl=35.5$)",
+            "options": [
+                "0.672 L",
+                "0.224 L",
+                "0.336 L",
+                "0.448L"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Which of the following compounds results from dry distillation of 2-methyl sodium pentanoate?",
+            "options": [
+                "2-methyl propane",
+                "Butane.",
+                "Pentane",
+                "2-methyl- butane"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "The following diagram represents a trimerization and subsequent reaction steps. Which of the following represents the process (X) and the compound (y)?",
+            "image": "exams/chemistry/toc/images/2025_q14.png",
+            "options": [
+                "Process (X): Halogenation, Compound (y): Hexa-chloro-cyclohexane",
+                "Process (X): Alkylation, Compound (y): Toluene",
+                "Process (X): Hydrogenation, Compound (y): Cyclohexane",
+                "Process (X): hydration, Compound (y): Keton"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "If the alkaline Hydrolysis of aspirin produces aromatic compound (A) and aliphatic compound (B): Aspirin + Alkaline hydrolysis $\\rightarrow$ aromatic compound (A) + aliphatic compound (B). Which of the following is correct?",
+            "image": "exams/chemistry/toc/images/2025_q15.png",
+            "options": [
+                "Nitration of (A) gives nitrobenzene",
+                "Dry distillation of compound (A) gives sodium phenoxide",
+                "Dry distillation of compound (B) gives ethane",
+                "Reaction of (B) with ammonia gives acetamide"
+            ],
+            "correct": 1
+        },
+        {
+            "q": "What effect does a catalyst have on a reversible reaction before reaching equilibrium state?",
+            "options": [
+                "It shifts the equilibrium position toward the products.",
+                "It increases the rate of both the forward and backward reactions equally, without affecting the equilibrium position.",
+                "It increases the rate of both the forward and backward reactions equally, affecting the equilibrium position.",
+                "It affects on backward Reaction more than forward reaction."
+            ],
+            "correct": 1
+        },
+        {
+            "q": "Which anion can undergo both oxidation and reduction?",
+            "options": [
+                "$Cr_{2}O_{7}^{2-}$",
+                "${NO_{3}}^{-}$",
+                "$OCl^{-}$",
+                "$SO_{4}^{2-}$"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "How many sigma and pi bonds are in the following compound (benzoic acid)?",
+            "options": [
+                "9 sigma, 6 pi",
+                "10 sigma, 6 pi",
+                "10 sigma, 4 pi",
+                "15 sigma, 4 pi"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Consider the ions $Li^{+}$, $Na^{+}$, $Be^{2+}$, and $Mg^{2+}$, Which two are closest to one another in size?",
+            "options": [
+                "$Li^{+}$ and $Na^{+}$",
+                "$Be^{2+}$ and $Mg^{2+}$",
+                "$Be^{2+}$ and $Li^{+}$",
+                "$Li^{+}$ and $Mg^{2+}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "According to the following unbalanced chemical equation: ${H^{+}}_{(aq)}+Cr_{2}{O_{7}}^{2-}_{(aq)}+C_{3}H_{7}OH_{(aq)}\\rightarrow H_{2}O_{(aq)}+Cr^{3+}_{(aq)}+CO_{2(v)}$. Which of the following is correct about the oxidation of isopropyl alcohol (2-propanol) by acidic potassium dichromate?",
+            "options": [
+                "The half reduction reaction is: $3e^{-}+14H^{+}+Cr_{2}O_{7}^{2-}\\rightarrow2Cr^{3+}+7H_{2}O$",
+                "The half oxidation reaction is: $C_{3}H_{8}O+5H_{2}O\\rightarrow3CO_{2}+18~H^{+}+3e^{-}$",
+                "The total reaction: $3~Cr_{2}{O_{7}}^{2-}+C_{3}H_{8}O\\rightarrow2Cr^{3+}+H_{2}O+3CO_{2}+8~H^{+}$",
+                "The total reaction: $24H^{+}+3~Cr_{2}{O_{7}}^{2-}+C_{3}H_{8}O\\rightarrow6Cr^{3+}+16H_{2}O+3CO_{2}$"
+            ],
+            "correct": 3
+        },
+        {
+            "q": "Why is it important to avoid using different metals in contact in marine environments?",
+            "options": [
+                "It can cause the metals to form alloy.",
+                "It can increase the strength of the metals.",
+                "It can lead to galvanic corrosion.",
+                "It has no effect on corrosion rates."
+            ],
+            "correct": 2
+        },
+        {
+            "q": "What is the coefficient for OH after balancing the equation with the smallest integer coefficient? $Br_{2(g)}+OH^{-}_{(aq)}\\rightarrow Br^{-}_{(aq)}+BrO_{3}^{-}_{(aq)}+H_{2}O_{(l)}$",
             "options": [
                 "3",
                 "6",
@@ -225,133 +235,133 @@
             "correct": 1
         },
         {
-            "q": "For the following reactions: $2SO_{3}\\rightleftharpoons2SO_{2}+O_{2}$ and $SO_{2}+\\frac{1}{2}O_{2}\\rightleftharpoons SO_{3}$. Given $k_{1}=1.8\\times10^{-5}$, what is the value of $k_{2}$?",
+            "q": "Based on the equilibrium constant for the reaction below: $2SO_{3(g)}\\rightleftharpoons2SO_{2(g)}+O_{2(g)}$, $K=1.8\\times10^{-5}$ and $SO_{2(g)}+\\frac{1}{2}O_{2(g)}\\rightleftharpoons SO_{3(g)}$, $K=?$. What is the equilibrium constant for the reaction?",
             "options": [
-                "2.4",
-                "$2.4\\times10^{3}$",
+                "$2.1\\times10^{-3}$",
+                "$4.2\\times10^{-3}$",
                 "$2.4\\times10^{2}$",
-                "24"
+                "$5.6\\times10^{4}$"
             ],
             "correct": 2
         },
         {
-            "q": "For the following electrochemical cell, if the standard reduction potentials of A and B respectively are: -2.976 V and -0.126 V. Which of the following is true?",
+            "q": "In the galvanic cell shown in the diagram: the reduction potential of (A & B) are (-2.924V,-0.126V) respectively, which of the following is correct?",
             "image": "exams/chemistry/toc/images/2025_q24.png",
             "options": [
-                "Electrons flow from A to B and the total cell voltage is 3.148 V",
-                "Electrons flow from A to B and the total cell voltage is 2.804 V",
-                "Negative ions flow from A to B and the total cell voltage is 2.804 V",
-                "Negative ions flow from B to A and the total cell voltage is 3.148 V"
+                "Electrons flow in the wire from (B) to (A), e.m.f. = 3.05 V",
+                "Electrons flow in the wire from (A) to (B), e.m.f. = 2.798 V",
+                "Negative ions flow in the bridge from (A) to (B), e.m.f. = 2.798 V",
+                "Negative ions flow in the bridge from (B) to (A), e.m.f. = 3.05 V"
             ],
             "correct": 1
         },
         {
-            "q": "12.54 grams of an unknown Ba salt react with an excess of $Na_{2}SO_{4}$ forming 11.21 grams of $BaSO_{4}$ what is the salt?",
+            "q": "12.54 g of one of barium salts is titrated by sodium sulphate solution to precipitate 11.21 g of barium sulphate, what is that barium salt?",
             "options": [
-                "$BaCl_2$",
-                "$(CH_3COO)_2Ba$",
-                "$Ba(N_3)_2$",
-                "$BaC_2O_4$"
+                "$BaCl_{2}$",
+                "$(HCOO)_{2}Ba$",
+                "$Ba(NO_{3})_{2}$",
+                "$BaBr_{2}$"
             ],
             "correct": 2
         },
         {
-            "q": "Which has a lower pOH: Sulphuric acid $H_{2}SO_{4}$ or Nitric acid $HNO_{3}$ and why?",
+            "q": "0.2M of sulphuric acid and 0.2M of nitric acid which of them have higher pOH value, and why? (assume that 100% dissociation of the acids)",
             "options": [
-                "Nitric acid has a lower pOH because it is a stronger acid than sulphuric acid",
-                "Sulphuric acid has a lower pOH because it has more &nbsp;$H^{+}$&nbsp; ions in total",
-                "Sulphuric acid has a lower pOH because it dissociates slower, maintaining a steady supply of &nbsp;$H^{+}$&nbsp; ions",
-                "Nitric acid has a lower pOH because it is more soluble in water"
+                "Both of them have equal pOH value, because they have the same concentration",
+                "pOH of sulphuric acid is higher because sulphuric acid has more $H^{+}$ ions.",
+                "pOH of nitric acid is higher because nitric acid is stronger than sulphuric acid",
+                "pOH of sulphuric acid is higher because sulphuric acid is more stable than nitric acid"
             ],
             "correct": 1
         },
         {
-            "q": "A solution 0.15 M saturated with Hydrazine $N_{2}H_{4}$. What is the pH of the solution if $k_{h}=10^{-6}$?",
+            "q": "What is the pH of a 0.15 M solution of hydrazine, $N_{2}H_{4}$ if $K_{b}=1.0\times10^{-6}$ ?",
             "options": [
-                "3.411",
+                "3.41",
+                "6.82",
                 "10.59",
-                "7.711",
-                "12.35"
+                "11.38"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "Both $CO_{2}$ and $SO_{2}$ appear to have valid Lewis structures. Which of the following sentences is correct?",
+            "options": [
+                "Both of the two molecules have the same angle and structural shape",
+                "The angle in $CO_{2}$ is larger than in $SO_{2}$ and they have the different sterostructure",
+                "The angle in $CO_{2}$ is less than in $SO_{2}$ and they have same sterostructure",
+                "The angle in $SO_{2}$ is larger than $CO_{2}$ because carbon atom has higher electronegativity"
             ],
             "correct": 1
         },
         {
-            "q": "$CO_{2}$ and $SO_{2}$ have distinct Lewis structures and molecular geometries. Do their bond angles differ or remain the same?",
+            "q": "Which aqueous solution has a freezing point closest to that of 0.30 M $C_{12}H_{22}O_{11}$?",
             "options": [
-                "Both have the same bond angle due to identical molecular geometries.",
-                "$CO_{2}$ &nbsp;has a larger bond angle due to its linear structure.",
-                "Both have the same bond angle due to similar electron pair repulsions.",
-                "$CO_{2}$&nbsp; has a smaller bond angle due to greater lone pair repulsion."
-            ],
-            "correct": 1
-        },
-        {
-            "q": "The following solution is 0.30 M saturated in $C_{12}H_{22}O_{11}$. For which of the following solutions is the freezing point depressed by approximately the same value?",
-            "options": [
-                "0.075 M &nbsp;$AlCl_{3}$",
-                "0.150 M &nbsp;$MgCl_{2}$",
-                "0.300 M &nbsp;NaCl",
-                "0.600 M &nbsp;$C_{12}H_{6}O_{12}$"
+                "0.075 M $AlCl_{3}$",
+                "0.15M $CuCl_{2}$",
+                "0.30 M NaCl",
+                "0.60 M $C_{6}H_{12}O_{6}$"
             ],
             "correct": 0
         },
         {
-            "q": "Which of the following is false? <br>i) All elements of the 3A group are metals. <br>ii) Alkaline earth metals react less vigorously with water than do the alkali metals. <br>iii) Iodine is the least active halogen of all the halogens that precede it. <center><b><u>Note:</u></b> iv and v were missing in the original exam file, so they are not included here.</center>",
+            "q": "What are the false statements from the following?\nI- All elements of group 3A are metals.\nII- Alkaline earth metals react less vigorously with water than do the alkali metals.\nIII- Iodine is the least chemically active of the previous halogens.\nIV- Lithium is the strongest reducing agent of the alkali metals, so it reacts most quickly with water of all alkali metals.\nV- All metalloids are found in group 4A, since they have half filled outer shell.",
             "options": [
-                "i, ii and iii",
-                "ii, iii",
-                "iv, v",
-                "i, iv, and v"
-            ],
-            "correct": 0
-        },
-        {
-            "q": "We can obtain a buffer solution by mixing which of the following two solutions in equal volumes?",
-            "options": [
-                "i (0.10 M HCl + 0.10 M NaOH) only",
-                "ii (0.10 M &nbsp;$HNO_{3}$ + 0.10 M &nbsp;$NaNO_{3}$) only",
-                "i and ii only",
-                "0.20 M HCl + 0.10 M &nbsp;$NH_{3}$ (indicated as iii)"
+                "II, III",
+                "I, II, III",
+                "IV, V",
+                "I, IV, V"
             ],
             "correct": 3
         },
         {
-            "q": "In a laboratory a chemist reacts $CH_{3}CHCH_{2}$ with HCl. Which of the following is the major product of the reaction?",
+            "q": "A buffer solution results from mixing equal volumes of which solutions?\nI- 0.10 M HCl and 0.20 M $NH_{3}$\nII- 0.10 M $HNO_{2}$ and 0.10 M $NaNO_{2}$\nIII- 0.20 M HCl and 0.10 M NaCl",
             "options": [
-                "CH3CHClCH3",
-                "$CH_{3}CH_{2}CH_{3}$",
-                "$CH_{3}CH_{2}CH_{2}Cl$",
-                "$CH_{3}CHClCH_{2}Cl$"
-            ],
-            "correct": 0
-        },
-        {
-            "q": "Which of the following compounds if catalytically hydrogenated form an isomer of the compound 2,2-dimethyl-propane? <br>i. $CH_{3}CH(CH_{3})CH = CH_{2}$ <br>ii. $CH_{2} = CHCH = CH_{2}$ <br>iii. $CH_{3}CH_{2}CH(CH_{3})CH = CH_{3}$ <br>iv. $CH_{2} = C(CH_{3})CH = CH_{2}$",
-            "options": [
-                "i and iv",
-                "ii and iii",
-                "i and iii",
-                "ii and iv"
-            ],
-            "correct": 0
-        },
-        {
-            "q": "A student monitors the rate of the reaction through its pH. Which indicates a change spike in the reaction rate?",
-            "options": [
-                "A steady linear decrease in pH",
-                "A sudden sharp drop in pH and then the pH stays constant",
-                "A gradual leveling off of pH after a slow decrease",
-                "A slight oscillation in pH around a constant value"
+                "II only",
+                "I and II only",
+                "I and III only",
+                "I, II and III"
             ],
             "correct": 1
         },
         {
-            "q": "An aqueous solution is 25% by mass $H_{2}SO_{4}$. The density of said solution is 1.178 $g/mL$. What is the expression for the molarity of the solution?",
+            "q": "What is the major organic product formed from the reaction of $CH_{3}-CH=CH_{2}$ and HCl?",
             "options": [
-                "$98 \\cdot 0.25 \\cdot1178$",
-                "$\\frac{0.25 \\cdot 1178}{98}$",
-                "$\\frac{98}{0.25 \\cdot 1178}$",
-                "$\\frac{98 \\cdot 0.25}{1178}$"
+                "$CH_{3}CHClCH_{3}$",
+                "$CH_{3}CH_{2}CH_{2}Cl$",
+                "$CH_{3}CHClCH_{2}Cl$",
+                "$CH_{2}ClCH=CH_{2}$"
+            ],
+            "correct": 0
+        },
+        {
+            "q": "Which of The following compounds after catalytic hydrogenation gives isomer of 2,2-dimethyl propane?\nI- $CH_{3}CH=C(CH_{3})-CH_{3}$\nII- $CH_{3}CH=CHCH_{3}$\nIII- $CH_{3}CH=CHCH_{2}CH_{3}$\nIV- $CH_{3}C(CH_{3})=C(CH_{3})CH_{3}$",
+            "options": [
+                "I, IV",
+                "II, IV",
+                "I, III",
+                "I, II"
+            ],
+            "correct": 2
+        },
+        {
+            "q": "In an experiment measuring the rate of reaction by pH, what would indicate a significant increase in reaction rate?",
+            "options": [
+                "A very slow change in pH over time.",
+                "Stability of pH measurements.",
+                "A consistent, linear decrease in pH value over time.",
+                "A sudden drop in pH followed by stabilization."
+            ],
+            "correct": 3
+        },
+        {
+            "q": "A solution of sulfuric acid in water that is 25% $H_{2}SO_{4}$ by mass has a density of $1.178~g\\cdot mL^{-1}$ Which expression gives the molarity of this solution?",
+            "options": [
+                "0.25\\times98\\times1178",
+                "\\frac{0.25\\times1178}{98}",
+                "\\frac{0.25}{98\\times1178}",
+                "\\frac{1178}{98\\times0.25}"
             ],
             "correct": 1
         }
