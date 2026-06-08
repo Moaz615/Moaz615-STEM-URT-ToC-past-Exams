@@ -170,7 +170,7 @@
             "correct": 3
         },
         {
-            "q": "If the experiment in Figure 1 is run for 60 s, 0.16 mol A remain. Which of the following statements is or are true? \<br> (i) After 60 s there are 0.84 mol B in the flask. \<br> (ii) The decrease in the number of moles of A from $t_1 = 0$ s to $t_2 = 20$ s is greater than that from $t_1 = 40$ to $t_2 = 60$ s. \<br> (iii) The average rate for the reaction from $t_1 = 40$ s to $t_2 = 60$ s is $7.0 \\times 10^{-3}$ M/s.",
+            "q": "If the experiment in Figure 1 is run for 60 s, 0.16 mol A remain. Which of the following statements is or are true? <br> (i) After 60 s there are 0.84 mol B in the flask. <br> (ii) The decrease in the number of moles of A from $t_1 = 0$ s to $t_2 = 20$ s is greater than that from $t_1 = 40$ to $t_2 = 60$ s. <br> (iii) The average rate for the reaction from $t_1 = 40$ s to $t_2 = 60$ s is $7.0 \\times 10^{-3}$ M/s.",
             "options": [
                 "Statements (i) and (ii) are true.",
                 "Statements (ii) and (iii) are true.",
@@ -257,7 +257,7 @@
             "correct": 2
         },
         {
-            "q": "What would you expect about the number of alpha particles scattered at large angles in Rutherford's experiment as the thickness of the gold foil increases? As the thickness of the gold foil increases ......... .",
+            "q": "What Would you expect about the number of alpha particles scattered at large angles in Rutherford's experiment as the thickness of the gold foil increases? As the thickness of the gold foil increases ......... .",
             "options": [
                 "there is a higher probability that the alpha particle will collide with a nucleus as it passes through the foil, decreasing the number of alpha particles scattered at large angles.",
                 "there is a higher probability that the alpha particle will collide with a nucleus as it passes through the foil, increasing the number of alpha particles scattered at large angles.",
