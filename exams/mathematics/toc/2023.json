@@ -73,6 +73,7 @@
         },
         {
             "q": "Given that the volume of a hot-air balloon grows according to the relation $f(t)=\\frac{7000t}{t^{2}+49}+4000$ , where the time is measured in hours, determine its maximum volume.",
+            "image": "exams/mathematics/toc/images/2023_q8.png",
             "options": [
                 "$\\frac{500}{49}$ cubic units",
                 "4000 cubic units",
@@ -102,12 +103,12 @@
             "correct": 0
         },
         {
-            "q": "Find the number of terms in the given arithmetic sequence: (5, 8, 11, 14, 17, 20,..., -50).",
+            "q": "Find the number of terms in the given arithmetic sequence: (5, 8, 11, 14, 17, 20,..., 50).",
             "options": [
                 "11",
                 "13",
                 "15",
-                "19"
+                "16"
             ],
             "correct": 3
         },
