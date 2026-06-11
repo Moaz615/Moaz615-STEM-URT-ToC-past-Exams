@@ -163,7 +163,7 @@
       "correct": 2
     },
     {
-      "q": "If $x+y=\\frac{\\pi}{2}$ what is the smallest value of $\\tan x+\\cot y$ (assuming $x, y > 0$)?",
+      "q": "If $x+y=\\frac{\\pi}{2}$ what is the smallest value of $\\tan x+\\tan y$ (assuming $x, y > 0$)?",
       "options": [
         "0",
         "1",
