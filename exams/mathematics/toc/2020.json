@@ -256,7 +256,7 @@
       "correct": 3
     },
     {
-      "q": "The slope field of the differential equation $\\frac{dy}{dx}=3+y$ is",
+      "q": "The slope field of the differential equation $\\frac{dy}{dx}=x+y$ is",
       "options": [
         "<img src='exams/mathematics/toc/images/2020_q26_a.png' alt='Graph A'/>",
         "<img src='exams/mathematics/toc/images/2020_q26_b.png' alt='Graph B'/>",
